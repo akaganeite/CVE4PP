@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "CVE-2011-3389",
+    "cwe": [
+      "CWE-326"
+    ],
+    "summary": "The SSL protocol, as used in certain configurations in Microsoft Windows and Microsoft Internet Explorer, Mozilla Firefox, Google Chrome, Opera, and other products, encrypts data by using CBC mode with chained initialization vectors, which allows man-in-the-middle attackers to obtain plaintext HTTP headers via a blockwise chosen-boundary attack (BCBA) on an HTTPS session, in conjunction with JavaScript code that uses (1) the HTML5 WebSocket API, (2) the Java URLConnection API, or (3) the Silverlight WebClient API, aka a \"BEAST\" attack.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20120124B.html",
+      "http://curl.haxx.se/docs/adv_20120124B.html"
+    ],
+    "last_vuln_version": "7.23.1"
+  },
+  {
+    "id": "CVE-2013-1944",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "The tailMatch function in cookie.c in cURL and libcurl before 7.30.0 does not properly match the path domain when sending cookies, which allows remote attackers to steal cookies via a matching suffix in the domain of a URL.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20130412.html",
+      "https://github.com/bagder/curl/commit/2eb8dcf26cb37f09cffe26909a646e702dbcab66",
+      "http://curl.haxx.se/docs/adv_20130412.html",
+      "https://github.com/bagder/curl/commit/2eb8dcf26cb37f09cffe26909a646e702dbcab66"
+    ],
+    "last_vuln_version": "7.29.0"
+  },
+  {
+    "id": "CVE-2014-3613",
+    "cwe": [
+      "CWE-310"
+    ],
+    "summary": "cURL and libcurl before 7.38.0 does not properly handle IP addresses in cookie domain names, which allows remote attackers to set cookies for or send arbitrary cookies to certain sites, as demonstrated by a site at 192.168.0.1 setting cookies for a site at 127.168.0.1.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140910A.html",
+      "http://curl.haxx.se/docs/adv_20140910A.html"
+    ],
+    "last_vuln_version": "7.37.1"
+  },
+  {
+    "id": "CVE-2014-3620",
+    "cwe": [
+      "CWE-310"
+    ],
+    "summary": "cURL and libcurl before 7.38.0 allow remote attackers to bypass the Same Origin Policy and set cookies for arbitrary sites by setting a cookie for a top-level domain.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140910B.html",
+      "http://curl.haxx.se/docs/adv_20140910B.html"
+    ],
+    "last_vuln_version": "7.37.1"
+  },
+  {
+    "id": "CVE-2015-3153",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "The default configuration for cURL and libcurl before 7.42.1 sends custom HTTP headers to both the proxy and destination server, which might allow remote proxy servers to obtain sensitive information by reading the header contents.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150429.html",
+      "http://curl.haxx.se/docs/adv_20150429.html"
+    ],
+    "last_vuln_version": "7.42.0"
+  },
+  {
+    "id": "CVE-2016-0754",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "cURL before 7.47.0 on Windows allows attackers to write to arbitrary files in the current working directory on a different drive via a colon in a remote file name.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20160127B.html",
+      "http://curl.haxx.se/docs/adv_20160127B.html"
+    ],
+    "last_vuln_version": "7.46.0"
+  },
+  {
+    "id": "CVE-2016-0755",
+    "cwe": [
+      "CWE-287"
+    ],
+    "summary": "The ConnectionExists function in lib/url.c in libcurl before 7.47.0 does not properly re-use NTLM-authenticated proxy connections, which might allow remote attackers to authenticate as other users via a request, a similar issue to CVE-2014-0015.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20160127A.html",
+      "http://packetstormsecurity.com/files/135695/Slackware-Security-Advisory-curl-Updates.html",
+      "http://curl.haxx.se/docs/adv_20160127A.html",
+      "http://packetstormsecurity.com/files/135695/Slackware-Security-Advisory-curl-Updates.html"
+    ],
+    "last_vuln_version": "7.46.0"
+  },
+  {
+    "id": "CVE-2016-4802",
+    "cwe": [
+      "CWE-264"
+    ],
+    "summary": "Multiple untrusted search path vulnerabilities in cURL and libcurl before 7.49.1, when built with SSPI or telnet is enabled, allow local users to execute arbitrary code and conduct DLL hijacking attacks via a Trojan horse (1) security.dll, (2) secur32.dll, or (3) ws2_32.dll in the application or current working directory.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20160530.html",
+      "https://curl.haxx.se/docs/adv_20160530.html"
+    ],
+    "last_vuln_version": "7.49.0"
+  },
+  {
+    "id": "CVE-2017-9502",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "In curl before 7.54.1 on Windows and DOS, libcurl's default protocol function, which is the logic that allows an application to set which protocol libcurl should attempt to use when given a URL without a scheme part, had a flaw that could lead to it overwriting a heap based memory buffer with seven bytes. If the default protocol is specified to be FILE or a file: URL lacks two slashes, the given \"URL\" starts with a drive letter, and libcurl is built for Windows or DOS, then libcurl would copy the path 7 bytes off, so that the end of the given path would write beyond the malloc buffer (7 bytes being the length in bytes of the ascii string \"file://\").",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20170614.html",
+      "https://curl.haxx.se/docs/adv_20170614.html"
+    ],
+    "last_vuln_version": "7.54.0"
+  },
+  {
+    "id": "CVE-2016-9586",
+    "cwe": [
+      "CWE-119",
+      "CWE-122"
+    ],
+    "summary": "curl before version 7.52.0 is vulnerable to a buffer overflow when doing a large floating point output in libcurl's implementation of the printf() functions. If there are any application that accepts a format string from the outside without necessary input filtering, it could allow remote attacks.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20161221A.html",
+      "https://github.com/curl/curl/commit/curl-7_51_0-162-g3ab3c16",
+      "https://curl.haxx.se/docs/adv_20161221A.html",
+      "https://github.com/curl/curl/commit/curl-7_51_0-162-g3ab3c16"
+    ],
+    "last_vuln_version": "7.51.0"
+  },
+  {
+    "id": "CVE-2016-9594",
+    "cwe": [
+      "CWE-665"
+    ],
+    "summary": "curl before version 7.52.1 is vulnerable to an uninitialized random in libcurl's internal function that returns a good 32bit random value.  Having a weak or virtually non-existent random value makes the operations that use it vulnerable.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20161223.html",
+      "https://curl.haxx.se/docs/adv_20161223.html"
+    ],
+    "last_vuln_version": "7.52.0"
+  },
+  {
+    "id": "CVE-2017-2629",
+    "cwe": [
+      "CWE-295"
+    ],
+    "summary": "curl before 7.53.0 has an incorrect TLS Certificate Status Request extension feature that asks for a fresh proof of the server's certificate's validity in the code that checks for a test success or failure. It ends up always thinking there's valid proof, even when there is none or if the server doesn't support the TLS extension in question. This could lead to users not detecting when a server's certificate goes invalid or otherwise be mislead that the server is in a better shape than it is in reality. This flaw also exists in the command line tool (--cert-status).",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20170222.html",
+      "https://curl.haxx.se/docs/adv_20170222.html"
+    ],
+    "last_vuln_version": "7.52.1"
+  },
+  {
+    "id": "CVE-2016-8618",
+    "cwe": [
+      "CWE-415",
+      "CWE-416"
+    ],
+    "summary": "The libcurl API function called `curl_maprintf()` before version 7.51.0 can be tricked into doing a double-free due to an unsafe `size_t` multiplication, on systems using 32 bit `size_t` variables.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20161102D.html",
+      "https://curl.haxx.se/docs/adv_20161102D.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8624",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "curl before version 7.51.0 doesn't parse the authority component of the URL correctly when the host name part ends with a '#' character, and could instead be tricked into connecting to a different host. This may have security implications if you for example use an URL parser that follows the RFC to check for allowed domains before using curl to request them.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20161102J.html",
+      "https://curl.haxx.se/docs/adv_20161102J.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8617",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "The base64 encode function in curl before version 7.51.0 is prone to a buffer being under allocated in 32bit systems if it receives at least 1Gb as input via `CURLOPT_USERNAME`.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8617.patch",
+      "https://curl.haxx.se/docs/adv_20161102C.html",
+      "https://curl.haxx.se/CVE-2016-8617.patch",
+      "https://curl.haxx.se/docs/adv_20161102C.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8621",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The `curl_getdate` function in curl before version 7.51.0 is vulnerable to an out of bounds read if it receives an input with one digit short.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8621.patch",
+      "https://curl.haxx.se/docs/adv_20161102G.html",
+      "https://curl.haxx.se/CVE-2016-8621.patch",
+      "https://curl.haxx.se/docs/adv_20161102G.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8615",
+    "cwe": [
+      "CWE-254",
+      "CWE-99"
+    ],
+    "summary": "A flaw was found in curl before version 7.51. If cookie state is written into a cookie jar file that is later read back and used for subsequent requests, a malicious HTTP server can inject new cookies for arbitrary domains into said cookie jar.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8615.patch",
+      "https://curl.haxx.se/docs/adv_20161102A.html",
+      "https://curl.haxx.se/CVE-2016-8615.patch",
+      "https://curl.haxx.se/docs/adv_20161102A.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8616",
+    "cwe": [
+      "CWE-255",
+      "CWE-592"
+    ],
+    "summary": "A flaw was found in curl before version 7.51.0 When re-using a connection, curl was doing case insensitive comparisons of user name and password with the existing connections. This means that if an unused connection with proper credentials exists for a protocol that has connection-scoped credentials, an attacker can cause that connection to be reused if s/he knows the case-insensitive version of the correct password.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8616.patch",
+      "https://curl.haxx.se/docs/adv_20161102B.html",
+      "https://curl.haxx.se/CVE-2016-8616.patch",
+      "https://curl.haxx.se/docs/adv_20161102B.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8619",
+    "cwe": [
+      "CWE-415",
+      "CWE-416"
+    ],
+    "summary": "The function `read_data()` in security.c in curl before version 7.51.0 is vulnerable to memory double free.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8619.patch",
+      "https://curl.haxx.se/docs/adv_20161102E.html",
+      "https://curl.haxx.se/CVE-2016-8619.patch",
+      "https://curl.haxx.se/docs/adv_20161102E.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8620",
+    "cwe": [
+      "CWE-120",
+      "CWE-125",
+      "CWE-190"
+    ],
+    "summary": "The 'globbing' feature in curl before version 7.51.0 has a flaw that leads to integer overflow and out-of-bounds read via user controlled input.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20161102F.html",
+      "https://curl.haxx.se/docs/adv_20161102F.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8623",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "A flaw was found in curl before version 7.51.0. The way curl handles cookies permits other threads to trigger a use-after-free leading to information disclosure.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8623.patch",
+      "https://curl.haxx.se/docs/adv_20161102I.html",
+      "https://curl.haxx.se/CVE-2016-8623.patch",
+      "https://curl.haxx.se/docs/adv_20161102I.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2016-8625",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "curl before version 7.51.0 uses outdated IDNA 2003 standard to handle International Domain Names and this may lead users to potentially and unknowingly issue network transfer requests to the wrong host.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-8625.patch",
+      "https://curl.haxx.se/docs/adv_20161102K.html",
+      "https://curl.haxx.se/CVE-2016-8625.patch",
+      "https://curl.haxx.se/docs/adv_20161102K.html"
+    ],
+    "last_vuln_version": "7.50.3"
+  },
+  {
+    "id": "CVE-2019-5443",
+    "cwe": [
+      "CWE-427",
+      "CWE-94"
+    ],
+    "summary": "A non-privileged user or program can put code and a config file in a known non-privileged path (under C:/usr/local/) that will make curl <= 7.65.1 automatically run the code (as an openssl \"engine\") on invocation. If that curl is invoked by a privileged user it can do anything it wants.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2019-5443.html",
+      "https://curl.haxx.se/docs/CVE-2019-5443.html"
+    ],
+    "last_vuln_version": "7.65.1"
+  },
+  {
+    "id": "CVE-2016-4606",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "Curl before 7.49.1 in Apple OS X before macOS Sierra prior to 10.12 allows remote or local attackers to execute arbitrary code, gain sensitive information, cause denial-of-service conditions, bypass security restrictions, and perform unauthorized actions. This may aid in other attacks.",
+    "references": [],
+    "last_vuln_version": "7.49.0"
+  },
+  {
+    "id": "CVE-2020-8284",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "A malicious server can use the FTP PASV response to trick curl 7.73.0 and earlier into connecting back to a given IP address and port, and this way potentially make curl extract information about services that are otherwise private and not disclosed, for example doing port scanning and service banner extractions.",
+    "references": [
+      "https://curl.se/docs/CVE-2020-8284.html",
+      "https://curl.se/docs/CVE-2020-8284.html"
+    ],
+    "last_vuln_version": "7.73.0"
+  },
+  {
+    "id": "CVE-2022-27776",
+    "cwe": [
+      "CWE-522"
+    ],
+    "summary": "A insufficiently protected credentials vulnerability in fixed in curl 7.83.0 might leak authentication or cookie header data on HTTP redirects to the same host but another port number.",
+    "references": [],
+    "last_vuln_version": "7.82.0"
+  },
+  {
+    "id": "CVE-2022-27781",
+    "cwe": [
+      "CWE-400",
+      "CWE-835"
+    ],
+    "summary": "libcurl provides the `CURLOPT_CERTINFO` option to allow applications torequest details to be returned about a server's certificate chain.Due to an erroneous function, a malicious server could make libcurl built withNSS get stuck in a never-ending busy-loop when trying to retrieve thatinformation.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-27782",
+    "cwe": [
+      "CWE-295",
+      "CWE-840"
+    ],
+    "summary": "libcurl would reuse a previously created connection even when a TLS or SSHrelated option had been changed that should have prohibited reuse.libcurl keeps previously used connections in a connection pool for subsequenttransfers to reuse if one of them matches the setup. However, several TLS andSSH settings were left out from the configuration match checks, making themmatch too easily.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-32206",
+    "cwe": [
+      "CWE-770"
+    ],
+    "summary": "curl < 7.84.0 supports \"chained\" HTTP compression algorithms, meaning that a serverresponse can be compressed multiple times and potentially with different algorithms. The number of acceptable \"links\" in this \"decompression chain\" was unbounded, allowing a malicious server to insert a virtually unlimited number of compression steps.The use of such a decompression chain could result in a \"malloc bomb\", makingcurl end up spending enormous amounts of allocated heap memory, or trying toand returning out of memory errors.",
+    "references": [],
+    "last_vuln_version": "7.83.1"
+  },
+  {
+    "id": "CVE-2022-35252",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "When curl is used to retrieve and parse cookies from a HTTP(S) server, itaccepts cookies using control codes that when later are sent back to a HTTPserver might make the server return 400 responses. Effectively allowing a\"sister site\" to deny service to all siblings.",
+    "references": [],
+    "last_vuln_version": "7.84.0"
+  },
+  {
+    "id": "CVE-2022-32221",
+    "cwe": [
+      "CWE-200",
+      "CWE-668"
+    ],
+    "summary": "When doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously was used to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the subsequent `POST` request. The problem exists in the logic for a reused handle when it is changed from a PUT to a POST.",
+    "references": [],
+    "last_vuln_version": "7.85.0"
+  },
+  {
+    "id": "CVE-2022-43552",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "A use after free vulnerability exists in curl <7.87.0. Curl can be asked to *tunnel* virtually all protocols it supports through an HTTP proxy. HTTP proxies can (and often do) deny such tunnel operations. When getting denied to tunnel the specific protocols SMB or TELNET, curl would use a heap-allocated struct after it had been freed, in its transfer shutdown code path.",
+    "references": [],
+    "last_vuln_version": "7.86.0"
+  },
+  {
+    "id": "CVE-2023-28319",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "A use after free vulnerability exists in curl <v8.1.0 in the way libcurl offers a feature to verify an SSH server's public key using a SHA 256 hash. When this check fails, libcurl would free the memory for the fingerprint before it returns an error message containing the (now freed) hash. This flaw risks inserting sensitive heap-based data into the error message that might be shown to users or otherwise get leaked and revealed.",
+    "references": [],
+    "last_vuln_version": "8.0.1"
+  },
+  {
+    "id": "CVE-2023-28320",
+    "cwe": [
+      "CWE-362",
+      "CWE-400"
+    ],
+    "summary": "A denial of service vulnerability exists in curl <v8.1.0 in the way libcurl provides several different backends for resolving host names, selected at build time. If it is built to use the synchronous resolver, it allows name resolves to time-out slow operations using `alarm()` and `siglongjmp()`. When doing this, libcurl used a global buffer that was not mutex protected and a multi-threaded application might therefore crash or otherwise misbehave.",
+    "references": [],
+    "last_vuln_version": "8.0.1"
+  },
+  {
+    "id": "CVE-2023-28321",
+    "cwe": [
+      "CWE-295"
+    ],
+    "summary": "An improper certificate validation vulnerability exists in curl <v8.1.0 in the way it supports matching of wildcard patterns when listed as \"Subject Alternative Name\" in TLS server certificates. curl can be built to use its own name matching function for TLS rather than one provided by a TLS library. This private wildcard matching function would match IDN (International Domain Name) hosts incorrectly and could as a result accept patterns that otherwise should mismatch. IDN hostnames are converted to puny code before used for certificate checks. Puny coded names always start with `xn--` and should not be allowed to pattern match, but the wildcard check in curl could still check for `x*`, which would match even though the IDN name most likely contained nothing even resembling an `x`.",
+    "references": [],
+    "last_vuln_version": "8.0.1"
+  },
+  {
+    "id": "CVE-2023-28322",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "An information disclosure vulnerability exists in curl <v8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
+    "references": [],
+    "last_vuln_version": "8.0.1"
+  },
+  {
+    "id": "CVE-2022-27774",
+    "cwe": [
+      "CWE-522"
+    ],
+    "summary": "An insufficiently protected credentials vulnerability exists in curl 4.9 to and include curl 7.82.0 are affected that could allow an attacker to extract credentials when follows HTTP(S) redirects is used with authentication could leak credentials to other services that exist on different protocols or port numbers.",
+    "references": [],
+    "last_vuln_version": "7.82.0"
+  },
+  {
+    "id": "CVE-2018-1000007",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "libcurl 7.1 through 7.57.0 might accidentally leak authentication data to third parties. When asked to send custom headers in its HTTP requests, libcurl will send that set of headers first to the host in the initial URL but also, if asked to follow redirects and a 30X HTTP response code is returned, to the host mentioned in URL in the `Location:` response header value. Sending the same set of headers to subsequent hosts is in particular a problem for applications that pass on custom `Authorization:` headers, as this header often contains privacy sensitive information or data that could allow others to impersonate the libcurl-using client's request.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-b3bf.html",
+      "https://curl.haxx.se/docs/adv_2018-b3bf.html"
+    ],
+    "last_vuln_version": "7.57.0"
+  },
+  {
+    "id": "CVE-2003-1605",
+    "cwe": [
+      "CWE-255"
+    ],
+    "summary": "curl 7.x before 7.10.7 sends CONNECT proxy credentials to the remote server.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2003-1605.html",
+      "https://curl.haxx.se/docs/CVE-2003-1605.html"
+    ],
+    "last_vuln_version": "7.10.6"
+  },
+  {
+    "id": "CVE-2023-27533",
+    "cwe": [
+      "CWE-74",
+      "CWE-75"
+    ],
+    "summary": "A vulnerability in input validation exists in curl <8.0 during communication using the TELNET protocol may allow an attacker to pass on maliciously crafted user name and \"telnet options\" during server negotiation. The lack of proper input scrubbing allows an attacker to send content or perform option negotiation without the application's intent. This vulnerability could be exploited if an application allows user input, thereby enabling attackers to execute arbitrary code on the system.",
+    "references": [],
+    "last_vuln_version": "7.88.1"
+  },
+  {
+    "id": "CVE-2013-2174",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "Heap-based buffer overflow in the curl_easy_unescape function in lib/escape.c in cURL and libcurl 7.7 through 7.30.0 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted string ending in a \"%\" (percent) character.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20130622.html",
+      "https://github.com/bagder/curl/commit/192c4f788d48f82c03e9cef40013f34370e90737",
+      "http://curl.haxx.se/docs/adv_20130622.html",
+      "https://github.com/bagder/curl/commit/192c4f788d48f82c03e9cef40013f34370e90737"
+    ],
+    "last_vuln_version": "7.30.0"
+  },
+  {
+    "id": "CVE-2021-22898",
+    "cwe": [
+      "CWE-200",
+      "CWE-909"
+    ],
+    "summary": "curl 7.7 through 7.76.1 suffers from an information disclosure when the `-t` command line option, known as `CURLOPT_TELNETOPTIONS` in libcurl, is used to send variable=content pairs to TELNET servers. Due to a flaw in the option parser for sending NEW_ENV variables, libcurl could be made to pass on uninitialized data from a stack based buffer to the server, resulting in potentially revealing sensitive internal information to the server using a clear-text network protocol.",
+    "references": [
+      "https://curl.se/docs/CVE-2021-22898.html",
+      "https://github.com/curl/curl/commit/39ce47f219b09c380b81f89fe54ac586c8db6bde",
+      "https://curl.se/docs/CVE-2021-22898.html",
+      "https://github.com/curl/curl/commit/39ce47f219b09c380b81f89fe54ac586c8db6bde"
+    ],
+    "last_vuln_version": "7.76.1"
+  },
+  {
+    "id": "CVE-2021-22925",
+    "cwe": [
+      "CWE-200",
+      "CWE-908"
+    ],
+    "summary": "curl supports the `-t` command line option, known as `CURLOPT_TELNETOPTIONS`in libcurl. This rarely used option is used to send variable=content pairs toTELNET servers.Due to flaw in the option parser for sending `NEW_ENV` variables, libcurlcould be made to pass on uninitialized data from a stack based buffer to theserver. Therefore potentially revealing sensitive internal information to theserver using a clear-text network protocol.This could happen because curl did not call and use sscanf() correctly whenparsing the string provided by the application.",
+    "references": [],
+    "last_vuln_version": "7.77.0"
+  },
+  {
+    "id": "CVE-2025-0725",
+    "cwe": [
+      "CWE-120"
+    ],
+    "summary": "When libcurl is asked to perform automatic gzip decompression of\ncontent-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,\n**using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would\nmake libcurl perform a buffer overflow.",
+    "references": [
+      "https://curl.se/docs/CVE-2025-0725.html",
+      "https://curl.se/docs/CVE-2025-0725.json"
+    ],
+    "last_vuln_version": "8.11.0"
+  },
+  {
+    "id": "CVE-2014-0015",
+    "cwe": [
+      "CWE-287"
+    ],
+    "summary": "cURL and libcurl 7.10.6 through 7.34.0, when more than one authentication method is enabled, re-uses NTLM connections, which might allow context-dependent attackers to authenticate as other users via a request.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140129.html",
+      "http://curl.haxx.se/docs/adv_20140129.html"
+    ],
+    "last_vuln_version": "7.34.0"
+  },
+  {
+    "id": "CVE-2014-0138",
+    "cwe": [
+      "CWE-287"
+    ],
+    "summary": "The default configuration in cURL and libcurl 7.10.6 before 7.36.0 re-uses (1) SCP, (2) SFTP, (3) POP3, (4) POP3S, (5) IMAP, (6) IMAPS, (7) SMTP, (8) SMTPS, (9) LDAP, and (10) LDAPS connections, which might allow context-dependent attackers to connect as other users via a request, a similar issue to CVE-2014-0015.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140326A.html",
+      "http://curl.haxx.se/docs/adv_20140326A.html"
+    ],
+    "last_vuln_version": "7.35.0"
+  },
+  {
+    "id": "CVE-2014-0139",
+    "cwe": [
+      "CWE-310"
+    ],
+    "summary": "cURL and libcurl 7.1 before 7.36.0, when using the OpenSSL, axtls, qsossl or gskit libraries for TLS, recognize a wildcard IP address in the subject's Common Name (CN) field of an X.509 certificate, which might allow man-in-the-middle attackers to spoof arbitrary SSL servers via a crafted certificate issued by a legitimate Certification Authority.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140326B.html",
+      "http://curl.haxx.se/docs/adv_20140326B.html"
+    ],
+    "last_vuln_version": "7.35.0"
+  },
+  {
+    "id": "CVE-2015-3143",
+    "cwe": [
+      "CWE-264"
+    ],
+    "summary": "cURL and libcurl 7.10.6 through 7.41.0 does not properly re-use NTLM connections, which allows remote attackers to connect as other users via an unauthenticated request, a similar issue to CVE-2014-0015.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150422A.html",
+      "http://curl.haxx.se/docs/adv_20150422A.html"
+    ],
+    "last_vuln_version": "7.41.0"
+  },
+  {
+    "id": "CVE-2015-3148",
+    "cwe": [
+      "CWE-284"
+    ],
+    "summary": "cURL and libcurl 7.10.6 through 7.41.0 do not properly re-use authenticated Negotiate connections, which allows remote attackers to connect as other users via a request.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150422B.html",
+      "http://curl.haxx.se/docs/adv_20150422B.html"
+    ],
+    "last_vuln_version": "7.41.0"
+  },
+  {
+    "id": "CVE-2005-0490",
+    "cwe": [
+      "CWE-131"
+    ],
+    "summary": "Multiple stack-based buffer overflows in libcURL and cURL 7.12.1, and possibly other versions, allow remote malicious web servers to execute arbitrary code via base64 encoded replies that exceed the intended buffer lengths when decoded, which is not properly handled by (1) the Curl_input_ntlm function in http_ntlm.c during NTLM authentication or (2) the Curl_krb_kauth and krb4_auth functions in krb4.c during Kerberos authentication.",
+    "references": [
+      "http://www.novell.com/linux/security/advisories/2005_11_curl.html",
+      "http://www.novell.com/linux/security/advisories/2005_11_curl.html"
+    ],
+    "last_vuln_version": "7.12.1"
+  },
+  {
+    "id": "CVE-2018-1000120",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "A buffer overflow exists in curl 7.12.3 to and including curl 7.58.0 in the FTP URL handling that allows an attacker to cause a denial of service or worse.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-9cd6.html",
+      "https://curl.haxx.se/docs/adv_2018-9cd6.html"
+    ],
+    "last_vuln_version": "7.58.0"
+  },
+  {
+    "id": "CVE-2018-16842",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "Curl versions 7.14.1 through 7.61.1 are vulnerable to a heap-based buffer over-read in the tool_msgs.c:voutf() function that may result in information exposure and denial of service.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2018-16842.html",
+      "https://github.com/curl/curl/commit/d530e92f59ae9bb2d47066c3c460b25d2ffeb211",
+      "https://curl.haxx.se/docs/CVE-2018-16842.html",
+      "https://github.com/curl/curl/commit/d530e92f59ae9bb2d47066c3c460b25d2ffeb211"
+    ],
+    "last_vuln_version": "7.61.1"
+  },
+  {
+    "id": "CVE-2022-32208",
+    "cwe": [
+      "CWE-787",
+      "CWE-840"
+    ],
+    "summary": "When curl < 7.84.0 does FTP transfers secured by krb5, it handles message verification failures wrongly. This flaw makes it possible for a Man-In-The-Middle attack to go unnoticed and even allows it to inject data to the client.",
+    "references": [],
+    "last_vuln_version": "7.83.1"
+  },
+  {
+    "id": "CVE-2013-4545",
+    "cwe": [
+      "CWE-310"
+    ],
+    "summary": "cURL and libcurl 7.18.0 through 7.32.0, when built with OpenSSL, disables the certificate CN and SAN name field verification (CURLOPT_SSL_VERIFYHOST) when the digital signature verification (CURLOPT_SSL_VERIFYPEER) is disabled, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20131115.html",
+      "http://curl.haxx.se/docs/adv_20131115.html"
+    ],
+    "last_vuln_version": "7.32.0"
+  },
+  {
+    "id": "CVE-2023-27534",
+    "cwe": [
+      "CWE-22"
+    ],
+    "summary": "A path traversal vulnerability exists in curl <8.0.0 SFTP implementation causes the tilde (~) character to be wrongly replaced when used as a prefix in the first path element, in addition to its intended use as the first element to indicate a path relative to the user's home directory. Attackers can exploit this flaw to bypass filtering or execute arbitrary code by crafting a path like /~2/foo while accessing a server with a specific user.",
+    "references": [],
+    "last_vuln_version": "7.88.1"
+  },
+  {
+    "id": "CVE-2019-5482",
+    "cwe": [
+      "CWE-122",
+      "CWE-787"
+    ],
+    "summary": "Heap buffer overflow in the TFTP protocol handler in cURL 7.19.4 to 7.65.3.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2019-5482.html",
+      "https://curl.haxx.se/docs/CVE-2019-5482.html"
+    ],
+    "last_vuln_version": "7.65.3"
+  },
+  {
+    "id": "CVE-2017-2628",
+    "cwe": [
+      "CWE-287"
+    ],
+    "summary": "curl, as shipped in Red Hat Enterprise Linux 6 before version 7.19.7-53, did not correctly backport the fix for CVE-2015-3148 because it did not reflect the fact that the HAVE_GSSAPI define was meanwhile substituted by USE_HTTP_NEGOTIATE. This issue was introduced in RHEL 6.7 and affects RHEL 6 curl only.",
+    "references": [],
+    "last_vuln_version": "7.19.7"
+  },
+  {
+    "id": "CVE-2018-1000122",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "A buffer over-read exists in curl 7.20.0 to and including curl 7.58.0 in the RTSP+RTP handling code that allows an attacker to cause a denial of service or information leakage",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-b047.html",
+      "https://curl.haxx.se/docs/adv_2018-b047.html"
+    ],
+    "last_vuln_version": "7.58.0"
+  },
+  {
+    "id": "CVE-2018-1000301",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "curl version curl 7.20.0 to and including curl 7.59.0 contains a CWE-126: Buffer Over-read vulnerability in denial of service that can result in curl can be tricked into reading data beyond the end of a heap based buffer used to store downloaded RTSP content.. This vulnerability appears to have been fixed in curl < 7.20.0 and curl >= 7.60.0.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-b138.html",
+      "https://curl.haxx.se/docs/adv_2018-b138.html"
+    ],
+    "last_vuln_version": "7.59.0"
+  },
+  {
+    "id": "CVE-2020-8177",
+    "cwe": [
+      "CWE-74",
+      "CWE-99"
+    ],
+    "summary": "curl 7.20.0 through 7.70.0 is vulnerable to improper restriction of names for files and other resources that can lead too overwriting a local file when the -J flag is used.",
+    "references": [
+      "https://curl.se/docs/CVE-2020-8177.html",
+      "https://curl.se/docs/CVE-2020-8177.html"
+    ],
+    "last_vuln_version": "7.70.0"
+  },
+  {
+    "id": "CVE-2021-22946",
+    "cwe": [
+      "CWE-319",
+      "CWE-325"
+    ],
+    "summary": "A user can tell curl >= 7.20.0 and <= 7.78.0 to require a successful upgrade to TLS when speaking to an IMAP, POP3 or FTP server (`--ssl-reqd` on the command line or`CURLOPT_USE_SSL` set to `CURLUSESSL_CONTROL` or `CURLUSESSL_ALL` withlibcurl). This requirement could be bypassed if the server would return a properly crafted but perfectly legitimate response.This flaw would then make curl silently continue its operations **withoutTLS** contrary to the instructions and expectations, exposing possibly sensitive data in clear text over the network.",
+    "references": [],
+    "last_vuln_version": "7.78.0"
+  },
+  {
+    "id": "CVE-2021-22947",
+    "cwe": [
+      "CWE-310",
+      "CWE-345"
+    ],
+    "summary": "When curl >= 7.20.0 and <= 7.78.0 connects to an IMAP or POP3 server to retrieve data using STARTTLS to upgrade to TLS security, the server can respond and send back multiple responses at once that curl caches. curl would then upgrade to TLS but not flush the in-queue of cached responses but instead continue using and trustingthe responses it got *before* the TLS handshake as if they were authenticated.Using this flaw, it allows a Man-In-The-Middle attacker to first inject the fake responses, then pass-through the TLS traffic from the legitimate server and trick curl into sending data back to the user thinking the attacker's injected data comes from the TLS-protected server.",
+    "references": [],
+    "last_vuln_version": "7.78.0"
+  },
+  {
+    "id": "CVE-2016-3739",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "The (1) mbed_connect_step1 function in lib/vtls/mbedtls.c and (2) polarssl_connect_step1 function in lib/vtls/polarssl.c in cURL and libcurl before 7.49.0, when using SSLv3 or making a TLS connection to a URL that uses a numerical IP address, allow remote attackers to spoof servers via an arbitrary valid certificate.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-3739.patch",
+      "https://curl.haxx.se/changes.html#7_49_0",
+      "https://curl.haxx.se/docs/adv_20160518.html",
+      "https://curl.haxx.se/CVE-2016-3739.patch",
+      "https://curl.haxx.se/changes.html#7_49_0",
+      "https://curl.haxx.se/docs/adv_20160518.html"
+    ],
+    "last_vuln_version": "7.48.0"
+  },
+  {
+    "id": "CVE-2017-8817",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The FTP wildcard function in curl and libcurl before 7.57.0 allows remote attackers to cause a denial of service (out-of-bounds read and application crash) or possibly have unspecified other impact via a string that ends with an '[' character.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2017-ae72.html",
+      "https://curl.haxx.se/docs/adv_2017-ae72.html"
+    ],
+    "last_vuln_version": "7.56.1"
+  },
+  {
+    "id": "CVE-2018-1000121",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "A NULL pointer dereference exists in curl 7.21.0 to and including curl 7.58.0 in the LDAP code that allows an attacker to cause a denial of service",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-97a2.html",
+      "https://curl.haxx.se/docs/adv_2018-97a2.html"
+    ],
+    "last_vuln_version": "7.58.0"
+  },
+  {
+    "id": "CVE-2013-0249",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "Stack-based buffer overflow in the Curl_sasl_create_digest_md5_message function in lib/curl_sasl.c in curl and libcurl 7.26.0 through 7.28.1, when negotiating SASL DIGEST-MD5 authentication, allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via a long string in the realm parameter in a (1) POP3, (2) SMTP or (3) IMAP message.",
+    "references": [
+      "http://blog.volema.com/curl-rce.html",
+      "http://curl.haxx.se/docs/adv_20130206.html",
+      "http://nakedsecurity.sophos.com/2013/02/10/anatomy-of-a-vulnerability-curl-web-download-toolkit-holed-by-authentication-bug/",
+      "http://packetstormsecurity.com/files/120147/cURL-Buffer-Overflow.html",
+      "http://packetstormsecurity.com/files/120170/Slackware-Security-Advisory-curl-Updates.html",
+      "http://blog.volema.com/curl-rce.html",
+      "http://curl.haxx.se/docs/adv_20130206.html",
+      "http://nakedsecurity.sophos.com/2013/02/10/anatomy-of-a-vulnerability-curl-web-download-toolkit-holed-by-authentication-bug/",
+      "http://packetstormsecurity.com/files/120147/cURL-Buffer-Overflow.html",
+      "http://packetstormsecurity.com/files/120170/Slackware-Security-Advisory-curl-Updates.html"
+    ],
+    "last_vuln_version": "7.28.1"
+  },
+  {
+    "id": "CVE-2014-2522",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "curl and libcurl 7.27.0 through 7.35.0, when running on Windows and using the SChannel/Winssl TLS backend, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate when accessing a URL that uses a numerical IP address, which allows man-in-the-middle attackers to spoof servers via an arbitrary valid certificate.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20140326D.html",
+      "http://curl.haxx.se/docs/adv_20140326D.html"
+    ],
+    "last_vuln_version": "7.35.0"
+  },
+  {
+    "id": "CVE-2021-22922",
+    "cwe": [
+      "CWE-755",
+      "CWE-840"
+    ],
+    "summary": "When curl is instructed to download content using the metalink feature, thecontents is verified against a hash provided in the metalink XML file.The metalink XML file points out to the client how to get the same contentfrom a set of different URLs, potentially hosted by different servers and theclient can then download the file from one or several of them. In a serial orparallel manner.If one of the servers hosting the contents has been breached and the contentsof the specific file on that server is replaced with a modified payload, curlshould detect this when the hash of the file mismatches after a completeddownload. It should remove the contents and instead try getting the contentsfrom another URL. This is not done, and instead such a hash mismatch is onlymentioned in text and the potentially malicious content is kept in the file ondisk.",
+    "references": [],
+    "last_vuln_version": "7.77.0"
+  },
+  {
+    "id": "CVE-2021-22923",
+    "cwe": [
+      "CWE-319",
+      "CWE-522"
+    ],
+    "summary": "When curl is instructed to get content using the metalink feature, and a user name and password are used to download the metalink XML file, those same credentials are then subsequently passed on to each of the servers from which curl will download or try to download the contents from. Often contrary to the user's expectations and intentions and without telling the user it happened.",
+    "references": [],
+    "last_vuln_version": "7.77.0"
+  },
+  {
+    "id": "CVE-2016-9952",
+    "cwe": [
+      "CWE-295"
+    ],
+    "summary": "The verify_certificate function in lib/vtls/schannel.c in libcurl 7.30.0 through 7.51.0, when built for Windows CE using the schannel TLS backend, makes it easier for remote attackers to conduct man-in-the-middle attacks via a crafted wildcard SAN in a server certificate, as demonstrated by \"*.com.\"",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-9952.patch",
+      "https://curl.haxx.se/docs/adv_20161221B.html",
+      "https://curl.haxx.se/CVE-2016-9952.patch",
+      "https://curl.haxx.se/docs/adv_20161221B.html"
+    ],
+    "last_vuln_version": "7.51.0"
+  },
+  {
+    "id": "CVE-2016-9953",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The verify_certificate function in lib/vtls/schannel.c in libcurl 7.30.0 through 7.51.0, when built for Windows CE using the schannel TLS backend, allows remote attackers to obtain sensitive information, cause a denial of service (crash), or possibly have unspecified other impact via a wildcard certificate name, which triggers an out-of-bounds read.",
+    "references": [
+      "https://curl.haxx.se/CVE-2016-9952.patch",
+      "https://curl.haxx.se/docs/adv_20161221C.html",
+      "https://curl.haxx.se/CVE-2016-9952.patch",
+      "https://curl.haxx.se/docs/adv_20161221C.html"
+    ],
+    "last_vuln_version": "7.51.0"
+  },
+  {
+    "id": "CVE-2015-3145",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The sanitize_cookie_path function in cURL and libcurl 7.31.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds write and crash) or possibly have other unspecified impact via a cookie path containing only a double-quote character.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150422C.html",
+      "http://curl.haxx.se/docs/adv_20150422C.html"
+    ],
+    "last_vuln_version": "7.41.0"
+  },
+  {
+    "id": "CVE-2018-16839",
+    "cwe": [
+      "CWE-119",
+      "CWE-122",
+      "CWE-190"
+    ],
+    "summary": "Curl versions 7.33.0 through 7.61.1 are vulnerable to a buffer overrun in the SASL authentication code that may lead to denial of service.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2018-16839.html",
+      "https://github.com/curl/curl/commit/f3a24d7916b9173c69a3e0ee790102993833d6c5",
+      "https://curl.haxx.se/docs/CVE-2018-16839.html",
+      "https://github.com/curl/curl/commit/f3a24d7916b9173c69a3e0ee790102993833d6c5"
+    ],
+    "last_vuln_version": "7.61.1"
+  },
+  {
+    "id": "CVE-2021-22926",
+    "cwe": [
+      "CWE-295",
+      "CWE-840"
+    ],
+    "summary": "libcurl-using applications can ask for a specific client certificate to be used in a transfer. This is done with the `CURLOPT_SSLCERT` option (`--cert` with the command line tool).When libcurl is built to use the macOS native TLS library Secure Transport, an application can ask for the client certificate by name or with a file name - using the same option. If the name exists as a file, it will be used instead of by name.If the appliction runs with a current working directory that is writable by other users (like `/tmp`), a malicious user can create a file name with the same name as the app wants to use by name, and thereby trick the application to use the file based cert instead of the one referred to by name making libcurl send the wrong client certificate in the TLS connection handshake.",
+    "references": [],
+    "last_vuln_version": "7.77.0"
+  },
+  {
+    "id": "CVE-2022-22576",
+    "cwe": [
+      "CWE-287",
+      "CWE-306"
+    ],
+    "summary": "An improper authentication vulnerability exists in curl 7.33.0 to and including 7.82.0 which might allow reuse OAUTH2-authenticated connections without properly making sure that the connection was authenticated with the same credentials as set for this transfer. This affects SASL-enabled protocols: SMPTP(S), IMAP(S), POP3(S) and LDAP(S) (openldap only).",
+    "references": [],
+    "last_vuln_version": "7.82.0"
+  },
+  {
+    "id": "CVE-2017-1000101",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "curl supports \"globbing\" of URLs, in which a user can pass a numerical range to have the tool iterate over those numbers to do a sequence of transfers. In the globbing function that parses the numerical range, there was an omission that made curl read a byte beyond the end of the URL if given a carefully crafted, or just wrongly written, URL. The URL is stored in a heap based buffer, so it could then be made to wrongly read something else instead of crashing. An example of a URL that triggers the flaw would be `http://ur%20[0-60000000000000000000`.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_20170809A.html",
+      "https://curl.haxx.se/docs/adv_20170809A.html"
+    ],
+    "last_vuln_version": "7.55.0"
+  },
+  {
+    "id": "CVE-2015-3144",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The fix_hostname function in cURL and libcurl 7.37.0 through 7.41.0 does not properly calculate an index, which allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) or possibly have other unspecified impact via a zero-length host name, as demonstrated by \"http://:80\" and \":80.\"",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150422D.html",
+      "http://curl.haxx.se/docs/adv_20150422D.html"
+    ],
+    "last_vuln_version": "7.41.0"
+  },
+  {
+    "id": "CVE-2017-8816",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "The NTLM authentication feature in curl and libcurl before 7.57.0 on 32-bit platforms allows attackers to cause a denial of service (integer overflow and resultant buffer overflow, and application crash) or possibly have unspecified other impact via vectors involving long user and password fields.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2017-12e7.html",
+      "https://curl.haxx.se/docs/adv_2017-12e7.html"
+    ],
+    "last_vuln_version": "7.56.1"
+  },
+  {
+    "id": "CVE-2015-3236",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "cURL and libcurl 7.40.0 through 7.42.1 send the HTTP Basic authentication credentials for a previous connection when reusing a reset (curl_easy_reset) connection handle to send a request to the same host name, which allows remote attackers to obtain sensitive information via unspecified vectors.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150617A.html",
+      "http://curl.haxx.se/docs/adv_20150617A.html"
+    ],
+    "last_vuln_version": "7.42.1"
+  },
+  {
+    "id": "CVE-2015-3237",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "The smb_request_state function in cURL and libcurl 7.40.0 through 7.42.1 allows remote SMB servers to obtain sensitive information from memory or cause a denial of service (out-of-bounds read and crash) via crafted length and offset values.",
+    "references": [
+      "http://curl.haxx.se/docs/adv_20150617B.html",
+      "http://curl.haxx.se/docs/adv_20150617B.html"
+    ],
+    "last_vuln_version": "7.42.1"
+  },
+  {
+    "id": "CVE-2023-46218",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "This flaw allows a malicious HTTP server to set \"super cookies\" in curl that\nare then passed back to more origins than what is otherwise allowed or\npossible. This allows a site to set cookies that then would get sent to\ndifferent and unrelated sites and domains.\n\nIt could do this by exploiting a mixed case flaw in curl's function that\nverifies a given cookie domain against the Public Suffix List (PSL). For\nexample a cookie could be set with `domain=co.UK` when the URL used a lower\ncase hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.",
+    "references": [
+      "https://curl.se/docs/CVE-2023-46218.html",
+      "https://curl.se/docs/CVE-2023-46218.html"
+    ],
+    "last_vuln_version": "8.4.0"
+  },
+  {
+    "id": "CVE-2019-5481",
+    "cwe": [
+      "CWE-415"
+    ],
+    "summary": "Double-free vulnerability in the FTP-kerberos code in cURL 7.52.0 to 7.65.3.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2019-5481.html",
+      "https://curl.haxx.se/docs/CVE-2019-5481.html"
+    ],
+    "last_vuln_version": "7.65.3"
+  },
+  {
+    "id": "CVE-2017-7407",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ourWriteOut function in tool_writeout.c in curl 7.53.1 might allow physically proximate attackers to obtain sensitive information from process memory in opportunistic circumstances by reading a workstation screen during use of a --write-out argument ending in a '%' character, which leads to a heap-based buffer over-read.",
+    "references": [
+      "https://github.com/curl/curl/commit/1890d59905414ab84a35892b2e45833654aa5c13",
+      "https://github.com/curl/curl/commit/1890d59905414ab84a35892b2e45833654aa5c13"
+    ],
+    "last_vuln_version": "7.53.1"
+  },
+  {
+    "id": "CVE-2018-1000300",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "curl version curl 7.54.1 to and including curl 7.59.0 contains a CWE-122: Heap-based Buffer Overflow vulnerability in denial of service and more that can result in curl might overflow a heap based memory buffer when closing down an FTP connection with very long server command replies.. This vulnerability appears to have been fixed in curl < 7.54.1 and curl >= 7.60.0.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-82c2.html",
+      "https://curl.haxx.se/docs/adv_2018-82c2.html"
+    ],
+    "last_vuln_version": "7.59.0"
+  },
+  {
+    "id": "CVE-2018-0500",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "Curl_smtp_escape_eob in lib/smtp.c in curl 7.54.1 to and including curl 7.60.0 has a heap-based buffer overflow that might be exploitable by an attacker who can control the data that curl transmits over SMTP with certain settings (i.e., use of a nonstandard --limit-rate argument or CURLOPT_BUFFERSIZE value).",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2018-70a2.html",
+      "https://github.com/curl/curl/commit/ba1dbd78e5f1ed67c1b8d37ac89d90e5e330b628",
+      "https://curl.haxx.se/docs/adv_2018-70a2.html",
+      "https://github.com/curl/curl/commit/ba1dbd78e5f1ed67c1b8d37ac89d90e5e330b628"
+    ],
+    "last_vuln_version": "7.60.0"
+  },
+  {
+    "id": "CVE-2017-8818",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "curl and libcurl before 7.57.0 on 32-bit platforms allow attackers to cause a denial of service (out-of-bounds access and application crash) or possibly have unspecified other impact because too little memory is allocated for interfacing to an SSL library.",
+    "references": [
+      "https://curl.haxx.se/docs/adv_2017-af0a.html",
+      "https://curl.haxx.se/docs/adv_2017-af0a.html"
+    ],
+    "last_vuln_version": "7.56.1"
+  },
+  {
+    "id": "CVE-2023-23916",
+    "cwe": [
+      "CWE-770"
+    ],
+    "summary": "An allocation of resources without limits or throttling vulnerability exists in curl <v7.88.0 based on the \"chained\" HTTP compression algorithms, meaning that a server response can be compressed multiple times and potentially with differentalgorithms. The number of acceptable \"links\" in this \"decompression chain\" wascapped, but the cap was implemented on a per-header basis allowing a maliciousserver to insert a virtually unlimited number of compression steps simply byusing many headers. The use of such a decompression chain could result in a \"malloc bomb\", making curl end up spending enormous amounts of allocated heap memory, or trying to and returning out of memory errors.",
+    "references": [],
+    "last_vuln_version": "7.87.0"
+  },
+  {
+    "id": "CVE-2018-16840",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "A heap use-after-free flaw was found in curl versions from 7.59.0 through 7.61.1 in the code related to closing an easy handle. When closing and cleaning up an 'easy' handle in the `Curl_close()` function, the library code first frees a struct (without nulling the pointer) and might then subsequently erroneously write to a struct field within that already freed struct.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2018-16840.html",
+      "https://github.com/curl/curl/commit/81d135d67155c5295b1033679c606165d4e28f3f",
+      "https://curl.haxx.se/docs/CVE-2018-16840.html",
+      "https://github.com/curl/curl/commit/81d135d67155c5295b1033679c606165d4e28f3f"
+    ],
+    "last_vuln_version": "7.61.1"
+  },
+  {
+    "id": "CVE-2021-22897",
+    "cwe": [
+      "CWE-668",
+      "CWE-840"
+    ],
+    "summary": "curl 7.61.0 through 7.76.1 suffers from exposure of data element to wrong session due to a mistake in the code for CURLOPT_SSL_CIPHER_LIST when libcurl is built to use the Schannel TLS library. The selected cipher set was stored in a single \"static\" variable in the library, which has the surprising side-effect that if an application sets up multiple concurrent transfers, the last one that sets the ciphers will accidentally control the set used by all transfers. In a worst-case scenario, this weakens transport security significantly.",
+    "references": [
+      "https://curl.se/docs/CVE-2021-22897.html",
+      "https://github.com/curl/curl/commit/bbb71507b7bab52002f9b1e0880bed6a32834511",
+      "https://curl.se/docs/CVE-2021-22897.html",
+      "https://github.com/curl/curl/commit/bbb71507b7bab52002f9b1e0880bed6a32834511"
+    ],
+    "last_vuln_version": "7.76.1"
+  },
+  {
+    "id": "CVE-2019-5435",
+    "cwe": [
+      "CWE-131",
+      "CWE-190"
+    ],
+    "summary": "An integer overflow in curl's URL API results in a buffer overflow in libcurl 7.62.0 to and including 7.64.1.",
+    "references": [
+      "https://curl.haxx.se/docs/CVE-2019-5435.html",
+      "https://curl.haxx.se/docs/CVE-2019-5435.html"
+    ],
+    "last_vuln_version": "7.64.1"
+  },
+  {
+    "id": "CVE-2020-8169",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "curl 7.62.0 through 7.70.0 is vulnerable to an information disclosure vulnerability that can lead to a partial password being leaked over the network and to the DNS server(s).",
+    "references": [
+      "https://curl.se/docs/CVE-2020-8169.html",
+      "https://curl.se/docs/CVE-2020-8169.html"
+    ],
+    "last_vuln_version": "7.70.0"
+  },
+  {
+    "id": "CVE-2022-27775",
+    "cwe": [
+      "CWE-200"
+    ],
+    "summary": "An information disclosure vulnerability exists in curl 7.65.0 to 7.82.0 are vulnerable that by using an IPv6 address that was in the connection pool but with a different zone id it could reuse a connection instead.",
+    "references": [],
+    "last_vuln_version": "7.82.0"
+  },
+  {
+    "id": "CVE-2020-19909",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "Integer overflow vulnerability in tool_operate.c in curl 7.65.2 via a large value as the retry delay. NOTE: many parties report that this has no direct security impact on the curl user; however, it may (in theory) cause a denial of service to associated systems or networks if, for example, --retry-delay is misinterpreted as a value much smaller than what was intended. This is not especially plausible because the overflow only happens if the user was trying to specify that curl should wait weeks (or longer) before trying to recover from a transient error.",
+    "references": [
+      "https://github.com/curl/curl/pull/4166",
+      "https://github.com/curl/curl/pull/4166"
+    ],
+    "last_vuln_version": "7.65.2"
+  },
+  {
+    "id": "CVE-2022-32207",
+    "cwe": [
+      "CWE-276",
+      "CWE-840"
+    ],
+    "summary": "When curl < 7.84.0 saves cookies, alt-svc and hsts data to local files, it makes the operation atomic by finalizing the operation with a rename from a temporary name to the final target file name.In that rename operation, it might accidentally *widen* the permissions for the target file, leaving the updated file accessible to more users than intended.",
+    "references": [],
+    "last_vuln_version": "7.83.1"
+  },
+  {
+    "id": "CVE-2022-32205",
+    "cwe": [
+      "CWE-770"
+    ],
+    "summary": "A malicious server can serve excessive amounts of `Set-Cookie:` headers in a HTTP response to curl and curl < 7.84.0 stores all of them. A sufficiently large amount of (big) cookies make subsequent HTTP requests to this, or other servers to which the cookies match, create requests that become larger than the threshold that curl uses internally to avoid sending crazy large requests (1048576 bytes) and instead returns an error.This denial state might remain for as long as the same cookies are kept, match and haven't expired. Due to cookie matching rules, a server on `foo.example.com` can set cookies that also would match for `bar.example.com`, making it it possible for a \"sister server\" to effectively cause a denial of service for a sibling site on the same second level domain using this method.",
+    "references": [],
+    "last_vuln_version": "7.83.1"
+  },
+  {
+    "id": "CVE-2024-9681",
+    "cwe": [
+      "CWE-697"
+    ],
+    "summary": "When curl is asked to use HSTS, the expiry time for a subdomain might\noverwrite a parent domain's cache entry, making it end sooner or later than\notherwise intended.\n\nThis affects curl using applications that enable HSTS and use URLs with the\ninsecure `HTTP://` scheme and perform transfers with hosts like\n`x.example.com` as well as `example.com` where the first host is a subdomain\nof the second host.\n\n(The HSTS cache either needs to have been populated manually or there needs to\nhave been previous HTTPS accesses done as the cache needs to have entries for\nthe domains involved to trigger this problem.)\n\nWhen `x.example.com` responds with `Strict-Transport-Security:` headers, this\nbug can make the subdomain's expiry timeout *bleed over* and get set for the\nparent domain `example.com` in curl's HSTS cache.\n\nThe result of a triggered bug is that HTTP accesses to `example.com` get\nconverted to HTTPS for a different period of time than what was asked for by\nthe origin server. If `example.com` for example stops supporting HTTPS at its\nexpiry time, curl might then fail to access `http://example.com` until the\n(wrongly set) timeout expires. This bug can also expire the parent's entry\n*earlier*, thus making curl inadvertently switch back to insecure HTTP earlier\nthan otherwise intended.",
+    "references": [
+      "https://curl.se/docs/CVE-2024-9681.html",
+      "https://curl.se/docs/CVE-2024-9681.json"
+    ],
+    "last_vuln_version": "8.10.1"
+  },
+  {
+    "id": "CVE-2021-22901",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "curl 7.75.0 through 7.76.1 suffers from a use-after-free vulnerability resulting in already freed memory being used when a TLS 1.3 session ticket arrives over a connection. A malicious server can use this in rare unfortunate circumstances to potentially reach remote code execution in the client. When libcurl at run-time sets up support for TLS 1.3 session tickets on a connection using OpenSSL, it stores pointers to the transfer in-memory object for later retrieval when a session ticket arrives. If the connection is used by multiple transfers (like with a reused HTTP/1.1 connection or multiplexed HTTP/2 connection) that first transfer object might be freed before the new session is established on that connection and then the function will access a memory buffer that might be freed. When using that memory, libcurl might even call a function pointer in the object, making it possible for a remote code execution if the server could somehow manage to get crafted memory content into the correct place in memory.",
+    "references": [
+      "https://curl.se/docs/CVE-2021-22901.html",
+      "https://github.com/curl/curl/commit/7f4a9a9b2a49547eae24d2e19bc5c346e9026479",
+      "https://curl.se/docs/CVE-2021-22901.html",
+      "https://github.com/curl/curl/commit/7f4a9a9b2a49547eae24d2e19bc5c346e9026479"
+    ],
+    "last_vuln_version": "7.76.1"
+  },
+  {
+    "id": "CVE-2022-42916",
+    "cwe": [
+      "CWE-319"
+    ],
+    "summary": "In curl before 7.86.0, the HSTS check could be bypassed to trick it into staying with HTTP. Using its HSTS support, curl can be instructed to use HTTPS directly (instead of using an insecure cleartext HTTP step) even when HTTP is provided in the URL. This mechanism could be bypassed if the host name in the given URL uses IDN characters that get replaced with ASCII counterparts as part of the IDN conversion, e.g., using the character UTF-8 U+3002 (IDEOGRAPHIC FULL STOP) instead of the common ASCII full stop of U+002E (.). The earliest affected version is 7.77.0 2021-05-26.",
+    "references": [
+      "https://curl.se/docs/CVE-2022-42916.html",
+      "https://curl.se/docs/CVE-2022-42916.html"
+    ],
+    "last_vuln_version": "7.85.0"
+  },
+  {
+    "id": "CVE-2022-42915",
+    "cwe": [
+      "CWE-415"
+    ],
+    "summary": "curl before 7.86.0 has a double free. If curl is told to use an HTTP proxy for a transfer with a non-HTTP(S) URL, it sets up the connection to the remote server by issuing a CONNECT request to the proxy, and then tunnels the rest of the protocol through. An HTTP proxy might refuse this request (HTTP proxies often only allow outgoing connections to specific port numbers, like 443 for HTTPS) and instead return a non-200 status code to the client. Due to flaws in the error/cleanup handling, this could trigger a double free in curl if one of the following schemes were used in the URL for the transfer: dict, gopher, gophers, ldap, ldaps, rtmp, rtmps, or telnet. The earliest affected version is 7.77.0.",
+    "references": [
+      "https://curl.se/docs/CVE-2022-42915.html",
+      "https://curl.se/docs/CVE-2022-42915.html"
+    ],
+    "last_vuln_version": "7.85.0"
+  },
+  {
+    "id": "CVE-2022-43551",
+    "cwe": [
+      "CWE-319"
+    ],
+    "summary": "A vulnerability exists in curl <7.87.0 HSTS check that could be bypassed to trick it to keep using HTTP. Using its HSTS support, curl can be instructed to use HTTPS instead of using an insecure clear-text HTTP step even when HTTP is provided in the URL. However, the HSTS mechanism could be bypassed if the host name in the given URL first uses IDN characters that get replaced to ASCII counterparts as part of the IDN conversion. Like using the character UTF-8 U+3002 (IDEOGRAPHIC FULL STOP) instead of the common ASCII full stop (U+002E) `.`. Then in a subsequent request, it does not detect the HSTS state and makes a clear text transfer. Because it would store the info IDN encoded but look for it IDN decoded.",
+    "references": [],
+    "last_vuln_version": "7.86.0"
+  },
+  {
+    "id": "CVE-2023-23914",
+    "cwe": [
+      "CWE-319"
+    ],
+    "summary": "A cleartext transmission of sensitive information vulnerability exists in curl <v7.88.0 that could cause HSTS functionality fail when multiple URLs are requested serially. Using its HSTS support, curl can be instructed to use HTTPS instead of usingan insecure clear-text HTTP step even when HTTP is provided in the URL. ThisHSTS mechanism would however surprisingly be ignored by subsequent transferswhen done on the same command line because the state would not be properlycarried on.",
+    "references": [],
+    "last_vuln_version": "7.87.0"
+  },
+  {
+    "id": "CVE-2023-23915",
+    "cwe": [
+      "CWE-319"
+    ],
+    "summary": "A cleartext transmission of sensitive information vulnerability exists in curl <v7.88.0 that could cause HSTS functionality to behave incorrectly when multiple URLs are requested in parallel. Using its HSTS support, curl can be instructed to use HTTPS instead of using an insecure clear-text HTTP step even when HTTP is provided in the URL. This HSTS mechanism would however surprisingly fail when multiple transfers are done in parallel as the HSTS cache file gets overwritten by the most recentlycompleted transfer. A later HTTP-only transfer to the earlier host name would then *not* get upgraded properly to HSTS.",
+    "references": [],
+    "last_vuln_version": "7.87.0"
+  },
+  {
+    "id": "CVE-2022-27780",
+    "cwe": [
+      "CWE-177",
+      "CWE-918"
+    ],
+    "summary": "The curl URL parser wrongly accepts percent-encoded URL separators like '/'when decoding the host name part of a URL, making it a *different* URL usingthe wrong host name when it is later retrieved.For example, a URL like `http://example.com%2F127.0.0.1/`, would be allowed bythe parser and get transposed into `http://example.com/127.0.0.1/`. This flawcan be used to circumvent filters, checks and more.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-27779",
+    "cwe": [
+      "CWE-201"
+    ],
+    "summary": "libcurl wrongly allows cookies to be set for Top Level Domains (TLDs) if thehost name is provided with a trailing dot.curl can be told to receive and send cookies. curl's \"cookie engine\" can bebuilt with or without [Public Suffix List](https://publicsuffix.org/)awareness. If PSL support not provided, a more rudimentary check exists to atleast prevent cookies from being set on TLDs. This check was broken if thehost name in the URL uses a trailing dot.This can allow arbitrary sites to set cookies that then would get sent to adifferent and unrelated site or domain.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-30115",
+    "cwe": [
+      "CWE-319",
+      "CWE-325"
+    ],
+    "summary": "Using its HSTS support, curl can be instructed to use HTTPS directly insteadof using an insecure clear-text HTTP step even when HTTP is provided in theURL. This mechanism could be bypassed if the host name in the given URL used atrailing dot while not using one when it built the HSTS cache. Or the otherway around - by having the trailing dot in the HSTS cache and *not* using thetrailing dot in the URL.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-27778",
+    "cwe": [
+      "CWE-706"
+    ],
+    "summary": "A use of incorrectly resolved name vulnerability fixed in 7.83.1 might remove the wrong file when `--no-clobber` is used together with `--remove-on-error`.",
+    "references": [],
+    "last_vuln_version": "7.83.0"
+  },
+  {
+    "id": "CVE-2022-35260",
+    "cwe": [
+      "CWE-125",
+      "CWE-787"
+    ],
+    "summary": "curl can be told to parse a `.netrc` file for credentials. If that file endsin a line with 4095 consecutive non-white space letters and no newline, curlwould first read past the end of the stack-based buffer, and if the readworks, write a zero byte beyond its boundary.This will in most cases cause a segfault or similar, but circumstances might also cause different outcomes.If a malicious user can provide a custom netrc file to an application or otherwise affect its contents, this flaw could be used as denial-of-service.",
+    "references": [],
+    "last_vuln_version": "7.85.0"
+  },
+  {
+    "id": "CVE-2023-38039",
+    "cwe": [
+      "CWE-770"
+    ],
+    "summary": "When curl retrieves an HTTP response, it stores the incoming headers so that\nthey can be accessed later via the libcurl headers API.\n\nHowever, curl did not have a limit in how many or how large headers it would\naccept in a response, allowing a malicious server to stream an endless series\nof headers and eventually cause curl to run out of heap memory.",
+    "references": [],
+    "last_vuln_version": "8.2.1"
+  },
+  {
+    "id": "CVE-2023-46219",
+    "cwe": [
+      "CWE-311"
+    ],
+    "summary": "When saving HSTS data to an excessively long file name, curl could end up\nremoving all contents, making subsequent requests using that file unaware of\nthe HSTS status they should otherwise use.",
+    "references": [
+      "https://curl.se/docs/CVE-2023-46219.html",
+      "https://curl.se/docs/CVE-2023-46219.html"
+    ],
+    "last_vuln_version": "8.4.0"
+  },
+  {
+    "id": "CVE-2024-0853",
+    "cwe": [
+      "CWE-295"
+    ],
+    "summary": "curl inadvertently kept the SSL session ID for connections in its cache even when the verify status (*OCSP stapling*) test failed. A subsequent transfer to\nthe same hostname could then succeed if the session ID cache was still fresh, which then skipped the verify status check.",
+    "references": [
+      "https://curl.se/docs/CVE-2024-0853.html",
+      "https://curl.se/docs/CVE-2024-0853.json",
+      "https://curl.se/docs/CVE-2024-0853.html",
+      "https://curl.se/docs/CVE-2024-0853.json"
+    ],
+    "last_vuln_version": "8.5.0"
+  }
+]
