@@ -1,0 +1,722 @@
+[
+  {
+    "id": "CVE-2025-29088",
+    "cwe": [
+      "CWE-190",
+      "CWE-400"
+    ],
+    "summary": "In SQLite 3.49.0 before 3.49.1, certain argument values to sqlite3_db_config (in the C-language API) can cause a denial of service (application crash). An sz*nBig multiplication is not cast to a 64-bit integer, and consequently some memory allocations may be incorrect.",
+    "references": [
+      "https://gist.github.com/ylwango613/d3883fb9f6ba8a78086356779ce88248",
+      "https://github.com/sqlite/sqlite/commit/56d2fd008b108109f489339f5fd55212bb50afd4",
+      "https://sqlite.org/forum/forumpost/48f365daec",
+      "https://sqlite.org/releaselog/3_49_1.html",
+      "https://www.sqlite.org/cves.html"
+    ],
+    "last_vuln_version": "3.49.0"
+  },
+  {
+    "id": "CVE-2025-29087",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "In SQLite 3.44.0 through 3.49.0 before 3.49.1, the concat_ws() SQL function can cause memory to be written beyond the end of a malloc-allocated buffer. If the separator argument is attacker-controlled and has a large string (e.g., 2MB or more), an integer overflow occurs in calculating the size of the result buffer, and thus malloc may not allocate enough memory.",
+    "references": [
+      "https://gist.github.com/ylwango613/a44a29f1ef074fa783e29f04a0afd62a",
+      "https://sqlite.org/releaselog/3_49_1.html",
+      "https://www.sqlite.org/cves.html"
+    ],
+    "last_vuln_version": "3.49.0"
+  },
+  {
+    "id": "CVE-2023-7104",
+    "cwe": [
+      "CWE-119",
+      "CWE-122"
+    ],
+    "summary": "A vulnerability was found in SQLite SQLite3 up to 3.43.0 and classified as critical. This issue affects the function sessionReadRecord of the file ext/session/sqlite3session.c of the component make alltest Handler. The manipulation leads to heap-based buffer overflow. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-248999.",
+    "references": [
+      "https://sqlite.org/forum/forumpost/5bcbf4571c",
+      "https://sqlite.org/src/info/0e4e7a05c4204b47",
+      "https://sqlite.org/forum/forumpost/5bcbf4571c",
+      "https://sqlite.org/src/info/0e4e7a05c4204b47"
+    ],
+    "last_vuln_version": "3.43.0"
+  },
+  {
+    "id": "CVE-2022-46908",
+    "cwe": [
+      "NVD-CWE-Other"
+    ],
+    "summary": "SQLite through 3.40.0, when relying on --safe for execution of an untrusted CLI script, does not properly implement the azProhibitedFunctions protection mechanism, and instead allows UDF functions such as WRITEFILE.",
+    "references": [
+      "https://sqlite.org/forum/forumpost/07beac8056151b2f",
+      "https://sqlite.org/src/info/cefc032473ac5ad2",
+      "https://sqlite.org/forum/forumpost/07beac8056151b2f",
+      "https://sqlite.org/src/info/cefc032473ac5ad2"
+    ],
+    "last_vuln_version": "3.40.0"
+  },
+  {
+    "id": "CVE-2022-35737",
+    "cwe": [
+      "CWE-129"
+    ],
+    "summary": "SQLite 1.0.12 through 3.39.x before 3.39.2 sometimes allows an array-bounds overflow if billions of bytes are used in a string argument to a C API.",
+    "references": [
+      "https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/",
+      "https://sqlite.org/releaselog/3_39_2.html",
+      "https://www.sqlite.org/cves.html",
+      "https://blog.trailofbits.com/2022/10/25/sqlite-vulnerability-july-2022-library-api/",
+      "https://sqlite.org/releaselog/3_39_2.html",
+      "https://www.sqlite.org/cves.html"
+    ],
+    "last_vuln_version": "3.39.1"
+  },
+  {
+    "id": "CVE-2021-45346",
+    "cwe": [
+      "CWE-401"
+    ],
+    "summary": "A Memory Leak vulnerability exists in SQLite Project SQLite3 3.35.1 and 3.37.0 via maliciously crafted SQL Queries (made via editing the Database File), it is possible to query a record, and leak subsequent bytes of memory that extend beyond the record, which could let a malicious user obtain sensitive information. NOTE: The developer disputes this as a vulnerability stating that If you give SQLite a corrupted database file and submit a query against the database, it might read parts of the database that you did not intend or expect.",
+    "references": [
+      "https://github.com/guyinatuxedo/sqlite3_record_leaking",
+      "https://sqlite.org/forum/forumpost/056d557c2f8c452ed5",
+      "https://sqlite.org/forum/forumpost/53de8864ba114bf6",
+      "https://www.sqlite.org/cves.html#status_of_recent_sqlite_cves",
+      "https://github.com/guyinatuxedo/sqlite3_record_leaking",
+      "https://sqlite.org/forum/forumpost/056d557c2f8c452ed5",
+      "https://sqlite.org/forum/forumpost/53de8864ba114bf6",
+      "https://www.sqlite.org/cves.html#status_of_recent_sqlite_cves"
+    ],
+    "last_vuln_version": "3.37.0"
+  },
+  {
+    "id": "CVE-2021-36690",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "A segmentation fault can occur in the sqlite3.exe command-line component of SQLite 3.36.0 via the idxGetTableInfo function when there is a crafted SQL query. NOTE: the vendor disputes the relevance of this report because a sqlite3.exe user already has full privileges (e.g., is intentionally allowed to execute commands). This report does NOT imply any problem in the SQLite library.",
+    "references": [
+      "https://www.sqlite.org/forum/forumpost/718c0a8d17",
+      "https://www.sqlite.org/forum/forumpost/718c0a8d17"
+    ],
+    "last_vuln_version": "3.36.0"
+  },
+  {
+    "id": "CVE-2021-31239",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "An issue found in SQLite SQLite3 v.3.35.4 that allows a remote attacker to cause a denial of service via the appendvfs.c function.",
+    "references": [
+      "https://github.com/Tsiming/Vulnerabilities/blob/main/SQLite/CVE-2021-31239",
+      "https://www.sqlite.org/cves.html",
+      "https://www.sqlite.org/forum/forumpost/d9fce1a89b",
+      "https://github.com/Tsiming/Vulnerabilities/blob/main/SQLite/CVE-2021-31239",
+      "https://www.sqlite.org/cves.html",
+      "https://www.sqlite.org/forum/forumpost/d9fce1a89b"
+    ],
+    "last_vuln_version": "3.35.4"
+  },
+  {
+    "id": "CVE-2021-20227",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "A flaw was found in SQLite's SELECT query functionality (src/select.c). This flaw allows an attacker who is capable of running SQL queries locally on the SQLite database to cause a denial of service or possible code execution by triggering a use-after-free. The highest threat from this vulnerability is to system availability.",
+    "references": [
+      "https://www.sqlite.org/releaselog/3_34_1.html",
+      "https://www.sqlite.org/releaselog/3_34_1.html"
+    ],
+    "last_vuln_version": "3.34.0"
+  },
+  {
+    "id": "CVE-2020-35527",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "In SQLite 3.31.1, there is an out of bounds access problem through ALTER TABLE for views that have a nested FROM clause.",
+    "references": [
+      "https://www.sqlite.org/src/info/c431b3fd8fd0f6a6",
+      "https://www.sqlite.org/src/info/c431b3fd8fd0f6a6"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-35525",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "In SQlite 3.31.1, a potential null pointer derreference was found in the INTERSEC query processing.",
+    "references": [
+      "https://www.sqlite.org/src/info/a67cf5b7d37d5b14",
+      "https://www.sqlite.org/src/info/a67cf5b7d37d5b14"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-15358",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "In SQLite before 3.32.3, select.c mishandles query-flattener optimization, leading to a multiSelectOrderBy heap overflow because of misuse of transitive properties for constant propagation.",
+    "references": [
+      "https://www.sqlite.org/src/info/10fa79d00f8091e5",
+      "https://www.sqlite.org/src/timeline?p=version-3.32.3&bt=version-3.32.2",
+      "https://www.sqlite.org/src/tktview?name=8f157e8010",
+      "https://www.sqlite.org/src/info/10fa79d00f8091e5",
+      "https://www.sqlite.org/src/timeline?p=version-3.32.3&bt=version-3.32.2",
+      "https://www.sqlite.org/src/tktview?name=8f157e8010"
+    ],
+    "last_vuln_version": "3.32.2"
+  },
+  {
+    "id": "CVE-2020-13871",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "SQLite 3.32.2 has a use-after-free in resetAccumulator in select.c because the parse tree rewrite for window functions is too late.",
+    "references": [
+      "https://www.sqlite.org/src/info/79eff1d0383179c4",
+      "https://www.sqlite.org/src/info/c8d3b9f0a750a529",
+      "https://www.sqlite.org/src/info/cd708fa84d2aaaea",
+      "https://www.sqlite.org/src/info/79eff1d0383179c4",
+      "https://www.sqlite.org/src/info/c8d3b9f0a750a529",
+      "https://www.sqlite.org/src/info/cd708fa84d2aaaea"
+    ],
+    "last_vuln_version": "3.32.2"
+  },
+  {
+    "id": "CVE-2020-13632",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "ext/fts3/fts3_snippet.c in SQLite before 3.32.0 has a NULL pointer dereference via a crafted matchinfo() query.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/a4dd148928ea65bd",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/a4dd148928ea65bd"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-13631",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "SQLite before 3.32.0 allows a virtual table to be renamed to the name of one of its shadow tables, related to alter.c and build.c.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/eca0ba2cf4c0fdf7",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/eca0ba2cf4c0fdf7"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-13630",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "ext/fts3/fts3.c in SQLite before 3.32.0 has a use-after-free in fts3EvalNextRow, related to the snippet feature.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/0d69f76f0865f962",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://sqlite.org/src/info/0d69f76f0865f962"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-13435",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "SQLite through 3.32.0 has a segmentation fault in sqlite3ExprCodeTarget in expr.c.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/7a5279a25c57adf1",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/7a5279a25c57adf1"
+    ],
+    "last_vuln_version": "3.32.0"
+  },
+  {
+    "id": "CVE-2020-13434",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "SQLite through 3.32.0 has an integer overflow in sqlite3_str_vappendf in printf.c.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/23439ea582241138",
+      "https://www.sqlite.org/src/info/d08d3405878d394e",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/23439ea582241138",
+      "https://www.sqlite.org/src/info/d08d3405878d394e"
+    ],
+    "last_vuln_version": "3.32.0"
+  },
+  {
+    "id": "CVE-2020-11656",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "In SQLite through 3.31.1, the ALTER TABLE implementation has a use-after-free, as demonstrated by an ORDER BY clause that belongs to a compound SELECT statement.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/d09f8c3621d5f7f8",
+      "https://www3.sqlite.org/cgi/src/info/b64674919f673602",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www.sqlite.org/src/info/d09f8c3621d5f7f8",
+      "https://www3.sqlite.org/cgi/src/info/b64674919f673602"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-11655",
+    "cwe": [
+      "CWE-665"
+    ],
+    "summary": "SQLite through 3.31.1 allows attackers to cause a denial of service (segmentation fault) via a malformed window-function query because the AggInfo object's initialization is mishandled.",
+    "references": [
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www3.sqlite.org/cgi/src/info/4a302b42c7bf5e11",
+      "https://www3.sqlite.org/cgi/src/tktview?name=af4556bb5c",
+      "https://security.FreeBSD.org/advisories/FreeBSD-SA-20:22.sqlite.asc",
+      "https://www3.sqlite.org/cgi/src/info/4a302b42c7bf5e11",
+      "https://www3.sqlite.org/cgi/src/tktview?name=af4556bb5c"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2020-9327",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "In SQLite 3.31.1, isAuxiliaryVtabOperator allows attackers to trigger a NULL pointer dereference and segmentation fault because of generated column optimizations.",
+    "references": [
+      "https://www.sqlite.org/cgi/src/info/4374860b29383380",
+      "https://www.sqlite.org/cgi/src/info/9d0d4ab95dc0c56e",
+      "https://www.sqlite.org/cgi/src/info/abc473fb8fb99900",
+      "https://www.sqlite.org/cgi/src/info/4374860b29383380",
+      "https://www.sqlite.org/cgi/src/info/9d0d4ab95dc0c56e",
+      "https://www.sqlite.org/cgi/src/info/abc473fb8fb99900"
+    ],
+    "last_vuln_version": "3.31.1"
+  },
+  {
+    "id": "CVE-2019-20218",
+    "cwe": [
+      "CWE-755"
+    ],
+    "summary": "selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding even after a parsing error.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/a6c1a71cde082e09750465d5675699062922e387",
+      "https://github.com/sqlite/sqlite/commit/a6c1a71cde082e09750465d5675699062922e387"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19959",
+    "cwe": [
+      "NVD-CWE-Other"
+    ],
+    "summary": "ext/misc/zipfile.c in SQLite 3.30.1 mishandles certain uses of INSERT INTO in situations involving embedded '\\0' characters in filenames, leading to a memory-management error that can be detected by (for example) valgrind.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/1e490c4ca6b43a9cf8637d695907888349f69bec",
+      "https://github.com/sqlite/sqlite/commit/d8f2d46cbc9925e034a68aaaf60aad788d9373c1",
+      "https://github.com/sqlite/sqlite/commit/1e490c4ca6b43a9cf8637d695907888349f69bec",
+      "https://github.com/sqlite/sqlite/commit/d8f2d46cbc9925e034a68aaaf60aad788d9373c1"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19926",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "multiSelect in select.c in SQLite 3.30.1 mishandles certain errors during parsing, as demonstrated by errors from sqlite3WindowRewrite() calls. NOTE: this vulnerability exists because of an incomplete fix for CVE-2019-19880.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/8428b3b437569338a9d1e10c4cd8154acbe33089",
+      "https://github.com/sqlite/sqlite/commit/8428b3b437569338a9d1e10c4cd8154acbe33089"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19925",
+    "cwe": [
+      "CWE-434"
+    ],
+    "summary": "zipfileUpdate in ext/misc/zipfile.c in SQLite 3.30.1 mishandles a NULL pathname during an update of a ZIP archive.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/54d501092d88c0cf89bec4279951f548fb0b8618",
+      "https://github.com/sqlite/sqlite/commit/54d501092d88c0cf89bec4279951f548fb0b8618"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19924",
+    "cwe": [
+      "CWE-755"
+    ],
+    "summary": "SQLite 3.30.1 mishandles certain parser-tree rewriting, related to expr.c, vdbeaux.c, and window.c. This is caused by incorrect sqlite3WindowRewrite() error handling.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/8654186b0236d556aa85528c2573ee0b6ab71be3",
+      "https://github.com/sqlite/sqlite/commit/8654186b0236d556aa85528c2573ee0b6ab71be3"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19923",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "flattenSubquery in select.c in SQLite 3.30.1 mishandles certain uses of SELECT DISTINCT involving a LEFT JOIN in which the right-hand side is a view. This can cause a NULL pointer dereference (or incorrect results).",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/396afe6f6aa90a31303c183e11b2b2d4b7956b35",
+      "https://github.com/sqlite/sqlite/commit/396afe6f6aa90a31303c183e11b2b2d4b7956b35"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19880",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "exprListAppendList in window.c in SQLite 3.30.1 allows attackers to trigger an invalid pointer dereference because constant integer values in ORDER BY clauses of window definitions are mishandled.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/75e95e1fcd52d3ec8282edb75ac8cd0814095d54",
+      "https://github.com/sqlite/sqlite/commit/75e95e1fcd52d3ec8282edb75ac8cd0814095d54"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19646",
+    "cwe": [
+      "CWE-754"
+    ],
+    "summary": "pragma.c in SQLite through 3.30.1 mishandles NOT NULL in an integrity_check PRAGMA command in certain cases of generated columns.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/926f796e8feec15f3836aa0a060ed906f8ae04d3",
+      "https://github.com/sqlite/sqlite/commit/ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd",
+      "https://www.sqlite.org/",
+      "https://github.com/sqlite/sqlite/commit/926f796e8feec15f3836aa0a060ed906f8ae04d3",
+      "https://github.com/sqlite/sqlite/commit/ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd",
+      "https://www.sqlite.org/"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19645",
+    "cwe": [
+      "CWE-674"
+    ],
+    "summary": "alter.c in SQLite through 3.30.1 allows attackers to trigger infinite recursion via certain types of self-referential views in conjunction with ALTER TABLE statements.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/38096961c7cd109110ac21d3ed7dad7e0cb0ae06",
+      "https://github.com/sqlite/sqlite/commit/38096961c7cd109110ac21d3ed7dad7e0cb0ae06"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19603",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "SQLite 3.30.1 mishandles certain SELECT statements with a nonexistent VIEW, leading to an application crash.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/527cbd4a104cb93bf3994b3dd3619a6299a78b13",
+      "https://www.sqlite.org/",
+      "https://github.com/sqlite/sqlite/commit/527cbd4a104cb93bf3994b3dd3619a6299a78b13",
+      "https://www.sqlite.org/"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19317",
+    "cwe": [
+      "CWE-681"
+    ],
+    "summary": "lookupName in resolve.c in SQLite 3.30.1 omits bits from the colUsed bitmask in the case of a generated column, which allows attackers to cause a denial of service or possibly have unspecified other impact.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/522ebfa7cee96fb325a22ea3a2464a63485886a8",
+      "https://github.com/sqlite/sqlite/commit/73bacb7f93eab9f4bd5a65cbc4ae242acf63c9e3",
+      "https://github.com/sqlite/sqlite/commit/522ebfa7cee96fb325a22ea3a2464a63485886a8",
+      "https://github.com/sqlite/sqlite/commit/73bacb7f93eab9f4bd5a65cbc4ae242acf63c9e3"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19244",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "sqlite3Select in select.c in SQLite 3.30.1 allows a crash if a sub-select uses both DISTINCT and window functions, and also has certain ORDER BY usage.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/e59c562b3f6894f84c715772c4b116d7b5c01348",
+      "https://github.com/sqlite/sqlite/commit/e59c562b3f6894f84c715772c4b116d7b5c01348"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-19242",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "SQLite 3.30.1 mishandles pExpr->y.pTab, as demonstrated by the TK_COLUMN case in sqlite3ExprCodeTarget in expr.c.",
+    "references": [
+      "https://github.com/sqlite/sqlite/commit/57f7ece78410a8aae86aa4625fb7556897db384c",
+      "https://github.com/sqlite/sqlite/commit/57f7ece78410a8aae86aa4625fb7556897db384c"
+    ],
+    "last_vuln_version": "3.30.1"
+  },
+  {
+    "id": "CVE-2019-16168",
+    "cwe": [
+      "CWE-369"
+    ],
+    "summary": "In SQLite through 3.29.0, whereLoopAddBtreeIndex in sqlite3.c can crash a browser or other application because of missing validation of a sqlite_stat1 sz field, aka a \"severe division by zero in the query planner.\"",
+    "references": [
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg116312.html",
+      "https://www.sqlite.org/src/info/e4598ecbdd18bd82945f6029013296690e719a62",
+      "https://www.sqlite.org/src/timeline?c=98357d8c1263920b",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg116312.html",
+      "https://www.sqlite.org/src/info/e4598ecbdd18bd82945f6029013296690e719a62",
+      "https://www.sqlite.org/src/timeline?c=98357d8c1263920b"
+    ],
+    "last_vuln_version": "3.29.0"
+  },
+  {
+    "id": "CVE-2019-9937",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "In SQLite 3.27.2, interleaving reads and writes in a single transaction with an fts5 virtual table will lead to a NULL Pointer Dereference in fts5ChunkIterate in sqlite3.c. This is related to ext/fts5/fts5_hash.c and ext/fts5/fts5_index.c.",
+    "references": [
+      "https://sqlite.org/src/info/45c73deb440496e8",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114383.html",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114393.html",
+      "https://sqlite.org/src/info/45c73deb440496e8",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114383.html",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114393.html"
+    ],
+    "last_vuln_version": "3.27.2"
+  },
+  {
+    "id": "CVE-2019-9936",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "In SQLite 3.27.2, running fts5 prefix queries inside a transaction could trigger a heap-based buffer over-read in fts5HashEntrySort in sqlite3.c, which may lead to an information leak. This is related to ext/fts5/fts5_hash.c.",
+    "references": [
+      "https://sqlite.org/src/info/b3fa58dd7403dbd4",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114382.html",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114394.html",
+      "https://sqlite.org/src/info/b3fa58dd7403dbd4",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114382.html",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg114394.html"
+    ],
+    "last_vuln_version": "3.27.2"
+  },
+  {
+    "id": "CVE-2019-8457",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "SQLite3 from 3.6.0 to and including 3.27.2 is vulnerable to heap out-of-bound read in the rtreenode() function when handling invalid rtree tables.",
+    "references": [
+      "https://www.sqlite.org/releaselog/3_28_0.html",
+      "https://www.sqlite.org/src/info/90acdbfce9c08858",
+      "https://www.sqlite.org/releaselog/3_28_0.html",
+      "https://www.sqlite.org/src/info/90acdbfce9c08858"
+    ],
+    "last_vuln_version": "3.27.2"
+  },
+  {
+    "id": "CVE-2019-5018",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "An exploitable use after free vulnerability exists in the window function functionality of Sqlite3 3.26.0. A specially crafted SQL command can cause a use after free vulnerability, potentially resulting in remote code execution. An attacker can send a malicious SQL command to trigger this vulnerability.",
+    "references": [
+      "http://packetstormsecurity.com/files/152809/Sqlite3-Window-Function-Remote-Code-Execution.html",
+      "http://packetstormsecurity.com/files/152809/Sqlite3-Window-Function-Remote-Code-Execution.html"
+    ],
+    "last_vuln_version": "3.26.0"
+  },
+  {
+    "id": "CVE-2018-20506",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "SQLite before 3.25.3, when the FTS3 extension is enabled, encounters an integer overflow (and resultant buffer overflow) for FTS3 queries in a \"merge\" operation that occurs after crafted changes to FTS3 shadow tables, allowing remote attackers to execute arbitrary code by leveraging the ability to run arbitrary SQL statements (such as in certain WebSQL use cases). This is a different vulnerability than CVE-2018-20346.",
+    "references": [
+      "https://sqlite.org/src/info/940f2adc8541a838",
+      "https://sqlite.org/src/info/940f2adc8541a838"
+    ],
+    "last_vuln_version": "3.25.2"
+  },
+  {
+    "id": "CVE-2018-20505",
+    "cwe": [
+      "CWE-89"
+    ],
+    "summary": "SQLite 3.25.2, when queries are run on a table with a malformed PRIMARY KEY, allows remote attackers to cause a denial of service (application crash) by leveraging the ability to run arbitrary SQL statements (such as in certain WebSQL use cases).",
+    "references": [
+      "https://sqlite.org/src/info/1a84668dcfdebaf12415d",
+      "https://sqlite.org/src/info/1a84668dcfdebaf12415d"
+    ],
+    "last_vuln_version": "3.25.2"
+  },
+  {
+    "id": "CVE-2018-20346",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "SQLite before 3.25.3, when the FTS3 extension is enabled, encounters an integer overflow (and resultant buffer overflow) for FTS3 queries that occur after crafted changes to FTS3 shadow tables, allowing remote attackers to execute arbitrary code by leveraging the ability to run arbitrary SQL statements (such as in certain WebSQL use cases), aka Magellan.",
+    "references": [
+      "https://github.com/zhuowei/worthdoingbadly.com/blob/master/_posts/2018-12-14-sqlitebug.html",
+      "https://sqlite.org/src/info/940f2adc8541a838",
+      "https://sqlite.org/src/info/d44318f59044162e",
+      "https://worthdoingbadly.com/sqlitebug/",
+      "https://www.freebsd.org/security/advisories/FreeBSD-EN-19:03.sqlite.asc",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg113218.html",
+      "https://www.sqlite.org/releaselog/3_25_3.html",
+      "https://github.com/zhuowei/worthdoingbadly.com/blob/master/_posts/2018-12-14-sqlitebug.html",
+      "https://sqlite.org/src/info/940f2adc8541a838",
+      "https://sqlite.org/src/info/d44318f59044162e",
+      "https://worthdoingbadly.com/sqlitebug/",
+      "https://www.freebsd.org/security/advisories/FreeBSD-EN-19:03.sqlite.asc",
+      "https://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg113218.html",
+      "https://www.sqlite.org/releaselog/3_25_3.html"
+    ],
+    "last_vuln_version": "3.25.2"
+  },
+  {
+    "id": "CVE-2018-8740",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "In SQLite through 3.22.0, databases whose schema is corrupted using a CREATE TABLE AS statement could cause a NULL pointer dereference, related to build.c and prepare.c.",
+    "references": [
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1756349",
+      "https://www.sqlite.org/cgi/src/timeline?r=corrupt-schema",
+      "https://www.sqlite.org/cgi/src/vdiff?from=1774f1c3baf0bc3d&to=d75e67654aa9620b",
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1756349",
+      "https://www.sqlite.org/cgi/src/timeline?r=corrupt-schema",
+      "https://www.sqlite.org/cgi/src/vdiff?from=1774f1c3baf0bc3d&to=d75e67654aa9620b"
+    ],
+    "last_vuln_version": "3.22.0"
+  },
+  {
+    "id": "CVE-2017-15286",
+    "cwe": [
+      "CWE-476"
+    ],
+    "summary": "SQLite 3.20.1 has a NULL pointer dereference in tableColumnList in shell.c because it fails to consider certain cases where `sqlite3_step(pStmt)==SQLITE_ROW` is false and a data structure is never initialized.",
+    "references": [
+      "https://github.com/Ha0Team/crash-of-sqlite3/blob/master/poc.md",
+      "https://github.com/Ha0Team/crash-of-sqlite3/blob/master/poc.md"
+    ],
+    "last_vuln_version": "3.20.1"
+  },
+  {
+    "id": "CVE-2017-13685",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "The dump_callback function in SQLite 3.20.0 allows remote attackers to cause a denial of service (EXC_BAD_ACCESS and application crash) via a crafted file.",
+    "references": [
+      "http://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg105314.html",
+      "http://www.mail-archive.com/sqlite-users%40mailinglists.sqlite.org/msg105314.html"
+    ],
+    "last_vuln_version": "3.20.0"
+  },
+  {
+    "id": "CVE-2017-10989",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The getNodeSize function in ext/rtree/rtree.c in SQLite through 3.19.3, as used in GDAL and other products, mishandles undersized RTree blobs in a crafted database, leading to a heap-based buffer over-read or possibly unspecified other impact.",
+    "references": [
+      "http://marc.info/?l=sqlite-users&m=149933696214713&w=2",
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1700937",
+      "https://sqlite.org/src/info/66de6f4a",
+      "https://sqlite.org/src/vpatch?from=0db20efe201736b3&to=66de6f4a9504ec26",
+      "http://marc.info/?l=sqlite-users&m=149933696214713&w=2",
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1700937",
+      "https://sqlite.org/src/info/66de6f4a",
+      "https://sqlite.org/src/vpatch?from=0db20efe201736b3&to=66de6f4a9504ec26"
+    ],
+    "last_vuln_version": "3.19.3"
+  },
+  {
+    "id": "CVE-2016-6153",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "os_unix.c in SQLite before 3.13.0 improperly implements the temporary directory search algorithm, which might allow local users to obtain sensitive information, cause a denial of service (application crash), or have unspecified other impact by leveraging use of the current working directory for temporary files.",
+    "references": [
+      "http://www.sqlite.org/cgi/src/info/67985761aa93fb61",
+      "https://www.sqlite.org/releaselog/3_13_0.html",
+      "http://www.sqlite.org/cgi/src/info/67985761aa93fb61",
+      "https://www.sqlite.org/releaselog/3_13_0.html"
+    ],
+    "last_vuln_version": "3.12.2"
+  },
+  {
+    "id": "CVE-2015-3416",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "The sqlite3VXPrintf function in printf.c in SQLite before 3.8.9 does not properly handle precision and width values during floating-point conversions, which allows context-dependent attackers to cause a denial of service (integer overflow and stack-based buffer overflow) or possibly have unspecified other impact via large integers in a crafted printf function call in a SELECT statement.",
+    "references": [
+      "http://www.sqlite.org/src/info/c494171f77dc2e5e04cb6d865e688448f04e5920",
+      "http://www.sqlite.org/src/info/c494171f77dc2e5e04cb6d865e688448f04e5920"
+    ],
+    "last_vuln_version": "3.8.8.3"
+  },
+  {
+    "id": "CVE-2015-3415",
+    "cwe": [
+      "CWE-404"
+    ],
+    "summary": "The sqlite3VdbeExec function in vdbe.c in SQLite before 3.8.9 does not properly implement comparison operators, which allows context-dependent attackers to cause a denial of service (invalid free operation) or possibly have unspecified other impact via a crafted CHECK clause, as demonstrated by CHECK(0&O>O) in a CREATE TABLE statement.",
+    "references": [
+      "https://www.sqlite.org/src/info/02e3c88fbf6abdcf3975fb0fb71972b0ab30da30",
+      "https://www.sqlite.org/src/info/02e3c88fbf6abdcf3975fb0fb71972b0ab30da30"
+    ],
+    "last_vuln_version": "3.8.8.3"
+  },
+  {
+    "id": "CVE-2015-3414",
+    "cwe": [
+      "CWE-908"
+    ],
+    "summary": "SQLite before 3.8.9 does not properly implement the dequoting of collation-sequence names, which allows context-dependent attackers to cause a denial of service (uninitialized memory access and application crash) or possibly have unspecified other impact via a crafted COLLATE clause, as demonstrated by COLLATE\"\"\"\"\"\"\"\" at the end of a SELECT statement.",
+    "references": [
+      "https://www.sqlite.org/src/info/eddc05e7bb31fae74daa86e0504a3478b99fa0f2",
+      "https://www.sqlite.org/src/info/eddc05e7bb31fae74daa86e0504a3478b99fa0f2"
+    ],
+    "last_vuln_version": "3.8.8.3"
+  },
+  {
+    "id": "CVE-2013-7443",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "Buffer overflow in the skip-scan optimization in SQLite 3.8.2 allows remote attackers to cause a denial of service (crash) via crafted SQL statements.",
+    "references": [
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1448758",
+      "https://www.sqlite.org/src/info/520070ec7fbaac73eda0e0123596b7bb3e9a6897",
+      "https://www.sqlite.org/src/info/ac5852d6403c9c9628ca0aa7be135c702f000698",
+      "https://bugs.launchpad.net/ubuntu/+source/sqlite3/+bug/1448758",
+      "https://www.sqlite.org/src/info/520070ec7fbaac73eda0e0123596b7bb3e9a6897",
+      "https://www.sqlite.org/src/info/ac5852d6403c9c9628ca0aa7be135c702f000698"
+    ],
+    "last_vuln_version": "3.8.2"
+  }
+]

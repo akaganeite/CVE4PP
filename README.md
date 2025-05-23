@@ -15,5 +15,5 @@
 ## Todos
 - Add patch version(latest vulnerable version +1)
 - Add affected functions
-- Filter CVEs without `References` or `last vulnerable version`
 - Add .diff for each `valid` CVE manually
+- > test CVEs in `first_patch.json`

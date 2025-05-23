@@ -5,7 +5,7 @@ from collections import defaultdict
 
 def process_cwe_clustering(program_name):
     # 读取原始数据
-    with open(f"./cveinfo/{program_name}_parsed.json", 'r') as f:
+    with open(f"./cveinfo/{program_name}/{program_name}_parsed.json", 'r') as f:
         cve_data = json.load(f)
     
     # 创建自动初始值的聚类字典
