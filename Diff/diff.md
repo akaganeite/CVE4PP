@@ -1,1 +1,2 @@
-- filename format: `{Project_name}_{CVE}.diff`
+- filename format: `{project}_{cve_id}_{git_hash[:7]}_{CWE_ID}.diff`
+- details: `{cve_id}_{git_hash[:7]}` `affetced_functions`
