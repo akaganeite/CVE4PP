@@ -13,16 +13,15 @@
 - Diff: .diff for each CVE
 
 ## Todos
-- Add patch version(latest vulnerable version +1)
-- Add affected functions
-- Add .diff for each `valid` CVE manually
 - > test CVEs in `first_patch.json`
+- compile `openssl` binaries
+
 
 ## 实验流程
 1. 预先准备
     - 目标CVE，在first_batch.json中。一个CWE对应10个CVE。 
     - Diff文件：./Diff/程序名/ 会有diff文件，部分工具(PS3)需要diff文件作为输入
-    - 漏洞补丁修改的函数名，这个目前json文件里面还没有，需要提取
+    - 漏洞补丁修改的函数名，具体信息查看`diff.md`
 2. 下载源码
     - git clone 远程仓库，所有的二进制文件构建都从源码编译，先不直接下载发行版安装包
 3. 构建reference binary。
@@ -33,8 +32,8 @@
 4. 构建target binary。
     - target binary在测试时使用。
     - 测试1: `程序名_filtered.json`文件中`last_vuln_version`代表最后一个受该CVE影响的(vulnerable)的发行版本。选取`last_vuln_version`及其之前的两个发行版本，`last_vuln_version`之后的三个发行版本。共6个版本，三个vulnerable，三个patched，以默认编译选项compile，并测试。
+> 2 3 4 部分在如下链接中有编译好的版本。如果需要自己编译的话参考Diff/{project}/compile.sh的bash脚本。除binutils外的脚本都会自动编译所需的target和reference二进制
+
 ### 备注
 - REACT使用的不是reference binary，是LLVM的.bc文件，编译器使用clang，编译时emit llvm即可。
-- 目前的diff文件还不完善，我会继续完善
-- 将漏洞补丁修改函数名提取出，放入_filtered.json这个工作我来做。
-- `先选择first_batch.json中前五个类别，每个类别前五个CVE，共25个CVE来进行测试1`。每个CVE需要编译出2个binary作为reference，6个binary作为target。实验评价标准沿用原文(P,R,F1)。
+- openssl的源码编译还没能成功，老版本的编译一直fail。

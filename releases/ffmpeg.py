@@ -1,8 +1,7 @@
 import re
 import csv
 import requests
-# 假设原始数据已存储在变量data中
-
+from datetime import datetime
 
 url = "https://ffmpeg.org/releases/"
 response = requests.get(url)
@@ -32,7 +31,7 @@ version_dict = {}
 for line in data.splitlines():
     if match := pattern.search(line.strip()):
         version, datetime = match.groups()
-        version_dict[version] = datetime  # 自动去重，保留最后出现的时间
+        version_dict[version] = datetime[:11]  # 自动去重，保留最后出现的时间
 
 # 版本号排序函数
 def version_key(ver):
@@ -44,3 +43,37 @@ with open('ffmpeg_releases.csv', 'w', newline='') as csvfile:
     writer.writerow(['Version', 'Release Time'])
     for ver in sorted(version_dict, key=version_key):
         writer.writerow([ver, version_dict[ver]])
+
+# import csv
+# from datetime import datetime
+
+# def parse_time(time_str):
+#     """处理可能的时间格式问题（如末尾空格或缺少时间部分）"""
+#     cleaned = time_str.strip()
+#     if len(cleaned) == 10:  # 只有日期部分（如 '2009-03-10'）
+#         return datetime.strptime(cleaned, "%Y-%m-%d")
+#     else:  # 完整时间（如 '2009-03-10 00:06'）
+#         return datetime.strptime(cleaned, "%Y-%m-%d %H:%M")
+
+# def sort_ffmpeg_versions(input_file, output_file):
+#     # 读取数据
+#     with open(input_file, 'r', encoding='utf-8') as f:
+#         reader = csv.reader(f)
+#         header = next(reader)  # 跳过标题行
+#         data = [row for row in reader]
+
+#     # 解析时间并排序
+#     sorted_data = sorted(data, key=lambda x: parse_time(x[1]))
+
+#     # 写入排序结果
+#     with open(output_file, 'w', newline='', encoding='utf-8') as f:
+#         writer = csv.writer(f)
+#         writer.writerow(header)
+#         writer.writerows(sorted_data)
+
+#     print(f"已排序 {len(sorted_data)} 条数据，结果保存至 {output_file}")
+
+# if __name__ == "__main__":
+#     input_csv = "ffmpeg.csv"   # 输入文件名
+#     output_csv = "ffmpeg_sorted.csv"    # 输出文件名
+#     sort_ffmpeg_versions(input_csv, output_csv)
