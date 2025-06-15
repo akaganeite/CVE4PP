@@ -37,3 +37,84 @@
 ### 备注
 - REACT使用的不是reference binary，是LLVM的.bc文件，编译器使用clang，编译时emit llvm即可。
 - openssl的源码编译还没能成功，老版本的编译一直fail。
+
+## testset
+> 目前只完成了binutils和openssl
+- chosen.txt 初始选择的CVE
+- compile*.sh 用于编译reference target二进制
+- *.log 编译时的log
+- valid 合格的CVE(用于签名生成与检测)
+- versions 全部的release版本
+- testset.json 为每个cve选择的testset的版本
+- ground_truth.json 每个CVE的全部vuln patch版本，为理想数据集构建准备
+- gen_target.py 构建测试集文件
+- target_version.py 构建testset&ground_truth.json
+
+
+## Openssl
+- 选择最近的100个CVE，n个Diff文件
+- 有80个Diff文件可以找到修改的函数
+- 56个Diff文件可以编译出reference二进制
+    - 无法checkout 到 patch/vuln commit
+        - CVE-2020-1971_2154ab83e14e
+        - CVE-2021-23839_30919ab80a47
+        - CVE-2023-5678_34efaef6c103
+    - 编译失败(-d;-d shared;-d shared no-apps均失败)
+        - CVE-2016-2178_399944622df7
+        - CVE-2016-2179
+        - CVE-2016-2180
+        - CVE-2016-2181
+        - CVE-2016-2182
+        - CVE-2016-6302
+        - CVE-2016-6303
+        - CVE-2016-6305
+        - CVE-2016-6307
+        - CVE-2016-6308
+        - CVE-2016-6309
+        - CVE-2016-7056
+        - CVE-2016-8610
+        - CVE-2017-3730
+        - CVE-2017-3731
+        - CVE-2017-3733
+        - CVE-2017-3735
+        - CVE-2018-0734
+        - CVE-2022-0778
+    - 找不到function symbol
+        - CVE-2019-1549 (test)
+        - CVE-2021-3450 (test)
+        - CVE-2021-3711 (test)
+        - CVE-2021-3711 (test)
+        - CVE-2021-4160 (test)
+        - CVE-2022-1434
+        - CVE-2022-4203
+        - CVE-2023-0216
+        - CVE-2023-0217
+
+## binutils
+- 选择80个CVE
+- 以下8个CVE无法找到diff文件：
+    - CVE-2021-32256
+    - CVE-2021-3530
+    - CVE-2018-12934
+    - CVE-2018-12699
+    - CVE-2018-12698
+    - CVE-2018-12697
+    - CVE-2018-12641
+    - CVE-2017-9044
+- 以下7CVE的diff文件无效
+    - CVE-2017-16826
+    - CVE-2017-16827
+    - CVE-2017-16832
+    - CVE-2017-17123
+    - CVE-2018-19931
+    - CVE-2018-7642
+    - CVE-2019-12972
+- 以下8个CVE编译出的reference找不到目标函数
+    - CVE-2017-17121
+    - CVE-2017-17125
+    - CVE-2018-18309
+    - CVE-2020-16592
+    - CVE-2020-21490
+    - CVE-2023-25584
+    - CVE-2023-25585
+    - CVE-2023-25588

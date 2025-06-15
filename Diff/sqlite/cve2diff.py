@@ -78,7 +78,7 @@ def download_commit_diff(cve_id, url,CWE_ID,hash=None):
     try:
         
         # 生成文件名（与原始逻辑一致）
-        filename = f"{PROJECT}_{cve_id}_{git_hash[:7]}_{CWE_ID}.diff"
+        filename = f"{PROJECT}_{cve_id}_{git_hash[:12]}_{CWE_ID}.diff"
 
         # 方案1: 使用wget下载（推荐）
         cmd = f"wget -q --timeout=10 -O {shlex.quote(filename)} {shlex.quote(GITHUB_URL)}"
@@ -96,14 +96,14 @@ def download_commit_diff(cve_id, url,CWE_ID,hash=None):
         
         # 验证文件是否下载成功
         if os.path.exists(filename) and os.path.getsize(filename) > 0:
-            print(f"✅ Downloaded {git_hash[:7]} for {cve_id}")
+            print(f"✅ Downloaded {git_hash[:12]} for {cve_id}")
             return True
             
-        print(f"❌ Empty file: {git_hash[:7]} for {cve_id}")
+        print(f"❌ Empty file: {git_hash[:12]} for {cve_id}")
         return False
         
     except subprocess.CalledProcessError as e:
-        print(f"❌ Download failed (code {e.returncode}): {git_hash[:7]}")
+        print(f"❌ Download failed (code {e.returncode}): {git_hash[:12]}")
     except Exception as e:
         print(f"❌ System error: {str(e)}")
     

@@ -1,0 +1,64 @@
+处理: CVE-2017-14940 (0d76029f9218)
+处理 patch 版本 (0d76029f9218)
+构建目录不存在，开始编译...
+000000000013e271 t scan_unit_for_symbols
+found all functions in objdump: scan_unit_for_symbols
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): 0d76029f921 PR22167, NULL pointer dereference in scan_unit_for_symbols
+处理 vuln 版本 (bd61e135492e)
+构建目录不存在，开始编译...
+000000000013e271 t scan_unit_for_symbols
+found all functions in objdump: scan_unit_for_symbols
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): bd61e135492 PR22166, SHT_GNU_verneed memory allocation
+处理: CVE-2017-15022 (11855d8a1f11)
+处理 patch 版本 (11855d8a1f11)
+构建目录不存在，开始编译...
+000000000013edc2 t parse_comp_unit
+000000000013e40c t scan_unit_for_symbols
+found all functions in objdump: parse_comp_unit scan_unit_for_symbols
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): 11855d8a1f1 PR22201, DW_AT_name with out of bounds reference
+处理 vuln 版本 (c361faae8d96)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15022-vuln-c361faae8d96-*
+处理: CVE-2017-15025 (d8010d3e75ec)
+处理 patch 版本 (d8010d3e75ec)
+构建目录不存在，开始编译...
+000000000013f4a5 t comp_unit_maybe_decode_line_info
+000000000013baae t decode_line_info
+found all functions in objdump: decode_line_info
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): d8010d3e75e PR22186, divide-by-zero in decode_line_info
+处理 vuln 版本 (515f23e63c00)
+构建目录不存在，开始编译...
+000000000013f496 t comp_unit_maybe_decode_line_info
+000000000013baae t decode_line_info
+found all functions in objdump: decode_line_info
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): 515f23e63c0 PR22169, heap-based buffer overflow in read_1_byte
+处理: CVE-2017-15939 (a54018b72d75)
+处理 patch 版本 (a54018b72d75)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15939-patch-a54018b72d75-*
+处理 vuln 版本 (e338894dc2e6)
+构建目录不存在，开始编译...
+000000000013abeb t concat_filename
+000000000013b6f7 t read_formatted_entries
+000000000013f755 t comp_unit_maybe_decode_line_info
+000000000013bbb9 t decode_line_info
+found all functions in objdump: concat_filename read_formatted_entries decode_line_info
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): e338894dc2e PR22204, Lack of DW_LNE_end_sequence causes "infinite" loop
+处理: CVE-2018-18607 (102def4da826)
+处理 patch 版本 (102def4da826)
+构建目录不存在，开始编译...
+000000000011d281 t elf_link_input_bfd
+found all functions in objdump: elf_link_input_bfd
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): 102def4da82 PR23805, NULL pointer dereference in elf_link_input_bfd
+处理 vuln 版本 (ab419ddbb2cd)
+构建目录不存在，开始编译...
+000000000011d281 t elf_link_input_bfd
+found all functions in objdump: elf_link_input_bfd
+找到有效二进制: objdump
+保存工作目录和索引状态 WIP on (no branch): ab419ddbb2c PR23804, buffer overflow in sec_merge_hash_lookup
+所有操作完成，结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/

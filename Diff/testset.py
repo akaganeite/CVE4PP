@@ -77,8 +77,8 @@ def find_nearest_versions(cve_date: datetime, version_dates: Dict[str, datetime]
     return sorted(closest_before, key=lambda x: x[1]) ,sorted(closest_after, key=lambda x: x[1])
 
 REPO_LIST = [
-    "binutils",
-    # "openssl",
+    # "binutils",
+    "openssl",
     # "curl",
     # "ffmpeg",
     # "sqlite",
@@ -197,7 +197,7 @@ if __name__ == "__main__":
             generate_testset_json(
                 details_file=f"{project}/details",
                 version_dates=project_versions,
-                output_file=f"{project}/testset.json",
+                output_file=f"{project}/testset_{mode}.json",
                 project=project,
                 mode=mode
             )

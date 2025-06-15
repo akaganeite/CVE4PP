@@ -18,7 +18,7 @@ def extract_git_hash(url):
 
 
 
-def download_commit_diff(cve_id, git_hash,CWE_ID):
+def download_commit_diff(cve_id, git_hash):
     """使用wget/curl下载GitHub提交的diff文件"""
     # 配置参数（根据实际情况调整）
     GITHUB_URL = f"https://github.com/bminor/binutils-gdb/commit/{git_hash}.diff"
@@ -28,7 +28,7 @@ def download_commit_diff(cve_id, git_hash,CWE_ID):
         os.makedirs(PROJECT, exist_ok=True)
         
         # 生成文件名（与原始逻辑一致）
-        filename = f"{PROJECT}_{cve_id}_{git_hash[:7]}_{CWE_ID}.diff"
+        filename = f"./diff_files/{PROJECT}_{cve_id}_{git_hash[:12]}.diff"
         
         # 方案1: 使用wget下载（推荐）
         cmd = f"wget -q --timeout=10 -O {shlex.quote(filename)} {shlex.quote(GITHUB_URL)}"
@@ -47,20 +47,20 @@ def download_commit_diff(cve_id, git_hash,CWE_ID):
         
         # 验证文件是否下载成功
         if os.path.exists(filename) and os.path.getsize(filename) > 0:
-            print(f"✅ Downloaded {git_hash[:7]} for {cve_id}")
+            print(f"✅ Downloaded {git_hash[:12]} for {cve_id}")
             return True
             
-        print(f"❌ Empty file: {git_hash[:7]} for {cve_id}")
+        print(f"❌ Empty file: {git_hash[:12]} for {cve_id}")
         return False
         
     except subprocess.CalledProcessError as e:
-        print(f"❌ Download failed (code {e.returncode}): {git_hash[:7]}")
+        print(f"❌ Download failed (code {e.returncode}): {git_hash[:12]}")
     except Exception as e:
         print(f"❌ System error: {str(e)}")
     
     return False
 
-def process_cve_data(json_path, target_cves,CWE_ID):
+def process_cve_data(json_path, target_cves):
     """处理CVE数据"""
     with open(json_path, "r", encoding="utf-8") as f:
         cve_data = json.load(f)
@@ -79,7 +79,7 @@ def process_cve_data(json_path, target_cves,CWE_ID):
                     
             # 去重后下载
             for git_hash in list(set(hashes)):
-                if download_commit_diff(entry["id"], git_hash,CWE_ID):
+                if download_commit_diff(entry["id"], git_hash):
                     results.append({
                         "cve": entry["id"],
                         "hash": git_hash,
@@ -97,19 +97,19 @@ def process_cve_data(json_path, target_cves,CWE_ID):
 
 if __name__ == "__main__":
     # 配置参数
-    JSON_FILE = "../../cveinfo/binutils/binutils_filtered.json"
-    with open("../../first_batch.json", "r", encoding="utf-8") as f:
-        cve_data = json.load(f)
+    JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
+    with open(f"../../testset/{PROJECT}/chosen.txt", "r", encoding="utf-8") as f:
+        cve_data = f.readlines()
     TARGET_CVES =[]
-    for (key,value) in cve_data.items():
+    for key in cve_data:
+        key = key.strip()
         print(f"\nProcessing {key} for {PROJECT}")
         #if entry["id"] not in TARGET_CVES:
-        CWE_ID = key
-        results = process_cve_data(JSON_FILE, value,CWE_ID)
+        results = process_cve_data(JSON_FILE, [key])
     
         # 输出结果统计
-        success = sum(1 for r in results if r["status"] == "success")
-        print(f"\nTotal: {len(results)}, Success: {success}, Failed: {len(results)-success}")
+        print(f"\nResults for {key}: {results}")
+        
         #TARGET_CVES.append(entry["id"])
 
     

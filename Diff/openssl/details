@@ -1,7 +1,5 @@
-CVE-2014-8275_684400c 2015-01-05 ECDSA_verify,DSA_verify,ASN1_verify,ASN1_item_verify
-CVE-2014-8275_cb62ab4 2015-01-06 ASN1_item_verify
-CVE-2024-0727_09df439 2024-01-25 if,STACK_OF,newpass_p12,pkcs12_gen_mac,SMIME_write_PKCS7
-CVE-2023-6129_f3fc580 2024-01-09 N/A
-CVE-2023-6129_5b139f9 2024-01-09 N/A
-CVE-2024-0727_775acfd 2024-01-25 if,STACK_OF,newpass_p12,pkcs12_gen_mac,SMIME_write_PKCS7
-CVE-2015-1792_cd30f03 2013-12-22 CMS_verify,do_free_upto
+CVE-2024-0727_775acfdbd0c6 2024-01-25 PKCS12_unpack_p7data,PKCS12_unpack_p7encdata,PKCS12_unpack_authsafes,SMIME_write_PKCS7,pkcs12_gen_mac,newpass_p12 | libcrypto
+CVE-2015-1792_cd30f03ac5bf 2013-12-22 do_free_upto,CMS_verify | libcrypto
+CVE-2015-0204_ce325c60c74b 2015-01-06 ssl3_accept,ssl3_get_key_exchange,dtls1_accept | libssl
+CVE-2015-0205_1421e0c584ae 2015-01-08 ssl3_get_cert_verify | libssl
+CVE-2014-8275_684400ce192d 2015-01-05 ASN1_item_verify,ASN1_verify,ECDSA_verify,DSA_verify | libcrypto

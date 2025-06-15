@@ -9,16 +9,16 @@ from typing import List, Tuple, Set, Optional, Dict
 # 配置项目到GitHub仓库的映射
 REPO_MAP = {
     "binutils": "api.github.com/repos/bminor/binutils-gdb",
-    "curl": "api.github.com/repos/curl/curl",
-    "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
-    "libxml2": "api.github.com/repos/GNOME/libxml2",
-    "sqlite": "api.github.com/repos/sqlite/sqlite",
-    "openssl": "api.github.com/repos/openssl/openssl",
+    # "curl": "api.github.com/repos/curl/curl",
+    # "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
+    # "libxml2": "api.github.com/repos/GNOME/libxml2",
+    # "sqlite": "api.github.com/repos/sqlite/sqlite",
+    # "openssl": "api.github.com/repos/openssl/openssl",
 }
 
 def parse_diff_filename(filename):
     """解析diff文件名，返回(CVE-ID, commit_hash)"""
-    pattern = r"^.*_CVE-(.+?)_([0-9a-f]{6,})_CWE-.*\.diff$"
+    pattern = r"^.*_CVE-(.+?)_([0-9a-f]{6,}).diff$"
     match = re.match(pattern, filename)
     if not match: 
         return None, None
@@ -167,24 +167,11 @@ def parse_diff_functions_inclusive(
         return []
 
     for patched_file in patch:
-        # 只处理 .c 和 .h 文件 (如果语言是 c)
-        is_c_file = language == "c" and \
-                    (patched_file.source_file.endswith(('.c', '.h')) or \
-                     patched_file.target_file.endswith(('.c', '.h')))
+        # 只处理 .c 文件
+        is_c_file = patched_file.source_file.endswith('.c') or patched_file.target_file.endswith('.c')
         
-        # 或者处理 python 文件 (如果语言是 python)
-        is_python_file = language == "python" and \
-                         (patched_file.source_file.endswith('.py') or \
-                          patched_file.target_file.endswith('.py'))
-
         # 如果文件类型不匹配或者不是修改过的文件，则跳过
-        # 我们也处理 ChangeLog 这样的文件，因为 hunk 头可能有用
-        # 但我们应该只在相关文件类型中查找 +/- 行
-        
-        if patched_file.is_modified_file:
-            # 只有 C 文件才用 C 正则去匹配 +/- 行
-            should_check_lines = is_c_file or is_python_file
-
+        if patched_file.is_modified_file and is_c_file:
             for hunk in patched_file:
                 hunk_added: Set[str] = set()
                 hunk_deleted: Set[str] = set()
@@ -193,14 +180,12 @@ def parse_diff_functions_inclusive(
                 for line in hunk:
                     if line.is_added:
                         has_changes_in_hunk = True
-                        if should_check_lines: # 只在相关文件检查行
-                            name = extract_name(line.value.lstrip('+').rstrip(), line_regex)
-                            if name: hunk_added.add(name)
+                        name = extract_name(line.value.lstrip('+').rstrip(), line_regex)
+                        if name: hunk_added.add(name)
                     elif line.is_removed:
                         has_changes_in_hunk = True
-                        if should_check_lines: # 只在相关文件检查行
-                            name = extract_name(line.value.lstrip('-').rstrip(), line_regex)
-                            if name: hunk_deleted.add(name)
+                        name = extract_name(line.value.lstrip('-').rstrip(), line_regex)
+                        if name: hunk_deleted.add(name)
                 
                 all_added.update(hunk_added)
                 all_deleted.update(hunk_deleted)
@@ -219,13 +204,18 @@ def parse_diff_functions_inclusive(
 def generate_report(project_dir, entries):
     """生成项目目录的details文件"""
     with open(os.path.join(project_dir, "details"), "w") as f:
-        for cve_id, date,funcs in entries:
+        # 在迭代前对 entries 进行排序
+        # key=lambda entry: entry[0] 表示按每个条目(entry)的第一个元素(cve_id)排序
+        for cve_id, date, funcs in sorted(entries, key=lambda entry: entry[0]):
+            # funcs 去掉 while for if
+            funcs = [func for func in funcs if func not in ("while", "for", "if","switch")]
             func_list = ",".join(funcs) if funcs else "N/A"
             f.write(f"{cve_id} {date} {func_list}\n")
 
 def main():
-    for root, dirs, files in os.walk("."):
-        project = os.path.basename(root)
+    for root, dirs, files in os.walk("./binutils/diff_files"):
+        project = root.split(os.sep)[-2]  # 获取项目名
+        print(project)
         if project not in REPO_MAP: continue
         
         repo = REPO_MAP[project]
@@ -238,7 +228,7 @@ def main():
             # 解析文件名信息
             cve_id, commit_hash = parse_diff_filename(file)
             if not cve_id: continue
-            
+            print(f"Processing {file} in {root}...")
             # 获取提交日期
             commit_date = fetch_commit_date(repo, commit_hash)
             if not commit_date: continue
