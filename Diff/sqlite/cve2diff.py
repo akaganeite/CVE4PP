@@ -51,7 +51,7 @@ def find_sqlite_url_from_post(post_url: str) -> str | None:
     """从SQLite论坛帖子中提取提交哈希"""
     response = requests.get(post_url)
     response.raise_for_status()  # 检查请求是否成功
-    match= re.search(r'https://www.sqlite.org/src/info/([^&;]+)', response.text, re.DOTALL)
+    match= re.search(r'sqlite.org/src/info/([^&;>"]+)', response.text, re.DOTALL)
     if match:
         return f"https://www.sqlite.org/src/info/{match.group(1)}"
     else:
@@ -59,7 +59,7 @@ def find_sqlite_url_from_post(post_url: str) -> str | None:
         return None 
 
 
-def download_commit_diff(cve_id, url,CWE_ID,hash=None):
+def download_commit_diff(cve_id, url,hash=None):
     """使用wget/curl下载GitHub提交的diff文件"""
     # 配置参数（根据实际情况调整）
     if hash is None:
@@ -71,6 +71,9 @@ def download_commit_diff(cve_id, url,CWE_ID,hash=None):
         git_search_url = f"https://github.com/search?q=repo%3Asqlite%2Fsqlite+{sqlite_hash}&type=commits"
         response = requests.get(git_search_url)
         git_hash = find_closed_commit_link(response.text)
+        if git_hash is None  or len(git_hash) == 0:
+            print(f"❌ No commit hash found for {cve_id} in {url}")
+            return False
         git_hash = git_hash[0]  # 取第一个匹配的哈希值
     else:
         git_hash = hash
@@ -78,7 +81,7 @@ def download_commit_diff(cve_id, url,CWE_ID,hash=None):
     try:
         
         # 生成文件名（与原始逻辑一致）
-        filename = f"{PROJECT}_{cve_id}_{git_hash[:12]}_{CWE_ID}.diff"
+        filename = f"diff_files/{PROJECT}_{cve_id}_{git_hash[:12]}.diff"
 
         # 方案1: 使用wget下载（推荐）
         cmd = f"wget -q --timeout=10 -O {shlex.quote(filename)} {shlex.quote(GITHUB_URL)}"
@@ -109,7 +112,7 @@ def download_commit_diff(cve_id, url,CWE_ID,hash=None):
     
     return False
 
-def process_cve_data(json_path, target_cves,CWE_ID):
+def process_cve_data(json_path, target_cves):
     """处理CVE数据"""
     with open(json_path, "r", encoding="utf-8") as f:
         cve_data = json.load(f)
@@ -131,7 +134,7 @@ def process_cve_data(json_path, target_cves,CWE_ID):
                     posts.append(ref)
             for git_hash in list(set(hashes)):
                 print(f"Processing git hash: {git_hash}")
-                if download_commit_diff(entry["id"], git_hash,CWE_ID,hash=git_hash):
+                if download_commit_diff(entry["id"], git_hash,hash=git_hash):
                     results.append({
                         "cve": entry["id"],
                         "hash": git_hash,
@@ -149,7 +152,7 @@ def process_cve_data(json_path, target_cves,CWE_ID):
                 urls = list(set(urls))
                 print(f"Processing URL: {urls}")
                 for url in urls:
-                    if download_commit_diff(entry["id"], url,CWE_ID):
+                    if download_commit_diff(entry["id"], url):
                         results.append({
                             "cve": entry["id"],
                             "url": url,
@@ -172,7 +175,7 @@ def process_cve_data(json_path, target_cves,CWE_ID):
                     })
                 for post in posts:
                     url = find_sqlite_url_from_post(post)
-                    if download_commit_diff(entry["id"], url,CWE_ID):
+                    if url is not None and download_commit_diff(entry["id"], url):
                         results.append({
                             "cve": entry["id"],
                             "url": url,
@@ -189,16 +192,15 @@ def process_cve_data(json_path, target_cves,CWE_ID):
 if __name__ == "__main__":
     # 配置参数
     JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
-    with open("../../first_batch.json", "r", encoding="utf-8") as f:
-        cve_data = json.load(f)
+    with open(f"../../testset/{PROJECT}/filtered", "r", encoding="utf-8") as f:
+        cve_data = f.readlines()
     TARGET_CVES =[]
-    for (key,value) in cve_data.items():
+    for key in cve_data:
+        key = key.strip()
         print(f"\nProcessing {key} for {PROJECT}")
         #if entry["id"] not in TARGET_CVES:
-        CWE_ID = key
-        results = process_cve_data(JSON_FILE, value,CWE_ID)
+        results = process_cve_data(JSON_FILE, [key])
     
         # 输出结果统计
         success = sum(1 for r in results if r["status"] == "success")
         print(f"\nTotal: {len(results)}, Success: {success}, Failed: {len(results)-success}")
-        #TARGET_CVES.append(entry["id"])

@@ -1,0 +1,576 @@
+
+Processing CVE-2023-7104 for sqlite
+
+Processing CVE-2023-7104
+Processing URL: ['https://sqlite.org/src/info/0e4e7a05c4204b47']
+找到的提交哈希: ['09f1652f36c5c4e8a6a640ce887f9ea0f48a7958']
+✅ Downloaded 09f1652f36c5 for CVE-2023-7104
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2022-46908 for sqlite
+
+Processing CVE-2022-46908
+Processing URL: ['https://sqlite.org/src/info/cefc032473ac5ad2']
+找到的提交哈希: ['8af6d712daa725fcdfcf63fcbcfd017633c41e10']
+✅ Downloaded 8af6d712daa7 for CVE-2022-46908
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2022-35737 for sqlite
+
+Processing CVE-2022-35737
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-45346 for sqlite
+
+Processing CVE-2021-45346
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-36690 for sqlite
+
+Processing CVE-2021-36690
+Processing URL: []
+Processing post: ['https://www.sqlite.org/forum/forumpost/718c0a8d17']
+❌ No URL links found in post: https://www.sqlite.org/forum/forumpost/718c0a8d17
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-31239 for sqlite
+
+Processing CVE-2021-31239
+Processing URL: []
+Processing post: ['https://www.sqlite.org/forum/forumpost/d9fce1a89b']
+❌ No commit hash found for CVE-2021-31239 in https://www.sqlite.org/src/info/04f6439f4d9b9b1f">problem has been fixed</a></u>.</p>
+
+<p>Until you get another release build, version preview, or the above fix from the repository, you can work around this problem by attempting to use the AppendVFS only on already existing, readable files. For example, instead of writing<code>
+  .ar -a NowhereToBeFound
+</code>as a shell meta-command, write<code>
+  .ar -a ReadableFileToBeAppended
+</code>. The next shell version will handle the former more gracefully.</p>
+
+</div>
+
+</div>
+<div class="forumpost-single-controls"><form action="/forum/forumedit" method="POST">
+<input type="hidden" name="fpid" value="d76613f7e2fc9d30b26846c22952494c0278ccdf03acd376428652c3ea2aa221">
+<input type="submit" name="reply" value="Reply">
+<input type="hidden" name="csrf" value="X4NxUm8fHjwVYdN">
+</form>
+</div>
+</div>
+<div id='forum10815' class='forumTime' style='margin-left:8ex
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-20227 for sqlite
+
+Processing CVE-2021-20227
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2020-35527 for sqlite
+
+Processing CVE-2020-35527
+Processing URL: ['https://www.sqlite.org/src/info/c431b3fd8fd0f6a6']
+找到的提交哈希: ['0990c415f65d2556a5e4122cbe5727d500411aeb']
+✅ Downloaded 0990c415f65d for CVE-2020-35527
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-35525 for sqlite
+
+Processing CVE-2020-35525
+Processing URL: ['https://www.sqlite.org/src/info/a67cf5b7d37d5b14']
+找到的提交哈希: ['5f69512404cd2e5153ddf90ea277fbba6dd58ab7']
+✅ Downloaded 5f69512404cd for CVE-2020-35525
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-15358 for sqlite
+
+Processing CVE-2020-15358
+Processing URL: ['https://www.sqlite.org/src/info/10fa79d00f8091e5']
+找到的提交哈希: ['b7cbf5c1b2a9e099eec176e1ebeb659427a20626']
+✅ Downloaded b7cbf5c1b2a9 for CVE-2020-15358
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-13871 for sqlite
+
+Processing CVE-2020-13871
+Processing URL: ['https://www.sqlite.org/src/info/c8d3b9f0a750a529', 'https://www.sqlite.org/src/info/79eff1d0383179c4', 'https://www.sqlite.org/src/info/cd708fa84d2aaaea']
+❌ No commit hash found for CVE-2020-13871 in https://www.sqlite.org/src/info/c8d3b9f0a750a529
+找到的提交哈希: []
+Traceback (most recent call last):
+  File "/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/sqlite/cve2diff.py", line 202, in <module>
+    results = process_cve_data(JSON_FILE, [key])
+  File "/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/sqlite/cve2diff.py", line 155, in process_cve_data
+    if download_commit_diff(entry["id"], url):
+  File "/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/sqlite/cve2diff.py", line 77, in download_commit_diff
+    git_hash = git_hash[0]  # 取第一个匹配的哈希值
+IndexError: list index out of range
+
+# zhangxb @ zhangxb-ubuntu in ~/patch/related-works/CVE-Dataset/New/Diff/sqlite on git:main x [10:55:54] C:1
+$ python cve2diff.py
+
+Processing CVE-2023-7104 for sqlite
+
+Processing CVE-2023-7104
+Processing URL: ['https://sqlite.org/src/info/0e4e7a05c4204b47']
+找到的提交哈希: ['09f1652f36c5c4e8a6a640ce887f9ea0f48a7958']
+✅ Downloaded 09f1652f36c5 for CVE-2023-7104
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2022-46908 for sqlite
+
+Processing CVE-2022-46908
+Processing URL: ['https://sqlite.org/src/info/cefc032473ac5ad2']
+找到的提交哈希: ['8af6d712daa725fcdfcf63fcbcfd017633c41e10']
+✅ Downloaded 8af6d712daa7 for CVE-2022-46908
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2022-35737 for sqlite
+
+Processing CVE-2022-35737
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-45346 for sqlite
+
+Processing CVE-2021-45346
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-36690 for sqlite
+
+Processing CVE-2021-36690
+Processing URL: []
+Processing post: ['https://www.sqlite.org/forum/forumpost/718c0a8d17']
+❌ No URL links found in post: https://www.sqlite.org/forum/forumpost/718c0a8d17
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-31239 for sqlite
+
+Processing CVE-2021-31239
+Processing URL: []
+Processing post: ['https://www.sqlite.org/forum/forumpost/d9fce1a89b']
+❌ No commit hash found for CVE-2021-31239 in https://www.sqlite.org/src/info/04f6439f4d9b9b1f">problem has been fixed</a></u>.</p>
+
+<p>Until you get another release build, version preview, or the above fix from the repository, you can work around this problem by attempting to use the AppendVFS only on already existing, readable files. For example, instead of writing<code>
+  .ar -a NowhereToBeFound
+</code>as a shell meta-command, write<code>
+  .ar -a ReadableFileToBeAppended
+</code>. The next shell version will handle the former more gracefully.</p>
+
+</div>
+
+</div>
+<div class="forumpost-single-controls"><form action="/forum/forumedit" method="POST">
+<input type="hidden" name="fpid" value="d76613f7e2fc9d30b26846c22952494c0278ccdf03acd376428652c3ea2aa221">
+<input type="submit" name="reply" value="Reply">
+<input type="hidden" name="csrf" value="X4NxUm8fHjwVYdN">
+</form>
+</div>
+</div>
+<div id='forum10815' class='forumTime' style='margin-left:8ex
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2021-20227 for sqlite
+
+Processing CVE-2021-20227
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2020-35527 for sqlite
+
+Processing CVE-2020-35527
+Processing URL: ['https://www.sqlite.org/src/info/c431b3fd8fd0f6a6']
+找到的提交哈希: ['0990c415f65d2556a5e4122cbe5727d500411aeb']
+✅ Downloaded 0990c415f65d for CVE-2020-35527
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-35525 for sqlite
+
+Processing CVE-2020-35525
+Processing URL: ['https://www.sqlite.org/src/info/a67cf5b7d37d5b14']
+找到的提交哈希: ['5f69512404cd2e5153ddf90ea277fbba6dd58ab7']
+✅ Downloaded 5f69512404cd for CVE-2020-35525
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-15358 for sqlite
+
+Processing CVE-2020-15358
+Processing URL: ['https://www.sqlite.org/src/info/10fa79d00f8091e5']
+找到的提交哈希: ['b7cbf5c1b2a9e099eec176e1ebeb659427a20626']
+✅ Downloaded b7cbf5c1b2a9 for CVE-2020-15358
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-13871 for sqlite
+
+Processing CVE-2020-13871
+Processing URL: ['https://www.sqlite.org/src/info/c8d3b9f0a750a529', 'https://www.sqlite.org/src/info/79eff1d0383179c4', 'https://www.sqlite.org/src/info/cd708fa84d2aaaea']
+❌ No commit hash found for CVE-2020-13871 in https://www.sqlite.org/src/info/c8d3b9f0a750a529
+找到的提交哈希: []
+❌ No commit hash found for CVE-2020-13871 in https://www.sqlite.org/src/info/79eff1d0383179c4
+❌ No commit hash found for CVE-2020-13871 in https://www.sqlite.org/src/info/cd708fa84d2aaaea
+
+Total: 3, Success: 0, Failed: 3
+
+Processing CVE-2020-13632 for sqlite
+
+Processing CVE-2020-13632
+Processing URL: ['https://sqlite.org/src/info/a4dd148928ea65bd']
+找到的提交哈希: ['219b8e7e7587df8669d96ce867cdd61ca1c05730']
+✅ Downloaded 219b8e7e7587 for CVE-2020-13632
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-13631 for sqlite
+
+Processing CVE-2020-13631
+Processing URL: ['https://sqlite.org/src/info/eca0ba2cf4c0fdf7']
+找到的提交哈希: ['3d863b5e4efb2305d64f87a2128289d1c3ce09b6']
+✅ Downloaded 3d863b5e4efb for CVE-2020-13631
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-13630 for sqlite
+
+Processing CVE-2020-13630
+Processing URL: ['https://sqlite.org/src/info/0d69f76f0865f962']
+找到的提交哈希: ['becd68ba0dac41904aa817d96a67fb4685734b41']
+✅ Downloaded becd68ba0dac for CVE-2020-13630
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-13435 for sqlite
+
+Processing CVE-2020-13435
+Processing URL: ['https://www.sqlite.org/src/info/7a5279a25c57adf1']
+❌ No commit hash found for CVE-2020-13435 in https://www.sqlite.org/src/info/7a5279a25c57adf1
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2020-13434 for sqlite
+
+Processing CVE-2020-13434
+Processing URL: ['https://www.sqlite.org/src/info/d08d3405878d394e', 'https://www.sqlite.org/src/info/23439ea582241138']
+找到的提交哈希: ['dd6c33d372f3b83f4fe57904c2bd5ebba5c38018']
+✅ Downloaded dd6c33d372f3 for CVE-2020-13434
+❌ No commit hash found for CVE-2020-13434 in https://www.sqlite.org/src/info/23439ea582241138
+
+Total: 2, Success: 1, Failed: 1
+
+Processing CVE-2020-11656 for sqlite
+
+Processing CVE-2020-11656
+Processing URL: ['https://www3.sqlite.org/cgi/src/info/b64674919f673602', 'https://www.sqlite.org/src/info/d09f8c3621d5f7f8']
+找到的提交哈希: []
+❌ No commit hash found for CVE-2020-11656 in https://www3.sqlite.org/cgi/src/info/b64674919f673602
+找到的提交哈希: ['fb99e388ec7f30fe43e4878236e3695ff24ae58d']
+✅ Downloaded fb99e388ec7f for CVE-2020-11656
+
+Total: 2, Success: 1, Failed: 1
+
+Processing CVE-2020-11655 for sqlite
+
+Processing CVE-2020-11655
+Processing URL: ['https://www3.sqlite.org/cgi/src/info/4a302b42c7bf5e11']
+找到的提交哈希: ['c415d91007e1680e4eb17def583b202c3c83c718']
+✅ Downloaded c415d91007e1 for CVE-2020-11655
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2020-9327 for sqlite
+
+Processing CVE-2020-9327
+Processing URL: ['https://www.sqlite.org/cgi/src/info/9d0d4ab95dc0c56e', 'https://www.sqlite.org/cgi/src/info/abc473fb8fb99900', 'https://www.sqlite.org/cgi/src/info/4374860b29383380']
+找到的提交哈希: ['bf48ce49f7c25e5d4524de9fdc5c0d505218d06d']
+✅ Downloaded bf48ce49f7c2 for CVE-2020-9327
+找到的提交哈希: ['78d1d225d87af40f5bdca57fa72f00b6ffaffa21']
+✅ Downloaded 78d1d225d87a for CVE-2020-9327
+❌ No commit hash found for CVE-2020-9327 in https://www.sqlite.org/cgi/src/info/4374860b29383380
+
+Total: 3, Success: 2, Failed: 1
+
+Processing CVE-2019-20218 for sqlite
+
+Processing CVE-2019-20218
+Processing git hash: a6c1a71cde082e09750465d5675699062922e387
+✅ Downloaded a6c1a71cde08 for CVE-2019-20218
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19959 for sqlite
+
+Processing CVE-2019-19959
+Processing git hash: d8f2d46cbc9925e034a68aaaf60aad788d9373c1
+✅ Downloaded d8f2d46cbc99 for CVE-2019-19959
+Processing git hash: 1e490c4ca6b43a9cf8637d695907888349f69bec
+✅ Downloaded 1e490c4ca6b4 for CVE-2019-19959
+
+Total: 2, Success: 2, Failed: 0
+
+Processing CVE-2019-19926 for sqlite
+
+Processing CVE-2019-19926
+Processing git hash: 8428b3b437569338a9d1e10c4cd8154acbe33089
+✅ Downloaded 8428b3b43756 for CVE-2019-19926
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19925 for sqlite
+
+Processing CVE-2019-19925
+Processing git hash: 54d501092d88c0cf89bec4279951f548fb0b8618
+✅ Downloaded 54d501092d88 for CVE-2019-19925
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19924 for sqlite
+
+Processing CVE-2019-19924
+Processing git hash: 8654186b0236d556aa85528c2573ee0b6ab71be3
+✅ Downloaded 8654186b0236 for CVE-2019-19924
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19923 for sqlite
+
+Processing CVE-2019-19923
+Processing git hash: 396afe6f6aa90a31303c183e11b2b2d4b7956b35
+✅ Downloaded 396afe6f6aa9 for CVE-2019-19923
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19880 for sqlite
+
+Processing CVE-2019-19880
+Processing git hash: 75e95e1fcd52d3ec8282edb75ac8cd0814095d54
+✅ Downloaded 75e95e1fcd52 for CVE-2019-19880
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19646 for sqlite
+
+Processing CVE-2019-19646
+Processing git hash: 926f796e8feec15f3836aa0a060ed906f8ae04d3
+✅ Downloaded 926f796e8fee for CVE-2019-19646
+Processing git hash: ebd70eedd5d6e6a890a670b5ee874a5eae86b4dd
+✅ Downloaded ebd70eedd5d6 for CVE-2019-19646
+
+Total: 2, Success: 2, Failed: 0
+
+Processing CVE-2019-19645 for sqlite
+
+Processing CVE-2019-19645
+Processing git hash: 38096961c7cd109110ac21d3ed7dad7e0cb0ae06
+✅ Downloaded 38096961c7cd for CVE-2019-19645
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19603 for sqlite
+
+Processing CVE-2019-19603
+Processing git hash: 527cbd4a104cb93bf3994b3dd3619a6299a78b13
+✅ Downloaded 527cbd4a104c for CVE-2019-19603
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19317 for sqlite
+
+Processing CVE-2019-19317
+Processing git hash: 522ebfa7cee96fb325a22ea3a2464a63485886a8
+✅ Downloaded 522ebfa7cee9 for CVE-2019-19317
+Processing git hash: 73bacb7f93eab9f4bd5a65cbc4ae242acf63c9e3
+✅ Downloaded 73bacb7f93ea for CVE-2019-19317
+
+Total: 2, Success: 2, Failed: 0
+
+Processing CVE-2019-19244 for sqlite
+
+Processing CVE-2019-19244
+Processing git hash: e59c562b3f6894f84c715772c4b116d7b5c01348
+✅ Downloaded e59c562b3f68 for CVE-2019-19244
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-19242 for sqlite
+
+Processing CVE-2019-19242
+Processing git hash: 57f7ece78410a8aae86aa4625fb7556897db384c
+✅ Downloaded 57f7ece78410 for CVE-2019-19242
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-16168 for sqlite
+
+Processing CVE-2019-16168
+Processing URL: ['https://www.sqlite.org/src/info/e4598ecbdd18bd82945f6029013296690e719a62']
+❌ No commit hash found for CVE-2019-16168 in https://www.sqlite.org/src/info/e4598ecbdd18bd82945f6029013296690e719a62
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2019-9937 for sqlite
+
+Processing CVE-2019-9937
+Processing URL: ['https://sqlite.org/src/info/45c73deb440496e8']
+找到的提交哈希: ['b15f19c75e74a939f13fe86e57820571aaa2295b']
+✅ Downloaded b15f19c75e74 for CVE-2019-9937
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-9936 for sqlite
+
+Processing CVE-2019-9936
+Processing URL: ['https://sqlite.org/src/info/b3fa58dd7403dbd4']
+找到的提交哈希: ['d406d0726267d7691e7ce121da100e941bc0845a']
+✅ Downloaded d406d0726267 for CVE-2019-9936
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-8457 for sqlite
+
+Processing CVE-2019-8457
+Processing URL: ['https://www.sqlite.org/src/info/90acdbfce9c08858']
+找到的提交哈希: ['e41fd72acc7a06ce5a6a7d28154db1ffe8ba37a8']
+✅ Downloaded e41fd72acc7a for CVE-2019-8457
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2019-5018 for sqlite
+
+Processing CVE-2019-5018
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2018-20506 for sqlite
+
+Processing CVE-2018-20506
+Processing URL: ['https://sqlite.org/src/info/940f2adc8541a838']
+找到的提交哈希: []
+❌ No commit hash found for CVE-2018-20506 in https://sqlite.org/src/info/940f2adc8541a838
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2018-20505 for sqlite
+
+Processing CVE-2018-20505
+Processing URL: ['https://sqlite.org/src/info/1a84668dcfdebaf12415d']
+❌ No commit hash found for CVE-2018-20505 in https://sqlite.org/src/info/1a84668dcfdebaf12415d
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2018-20346 for sqlite
+
+Processing CVE-2018-20346
+Processing URL: ['https://sqlite.org/src/info/d44318f59044162e', 'https://sqlite.org/src/info/940f2adc8541a838']
+找到的提交哈希: ['29d77dc450fc6753b7d540d1c5a044f8c7466d2a']
+✅ Downloaded 29d77dc450fc for CVE-2018-20346
+找到的提交哈希: []
+❌ No commit hash found for CVE-2018-20346 in https://sqlite.org/src/info/940f2adc8541a838
+
+Total: 2, Success: 1, Failed: 1
+
+Processing CVE-2018-8740 for sqlite
+
+Processing CVE-2018-8740
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2017-15286 for sqlite
+
+Processing CVE-2017-15286
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2017-13685 for sqlite
+
+Processing CVE-2017-13685
+Processing URL: []
+Processing post: []
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2017-10989 for sqlite
+
+Processing CVE-2017-10989
+Processing URL: ['https://sqlite.org/src/info/66de6f4a']
+找到的提交哈希: ['c7b1ee5f6ee729ea61976dcba0a02e0630c8d41c']
+✅ Downloaded c7b1ee5f6ee7 for CVE-2017-10989
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2016-6153 for sqlite
+
+Processing CVE-2016-6153
+Processing URL: ['http://www.sqlite.org/cgi/src/info/67985761aa93fb61']
+找到的提交哈希: ['7694e06461203a466865fc8ed3068e0990a7ca50']
+✅ Downloaded 7694e0646120 for CVE-2016-6153
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2015-3416 for sqlite
+
+Processing CVE-2015-3416
+Processing URL: ['http://www.sqlite.org/src/info/c494171f77dc2e5e04cb6d865e688448f04e5920']
+找到的提交哈希: ['74b42275eca70ba323730c5a1088f1baf9937383']
+✅ Downloaded 74b42275eca7 for CVE-2015-3416
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2015-3415 for sqlite
+
+Processing CVE-2015-3415
+Processing URL: ['https://www.sqlite.org/src/info/02e3c88fbf6abdcf3975fb0fb71972b0ab30da30']
+找到的提交哈希: ['bc8a6b31b69b202cd66e6c4f51beb27cf01d9c11']
+✅ Downloaded bc8a6b31b69b for CVE-2015-3415
+
+Total: 1, Success: 1, Failed: 0
+
+Processing CVE-2015-3414 for sqlite
+
+Processing CVE-2015-3414
+Processing URL: ['https://www.sqlite.org/src/info/eddc05e7bb31fae74daa86e0504a3478b99fa0f2']
+找到的提交哈希: []
+❌ No commit hash found for CVE-2015-3414 in https://www.sqlite.org/src/info/eddc05e7bb31fae74daa86e0504a3478b99fa0f2
+
+Total: 1, Success: 0, Failed: 1
+
+Processing CVE-2013-7443 for sqlite
+
+Processing CVE-2013-7443
+Processing URL: ['https://www.sqlite.org/src/info/ac5852d6403c9c9628ca0aa7be135c702f000698', 'https://www.sqlite.org/src/info/520070ec7fbaac73eda0e0123596b7bb3e9a6897']
+找到的提交哈希: []
+❌ No commit hash found for CVE-2013-7443 in https://www.sqlite.org/src/info/ac5852d6403c9c9628ca0aa7be135c702f000698
+❌ No commit hash found for CVE-2013-7443 in https://www.sqlite.org/src/info/520070ec7fbaac73eda0e0123596b7bb3e9a6897
+
+Total: 2, Success: 0, Failed: 2

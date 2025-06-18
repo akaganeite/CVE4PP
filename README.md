@@ -36,10 +36,9 @@
 > compiled binaries:https://drive.google.com/file/d/19heaZ2yUiJLUsM02Umv8UM8XtFPliHzg/view?usp=drive_link
 ### 备注
 - REACT使用的不是reference binary，是LLVM的.bc文件，编译器使用clang，编译时emit llvm即可。
-- openssl的源码编译还没能成功，老版本的编译一直fail。
 
 ## testset
-> 目前只完成了binutils和openssl
+> 目前只完成了binutils,openssl,curl
 - chosen.txt 初始选择的CVE
 - compile*.sh 用于编译reference target二进制
 - *.log 编译时的log
@@ -118,3 +117,86 @@
     - CVE-2023-25584
     - CVE-2023-25585
     - CVE-2023-25588
+
+## curl
+- 选择了70个CVE
+- 以下17个CVE无法找到diff文件：
+    - CVE-2020-19909
+    - CVE-2019-5443
+    - CVE-2016-8620
+    - CVE-2016-8616
+    - CVE-2016-8615
+    - CVE-2016-4802
+    - CVE-2016-0755
+    - CVE-2016-0754
+    - CVE-2015-3236
+    - CVE-2015-3148
+    - CVE-2015-3143
+    - CVE-2014-0139
+    - CVE-2014-0138
+    - CVE-2013-4545
+    - CVE-2013-2174
+    - CVE-2011-3389
+    - CVE-2005-0490
+- 以下1个CVE的diff文件无效
+    - CVE-2003-1605
+- 以下8个CVE编译出的reference找不到目标函数
+    - CVE-2014-2522
+    - CVE-2015-3237
+    - CVE-2016-8619
+    - CVE-2016-9952
+    - CVE-2016-9953
+    - CVE-2018-1000121
+    - CVE-2019-5481
+    - CVE-2021-22897
+- 以下6个CVE编译reference失败
+    - CVE-2014-3613
+    - CVE-2014-3620
+    - CVE-2015-3144
+    - CVE-2015-3145
+    - CVE-2015-3153
+    - CVE-2016-3739
+
+## sqlite
+-  选择了49个CVE
+- 一下n个CVE找不到Diff文件
+    - CVE-2020-13871
+    - CVE-2022-35737
+    - CVE-2021-45346
+    - CVE-2021-20227
+    - CVE-2020-13871
+    - CVE-2020-13435
+    - CVE-2019-16168
+    - CVE-2019-5018
+    - CVE-2018-20506
+    - CVE-2018-20505
+    - CVE-2018-8740
+    - CVE-2017-15286
+    - CVE-2017-13685
+    - CVE-2015-3414
+    - CVE-2013-7443
+- 以下1个CVE的Diff文件无效：
+    - CVE-2015-3415
+- 以下 个CVE编译出的reference找不到目标函数
+    - CVE-2015-3416
+    - CVE-2017-10989
+    - CVE-2019-19603
+    - CVE-2019-9936
+    - CVE-2019-9937
+    - CVE-2020-13631
+    - CVE-2020-9327
+
+##  libxml2
+- 选择了57个CVE
+- 找不到Diff文件
+    - CVE-2003-1564
+    - CVE-2010-4008
+    - CVE-2013-2877
+    - CVE-2016-9318
+    - CVE-2019-20388
+    - CVE-2023-39615
+- Diff file无效
+    - CVE-2023-29469
+    - CVE-2020-24977
+    - CVE-2017-7376
+    - CVE-2016-4447

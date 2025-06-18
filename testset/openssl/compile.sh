@@ -332,53 +332,53 @@ compile_and_copy_openssl_tags() {
 # --- Main Logic ---
 mkdir -p "$REFERENCE_DIR" "$TARGET_DIR" "$BUILD_DIR_PREFIX"
 
-# Process CVEs
-# echo "===== Processing CVEs ====="
-# if [[ -f "$DETAILS_FILE" ]]; then
-#     while IFS= read -r line || [[ -n "$line" ]]; do
-#         [[ -z "$line" ]] && continue
+Process CVEs
+echo "===== Processing CVEs ====="
+if [[ -f "$DETAILS_FILE" ]]; then
+    while IFS= read -r line || [[ -n "$line" ]]; do
+        [[ -z "$line" ]] && continue
         
-#         # 解析CVE和commit哈希
-#         parts=($line)
-#         cve_hash_field=${parts[0]}
+        # 解析CVE和commit哈希
+        parts=($line)
+        cve_hash_field=${parts[0]}
         
-#         IFS='_' read -ra hash_parts <<< "$cve_hash_field"
-#         cve_id=${hash_parts[0]}
-#         commit_hash=${hash_parts[1]}
+        IFS='_' read -ra hash_parts <<< "$cve_hash_field"
+        cve_id=${hash_parts[0]}
+        commit_hash=${hash_parts[1]}
         
-#         # 使用7位短哈希
-#         short_hash=${commit_hash:0:7}
+        # 使用7位短哈希
+        short_hash=${commit_hash:0:7}
 
-#         # 先尝试编译可执行文件版本
-#         if compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-openssl" "$REFERENCE_DIR" "$line"; then
-#             echo "Successfully compiled executable version for ${cve_id}"
-#         else
-#             # 如果可执行文件版本编译失败，尝试编译库文件版本
-#             echo "Executable compilation failed, trying library versions..."
-#             compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-libcrypto" "$REFERENCE_DIR" "$line"
-#             compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-libssl" "$REFERENCE_DIR" "$line"
-#         fi
+        # 先尝试编译可执行文件版本
+        if compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-openssl" "$REFERENCE_DIR" "$line"; then
+            echo "Successfully compiled executable version for ${cve_id}"
+        else
+            # 如果可执行文件版本编译失败，尝试编译库文件版本
+            echo "Executable compilation failed, trying library versions..."
+            compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-libcrypto" "$REFERENCE_DIR" "$line"
+            compile_and_copy_openssl "$commit_hash" "${cve_id}-patch-${short_hash}-libssl" "$REFERENCE_DIR" "$line"
+        fi
 
-#         # 编译漏洞版本 (commit_hash 的上一个提交)
-#         prev_commit=$(git -C "$REPO_DIR" rev-parse "${commit_hash}~1" 2>/dev/null)
-#         if [[ -n "$prev_commit" ]]; then
-#             short_prev=${prev_commit:0:7}
-#             # 同样先尝试编译可执行文件版本
-#             if compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-openssl" "$REFERENCE_DIR" "$line"; then
-#                 echo "Successfully compiled executable version for ${cve_id} (vulnerable)"
-#             else
-#                 # 如果可执行文件版本编译失败，尝试编译库文件版本
-#                 echo "Executable compilation failed, trying library versions..."
-#                 compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-libcrypto" "$REFERENCE_DIR" "$line"
-#                 compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-libssl" "$REFERENCE_DIR" "$line"
-#             fi
-#         else
-#             echo "Warning: No parent commit for $commit_hash"
-#         fi
-#     done < "$DETAILS_FILE"
-# else
-#     echo "Warning: Details file $DETAILS_FILE not found, skipping CVE processing"
-# fi
+        # 编译漏洞版本 (commit_hash 的上一个提交)
+        prev_commit=$(git -C "$REPO_DIR" rev-parse "${commit_hash}~1" 2>/dev/null)
+        if [[ -n "$prev_commit" ]]; then
+            short_prev=${prev_commit:0:7}
+            # 同样先尝试编译可执行文件版本
+            if compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-openssl" "$REFERENCE_DIR" "$line"; then
+                echo "Successfully compiled executable version for ${cve_id} (vulnerable)"
+            else
+                # 如果可执行文件版本编译失败，尝试编译库文件版本
+                echo "Executable compilation failed, trying library versions..."
+                compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-libcrypto" "$REFERENCE_DIR" "$line"
+                compile_and_copy_openssl "$prev_commit" "${cve_id}-vuln-${short_prev}-libssl" "$REFERENCE_DIR" "$line"
+            fi
+        else
+            echo "Warning: No parent commit for $commit_hash"
+        fi
+    done < "$DETAILS_FILE"
+else
+    echo "Warning: Details file $DETAILS_FILE not found, skipping CVE processing"
+fi
 
 # Process versions
 echo "===== Processing Tags ====="

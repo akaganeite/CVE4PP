@@ -153,13 +153,12 @@ def normalize_version(project, version):
             "default": "{}"
         },
         "curl": {
-            "0": "curl-{}",
-            "1": "curl-{}",
-            "7": "curl-{}",
-            "8": "curl-{}",
             "default": "{}"
         },
         "binutils": {
+            "default": "{}"
+        },
+        "sqlite": {
             "default": "{}"
         },
         # 其他项目的映射规则...
