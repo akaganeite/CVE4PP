@@ -1,5 +1,5 @@
 import json
-PROJ = "sqlite"
+PROJ = "libxml2"
 with open(f"{PROJ}/testset.json", "r") as f:
     json_data = f.read()
 

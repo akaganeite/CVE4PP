@@ -114,7 +114,7 @@ def find_cpe_vendor_product(project):
     """定义CPE厂商和产品映射"""
     vendor_map = {
         "openssl": ["openssl", "openssl"],
-        "libtiff": ["libtiff", "libtiff"],
+        "libxml2": ["xmlsoft", "libxml2"],
         "libjpeg-turbo": ["libjpeg-turbo", "libjpeg-turbo"],
         "httpd": ["apache", "httpd"],
         "tomcat": ["apache", "tomcat"],
@@ -159,6 +159,9 @@ def normalize_version(project, version):
             "default": "{}"
         },
         "sqlite": {
+            "default": "{}"
+        },
+        "libxml2": {
             "default": "{}"
         },
         # 其他项目的映射规则...
