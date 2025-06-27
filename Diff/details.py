@@ -203,7 +203,7 @@ def parse_diff_functions_inclusive(
 
 def generate_report(project_dir, entries):
     """生成项目目录的details文件"""
-    with open(os.path.join(project_dir, "details"), "w") as f:
+    with open(os.path.join(project_dir, "../details"), "w") as f:
         # 在迭代前对 entries 进行排序
         # key=lambda entry: entry[0] 表示按每个条目(entry)的第一个元素(cve_id)排序
         for cve_id, date, funcs in sorted(entries, key=lambda entry: entry[0]):
@@ -212,8 +212,10 @@ def generate_report(project_dir, entries):
             func_list = ",".join(funcs) if funcs else "N/A"
             f.write(f"{cve_id} {date} {func_list}\n")
 
+PROJ = "ffmpeg"
+
 def main():
-    for root, dirs, files in os.walk("./ffmpeg/diff_files"):
+    for root, dirs, files in os.walk(f"./{PROJ}/diff_files"):
         project = root.split(os.sep)[-2]  # 获取项目名
         print(project)
         if project not in REPO_MAP: continue

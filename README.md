@@ -1,4 +1,5 @@
 # DATASET FOR PATCH PRESENCE
+
 ## projects
 
 - curl
@@ -8,24 +9,47 @@
 - ffmpeg
 - binutils
 
+## Works
+
+- React
+- PS3
+- Robin
+- BinXray
+
 ## structure
+
+- project2cve.py: dump cve files in `rawdata/` 
+  - source:`https://github.com/cve-search/cve-search.git`
 
 - cveinfo: parsed cve information
 - rawdata: cve info before any process
 - releases: releae history of projects
 - Diff: .diff for each CVE
+- testset: data used to test related works for patch presence
+- results: evaluation results for related works
 
-## testset
+### Diff
 
+- diff_files/ : contains all diff files for a project
+- details.py: parse .diff files in {project}/diff_files. Generate `details`
+- convert_format.py: generate `details_llvm` for testing React
+
+### testset
+
+- gen_target.py 构建测试集文件
+- target_version.py 构建testset&ground_truth.json
+- valid2json.py: generate `CVE_info` and `test` jsonl files for React
+- versions.py: dump `versions` file
+- cve_compilation_issues.json: CVEs failed to generate reference binaries
+- update_valid 
+{project}/
 - chosen.txt 初始选择的CVE
-- compile*.sh 用于编译reference target二进制
-- *.log 编译时的log
+- compile*.sh 用于编译reference target 二进制or .bc
+- logs/ log for compiling
 - valid 合格的CVE(用于签名生成与检测)
 - versions 全部的release版本
 - testset.json 为每个cve选择的testset的版本
 - ground_truth.json 每个CVE的全部vuln patch版本，为理想数据集构建准备
-- gen_target.py 构建测试集文件
-- target_version.py 构建testset&ground_truth.json
 
 ## 实验流程
 
@@ -47,12 +71,11 @@
 > 2 3 4 部分在如下链接中有编译好的版本。如果需要自己编译的话参考Diff/{project}/compile.sh的bash脚本。除binutils外的脚本都会自动编译所需的target和reference二进制
 > compiled binaries:https://drive.google.com/file/d/19heaZ2yUiJLUsM02Umv8UM8XtFPliHzg/view?usp=drive_link
 
-
-
+# Status of each project's CVEs
 
 ## Openssl
 
-- 选择最近的100个CVE，n个Diff文件
+- 选择最近的100个CVE
 - 有80个Diff文件可以找到修改的函数
 - 56个Diff文件可以编译出reference二进制
   - 无法checkout 到 patch/vuln commit
@@ -224,7 +247,9 @@
 
 ## ffmpeg
 
-- 选择2020及之后的CVE，如果CVE影响多个发行版，不考虑该CVE
+> 数据来源：https://ffmpeg.org/security.html
+
+- 选择2020及之后的CVE，如果CVE影响多个发行版，任选其一
 - diff文件无效：
   - CVE-2020-20448
   - CVE-2020-20892
@@ -295,7 +320,7 @@
 
 ## Overview
 
-- Curl:0/37
+- Curl:2/37
 - ffmpeg:0/62
 - libxml2:29/83
 - sqlite:11/46
@@ -304,6 +329,7 @@
 
 ## Details
 
+```
 CVE-2013-0338+xmlParserEntityCheck
 CVE-2013-1944+tailmatch
 CVE-2013-1969+htmlParseChunk
@@ -390,3 +416,4 @@ CVE-2025-1176+_bfd_elf_section_for_symbol
 CVE-2025-1181+_bfd_elf_get_link_hash_entry
 CVE-2025-1181+elf_link_input_bfd
 CVE-2025-29088+setupLookaside
+```

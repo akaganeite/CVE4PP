@@ -1,5 +1,14 @@
 import json
-PROJ = "ffmpeg"
+import argparse
+
+def parse_arguments():
+    """解析命令行参数"""
+    parser = argparse.ArgumentParser(description='Process CVE and release data')
+    parser.add_argument('project', type=str, help='Project name (e.g., openssl)')
+    return parser.parse_args()
+
+args = parse_arguments()
+PROJ = args.project
 with open(f"{PROJ}/testset.json", "r") as f:
     json_data = f.read()
 
@@ -31,5 +40,5 @@ with open(f"{PROJ}/versions", "w") as f:
     for version in sorted_versions:
         f.write(version + "\n")
 
-print("\n所有版本已保存到 versions.txt 文件中:")
+print("\n所有版本已保存到 versions 文件中:")
 print(f"共找到 {len(all_versions)} 个唯一版本")
