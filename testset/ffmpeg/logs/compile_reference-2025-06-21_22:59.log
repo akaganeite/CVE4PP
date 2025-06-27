@@ -1,0 +1,160 @@
+===== 开始处理 CVE 条目 =====
+
+>>> 处理 CVE: CVE-2025-1373, 补丁 Commit: 43be8d07281c <<<
+
+--- [BEGIN] Processing Git Ref: 43be8d07281c ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-43be8d07281c
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-43be8d07281c/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-43be8d07281c/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-1373-patch-43be8d07281c-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 43be8d07281c...
+已成功检出 43be8d07281c.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-43be8d07281c/ffmpeg_g 不存在，开始编译...
+43be8d07281c 编译成功。
+0000000000503ad0 t mov_read_trak
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-43be8d07281c/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-1373-patch-43be8d07281c-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 43be8d07281 avformat/mov: check for tts_count before deferencing tts_data
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 43be8d07281c ---
+漏洞版本 (父提交): 16f9cfcf4bd8ff9701d9a873a56b7114f821a867
+
+--- [BEGIN] Processing Git Ref: 16f9cfcf4bd8ff9701d9a873a56b7114f821a867 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-16f9cfcf4bd8ff9701d9a873a56b7114f821a867
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-16f9cfcf4bd8ff9701d9a873a56b7114f821a867/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-16f9cfcf4bd8ff9701d9a873a56b7114f821a867/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-1373-vuln-16f9cfcf4bd8-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 16f9cfcf4bd8ff9701d9a873a56b7114f821a867...
+已成功检出 16f9cfcf4bd8ff9701d9a873a56b7114f821a867.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-16f9cfcf4bd8ff9701d9a873a56b7114f821a867/ffmpeg_g 不存在，开始编译...
+16f9cfcf4bd8ff9701d9a873a56b7114f821a867 编译成功。
+0000000000503ad0 t mov_read_trak
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-16f9cfcf4bd8ff9701d9a873a56b7114f821a867/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-1373-vuln-16f9cfcf4bd8-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 16f9cfcf4bd avcodec/leaddec: support format 0x1006
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 16f9cfcf4bd8ff9701d9a873a56b7114f821a867 ---
+
+>>> 处理 CVE: CVE-2025-1816, 补丁 Commit: 0526535cd584 <<<
+
+--- [BEGIN] Processing Git Ref: 0526535cd584 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0526535cd584
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0526535cd584/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0526535cd584/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-1816-patch-0526535cd584-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 0526535cd584...
+已成功检出 0526535cd584.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0526535cd584/ffmpeg_g 不存在，开始编译...
+0526535cd584 编译成功。
+Error: Function 'audio_element_obu' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0526535cd584/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): 0526535cd58 avformat/iamf_parse: add missing constrains for num_parameters in audio_element_oub()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 0526535cd584 ---, it failed
+错误：编译 CVE CVE-2025-1816 的补丁版本 (0526535cd584) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2025-22919, 补丁 Commit: 1446e37d3d03 <<<
+
+--- [BEGIN] Processing Git Ref: 1446e37d3d03 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1446e37d3d03
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1446e37d3d03/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1446e37d3d03/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22919-patch-1446e37d3d03-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 1446e37d3d03...
+已成功检出 1446e37d3d03.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1446e37d3d03/ffmpeg_g 不存在，开始编译...
+1446e37d3d03 编译成功。
+00000000002086f0 t init_audio
+000000000011a8ad t init_audio
+00000000004d1c70 t init_audio
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1446e37d3d03/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22919-patch-1446e37d3d03-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 1446e37d3d0 avfilter/buffersrc: check for valid sample rate
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 1446e37d3d03 ---
+漏洞版本 (父提交): 658a645e183e16dbb2a26aba2fe22865e856a791
+
+--- [BEGIN] Processing Git Ref: 658a645e183e16dbb2a26aba2fe22865e856a791 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-658a645e183e16dbb2a26aba2fe22865e856a791
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-658a645e183e16dbb2a26aba2fe22865e856a791/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-658a645e183e16dbb2a26aba2fe22865e856a791/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22919-vuln-658a645e183e-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 658a645e183e16dbb2a26aba2fe22865e856a791...
+已成功检出 658a645e183e16dbb2a26aba2fe22865e856a791.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-658a645e183e16dbb2a26aba2fe22865e856a791/ffmpeg_g 不存在，开始编译...
+658a645e183e16dbb2a26aba2fe22865e856a791 编译成功。
+00000000002086e0 t init_audio
+000000000011a8ad t init_audio
+00000000004d1c60 t init_audio
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-658a645e183e16dbb2a26aba2fe22865e856a791/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22919-vuln-658a645e183e-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 658a645e183 tests/checkasm/sw_rgb: remove bogus value truncation in check_yuv2packed1()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 658a645e183e16dbb2a26aba2fe22865e856a791 ---
+
+>>> 处理 CVE: CVE-2025-22920, 补丁 Commit: 4bf784c0e561 <<<
+
+--- [BEGIN] Processing Git Ref: 4bf784c0e561 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4bf784c0e561
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4bf784c0e561/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4bf784c0e561/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22920-patch-4bf784c0e561-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 4bf784c0e561...
+已成功检出 4bf784c0e561.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4bf784c0e561/ffmpeg_g 不存在，开始编译...
+4bf784c0e561 编译成功。
+0000000000490c50 t dump_stream_group
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4bf784c0e561/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22920-patch-4bf784c0e561-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 4bf784c0e56 avformat/dump: print only the actual streams in a tile grid group
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 4bf784c0e561 ---
+漏洞版本 (父提交): c187dd88de7d13762d0d385c1fa19c61ea08a398
+
+--- [BEGIN] Processing Git Ref: c187dd88de7d13762d0d385c1fa19c61ea08a398 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c187dd88de7d13762d0d385c1fa19c61ea08a398
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c187dd88de7d13762d0d385c1fa19c61ea08a398/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c187dd88de7d13762d0d385c1fa19c61ea08a398/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22920-vuln-c187dd88de7d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 c187dd88de7d13762d0d385c1fa19c61ea08a398...
+已成功检出 c187dd88de7d13762d0d385c1fa19c61ea08a398.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c187dd88de7d13762d0d385c1fa19c61ea08a398/ffmpeg_g 不存在，开始编译...
+c187dd88de7d13762d0d385c1fa19c61ea08a398 编译成功。
+0000000000490c50 t dump_stream_group
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c187dd88de7d13762d0d385c1fa19c61ea08a398/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-22920-vuln-c187dd88de7d-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): c187dd88de7 avcodec/opus/parser: reindent after the previous commit
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: c187dd88de7d13762d0d385c1fa19c61ea08a398 ---
+
+>>> 处理 CVE: CVE-2025-25471, 补丁 Commit: fd1772b7475d <<<
+
+--- [BEGIN] Processing Git Ref: fd1772b7475d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-fd1772b7475d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-fd1772b7475d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-fd1772b7475d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-25471-patch-fd1772b7475d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 fd1772b7475d...
+已成功检出 fd1772b7475d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-fd1772b7475d/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-fd1772b7475d/compile.log
+错误：编译 CVE CVE-2025-25471 的补丁版本 (fd1772b7475d) 失败。继续下一个条目。
+
+===== 所有处理完成 =====
+CVE 相关二进制文件应位于: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg
+编译日志和中间构建产物位于以 '/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-' 为前缀的各个目录中。

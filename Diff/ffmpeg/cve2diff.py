@@ -18,17 +18,18 @@ def extract_git_hash(url):
 
 
 
-def download_commit_diff(cve_id, url,CWE_ID):
+def download_commit_diff(cve_id, url):
     """使用wget/curl下载GitHub提交的diff文件"""
     # 配置参数（根据实际情况调整）
     GITHUB_URL = f"{url}.diff"
+    print("downloading:{}",GITHUB_URL)
     git_hash = extract_git_hash(url)
     try:
         # 创建保存目录
         os.makedirs(PROJECT, exist_ok=True)
         
         # 生成文件名（与原始逻辑一致）
-        filename = f"{PROJECT}_{cve_id}_{git_hash[:12]}_{CWE_ID}.diff"
+        filename = f"diff_files/{PROJECT}_{cve_id}_{git_hash[:12]}.diff"
 
         # 方案1: 使用wget下载（推荐）
         cmd = f"wget -q --timeout=10 -O {shlex.quote(filename)} {shlex.quote(GITHUB_URL)}"
@@ -60,7 +61,7 @@ def download_commit_diff(cve_id, url,CWE_ID):
     
     return False
 
-def process_cve_data(json_path, target_cves,CWE_ID):
+def process_cve_data(json_path, target_cves):
     """处理CVE数据"""
     with open(json_path, "r", encoding="utf-8") as f:
         cve_data = json.load(f)
@@ -74,12 +75,12 @@ def process_cve_data(json_path, target_cves,CWE_ID):
             # 遍历所有引用链接
             URLs = []
             for ref in entry.get("references", []):
-                if ref.startswith("https://github.com"):
+                if ref.startswith("https://github.com")  or ref.startswith("https://git.ffmpeg.org/gitweb/ffmpeg.git"):
                         URLs.append(ref)
                     
             # 去重后下载
             for url in list(set(URLs)):
-                if download_commit_diff(entry["id"], url,CWE_ID):
+                if download_commit_diff(entry["id"], url):
                     results.append({
                         "cve": entry["id"],
                         "url": url,
@@ -98,20 +99,17 @@ def process_cve_data(json_path, target_cves,CWE_ID):
 if __name__ == "__main__":
     # 配置参数
     JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
-    with open("../../first_batch.json", "r", encoding="utf-8") as f:
-        cve_data = json.load(f)
+    with open(f"../../testset/{PROJECT}/chosen.txt", "r", encoding="utf-8") as f:
+        cve_data = f.readlines()
     TARGET_CVES =[]
-    for (key,value) in cve_data.items():
+    for key in cve_data:
+        key = key.strip()
         print(f"\nProcessing {key} for {PROJECT}")
         #if entry["id"] not in TARGET_CVES:
-        CWE_ID = key
-        results = process_cve_data(JSON_FILE, value,CWE_ID)
+        results = process_cve_data(JSON_FILE, [key])
     
         # 输出结果统计
         success = sum(1 for r in results if r["status"] == "success")
         print(f"\nTotal: {len(results)}, Success: {success}, Failed: {len(results)-success}")
-        #TARGET_CVES.append(entry["id"])
-
     
-    # 执行处理
     

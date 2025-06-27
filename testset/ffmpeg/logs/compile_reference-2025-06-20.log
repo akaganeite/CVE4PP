@@ -1,0 +1,2382 @@
+===== 开始处理 CVE 条目 =====
+
+>>> 处理 CVE: CVE-2020-21697, 补丁 Commit: cfce16449cb8 <<<
+
+--- [BEGIN] Processing Git Ref: cfce16449cb8 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cfce16449cb8
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cfce16449cb8/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cfce16449cb8/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-21697-patch-cfce16449cb8-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 cfce16449cb8...
+已成功检出 cfce16449cb8.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cfce16449cb8/ffmpeg_g 不存在，开始编译...
+cfce16449cb8 编译成功。
+000000000047bb10 t mpeg_mux_write_packet
+0000000000479e20 t remove_decoded_packets
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cfce16449cb8/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-21697-patch-cfce16449cb8-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: cfce16449cb8 ---
+漏洞版本 (父提交): c9d9c6074689ec11b0ba12dd8c895d3564b06ed7
+
+--- [BEGIN] Processing Git Ref: c9d9c6074689ec11b0ba12dd8c895d3564b06ed7 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c9d9c6074689ec11b0ba12dd8c895d3564b06ed7
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c9d9c6074689ec11b0ba12dd8c895d3564b06ed7/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c9d9c6074689ec11b0ba12dd8c895d3564b06ed7/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-21697-vuln-c9d9c6074689-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 c9d9c6074689ec11b0ba12dd8c895d3564b06ed7...
+已成功检出 c9d9c6074689ec11b0ba12dd8c895d3564b06ed7.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c9d9c6074689ec11b0ba12dd8c895d3564b06ed7/ffmpeg_g 不存在，开始编译...
+c9d9c6074689ec11b0ba12dd8c895d3564b06ed7 编译成功。
+000000000047baf0 t mpeg_mux_write_packet
+0000000000479e20 t remove_decoded_packets
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c9d9c6074689ec11b0ba12dd8c895d3564b06ed7/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-21697-vuln-c9d9c6074689-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: c9d9c6074689ec11b0ba12dd8c895d3564b06ed7 ---
+
+>>> 处理 CVE: CVE-2020-22015, 补丁 Commit: 4c1afa292520 <<<
+
+--- [BEGIN] Processing Git Ref: 4c1afa292520 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22015-patch-4c1afa292520-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 4c1afa292520...
+已成功检出 4c1afa292520.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520/ffmpeg_g 不存在，开始编译...
+4c1afa292520 编译成功。
+000000000046a6e0 t mov_write_video_tag
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22015-patch-4c1afa292520-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 4c1afa292520 ---
+漏洞版本 (父提交): 38d18fb57863bb9c54e68ae44aa780c5c282a184
+
+--- [BEGIN] Processing Git Ref: 38d18fb57863bb9c54e68ae44aa780c5c282a184 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-38d18fb57863bb9c54e68ae44aa780c5c282a184
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-38d18fb57863bb9c54e68ae44aa780c5c282a184/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-38d18fb57863bb9c54e68ae44aa780c5c282a184/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22015-vuln-38d18fb57863-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 38d18fb57863bb9c54e68ae44aa780c5c282a184...
+已成功检出 38d18fb57863bb9c54e68ae44aa780c5c282a184.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-38d18fb57863bb9c54e68ae44aa780c5c282a184/ffmpeg_g 不存在，开始编译...
+38d18fb57863bb9c54e68ae44aa780c5c282a184 编译成功。
+000000000046a6e0 t mov_write_video_tag
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-38d18fb57863bb9c54e68ae44aa780c5c282a184/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22015-vuln-38d18fb57863-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 38d18fb57863bb9c54e68ae44aa780c5c282a184 ---
+
+>>> 处理 CVE: CVE-2020-22016, 补丁 Commit: 58aa0ed8f107 <<<
+
+--- [BEGIN] Processing Git Ref: 58aa0ed8f107 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58aa0ed8f107
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58aa0ed8f107/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58aa0ed8f107/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22016-patch-58aa0ed8f107-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 58aa0ed8f107...
+已成功检出 58aa0ed8f107.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58aa0ed8f107/ffmpeg_g 不存在，开始编译...
+58aa0ed8f107 编译成功。
+00000000003e8af0 t mov_write_header
+Error: Function 'mov_create_dvd_sub_decoder_specific_info' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58aa0ed8f107/ffmpeg_g
+00000000003e6260 T ff_mov_write_packet
+00000000003e8380 t mov_write_trailer
+错误：编译 CVE CVE-2020-22016 的补丁版本 (58aa0ed8f107) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22017, 补丁 Commit: d4d6b7b0355f <<<
+
+--- [BEGIN] Processing Git Ref: d4d6b7b0355f ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22017-patch-d4d6b7b0355f-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 d4d6b7b0355f...
+已成功检出 d4d6b7b0355f.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f/ffmpeg_g 不存在，开始编译...
+d4d6b7b0355f 编译成功。
+00000000001fd4f0 t oscilloscope_filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22017-patch-d4d6b7b0355f-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: d4d6b7b0355f ---
+漏洞版本 (父提交): ed78ca41232eb6c041d08972f03c1b453269e81e
+
+--- [BEGIN] Processing Git Ref: ed78ca41232eb6c041d08972f03c1b453269e81e ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ed78ca41232eb6c041d08972f03c1b453269e81e
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ed78ca41232eb6c041d08972f03c1b453269e81e/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ed78ca41232eb6c041d08972f03c1b453269e81e/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22017-vuln-ed78ca41232e-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 ed78ca41232eb6c041d08972f03c1b453269e81e...
+已成功检出 ed78ca41232eb6c041d08972f03c1b453269e81e.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ed78ca41232eb6c041d08972f03c1b453269e81e/ffmpeg_g 不存在，开始编译...
+ed78ca41232eb6c041d08972f03c1b453269e81e 编译成功。
+00000000001fd4f0 t oscilloscope_filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ed78ca41232eb6c041d08972f03c1b453269e81e/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22017-vuln-ed78ca41232e-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: ed78ca41232eb6c041d08972f03c1b453269e81e ---
+
+>>> 处理 CVE: CVE-2020-22019, 补丁 Commit: 82ad1b76751b <<<
+
+--- [BEGIN] Processing Git Ref: 82ad1b76751b ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751b
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751b/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751b/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22019-patch-82ad1b76751b-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 82ad1b76751b...
+已成功检出 82ad1b76751b.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751b/ffmpeg_g 不存在，开始编译...
+82ad1b76751b 编译成功。
+00000000002fd4a0 T ff_vmafmotion_init
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751b/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22019-patch-82ad1b76751b-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 82ad1b76751b ---
+漏洞版本 (父提交): 4c1afa292520329eecd1cc7631bc59a8cca95c46
+
+--- [BEGIN] Processing Git Ref: 4c1afa292520329eecd1cc7631bc59a8cca95c46 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520329eecd1cc7631bc59a8cca95c46
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520329eecd1cc7631bc59a8cca95c46/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520329eecd1cc7631bc59a8cca95c46/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22019-vuln-4c1afa292520-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 4c1afa292520329eecd1cc7631bc59a8cca95c46...
+已成功检出 4c1afa292520329eecd1cc7631bc59a8cca95c46.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520329eecd1cc7631bc59a8cca95c46/ffmpeg_g 不存在，开始编译...
+4c1afa292520329eecd1cc7631bc59a8cca95c46 编译成功。
+00000000002fd4a0 T ff_vmafmotion_init
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4c1afa292520329eecd1cc7631bc59a8cca95c46/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22019-vuln-4c1afa292520-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 4c1afa292520329eecd1cc7631bc59a8cca95c46 ---
+
+>>> 处理 CVE: CVE-2020-22020, 补丁 Commit: ce5274c1385d <<<
+
+--- [BEGIN] Processing Git Ref: ce5274c1385d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ce5274c1385d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ce5274c1385d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ce5274c1385d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22020-patch-ce5274c1385d-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 ce5274c1385d...
+已成功检出 ce5274c1385d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ce5274c1385d/ffmpeg_g 不存在，开始编译...
+ce5274c1385d 编译成功。
+00000000001a0ea0 t config_input
+00000000001a1fb0 t config_input
+00000000001a2620 t config_input
+00000000001b48f0 t config_input
+00000000001c5820 t config_input
+00000000001cd610 t config_input
+00000000001ced40 t config_input
+00000000001d38b0 t config_input
+00000000001d4f00 t config_input
+00000000001e2150 t config_input
+00000000000eff69 t config_input
+00000000001e7f40 t config_input
+00000000001f4a90 t config_input
+00000000001f7dd0 t config_input
+00000000001f9400 t config_input
+0000000000204c50 t config_input
+0000000000206a90 t config_input
+00000000002082c0 t config_input
+000000000020a320 t config_input
+000000000020d1c0 t config_input
+000000000020e5e0 t config_input
+000000000020e6a0 t config_input
+000000000020ffe0 t config_input
+0000000000210520 t config_input
+0000000000210d70 t config_input
+00000000002134f0 t config_input
+0000000000214ef0 t config_input
+0000000000214fd0 t config_input
+0000000000219790 t config_input
+000000000021b8c0 t config_input
+000000000021bac0 t config_input
+000000000021cfa0 t config_input
+000000000021d1d0 t config_input
+000000000023bd30 t config_input
+000000000023e7d0 t config_input
+00000000002466e0 t config_input
+0000000000257350 t config_input
+0000000000257e80 t config_input
+00000000002582d0 t config_input
+0000000000258e20 t config_input
+000000000025b960 t config_input
+00000000002608b0 t config_input
+0000000000261760 t config_input
+00000000002622d0 t config_input
+000000000027a240 t config_input
+000000000027c060 t config_input
+000000000027cc50 t config_input
+000000000027e9f0 t config_input
+0000000000280690 t config_input
+0000000000291b80 t config_input
+0000000000292640 t config_input
+0000000000293170 t config_input
+0000000000294a60 t config_input
+00000000002a8a50 t config_input
+00000000000f7603 t config_input
+00000000002ae660 t config_input
+00000000002bff20 t config_input
+00000000002d86d0 t config_input
+00000000002d8b30 t config_input
+00000000002da8b0 t config_input
+00000000002db0b0 t config_input
+00000000002dbb90 t config_input
+00000000002dca00 t config_input
+00000000002e3040 t config_input
+00000000002e72d0 t config_input
+00000000002f0880 t config_input
+00000000002f54e0 t config_input
+00000000002f8ad0 t config_input
+0000000000309740 t config_input
+000000000030a390 t config_input
+000000000030a9b0 t config_input
+00000000000fe8f2 t config_input
+0000000000310090 t config_input
+00000000003107e0 t config_input
+0000000000310dd0 t config_input
+0000000000311580 t config_input
+0000000000314750 t config_input
+0000000000318cf0 t config_input
+000000000031bf50 t config_input
+000000000031ce30 t config_input
+000000000031f5d0 t config_input
+0000000000320410 t config_input
+0000000000321180 t config_input
+0000000000321450 t config_input
+0000000000324e50 t config_input
+0000000000329870 t config_input
+0000000000329bc0 t config_input
+00000000001a0c00 t config_input
+00000000001d5550 t config_input
+00000000001d68d0 t config_input
+00000000001e79c0 t config_input
+00000000001e9c10 t config_input
+00000000001f03d0 t config_input
+00000000001fcce0 t config_input
+00000000002180d0 t config_input
+0000000000218f40 t config_input
+000000000021e5a0 t config_input
+000000000023d0c0 t config_input
+000000000025ff20 t config_input
+000000000026fd90 t config_input
+000000000027e160 t config_input
+00000000002821a0 t config_input
+0000000000285b10 t config_input
+00000000002864a0 t config_input
+00000000002ab0f0 t config_input
+00000000002d7da0 t config_input
+00000000002f7c00 t config_input
+00000000002fca90 t config_input
+0000000000309b30 t config_input
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ce5274c1385d/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22020-patch-ce5274c1385d-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: ce5274c1385d ---
+漏洞版本 (父提交): c8f3915f8d39dcb20ba79bb955b2d0899f0b0147
+
+--- [BEGIN] Processing Git Ref: c8f3915f8d39dcb20ba79bb955b2d0899f0b0147 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c8f3915f8d39dcb20ba79bb955b2d0899f0b0147
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c8f3915f8d39dcb20ba79bb955b2d0899f0b0147/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c8f3915f8d39dcb20ba79bb955b2d0899f0b0147/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22020-vuln-c8f3915f8d39-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 c8f3915f8d39dcb20ba79bb955b2d0899f0b0147...
+已成功检出 c8f3915f8d39dcb20ba79bb955b2d0899f0b0147.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c8f3915f8d39dcb20ba79bb955b2d0899f0b0147/ffmpeg_g 不存在，开始编译...
+c8f3915f8d39dcb20ba79bb955b2d0899f0b0147 编译成功。
+00000000001a0ea0 t config_input
+00000000001a1fb0 t config_input
+00000000001a2620 t config_input
+00000000001b48f0 t config_input
+00000000001c5820 t config_input
+00000000001cd610 t config_input
+00000000001ced40 t config_input
+00000000001d38b0 t config_input
+00000000001d4f00 t config_input
+00000000001e2150 t config_input
+00000000000eff69 t config_input
+00000000001e7f40 t config_input
+00000000001f4a90 t config_input
+00000000001f7dd0 t config_input
+00000000001f9400 t config_input
+0000000000204c50 t config_input
+0000000000206a90 t config_input
+00000000002082c0 t config_input
+000000000020a320 t config_input
+000000000020d1c0 t config_input
+000000000020e5e0 t config_input
+000000000020e6a0 t config_input
+000000000020ffe0 t config_input
+0000000000210520 t config_input
+0000000000210d70 t config_input
+00000000002134f0 t config_input
+0000000000214ef0 t config_input
+0000000000214fd0 t config_input
+0000000000219780 t config_input
+000000000021b8b0 t config_input
+000000000021bab0 t config_input
+000000000021cf90 t config_input
+000000000021d1c0 t config_input
+000000000023bd20 t config_input
+000000000023e7c0 t config_input
+00000000002466d0 t config_input
+0000000000257340 t config_input
+0000000000257e70 t config_input
+00000000002582c0 t config_input
+0000000000258e10 t config_input
+000000000025b950 t config_input
+00000000002608a0 t config_input
+0000000000261750 t config_input
+00000000002622c0 t config_input
+000000000027a230 t config_input
+000000000027c050 t config_input
+000000000027cc40 t config_input
+000000000027e9e0 t config_input
+0000000000280680 t config_input
+0000000000291b70 t config_input
+0000000000292630 t config_input
+0000000000293160 t config_input
+0000000000294a50 t config_input
+00000000002a8a40 t config_input
+00000000000f7603 t config_input
+00000000002ae650 t config_input
+00000000002bff10 t config_input
+00000000002d86c0 t config_input
+00000000002d8b20 t config_input
+00000000002da8a0 t config_input
+00000000002db0a0 t config_input
+00000000002dbb80 t config_input
+00000000002dc9f0 t config_input
+00000000002e3030 t config_input
+00000000002e72c0 t config_input
+00000000002f0870 t config_input
+00000000002f54d0 t config_input
+00000000002f8ac0 t config_input
+0000000000309730 t config_input
+000000000030a380 t config_input
+000000000030a9a0 t config_input
+00000000000fe8f2 t config_input
+0000000000310080 t config_input
+00000000003107d0 t config_input
+0000000000310dc0 t config_input
+0000000000311570 t config_input
+0000000000314740 t config_input
+0000000000318ce0 t config_input
+000000000031bf40 t config_input
+000000000031ce20 t config_input
+000000000031f5c0 t config_input
+0000000000320400 t config_input
+0000000000321170 t config_input
+0000000000321440 t config_input
+0000000000324e40 t config_input
+0000000000329860 t config_input
+0000000000329bb0 t config_input
+00000000001a0c00 t config_input
+00000000001d5550 t config_input
+00000000001d68d0 t config_input
+00000000001e79c0 t config_input
+00000000001e9c10 t config_input
+00000000001f03d0 t config_input
+00000000001fcce0 t config_input
+00000000002180c0 t config_input
+0000000000218f30 t config_input
+000000000021e590 t config_input
+000000000023d0b0 t config_input
+000000000025ff10 t config_input
+000000000026fd80 t config_input
+000000000027e150 t config_input
+0000000000282190 t config_input
+0000000000285b00 t config_input
+0000000000286490 t config_input
+00000000002ab0e0 t config_input
+00000000002d7d90 t config_input
+00000000002f7bf0 t config_input
+00000000002fca80 t config_input
+0000000000309b20 t config_input
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c8f3915f8d39dcb20ba79bb955b2d0899f0b0147/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22020-vuln-c8f3915f8d39-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: c8f3915f8d39dcb20ba79bb955b2d0899f0b0147 ---
+
+>>> 处理 CVE: CVE-2020-22021, 补丁 Commit: 7971f62120a5 <<<
+
+--- [BEGIN] Processing Git Ref: 7971f62120a5 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7971f62120a5
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7971f62120a5/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7971f62120a5/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22021-patch-7971f62120a5-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 7971f62120a5...
+已成功检出 7971f62120a5.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7971f62120a5/ffmpeg_g 不存在，开始编译...
+7971f62120a5 编译成功。
+000000000032fd90 t filter_edges
+0000000000330d20 t filter_edges_16bit
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7971f62120a5/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22021-patch-7971f62120a5-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 7971f62120a5 ---
+漏洞版本 (父提交): 82ad1b76751bcfad5005440db48c46a4de5d6f02
+
+--- [BEGIN] Processing Git Ref: 82ad1b76751bcfad5005440db48c46a4de5d6f02 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751bcfad5005440db48c46a4de5d6f02
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751bcfad5005440db48c46a4de5d6f02/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751bcfad5005440db48c46a4de5d6f02/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22021-vuln-82ad1b76751b-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 82ad1b76751bcfad5005440db48c46a4de5d6f02...
+已成功检出 82ad1b76751bcfad5005440db48c46a4de5d6f02.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751bcfad5005440db48c46a4de5d6f02/ffmpeg_g 不存在，开始编译...
+82ad1b76751bcfad5005440db48c46a4de5d6f02 编译成功。
+000000000032fd90 t filter_edges
+0000000000330e00 t filter_edges_16bit
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-82ad1b76751bcfad5005440db48c46a4de5d6f02/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22021-vuln-82ad1b76751b-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 82ad1b76751bcfad5005440db48c46a4de5d6f02 ---
+
+>>> 处理 CVE: CVE-2020-22022, 补丁 Commit: 07050d7bdc32 <<<
+
+--- [BEGIN] Processing Git Ref: 07050d7bdc32 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-07050d7bdc32
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-07050d7bdc32/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-07050d7bdc32/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22022-patch-07050d7bdc32-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 07050d7bdc32...
+已成功检出 07050d7bdc32.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-07050d7bdc32/ffmpeg_g 不存在，开始编译...
+07050d7bdc32 编译成功。
+000000000019f0e0 t filter_frame
+00000000001a4b00 t filter_frame
+00000000001bc2b0 t filter_frame
+00000000001bc6c0 t filter_frame
+00000000001be130 t filter_frame
+00000000001c1b30 t filter_frame
+00000000001c20b0 t filter_frame
+00000000001c24e0 t filter_frame
+00000000001c2ee0 t filter_frame
+00000000001c37d0 t filter_frame
+00000000001c3ba0 t filter_frame
+00000000001cb6b0 t filter_frame
+00000000001cff20 t filter_frame
+00000000001d0f00 t filter_frame
+00000000001d2280 t filter_frame
+00000000001df240 t filter_frame
+00000000001e26a0 t filter_frame
+00000000001e5760 t filter_frame
+00000000001eb6d0 t filter_frame
+00000000001ec570 t filter_frame
+00000000001ece10 t filter_frame
+00000000001f04b0 t filter_frame
+00000000001f2210 t filter_frame
+00000000001f4c20 t filter_frame
+00000000001f64f0 t filter_frame
+00000000002025d0 t filter_frame
+0000000000204350 t filter_frame
+0000000000205750 t filter_frame
+0000000000207e90 t filter_frame
+0000000000208490 t filter_frame
+0000000000208750 t filter_frame
+00000000002098c0 t filter_frame
+000000000020a110 t filter_frame
+000000000020a430 t filter_frame
+000000000020bec0 t filter_frame
+000000000020c8d0 t filter_frame
+000000000020d390 t filter_frame
+000000000020d8e0 t filter_frame
+000000000020e1b0 t filter_frame
+000000000020e800 t filter_frame
+000000000020f9f0 t filter_frame
+00000000002113f0 t filter_frame
+0000000000211ce0 t filter_frame
+00000000002145d0 t filter_frame
+0000000000216d60 t filter_frame
+0000000000219d50 t filter_frame
+000000000021a5e0 t filter_frame
+0000000000236560 t filter_frame
+0000000000236850 t filter_frame
+0000000000239fa0 t filter_frame
+000000000023ac30 t filter_frame
+000000000023b0e0 t filter_frame
+000000000023b690 t filter_frame
+000000000023bbc0 t filter_frame
+000000000023c590 t filter_frame
+0000000000245490 t filter_frame
+0000000000256260 t filter_frame
+000000000025aaa0 t filter_frame
+000000000025dcd0 t filter_frame
+000000000025eaf0 t filter_frame
+000000000025f6c0 t filter_frame
+000000000026f0f0 t filter_frame
+00000000002775e0 t filter_frame
+0000000000278260 t filter_frame
+0000000000278d30 t filter_frame
+000000000027a560 t filter_frame
+000000000027bbe0 t filter_frame
+000000000027c6e0 t filter_frame
+000000000027c7f0 t filter_frame
+0000000000280050 t filter_frame
+0000000000281580 t filter_frame
+00000000002827a0 t filter_frame
+0000000000286e30 t filter_frame
+0000000000287f60 t filter_frame
+000000000028afa0 t filter_frame
+000000000028ca20 t filter_frame
+000000000028edf0 t filter_frame
+000000000028f900 t filter_frame
+0000000000290720 t filter_frame
+0000000000290a80 t filter_frame
+0000000000290d20 t filter_frame
+0000000000294030 t filter_frame
+000000000029dcb0 t filter_frame
+00000000002a72c0 t filter_frame
+00000000002a8470 t filter_frame
+00000000002a8bc0 t filter_frame
+00000000002a92e0 t filter_frame
+00000000002aa250 t filter_frame
+00000000002aaf60 t filter_frame
+00000000002be260 t filter_frame
+00000000002be860 t filter_frame
+00000000002beaf0 t filter_frame
+00000000002d4c10 t filter_frame
+00000000002d54f0 t filter_frame
+00000000002d5ec0 t filter_frame
+00000000002d7ec0 t filter_frame
+00000000002d8e20 t filter_frame
+00000000002d97c0 t filter_frame
+00000000002d9930 t filter_frame
+00000000002db290 t filter_frame
+00000000002e91f0 t filter_frame
+00000000002eac50 t filter_frame
+00000000002edbd0 t filter_frame
+00000000002f0cb0 t filter_frame
+00000000002f2b30 t filter_frame
+00000000002f3e40 t filter_frame
+00000000002f4b70 t filter_frame
+00000000002f58c0 t filter_frame
+00000000002f5dc0 t filter_frame
+00000000002f5e20 t filter_frame
+00000000002f8a10 t filter_frame
+00000000002ff930 t filter_frame
+0000000000300db0 t filter_frame
+00000000003027d0 t filter_frame
+0000000000302b00 t filter_frame
+0000000000302f30 t filter_frame
+0000000000303cc0 t filter_frame
+0000000000304850 t filter_frame
+00000000003049a0 t filter_frame
+0000000000304e80 t filter_frame
+0000000000305730 t filter_frame
+0000000000308740 t filter_frame
+000000000030ad60 t filter_frame
+000000000030b3e0 t filter_frame
+000000000030c390 t filter_frame
+0000000000312250 t filter_frame
+00000000003146b0 t filter_frame
+00000000003155d0 t filter_frame
+0000000000315790 t filter_frame
+00000000003173c0 t filter_frame
+0000000000319c60 t filter_frame
+000000000031a960 t filter_frame
+000000000031b630 t filter_frame
+0000000000323e30 t filter_frame
+0000000000324130 t filter_frame
+0000000000324870 t filter_frame
+0000000000324f40 t filter_frame
+00000000001c2310 t filter_frame
+00000000001cb5c0 t filter_frame
+00000000001d0210 t filter_frame
+00000000001d24d0 t filter_frame
+00000000001d2860 t filter_frame
+00000000001d3f90 t filter_frame
+00000000001e4d80 t filter_frame
+00000000001e73c0 t filter_frame
+00000000001e86b0 t filter_frame
+00000000001ed610 t filter_frame
+00000000001f4a70 t filter_frame
+00000000001fbd70 t filter_frame
+00000000002051c0 t filter_frame
+0000000000211b20 t filter_frame
+00000000002153d0 t filter_frame
+0000000000216570 t filter_frame
+0000000000218d10 t filter_frame
+000000000021b100 t filter_frame
+000000000021ba60 t filter_frame
+000000000023a680 t filter_frame
+00000000002558a0 t filter_frame
+000000000025d3c0 t filter_frame
+000000000026d8e0 t filter_frame
+000000000027b670 t filter_frame
+000000000027fb20 t filter_frame
+0000000000282ef0 t filter_frame
+0000000000283660 t filter_frame
+0000000000286f50 t filter_frame
+0000000000287e10 t filter_frame
+000000000028f560 t filter_frame
+0000000000293080 t filter_frame
+00000000002a82f0 t filter_frame
+00000000002ca850 t filter_frame
+00000000002d5300 t filter_frame
+00000000002d5420 t filter_frame
+00000000002f5080 t filter_frame
+00000000002f71a0 t filter_frame
+00000000003040d0 t filter_frame
+0000000000307400 t filter_frame
+0000000000307750 t filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-07050d7bdc32/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22022-patch-07050d7bdc32-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 07050d7bdc32 ---
+漏洞版本 (父提交): 99f8d32129dd233d4eb2efa44678a0bc44869f23
+
+--- [BEGIN] Processing Git Ref: 99f8d32129dd233d4eb2efa44678a0bc44869f23 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99f8d32129dd233d4eb2efa44678a0bc44869f23
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99f8d32129dd233d4eb2efa44678a0bc44869f23/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99f8d32129dd233d4eb2efa44678a0bc44869f23/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22022-vuln-99f8d32129dd-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 99f8d32129dd233d4eb2efa44678a0bc44869f23...
+已成功检出 99f8d32129dd233d4eb2efa44678a0bc44869f23.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99f8d32129dd233d4eb2efa44678a0bc44869f23/ffmpeg_g 不存在，开始编译...
+99f8d32129dd233d4eb2efa44678a0bc44869f23 编译成功。
+000000000019f0e0 t filter_frame
+00000000001a4b00 t filter_frame
+00000000001bc2b0 t filter_frame
+00000000001bc6c0 t filter_frame
+00000000001be130 t filter_frame
+00000000001c1b30 t filter_frame
+00000000001c20b0 t filter_frame
+00000000001c24e0 t filter_frame
+00000000001c2ee0 t filter_frame
+00000000001c37d0 t filter_frame
+00000000001c3ba0 t filter_frame
+00000000001cb6b0 t filter_frame
+00000000001cff20 t filter_frame
+00000000001d0f00 t filter_frame
+00000000001d2280 t filter_frame
+00000000001df240 t filter_frame
+00000000001e26a0 t filter_frame
+00000000001e5760 t filter_frame
+00000000001eb6d0 t filter_frame
+00000000001ec570 t filter_frame
+00000000001ece10 t filter_frame
+00000000001f04b0 t filter_frame
+00000000001f2210 t filter_frame
+00000000001f4c20 t filter_frame
+00000000001f64f0 t filter_frame
+00000000002025d0 t filter_frame
+0000000000204350 t filter_frame
+0000000000205750 t filter_frame
+0000000000207e90 t filter_frame
+0000000000208490 t filter_frame
+0000000000208750 t filter_frame
+00000000002098c0 t filter_frame
+000000000020a110 t filter_frame
+000000000020a430 t filter_frame
+000000000020bec0 t filter_frame
+000000000020c8d0 t filter_frame
+000000000020d390 t filter_frame
+000000000020d8e0 t filter_frame
+000000000020e1b0 t filter_frame
+000000000020e800 t filter_frame
+000000000020f9f0 t filter_frame
+00000000002113f0 t filter_frame
+0000000000211ce0 t filter_frame
+00000000002145d0 t filter_frame
+0000000000216d40 t filter_frame
+0000000000219d30 t filter_frame
+000000000021a5c0 t filter_frame
+0000000000236540 t filter_frame
+0000000000236830 t filter_frame
+0000000000239f80 t filter_frame
+000000000023ac10 t filter_frame
+000000000023b0c0 t filter_frame
+000000000023b670 t filter_frame
+000000000023bba0 t filter_frame
+000000000023c570 t filter_frame
+0000000000245470 t filter_frame
+0000000000256240 t filter_frame
+000000000025aa80 t filter_frame
+000000000025dcb0 t filter_frame
+000000000025ead0 t filter_frame
+000000000025f6a0 t filter_frame
+000000000026f0d0 t filter_frame
+00000000002775c0 t filter_frame
+0000000000278240 t filter_frame
+0000000000278d10 t filter_frame
+000000000027a540 t filter_frame
+000000000027bbc0 t filter_frame
+000000000027c6c0 t filter_frame
+000000000027c7d0 t filter_frame
+0000000000280030 t filter_frame
+0000000000281560 t filter_frame
+0000000000282780 t filter_frame
+0000000000286e10 t filter_frame
+0000000000287f40 t filter_frame
+000000000028af80 t filter_frame
+000000000028ca00 t filter_frame
+000000000028edd0 t filter_frame
+000000000028f8e0 t filter_frame
+0000000000290700 t filter_frame
+0000000000290a60 t filter_frame
+0000000000290d00 t filter_frame
+0000000000294010 t filter_frame
+000000000029dc90 t filter_frame
+00000000002a72a0 t filter_frame
+00000000002a8450 t filter_frame
+00000000002a8ba0 t filter_frame
+00000000002a92c0 t filter_frame
+00000000002aa230 t filter_frame
+00000000002aaf40 t filter_frame
+00000000002be240 t filter_frame
+00000000002be840 t filter_frame
+00000000002bead0 t filter_frame
+00000000002d4bf0 t filter_frame
+00000000002d54d0 t filter_frame
+00000000002d5ea0 t filter_frame
+00000000002d7ea0 t filter_frame
+00000000002d8e00 t filter_frame
+00000000002d97a0 t filter_frame
+00000000002d9910 t filter_frame
+00000000002db270 t filter_frame
+00000000002e91d0 t filter_frame
+00000000002eac30 t filter_frame
+00000000002edbb0 t filter_frame
+00000000002f0c90 t filter_frame
+00000000002f2b10 t filter_frame
+00000000002f3e20 t filter_frame
+00000000002f4b50 t filter_frame
+00000000002f58a0 t filter_frame
+00000000002f5da0 t filter_frame
+00000000002f5e00 t filter_frame
+00000000002f89f0 t filter_frame
+00000000002ff910 t filter_frame
+0000000000300d90 t filter_frame
+00000000003027b0 t filter_frame
+0000000000302ae0 t filter_frame
+0000000000302f10 t filter_frame
+0000000000303ca0 t filter_frame
+0000000000304830 t filter_frame
+0000000000304980 t filter_frame
+0000000000304e60 t filter_frame
+0000000000305710 t filter_frame
+0000000000308720 t filter_frame
+000000000030ad40 t filter_frame
+000000000030b3c0 t filter_frame
+000000000030c370 t filter_frame
+0000000000312230 t filter_frame
+0000000000314690 t filter_frame
+00000000003155b0 t filter_frame
+0000000000315770 t filter_frame
+00000000003173a0 t filter_frame
+0000000000319c40 t filter_frame
+000000000031a940 t filter_frame
+000000000031b610 t filter_frame
+0000000000323e10 t filter_frame
+0000000000324110 t filter_frame
+0000000000324850 t filter_frame
+0000000000324f20 t filter_frame
+00000000001c2310 t filter_frame
+00000000001cb5c0 t filter_frame
+00000000001d0210 t filter_frame
+00000000001d24d0 t filter_frame
+00000000001d2860 t filter_frame
+00000000001d3f90 t filter_frame
+00000000001e4d80 t filter_frame
+00000000001e73c0 t filter_frame
+00000000001e86b0 t filter_frame
+00000000001ed610 t filter_frame
+00000000001f4a70 t filter_frame
+00000000001fbd70 t filter_frame
+00000000002051c0 t filter_frame
+0000000000211b20 t filter_frame
+00000000002153d0 t filter_frame
+0000000000216550 t filter_frame
+0000000000218cf0 t filter_frame
+000000000021b0e0 t filter_frame
+000000000021ba40 t filter_frame
+000000000023a660 t filter_frame
+0000000000255880 t filter_frame
+000000000025d3a0 t filter_frame
+000000000026d8c0 t filter_frame
+000000000027b650 t filter_frame
+000000000027fb00 t filter_frame
+0000000000282ed0 t filter_frame
+0000000000283640 t filter_frame
+0000000000286f30 t filter_frame
+0000000000287df0 t filter_frame
+000000000028f540 t filter_frame
+0000000000293060 t filter_frame
+00000000002a82d0 t filter_frame
+00000000002ca830 t filter_frame
+00000000002d52e0 t filter_frame
+00000000002d5400 t filter_frame
+00000000002f5060 t filter_frame
+00000000002f7180 t filter_frame
+00000000003040b0 t filter_frame
+00000000003073e0 t filter_frame
+0000000000307730 t filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99f8d32129dd233d4eb2efa44678a0bc44869f23/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22022-vuln-99f8d32129dd-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 99f8d32129dd233d4eb2efa44678a0bc44869f23 ---
+
+>>> 处理 CVE: CVE-2020-22023, 补丁 Commit: 0b5672387418 <<<
+
+--- [BEGIN] Processing Git Ref: 0b5672387418 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b5672387418
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b5672387418/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b5672387418/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22023-patch-0b5672387418-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 0b5672387418...
+已成功检出 0b5672387418.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b5672387418/ffmpeg_g 不存在，开始编译...
+0b5672387418 编译成功。
+000000000019f060 t filter_frame
+00000000001a4a80 t filter_frame
+00000000001bc230 t filter_frame
+00000000001bc640 t filter_frame
+00000000001be0b0 t filter_frame
+00000000001c1ab0 t filter_frame
+00000000001c2030 t filter_frame
+00000000001c2460 t filter_frame
+00000000001c2e60 t filter_frame
+00000000001c3750 t filter_frame
+00000000001c3b20 t filter_frame
+00000000001cb630 t filter_frame
+00000000001cfea0 t filter_frame
+00000000001d0e80 t filter_frame
+00000000001d2200 t filter_frame
+00000000001df1c0 t filter_frame
+00000000001e25e0 t filter_frame
+00000000001e56a0 t filter_frame
+00000000001eb610 t filter_frame
+00000000001ec480 t filter_frame
+00000000001ecd20 t filter_frame
+00000000001f03c0 t filter_frame
+00000000001f20c0 t filter_frame
+00000000001f4ad0 t filter_frame
+00000000001f63a0 t filter_frame
+0000000000202480 t filter_frame
+0000000000204200 t filter_frame
+0000000000205600 t filter_frame
+0000000000207d40 t filter_frame
+0000000000208340 t filter_frame
+0000000000208600 t filter_frame
+0000000000209770 t filter_frame
+0000000000209fc0 t filter_frame
+000000000020a2e0 t filter_frame
+000000000020bd70 t filter_frame
+000000000020c780 t filter_frame
+000000000020d230 t filter_frame
+000000000020d780 t filter_frame
+000000000020e050 t filter_frame
+000000000020e6a0 t filter_frame
+000000000020f890 t filter_frame
+0000000000211290 t filter_frame
+0000000000211b80 t filter_frame
+0000000000214470 t filter_frame
+0000000000216be0 t filter_frame
+0000000000219bd0 t filter_frame
+000000000021a460 t filter_frame
+00000000002363e0 t filter_frame
+00000000002366d0 t filter_frame
+0000000000239e20 t filter_frame
+000000000023aab0 t filter_frame
+000000000023af60 t filter_frame
+000000000023b510 t filter_frame
+000000000023ba40 t filter_frame
+000000000023c410 t filter_frame
+0000000000245310 t filter_frame
+00000000002560e0 t filter_frame
+000000000025a920 t filter_frame
+000000000025db50 t filter_frame
+000000000025e970 t filter_frame
+000000000025f540 t filter_frame
+000000000026ef70 t filter_frame
+0000000000277460 t filter_frame
+00000000002780e0 t filter_frame
+0000000000278bb0 t filter_frame
+000000000027a3e0 t filter_frame
+000000000027ba60 t filter_frame
+000000000027c560 t filter_frame
+000000000027c670 t filter_frame
+000000000027fed0 t filter_frame
+0000000000281400 t filter_frame
+0000000000282620 t filter_frame
+0000000000286cb0 t filter_frame
+0000000000287de0 t filter_frame
+000000000028adf0 t filter_frame
+000000000028c870 t filter_frame
+000000000028ec40 t filter_frame
+000000000028f750 t filter_frame
+0000000000290570 t filter_frame
+00000000002908d0 t filter_frame
+0000000000290b70 t filter_frame
+0000000000293e80 t filter_frame
+000000000029db00 t filter_frame
+00000000002a7110 t filter_frame
+00000000002a82c0 t filter_frame
+00000000002a8a10 t filter_frame
+00000000002a9130 t filter_frame
+00000000002aa0a0 t filter_frame
+00000000002aadb0 t filter_frame
+00000000002bae10 t filter_frame
+00000000002bb410 t filter_frame
+00000000002bb6a0 t filter_frame
+00000000002d17c0 t filter_frame
+00000000002d20a0 t filter_frame
+00000000002d2a70 t filter_frame
+00000000002d4a70 t filter_frame
+00000000002d59d0 t filter_frame
+00000000002d6370 t filter_frame
+00000000002d64e0 t filter_frame
+00000000002d7e40 t filter_frame
+00000000002e5da0 t filter_frame
+00000000002e7800 t filter_frame
+00000000002ea780 t filter_frame
+00000000002ed860 t filter_frame
+00000000002ef6e0 t filter_frame
+00000000002f09f0 t filter_frame
+00000000002f1720 t filter_frame
+00000000002f2470 t filter_frame
+00000000002f2970 t filter_frame
+00000000002f29d0 t filter_frame
+00000000002f55c0 t filter_frame
+00000000002fc4e0 t filter_frame
+00000000002fd960 t filter_frame
+00000000002ff380 t filter_frame
+00000000002ff6b0 t filter_frame
+00000000002ffae0 t filter_frame
+0000000000300870 t filter_frame
+0000000000301400 t filter_frame
+0000000000301550 t filter_frame
+0000000000301a30 t filter_frame
+00000000003022e0 t filter_frame
+00000000003052f0 t filter_frame
+0000000000307910 t filter_frame
+0000000000307f90 t filter_frame
+0000000000308f40 t filter_frame
+000000000030ee00 t filter_frame
+0000000000311260 t filter_frame
+0000000000312180 t filter_frame
+0000000000312340 t filter_frame
+0000000000313f70 t filter_frame
+0000000000316810 t filter_frame
+0000000000317510 t filter_frame
+00000000003181e0 t filter_frame
+00000000003209e0 t filter_frame
+0000000000320ce0 t filter_frame
+0000000000321420 t filter_frame
+0000000000321af0 t filter_frame
+00000000001c2290 t filter_frame
+00000000001cb540 t filter_frame
+00000000001d0190 t filter_frame
+00000000001d2450 t filter_frame
+00000000001d27e0 t filter_frame
+00000000001d3f10 t filter_frame
+00000000001e4cc0 t filter_frame
+00000000001e7300 t filter_frame
+00000000001e85f0 t filter_frame
+00000000001ed520 t filter_frame
+00000000001f4920 t filter_frame
+00000000001fbc20 t filter_frame
+0000000000205070 t filter_frame
+00000000002119c0 t filter_frame
+0000000000215270 t filter_frame
+00000000002163f0 t filter_frame
+0000000000218b90 t filter_frame
+000000000021af80 t filter_frame
+000000000021b8e0 t filter_frame
+000000000023a500 t filter_frame
+0000000000255720 t filter_frame
+000000000025d240 t filter_frame
+000000000026d760 t filter_frame
+000000000027b4f0 t filter_frame
+000000000027f9a0 t filter_frame
+0000000000282d70 t filter_frame
+00000000002834e0 t filter_frame
+0000000000286dd0 t filter_frame
+0000000000287c90 t filter_frame
+000000000028f3b0 t filter_frame
+0000000000292ed0 t filter_frame
+00000000002a8140 t filter_frame
+00000000002c7400 t filter_frame
+00000000002d1eb0 t filter_frame
+00000000002d1fd0 t filter_frame
+00000000002f1c30 t filter_frame
+00000000002f3d50 t filter_frame
+0000000000300c80 t filter_frame
+0000000000303fb0 t filter_frame
+0000000000304300 t filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b5672387418/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22023-patch-0b5672387418-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 0b5672387418 ---
+漏洞版本 (父提交): b62f7e243cf4a1863ee4131e55536338eacecc6c
+
+--- [BEGIN] Processing Git Ref: b62f7e243cf4a1863ee4131e55536338eacecc6c ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b62f7e243cf4a1863ee4131e55536338eacecc6c
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b62f7e243cf4a1863ee4131e55536338eacecc6c/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b62f7e243cf4a1863ee4131e55536338eacecc6c/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22023-vuln-b62f7e243cf4-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 b62f7e243cf4a1863ee4131e55536338eacecc6c...
+已成功检出 b62f7e243cf4a1863ee4131e55536338eacecc6c.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b62f7e243cf4a1863ee4131e55536338eacecc6c/ffmpeg_g 不存在，开始编译...
+b62f7e243cf4a1863ee4131e55536338eacecc6c 编译成功。
+000000000019f060 t filter_frame
+00000000001a4a80 t filter_frame
+00000000001bc230 t filter_frame
+00000000001bc640 t filter_frame
+00000000001be0b0 t filter_frame
+00000000001c1ab0 t filter_frame
+00000000001c2030 t filter_frame
+00000000001c2460 t filter_frame
+00000000001c2e60 t filter_frame
+00000000001c3750 t filter_frame
+00000000001c3b20 t filter_frame
+00000000001cb630 t filter_frame
+00000000001cfea0 t filter_frame
+00000000001d0e80 t filter_frame
+00000000001d2200 t filter_frame
+00000000001df050 t filter_frame
+00000000001e2470 t filter_frame
+00000000001e5530 t filter_frame
+00000000001eb4a0 t filter_frame
+00000000001ec310 t filter_frame
+00000000001ecbb0 t filter_frame
+00000000001f0250 t filter_frame
+00000000001f1f50 t filter_frame
+00000000001f4960 t filter_frame
+00000000001f6230 t filter_frame
+0000000000202310 t filter_frame
+0000000000204090 t filter_frame
+0000000000205490 t filter_frame
+0000000000207bd0 t filter_frame
+00000000002081d0 t filter_frame
+0000000000208490 t filter_frame
+0000000000209600 t filter_frame
+0000000000209e50 t filter_frame
+000000000020a170 t filter_frame
+000000000020bc00 t filter_frame
+000000000020c610 t filter_frame
+000000000020d0c0 t filter_frame
+000000000020d610 t filter_frame
+000000000020dee0 t filter_frame
+000000000020e530 t filter_frame
+000000000020f720 t filter_frame
+0000000000211120 t filter_frame
+0000000000211a10 t filter_frame
+0000000000214300 t filter_frame
+0000000000216a70 t filter_frame
+0000000000219a60 t filter_frame
+000000000021a2f0 t filter_frame
+0000000000236270 t filter_frame
+0000000000236560 t filter_frame
+0000000000239cb0 t filter_frame
+000000000023a940 t filter_frame
+000000000023adf0 t filter_frame
+000000000023b3a0 t filter_frame
+000000000023b8d0 t filter_frame
+000000000023c2a0 t filter_frame
+00000000002451a0 t filter_frame
+0000000000255f70 t filter_frame
+000000000025a7b0 t filter_frame
+000000000025d9e0 t filter_frame
+000000000025e800 t filter_frame
+000000000025f3d0 t filter_frame
+000000000026ee00 t filter_frame
+00000000002772f0 t filter_frame
+0000000000277f70 t filter_frame
+0000000000278a40 t filter_frame
+000000000027a270 t filter_frame
+000000000027b8f0 t filter_frame
+000000000027c3f0 t filter_frame
+000000000027c500 t filter_frame
+000000000027fd60 t filter_frame
+0000000000281290 t filter_frame
+00000000002824b0 t filter_frame
+0000000000286b40 t filter_frame
+0000000000287c70 t filter_frame
+000000000028ac80 t filter_frame
+000000000028c700 t filter_frame
+000000000028ead0 t filter_frame
+000000000028f5e0 t filter_frame
+0000000000290400 t filter_frame
+0000000000290760 t filter_frame
+0000000000290a00 t filter_frame
+0000000000293d10 t filter_frame
+000000000029d990 t filter_frame
+00000000002a6fa0 t filter_frame
+00000000002a8150 t filter_frame
+00000000002a88a0 t filter_frame
+00000000002a8fc0 t filter_frame
+00000000002a9f30 t filter_frame
+00000000002aac40 t filter_frame
+00000000002baca0 t filter_frame
+00000000002bb2a0 t filter_frame
+00000000002bb530 t filter_frame
+00000000002d1650 t filter_frame
+00000000002d1f30 t filter_frame
+00000000002d2900 t filter_frame
+00000000002d4900 t filter_frame
+00000000002d5860 t filter_frame
+00000000002d6200 t filter_frame
+00000000002d6370 t filter_frame
+00000000002d7cd0 t filter_frame
+00000000002e5c30 t filter_frame
+00000000002e7690 t filter_frame
+00000000002ea610 t filter_frame
+00000000002ed6f0 t filter_frame
+00000000002ef570 t filter_frame
+00000000002f0880 t filter_frame
+00000000002f15b0 t filter_frame
+00000000002f2300 t filter_frame
+00000000002f2800 t filter_frame
+00000000002f2860 t filter_frame
+00000000002f5450 t filter_frame
+00000000002fc370 t filter_frame
+00000000002fd7f0 t filter_frame
+00000000002ff210 t filter_frame
+00000000002ff540 t filter_frame
+00000000002ff970 t filter_frame
+0000000000300700 t filter_frame
+0000000000301290 t filter_frame
+00000000003013e0 t filter_frame
+00000000003018c0 t filter_frame
+0000000000302170 t filter_frame
+0000000000305180 t filter_frame
+00000000003077a0 t filter_frame
+0000000000307e20 t filter_frame
+0000000000308dd0 t filter_frame
+000000000030ec90 t filter_frame
+00000000003110f0 t filter_frame
+0000000000312010 t filter_frame
+00000000003121d0 t filter_frame
+0000000000313e00 t filter_frame
+00000000003166a0 t filter_frame
+00000000003173a0 t filter_frame
+0000000000318070 t filter_frame
+0000000000320870 t filter_frame
+0000000000320b70 t filter_frame
+00000000003212b0 t filter_frame
+0000000000321980 t filter_frame
+00000000001c2290 t filter_frame
+00000000001cb540 t filter_frame
+00000000001d0190 t filter_frame
+00000000001d2450 t filter_frame
+00000000001d27e0 t filter_frame
+00000000001d3da0 t filter_frame
+00000000001e4b50 t filter_frame
+00000000001e7190 t filter_frame
+00000000001e8480 t filter_frame
+00000000001ed3b0 t filter_frame
+00000000001f47b0 t filter_frame
+00000000001fbab0 t filter_frame
+0000000000204f00 t filter_frame
+0000000000211850 t filter_frame
+0000000000215100 t filter_frame
+0000000000216280 t filter_frame
+0000000000218a20 t filter_frame
+000000000021ae10 t filter_frame
+000000000021b770 t filter_frame
+000000000023a390 t filter_frame
+00000000002555b0 t filter_frame
+000000000025d0d0 t filter_frame
+000000000026d5f0 t filter_frame
+000000000027b380 t filter_frame
+000000000027f830 t filter_frame
+0000000000282c00 t filter_frame
+0000000000283370 t filter_frame
+0000000000286c60 t filter_frame
+0000000000287b20 t filter_frame
+000000000028f240 t filter_frame
+0000000000292d60 t filter_frame
+00000000002a7fd0 t filter_frame
+00000000002c7290 t filter_frame
+00000000002d1d40 t filter_frame
+00000000002d1e60 t filter_frame
+00000000002f1ac0 t filter_frame
+00000000002f3be0 t filter_frame
+0000000000300b10 t filter_frame
+0000000000303e40 t filter_frame
+0000000000304190 t filter_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b62f7e243cf4a1863ee4131e55536338eacecc6c/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22023-vuln-b62f7e243cf4-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: b62f7e243cf4a1863ee4131e55536338eacecc6c ---
+
+>>> 处理 CVE: CVE-2020-22024, 补丁 Commit: 723d69f99cd2 <<<
+
+--- [BEGIN] Processing Git Ref: 723d69f99cd2 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-723d69f99cd2
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-723d69f99cd2/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-723d69f99cd2/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22024-patch-723d69f99cd2-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 723d69f99cd2...
+已成功检出 723d69f99cd2.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-723d69f99cd2/ffmpeg_g 不存在，开始编译...
+723d69f99cd2 编译成功。
+000000000023d4f0 t lagfun_frame16
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-723d69f99cd2/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22024-patch-723d69f99cd2-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 723d69f99cd2 ---
+漏洞版本 (父提交): d4d6b7b0355f3597cad3b8d12911790c73b5f96d
+
+--- [BEGIN] Processing Git Ref: d4d6b7b0355f3597cad3b8d12911790c73b5f96d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f3597cad3b8d12911790c73b5f96d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f3597cad3b8d12911790c73b5f96d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f3597cad3b8d12911790c73b5f96d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22024-vuln-d4d6b7b0355f-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 d4d6b7b0355f3597cad3b8d12911790c73b5f96d...
+已成功检出 d4d6b7b0355f3597cad3b8d12911790c73b5f96d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f3597cad3b8d12911790c73b5f96d/ffmpeg_g 不存在，开始编译...
+d4d6b7b0355f3597cad3b8d12911790c73b5f96d 编译成功。
+000000000023d4f0 t lagfun_frame16
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d4d6b7b0355f3597cad3b8d12911790c73b5f96d/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22024-vuln-d4d6b7b0355f-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: d4d6b7b0355f3597cad3b8d12911790c73b5f96d ---
+
+>>> 处理 CVE: CVE-2020-22025, 补丁 Commit: ccf4ab8c9aca <<<
+
+--- [BEGIN] Processing Git Ref: ccf4ab8c9aca ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ccf4ab8c9aca
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ccf4ab8c9aca/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ccf4ab8c9aca/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22025-patch-ccf4ab8c9aca-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 ccf4ab8c9aca...
+已成功检出 ccf4ab8c9aca.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ccf4ab8c9aca/ffmpeg_g 不存在，开始编译...
+ccf4ab8c9aca 编译成功。
+Error: Function 'gaussian_blur' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ccf4ab8c9aca/ffmpeg_g
+错误：编译 CVE CVE-2020-22025 的补丁版本 (ccf4ab8c9aca) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22026, 补丁 Commit: 58bb9d3a3a6e <<<
+
+--- [BEGIN] Processing Git Ref: 58bb9d3a3a6e ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58bb9d3a3a6e
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58bb9d3a3a6e/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58bb9d3a3a6e/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22026-patch-58bb9d3a3a6e-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 58bb9d3a3a6e...
+已成功检出 58bb9d3a3a6e.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58bb9d3a3a6e/ffmpeg_g 不存在，开始编译...
+58bb9d3a3a6e 编译成功。
+00000000001a2010 t filter_frame
+00000000001a7a30 t filter_frame
+00000000001bee90 t filter_frame
+00000000001bf2a0 t filter_frame
+00000000001c0d10 t filter_frame
+00000000001c4710 t filter_frame
+00000000001c4c90 t filter_frame
+00000000001c50c0 t filter_frame
+00000000001c5af0 t filter_frame
+00000000001c63e0 t filter_frame
+00000000001c67b0 t filter_frame
+00000000001ce2c0 t filter_frame
+00000000001d2b30 t filter_frame
+00000000001d3ce0 t filter_frame
+00000000001d4fe0 t filter_frame
+00000000001e1d20 t filter_frame
+00000000001e5430 t filter_frame
+00000000001e84f0 t filter_frame
+00000000001ee4f0 t filter_frame
+00000000001ef3c0 t filter_frame
+00000000001efc60 t filter_frame
+00000000001f1390 t filter_frame
+00000000001f5010 t filter_frame
+00000000001f7a20 t filter_frame
+00000000001f92f0 t filter_frame
+00000000002053e0 t filter_frame
+0000000000207160 t filter_frame
+0000000000208560 t filter_frame
+000000000020acf0 t filter_frame
+000000000020b2f0 t filter_frame
+000000000020b5b0 t filter_frame
+000000000020c720 t filter_frame
+000000000020cf70 t filter_frame
+000000000020d290 t filter_frame
+000000000020ebd0 t filter_frame
+000000000020f5e0 t filter_frame
+00000000002100c0 t filter_frame
+0000000000210610 t filter_frame
+0000000000210ee0 t filter_frame
+0000000000211530 t filter_frame
+0000000000212740 t filter_frame
+0000000000214140 t filter_frame
+0000000000214a30 t filter_frame
+0000000000217400 t filter_frame
+0000000000219b90 t filter_frame
+000000000021cb10 t filter_frame
+000000000021d3b0 t filter_frame
+0000000000239330 t filter_frame
+0000000000239620 t filter_frame
+000000000023cd70 t filter_frame
+000000000023da00 t filter_frame
+000000000023deb0 t filter_frame
+000000000023e470 t filter_frame
+000000000023e9a0 t filter_frame
+000000000023f370 t filter_frame
+0000000000248270 t filter_frame
+0000000000258680 t filter_frame
+0000000000259040 t filter_frame
+000000000025d880 t filter_frame
+0000000000260ab0 t filter_frame
+00000000002618d0 t filter_frame
+00000000002624a0 t filter_frame
+0000000000271ed0 t filter_frame
+000000000027a3c0 t filter_frame
+000000000027b040 t filter_frame
+000000000027bb10 t filter_frame
+000000000027d340 t filter_frame
+000000000027e9c0 t filter_frame
+000000000027f4c0 t filter_frame
+000000000027f5d0 t filter_frame
+0000000000282e30 t filter_frame
+0000000000284360 t filter_frame
+0000000000285580 t filter_frame
+0000000000289c10 t filter_frame
+000000000028ad40 t filter_frame
+000000000028ded0 t filter_frame
+000000000028f950 t filter_frame
+0000000000291d20 t filter_frame
+0000000000292830 t filter_frame
+0000000000293650 t filter_frame
+00000000002939b0 t filter_frame
+0000000000293c50 t filter_frame
+0000000000296f60 t filter_frame
+00000000002a0be0 t filter_frame
+00000000002aa1f0 t filter_frame
+00000000002ab3a0 t filter_frame
+00000000002abaf0 t filter_frame
+00000000002ac210 t filter_frame
+00000000002ad180 t filter_frame
+00000000002ade90 t filter_frame
+00000000002c1190 t filter_frame
+00000000002c1790 t filter_frame
+00000000002c1a20 t filter_frame
+00000000002d7b50 t filter_frame
+00000000002d8430 t filter_frame
+00000000002d8e00 t filter_frame
+00000000002dae00 t filter_frame
+00000000002dbd60 t filter_frame
+00000000002dc700 t filter_frame
+00000000002dc870 t filter_frame
+00000000002de1d0 t filter_frame
+00000000002ec0f0 t filter_frame
+00000000002edb50 t filter_frame
+00000000002f0ad0 t filter_frame
+00000000002f3bb0 t filter_frame
+00000000002f5950 t filter_frame
+00000000002f6bd0 t filter_frame
+00000000002f7900 t filter_frame
+00000000002f8650 t filter_frame
+00000000002fc060 t filter_frame
+00000000002fc0c0 t filter_frame
+00000000002fecb0 t filter_frame
+0000000000305ae0 t filter_frame
+0000000000306f60 t filter_frame
+0000000000308490 t filter_frame
+00000000003087c0 t filter_frame
+0000000000308bf0 t filter_frame
+0000000000309980 t filter_frame
+000000000030a510 t filter_frame
+000000000030a660 t filter_frame
+000000000030ab40 t filter_frame
+000000000030b3f0 t filter_frame
+000000000030e400 t filter_frame
+0000000000310a20 t filter_frame
+00000000003110a0 t filter_frame
+0000000000312050 t filter_frame
+0000000000317f10 t filter_frame
+000000000031a370 t filter_frame
+000000000031b290 t filter_frame
+000000000031b450 t filter_frame
+000000000031d080 t filter_frame
+000000000031f920 t filter_frame
+0000000000320620 t filter_frame
+00000000003212f0 t filter_frame
+0000000000329ab0 t filter_frame
+0000000000329d90 t filter_frame
+000000000032a4d0 t filter_frame
+000000000032aba0 t filter_frame
+00000000001c4ef0 t filter_frame
+00000000001ce1d0 t filter_frame
+00000000001d2e20 t filter_frame
+00000000001d5230 t filter_frame
+00000000001d55c0 t filter_frame
+00000000001d6cf0 t filter_frame
+00000000001e7b10 t filter_frame
+00000000001ea150 t filter_frame
+00000000001eb440 t filter_frame
+00000000001f0460 t filter_frame
+00000000001f7870 t filter_frame
+00000000001feb80 t filter_frame
+0000000000207fd0 t filter_frame
+0000000000214870 t filter_frame
+0000000000218200 t filter_frame
+00000000002193a0 t filter_frame
+000000000021bb40 t filter_frame
+000000000021ded0 t filter_frame
+000000000021e830 t filter_frame
+000000000023d450 t filter_frame
+00000000002601a0 t filter_frame
+00000000002706c0 t filter_frame
+000000000027e450 t filter_frame
+0000000000282900 t filter_frame
+0000000000285cd0 t filter_frame
+0000000000286440 t filter_frame
+0000000000289d30 t filter_frame
+000000000028abf0 t filter_frame
+0000000000292490 t filter_frame
+0000000000295fb0 t filter_frame
+00000000002ab220 t filter_frame
+00000000002cd780 t filter_frame
+00000000002d8240 t filter_frame
+00000000002d8360 t filter_frame
+00000000002f7e10 t filter_frame
+00000000002fd440 t filter_frame
+0000000000309d90 t filter_frame
+000000000030d0c0 t filter_frame
+000000000030d410 t filter_frame
+00000000001a0ea0 t config_input
+00000000001a1fb0 t config_input
+00000000001a2620 t config_input
+00000000001b48f0 t config_input
+00000000001c5820 t config_input
+00000000001cd610 t config_input
+00000000001ced40 t config_input
+00000000001d38b0 t config_input
+00000000001d4f00 t config_input
+00000000001e1ed0 t config_input
+00000000000eff69 t config_input
+00000000001e7f60 t config_input
+00000000001f4ab0 t config_input
+00000000001f7df0 t config_input
+00000000001f9420 t config_input
+0000000000204c70 t config_input
+0000000000206ab0 t config_input
+00000000002082e0 t config_input
+000000000020a340 t config_input
+000000000020d1e0 t config_input
+000000000020e600 t config_input
+000000000020e6c0 t config_input
+0000000000210000 t config_input
+0000000000210540 t config_input
+0000000000210d90 t config_input
+0000000000213530 t config_input
+0000000000215000 t config_input
+00000000002150e0 t config_input
+00000000002198a0 t config_input
+000000000021b9d0 t config_input
+000000000021bbd0 t config_input
+000000000021d0b0 t config_input
+000000000021d2e0 t config_input
+000000000023be40 t config_input
+000000000023e8e0 t config_input
+00000000002467f0 t config_input
+0000000000257460 t config_input
+0000000000257f90 t config_input
+00000000002583e0 t config_input
+0000000000258f30 t config_input
+000000000025ba70 t config_input
+00000000002609c0 t config_input
+0000000000261870 t config_input
+00000000002623e0 t config_input
+000000000027a350 t config_input
+000000000027c170 t config_input
+000000000027cd60 t config_input
+000000000027eb00 t config_input
+00000000002807a0 t config_input
+0000000000291c90 t config_input
+0000000000292750 t config_input
+0000000000293280 t config_input
+0000000000294b70 t config_input
+00000000002a8b60 t config_input
+00000000000f7603 t config_input
+00000000002ae770 t config_input
+00000000002c0030 t config_input
+00000000002d87e0 t config_input
+00000000002d8c40 t config_input
+00000000002da9c0 t config_input
+00000000002db1c0 t config_input
+00000000002dbca0 t config_input
+00000000002dcb10 t config_input
+00000000002e3150 t config_input
+00000000002e73e0 t config_input
+00000000002f0990 t config_input
+00000000002f55f0 t config_input
+00000000002f8be0 t config_input
+0000000000309850 t config_input
+000000000030a4a0 t config_input
+000000000030aac0 t config_input
+00000000000fe8f2 t config_input
+00000000003101a0 t config_input
+00000000003108f0 t config_input
+0000000000310ee0 t config_input
+0000000000311690 t config_input
+0000000000314860 t config_input
+0000000000318e00 t config_input
+000000000031c060 t config_input
+000000000031cf40 t config_input
+000000000031f6e0 t config_input
+0000000000320520 t config_input
+0000000000321290 t config_input
+0000000000321560 t config_input
+0000000000324f60 t config_input
+0000000000329980 t config_input
+0000000000329c70 t config_input
+00000000001a0c00 t config_input
+00000000001d5550 t config_input
+00000000001d68d0 t config_input
+00000000001e79e0 t config_input
+00000000001e9c30 t config_input
+00000000001f03f0 t config_input
+00000000001fcd00 t config_input
+00000000002181e0 t config_input
+0000000000219050 t config_input
+000000000021e6b0 t config_input
+000000000023d1d0 t config_input
+0000000000260030 t config_input
+000000000026fea0 t config_input
+000000000027e270 t config_input
+00000000002822b0 t config_input
+0000000000285c20 t config_input
+00000000002865b0 t config_input
+00000000002ab200 t config_input
+00000000002d7eb0 t config_input
+00000000002f7d10 t config_input
+00000000002fcba0 t config_input
+0000000000309c40 t config_input
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-58bb9d3a3a6e/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22026-patch-58bb9d3a3a6e-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 58bb9d3a3a6e ---
+漏洞版本 (父提交): 26876fdb5e73d6d17fe5a2ae8a3a882978e4b600
+
+--- [BEGIN] Processing Git Ref: 26876fdb5e73d6d17fe5a2ae8a3a882978e4b600 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-26876fdb5e73d6d17fe5a2ae8a3a882978e4b600
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-26876fdb5e73d6d17fe5a2ae8a3a882978e4b600/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-26876fdb5e73d6d17fe5a2ae8a3a882978e4b600/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22026-vuln-26876fdb5e73-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 26876fdb5e73d6d17fe5a2ae8a3a882978e4b600...
+已成功检出 26876fdb5e73d6d17fe5a2ae8a3a882978e4b600.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-26876fdb5e73d6d17fe5a2ae8a3a882978e4b600/ffmpeg_g 不存在，开始编译...
+26876fdb5e73d6d17fe5a2ae8a3a882978e4b600 编译成功。
+00000000001a2010 t filter_frame
+00000000001a7a30 t filter_frame
+00000000001bee90 t filter_frame
+00000000001bf2a0 t filter_frame
+00000000001c0d10 t filter_frame
+00000000001c4710 t filter_frame
+00000000001c4c90 t filter_frame
+00000000001c50c0 t filter_frame
+00000000001c5af0 t filter_frame
+00000000001c63e0 t filter_frame
+00000000001c67b0 t filter_frame
+00000000001ce2c0 t filter_frame
+00000000001d2b30 t filter_frame
+00000000001d3ce0 t filter_frame
+00000000001d4fe0 t filter_frame
+00000000001e1d20 t filter_frame
+00000000001e5430 t filter_frame
+00000000001e84f0 t filter_frame
+00000000001ee4f0 t filter_frame
+00000000001ef3c0 t filter_frame
+00000000001efc60 t filter_frame
+00000000001f1390 t filter_frame
+00000000001f5010 t filter_frame
+00000000001f7a20 t filter_frame
+00000000001f92f0 t filter_frame
+00000000002053e0 t filter_frame
+0000000000207160 t filter_frame
+0000000000208560 t filter_frame
+000000000020acf0 t filter_frame
+000000000020b2f0 t filter_frame
+000000000020b5b0 t filter_frame
+000000000020c720 t filter_frame
+000000000020cf70 t filter_frame
+000000000020d290 t filter_frame
+000000000020ebd0 t filter_frame
+000000000020f5e0 t filter_frame
+00000000002100c0 t filter_frame
+0000000000210610 t filter_frame
+0000000000210ee0 t filter_frame
+0000000000211530 t filter_frame
+0000000000212740 t filter_frame
+0000000000214140 t filter_frame
+0000000000214a30 t filter_frame
+0000000000217400 t filter_frame
+0000000000219b90 t filter_frame
+000000000021cb10 t filter_frame
+000000000021d3b0 t filter_frame
+0000000000239330 t filter_frame
+0000000000239620 t filter_frame
+000000000023cd70 t filter_frame
+000000000023da00 t filter_frame
+000000000023deb0 t filter_frame
+000000000023e470 t filter_frame
+000000000023e9a0 t filter_frame
+000000000023f370 t filter_frame
+0000000000248270 t filter_frame
+0000000000258680 t filter_frame
+0000000000259040 t filter_frame
+000000000025d880 t filter_frame
+0000000000260ab0 t filter_frame
+00000000002618d0 t filter_frame
+00000000002624a0 t filter_frame
+0000000000271ed0 t filter_frame
+000000000027a3c0 t filter_frame
+000000000027b040 t filter_frame
+000000000027bb10 t filter_frame
+000000000027d340 t filter_frame
+000000000027e9c0 t filter_frame
+000000000027f4c0 t filter_frame
+000000000027f5d0 t filter_frame
+0000000000282e30 t filter_frame
+0000000000284360 t filter_frame
+0000000000285580 t filter_frame
+0000000000289c10 t filter_frame
+000000000028ad40 t filter_frame
+000000000028ded0 t filter_frame
+000000000028f950 t filter_frame
+0000000000291d20 t filter_frame
+0000000000292830 t filter_frame
+0000000000293650 t filter_frame
+00000000002939b0 t filter_frame
+0000000000293c50 t filter_frame
+0000000000296f60 t filter_frame
+00000000002a0be0 t filter_frame
+00000000002aa1f0 t filter_frame
+00000000002ab3a0 t filter_frame
+00000000002abaf0 t filter_frame
+00000000002ac210 t filter_frame
+00000000002ad180 t filter_frame
+00000000002ade90 t filter_frame
+00000000002c1190 t filter_frame
+00000000002c1790 t filter_frame
+00000000002c1a20 t filter_frame
+00000000002d7b50 t filter_frame
+00000000002d8430 t filter_frame
+00000000002d8e00 t filter_frame
+00000000002dae00 t filter_frame
+00000000002dbd60 t filter_frame
+00000000002dc700 t filter_frame
+00000000002dc870 t filter_frame
+00000000002de1d0 t filter_frame
+00000000002ec0f0 t filter_frame
+00000000002edb50 t filter_frame
+00000000002f0ad0 t filter_frame
+00000000002f3bb0 t filter_frame
+00000000002f5950 t filter_frame
+00000000002f6bd0 t filter_frame
+00000000002f7900 t filter_frame
+00000000002f8650 t filter_frame
+00000000002fc060 t filter_frame
+00000000002fc0c0 t filter_frame
+00000000002fecb0 t filter_frame
+0000000000305ae0 t filter_frame
+0000000000306f60 t filter_frame
+0000000000308490 t filter_frame
+00000000003087c0 t filter_frame
+0000000000308bf0 t filter_frame
+0000000000309980 t filter_frame
+000000000030a510 t filter_frame
+000000000030a660 t filter_frame
+000000000030ab40 t filter_frame
+000000000030b3f0 t filter_frame
+000000000030e400 t filter_frame
+0000000000310a20 t filter_frame
+00000000003110a0 t filter_frame
+0000000000312050 t filter_frame
+0000000000317f10 t filter_frame
+000000000031a370 t filter_frame
+000000000031b290 t filter_frame
+000000000031b450 t filter_frame
+000000000031d080 t filter_frame
+000000000031f920 t filter_frame
+0000000000320620 t filter_frame
+00000000003212f0 t filter_frame
+0000000000329af0 t filter_frame
+0000000000329df0 t filter_frame
+000000000032a530 t filter_frame
+000000000032ac00 t filter_frame
+00000000001c4ef0 t filter_frame
+00000000001ce1d0 t filter_frame
+00000000001d2e20 t filter_frame
+00000000001d5230 t filter_frame
+00000000001d55c0 t filter_frame
+00000000001d6cf0 t filter_frame
+00000000001e7b10 t filter_frame
+00000000001ea150 t filter_frame
+00000000001eb440 t filter_frame
+00000000001f0460 t filter_frame
+00000000001f7870 t filter_frame
+00000000001feb80 t filter_frame
+0000000000207fd0 t filter_frame
+0000000000214870 t filter_frame
+0000000000218200 t filter_frame
+00000000002193a0 t filter_frame
+000000000021bb40 t filter_frame
+000000000021ded0 t filter_frame
+000000000021e830 t filter_frame
+000000000023d450 t filter_frame
+00000000002601a0 t filter_frame
+00000000002706c0 t filter_frame
+000000000027e450 t filter_frame
+0000000000282900 t filter_frame
+0000000000285cd0 t filter_frame
+0000000000286440 t filter_frame
+0000000000289d30 t filter_frame
+000000000028abf0 t filter_frame
+0000000000292490 t filter_frame
+0000000000295fb0 t filter_frame
+00000000002ab220 t filter_frame
+00000000002cd780 t filter_frame
+00000000002d8240 t filter_frame
+00000000002d8360 t filter_frame
+00000000002f7e10 t filter_frame
+00000000002fd440 t filter_frame
+0000000000309d90 t filter_frame
+000000000030d0c0 t filter_frame
+000000000030d410 t filter_frame
+00000000001a0ea0 t config_input
+00000000001a1fb0 t config_input
+00000000001a2620 t config_input
+00000000001b48f0 t config_input
+00000000001c5820 t config_input
+00000000001cd610 t config_input
+00000000001ced40 t config_input
+00000000001d38b0 t config_input
+00000000001d4f00 t config_input
+00000000001e1ed0 t config_input
+00000000000eff69 t config_input
+00000000001e7f60 t config_input
+00000000001f4ab0 t config_input
+00000000001f7df0 t config_input
+00000000001f9420 t config_input
+0000000000204c70 t config_input
+0000000000206ab0 t config_input
+00000000002082e0 t config_input
+000000000020a340 t config_input
+000000000020d1e0 t config_input
+000000000020e600 t config_input
+000000000020e6c0 t config_input
+0000000000210000 t config_input
+0000000000210540 t config_input
+0000000000210d90 t config_input
+0000000000213530 t config_input
+0000000000215000 t config_input
+00000000002150e0 t config_input
+00000000002198a0 t config_input
+000000000021b9d0 t config_input
+000000000021bbd0 t config_input
+000000000021d0b0 t config_input
+000000000021d2e0 t config_input
+000000000023be40 t config_input
+000000000023e8e0 t config_input
+00000000002467f0 t config_input
+0000000000257460 t config_input
+0000000000257f90 t config_input
+00000000002583e0 t config_input
+0000000000258f30 t config_input
+000000000025ba70 t config_input
+00000000002609c0 t config_input
+0000000000261870 t config_input
+00000000002623e0 t config_input
+000000000027a350 t config_input
+000000000027c170 t config_input
+000000000027cd60 t config_input
+000000000027eb00 t config_input
+00000000002807a0 t config_input
+0000000000291c90 t config_input
+0000000000292750 t config_input
+0000000000293280 t config_input
+0000000000294b70 t config_input
+00000000002a8b60 t config_input
+00000000000f7603 t config_input
+00000000002ae770 t config_input
+00000000002c0030 t config_input
+00000000002d87e0 t config_input
+00000000002d8c40 t config_input
+00000000002da9c0 t config_input
+00000000002db1c0 t config_input
+00000000002dbca0 t config_input
+00000000002dcb10 t config_input
+00000000002e3150 t config_input
+00000000002e73e0 t config_input
+00000000002f0990 t config_input
+00000000002f55f0 t config_input
+00000000002f8be0 t config_input
+0000000000309850 t config_input
+000000000030a4a0 t config_input
+000000000030aac0 t config_input
+00000000000fe8f2 t config_input
+00000000003101a0 t config_input
+00000000003108f0 t config_input
+0000000000310ee0 t config_input
+0000000000311690 t config_input
+0000000000314860 t config_input
+0000000000318e00 t config_input
+000000000031c060 t config_input
+000000000031cf40 t config_input
+000000000031f6e0 t config_input
+0000000000320520 t config_input
+0000000000321290 t config_input
+0000000000321560 t config_input
+0000000000324f60 t config_input
+0000000000329980 t config_input
+0000000000329cd0 t config_input
+00000000001a0c00 t config_input
+00000000001d5550 t config_input
+00000000001d68d0 t config_input
+00000000001e79e0 t config_input
+00000000001e9c30 t config_input
+00000000001f03f0 t config_input
+00000000001fcd00 t config_input
+00000000002181e0 t config_input
+0000000000219050 t config_input
+000000000021e6b0 t config_input
+000000000023d1d0 t config_input
+0000000000260030 t config_input
+000000000026fea0 t config_input
+000000000027e270 t config_input
+00000000002822b0 t config_input
+0000000000285c20 t config_input
+00000000002865b0 t config_input
+00000000002ab200 t config_input
+00000000002d7eb0 t config_input
+00000000002f7d10 t config_input
+00000000002fcba0 t config_input
+0000000000309c40 t config_input
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-26876fdb5e73d6d17fe5a2ae8a3a882978e4b600/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22026-vuln-26876fdb5e73-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 26876fdb5e73d6d17fe5a2ae8a3a882978e4b600 ---
+
+>>> 处理 CVE: CVE-2020-22027, 补丁 Commit: e787f8fd7ee9 <<<
+
+--- [BEGIN] Processing Git Ref: e787f8fd7ee9 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e787f8fd7ee9
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e787f8fd7ee9/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e787f8fd7ee9/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22027-patch-e787f8fd7ee9-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 e787f8fd7ee9...
+已成功检出 e787f8fd7ee9.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e787f8fd7ee9/ffmpeg_g 不存在，开始编译...
+e787f8fd7ee9 编译成功。
+00000000001dcc40 t filter_slice
+00000000001e0c80 t filter_slice
+00000000001e1fc0 t filter_slice
+00000000001f2040 t filter_slice
+00000000002020c0 t filter_slice
+0000000000217c50 t filter_slice
+000000000023aa80 t filter_slice
+000000000023b4c0 t filter_slice
+0000000000254d80 t filter_slice
+000000000025e9e0 t filter_slice
+00000000002806e0 t filter_slice
+000000000028fe80 t filter_slice
+00000000002c6450 t filter_slice
+000000000021ac50 t filter_slice
+000000000025d1c0 t filter_slice
+000000000027f5b0 t filter_slice
+0000000000292ea0 t filter_slice
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e787f8fd7ee9/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22027-patch-e787f8fd7ee9-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: e787f8fd7ee9 ---
+漏洞版本 (父提交): 1331e001796c656a4a3c770a16121c15ec1db2ac
+
+--- [BEGIN] Processing Git Ref: 1331e001796c656a4a3c770a16121c15ec1db2ac ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c656a4a3c770a16121c15ec1db2ac
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c656a4a3c770a16121c15ec1db2ac/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c656a4a3c770a16121c15ec1db2ac/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22027-vuln-1331e001796c-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 1331e001796c656a4a3c770a16121c15ec1db2ac...
+已成功检出 1331e001796c656a4a3c770a16121c15ec1db2ac.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c656a4a3c770a16121c15ec1db2ac/ffmpeg_g 不存在，开始编译...
+1331e001796c656a4a3c770a16121c15ec1db2ac 编译成功。
+00000000001dcc40 t filter_slice
+00000000001e0c80 t filter_slice
+00000000001e1fc0 t filter_slice
+00000000001f2040 t filter_slice
+00000000002020c0 t filter_slice
+0000000000217c50 t filter_slice
+000000000023aa80 t filter_slice
+000000000023b4c0 t filter_slice
+0000000000254d80 t filter_slice
+000000000025e9a0 t filter_slice
+00000000002806a0 t filter_slice
+000000000028fe40 t filter_slice
+00000000002c6410 t filter_slice
+000000000021ac50 t filter_slice
+000000000025d1c0 t filter_slice
+000000000027f570 t filter_slice
+0000000000292e60 t filter_slice
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c656a4a3c770a16121c15ec1db2ac/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22027-vuln-1331e001796c-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 1331e001796c656a4a3c770a16121c15ec1db2ac ---
+
+>>> 处理 CVE: CVE-2020-22029, 补丁 Commit: a7fd12797036 <<<
+
+--- [BEGIN] Processing Git Ref: a7fd12797036 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-a7fd12797036
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-a7fd12797036/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-a7fd12797036/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22029-patch-a7fd12797036-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 a7fd12797036...
+已成功检出 a7fd12797036.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-a7fd12797036/ffmpeg_g 不存在，开始编译...
+a7fd12797036 编译成功。
+00000000001eb7c0 t slice_get_derivative
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-a7fd12797036/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22029-patch-a7fd12797036-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: a7fd12797036 ---
+漏洞版本 (父提交): e923e6205eda5ef196844af889c09201675cbb68
+
+--- [BEGIN] Processing Git Ref: e923e6205eda5ef196844af889c09201675cbb68 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e923e6205eda5ef196844af889c09201675cbb68
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e923e6205eda5ef196844af889c09201675cbb68/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e923e6205eda5ef196844af889c09201675cbb68/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22029-vuln-e923e6205eda-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 e923e6205eda5ef196844af889c09201675cbb68...
+已成功检出 e923e6205eda5ef196844af889c09201675cbb68.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e923e6205eda5ef196844af889c09201675cbb68/ffmpeg_g 不存在，开始编译...
+e923e6205eda5ef196844af889c09201675cbb68 编译成功。
+00000000001eb7c0 t slice_get_derivative
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e923e6205eda5ef196844af889c09201675cbb68/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22029-vuln-e923e6205eda-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: e923e6205eda5ef196844af889c09201675cbb68 ---
+
+>>> 处理 CVE: CVE-2020-22030, 补丁 Commit: e1b89c76f663 <<<
+
+--- [BEGIN] Processing Git Ref: e1b89c76f663 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e1b89c76f663
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e1b89c76f663/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e1b89c76f663/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22030-patch-e1b89c76f663-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 e1b89c76f663...
+已成功检出 e1b89c76f663.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e1b89c76f663/ffmpeg_g 不存在，开始编译...
+e1b89c76f663 编译成功。
+000000000019e040 t activate
+000000000019f760 t activate
+00000000001a0930 t activate
+00000000001a8710 t activate
+00000000001acdf0 t activate
+00000000001b1f30 t activate
+00000000001b42e0 t activate
+00000000001bae50 t activate
+00000000001c0b70 t activate
+00000000001c0f20 t activate
+00000000001c3d70 t activate
+00000000001cad20 t activate
+00000000001dce20 t activate
+00000000001e0b10 t activate
+00000000001f2da0 t activate
+0000000000206b20 t activate
+000000000020b330 t activate
+0000000000214d60 t activate
+0000000000216f90 t activate
+0000000000217f20 t activate
+0000000000218bb0 t activate
+0000000000238910 t activate
+000000000023d490 t activate
+0000000000244070 t activate
+0000000000254000 t activate
+00000000002549e0 t activate
+0000000000255680 t activate
+00000000002572a0 t activate
+000000000025bf30 t activate
+0000000000266670 t activate
+000000000026f850 t activate
+0000000000279380 t activate
+000000000027a3b0 t activate
+000000000027d230 t activate
+0000000000286590 t activate
+000000000028d830 t activate
+000000000028e000 t activate
+000000000028faa0 t activate
+0000000000291460 t activate
+00000000002c68e0 t activate
+00000000002c9f50 t activate
+00000000002d7140 t activate
+00000000002d7d00 t activate
+00000000002db0f0 t activate
+00000000002dfdc0 t activate
+00000000002e3a00 t activate
+00000000002e6460 t activate
+00000000002e8fe0 t activate
+00000000002eed90 t activate
+00000000002ef940 t activate
+00000000002efd90 t activate
+00000000002f33b0 t activate
+00000000003064b0 t activate
+000000000030ecd0 t activate
+0000000000310030 t activate
+0000000000316370 t activate
+000000000031aec0 t activate
+000000000031bc70 t activate
+000000000019d620 t activate
+00000000001bc490 t activate
+00000000001c08e0 t activate
+00000000001cf5b0 t activate
+00000000002f5700 t activate
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e1b89c76f663/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22030-patch-e1b89c76f663-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: e1b89c76f663 ---
+漏洞版本 (父提交): de598f82f8c3f8000e1948548e8088148e2b1f44
+
+--- [BEGIN] Processing Git Ref: de598f82f8c3f8000e1948548e8088148e2b1f44 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3f8000e1948548e8088148e2b1f44
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3f8000e1948548e8088148e2b1f44/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3f8000e1948548e8088148e2b1f44/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22030-vuln-de598f82f8c3-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 de598f82f8c3f8000e1948548e8088148e2b1f44...
+已成功检出 de598f82f8c3f8000e1948548e8088148e2b1f44.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3f8000e1948548e8088148e2b1f44/ffmpeg_g 不存在，开始编译...
+de598f82f8c3f8000e1948548e8088148e2b1f44 编译成功。
+000000000019e040 t activate
+000000000019f760 t activate
+00000000001a0930 t activate
+00000000001a8710 t activate
+00000000001acdf0 t activate
+00000000001b1f30 t activate
+00000000001b42e0 t activate
+00000000001bae50 t activate
+00000000001c0b70 t activate
+00000000001c0f20 t activate
+00000000001c3d70 t activate
+00000000001cad20 t activate
+00000000001dce20 t activate
+00000000001e0b10 t activate
+00000000001f2da0 t activate
+0000000000206b20 t activate
+000000000020b330 t activate
+0000000000214d60 t activate
+0000000000216f90 t activate
+0000000000217f20 t activate
+0000000000218bb0 t activate
+0000000000238910 t activate
+000000000023d490 t activate
+0000000000244070 t activate
+0000000000254000 t activate
+00000000002549e0 t activate
+0000000000255680 t activate
+00000000002572a0 t activate
+000000000025bf30 t activate
+0000000000266670 t activate
+000000000026f850 t activate
+0000000000279380 t activate
+000000000027a3b0 t activate
+000000000027d230 t activate
+0000000000286590 t activate
+000000000028d830 t activate
+000000000028e000 t activate
+000000000028faa0 t activate
+0000000000291460 t activate
+00000000002c68e0 t activate
+00000000002c9f50 t activate
+00000000002d7140 t activate
+00000000002d7d00 t activate
+00000000002db0f0 t activate
+00000000002dfdc0 t activate
+00000000002e3a00 t activate
+00000000002e6460 t activate
+00000000002e8fe0 t activate
+00000000002eed90 t activate
+00000000002ef940 t activate
+00000000002efd90 t activate
+00000000002f33b0 t activate
+00000000003064b0 t activate
+000000000030ecd0 t activate
+0000000000310030 t activate
+0000000000316370 t activate
+000000000031aec0 t activate
+000000000031bc70 t activate
+000000000019d620 t activate
+00000000001bc490 t activate
+00000000001c08e0 t activate
+00000000001cf5b0 t activate
+00000000002f5700 t activate
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3f8000e1948548e8088148e2b1f44/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22030-vuln-de598f82f8c3-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: de598f82f8c3f8000e1948548e8088148e2b1f44 ---
+
+>>> 处理 CVE: CVE-2020-22031, 补丁 Commit: 0e68e8c93f90 <<<
+
+--- [BEGIN] Processing Git Ref: 0e68e8c93f90 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0e68e8c93f90
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0e68e8c93f90/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0e68e8c93f90/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22031-patch-0e68e8c93f90-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 0e68e8c93f90...
+已成功检出 0e68e8c93f90.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0e68e8c93f90/ffmpeg_g 不存在，开始编译...
+0e68e8c93f90 编译成功。
+000000000019def0 t config_input
+000000000019f000 t config_input
+000000000019f670 t config_input
+00000000001b1cf0 t config_input
+00000000001c2b90 t config_input
+00000000001ca980 t config_input
+00000000001cc0b0 t config_input
+00000000001d0540 t config_input
+00000000001d2120 t config_input
+00000000001df360 t config_input
+00000000000eef40 t config_input
+00000000001e5110 t config_input
+00000000001f1b60 t config_input
+00000000001f4ea0 t config_input
+00000000001f64d0 t config_input
+0000000000201d10 t config_input
+0000000000203b50 t config_input
+0000000000205380 t config_input
+0000000000207390 t config_input
+000000000020a230 t config_input
+000000000020b650 t config_input
+000000000020b710 t config_input
+000000000020d170 t config_input
+000000000020d6b0 t config_input
+000000000020df00 t config_input
+0000000000210680 t config_input
+0000000000212080 t config_input
+0000000000212160 t config_input
+00000000002168f0 t config_input
+0000000000218a20 t config_input
+0000000000218c20 t config_input
+000000000021a170 t config_input
+000000000021a390 t config_input
+0000000000238ef0 t config_input
+000000000023b980 t config_input
+0000000000243890 t config_input
+0000000000254500 t config_input
+0000000000255030 t config_input
+0000000000255fd0 t config_input
+0000000000258b10 t config_input
+000000000025da60 t config_input
+000000000025e910 t config_input
+000000000025f480 t config_input
+00000000002773f0 t config_input
+0000000000279210 t config_input
+0000000000279e00 t config_input
+000000000027bba0 t config_input
+000000000027d840 t config_input
+000000000028ebb0 t config_input
+000000000028f670 t config_input
+00000000002901a0 t config_input
+0000000000291a90 t config_input
+00000000002a5a80 t config_input
+00000000000f65b9 t config_input
+00000000002ab690 t config_input
+00000000002b9ec0 t config_input
+00000000002d2480 t config_input
+00000000002d28e0 t config_input
+00000000002d4660 t config_input
+00000000002d4e60 t config_input
+00000000002d5940 t config_input
+00000000002d67b0 t config_input
+00000000002dce30 t config_input
+00000000002e10c0 t config_input
+00000000002ea670 t config_input
+00000000002ef2d0 t config_input
+0000000000300770 t config_input
+00000000003013c0 t config_input
+00000000003019e0 t config_input
+00000000000fc6be t config_input
+00000000003070c0 t config_input
+0000000000307810 t config_input
+0000000000307e00 t config_input
+00000000003085b0 t config_input
+000000000030b780 t config_input
+000000000030fd20 t config_input
+0000000000312f80 t config_input
+0000000000313e60 t config_input
+0000000000316600 t config_input
+0000000000317440 t config_input
+00000000003181b0 t config_input
+0000000000318480 t config_input
+000000000031be80 t config_input
+00000000003208a0 t config_input
+0000000000320bf0 t config_input
+000000000019dc50 t config_input
+00000000001d2770 t config_input
+00000000001d3af0 t config_input
+00000000001e4b90 t config_input
+00000000001e6de0 t config_input
+00000000001ed4b0 t config_input
+00000000001f9db0 t config_input
+0000000000215250 t config_input
+00000000002160a0 t config_input
+000000000021b760 t config_input
+000000000023a280 t config_input
+0000000000255480 t config_input
+000000000025d0d0 t config_input
+000000000026cf40 t config_input
+000000000027b310 t config_input
+000000000027f350 t config_input
+0000000000282cc0 t config_input
+0000000000283650 t config_input
+00000000002a8120 t config_input
+00000000002d1b50 t config_input
+00000000002f1b60 t config_input
+00000000002f34e0 t config_input
+0000000000300b60 t config_input
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0e68e8c93f90/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22031-patch-0e68e8c93f90-ffmpeg
+二进制文件复制成功。
+HEAD 现在位于 d4556c98f02 lavc/dxvenc: improve compatibility with Resolume products
+--- [END] Processing Git Ref: 0e68e8c93f90 ---
+漏洞版本 (父提交): 0b567238741854b41f84f7457686b044eadfe29c
+
+--- [BEGIN] Processing Git Ref: 0b567238741854b41f84f7457686b044eadfe29c ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b567238741854b41f84f7457686b044eadfe29c
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b567238741854b41f84f7457686b044eadfe29c/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b567238741854b41f84f7457686b044eadfe29c/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22031-vuln-0b5672387418-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 0b567238741854b41f84f7457686b044eadfe29c...
+已成功检出 0b567238741854b41f84f7457686b044eadfe29c.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b567238741854b41f84f7457686b044eadfe29c/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0b567238741854b41f84f7457686b044eadfe29c/compile.log
+错误：编译 CVE CVE-2020-22031 的漏洞版本 (0b567238741854b41f84f7457686b044eadfe29c) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22032, 补丁 Commit: de598f82f8c3 <<<
+
+--- [BEGIN] Processing Git Ref: de598f82f8c3 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22032-patch-de598f82f8c3-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 de598f82f8c3...
+已成功检出 de598f82f8c3.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-de598f82f8c3/compile.log
+错误：编译 CVE CVE-2020-22032 的补丁版本 (de598f82f8c3) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22034, 补丁 Commit: 1331e001796c <<<
+
+--- [BEGIN] Processing Git Ref: 1331e001796c ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22034-patch-1331e001796c-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 1331e001796c...
+已成功检出 1331e001796c.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-1331e001796c/compile.log
+错误：编译 CVE CVE-2020-22034 的补丁版本 (1331e001796c) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22035, 补丁 Commit: 0749082eb93e <<<
+
+--- [BEGIN] Processing Git Ref: 0749082eb93e ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0749082eb93e
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0749082eb93e/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0749082eb93e/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22035-patch-0749082eb93e-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 0749082eb93e...
+已成功检出 0749082eb93e.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0749082eb93e/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0749082eb93e/compile.log
+错误：编译 CVE CVE-2020-22035 的补丁版本 (0749082eb93e) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22036, 补丁 Commit: 8c3166e1c302 <<<
+
+--- [BEGIN] Processing Git Ref: 8c3166e1c302 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-8c3166e1c302
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-8c3166e1c302/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-8c3166e1c302/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22036-patch-8c3166e1c302-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 8c3166e1c302...
+已成功检出 8c3166e1c302.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-8c3166e1c302/ffmpeg_g 不存在，开始编译...
+错误：编译子 shell 执行失败 (退出码 2)。详情请查看 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-8c3166e1c302/compile.log
+错误：编译 CVE CVE-2020-22036 的补丁版本 (8c3166e1c302) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22037, 补丁 Commit: 7bba0dd6382e <<<
+
+--- [BEGIN] Processing Git Ref: 7bba0dd6382e ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7bba0dd6382e
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7bba0dd6382e/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-7bba0dd6382e/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2020-22037-patch-7bba0dd6382e-ffmpeg
+清理工作区 (stash)...
+仓库已处于干净状态，无需 stash。
+正在检出 7bba0dd6382e...
+错误：无法检出 7bba0dd6382e.
+错误：编译 CVE CVE-2020-22037 的补丁版本 (7bba0dd6382e) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2020-22038, 补丁 Commit: 7c32e9cf93b7

@@ -1,0 +1,1147 @@
+===== 开始处理 CVE 条目 =====
+
+>>> 处理 CVE: CVE-2021-38291, 补丁 Commit: e01d306c647b <<<
+
+--- [BEGIN] Processing Git Ref: e01d306c647b ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e01d306c647b
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e01d306c647b/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e01d306c647b/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2021-38291-patch-e01d306c647b-ffmpeg
+二进制文件 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2021-38291-patch-e01d306c647b-ffmpeg 已存在，跳过编译。
+漏洞版本 (父提交): 35331aa2662d4289585ab1bd4d1bf7699661cc5a
+
+--- [BEGIN] Processing Git Ref: 35331aa2662d4289585ab1bd4d1bf7699661cc5a ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-35331aa2662d4289585ab1bd4d1bf7699661cc5a
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-35331aa2662d4289585ab1bd4d1bf7699661cc5a/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-35331aa2662d4289585ab1bd4d1bf7699661cc5a/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2021-38291-vuln-35331aa2662d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 35331aa2662d4289585ab1bd4d1bf7699661cc5a...
+已成功检出 35331aa2662d4289585ab1bd4d1bf7699661cc5a.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-35331aa2662d4289585ab1bd4d1bf7699661cc5a/ffmpeg_g 不存在，开始编译...
+35331aa2662d4289585ab1bd4d1bf7699661cc5a 编译成功。
+000000000095bed0 t get_audio_frame_duration
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-35331aa2662d4289585ab1bd4d1bf7699661cc5a/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2021-38291-vuln-35331aa2662d-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 35331aa2662 avutil/tx: add a return at the end of non-void functions
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 35331aa2662d4289585ab1bd4d1bf7699661cc5a ---
+
+>>> 处理 CVE: CVE-2022-1475, 补丁 Commit: 757da974b218 <<<
+
+--- [BEGIN] Processing Git Ref: 757da974b218 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-757da974b218
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-757da974b218/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-757da974b218/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-1475-patch-757da974b218-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 757da974b218...
+已成功检出 757da974b218.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-757da974b218/ffmpeg_g 不存在，开始编译...
+757da974b218 编译成功。
+0000000000cddbf0 t g729_parse
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-757da974b218/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-1475-patch-757da974b218-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 757da974b21 avcodec/g729_parser: Check channels
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 757da974b218 ---
+漏洞版本 (父提交): ec8ff659f57786c4cb089b07dfeab7e5cbab8d52
+
+--- [BEGIN] Processing Git Ref: ec8ff659f57786c4cb089b07dfeab7e5cbab8d52 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ec8ff659f57786c4cb089b07dfeab7e5cbab8d52
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ec8ff659f57786c4cb089b07dfeab7e5cbab8d52/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ec8ff659f57786c4cb089b07dfeab7e5cbab8d52/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-1475-vuln-ec8ff659f577-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 ec8ff659f57786c4cb089b07dfeab7e5cbab8d52...
+已成功检出 ec8ff659f57786c4cb089b07dfeab7e5cbab8d52.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ec8ff659f57786c4cb089b07dfeab7e5cbab8d52/ffmpeg_g 不存在，开始编译...
+ec8ff659f57786c4cb089b07dfeab7e5cbab8d52 编译成功。
+0000000000cddbf0 t g729_parse
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-ec8ff659f57786c4cb089b07dfeab7e5cbab8d52/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-1475-vuln-ec8ff659f577-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): ec8ff659f57 avformat/avidec: Check height
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: ec8ff659f57786c4cb089b07dfeab7e5cbab8d52 ---
+
+>>> 处理 CVE: CVE-2022-2566, 补丁 Commit: c953baa08460 <<<
+
+--- [BEGIN] Processing Git Ref: c953baa08460 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c953baa08460
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c953baa08460/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c953baa08460/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-2566-patch-c953baa08460-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 c953baa08460...
+已成功检出 c953baa08460.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c953baa08460/ffmpeg_g 不存在，开始编译...
+c953baa08460 编译成功。
+Error: Function 'build_open_gop_key_points' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-c953baa08460/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): c953baa0846 avformat/mov: Check count sums in build_open_gop_key_points()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: c953baa08460 ---, it failed
+错误：编译 CVE CVE-2022-2566 的补丁版本 (c953baa08460) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2022-3341, 补丁 Commit: 9cf652cef49d <<<
+
+--- [BEGIN] Processing Git Ref: 9cf652cef49d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9cf652cef49d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9cf652cef49d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9cf652cef49d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-3341-patch-9cf652cef49d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 9cf652cef49d...
+已成功检出 9cf652cef49d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9cf652cef49d/ffmpeg_g 不存在，开始编译...
+9cf652cef49d 编译成功。
+Error: Function 'decode_main_header' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9cf652cef49d/ffmpeg_g
+00000000004eab70 t nut_read_header
+保存工作目录和索引状态 WIP on (no branch): 9cf652cef49 avformat/nutdec: Add check for avformat_new_stream
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 9cf652cef49d ---, it failed
+错误：编译 CVE CVE-2022-3341 的补丁版本 (9cf652cef49d) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2022-3964, 补丁 Commit: 92f9b28ed84a <<<
+
+--- [BEGIN] Processing Git Ref: 92f9b28ed84a ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-3964-patch-92f9b28ed84a-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 92f9b28ed84a...
+已成功检出 92f9b28ed84a.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g 不存在，开始编译...
+92f9b28ed84a 编译成功。
+Error: Function 'leastsquares' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g
+Error: Function 'update_block_in_prev_frame' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g
+Error: Function 'get_max_component_diff' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g
+Error: Function 'calc_lsq_max_fit_error' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-92f9b28ed84a/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): 92f9b28ed84 avcodec/rpzaenc: stop accessing out of bounds frame
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 92f9b28ed84a ---, it failed
+错误：编译 CVE CVE-2022-3964 的补丁版本 (92f9b28ed84a) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2022-3965, 补丁 Commit: 13c131097590 <<<
+
+--- [BEGIN] Processing Git Ref: 13c131097590 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-13c131097590
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-13c131097590/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-13c131097590/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-3965-patch-13c131097590-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 13c131097590...
+已成功检出 13c131097590.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-13c131097590/ffmpeg_g 不存在，开始编译...
+13c131097590 编译成功。
+Error: Function 'smc_encode_stream' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-13c131097590/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): 13c13109759 avcodec/smcenc: stop accessing out of bounds frame
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 13c131097590 ---, it failed
+错误：编译 CVE CVE-2022-3965 的补丁版本 (13c131097590) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2022-48434, 补丁 Commit: cc867f2c09d2 <<<
+
+--- [BEGIN] Processing Git Ref: cc867f2c09d2 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cc867f2c09d2
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cc867f2c09d2/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cc867f2c09d2/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2022-48434-patch-cc867f2c09d2-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 cc867f2c09d2...
+已成功检出 cc867f2c09d2.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cc867f2c09d2/ffmpeg_g 不存在，开始编译...
+cc867f2c09d2 编译成功。
+Error: Function 'submit_packet' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-cc867f2c09d2/ffmpeg_g
+00000000008b92a0 t update_context_from_thread
+00000000008ba240 T ff_frame_thread_free
+00000000008ba070 T ff_thread_finish_setup
+保存工作目录和索引状态 WIP on (no branch): cc867f2c09d lavc/pthread_frame: avoid leaving stale hwaccel state in worker threads
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: cc867f2c09d2 ---, it failed
+错误：编译 CVE CVE-2022-48434 的补丁版本 (cc867f2c09d2) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2023-47342, 补丁 Commit: e4d5ac8d7d2a <<<
+
+--- [BEGIN] Processing Git Ref: e4d5ac8d7d2a ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e4d5ac8d7d2a
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e4d5ac8d7d2a/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e4d5ac8d7d2a/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47342-patch-e4d5ac8d7d2a-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 e4d5ac8d7d2a...
+已成功检出 e4d5ac8d7d2a.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e4d5ac8d7d2a/ffmpeg_g 不存在，开始编译...
+e4d5ac8d7d2a 编译成功。
+00000000005ccc90 t parse_fmtp
+00000000005cd3b0 t parse_fmtp
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-e4d5ac8d7d2a/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47342-patch-e4d5ac8d7d2a-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): e4d5ac8d7d2 avformat/rtsp: Use rtsp_st->stream_index
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: e4d5ac8d7d2a ---
+漏洞版本 (父提交): 907743239d83f7bbcacc466af8ace4e0f6ebc257
+
+--- [BEGIN] Processing Git Ref: 907743239d83f7bbcacc466af8ace4e0f6ebc257 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-907743239d83f7bbcacc466af8ace4e0f6ebc257
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-907743239d83f7bbcacc466af8ace4e0f6ebc257/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-907743239d83f7bbcacc466af8ace4e0f6ebc257/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47342-vuln-907743239d83-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 907743239d83f7bbcacc466af8ace4e0f6ebc257...
+已成功检出 907743239d83f7bbcacc466af8ace4e0f6ebc257.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-907743239d83f7bbcacc466af8ace4e0f6ebc257/ffmpeg_g 不存在，开始编译...
+907743239d83f7bbcacc466af8ace4e0f6ebc257 编译成功。
+00000000005ccc90 t parse_fmtp
+00000000005cd3b0 t parse_fmtp
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-907743239d83f7bbcacc466af8ace4e0f6ebc257/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47342-vuln-907743239d83-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 907743239d8 avutil/tx_template: fix integer ovberflwo in fft3()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 907743239d83f7bbcacc466af8ace4e0f6ebc257 ---
+
+>>> 处理 CVE: CVE-2023-47343, 补丁 Commit: 0f6a3405e898 <<<
+
+--- [BEGIN] Processing Git Ref: 0f6a3405e898 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0f6a3405e898
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0f6a3405e898/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0f6a3405e898/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47343-patch-0f6a3405e898-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 0f6a3405e898...
+已成功检出 0f6a3405e898.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0f6a3405e898/ffmpeg_g 不存在，开始编译...
+0f6a3405e898 编译成功。
+00000000004590f0 t mov_probe
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0f6a3405e898/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47343-patch-0f6a3405e898-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 0f6a3405e89 avformat/mov: check offset for overflow in mov_probe()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 0f6a3405e898 ---
+漏洞版本 (父提交): 9b6ffcf0fd61b61e53591c0ce215de2ce35a6982
+
+--- [BEGIN] Processing Git Ref: 9b6ffcf0fd61b61e53591c0ce215de2ce35a6982 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9b6ffcf0fd61b61e53591c0ce215de2ce35a6982
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9b6ffcf0fd61b61e53591c0ce215de2ce35a6982/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9b6ffcf0fd61b61e53591c0ce215de2ce35a6982/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47343-vuln-9b6ffcf0fd61-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 9b6ffcf0fd61b61e53591c0ce215de2ce35a6982...
+已成功检出 9b6ffcf0fd61b61e53591c0ce215de2ce35a6982.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9b6ffcf0fd61b61e53591c0ce215de2ce35a6982/ffmpeg_g 不存在，开始编译...
+9b6ffcf0fd61b61e53591c0ce215de2ce35a6982 编译成功。
+00000000004590f0 t mov_probe
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-9b6ffcf0fd61b61e53591c0ce215de2ce35a6982/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47343-vuln-9b6ffcf0fd61-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 9b6ffcf0fd6 avcodec/options: Remove always-true check
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 9b6ffcf0fd61b61e53591c0ce215de2ce35a6982 ---
+
+>>> 处理 CVE: CVE-2023-47344, 补丁 Commit: f7ac3512f5b5 <<<
+
+--- [BEGIN] Processing Git Ref: f7ac3512f5b5 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f7ac3512f5b5
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f7ac3512f5b5/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f7ac3512f5b5/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-47344-patch-f7ac3512f5b5-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 f7ac3512f5b5...
+已成功检出 f7ac3512f5b5.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f7ac3512f5b5/ffmpeg_g 不存在，开始编译...
+f7ac3512f5b5 编译成功。
+0000000000e283c0 t read_distribution_bundle
+Error: Function 'read_vlc_prefix' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f7ac3512f5b5/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): f7ac3512f5b avcodec/jpegxl_parser: fix various memory issues
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: f7ac3512f5b5 ---, it failed
+错误：编译 CVE CVE-2023-47344 的补丁版本 (f7ac3512f5b5) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2023-49501, 补丁 Commit: 4adb93dff05d <<<
+
+--- [BEGIN] Processing Git Ref: 4adb93dff05d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4adb93dff05d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4adb93dff05d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4adb93dff05d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-49501-patch-4adb93dff05d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 4adb93dff05d...
+已成功检出 4adb93dff05d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4adb93dff05d/ffmpeg_g 不存在，开始编译...
+4adb93dff05d 编译成功。
+0000000000112ee5 t config_eq_output
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-4adb93dff05d/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-49501-patch-4adb93dff05d-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 4adb93dff05 avfilter/asrc_afirsrc: fix by one smaller allocation of buffer
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 4adb93dff05d ---
+漏洞版本 (父提交): 0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17
+
+--- [BEGIN] Processing Git Ref: 0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-49501-vuln-0008e1c5d5ff-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17...
+已成功检出 0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17/ffmpeg_g 不存在，开始编译...
+0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17 编译成功。
+0000000000112ee5 t config_eq_output
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-49501-vuln-0008e1c5d5ff-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 0008e1c5d5f avfilter/asrc_anullsrc: fix allowed range for sample_rate
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 0008e1c5d5fff3ddc06c74e0c5b627e8ad2eeb17 ---
+
+>>> 处理 CVE: CVE-2023-49502, 补丁 Commit: 737ede405b11 <<<
+
+--- [BEGIN] Processing Git Ref: 737ede405b11 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-737ede405b11
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-737ede405b11/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-737ede405b11/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-49502-patch-737ede405b11-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 737ede405b11...
+已成功检出 737ede405b11.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-737ede405b11/ffmpeg_g 不存在，开始编译...
+737ede405b11 编译成功。
+00000000001136f0 t config_props
+00000000001137c1 t config_props
+000000000011389e t config_props
+0000000000114a3a t config_props
+0000000000201350 t config_props
+0000000000118e84 t config_props
+0000000000237d90 t config_props
+0000000000250250 t config_props
+000000000025dc50 t config_props
+000000000027da50 t config_props
+0000000000283190 t config_props
+000000000028cc70 t config_props
+00000000002942c0 t config_props
+00000000002bbad0 t config_props
+00000000002c5d20 t config_props
+0000000000315950 t config_props
+000000000031ca80 t config_props
+00000000003207e0 t config_props
+0000000000321e40 t config_props
+000000000033af60 t config_props
+000000000033b030 t config_props
+000000000035af80 t config_props
+0000000000397300 t config_props
+0000000000398eb0 t config_props
+00000000003995a0 t config_props
+000000000039ae20 t config_props
+00000000003a4410 t config_props
+00000000001292fa t config_props
+00000000003e9cd0 t config_props
+00000000004083a0 t config_props
+000000000029e270 t config_props
+Error: Function 'bwdif_vulkan_config_output' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-737ede405b11/ffmpeg_g
+0000000000111d36 t config_output
+00000000001dc280 t config_output
+00000000001dd410 t config_output
+00000000001de5a0 t config_output
+00000000001e1000 t config_output
+00000000001e28d0 t config_output
+00000000001e38e0 t config_output
+00000000001e8940 t config_output
+00000000001eb550 t config_output
+00000000001ed670 t config_output
+00000000001ef230 t config_output
+00000000001f5a90 t config_output
+00000000001f7c40 t config_output
+00000000001f9880 t config_output
+00000000002020c0 t config_output
+0000000000205c40 t config_output
+0000000000209bb0 t config_output
+000000000020df50 t config_output
+0000000000219060 t config_output
+000000000021b0d0 t config_output
+000000000021b240 t config_output
+0000000000119b6c t config_output
+0000000000231f80 t config_output
+0000000000237430 t config_output
+000000000011b085 t config_output
+0000000000240560 t config_output
+0000000000247b60 t config_output
+000000000011b502 t config_output
+000000000025bd50 t config_output
+0000000000267d00 t config_output
+00000000002694b0 t config_output
+0000000000269600 t config_output
+000000000027a080 t config_output
+000000000027c050 t config_output
+000000000011c40c t config_output
+000000000027ee30 t config_output
+0000000000280130 t config_output
+0000000000282040 t config_output
+00000000002851d0 t config_output
+0000000000287140 t config_output
+0000000000288a10 t config_output
+000000000028de70 t config_output
+00000000002953a0 t config_output
+0000000000296000 t config_output
+0000000000296dd0 t config_output
+000000000029ca40 t config_output
+000000000029e700 t config_output
+00000000002ba660 t config_output
+000000000011e403 t config_output
+00000000002c00a0 t config_output
+00000000002c13b0 t config_output
+00000000002c2b00 t config_output
+00000000002c4580 t config_output
+00000000002c4c10 t config_output
+00000000002c75d0 t config_output
+00000000002cd170 t config_output
+00000000002e7740 t config_output
+00000000002e7f10 t config_output
+00000000002e86f0 t config_output
+00000000002e8e80 t config_output
+00000000002ee020 t config_output
+00000000002efad0 t config_output
+00000000002f0990 t config_output
+00000000002f45f0 t config_output
+00000000002f65a0 t config_output
+00000000002f8350 t config_output
+0000000000305b80 t config_output
+000000000030ed60 t config_output
+0000000000310080 t config_output
+0000000000317890 t config_output
+0000000000319fa0 t config_output
+000000000031d880 t config_output
+0000000000327740 t config_output
+000000000032bde0 t config_output
+000000000032f810 t config_output
+00000000003321a0 t config_output
+0000000000333860 t config_output
+00000000003350e0 t config_output
+0000000000338540 t config_output
+0000000000339a70 t config_output
+000000000033a300 t config_output
+000000000033ffd0 t config_output
+000000000034f430 t config_output
+00000000003513c0 t config_output
+00000000003554d0 t config_output
+0000000000359b50 t config_output
+000000000035cc90 t config_output
+000000000036dcc0 t config_output
+00000000003713f0 t config_output
+0000000000386270 t config_output
+00000000003924f0 t config_output
+00000000003957b0 t config_output
+00000000003966a0 t config_output
+00000000003a4e00 t config_output
+00000000003b1350 t config_output
+00000000003b2e30 t config_output
+00000000003bd7c0 t config_output
+00000000003c23b0 t config_output
+00000000003c8710 t config_output
+00000000003ccfc0 t config_output
+00000000003cd9e0 t config_output
+00000000003ce760 t config_output
+00000000003d1a50 t config_output
+00000000003d1de0 t config_output
+00000000003d2a30 t config_output
+00000000003d2f10 t config_output
+00000000003d5dc0 t config_output
+00000000003d6040 t config_output
+00000000003dc4f0 t config_output
+00000000003de8a0 t config_output
+00000000003e1800 t config_output
+00000000003eb5e0 t config_output
+00000000003f1f10 t config_output
+00000000003f2e10 t config_output
+00000000003f3450 t config_output
+00000000003f7fd0 t config_output
+00000000004022c0 t config_output
+0000000000406970 t config_output
+0000000000409a50 t config_output
+000000000040f750 t config_output
+0000000000414220 t config_output
+0000000000416620 t config_output
+000000000041a4d0 t config_output
+00000000001db010 t config_output
+00000000002200b0 t config_output
+00000000002433f0 t config_output
+000000000026d100 t config_output
+0000000000279b30 t config_output
+0000000000284cb0 t config_output
+000000000030d7b0 t config_output
+0000000000316010 t config_output
+000000000032b430 t config_output
+0000000000397850 t config_output
+000000000039ac00 t config_output
+00000000003ac770 t config_output
+保存工作目录和索引状态 WIP on (no branch): 737ede405b1 avfilter/bwdif: account for chroma sub-sampling in min size calculation
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 737ede405b11 ---, it failed
+错误：编译 CVE CVE-2023-49502 的补丁版本 (737ede405b11) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2023-50008, 补丁 Commit: 5f87a68cf70d <<<
+
+--- [BEGIN] Processing Git Ref: 5f87a68cf70d ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-5f87a68cf70d
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-5f87a68cf70d/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-5f87a68cf70d/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-50008-patch-5f87a68cf70d-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 5f87a68cf70d...
+已成功检出 5f87a68cf70d.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-5f87a68cf70d/ffmpeg_g 不存在，开始编译...
+5f87a68cf70d 编译成功。
+0000000000111bd6 t uninit
+0000000000113861 t uninit
+0000000000114729 t uninit
+00000000001147c3 t uninit
+0000000000114a60 t uninit
+0000000000114a8e t uninit
+0000000000114aa2 t uninit
+0000000000114bb1 t uninit
+0000000000114d2d t uninit
+0000000000114d3e t uninit
+0000000000114ef3 t uninit
+0000000000115348 t uninit
+00000000001166f0 t uninit
+0000000000116794 t uninit
+00000000001167e6 t uninit
+00000000001169e6 t uninit
+0000000000116a79 t uninit
+0000000000116b6e t uninit
+0000000000116e93 t uninit
+0000000000117048 t uninit
+0000000000117481 t uninit
+00000000001175c4 t uninit
+00000000001176c3 t uninit
+00000000001176fb t uninit
+00000000001179ed t uninit
+0000000000117a8d t uninit
+0000000000117d02 t uninit
+0000000000117eb4 t uninit
+0000000000118918 t uninit
+0000000000118b8a t uninit
+0000000000118c6c t uninit
+0000000000119872 t uninit
+00000000001199df t uninit
+00000000001199f0 t uninit
+0000000000119aa9 t uninit
+0000000000119b3f t uninit
+0000000000119b50 t uninit
+0000000000119c28 t uninit
+0000000000119ca5 t uninit
+000000000011ab70 t uninit
+000000000011acfc t uninit
+000000000011afa3 t uninit
+000000000011b04d t uninit
+000000000011b1be t uninit
+000000000011b1ed t uninit
+000000000011b201 t uninit
+000000000011b2ae t uninit
+000000000011b5cb t uninit
+000000000025d7c0 t uninit
+000000000011b68c t uninit
+000000000011b86d t uninit
+000000000011b9a9 t uninit
+000000000011bddf t uninit
+000000000011bdf0 t uninit
+000000000011bf99 t uninit
+000000000011c119 t uninit
+000000000011c14b t uninit
+000000000011c24f t uninit
+000000000011c279 t uninit
+000000000011c424 t uninit
+000000000011c557 t uninit
+000000000011cc1b t uninit
+000000000011cdff t uninit
+000000000011ce40 t uninit
+000000000011ceda t uninit
+000000000011ceeb t uninit
+000000000011d129 t uninit
+000000000011d1fb t uninit
+000000000011d302 t uninit
+000000000011d563 t uninit
+000000000011d7f6 t uninit
+000000000011d807 t uninit
+000000000011d9f1 t uninit
+000000000011db61 t uninit
+000000000011db83 t uninit
+000000000011db94 t uninit
+000000000011dba5 t uninit
+000000000011e063 t uninit
+000000000011e0f7 t uninit
+000000000011e11c t uninit
+000000000011e275 t uninit
+000000000011e48b t uninit
+000000000011e729 t uninit
+000000000011e76a t uninit
+000000000011e8d6 t uninit
+000000000011ea12 t uninit
+000000000011ea41 t uninit
+000000000011ea72 t uninit
+000000000011eb94 t uninit
+000000000011ebd3 t uninit
+0000000000120fd4 t uninit
+0000000000120fe5 t uninit
+0000000000121008 t uninit
+0000000000121019 t uninit
+000000000012102a t uninit
+000000000012103b t uninit
+0000000000121095 t uninit
+0000000000121219 t uninit
+000000000012126b t uninit
+00000000001212cc t uninit
+0000000000121385 t uninit
+0000000000121588 t uninit
+0000000000121691 t uninit
+00000000001216a2 t uninit
+00000000001218ac t uninit
+0000000000121de7 t uninit
+0000000000121e11 t uninit
+0000000000121e53 t uninit
+0000000000121e90 t uninit
+0000000000121fb6 t uninit
+0000000000121fca t uninit
+0000000000121fdb t uninit
+00000000001220c1 t uninit
+00000000001220f5 t uninit
+0000000000122470 t uninit
+00000000001224d9 t uninit
+00000000001225b6 t uninit
+00000000001226f7 t uninit
+0000000000122bb3 t uninit
+0000000000122c2b t uninit
+0000000000122fa1 t uninit
+0000000000122fb2 t uninit
+0000000000123086 t uninit
+0000000000123231 t uninit
+000000000012334d t uninit
+000000000012378f t uninit
+0000000000123823 t uninit
+0000000000123861 t uninit
+0000000000123c07 t uninit
+0000000000124269 t uninit
+000000000012444b t uninit
+000000000012445c t uninit
+000000000012454d t uninit
+000000000012455e t uninit
+0000000000124607 t uninit
+0000000000124737 t uninit
+00000000001248ce t uninit
+000000000012492a t uninit
+0000000000124a7c t uninit
+0000000000124ae5 t uninit
+0000000000124b6a t uninit
+0000000000124bad t uninit
+0000000000124bfd t uninit
+0000000000124d42 t uninit
+0000000000124e3b t uninit
+0000000000125039 t uninit
+000000000012508e t uninit
+00000000001250d9 t uninit
+00000000001250ed t uninit
+0000000000125267 t uninit
+0000000000125285 t uninit
+000000000012541a t uninit
+0000000000125448 t uninit
+000000000012547a t uninit
+00000000001254bc t uninit
+00000000001257f2 t uninit
+0000000000125cc2 t uninit
+0000000000125d93 t uninit
+0000000000126e21 t uninit
+0000000000126f57 t uninit
+0000000000127219 t uninit
+000000000012722d t uninit
+0000000000127427 t uninit
+000000000012749a t uninit
+00000000001275dc t uninit
+00000000001275ed t uninit
+00000000001276db t uninit
+000000000012772e t uninit
+000000000012773f t uninit
+0000000000127a58 t uninit
+0000000000127a69 t uninit
+0000000000127aa2 t uninit
+0000000000127c08 t uninit
+0000000000127e6e t uninit
+00000000001280d3 t uninit
+00000000001282dc t uninit
+0000000000128316 t uninit
+000000000012844e t uninit
+0000000000128470 t uninit
+000000000012861c t uninit
+00000000001286b6 t uninit
+0000000000128790 t uninit
+00000000001288fd t uninit
+000000000012892d t uninit
+0000000000128a0b t uninit
+0000000000128a2d t uninit
+0000000000128ac8 t uninit
+0000000000128b6f t uninit
+0000000000128c5b t uninit
+0000000000128c96 t uninit
+0000000000128ea3 t uninit
+0000000000128f7b t uninit
+00000000001292ba t uninit
+00000000001292c7 t uninit
+00000000001292e9 t uninit
+00000000001293aa t uninit
+000000000012a4fc t uninit
+000000000012a536 t uninit
+000000000012a566 t uninit
+000000000012a573 t uninit
+000000000012a587 t uninit
+000000000012a77a t uninit
+000000000012acfc t uninit
+000000000012af00 t uninit
+000000000012b2f3 t uninit
+000000000012bc89 t uninit
+000000000012bc9a t uninit
+000000000012bcd4 t uninit
+000000000012bd1a t uninit
+000000000012bd2b t uninit
+000000000012bd92 t uninit
+000000000012c018 t uninit
+000000000012c534 t uninit
+000000000012c556 t uninit
+000000000012c60f t uninit
+000000000012c642 t uninit
+000000000012c65e t uninit
+000000000012c8ab t uninit
+000000000012d033 t uninit
+000000000012d333 t uninit
+000000000012d3df t uninit
+000000000012d980 t uninit
+000000000012d9a2 t uninit
+000000000012db19 t uninit
+000000000012dba2 t uninit
+000000000012dc3f t uninit
+000000000012dc53 t uninit
+000000000012dc64 t uninit
+000000000012df42 t uninit
+000000000012f2c5 t uninit
+000000000012f2d6 t uninit
+000000000012f3cb t uninit
+000000000012f7bb t uninit
+00000000008f6600 t uninit
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-5f87a68cf70d/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-50008-patch-5f87a68cf70d-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 5f87a68cf70 avfilter/vf_colorcorrect: fix memory leaks
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 5f87a68cf70d ---
+漏洞版本 (父提交): f1f973313b6edc460339c2dfa4675dd3ad72fe98
+
+--- [BEGIN] Processing Git Ref: f1f973313b6edc460339c2dfa4675dd3ad72fe98 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f1f973313b6edc460339c2dfa4675dd3ad72fe98
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f1f973313b6edc460339c2dfa4675dd3ad72fe98/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f1f973313b6edc460339c2dfa4675dd3ad72fe98/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-50008-vuln-f1f973313b6e-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 f1f973313b6edc460339c2dfa4675dd3ad72fe98...
+已成功检出 f1f973313b6edc460339c2dfa4675dd3ad72fe98.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f1f973313b6edc460339c2dfa4675dd3ad72fe98/ffmpeg_g 不存在，开始编译...
+f1f973313b6edc460339c2dfa4675dd3ad72fe98 编译成功。
+0000000000111bd6 t uninit
+0000000000113861 t uninit
+0000000000114729 t uninit
+00000000001147c3 t uninit
+0000000000114a60 t uninit
+0000000000114a8e t uninit
+0000000000114aa2 t uninit
+0000000000114bb1 t uninit
+0000000000114d2d t uninit
+0000000000114d3e t uninit
+0000000000114ef3 t uninit
+0000000000115348 t uninit
+00000000001166f0 t uninit
+0000000000116794 t uninit
+00000000001167e6 t uninit
+00000000001169e6 t uninit
+0000000000116a79 t uninit
+0000000000116b6e t uninit
+0000000000116e93 t uninit
+0000000000117048 t uninit
+0000000000117481 t uninit
+00000000001175c4 t uninit
+00000000001176c3 t uninit
+00000000001176fb t uninit
+00000000001179ed t uninit
+0000000000117a8d t uninit
+0000000000117d02 t uninit
+0000000000117eb4 t uninit
+0000000000118918 t uninit
+0000000000118b8a t uninit
+0000000000118c6c t uninit
+0000000000119872 t uninit
+00000000001199df t uninit
+00000000001199f0 t uninit
+0000000000119aa9 t uninit
+0000000000119b3f t uninit
+0000000000119b50 t uninit
+0000000000119c28 t uninit
+0000000000119ca5 t uninit
+000000000011ab70 t uninit
+000000000011acfc t uninit
+000000000011afa3 t uninit
+000000000011b04d t uninit
+000000000011b1be t uninit
+000000000011b1ed t uninit
+000000000011b201 t uninit
+000000000011b2ae t uninit
+000000000011b5b7 t uninit
+000000000025d7b0 t uninit
+000000000011b678 t uninit
+000000000011b859 t uninit
+000000000011b995 t uninit
+000000000011bdcb t uninit
+000000000011bddc t uninit
+000000000011bf85 t uninit
+000000000011c105 t uninit
+000000000011c137 t uninit
+000000000011c23b t uninit
+000000000011c265 t uninit
+000000000011c410 t uninit
+000000000011c543 t uninit
+000000000011cc07 t uninit
+000000000011cdeb t uninit
+000000000011ce2c t uninit
+000000000011cec6 t uninit
+000000000011ced7 t uninit
+000000000011d115 t uninit
+000000000011d1e7 t uninit
+000000000011d2ee t uninit
+000000000011d54f t uninit
+000000000011d7e2 t uninit
+000000000011d7f3 t uninit
+000000000011d9dd t uninit
+000000000011db4d t uninit
+000000000011db6f t uninit
+000000000011db80 t uninit
+000000000011db91 t uninit
+000000000011e04f t uninit
+000000000011e0e3 t uninit
+000000000011e108 t uninit
+000000000011e261 t uninit
+000000000011e477 t uninit
+000000000011e715 t uninit
+000000000011e756 t uninit
+000000000011e8c2 t uninit
+000000000011e9fe t uninit
+000000000011ea2d t uninit
+000000000011ea5e t uninit
+000000000011eb80 t uninit
+000000000011ebbf t uninit
+0000000000120fc0 t uninit
+0000000000120fd1 t uninit
+0000000000120ff4 t uninit
+0000000000121005 t uninit
+0000000000121016 t uninit
+0000000000121027 t uninit
+0000000000121081 t uninit
+0000000000121205 t uninit
+0000000000121257 t uninit
+00000000001212b8 t uninit
+0000000000121371 t uninit
+0000000000121574 t uninit
+000000000012167d t uninit
+000000000012168e t uninit
+0000000000121898 t uninit
+0000000000121dd3 t uninit
+0000000000121dfd t uninit
+0000000000121e3f t uninit
+0000000000121e7c t uninit
+0000000000121fa2 t uninit
+0000000000121fb6 t uninit
+0000000000121fc7 t uninit
+00000000001220ad t uninit
+00000000001220e1 t uninit
+000000000012245c t uninit
+00000000001224c5 t uninit
+00000000001225a2 t uninit
+00000000001226e3 t uninit
+0000000000122b9f t uninit
+0000000000122c17 t uninit
+0000000000122f8d t uninit
+0000000000122f9e t uninit
+0000000000123072 t uninit
+000000000012321d t uninit
+0000000000123339 t uninit
+000000000012377b t uninit
+000000000012380f t uninit
+000000000012384d t uninit
+0000000000123bf3 t uninit
+0000000000124255 t uninit
+0000000000124437 t uninit
+0000000000124448 t uninit
+0000000000124539 t uninit
+000000000012454a t uninit
+00000000001245f3 t uninit
+0000000000124723 t uninit
+00000000001248ba t uninit
+0000000000124916 t uninit
+0000000000124a68 t uninit
+0000000000124ad1 t uninit
+0000000000124b56 t uninit
+0000000000124b99 t uninit
+0000000000124be9 t uninit
+0000000000124d2e t uninit
+0000000000124e27 t uninit
+0000000000125025 t uninit
+000000000012507a t uninit
+00000000001250c5 t uninit
+00000000001250d9 t uninit
+0000000000125253 t uninit
+0000000000125271 t uninit
+0000000000125406 t uninit
+0000000000125434 t uninit
+0000000000125466 t uninit
+00000000001254a8 t uninit
+00000000001257de t uninit
+0000000000125cae t uninit
+0000000000125d7f t uninit
+0000000000126e0d t uninit
+0000000000126f43 t uninit
+0000000000127205 t uninit
+0000000000127219 t uninit
+0000000000127413 t uninit
+0000000000127486 t uninit
+00000000001275c8 t uninit
+00000000001275d9 t uninit
+00000000001276c7 t uninit
+000000000012771a t uninit
+000000000012772b t uninit
+0000000000127a44 t uninit
+0000000000127a55 t uninit
+0000000000127a8e t uninit
+0000000000127bf4 t uninit
+0000000000127e5a t uninit
+00000000001280bf t uninit
+00000000001282c8 t uninit
+0000000000128302 t uninit
+000000000012843a t uninit
+000000000012845c t uninit
+0000000000128608 t uninit
+00000000001286a2 t uninit
+000000000012877c t uninit
+00000000001288e9 t uninit
+0000000000128919 t uninit
+00000000001289f7 t uninit
+0000000000128a19 t uninit
+0000000000128ab4 t uninit
+0000000000128b5b t uninit
+0000000000128c47 t uninit
+0000000000128c82 t uninit
+0000000000128e8f t uninit
+0000000000128f67 t uninit
+00000000001292a6 t uninit
+00000000001292b3 t uninit
+00000000001292d5 t uninit
+0000000000129396 t uninit
+000000000012a4e8 t uninit
+000000000012a522 t uninit
+000000000012a552 t uninit
+000000000012a55f t uninit
+000000000012a573 t uninit
+000000000012a766 t uninit
+000000000012ace8 t uninit
+000000000012aeec t uninit
+000000000012b2df t uninit
+000000000012bc75 t uninit
+000000000012bc86 t uninit
+000000000012bcc0 t uninit
+000000000012bd06 t uninit
+000000000012bd17 t uninit
+000000000012bd7e t uninit
+000000000012c004 t uninit
+000000000012c520 t uninit
+000000000012c542 t uninit
+000000000012c5fb t uninit
+000000000012c62e t uninit
+000000000012c64a t uninit
+000000000012c897 t uninit
+000000000012d01f t uninit
+000000000012d31f t uninit
+000000000012d3cb t uninit
+000000000012d96c t uninit
+000000000012d98e t uninit
+000000000012db05 t uninit
+000000000012db8e t uninit
+000000000012dc2b t uninit
+000000000012dc3f t uninit
+000000000012dc50 t uninit
+000000000012df2e t uninit
+000000000012f2b1 t uninit
+000000000012f2c2 t uninit
+000000000012f3b7 t uninit
+000000000012f7a7 t uninit
+00000000008f65f0 t uninit
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-f1f973313b6edc460339c2dfa4675dd3ad72fe98/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2023-50008-vuln-f1f973313b6e-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): f1f973313b6 avfilter/af_dialoguenhance: do output scaling once
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: f1f973313b6edc460339c2dfa4675dd3ad72fe98 ---
+
+>>> 处理 CVE: CVE-2024-28661, 补丁 Commit: 66b50445cb36 <<<
+
+--- [BEGIN] Processing Git Ref: 66b50445cb36 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-66b50445cb36
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-66b50445cb36/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-66b50445cb36/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-28661-patch-66b50445cb36-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 66b50445cb36...
+已成功检出 66b50445cb36.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-66b50445cb36/ffmpeg_g 不存在，开始编译...
+66b50445cb36 编译成功。
+Error: Function 'parse_speex_extradata' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-66b50445cb36/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): 66b50445cb3 avcodec/speexdec: check for sane frame_size values
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 66b50445cb36 ---, it failed
+错误：编译 CVE CVE-2024-28661 的补丁版本 (66b50445cb36) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2024-31578, 补丁 Commit: 3bb00c0a420c <<<
+
+--- [BEGIN] Processing Git Ref: 3bb00c0a420c ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3bb00c0a420c
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3bb00c0a420c/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3bb00c0a420c/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-31578-patch-3bb00c0a420c-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 3bb00c0a420c...
+已成功检出 3bb00c0a420c.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3bb00c0a420c/ffmpeg_g 不存在，开始编译...
+3bb00c0a420c 编译成功。
+0000000001033910 T av_hwframe_ctx_init
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3bb00c0a420c/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-31578-patch-3bb00c0a420c-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 3bb00c0a420 avutil/hwcontext: Don't assume frames_uninit is reentrant
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 3bb00c0a420c ---
+漏洞版本 (父提交): 90bbe1e8e2d3d832a80768a6820f995153951a81
+
+--- [BEGIN] Processing Git Ref: 90bbe1e8e2d3d832a80768a6820f995153951a81 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-90bbe1e8e2d3d832a80768a6820f995153951a81
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-90bbe1e8e2d3d832a80768a6820f995153951a81/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-90bbe1e8e2d3d832a80768a6820f995153951a81/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-31578-vuln-90bbe1e8e2d3-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 90bbe1e8e2d3d832a80768a6820f995153951a81...
+已成功检出 90bbe1e8e2d3d832a80768a6820f995153951a81.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-90bbe1e8e2d3d832a80768a6820f995153951a81/ffmpeg_g 不存在，开始编译...
+90bbe1e8e2d3d832a80768a6820f995153951a81 编译成功。
+0000000001033910 T av_hwframe_ctx_init
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-90bbe1e8e2d3d832a80768a6820f995153951a81/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-31578-vuln-90bbe1e8e2d3-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 90bbe1e8e2d avutil/hwcontext: Don't assume device_uninit is reentrant
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 90bbe1e8e2d3d832a80768a6820f995153951a81 ---
+
+>>> 处理 CVE: CVE-2024-31582, 补丁 Commit: 99debe5f823f <<<
+
+--- [BEGIN] Processing Git Ref: 99debe5f823f ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99debe5f823f
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99debe5f823f/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99debe5f823f/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-31582-patch-99debe5f823f-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 99debe5f823f...
+已成功检出 99debe5f823f.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99debe5f823f/ffmpeg_g 不存在，开始编译...
+99debe5f823f 编译成功。
+Error: Function 'draw_block_rectangle' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-99debe5f823f/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): 99debe5f823 avfilter/vf_codecview: fix heap buffer overflow
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 99debe5f823f ---, it failed
+错误：编译 CVE CVE-2024-31582 的补丁版本 (99debe5f823f) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2024-36617, 补丁 Commit: d973fcbcc2f9 <<<
+
+--- [BEGIN] Processing Git Ref: d973fcbcc2f9 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d973fcbcc2f9
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d973fcbcc2f9/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d973fcbcc2f9/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-36617-patch-d973fcbcc2f9-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 d973fcbcc2f9...
+已成功检出 d973fcbcc2f9.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d973fcbcc2f9/ffmpeg_g 不存在，开始编译...
+d973fcbcc2f9 编译成功。
+Error: Function 'read_pakt_chunk' not found in /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-d973fcbcc2f9/ffmpeg_g
+保存工作目录和索引状态 WIP on (no branch): d973fcbcc2f avformat/cafdec: dont seek beyond 64bit
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: d973fcbcc2f9 ---, it failed
+错误：编译 CVE CVE-2024-36617 的补丁版本 (d973fcbcc2f9) 失败。继续下一个条目。
+
+>>> 处理 CVE: CVE-2024-7055, 补丁 Commit: 3faadbe2a27e <<<
+
+--- [BEGIN] Processing Git Ref: 3faadbe2a27e ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3faadbe2a27e
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3faadbe2a27e/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3faadbe2a27e/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-7055-patch-3faadbe2a27e-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 3faadbe2a27e...
+已成功检出 3faadbe2a27e.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3faadbe2a27e/ffmpeg_g 不存在，开始编译...
+3faadbe2a27e 编译成功。
+00000000009161f0 t pnm_decode_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-3faadbe2a27e/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-7055-patch-3faadbe2a27e-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 3faadbe2a27 avcodec/pnmdec: Use 64bit for input size check
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 3faadbe2a27e ---
+漏洞版本 (父提交): 167bf8f61e671833c9d1234f12973e71c414b621
+
+--- [BEGIN] Processing Git Ref: 167bf8f61e671833c9d1234f12973e71c414b621 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-167bf8f61e671833c9d1234f12973e71c414b621
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-167bf8f61e671833c9d1234f12973e71c414b621/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-167bf8f61e671833c9d1234f12973e71c414b621/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-7055-vuln-167bf8f61e67-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 167bf8f61e671833c9d1234f12973e71c414b621...
+已成功检出 167bf8f61e671833c9d1234f12973e71c414b621.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-167bf8f61e671833c9d1234f12973e71c414b621/ffmpeg_g 不存在，开始编译...
+167bf8f61e671833c9d1234f12973e71c414b621 编译成功。
+00000000009161f0 t pnm_decode_frame
+复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-167bf8f61e671833c9d1234f12973e71c414b621/ffmpeg_g 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2024-7055-vuln-167bf8f61e67-ffmpeg
+二进制文件复制成功。
+保存工作目录和索引状态 WIP on (no branch): 167bf8f61e6 avformat/mov: Check extradata in mov_read_iacb()
+HEAD 现在位于 8aa6df663e7 avformat/whip: replace AV_OPT_FLAG_DECODING_PARAM to ENCODING
+--- [END] Processing Git Ref: 167bf8f61e671833c9d1234f12973e71c414b621 ---
+
+>>> 处理 CVE: CVE-2025-0518, 补丁 Commit: b5b6391d6480 <<<
+
+--- [BEGIN] Processing Git Ref: b5b6391d6480 ---
+Build directory:      /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b5b6391d6480
+ffmpeg executable:    /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b5b6391d6480/ffmpeg_g
+Log file:             /home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b5b6391d6480/compile.log
+Output destination:   /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/ffmpeg/CVE-2025-0518-patch-b5b6391d6480-ffmpeg
+清理工作区 (stash)...
+当前工作区状态已存储。
+正在检出 b5b6391d6480...
+已成功检出 b5b6391d6480.
+/home/zhangxb/patch/related-works/CVE-Dataset/target/ffmpeg/build-b5b6391d6480/ffmpeg_g 不存在，开始编译...

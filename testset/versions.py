@@ -1,5 +1,5 @@
 import json
-PROJ = "libxml2"
+PROJ = "ffmpeg"
 with open(f"{PROJ}/testset.json", "r") as f:
     json_data = f.read()
 

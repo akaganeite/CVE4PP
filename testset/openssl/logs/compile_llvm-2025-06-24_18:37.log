@@ -1,0 +1,767 @@
+===== Processing CVEs =====
+--- [BEGIN] Processing: c17530840785 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-0797-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out c17530840785...
+Compiling c17530840785...
+Trying configuration: ./config -d,
+Configuration successful
+Build failed, see /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/compile.log
+Trying configuration: ./config -d  shared,
+Configuration failed, see /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/compile.log
+Trying configuration: ./config -d shared no-apps
+Configuration successful
+Build successful
+Error: No suitable binary  found after build
+--- [BEGIN] Processing: 259b664f950c ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-0798-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 259b664f950c...
+Compiling 259b664f950c...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+000000000006f7f0 t init_ssl_connection
+0000000000211b00 t SRP_user_pwd_set_sv_BN
+000000000006de60 t sv_body
+00000000002123c0 t t_tob64
+000000000006c7b0 t rev_body
+0000000000210fd0 T SRP_VBASE_init
+000000000006ce50 t www_body
+000000000006c630 t ssl_srp_server_param_cb
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-0798-patch.bc
+--- [END] Processed: 259b664f950c ---
+--- [BEGIN] Processing: 64333004a41a9f4aa587b8e5401420fb70d00687 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-0798-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 64333004a41a9f4aa587b8e5401420fb70d00687...
+Compiling 64333004a41a9f4aa587b8e5401420fb70d00687...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+000000000006f790 t init_ssl_connection
+0000000000211940 t SRP_user_pwd_set_sv_BN
+000000000006de10 t sv_body
+0000000000212200 t t_tob64
+000000000006c7a0 t rev_body
+0000000000210f90 T SRP_VBASE_init
+000000000006ce20 t www_body
+000000000006c630 t ssl_srp_server_param_cb
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-0798-vuln.bc
+--- [END] Processed: 64333004a41a9f4aa587b8e5401420fb70d00687 ---
+--- [BEGIN] Processing: 578b956fe741 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-0799-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 578b956fe741...
+Compiling 578b956fe741...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178bd0 t fmtint
+0000000000178970 T BIO_vsnprintf
+0000000000179940 t roundv
+00000000001773b0 T BIO_vprintf
+0000000000179090 t fmtfp
+0000000000178a10 t doapr_outch
+00000000001774d0 t _dopr
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-0799-patch.bc
+--- [END] Processed: 578b956fe741 ---
+--- [BEGIN] Processing: 259b664f950c2ba66fbf4b0fe5281327904ead21 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-0799-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 259b664f950c2ba66fbf4b0fe5281327904ead21...
+Compiling 259b664f950c2ba66fbf4b0fe5281327904ead21...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178aa0 t fmtint
+0000000000178880 T BIO_vsnprintf
+0000000000179660 t roundv
+00000000001773b0 T BIO_vprintf
+0000000000178ec0 t fmtfp
+0000000000178910 t doapr_outch
+00000000001774b0 t _dopr
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-0799-vuln.bc
+--- [END] Processed: 259b664f950c2ba66fbf4b0fe5281327904ead21 ---
+--- [BEGIN] Processing: 5b814481f357 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2105-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 5b814481f357...
+Compiling 5b814481f357...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000225f80 T EVP_EncodeUpdate
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2105-patch.bc
+--- [END] Processed: 5b814481f357 ---
+--- [BEGIN] Processing: 2919516136a4227d9e6d8f2fe66ef976aaf8c561 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2105-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2919516136a4227d9e6d8f2fe66ef976aaf8c561...
+Compiling 2919516136a4227d9e6d8f2fe66ef976aaf8c561...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000225f80 T EVP_EncodeUpdate
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2105-vuln.bc
+--- [END] Processed: 2919516136a4227d9e6d8f2fe66ef976aaf8c561 ---
+--- [BEGIN] Processing: 3f3582139fbb ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2106-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 3f3582139fbb...
+Compiling 3f3582139fbb...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: No suitable binary  found after build
+--- [BEGIN] Processing: 68595c0c2886 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2107-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 68595c0c2886...
+Compiling 68595c0c2886...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000190f60 t aesni_cbc_hmac_sha256_cipher
+000000000018e3d0 t aesni_cbc_hmac_sha1_cipher
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2107-patch.bc
+--- [END] Processed: 68595c0c2886 ---
+--- [BEGIN] Processing: 643e8e972e54fa358935e5f8b7f5a8be9616d56b ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2107-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 643e8e972e54fa358935e5f8b7f5a8be9616d56b...
+Compiling 643e8e972e54fa358935e5f8b7f5a8be9616d56b...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000190ec0 t aesni_cbc_hmac_sha256_cipher
+000000000018e3d0 t aesni_cbc_hmac_sha1_cipher
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2107-vuln.bc
+--- [END] Processed: 643e8e972e54fa358935e5f8b7f5a8be9616d56b ---
+--- [BEGIN] Processing: f5da52e308a6 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2108-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out f5da52e308a6...
+Compiling f5da52e308a6...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178ea0 T ASN1_TYPE_cmp
+0000000000187530 T asn1_ex_c2i
+0000000000185260 T asn1_ex_i2c
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2108-patch.bc
+--- [END] Processed: f5da52e308a6 ---
+--- [BEGIN] Processing: 4159f311671cf3bac03815e5de44681eb758304a ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2108-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 4159f311671cf3bac03815e5de44681eb758304a...
+Compiling 4159f311671cf3bac03815e5de44681eb758304a...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178ea0 T ASN1_TYPE_cmp
+0000000000187670 T asn1_ex_c2i
+0000000000185300 T asn1_ex_i2c
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2108-vuln.bc
+--- [END] Processed: 4159f311671cf3bac03815e5de44681eb758304a ---
+--- [BEGIN] Processing: 2919516136a4 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2176-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2919516136a4...
+Compiling 2919516136a4...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+000000000019a640 T X509_NAME_oneline
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2176-patch.bc
+--- [END] Processed: 2919516136a4 ---
+--- [BEGIN] Processing: 56ea22458f3f5f1d0148b0a97957de4d56f3d328 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2176-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 56ea22458f3f5f1d0148b0a97957de4d56f3d328...
+Compiling 56ea22458f3f5f1d0148b0a97957de4d56f3d328...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+000000000019a640 T X509_NAME_oneline
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2176-vuln.bc
+--- [END] Processed: 56ea22458f3f5f1d0148b0a97957de4d56f3d328 ---
+--- [BEGIN] Processing: a004e72b9583 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2177-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out a004e72b9583...
+Compiling a004e72b9583...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000ca480 T tls1_process_ticket
+00000000000c7a60 t ssl_scan_clienthello_tlsext
+00000000000c8c30 t ssl_scan_clienthello_custom_tlsext
+00000000000a4960 T ssl3_get_client_hello
+00000000000e7270 T ssl_get_prev_session
+00000000000cceb0 t ssl_check_for_safari
+00000000000c99d0 t ssl_scan_serverhello_tlsext
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2177-patch.bc
+--- [END] Processed: a004e72b9583 ---
+--- [BEGIN] Processing: f792c663048f19347a1bb72125e535e4fb2ecf39 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2177-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out f792c663048f19347a1bb72125e535e4fb2ecf39...
+Compiling f792c663048f19347a1bb72125e535e4fb2ecf39...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000ca4a0 T tls1_process_ticket
+00000000000c7a60 t ssl_scan_clienthello_tlsext
+00000000000c8c30 t ssl_scan_clienthello_custom_tlsext
+00000000000a4960 T ssl3_get_client_hello
+00000000000e7270 T ssl_get_prev_session
+00000000000cceb0 t ssl_check_for_safari
+00000000000c99e0 t ssl_scan_serverhello_tlsext
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2177-vuln.bc
+--- [END] Processed: f792c663048f19347a1bb72125e535e4fb2ecf39 ---
+--- [BEGIN] Processing: 578b956fe741 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2842-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 578b956fe741...
+Compiling 578b956fe741...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178bd0 t fmtint
+0000000000178970 T BIO_vsnprintf
+0000000000179940 t roundv
+00000000001773b0 T BIO_vprintf
+0000000000179090 t fmtfp
+0000000000178a10 t doapr_outch
+00000000001774d0 t _dopr
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2842-patch.bc
+--- [END] Processed: 578b956fe741 ---
+--- [BEGIN] Processing: 259b664f950c2ba66fbf4b0fe5281327904ead21 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-2842-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 259b664f950c2ba66fbf4b0fe5281327904ead21...
+Compiling 259b664f950c2ba66fbf4b0fe5281327904ead21...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000178aa0 t fmtint
+0000000000178880 T BIO_vsnprintf
+0000000000179660 t roundv
+00000000001773b0 T BIO_vprintf
+0000000000178ec0 t fmtfp
+0000000000178910 t doapr_outch
+00000000001774b0 t _dopr
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-2842-vuln.bc
+--- [END] Processed: 259b664f950c2ba66fbf4b0fe5281327904ead21 ---
+--- [BEGIN] Processing: 2c0d295e2630 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-6304-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2c0d295e2630...
+Compiling 2c0d295e2630...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000b9e20 T ssl_parse_clienthello_tlsext
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-6304-patch.bc
+--- [END] Processed: 2c0d295e2630 ---
+--- [BEGIN] Processing: 151adf2e5cc23284a059e0f155505006a1c9fad9 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-6304-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 151adf2e5cc23284a059e0f155505006a1c9fad9...
+Compiling 151adf2e5cc23284a059e0f155505006a1c9fad9...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000b9e20 T ssl_parse_clienthello_tlsext
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-6304-vuln.bc
+--- [END] Processed: 151adf2e5cc23284a059e0f155505006a1c9fad9 ---
+--- [BEGIN] Processing: 52e623c4cb06 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-6306-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 52e623c4cb06...
+Compiling 52e623c4cb06...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000a2dc0 T ssl3_get_server_certificate
+00000000000a5ef0 T ssl3_get_certificate_request
+000000000009d8d0 T ssl3_get_client_certificate
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-6306-patch.bc
+--- [END] Processed: 52e623c4cb06 ---
+--- [BEGIN] Processing: 515a0105652a1b84d712b4d162cf859c02bf5450 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-6306-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 515a0105652a1b84d712b4d162cf859c02bf5450...
+Compiling 515a0105652a1b84d712b4d162cf859c02bf5450...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000a2d80 T ssl3_get_server_certificate
+00000000000a5e70 T ssl3_get_certificate_request
+000000000009d8d0 T ssl3_get_client_certificate
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-6306-vuln.bc
+--- [END] Processed: 515a0105652a1b84d712b4d162cf859c02bf5450 ---
+--- [BEGIN] Processing: 6e629b5be45f ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-7052-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 6e629b5be45f...
+Compiling 6e629b5be45f...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000001c19d0 t get_crl_sk
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-7052-patch.bc
+--- [END] Processed: 6e629b5be45f ---
+--- [BEGIN] Processing: f15a7e39a1f7d41716ca5f07faef74f55147d2cf ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2016-7052-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out f15a7e39a1f7d41716ca5f07faef74f55147d2cf...
+Compiling f15a7e39a1f7d41716ca5f07faef74f55147d2cf...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000001c19d0 t get_crl_sk
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2016-7052-vuln.bc
+--- [END] Processed: f15a7e39a1f7d41716ca5f07faef74f55147d2cf ---
+--- [BEGIN] Processing: 3984ef0b7283 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2018-0732-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 3984ef0b7283...
+Compiling 3984ef0b7283...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000162970 t generate_key
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2018-0732-patch.bc
+--- [END] Processed: 3984ef0b7283 ---
+--- [BEGIN] Processing: bd45a8d1ef338027e6892a7c886a373a4fafbf7d ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2018-0732-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out bd45a8d1ef338027e6892a7c886a373a4fafbf7d...
+Compiling bd45a8d1ef338027e6892a7c886a373a4fafbf7d...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+0000000000162970 t generate_key
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2018-0732-vuln.bc
+--- [END] Processed: bd45a8d1ef338027e6892a7c886a373a4fafbf7d ---
+--- [BEGIN] Processing: e9bbefbf0f24 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2019-1559-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out e9bbefbf0f24...
+Compiling e9bbefbf0f24...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000bc740 T ssl3_read_bytes
+00000000000be220 T ssl3_send_alert
+00000000000d6ef0 T dtls1_read_bytes
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2019-1559-patch.bc
+--- [END] Processed: e9bbefbf0f24 ---
+--- [BEGIN] Processing: c81f16952bca7793074ac926b17aed3364db2c84 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2019-1559-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out c81f16952bca7793074ac926b17aed3364db2c84...
+Compiling c81f16952bca7793074ac926b17aed3364db2c84...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+00000000000bc740 T ssl3_read_bytes
+00000000000be220 T ssl3_send_alert
+00000000000d6ee0 T dtls1_read_bytes
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2019-1559-vuln.bc
+--- [END] Processed: c81f16952bca7793074ac926b17aed3364db2c84 ---
+--- [BEGIN] Processing: 758754966791 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2021-4044-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 758754966791...
+Compiling 758754966791...
+Trying configuration: ./config -d,
+Configuration successful
+Build failed, see /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/compile.log
+Trying configuration: ./config -d  shared,
+Configuration failed, see /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/compile.log
+Trying configuration: ./config -d shared no-apps
+Configuration failed, see /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/compile.log
+Error: No suitable binary  found after build
+--- [BEGIN] Processing: 3bf7b73ea712 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2021-4160-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 3bf7b73ea712...
+Compiling 3bf7b73ea712...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: Function 'test_modexp_mont5' not found in openssl.bc
+Error: Missing functions in openssl.bc, skipping copy
+--- [BEGIN] Processing: 2eda98790c5c ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-1343-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2eda98790c5c...
+Compiling 2eda98790c5c...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ocsp_verify_signer
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-1343-patch.bc
+--- [END] Processed: 2eda98790c5c ---
+--- [BEGIN] Processing: ae3ece03a61e8822fd7ea58f44812871efba82d1 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-1343-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out ae3ece03a61e8822fd7ea58f44812871efba82d1...
+Compiling ae3ece03a61e8822fd7ea58f44812871efba82d1...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ocsp_verify_signer
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-1343-vuln.bc
+--- [END] Processed: ae3ece03a61e8822fd7ea58f44812871efba82d1 ---
+--- [BEGIN] Processing: 7d56a74a9682 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-1434-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 7d56a74a9682...
+Compiling 7d56a74a9682...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: Function 'rc4_hmac_md5_set_ctx_params' not found in openssl.bc
+Error: Missing functions in openssl.bc, skipping copy
+--- [BEGIN] Processing: 64c85430f952 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-1473-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 64c85430f952...
+Compiling 64c85430f952...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- T OPENSSL_LH_flush
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-1473-patch.bc
+--- [END] Processed: 64c85430f952 ---
+--- [BEGIN] Processing: af5b3af7bd48d3fd8fff70c689face7b552fdec0 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-1473-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out af5b3af7bd48d3fd8fff70c689face7b552fdec0...
+Compiling af5b3af7bd48d3fd8fff70c689face7b552fdec0...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- T OPENSSL_LH_flush
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-1473-vuln.bc
+--- [END] Processed: af5b3af7bd48d3fd8fff70c689face7b552fdec0 ---
+--- [BEGIN] Processing: 4d8a88c134df ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-2274-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 4d8a88c134df...
+Compiling 4d8a88c134df...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_rsaz_mod_exp_avx512_x2
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-2274-patch.bc
+--- [END] Processed: 4d8a88c134df ---
+--- [BEGIN] Processing: eea820f3e239a4c11d618741fd5d00a6bc877347 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-2274-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out eea820f3e239a4c11d618741fd5d00a6bc877347...
+Compiling eea820f3e239a4c11d618741fd5d00a6bc877347...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_rsaz_mod_exp_avx512_x2
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-2274-vuln.bc
+--- [END] Processed: eea820f3e239a4c11d618741fd5d00a6bc877347 ---
+--- [BEGIN] Processing: 5485c56679d7 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3358-patch.bc
+Destin ation:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 5485c56679d7...
+Compiling 5485c56679d7...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t evp_md_init_internal
+---------------- t evp_cipher_init_internal
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3358-patch.bc
+--- [END] Processed: 5485c56679d7 ---
+--- [BEGIN] Processing: 9f0867da4cbf77ed642717b5e703e09ab2c087a0 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3358-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 9f0867da4cbf77ed642717b5e703e09ab2c087a0...
+Compiling 9f0867da4cbf77ed642717b5e703e09ab2c087a0...
+Trying configuration: ./config -d,
+Configuration successfulBuild successful
+---------------- t evp_md_init_internal
+---------------- t evp_cipher_init_internal
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3358-vuln.bc
+--- [END] Processed: 9f0867da4cbf77ed642717b5e703e09ab2c087a0 ---
+--- [BEGIN] Processing: fe3b639dc19b ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3602-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out fe3b639dc19b...
+Compiling fe3b639dc19b...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_punycode_decode
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3602-patch.bc
+--- [END] Processed: fe3b639dc19b ---
+--- [BEGIN] Processing: 4bae06d47ae26b37a948d31f11884e1813f6d669 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3602-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 4bae06d47ae26b37a948d31f11884e1813f6d669...
+Compiling 4bae06d47ae26b37a948d31f11884e1813f6d669...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_punycode_decode
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3602-vuln.bc
+--- [END] Processed: 4bae06d47ae26b37a948d31f11884e1813f6d669 ---
+--- [BEGIN] Processing: c42165b5706e ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3786-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out c42165b5706e...
+Compiling c42165b5706e...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_punycode_decode
+---------------- t ossl_a2ulabel
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3786-patch.bc
+--- [END] Processed: c42165b5706e ---
+--- [BEGIN] Processing: fe3b639dc19b325846f4f6801f2f4604f56e3de3 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3786-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out fe3b639dc19b325846f4f6801f2f4604f56e3de3...
+Compiling fe3b639dc19b325846f4f6801f2f4604f56e3de3...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_punycode_decode
+---------------- t ossl_a2ulabel
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3786-vuln.bc
+--- [END] Processed: fe3b639dc19b325846f4f6801f2f4604f56e3de3 ---
+--- [BEGIN] Processing: 7725e7bfe6f2 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3996-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 7725e7bfe6f2...
+Compiling 7725e7bfe6f2...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_policy_cache_set_mapping
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3996-patch.bc
+--- [END] Processed: 7725e7bfe6f2 ---
+--- [BEGIN] Processing: 9a5c884999a55595e376083b3a165515c8123049 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-3996-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 9a5c884999a55595e376083b3a165515c8123049...
+Compiling 9a5c884999a55595e376083b3a165515c8123049...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_policy_cache_set_mapping
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-3996-vuln.bc
+--- [END] Processed: 9a5c884999a55595e376083b3a165515c8123049 ---
+--- [BEGIN] Processing: c927a3492698 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-4203-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out c927a3492698...
+Compiling c927a3492698...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t nc_match
+---------------- t do_i2r_name_constraints
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-4203-patch.bc
+--- [END] Processed: c927a3492698 ---
+--- [BEGIN] Processing: 36d85b02cef2ca34253619acae35623989258277 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-4203-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 36d85b02cef2ca34253619acae35623989258277...
+Compiling 36d85b02cef2ca34253619acae35623989258277...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t nc_match
+---------------- t do_i2r_name_constraints
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2022-4203-vuln.bc
+--- [END] Processed: 36d85b02cef2ca34253619acae35623989258277 ---
+--- [BEGIN] Processing: 63bcf189be73 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2022-4450-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 63bcf189be73...
+Compiling 63bcf189be73...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: Function 'PEM_read_bio_ex' not found in openssl.bc
+Error: Missing functions in openssl.bc, skipping copy
+--- [BEGIN] Processing: 8818064ce3c3 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0215-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 8818064ce3c3...
+Compiling 8818064ce3c3...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ndef_suffix
+---------------- T BIO_new_NDEF
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0215-patch.bc
+--- [END] Processed: 8818064ce3c3 ---
+--- [BEGIN] Processing: cbafa34b5a057794c5c08cd4657038e1f643c1ac ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0215-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out cbafa34b5a057794c5c08cd4657038e1f643c1ac...
+Compiling cbafa34b5a057794c5c08cd4657038e1f643c1ac...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ndef_suffix
+---------------- T BIO_new_NDEF
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0215-vuln.bc
+--- [END] Processed: cbafa34b5a057794c5c08cd4657038e1f643c1ac ---
+--- [BEGIN] Processing: 934a04f0e775 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0216-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 934a04f0e775...
+Compiling 934a04f0e775...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_pkcs7_resolve_libctx
+---------------- t pkcs7_get_signer_certs
+---------------- T PKCS7_add_signature
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0216-patch.bc
+--- [END] Processed: 934a04f0e775 ---
+--- [BEGIN] Processing: f596ec8a6f9f5fcfa8e46a73b60f78a609725294 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0216-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out f596ec8a6f9f5fcfa8e46a73b60f78a609725294...
+Compiling f596ec8a6f9f5fcfa8e46a73b60f78a609725294...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- t ossl_pkcs7_resolve_libctx
+---------------- t pkcs7_get_signer_certs
+---------------- T PKCS7_add_signature
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0216-vuln.bc
+--- [END] Processed: f596ec8a6f9f5fcfa8e46a73b60f78a609725294 ---
+--- [BEGIN] Processing: 23985bac83fd ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0217-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 23985bac83fd...
+Compiling 23985bac83fd...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: Function 'ffc_public_validate_test' not found in openssl.bc
+Error: Function 'ffc_private_validate_test' not found in openssl.bc
+Error: Function 'ossl_ffc_validate_private_key' not found in openssl.bc
+Error: Function 'ossl_ffc_validate_public_key_partial' not found in openssl.bc
+Error: Missing functions in openssl.bc, skipping copy
+--- [BEGIN] Processing: d3b6dfd70db8 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0401-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out d3b6dfd70db8...
+Compiling d3b6dfd70db8...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- T PKCS7_dataDecode
+---------------- t pkcs7_bio_add_digest
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0401-patch.bc
+--- [END] Processed: d3b6dfd70db8 ---
+--- [BEGIN] Processing: 2f7530077e0ef79d98718138716bc51ca0cad658 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0401-vuln.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2f7530077e0ef79d98718138716bc51ca0cad658...
+Compiling 2f7530077e0ef79d98718138716bc51ca0cad658...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+---------------- T PKCS7_dataDecode
+---------------- t pkcs7_bio_add_digest
+Copied to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl/CVE-2023-0401-vuln.bc
+--- [END] Processed: 2f7530077e0ef79d98718138716bc51ca0cad658 ---
+--- [BEGIN] Processing: 2017771e2db3 ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0464-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 2017771e2db3...
+Compiling 2017771e2db3...
+Trying configuration: ./config -d,
+Configuration successful
+Build successful
+Error: Function 'ossl_policy_level_add_node' not found in openssl.bc
+Error: Function 'ossl_policy_level_find_node' not found in openssl.bc
+Error: Function 'tree_init' not found in openssl.bc
+Error: Function 'tree_link_matching_nodes' not found in openssl.bc
+Error: Function 'tree_link_nodes' not found in openssl.bc
+Error: Function 'tree_link_any' not found in openssl.bc
+Error: Function 'tree_evaluate' not found in openssl.bc
+Error: Function 'tree_add_unmatched' not found in openssl.bc
+Error: Function 'tree_calculate_user_set' not found in openssl.bc
+Error: Missing functions in openssl.bc, skipping copy
+--- [BEGIN] Processing: 1dd43e0709fe ---
+Build directory:  /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl
+Output binary:    CVE-2023-0465-patch.bc
+Destination:      /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/target/openssl
+Checking out 1dd43e0709fe...
+Compiling 1dd43e0709fe...
+Trying configuration: ./config -d,
+Configuration successful

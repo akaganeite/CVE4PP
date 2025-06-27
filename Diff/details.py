@@ -10,8 +10,8 @@ from typing import List, Tuple, Set, Optional, Dict
 REPO_MAP = {
     # "binutils": "api.github.com/repos/bminor/binutils-gdb",
     # "curl": "api.github.com/repos/curl/curl",
-    # "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
-    "libxml2": "api.github.com/repos/GNOME/libxml2",
+    "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
+    # "libxml2": "api.github.com/repos/GNOME/libxml2",
     # "sqlite": "api.github.com/repos/sqlite/sqlite",
     # "openssl": "api.github.com/repos/openssl/openssl",
 }
@@ -213,7 +213,7 @@ def generate_report(project_dir, entries):
             f.write(f"{cve_id} {date} {func_list}\n")
 
 def main():
-    for root, dirs, files in os.walk("./libxml2/diff_files"):
+    for root, dirs, files in os.walk("./ffmpeg/diff_files"):
         project = root.split(os.sep)[-2]  # 获取项目名
         print(project)
         if project not in REPO_MAP: continue

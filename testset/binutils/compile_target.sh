@@ -76,6 +76,7 @@ compile_tag() {
                 "${REPO_DIR}/configure" \
                     CFLAGS="-g3 -O0" \
                     CXXFLAGS="-g3 -O0" \
+                    --disable-werror
                    # --disable-werror \
                    # --enable-debug
 

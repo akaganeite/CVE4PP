@@ -117,7 +117,7 @@ def find_cpe_vendor_product(project):
         "libxml2": ["xmlsoft", "libxml2"],
         "libjpeg-turbo": ["libjpeg-turbo", "libjpeg-turbo"],
         "httpd": ["apache", "httpd"],
-        "tomcat": ["apache", "tomcat"],
+        "ffmpeg": ["ffmpeg", "ffmpeg"],
         "nghttp2": ["nghttp2", "nghttp2"],
         "openssh": ["openssh", "openssh"],
         "bind": ["isc", "bind"],

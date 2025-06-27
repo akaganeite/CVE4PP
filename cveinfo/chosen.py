@@ -1,5 +1,5 @@
 import json
-PROJ = "libxml2"
+PROJ = "ffmpeg"
 def print_top_100_cves(json_file):
     try:
         # 读取JSON文件
@@ -12,7 +12,7 @@ def print_top_100_cves(json_file):
             return
         
         # 提取前100个CVE ID
-        cve_ids = [entry["id"] for entry in data[:100] if not (entry["id"].startswith("CVE-2024") or entry["id"].startswith("CVE-2025"))]
+        cve_ids = [entry["id"] for entry in data[:100] if not (entry["id"].startswith("CVE-2025"))]
         
         # 打印结果
         print(f"前 {len(cve_ids)} 个CVE ID:")
