@@ -1,10 +1,12 @@
+# DATASET FOR PATCH PRESENCE
 ## projects
 
 - curl
 - openssl
-- tcpdump
+- libxml2
 - sqlite
 - ffmpeg
+- binutils
 
 ## structure
 
@@ -13,11 +15,17 @@
 - releases: releae history of projects
 - Diff: .diff for each CVE
 
-## Todos
+## testset
 
-- > test CVEs in `first_patch.json`
-  >
-- compile `openssl` binaries
+- chosen.txt 初始选择的CVE
+- compile*.sh 用于编译reference target二进制
+- *.log 编译时的log
+- valid 合格的CVE(用于签名生成与检测)
+- versions 全部的release版本
+- testset.json 为每个cve选择的testset的版本
+- ground_truth.json 每个CVE的全部vuln patch版本，为理想数据集构建准备
+- gen_target.py 构建测试集文件
+- target_version.py 构建testset&ground_truth.json
 
 ## 实验流程
 
@@ -39,21 +47,8 @@
 > 2 3 4 部分在如下链接中有编译好的版本。如果需要自己编译的话参考Diff/{project}/compile.sh的bash脚本。除binutils外的脚本都会自动编译所需的target和reference二进制
 > compiled binaries:https://drive.google.com/file/d/19heaZ2yUiJLUsM02Umv8UM8XtFPliHzg/view?usp=drive_link
 
-### 备注
 
-- REACT使用的不是reference binary，是LLVM的.bc文件，编译器使用clang，编译时emit llvm即可。
 
-## testset
-
-- chosen.txt 初始选择的CVE
-- compile*.sh 用于编译reference target二进制
-- *.log 编译时的log
-- valid 合格的CVE(用于签名生成与检测)
-- versions 全部的release版本
-- testset.json 为每个cve选择的testset的版本
-- ground_truth.json 每个CVE的全部vuln patch版本，为理想数据集构建准备
-- gen_target.py 构建测试集文件
-- target_version.py 构建testset&ground_truth.json
 
 ## Openssl
 

@@ -87,7 +87,7 @@ compile_and_copy_libxml2() {
             fi
 
             echo -e "\n=== 开始编译 $git_checkout_ref (日志于 $log_file) ==="
-            make -j$(nproc) && make install
+            make -j$(nproc)
             # local make_exit_code=$?
             # if [ $make_exit_code -ne 0 ]; then
             #     echo "错误：编译失败，退出码: $make_exit_code. 详情请查看 $log_file"
