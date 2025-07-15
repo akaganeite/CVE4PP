@@ -63,7 +63,7 @@ def convert_valid_to_details(valid_file_path, output_file_path):
         print(f"错误：转换过程中出现异常: {e}")
         sys.exit(1)
 
-PROJECT = "ffmpeg"
+PROJECT = "openssl"
 def main():
     """主函数"""
     # 设置文件路径

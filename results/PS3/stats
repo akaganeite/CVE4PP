@@ -1,0 +1,39 @@
+binutils:
+    CVE-acc:
+        总体准确率: 160/237 = 0.6751
+        False Positive: 19, False Negative: 33, Failed Versions: 21
+        filtered_acc:160/237-21 = 0.7407
+    Func-acc:
+        succeed/targets = 197/307 = 0.6417
+        succeed/(targets-func_not_found) = 197/(307-3) = 0.6480
+        succeed/valid_targets = 197/262 = 0.7519 (只考虑FP/FN)
+
+curl:
+    CVE-acc:
+        总体准确率: 129/214 = 0.6028
+        False Positive: 14, False Negative: 25, Failed Versions: 36
+        filtered_acc:129/214-36 = 0.7247
+    Func-acc:
+        succeed/targets = 161/304 = 0.5296
+        succeed/(targets-func_not_found) = 161/(304-2) = 0.5331
+        succeed/valid_targets = 161/215 = 0.7488 (只考虑FP/FN)
+
+libxml2:
+    CVE-acc:
+        总体准确率: 43/94 = 0.4574
+        False Positive: 7, False Negative: 18, Failed Versions: 26
+        filtered_acc:43/94-26 = 0.6324
+    Func-acc:
+        succeed/targets = 91/450 = 0.2022
+        succeed/(targets-func_not_found) = 91/(450-0) = 0.2022
+        succeed/valid_targets = 91/144 = 0.6319 (只考虑FP/FN)
+
+openssl:
+    CVE-acc:
+        总体准确率: 121/191 = 0.6335
+        False Positive: 9, False Negative: 6, Failed Versions: 36
+        filtered_acc:121/191-36 = 0.7806
+    Func-acc:
+        succeed/targets = 226/416 = 0.5433
+        succeed/(targets-func_not_found) = 226/(416-11) = 0.5580
+        succeed/valid_targets = 226/278 = 0.8129 (只考虑FP/FN)

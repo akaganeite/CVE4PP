@@ -115,16 +115,8 @@ def find_cpe_vendor_product(project):
     vendor_map = {
         "openssl": ["openssl", "openssl"],
         "libxml2": ["xmlsoft", "libxml2"],
-        "libjpeg-turbo": ["libjpeg-turbo", "libjpeg-turbo"],
-        "httpd": ["apache", "httpd"],
         "ffmpeg": ["ffmpeg", "ffmpeg"],
-        "nghttp2": ["nghttp2", "nghttp2"],
-        "openssh": ["openssh", "openssh"],
-        "bind": ["isc", "bind"],
-        "systemd": ["systemd", "systemd"],
         "sqlite": ["sqlite", "sqlite"],
-        "zlib": ["zlib", "zlib"],
-        "gcc": ["gnu", "gcc"],
         "binutils": ["gnu", "binutils"],
         "curl": ["haxx", "curl"],
     }
@@ -298,44 +290,48 @@ def create_testset(ground_truth, existing_testset, release_map, cve_date_map):
             print(f"Warning: No valid date for {cve_id}, using current date")
             target_date = datetime.date.today()
         
-        # 确保至少有一个漏洞版本和一个补丁版本
-        if not vuln_versions or not patch_versions:
-            print(f"Skipping {cve_id}: Not enough versions (vuln: {len(vuln_versions)}, patch: {len(patch_versions)})")
+        # 先过滤出早于target_date的vuln版本和晚于target_date的patch版本
+        # vuln_versions = [v for v in vuln_versions if release_map.get(v) and release_map.get(v) < target_date]
+        patch_versions = [v for v in patch_versions if release_map.get(v) and release_map.get(v) > target_date]
+
+        # 过滤后如果为空则跳过
+        if not patch_versions:
+            print(f"Skipping {cve_id}: after pre-filter, no patch version remains")
             skipped_cves += 1
             continue
-        
+
         # 计算日期差异函数
         def date_diff(date_str):
             """计算日期差异（天数）"""
             if not date_str:
                 return float('inf')
             return abs((target_date - date_str).days)
-        
+
         # 为所有版本添加发布日期
         vuln_with_dates = [(v, release_map.get(v)) for v in vuln_versions]
         patch_with_dates = [(v, release_map.get(v)) for v in patch_versions]
-        
+
         # 按日期差异排序（最接近的排在最前面）
         vuln_sorted = sorted(
             vuln_with_dates, 
             key=lambda x: date_diff(x[1])
         )[:min(3, len(vuln_with_dates))]
-        
+
         patch_sorted = sorted(
             patch_with_dates, 
             key=lambda x: date_diff(x[1])
         )[:min(3, len(patch_with_dates))]
-        
+
         # 提取版本号
         vuln_selected = [v[0] for v in vuln_sorted]
         patch_selected = [v[0] for v in patch_sorted]
-        
-        # 检查结果
+
+        # 检查纠正后结果
         if not vuln_selected or not patch_selected:
-            print(f"Skipping {cve_id}: Could not find versions with known dates")
+            print(f"Skipping {cve_id}: no valid vuln or patch version found")
             skipped_cves += 1
             continue
-            
+        
         testset[cve_id] = {
             "vuln": vuln_selected,
             "patch": patch_selected,

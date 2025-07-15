@@ -4,9 +4,8 @@
 
 # --- Configuration ---
 REPO_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/target/openssl"
-DETAILS_FILE="/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/openssl/diff_files/details_llvm"
-REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/openssl"
-TARGET_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl"
+DETAILS_FILE="/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/openssl/details_llvm"
+REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/openssl-new"
 
 # --- Helper function to compile a specific git ref ---
 compile_and_copy_openssl() {
@@ -82,7 +81,7 @@ compile_and_copy_openssl() {
                 
                 # 查找合适的二进制文件
                 if [[ "$bin_name" == "openssl" ]]; then
-                    target_binary="./apps/openssl"
+                    target_binary="./apps/openssl.bc"
                     binary_type="openssl.bc"
                 else
                     local lib_name=$(find . -name "${bin_name}.*.0.5.precodegen.bc" -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d" ")
@@ -135,7 +134,7 @@ compile_and_copy_openssl() {
 }
 
 # --- Main Logic ---
-mkdir -p "$REFERENCE_DIR" "$TARGET_DIR" 
+mkdir -p "$REFERENCE_DIR" 
 
 
 echo "===== Processing CVEs ====="
@@ -177,4 +176,3 @@ fi
 
 echo "===== All tasks completed ====="
 echo "CVE binaries: $REFERENCE_DIR"
-echo "Version binaries: $TARGET_DIR"

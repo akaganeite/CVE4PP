@@ -1,0 +1,2044 @@
+------------------------------------------
+Detecing CVE:CVE-2017-13710
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Put: 48 = 18446744073709551456 + SR(48)], patch match []
+Result for setup_group:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-13710
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551440 + SR(48)]
+Result for setup_group:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-13710
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551440 + SR(48)]
+Result for setup_group:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-13710
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551440 + SR(48)]
+Result for setup_group:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-13757
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Put: 24 = Mem(32) + FakeRet(bfd_malloc), Put: 152 = Mem(32), Put: 72 = Mem(32) + FakeRet(bfd_malloc)], patch match []
+Result for elf_i386_get_synthetic_symtab:vuln , truth is vuln
+Result for elf_x86_64_get_synthetic_symtab:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-13757
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+Result for elf_x86_64_get_synthetic_symtab:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-13757
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+Result for elf_x86_64_get_synthetic_symtab:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-13757
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+vuln match [], patch match [Put: 24 = Mem(8) + FakeRet(bfd_malloc), Put: 152 = Mem(8), Put: 72 = Mem(8) + FakeRet(bfd_malloc)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+Result for elf_x86_64_get_synthetic_symtab:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14128
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Put: 152 = FakeRet(read_4_bytes), Put: 32 = FakeRet(read_4_bytes), Condition: If(ULE(FakeRet(read_4_bytes), Mem(152 + SR(64))), 0, 1)], patch match []
+Result for decode_line_info:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14128
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 152 = FakeRet(read_4_bytes)], patch match [Put: 32 = Mem(104 + SR(72)) + FakeRet(read_4_bytes), Put: 152 = Mem(104 + SR(72)) + FakeRet(read_4_bytes), Condition: If(ULE(Mem(104 + SR(72)) + FakeRet(read_4_bytes),
+       Mem(152 + SR(64))),
+   0,
+   1)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14128
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [Put: 152 = FakeRet(read_4_bytes)], patch match []
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14128
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Put: 152 = FakeRet(read_4_bytes)], patch match []
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14129
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for read_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14129
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Store: 18446744073709551584 + SR(48) = FakeRet(malloc), Put: 72 = Mem(SR(64)), Put: 48 = 18446744073709551504 + SR(48), Put: 24 = FakeRet(bfd_simple_get_relocated_section_contents), Put: 16 = FakeRet(malloc), Put: 64 = FakeRet(bfd_simple_get_relocated_section_contents), Put: 72 = FakeRet(malloc), Put: 152 = FakeRet(malloc), Put: 32 = Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 16 = FakeRet(bfd_simple_get_relocated_section_contents), Put: 72 = FakeRet(bfd_simple_get_relocated_section_contents), Condition: If(Extract(7,
+           0,
+           Mem(18446744073709551615 +
+               Mem(56 + FakeRet(bfd_get_section_by_name)) +
+               FakeRet(bfd_simple_get_relocated_section_contents))) ==
+   0,
+   0,
+   1), Condition: If(Mem(56 + FakeRet(bfd_get_section_by_name)) == 0, 0, 1), Condition: If(FakeRet(strstr) == 0, 0, 1), Put: 160 = Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 16 = SR(80), Put: 32 = FakeRet(malloc), Put: 32 = FakeRet(bfd_simple_get_relocated_section_contents), Put: 16 = Mem(18446744073709551615 +
+    Mem(56 + FakeRet(bfd_get_section_by_name)) +
+    FakeRet(bfd_simple_get_relocated_section_contents)), Put: 152 = Mem(18446744073709551615 +
+    Mem(56 + FakeRet(bfd_get_section_by_name)) +
+    FakeRet(bfd_simple_get_relocated_section_contents)), Put: 32 = FakeRet(dgettext), Put: 72 = FakeRet(dgettext), Put: 16 = Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 152 = Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 16 = 1 + Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 72 = 1 + Mem(56 + FakeRet(bfd_get_section_by_name)), Put: 152 = FakeRet(strstr)]
+Result for read_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14129
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+Result for read_section:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14129
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for read_section:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14130
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Put: 72 = Mem(32 + SR(64))], patch match [Put: 152 = Mem(32 + SR(64))]
+Result for _bfd_elf_parse_attributes:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14130
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Put: 152 = Mem(32 + SR(64)), Put: 72 = 1 + Mem(32 + SR(64))]
+Result for _bfd_elf_parse_attributes:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14130
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 152 = Mem(32 + SR(64)), Put: 72 = 1 + Mem(32 + SR(64))]
+Result for _bfd_elf_parse_attributes:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14130
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 152 = Mem(32 + SR(64)), Put: 72 = 1 + Mem(32 + SR(64))]
+Result for _bfd_elf_parse_attributes:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14529
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for pe_print_idata:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14529
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+Result for pe_print_idata:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14529
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+Result for pe_print_idata:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14529
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for pe_print_idata:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14729
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+no function dict_keys(['_bfd_x86_elf_get_synthetic_symtab']) in target
+------------------------------------------
+Detecing CVE:CVE-2017-14729
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+no function dict_keys(['_bfd_x86_elf_get_synthetic_symtab']) in target
+------------------------------------------
+Detecing CVE:CVE-2017-14729
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(FakeRet(bfd_malloc) +
+    Concat(Extract(60,
+                   0,
+                   FakeRet +
+                   Concat(0, Extract(63, 63, FakeRet)) >>
+                   1),
+           0))]
+Result for _bfd_x86_elf_get_synthetic_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14729
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(FakeRet(bfd_malloc) +
+    Concat(Extract(60,
+                   0,
+                   FakeRet +
+                   Concat(0, Extract(63, 63, FakeRet)) >>
+                   1),
+           0))]
+Result for _bfd_x86_elf_get_synthetic_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Put: 152 = 4 +
+FakeRet(read_4_bytes) +
+Mem(104 + SR(72)) +
+Mem(144 + SR(64)), Condition: If(ULE(4 +
+       FakeRet(read_4_bytes) +
+       Mem(104 + SR(72)) +
+       Mem(144 + SR(64)),
+       17 + Mem(104 + SR(72)) + Mem(144 + SR(64))),
+   0,
+   1)]
+Result for decode_line_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14933
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for read_formatted_entries:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14933
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+Result for read_formatted_entries:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14933
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for read_formatted_entries:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14933
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+Result for read_formatted_entries:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14934
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(dwarf_vmatoa), Put: 48 = 18446744073709551184 + SR(48), Put: 32 = FakeRet(dwarf_vmatoa), Put: 64 = FakeRet(dwarf_vmatoa), Put: 72 = FakeRet(gettext), Put: 112 = FakeRet(dwarf_vmatoa), Store: 18446744073709551244 + SR(48) = 0]
+Result for process_debug_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14934
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(dwarf_vmatoa), Put: 48 = 18446744073709551184 + SR(48), Put: 32 = FakeRet(dwarf_vmatoa), Put: 64 = FakeRet(dwarf_vmatoa), Put: 72 = FakeRet(gettext), Put: 112 = FakeRet(dwarf_vmatoa), Store: 18446744073709551244 + SR(48) = 0]
+Result for process_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14934
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(dwarf_vmatoa), Put: 48 = 18446744073709551184 + SR(48), Put: 32 = FakeRet(dwarf_vmatoa), Put: 64 = FakeRet(dwarf_vmatoa), Put: 72 = FakeRet(gettext), Store: 18446744073709551184 + SR(48) = 4658200, Put: 112 = FakeRet(dwarf_vmatoa), Store: 18446744073709551244 + SR(48) = 0]
+Result for process_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14934
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(dwarf_vmatoa), Put: 48 = 18446744073709551184 + SR(48), Put: 32 = FakeRet(dwarf_vmatoa), Put: 64 = FakeRet(dwarf_vmatoa), Put: 72 = FakeRet(gettext), Store: 18446744073709551184 + SR(48) = 4658200, Put: 112 = FakeRet(dwarf_vmatoa), Store: 18446744073709551244 + SR(48) = 0]
+Result for process_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Condition: If(Extract(63, 4, Mem(616 + Mem(248 + SR(72)))) == 0, 0, 1)], patch match []
+Result for _bfd_elf_slurp_version_tables:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Condition: If(Extract(63, 4, Mem(616 + Mem(248 + SR(72)))) == 0, 0, 1)], patch match []
+Result for _bfd_elf_slurp_version_tables:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Condition: If(And(Extract(63, 60, Mem(628 + Mem(248 + SR(72)))) == 0,
+       ULE(Extract(59, 0, Mem(628 + Mem(248 + SR(72)))),
+           Extract(63, 4, Mem(616 + Mem(248 + SR(72)))))),
+   0,
+   1)]
+vuln match [], patch match []
+Result for _bfd_elf_slurp_version_tables:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Condition: If(And(Extract(63, 60, Mem(628 + Mem(248 + SR(72)))) == 0,
+       ULE(Extract(59, 0, Mem(628 + Mem(248 + SR(72)))),
+           Extract(63, 4, Mem(616 + Mem(248 + SR(72)))))),
+   0,
+   1)]
+vuln match [], patch match []
+Result for _bfd_elf_slurp_version_tables:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Put: 152 = FakeRet(read_4_bytes), Put: 16 = FakeRet(read_4_bytes)]
+Result for decode_line_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 152 = Mem(104 + SR(72)) + FakeRet(read_4_bytes), Put: 32 = Mem(104 + SR(72)) + FakeRet(read_4_bytes), Condition: If(ULE(Mem(104 + SR(72)) + FakeRet(read_4_bytes),
+       Mem(152 + SR(64))),
+   0,
+   1)], patch match [Put: 152 = FakeRet(read_4_bytes), Put: 16 = FakeRet(read_4_bytes)]
+Result for decode_line_info:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 152 = FakeRet(read_4_bytes), Put: 16 = FakeRet(read_4_bytes)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 152 = FakeRet(read_4_bytes), Put: 16 = FakeRet(read_4_bytes)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14940
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for scan_unit_for_symbols:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14940
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+Result for scan_unit_for_symbols:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14940
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Condition: If(Mem(8 + Mem(18446744073709551584 + SR(48))) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14940
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Condition: If(Mem(8 + Mem(18446744073709551584 + SR(48))) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14974
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is vuln
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_x86_64_get_synthetic_symtab:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-14974
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_x86_64_get_synthetic_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14974
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_x86_64_get_synthetic_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-14974
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_i386_get_synthetic_symtab:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet <= 0, 0, 1)]
+Result for elf_x86_64_get_synthetic_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15020
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Condition: If(ULE(SR(24), SR(32) + FakeRet), 0, 1)], patch match [Store: SR(64) = FakeRet]
+Result for parse_die:vuln , truth is vuln
+vuln match [Condition: If(ULE(Mem(48 + SR(72)),
+       Mem(40 + SR(64)) + Mem(40 + SR(72))),
+   1,
+   0)], patch match []
+Result for parse_line_table:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15020
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Store: SR(64) = FakeRet, Condition: If(ULE(4 + SR(32), SR(24)), 1, 0), Condition: If(ULE(SR(32) + FakeRet, SR(24)), 1, 0)]
+vuln match [Put: 16 = SR(32) + FakeRet, Store: 18446744073709551590 + SR(48) = FakeRet, Put: 160 = SR(32) + FakeRet, Put: 72 = 6 + SR(32), Put: 72 = 4 + SR(32)], patch match [Condition: If(ULE(6 + SR(32), SR(32) + FakeRet), 1, 0), Put: 152 = SR(32) + FakeRet, Condition: If(ULE(8 + SR(32), SR(32) + FakeRet), 1, 0)]
+Result for parse_die:vuln , truth is patch
+vuln match [], patch match [Condition: If(ULE(8 + Mem(40 + SR(64)) + Mem(40 + SR(72)),
+       Mem(48 + SR(72))),
+   0,
+   1)]
+Result for parse_line_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15020
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Store: SR(64) = FakeRet, Condition: If(ULE(4 + SR(32), SR(24)), 1, 0), Condition: If(ULE(SR(32) + FakeRet, SR(24)), 1, 0)]
+vuln match [Put: 16 = SR(32) + FakeRet, Put: 160 = SR(32) + FakeRet, Put: 72 = 6 + SR(32), Put: 72 = 4 + SR(32)], patch match [Condition: If(ULE(6 + SR(32), SR(32) + FakeRet), 1, 0), Put: 152 = SR(32) + FakeRet, Condition: If(ULE(8 + SR(32), SR(32) + FakeRet), 1, 0)]
+vuln match [], patch match [Put: 152 = SR(32) + FakeRet, Condition: If(ULE(12 + SR(32), SR(32) + FakeRet), 1, 0)]
+vuln match [Put: 72 = 8 + SR(32)], patch match [Condition: If(ULE(10 + SR(32), SR(32) + FakeRet), 1, 0), Put: 152 = 8 + SR(32), Put: 160 = FakeRet, Put: 160 = 1 + FakeRet(strnlen), Store: 18446744073709551592 + SR(48) = 9 + SR(32) + FakeRet(strnlen), Store: 18446744073709551592 + SR(48) = 8 + SR(32) + FakeRet, Put: 152 = 8 + SR(32) + FakeRet, Put: 152 = SR(32) + FakeRet, Put: 32 = 18446744073709551608 + FakeRet, Put: 64 = 18446744073709551608 + FakeRet, Condition: If(ULE(12 + SR(32), SR(32) + FakeRet), 1, 0), Put: 16 = 1 + FakeRet(strnlen)]
+Result for parse_die:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(8 + Mem(40 + SR(64)) + Mem(40 + SR(72)),
+       Mem(48 + SR(72))),
+   0,
+   1)]
+Result for parse_line_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15020
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Store: SR(64) = FakeRet, Condition: If(ULE(4 + SR(32), SR(24)), 1, 0), Condition: If(ULE(SR(32) + FakeRet, SR(24)), 1, 0)]
+vuln match [Put: 16 = SR(32) + FakeRet, Put: 160 = SR(32) + FakeRet, Put: 72 = 6 + SR(32), Put: 72 = 4 + SR(32)], patch match [Condition: If(ULE(6 + SR(32), SR(32) + FakeRet), 1, 0), Put: 152 = SR(32) + FakeRet, Condition: If(ULE(8 + SR(32), SR(32) + FakeRet), 1, 0)]
+vuln match [], patch match [Put: 152 = SR(32) + FakeRet, Condition: If(ULE(12 + SR(32), SR(32) + FakeRet), 1, 0)]
+vuln match [Put: 72 = 8 + SR(32)], patch match [Condition: If(ULE(10 + SR(32), SR(32) + FakeRet), 1, 0), Put: 152 = 8 + SR(32), Put: 160 = FakeRet, Put: 160 = 1 + FakeRet(strnlen), Store: 18446744073709551592 + SR(48) = 9 + SR(32) + FakeRet(strnlen), Store: 18446744073709551592 + SR(48) = 8 + SR(32) + FakeRet, Put: 152 = 8 + SR(32) + FakeRet, Put: 152 = SR(32) + FakeRet, Put: 32 = 18446744073709551608 + FakeRet, Put: 64 = 18446744073709551608 + FakeRet, Condition: If(ULE(12 + SR(32), SR(32) + FakeRet), 1, 0), Put: 16 = 1 + FakeRet(strnlen)]
+Result for parse_die:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(8 + Mem(40 + SR(64)) + Mem(40 + SR(72)),
+       Mem(48 + SR(72))),
+   0,
+   1)]
+Result for parse_line_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15021
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [Put: 152 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Put: 32 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Condition: If(And(Extract(63,
+               32,
+               Mem(56 + FakeRet(bfd_get_section_by_name))) ==
+       0,
+       ULE(Extract(31,
+                   0,
+                   Mem(56 + FakeRet(bfd_get_section_by_name))),
+           Concat(Extract(31, 2, 4 + FakeRet(strnlen)), 0))),
+   1,
+   0)], patch match []
+Result for bfd_get_debug_link_info_1:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15021
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 152 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Put: 32 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Condition: If(And(Extract(63,
+               32,
+               Mem(56 + FakeRet(bfd_get_section_by_name))) ==
+       0,
+       ULE(Extract(31,
+                   0,
+                   Mem(56 + FakeRet(bfd_get_section_by_name))),
+           Concat(Extract(31, 2, 4 + FakeRet(strnlen)), 0))),
+   1,
+   0)], patch match []
+Result for bfd_get_debug_link_info_1:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15021
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [Put: 152 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0)], patch match [Put: 152 = 4 + Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Put: 32 = 4 + Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0), Condition: If(ULE(4 +
+       Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0),
+       Mem(56 + FakeRet(bfd_get_section_by_name))),
+   0,
+   1)]
+Result for bfd_get_debug_link_info_1:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15021
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Put: 152 = Concat(0, Extract(31, 2, 4 + FakeRet(strnlen)), 0)], patch match []
+Result for bfd_get_debug_link_info_1:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15022
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 152 = FakeRet(is_str_attr), Put: 48 = 18446744073709551424 + SR(48), Condition: If(FakeRet(is_str_attr) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is vuln
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = FakeRet, Condition: If(FakeRet == 0, 0, 1)]
+Result for parse_comp_unit:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15022
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 152 = FakeRet(is_str_attr), Put: 48 = 18446744073709551424 + SR(48), Condition: If(FakeRet(is_str_attr) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = FakeRet, Condition: If(FakeRet == 0, 0, 1)]
+Result for parse_comp_unit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15022
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 152 = FakeRet(is_str_attr), Put: 48 = 18446744073709551424 + SR(48), Condition: If(FakeRet(is_str_attr) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = FakeRet, Condition: If(FakeRet == 0, 0, 1)]
+Result for parse_comp_unit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15022
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 152 = FakeRet(is_str_attr), Put: 48 = 18446744073709551424 + SR(48), Condition: If(FakeRet(is_str_attr) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+vuln match [], patch match [Put: 16 = Mem(18446744073709551580 + SR(48)), Put: 72 = Mem(18446744073709551580 + SR(48)), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = FakeRet, Condition: If(FakeRet == 0, 0, 1)]
+Result for parse_comp_unit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15024
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance_name:None , truth is vuln
+vuln match [Store: 8 + FakeRet = 0, Put: 16 = 8 + FakeRet, Store: 18446744073709551460 + SR(48) = 1], patch match [Put: 16 = FakeRet, Store: 18446744073709551460 + SR(48) = 0]
+Result for scan_unit_for_symbols:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15024
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [Store: 8 + FakeRet = 0, Put: 16 = 8 + FakeRet, Store: 18446744073709551460 + SR(48) = 1], patch match [Put: 16 = FakeRet, Store: 18446744073709551460 + SR(48) = 0]
+Result for scan_unit_for_symbols:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15024
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [Store: 8 + FakeRet = 0, Put: 16 = 8 + FakeRet, Store: 18446744073709551460 + SR(48) = 1], patch match [Store: FakeRet = 0, Put: 16 = FakeRet, Store: 18446744073709551460 + SR(48) = 0]
+vuln match [Store: 18446744073709551468 + SR(48) = 18446744073709551615], patch match [Put: 32 = Mem(18446744073709551608 + FakeRet), Put: 16 = Mem(18446744073709551608 + FakeRet), Store: FakeRet = FakeRet, Put: 32 = FakeRet, Put: 152 = Mem(18446744073709551608 + FakeRet), Condition: If(Mem(18446744073709551608 + FakeRet) == 0, 0, 1)]
+vuln match [Store: 8 + FakeRet = 0, Put: 16 = 8 + FakeRet], patch match [Put: 16 = FakeRet, Store: FakeRet = 0]
+vuln match [], patch match [Put: 152 = FakeRet, Put: 32 = 18446744073709551576 + SR(48), Condition: If(FakeRet == 0, 0, 1)]
+vuln match [], patch match [Put: 16 = 8 + FakeRet, Store: 8 + FakeRet = 0]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15024
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [Store: 18446744073709551460 + SR(48) = 1], patch match [Store: 18446744073709551460 + SR(48) = 0]
+vuln match [Store: 18446744073709551468 + SR(48) = 18446744073709551615], patch match []
+Result for scan_unit_for_symbols:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15025
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match [Put: 16 = FakeRet(read_1_byte), Put: 152 = FakeRet(read_1_byte), Condition: If(Extract(7, 0, FakeRet(read_1_byte)) == 0, 0, 1)]
+Result for decode_line_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15025
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Put: 16 = FakeRet(read_1_byte), Put: 152 = FakeRet(read_1_byte), Condition: If(Extract(7, 0, FakeRet(read_1_byte)) == 0, 0, 1)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15025
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 16 = FakeRet(read_1_byte), Put: 152 = FakeRet(read_1_byte), Condition: If(Extract(7, 0, FakeRet(read_1_byte)) == 0, 0, 1)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15025
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 16 = FakeRet(read_1_byte), Put: 152 = FakeRet(read_1_byte), Condition: If(Extract(7, 0, FakeRet(read_1_byte)) == 0, 0, 1)]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15225
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for _bfd_dwarf2_cleanup_debug_info:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15225
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 72 = Mem(256 + Mem(SR(64))), Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(256 + Mem(SR(64))) == 0, 0, 1), Condition: If(Mem(248 + Mem(SR(64))) == 0, 0, 1)]
+Result for _bfd_dwarf2_cleanup_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15225
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 72 = Mem(256 + Mem(SR(64))), Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(256 + Mem(SR(64))) == 0, 0, 1), Condition: If(Mem(248 + Mem(SR(64))) == 0, 0, 1)]
+Result for _bfd_dwarf2_cleanup_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15225
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 72 = Mem(256 + Mem(SR(64))), Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(256 + Mem(SR(64))) == 0, 0, 1), Condition: If(Mem(248 + Mem(SR(64))) == 0, 0, 1)]
+Result for _bfd_dwarf2_cleanup_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance_name:None , truth is vuln
+vuln match [Put: 16 = FakeRet, Store: 96 + FakeRet = Mem(64 + SR(72))], patch match []
+Result for parse_comp_unit:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [Put: 16 = FakeRet], patch match []
+Result for parse_comp_unit:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [], patch match []
+Result for parse_comp_unit:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15938
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+Result for find_abstract_instance_name:None , truth is patch
+vuln match [], patch match []
+Result for parse_comp_unit:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+Result for concat_filename:vuln , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551408 + SR(48)]
+Result for read_formatted_entries:patch , truth is vuln
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 80 = FakeRet, Put: 72 = FakeRet, Store: 18446744073709551404 + SR(48) = FakeRet, Put: 152 = FakeRet, Put: 80 = 4 + FakeRet + Mem(104 + SR(72)) + Mem(144 + SR(64)), Put: 32 = FakeRet, Put: 24 = FakeRet]
+Result for decode_line_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(Concat(2305843009213693951 +
+              Concat(1152921504606846975 +
+                     Extract(59, 0, SR(64)),
+                     0) +
+              Extract(60, 0, SR(64)),
+              0) +
+       Mem(40 + SR(72))) ==
+   0,
+   0,
+   1)]
+Result for concat_filename:patch , truth is patch
+vuln match [], patch match [Put: 72 = 18446744073709551576 + SR(48)]
+Result for read_formatted_entries:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 80 = FakeRet, Put: 72 = FakeRet, Put: 32 = 18446744073709551348 + SR(48), Store: 18446744073709551404 + SR(48) = FakeRet, Put: 152 = FakeRet, Put: 32 = FakeRet, Put: 24 = FakeRet]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(Concat(2305843009213693951 +
+              Concat(1152921504606846975 +
+                     Extract(59, 0, SR(64)),
+                     0) +
+              Extract(60, 0, SR(64)),
+              0) +
+       Mem(40 + SR(72))) ==
+   0,
+   0,
+   1)]
+Result for concat_filename:patch , truth is patch
+vuln match [], patch match [Put: 72 = 18446744073709551576 + SR(48)]
+Result for read_formatted_entries:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 80 = FakeRet, Put: 72 = FakeRet, Put: 32 = 18446744073709551348 + SR(48), Store: 18446744073709551404 + SR(48) = FakeRet, Put: 152 = FakeRet, Put: 32 = FakeRet, Put: 24 = FakeRet]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15939
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551520 + SR(48), Condition: If(Mem(Concat(2305843009213693951 +
+              Concat(1152921504606846975 +
+                     Extract(59, 0, SR(64)),
+                     0) +
+              Extract(60, 0, SR(64)),
+              0) +
+       Mem(40 + SR(72))) ==
+   0,
+   0,
+   1)]
+Result for concat_filename:patch , truth is patch
+vuln match [], patch match [Put: 72 = 18446744073709551576 + SR(48)]
+Result for read_formatted_entries:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 80 = FakeRet, Put: 72 = FakeRet, Put: 32 = 18446744073709551348 + SR(48), Store: 18446744073709551404 + SR(48) = FakeRet, Put: 152 = FakeRet, Put: 32 = FakeRet, Put: 24 = FakeRet]
+Result for decode_line_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-objdump
+vuln match [], patch match []
+Result for process_archive_index_and_symbols:None , truth is vuln
+vuln match [], patch match []
+Result for setup_archive:None , truth is vuln
+vuln match [], patch match []
+Result for get_archive_member_name:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-15996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551543 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for process_archive_index_and_symbols:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = 0, Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551583 + SR(48) = Mem(146 + SR(72))]
+Result for setup_archive:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551551 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for get_archive_member_name:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551543 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for process_archive_index_and_symbols:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = 0, Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551583 + SR(48) = Mem(146 + SR(72))]
+Result for setup_archive:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551551 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for get_archive_member_name:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-15996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551543 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for process_archive_index_and_symbols:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = 0, Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551583 + SR(48) = Mem(146 + SR(72))]
+Result for setup_archive:patch , truth is patch
+vuln match [], patch match [Store: 146 + SR(72) = Mem(146 + SR(72)), Store: 18446744073709551551 + SR(48) = Mem(146 + SR(72)), Store: 146 + SR(72) = 0]
+Result for get_archive_member_name:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16828
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 152 = SR(64), Put: 24 = FakeRet(gettext)], patch match []
+Result for read_cie:vuln , truth is vuln
+vuln match [Store: 18446744073709551024 + SR(48) = 0], patch match [Store: 18446744073709551040 + SR(48) = 0]
+vuln match [Put: 16 = Mem(0), Store: 18446744073709551088 + SR(48) = 1, Put: 64 = Mem(0), Put: 48 = 18446744073709550848 + SR(48), Store: 18446744073709551088 + SR(48) = 0], patch match []
+Result for display_debug_frames:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-16828
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [Put: 152 = SR(64)], patch match [Put: 64 = FakeRet(dwarf_vmatoa), Put: 40 = FakeRet(dwarf_vmatoa)]
+Result for read_cie:patch , truth is patch
+vuln match [Store: 18446744073709551024 + SR(48) = 0], patch match [Store: 18446744073709551040 + SR(48) = 0]
+vuln match [Put: 16 = Mem(0), Put: 48 = 18446744073709550848 + SR(48), Store: 18446744073709551088 + SR(48) = 0], patch match [Put: 48 = 18446744073709550864 + SR(48)]
+Result for display_debug_frames:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16828
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Put: 152 = SR(64), Store: 18446744073709551424 + SR(48) = 4723225], patch match [Put: 64 = FakeRet(dwarf_vmatoa), Put: 40 = FakeRet(dwarf_vmatoa)]
+Result for read_cie:vuln , truth is patch
+vuln match [Store: 18446744073709551024 + SR(48) = 0], patch match [Store: 18446744073709551040 + SR(48) = 0]
+vuln match [Put: 16 = Mem(0), Put: 48 = 18446744073709550848 + SR(48), Store: 18446744073709551088 + SR(48) = 0], patch match [Put: 48 = 18446744073709550864 + SR(48)]
+Result for display_debug_frames:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16828
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [Put: 152 = SR(64), Store: 18446744073709551424 + SR(48) = 4723225], patch match [Put: 64 = FakeRet(dwarf_vmatoa), Put: 40 = FakeRet(dwarf_vmatoa)]
+Result for read_cie:vuln , truth is patch
+vuln match [Store: 18446744073709551024 + SR(48) = 0], patch match [Store: 18446744073709551040 + SR(48) = 0]
+vuln match [Put: 16 = Mem(0), Put: 48 = 18446744073709550848 + SR(48), Store: 18446744073709551088 + SR(48) = 0], patch match [Put: 48 = 18446744073709550864 + SR(48)]
+Result for display_debug_frames:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16829
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 160 = 8 + Mem(32 + SR(64)) + FakeRet, Put: 16 = 8 + Mem(32 + SR(64)) + FakeRet, Condition: If(ULE(8 + Mem(32 + SR(64)) + FakeRet,
+       Mem(32 + SR(64)) + Mem(8 + SR(64))),
+   1,
+   0)], patch match [Condition: If(Extract(63, 3, Mem(8 + SR(64))) == 0, 0, 1), Put: 152 = FakeRet]
+Result for _bfd_elf_parse_gnu_properties:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-16829
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Condition: If(0 == Mem(8 + SR(64)), 0, 1), Condition: If(Extract(63, 3, Mem(8 + SR(64))) == 0, 0, 1), Put: 152 = FakeRet, Condition: If(ULE(FakeRet, 18446744073709551608 + Mem(8 + SR(64))),
+   0,
+   1)]
+Result for _bfd_elf_parse_gnu_properties:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16829
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Condition: If(0 == Mem(8 + SR(64)), 0, 1), Condition: If(Extract(63, 3, Mem(8 + SR(64))) == 0, 0, 1), Put: 152 = FakeRet, Condition: If(ULE(FakeRet, 18446744073709551608 + Mem(8 + SR(64))),
+   0,
+   1)]
+Result for _bfd_elf_parse_gnu_properties:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16829
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Condition: If(0 == Mem(8 + SR(64)), 0, 1), Condition: If(Extract(63, 3, Mem(8 + SR(64))) == 0, 0, 1), Put: 152 = FakeRet, Condition: If(ULE(FakeRet, 18446744073709551608 + Mem(8 + SR(64))),
+   0,
+   1)]
+Result for _bfd_elf_parse_gnu_properties:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16830
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-readelf
+vuln match [Put: 16 = 8 + Mem(32 + SR(72)) + FakeRet, Store: 18446744073709551568 + SR(48) = FakeRet, Put: 160 = 8 + Mem(32 + SR(72)) + FakeRet, Put: 152 = Mem(32 + SR(72)), Condition: If(ULE(8 + Mem(32 + SR(72)) + FakeRet,
+       Mem(32 + SR(72)) + Mem(8 + SR(72))),
+   1,
+   0)], patch match [Condition: If(Extract(63, 3, Mem(8 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet(gettext), Put: 152 = FakeRet]
+Result for print_gnu_property_note:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-16830
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-readelf
+vuln match [Store: 18446744073709551568 + SR(48) = FakeRet], patch match [Put: 72 = FakeRet(gettext), Put: 152 = FakeRet]
+vuln match [Put: 72 = FakeRet(gettext)], patch match []
+Result for print_gnu_property_note:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16830
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-readelf
+vuln match [Store: 18446744073709551568 + SR(48) = FakeRet], patch match [Put: 72 = FakeRet(gettext), Put: 152 = FakeRet]
+vuln match [Put: 72 = FakeRet(gettext)], patch match []
+Result for print_gnu_property_note:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16830
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-readelf
+vuln match [Store: 18446744073709551568 + SR(48) = FakeRet], patch match [Put: 72 = FakeRet(gettext), Put: 152 = FakeRet]
+vuln match [Put: 72 = FakeRet(gettext)], patch match []
+Result for print_gnu_property_note:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16831
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [Put: 64 = SR(72), Put: 48 = 18446744073709551552 + SR(48), Put: 32 = Mem(40 + Mem(248 + SR(72)))*
+Mem(92 + Mem(864 + Mem(8 + SR(72))))], patch match [Put: 72 = SR(72)]
+Result for _bfd_coff_get_external_symbols:vuln , truth is vuln
+Result for coff_get_normalized_symtab:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-16831
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [Put: 64 = SR(72)], patch match [Condition: If(FakeRet(bfd_get_file_size) == 0, 0, 1), Condition: If(ULE(Mem(40 + Mem(248 + SR(72))),
+       Mem(40 + Mem(248 + SR(72)))*
+       Mem(92 + Mem(864 + Mem(8 + SR(72))))),
+   1,
+   0), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(bfd_get_file_size), Put: 160 = FakeRet(bfd_get_file_size), Put: 72 = SR(72), Condition: If(ULE(Mem(40 + Mem(248 + SR(72)))*
+       Mem(92 + Mem(864 + Mem(8 + SR(72)))),
+       FakeRet(bfd_get_file_size)),
+   0,
+   1)]
+Result for _bfd_coff_get_external_symbols:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(Mem(40 + Mem(248 + SR(72))),
+       Concat(Concat(Extract(57,
+                             0,
+                             Mem(40 + Mem(248 + SR(72)))),
+                     0) +
+              2305843009213693951*
+              Extract(60, 0, Mem(40 + Mem(248 + SR(72)))),
+              0)),
+   1,
+   0)]
+Result for coff_get_normalized_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16831
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Put: 64 = SR(72)], patch match [Condition: If(FakeRet(bfd_get_file_size) == 0, 0, 1), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(bfd_get_file_size), Put: 160 = FakeRet(bfd_get_file_size), Put: 72 = SR(72)]
+Result for _bfd_coff_get_external_symbols:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(Mem(40 + Mem(248 + SR(72))),
+       Concat(Concat(Extract(57,
+                             0,
+                             Mem(40 + Mem(248 + SR(72)))),
+                     0) +
+              2305843009213693951*
+              Extract(60, 0, Mem(40 + Mem(248 + SR(72)))),
+              0)),
+   1,
+   0)]
+Result for coff_get_normalized_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-16831
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [Put: 64 = SR(72)], patch match [Condition: If(FakeRet(bfd_get_file_size) == 0, 0, 1), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(bfd_get_file_size), Put: 160 = FakeRet(bfd_get_file_size), Put: 72 = SR(72)]
+Result for _bfd_coff_get_external_symbols:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(Mem(40 + Mem(248 + SR(72))),
+       Concat(Concat(Extract(57,
+                             0,
+                             Mem(40 + Mem(248 + SR(72)))),
+                     0) +
+              2305843009213693951*
+              Extract(60, 0, Mem(40 + Mem(248 + SR(72)))),
+              0)),
+   1,
+   0)]
+Result for coff_get_normalized_symtab:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+Result for dump_relocs_in_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-17122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 40 = Mem(136 + SR(64)), Put: 160 = FakeRet(bfd_get_file_size), Store: 18446744073709551520 + SR(48) = 4622607, Condition: If(ULE(Mem(136 + SR(64)), FakeRet(bfd_get_file_size)), 0, 1)]
+Result for dump_relocs_in_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 40 = Mem(136 + SR(64)), Put: 160 = FakeRet(bfd_get_file_size), Condition: If(ULE(Mem(136 + SR(64)), FakeRet(bfd_get_file_size)), 0, 1)]
+Result for dump_relocs_in_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 40 = Mem(136 + SR(64)), Put: 160 = FakeRet(bfd_get_file_size), Condition: If(ULE(Mem(136 + SR(64)), FakeRet(bfd_get_file_size)), 0, 1)]
+Result for dump_relocs_in_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17124
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+Result for _bfd_coff_read_string_table:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-17124
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 160 = FakeRet(bfd_get_file_size), Put: 48 = 18446744073709551536 + SR(48), Condition: If(ULE(4, FakeRet(bfd_get_file_size)), 0, 1)]
+Result for _bfd_coff_read_string_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17124
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 160 = FakeRet(bfd_get_file_size), Put: 48 = 18446744073709551536 + SR(48), Condition: If(ULE(4, FakeRet(bfd_get_file_size)), 0, 1)]
+Result for _bfd_coff_read_string_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17124
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 160 = FakeRet(bfd_get_file_size), Put: 48 = 18446744073709551536 + SR(48), Condition: If(ULE(4, FakeRet(bfd_get_file_size)), 0, 1)]
+Result for _bfd_coff_read_string_table:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-17126
+CVE-2017-17126 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2017-17126
+CVE-2017-17126 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2017-17126
+CVE-2017-17126 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2017-17126
+CVE-2017-17126 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2017-9043
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.28-o0-readelf
+no function dict_keys(['print_gnu_build_attribute_name']) in target
+------------------------------------------
+Detecing CVE:CVE-2017-9043
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29-o0-readelf
+vuln match [Put: 24 = Mem(SR(72)), Store: 18446744073709551536 + SR(48) = 18446744073709551596 + Mem(SR(72)), Put: 152 = Mem(SR(72)), Store: 18446744073709551540 + SR(48) = 0, Put: 16 = 18446744073709551596 + Mem(SR(72))], patch match [Put: 72 = FakeRet(gettext), Put: 48 = 18446744073709551488 + SR(48)]
+Result for print_gnu_build_attribute_name:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-9043
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-readelf
+vuln match [Put: 24 = Mem(SR(72)), Store: 18446744073709551536 + SR(48) = 18446744073709551596 + Mem(SR(72)), Put: 152 = Mem(SR(72)), Store: 18446744073709551540 + SR(48) = 0, Put: 16 = 18446744073709551596 + Mem(SR(72))], patch match [Put: 72 = FakeRet(gettext), Put: 48 = 18446744073709551488 + SR(48)]
+Result for print_gnu_build_attribute_name:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-9043
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-readelf
+vuln match [Put: 24 = Mem(SR(72)), Store: 18446744073709551536 + SR(48) = 18446744073709551596 + Mem(SR(72)), Put: 152 = Mem(SR(72)), Store: 18446744073709551540 + SR(48) = 0, Put: 16 = 18446744073709551596 + Mem(SR(72))], patch match [Put: 72 = FakeRet(gettext), Put: 48 = 18446744073709551488 + SR(48)]
+Result for print_gnu_build_attribute_name:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is vuln
+vuln match [Store: 18446744073709551592 + SR(48) = 8], patch match [Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is vuln
+vuln match [Store: 18446744073709551592 + SR(48) = 8], patch match [Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is vuln
+vuln match [Store: 18446744073709551592 + SR(48) = 8], patch match [Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is patch
+vuln match [], patch match [Store: 18446744073709551592 + SR(48) = 1, Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is patch
+vuln match [], patch match [Store: 18446744073709551592 + SR(48) = 1, Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000876
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48)]
+Result for _bfd_elf_get_dynamic_symtab_upper_bound:vuln , truth is patch
+vuln match [], patch match [Store: 18446744073709551592 + SR(48) = 1, Put: 48 = 18446744073709551568 + SR(48)]
+Result for _bfd_elf_get_dynamic_reloc_upper_bound:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18605
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for _bfd_add_merge_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-18605
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Condition: Mem(196 + SR(32)) == 0]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18605
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Condition: Mem(196 + SR(32)) == 0]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18605
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Condition: Mem(196 + SR(32)) == 0]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18606
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Condition: If(ULE(Mem(196 + SR(32)),
+       1 << Concat(0, Extract(4, 0, Mem(112 + SR(32))))),
+   0,
+   1), Condition: If(LShR(Mem(196 + SR(32)),
+        Concat(0, Extract(4, 0, Mem(112 + SR(32))))) ==
+   0,
+   0,
+   1), Condition: If(~(~If(4294967295 <<
+         Concat(0, Extract(4, 0, Mem(112 + SR(32)))) ==
+         0,
+         1,
+         0) |
+     ~Mem(196 + SR(32))) ==
+   0,
+   0,
+   1)], patch match []
+Result for _bfd_add_merge_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-18606
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Condition: If(ULE(1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))),
+       Mem(196 + SR(32))),
+   0,
+   1), Condition: If(~(~(18446744073709551615 +
+       (1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))))) |
+     ~Mem(196 + SR(32))) ==
+   0,
+   0,
+   1), Condition: If(ULE(Mem(196 + SR(32)),
+       1 << Concat(0, Extract(4, 0, Mem(112 + SR(32))))),
+   1,
+   0), Condition: If(Extract(63, 5, Mem(112 + SR(32))) == 0, 0, 1)]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18606
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Condition: If(ULE(1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))),
+       Mem(196 + SR(32))),
+   0,
+   1), Condition: If(~(~(18446744073709551615 +
+       (1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))))) |
+     ~Mem(196 + SR(32))) ==
+   0,
+   0,
+   1), Condition: If(ULE(Mem(196 + SR(32)),
+       1 << Concat(0, Extract(4, 0, Mem(112 + SR(32))))),
+   1,
+   0), Condition: If(Extract(63, 5, Mem(112 + SR(32))) == 0, 0, 1)]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18606
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Condition: If(ULE(1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))),
+       Mem(196 + SR(32))),
+   0,
+   1), Condition: If(~(~(18446744073709551615 +
+       (1 << Concat(0, Extract(4, 0, Mem(112 + SR(32)))))) |
+     ~Mem(196 + SR(32))) ==
+   0,
+   0,
+   1), Condition: If(ULE(Mem(196 + SR(32)),
+       1 << Concat(0, Extract(4, 0, Mem(112 + SR(32))))),
+   1,
+   0), Condition: If(Extract(63, 5, Mem(112 + SR(32))) == 0, 0, 1)]
+Result for _bfd_add_merge_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18607
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [Put: 48 = 18446744073709550992 + SR(48)], patch match [Put: 16 = Mem(24 + Mem(176 + Mem(248 + SR(64)))), Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))))]
+vuln match [Put: 48 = 18446744073709550992 + SR(48)], patch match [Put: 16 = Mem(24 +
+    Concat(0,
+           Extract(63,
+                   32,
+                   Mem(8 +
+                       FakeRet(_bfd_elf_link_read_relocs))),
+           0) +
+    Mem(176 + Mem(248 + SR(64))))]
+Result for elf_link_input_bfd:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-18607
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(24 + Mem(176 + Mem(248 + SR(64)))), Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64)))))), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0)]
+vuln match [], patch match [Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64)))))), Put: 16 = Mem(24 +
+    Concat(0,
+           Extract(63,
+                   32,
+                   Mem(8 +
+                       FakeRet(_bfd_elf_link_read_relocs))),
+           0) +
+    Mem(176 + Mem(248 + SR(64)))), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 16 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0)]
+Result for elf_link_input_bfd:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18607
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(24 + Mem(176 + Mem(248 + SR(64)))), Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64)))))), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0)]
+vuln match [], patch match [Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64)))))), Put: 16 = Mem(24 +
+    Concat(0,
+           Extract(63,
+                   32,
+                   Mem(8 +
+                       FakeRet(_bfd_elf_link_read_relocs))),
+           0) +
+    Mem(176 + Mem(248 + SR(64)))), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 16 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0)]
+Result for elf_link_input_bfd:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-18607
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(24 + Mem(176 + Mem(248 + SR(64)))), Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64)))))), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 + Mem(176 + Mem(248 + SR(64))))),
+       0)]
+vuln match [], patch match [Put: 16 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64)))))), Put: 16 = Mem(24 +
+    Concat(0,
+           Extract(63,
+                   32,
+                   Mem(8 +
+                       FakeRet(_bfd_elf_link_read_relocs))),
+           0) +
+    Mem(176 + Mem(248 + SR(64)))), Put: 160 = Concat(0,
+       Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 16 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Put: 152 = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0), Store: 18446744073709551552 + SR(48) = Concat(Extract(63,
+               4,
+               Mem(24 +
+                   Concat(0,
+                          Extract(63,
+                                  32,
+                                  Mem(8 +
+                                      FakeRet(_bfd_elf_link_read_relocs))),
+                          0) +
+                   Mem(176 + Mem(248 + SR(64))))),
+       0)]
+Result for elf_link_input_bfd:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.29.1-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-19932
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Put: 72 = FakeRet(bfd_malloc2), Put: 16 = FakeRet(bfd_malloc2)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20002
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-nm
+vuln match [], patch match [Put: 16 = FakeRet(bfd_malloc), Put: 48 = 18446744073709551536 + SR(48), Put: 72 = FakeRet(bfd_malloc), Condition: If(FakeRet == 0, 0, 1)]
+Result for _bfd_generic_read_minisymbols:patch , truth is vuln
+vuln match [Put: 152 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 160 = Concat(1 + 2*Extract(61, 0, FakeRet), 0), Put: 48 = 18446744073709551440 + SR(48), Put: 16 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 72 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 32 = Concat(Extract(60, 0, FakeRet), 0), Put: 64 = Mem(18446744073709551480 + SR(48)), Put: 16 = Concat(Extract(60, 0, FakeRet), 0), Store: 18446744073709551544 + SR(48) = FakeRet + Concat(Extract(60, 0, FakeRet), 0), Put: 152 = FakeRet, Put: 160 = Concat(Extract(60, 0, FakeRet), 0)], patch match [Put: 160 = FakeRet]
+Result for display_rel_file:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-20002
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-nm
+vuln match [], patch match [Put: 16 = FakeRet(bfd_malloc), Put: 16 = SR(24), Put: 48 = 18446744073709551536 + SR(48), Put: 72 = FakeRet(bfd_malloc), Condition: If(FakeRet == 0, 0, 1)]
+Result for _bfd_generic_read_minisymbols:patch , truth is patch
+vuln match [Put: 152 = FakeRet], patch match [Put: 152 = Concat(Extract(60, 0, FakeRet), 0), Put: 160 = FakeRet, Store: 18446744073709551552 + SR(48) = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 16 = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 152 = 2*FakeRet, Put: 32 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 64 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 72 = Mem(18446744073709551488 + SR(48)), Put: 48 = 18446744073709551456 + SR(48)]
+Result for display_rel_file:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20002
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-nm
+vuln match [], patch match [Put: 16 = FakeRet(bfd_malloc), Put: 16 = SR(24), Put: 48 = 18446744073709551536 + SR(48), Put: 72 = FakeRet(bfd_malloc), Condition: If(FakeRet == 0, 0, 1)]
+Result for _bfd_generic_read_minisymbols:patch , truth is patch
+vuln match [Put: 152 = FakeRet], patch match [Put: 152 = Concat(Extract(60, 0, FakeRet), 0), Put: 160 = FakeRet, Store: 18446744073709551552 + SR(48) = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 16 = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 152 = 2*FakeRet, Put: 32 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 64 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 72 = Mem(18446744073709551488 + SR(48)), Put: 48 = 18446744073709551456 + SR(48)]
+Result for display_rel_file:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20002
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-nm
+vuln match [], patch match [Put: 16 = FakeRet(bfd_malloc), Put: 16 = SR(24), Put: 48 = 18446744073709551536 + SR(48), Put: 72 = FakeRet(bfd_malloc), Condition: If(FakeRet == 0, 0, 1)]
+Result for _bfd_generic_read_minisymbols:patch , truth is patch
+vuln match [Put: 152 = FakeRet], patch match [Put: 152 = Concat(Extract(60, 0, FakeRet), 0), Put: 160 = FakeRet, Store: 18446744073709551552 + SR(48) = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 16 = Concat(Extract(60, 0, FakeRet), 0) + FakeRet, Put: 152 = 2*FakeRet, Put: 32 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 64 = Concat(1 + 2*Extract(60, 0, FakeRet), 0), Put: 72 = Mem(18446744073709551488 + SR(48)), Put: 48 = 18446744073709551456 + SR(48)]
+Result for display_rel_file:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20651
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [Condition: If(ULE(Mem(96 + Mem(248 + SR(72))),
+       18446744073709551552 +
+       Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))),
+              0) +
+       Mem(96 + Mem(248 + SR(72)))),
+   1,
+   0)], patch match [Store: 18446744073709550904 + SR(48) = 18446744073709551552 +
+Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))), 0) +
+Mem(96 + Mem(248 + SR(72)))]
+Result for elf_link_add_object_symbols:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-20651
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Store: 18446744073709550904 + SR(48) = 18446744073709551552 +
+Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))), 0) +
+Mem(96 + Mem(248 + SR(72))), Condition: If(ULE(Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))),
+              0) +
+       Mem(96 + Mem(248 + SR(72))),
+       Mem(96 + Mem(248 + SR(72)))),
+   0,
+   1)]
+Result for elf_link_add_object_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20651
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Store: 18446744073709550904 + SR(48) = 18446744073709551552 +
+Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))), 0) +
+Mem(96 + Mem(248 + SR(72))), Condition: If(ULE(Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))),
+              0) +
+       Mem(96 + Mem(248 + SR(72))),
+       Mem(96 + Mem(248 + SR(72)))),
+   0,
+   1)]
+Result for elf_link_add_object_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20651
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Store: 18446744073709550904 + SR(48) = 18446744073709551552 +
+Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))), 0) +
+Mem(96 + Mem(248 + SR(72))), Condition: If(ULE(Concat(Extract(57, 0, Mem(68 + Mem(248 + SR(72)))),
+              0) +
+       Mem(96 + Mem(248 + SR(72))),
+       Mem(96 + Mem(248 + SR(72)))),
+   0,
+   1)]
+Result for elf_link_add_object_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 48 = 18446744073709551472 + SR(48), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext)]
+Result for load_specific_debug_section:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 48 = 18446744073709551472 + SR(48), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext)]
+Result for load_specific_debug_section:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext)]
+Result for load_specific_debug_section:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 160 = FakeRet(bfd_get_file_size), Put: 48 = 18446744073709551472 + SR(48), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext), Condition: If(ULE(1 + Mem(56 + SR(64)), FakeRet(bfd_get_file_size)),
+   0,
+   1)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 48 = 18446744073709551472 + SR(48), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-20671
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Put: 72 = SR(72), Put: 48 = 18446744073709551472 + SR(48), Put: 16 = SR(72), Put: 72 = SR(32), Put: 72 = FakeRet(gettext)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-6872
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+Result for elf_parse_notes:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-6872
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+Result for elf_parse_notes:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-6872
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+Result for elf_parse_notes:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-6872
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+Result for elf_parse_notes:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-7570
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.30-o0-objdump
+vuln match [], patch match [Condition: If(SR(64) == 0, 0, 1)]
+Result for assign_file_positions_for_non_load_sections:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-7570
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31-o0-objdump
+vuln match [], patch match [Condition: If(SR(64) == 0, 0, 1)]
+Result for assign_file_positions_for_non_load_sections:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-7570
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-objdump
+vuln match [], patch match [Condition: If(SR(64) == 0, 0, 1)]
+Result for assign_file_positions_for_non_load_sections:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-7570
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Condition: If(SR(64) == 0, 0, 1)]
+Result for assign_file_positions_for_non_load_sections:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-17451
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-objdump
+vuln match [], patch match [Put: 152 = Mem(56 + FakeRet(find_debug_info)), Put: 16 = Mem(56 + FakeRet(find_debug_info)), Put: 48 = 18446744073709551488 + SR(48)]
+Result for _bfd_dwarf2_slurp_debug_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-17451
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-objdump
+vuln match [], patch match [Put: 152 = Mem(56 + FakeRet(find_debug_info)), Put: 16 = Mem(56 + FakeRet(find_debug_info)), Put: 48 = 18446744073709551488 + SR(48)]
+Result for _bfd_dwarf2_slurp_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-17451
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-objdump
+vuln match [], patch match [Put: 32 = Mem(56 + FakeRet(find_debug_info)), Put: 152 = Mem(56 + FakeRet(find_debug_info)), Put: 16 = Mem(56 + FakeRet(find_debug_info)), Put: 48 = 18446744073709551488 + SR(48)]
+Result for _bfd_dwarf2_slurp_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-17451
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-objdump
+vuln match [], patch match [Put: 48 = 18446744073709551488 + SR(48)]
+Result for _bfd_dwarf2_slurp_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16590
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-readelf
+Result for get_num_dynamic_syms:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-16590
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-readelf
+Result for get_num_dynamic_syms:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16590
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-readelf
+Result for get_num_dynamic_syms:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16590
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-readelf
+Result for get_num_dynamic_syms:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16591
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-readelf
+vuln match [], patch match [Put: 16 = FakeRet(get_dynamic_data), Put: 152 = FakeRet(get_dynamic_data), Condition: If(FakeRet(get_dynamic_data) == 0, 0, 1)]
+Result for get_num_dynamic_syms:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-16591
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-readelf
+vuln match [], patch match [Put: 16 = FakeRet(get_dynamic_data), Put: 152 = FakeRet(get_dynamic_data), Condition: If(FakeRet(get_dynamic_data) == 0, 0, 1)]
+Result for get_num_dynamic_syms:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16591
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-readelf
+vuln match [], patch match [Put: 16 = FakeRet(get_dynamic_data), Put: 152 = FakeRet(get_dynamic_data), Condition: If(FakeRet(get_dynamic_data) == 0, 0, 1)]
+Result for get_num_dynamic_syms:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16591
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-readelf
+vuln match [], patch match [Put: 16 = FakeRet(get_dynamic_data), Put: 152 = FakeRet(get_dynamic_data), Condition: If(FakeRet(get_dynamic_data) == 0, 0, 1)]
+Result for get_num_dynamic_syms:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16593
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(16 + FakeRet(lookup_var_by_offset)), Put: 152 = Mem(16 + FakeRet(lookup_var_by_offset)), Condition: If(Mem(16 + FakeRet(lookup_var_by_offset)) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-16593
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(16 + FakeRet(lookup_var_by_offset)), Put: 152 = Mem(16 + FakeRet(lookup_var_by_offset)), Condition: If(Mem(16 + FakeRet(lookup_var_by_offset)) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16593
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(16 + FakeRet(lookup_var_by_offset)), Put: 152 = Mem(16 + FakeRet(lookup_var_by_offset)), Condition: If(Mem(16 + FakeRet(lookup_var_by_offset)) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16593
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-objdump
+vuln match [], patch match [Put: 16 = Mem(16 + FakeRet(lookup_var_by_offset)), Put: 152 = Mem(16 + FakeRet(lookup_var_by_offset)), Condition: If(Mem(16 + FakeRet(lookup_var_by_offset)) == 0, 0, 1)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16599
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-objdump
+vuln match [Store: 18446744073709551576 + SR(48) = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Put: 72 = Mem(8 + SR(64))], patch match [Condition: If(Mem(40 +
+       Concat(2305843009213693951 +
+              Concat(288230376151711743 +
+                     Concat(0,
+                            Extract(14, 0, Mem(88 + SR(64)))),
+                     0) +
+              Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+              0) +
+       Mem(840 + Mem(256 + SR(72)))) ==
+   0,
+   0,
+   1), Put: 64 = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Condition: If(Mem(8 + SR(64)) == 0, 0, 1)]
+Result for _bfd_elf_get_symbol_version_string:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-16599
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-objdump
+vuln match [Store: 18446744073709551576 + SR(48) = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Put: 72 = Mem(8 + SR(64))], patch match [Condition: If(Mem(40 +
+       Concat(2305843009213693951 +
+              Concat(288230376151711743 +
+                     Concat(0,
+                            Extract(14, 0, Mem(88 + SR(64)))),
+                     0) +
+              Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+              0) +
+       Mem(840 + Mem(256 + SR(72)))) ==
+   0,
+   0,
+   1), Put: 64 = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Condition: If(Mem(8 + SR(64)) == 0, 0, 1)]
+Result for _bfd_elf_get_symbol_version_string:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16599
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-objdump
+vuln match [Store: 18446744073709551576 + SR(48) = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Put: 72 = Mem(8 + SR(64))], patch match [Condition: If(Mem(40 +
+       Concat(2305843009213693951 +
+              Concat(288230376151711743 +
+                     Concat(0,
+                            Extract(14, 0, Mem(88 + SR(64)))),
+                     0) +
+              Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+              0) +
+       Mem(840 + Mem(256 + SR(72)))) ==
+   0,
+   0,
+   1), Put: 64 = Mem(40 +
+    Concat(2305843009213693951 +
+           Concat(288230376151711743 +
+                  Concat(0,
+                         Extract(14, 0, Mem(88 + SR(64)))),
+                  0) +
+           Concat(0, Extract(14, 0, Mem(88 + SR(64)))),
+           0) +
+    Mem(840 + Mem(256 + SR(72)))), Condition: If(Mem(8 + SR(64)) == 0, 0, 1)]
+Result for _bfd_elf_get_symbol_version_string:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-16599
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-objdump
+vuln match [Put: 72 = Mem(8 + SR(64))], patch match [Condition: If(Mem(8 + SR(64)) == 0, 0, 1)]
+Result for _bfd_elf_get_symbol_version_string:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.33.1-o0-nm
+Result for display_rel_file:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.32-o0-nm
+Result for display_rel_file:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.31.1-o0-nm
+Result for display_rel_file:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.34-o0-nm
+vuln match [], patch match [Put: 48 = 18446744073709551456 + SR(48), Store: 18446744073709551456 + SR(48) = 4407858, Condition: If(Mem(5827436) == 0, 0, 1), Condition: If(Mem(18446744073709551488 + SR(48)) == 0, 0, 1)]
+Result for display_rel_file:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-nm
+Result for display_rel_file:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-19724
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-nm
+Result for display_rel_file:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-35448
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-objdump
+Result for _bfd_elf_slurp_secondary_reloc_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-35448
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-objdump
+Result for _bfd_elf_slurp_secondary_reloc_section:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-35448
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-objdump
+Result for _bfd_elf_slurp_secondary_reloc_section:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-35448
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+Result for _bfd_elf_slurp_secondary_reloc_section:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-20294
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.1-o0-readelf
+vuln match [Put: 32 = FakeRet(get_symbol_version_string), Store: 18446744073709551216 + SR(48) = 4415959, Put: 72 = 18446744073709551320 + SR(48), Store: 18446744073709551284 + SR(48) = 21 + 18446744073709551615*FakeRet(sprintf), Put: 48 = 18446744073709551216 + SR(48)], patch match []
+Result for print_dynamic_symbol:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-20294
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35-o0-readelf
+vuln match [Put: 32 = FakeRet(get_symbol_version_string), Store: 18446744073709551216 + SR(48) = 4415959, Put: 72 = 18446744073709551320 + SR(48), Store: 18446744073709551284 + SR(48) = 21 + 18446744073709551615*FakeRet(sprintf), Put: 48 = 18446744073709551216 + SR(48)], patch match []
+Result for print_dynamic_symbol:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-20294
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-readelf
+vuln match [Put: 32 = FakeRet(get_symbol_version_string)], patch match [Put: 32 = FakeRet(strlen), Put: 16 = FakeRet(get_symbol_version_string), Store: 18446744073709551524 + SR(48) = 20 + 18446744073709551615*FakeRet(strlen), Put: 72 = FakeRet(get_symbol_version_string), Put: 48 = 18446744073709551456 + SR(48), Store: 18446744073709551456 + SR(48) = 4415804]
+Result for print_dynamic_symbol:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-20294
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-readelf
+vuln match [Put: 32 = FakeRet(get_symbol_version_string)], patch match [Put: 32 = FakeRet(strlen), Put: 16 = FakeRet(get_symbol_version_string), Store: 18446744073709551524 + SR(48) = 20 + 18446744073709551615*FakeRet(strlen), Put: 72 = FakeRet(get_symbol_version_string), Put: 48 = 18446744073709551456 + SR(48)]
+Result for print_dynamic_symbol:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-20294
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-readelf
+vuln match [Put: 32 = FakeRet(get_symbol_version_string)], patch match [Put: 32 = FakeRet(strlen), Put: 16 = FakeRet(get_symbol_version_string), Put: 72 = FakeRet(get_symbol_version_string), Put: 48 = 18446744073709551456 + SR(48)]
+Result for print_dynamic_symbol:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+vuln match [Put: 160 = SR(32), Put: 24 = 18 + 18446744073709551615*SR(32), Store: SR(64) +
+Concat(18 + 2305843009213693951*Extract(60, 0, SR(32)), 0) = FakeRet(debug_name_type)], patch match []
+Result for stab_xcoff_builtin_type:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.36.1-o0-objdump
+vuln match [Put: 160 = SR(32), Put: 24 = 18 + 18446744073709551615*SR(32), Store: SR(64) +
+Concat(18 + 2305843009213693951*Extract(60, 0, SR(32)), 0) = FakeRet(debug_name_type)], patch match []
+Result for stab_xcoff_builtin_type:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.35.2-o0-objdump
+vuln match [Put: 160 = SR(32), Put: 24 = 18 + 18446744073709551615*SR(32), Store: SR(64) +
+Concat(18 + 2305843009213693951*Extract(60, 0, SR(32)), 0) = FakeRet(debug_name_type)], patch match []
+Result for stab_xcoff_builtin_type:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.38-o0-objdump
+vuln match [], patch match [Put: 24 = 18 + If(SR(32) == 0, 1, 0), Store: SR(64) + Concat(18 + If(SR(32) == 0, 1, 0), 0) = FakeRet(debug_name_type)]
+Result for stab_xcoff_builtin_type:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+vuln match [], patch match [Put: 24 = 18 + If(SR(32) == 0, 1, 0), Store: SR(64) + Concat(18 + If(SR(32) == 0, 1, 0), 0) = FakeRet(debug_name_type)]
+Result for stab_xcoff_builtin_type:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-45078
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Put: 24 = 18 + If(SR(32) == 0, 1, 0), Store: SR(64) + Concat(18 + If(SR(32) == 0, 1, 0), 0) = FakeRet(debug_name_type)]
+Result for stab_xcoff_builtin_type:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+vuln match [Put: 32 = Mem(24 + Mem(96 + Mem(272 + SR(72)))) +
+If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+      0,
+      1) ==
+   0,
+   Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+   Mem(48 + Mem(96 + Mem(272 + SR(72)))))], patch match [Put: 48 = 18446744073709551328 + SR(48)]
+vuln match [Put: 32 = Mem(24 + Mem(96 + Mem(272 + SR(72)))) +
+If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+      0,
+      1) ==
+   0,
+   Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+   Mem(48 + Mem(96 + Mem(272 + SR(72)))))], patch match [Put: 48 = 18446744073709551328 + SR(48)]
+vuln match [Condition: If(ULE(Mem(32 + Mem(96 + Mem(272 + SR(72)))),
+       FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96))),
+   1,
+   0), Condition: If(Extract(6, 6, Mem(1002 + Mem(888 + Mem(8 + SR(72))))) ==
+   0,
+   0,
+   1), Condition: If(ULE(Mem(64 + Mem(96)) +
+       FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96)),
+       If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+                 Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+             0,
+             1) ==
+          0,
+          Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(48 + Mem(96 + Mem(272 + SR(72))))) +
+       Mem(24 + Mem(96 + Mem(272 + SR(72))))),
+   0,
+   1), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1), Condition: If(ULE(Mem(64 + Mem(96)) +
+       FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96)),
+       If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+                 Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+             0,
+             1) ==
+          0,
+          Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(48 + Mem(96 + Mem(272 + SR(72))))) +
+       Mem(32 + Mem(96 + Mem(272 + SR(72))))),
+   0,
+   1), Put: 32 = Mem(56 + Mem(96)), Put: 40 = FakeRet(bfd_octets_per_byte), Put: 152 = Mem(56 + Mem(96)), Put: 32 = FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96)), Put: 32 = FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96)), Put: 152 = FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96)), Put: 24 = Mem(64 + Mem(96)) +
+FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96)), Put: 152 = Mem(64 + Mem(96)) +
+FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96)), Put: 24 = Mem(64 + Mem(96)) +
+FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96)), Put: 152 = Mem(64 + Mem(96)) +
+FakeRet(bfd_octets_per_byte)*Mem(56 + Mem(96)), Condition: If(Mem(4 + Mem(208)) == 7, 0, 1), Condition: If(ULE(Mem(128) + Mem(64),
+       Mem(40 + Mem(96 + Mem(272 + SR(72)))) +
+       Mem(16 + Mem(96 + Mem(272 + SR(72))))),
+   0,
+   1), Condition: If(Mem(48) == 0, 0, 1), Condition: If(ULE(Mem(24 + Mem(96 + Mem(272 + SR(72)))),
+       FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96))),
+   1,
+   0), Condition: FakeRet(bfd_octets_per_byte) == 0, Condition: If(And(Extract(8, 8, Mem(36 + Mem(96))) == 0,
+       Extract(10, 10, Mem(36 + Mem(96))) == 1),
+   0,
+   1), Condition: If(ULE(Mem(16 + Mem(96 + Mem(272 + SR(72)))), Mem(128)),
+   1,
+   0), Condition: If(FakeRet(bfd_get_format) == 3, 0, 1), Condition: If(Mem(56) == 0, 0, 1), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 4, 0, 1), Put: 16 = Mem(64 + Mem(96)), Put: 152 = FakeRet(bfd_octets_per_byte)*Mem(48 + Mem(96)), Put: 152 = FakeRet(bfd_get_format)], patch match [Put: 32 = Mem(32 + Mem(96 + Mem(272 + SR(72))))]
+Result for rewrite_elf_program_header:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.38-o0-objdump
+vuln match [Put: 32 = Mem(24 + Mem(96 + Mem(272 + SR(72)))) +
+If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+      0,
+      1) ==
+   0,
+   Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+   Mem(48 + Mem(96 + Mem(272 + SR(72)))))], patch match [Put: 48 = 18446744073709551328 + SR(48)]
+vuln match [Put: 32 = Mem(24 + Mem(96 + Mem(272 + SR(72)))) +
+If(If(ULE(Mem(48 + Mem(96 + Mem(272 + SR(72)))),
+          Mem(40 + Mem(96 + Mem(272 + SR(72))))),
+      0,
+      1) ==
+   0,
+   Mem(40 + Mem(96 + Mem(272 + SR(72)))),
+   Mem(48 + Mem(96 + Mem(272 + SR(72)))))], patch match [Put: 48 = 18446744073709551328 + SR(48)]
+vuln match [Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1), Put: 40 = FakeRet(bfd_octets_per_byte), Condition: If(Mem(48) == 0, 0, 1), Condition: FakeRet(bfd_octets_per_byte) == 0, Condition: If(FakeRet(bfd_get_format) == 3, 0, 1), Condition: If(Mem(56) == 0, 0, 1), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 4, 0, 1), Put: 152 = FakeRet(bfd_get_format)], patch match [Put: 32 = Mem(32 + Mem(96 + Mem(272 + SR(72))))]
+Result for rewrite_elf_program_header:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [Put: 40 = FakeRet(bfd_octets_per_byte), Condition: If(Mem(48) == 0, 0, 1), Condition: FakeRet(bfd_octets_per_byte) == 0, Condition: If(FakeRet(bfd_get_format) == 3, 0, 1), Condition: If(Mem(56) == 0, 0, 1), Put: 152 = FakeRet(bfd_get_format)], patch match []
+Result for rewrite_elf_program_header:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(segment_end), Put: 48 = 18446744073709551328 + SR(48), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 32 = FakeRet(segment_end)]
+vuln match [], patch match [Put: 48 = 18446744073709551328 + SR(48), Put: 32 = FakeRet(segment_end), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 40 = FakeRet(segment_end)]
+vuln match [Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1), Put: 32 = Mem(56 + Mem(96)), Put: 40 = FakeRet(bfd_octets_per_byte), Put: 152 = Mem(56 + Mem(96)), Condition: FakeRet(bfd_octets_per_byte) == 0], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 24 = Mem(32 + Mem(96 + Mem(272 + SR(72)))) +
+Mem(32 + FakeRet(bfd_zalloc)), Put: 32 = Mem(32 + Mem(96 + Mem(272 + SR(72)))), Put: 72 = Mem(96), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 152 = FakeRet(is_contained_by), Put: 152 = FakeRet(is_note), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+vuln match [Put: 32 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 16 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 40 = FakeRet(bfd_octets_per_byte), Condition: FakeRet(bfd_octets_per_byte) == 0, Put: 160 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1)], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 152 = FakeRet(is_note), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 24 = FakeRet(bfd_octets_per_byte)*Mem(56) +
+18446744073709551615*
+Mem(64 + Mem(272 + SR(72)))*
+Mem(68 + Mem(272 + SR(72))) +
+Mem(32 + FakeRet(bfd_zalloc)), Put: 32 = FakeRet(bfd_octets_per_byte)*Mem(56) +
+18446744073709551615*
+Mem(64 + Mem(272 + SR(72)))*
+Mem(68 + Mem(272 + SR(72))), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 16 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 72 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 152 = FakeRet(is_contained_by), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(segment_end), Put: 48 = 18446744073709551328 + SR(48), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 32 = FakeRet(segment_end)]
+vuln match [], patch match [Put: 48 = 18446744073709551328 + SR(48), Put: 32 = FakeRet(segment_end), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 40 = FakeRet(segment_end)]
+vuln match [Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1), Put: 32 = Mem(56 + Mem(96)), Put: 40 = FakeRet(bfd_octets_per_byte), Put: 152 = Mem(56 + Mem(96)), Condition: FakeRet(bfd_octets_per_byte) == 0], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 32 = Mem(32 + Mem(96 + Mem(272 + SR(72)))), Put: 72 = Mem(96), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 152 = FakeRet(is_contained_by), Put: 152 = FakeRet(is_note), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+vuln match [Put: 32 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 16 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 40 = FakeRet(bfd_octets_per_byte), Condition: FakeRet(bfd_octets_per_byte) == 0, Put: 160 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1)], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 152 = FakeRet(is_note), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 32 = FakeRet(bfd_octets_per_byte)*Mem(56) +
+18446744073709551615*
+Mem(64 + Mem(272 + SR(72)))*
+Mem(68 + Mem(272 + SR(72))), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 16 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 72 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 152 = FakeRet(is_contained_by), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-38533
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+vuln match [], patch match [Put: 40 = FakeRet(segment_end), Put: 48 = 18446744073709551328 + SR(48), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 32 = FakeRet(segment_end)]
+vuln match [], patch match [Put: 48 = 18446744073709551328 + SR(48), Put: 32 = FakeRet(segment_end), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 40 = FakeRet(segment_end)]
+vuln match [Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1), Put: 32 = Mem(56 + Mem(96)), Put: 40 = FakeRet(bfd_octets_per_byte), Put: 152 = Mem(56 + Mem(96)), Condition: FakeRet(bfd_octets_per_byte) == 0], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 32 = Mem(32 + Mem(96 + Mem(272 + SR(72)))), Put: 72 = Mem(96), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 152 = FakeRet(is_contained_by), Put: 152 = FakeRet(is_note), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+vuln match [Put: 32 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 16 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Put: 40 = FakeRet(bfd_octets_per_byte), Condition: FakeRet(bfd_octets_per_byte) == 0, Put: 160 = Mem(56 + Mem(96 + Mem(FakeRet(bfd_malloc)))), Condition: If(Mem(Mem(96 + Mem(272 + SR(72)))) == 7, 0, 1)], patch match [Condition: If(Extract(7, 0, FakeRet(is_contained_by)) == 0, 0, 1), Put: 152 = FakeRet(is_note), Put: 72 = Mem(96 + Mem(272 + SR(72))), Put: 32 = FakeRet(bfd_octets_per_byte)*Mem(56) +
+18446744073709551615*
+Mem(64 + Mem(272 + SR(72)))*
+Mem(68 + Mem(272 + SR(72))), Put: 80 = FakeRet(bfd_octets_per_byte), Put: 16 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 72 = Mem(96 + Mem(FakeRet(bfd_malloc))), Put: 152 = FakeRet(is_contained_by), Condition: If(Extract(7, 0, FakeRet(is_note)) == 0, 0, 1)]
+Result for rewrite_elf_program_header:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+Result for load_specific_debug_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.38-o0-objdump
+Result for load_specific_debug_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+Result for load_specific_debug_section:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Condition: If(ULE(FakeRet(bfd_get_size), 1 + FakeRet(bfd_section_size)),
+   1,
+   0), Put: 48 = 18446744073709551472 + SR(48), Put: 160 = FakeRet(bfd_get_size), Store: 18446744073709551472 + SR(48) = 4616239, Put: 72 = SR(32), Store: 18446744073709551472 + SR(48) = 4616256, Put: 152 = FakeRet(bfd_get_size), Condition: If(FakeRet(bfd_get_size) == 0, 0, 1)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+vuln match [], patch match [Condition: If(ULE(FakeRet(bfd_get_size), 1 + FakeRet(bfd_section_size)),
+   1,
+   0), Put: 48 = 18446744073709551472 + SR(48), Put: 160 = FakeRet(bfd_get_size), Put: 72 = SR(32), Put: 152 = FakeRet(bfd_get_size), Condition: If(FakeRet(bfd_get_size) == 0, 0, 1)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48063
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+vuln match [], patch match [Condition: If(ULE(FakeRet(bfd_get_size), 1 + FakeRet(bfd_section_size)),
+   1,
+   0), Put: 48 = 18446744073709551472 + SR(48), Put: 160 = FakeRet(bfd_get_size), Put: 72 = SR(32), Put: 152 = FakeRet(bfd_get_size), Condition: If(FakeRet(bfd_get_size) == 0, 0, 1)]
+Result for load_specific_debug_section:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+vuln match [], patch match []
+Result for find_debug_info:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.38-o0-objdump
+vuln match [], patch match []
+Result for find_debug_info:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+vuln match [], patch match []
+Result for find_debug_info:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Condition: If(Extract(8, 8, Mem(36 + FakeRet(bfd_get_section_by_name))) ==
+   0,
+   0,
+   1), Put: 152 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Put: 16 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Condition: If(Extract(8, 8, Mem(36 + Mem(144 + SR(72)))) == 0, 0, 1)]
+Result for find_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+vuln match [], patch match [Condition: If(Extract(8, 8, Mem(36 + FakeRet(bfd_get_section_by_name))) ==
+   0,
+   0,
+   1), Put: 152 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Put: 16 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Condition: If(Extract(8, 8, Mem(36 + Mem(144 + SR(72)))) == 0, 0, 1)]
+Result for find_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48064
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+vuln match [], patch match [Condition: If(Extract(8, 8, Mem(36 + FakeRet(bfd_get_section_by_name))) ==
+   0,
+   0,
+   1), Put: 152 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Put: 16 = Concat(0,
+       Extract(8,
+               8,
+               Mem(36 + FakeRet(bfd_get_section_by_name))),
+       0), Condition: If(Extract(8, 8, Mem(36 + Mem(144 + SR(72)))) == 0, 0, 1)]
+Result for find_debug_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+Result for scan_unit_for_symbols:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.38-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+Result for scan_unit_for_symbols:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.37-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+Result for scan_unit_for_symbols:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is patch
+vuln match [], patch match [Put: 72 = Mem(24)]
+vuln match [], patch match [Put: 72 = Mem(16)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is patch
+vuln match [], patch match [Put: 72 = Mem(24)]
+vuln match [], patch match [Put: 72 = Mem(16)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-48065
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+NotImplementedError Ijk_Ret
+vuln match [], patch match []
+vuln match [], patch match []
+vuln match [], patch match []
+Result for find_abstract_instance:None , truth is patch
+vuln match [], patch match [Put: 72 = Mem(24)]
+vuln match [], patch match [Put: 72 = Mem(16)]
+Result for scan_unit_for_symbols:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-1579
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.39-o0-objdump
+vuln match [Condition: If(ULE(Mem(189 + SR(64)),
+       Mem(112 + Mem(176 + SR(64))) +
+       18446744073709551615*Mem(208 + SR(64))),
+   1,
+   0)], patch match []
+Result for read_indexed_address:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-1579
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Condition: If(ULE(Mem(188 + SR(64)),
+       Mem(112 + Mem(176 + SR(64))) +
+       18446744073709551615*Mem(208 + SR(64))),
+   1,
+   0)]
+Result for read_indexed_address:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-1579
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+vuln match [], patch match [Condition: If(ULE(Mem(188 + SR(64)),
+       Mem(112 + Mem(176 + SR(64))) +
+       18446744073709551615*Mem(208 + SR(64))),
+   1,
+   0)]
+Result for read_indexed_address:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-1579
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+vuln match [], patch match [Condition: If(ULE(Mem(188 + SR(64)),
+       Mem(112 + Mem(176 + SR(64))) +
+       18446744073709551615*Mem(208 + SR(64))),
+   1,
+   0)]
+Result for read_indexed_address:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-25586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.40-o0-objdump
+vuln match [], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for bfd_init_section_decompress_status:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-25586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.41-o0-objdump
+vuln match [], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for bfd_init_section_decompress_status:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-25586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.42-o0-objdump
+vuln match [], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for bfd_init_section_decompress_status:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-25586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/binutils/binutils-2.43-o0-objdump
+vuln match [], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for bfd_init_section_decompress_status:patch , truth is patch

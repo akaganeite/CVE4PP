@@ -1,0 +1,2343 @@
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Call: ASN1_STRING_clear_free = [FakeRet(d2i_ASN1_INTEGER)], Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Call: ASN1_STRING_clear_free = [FakeRet(d2i_ASN1_INTEGER)], Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Call: ASN1_STRING_clear_free = [FakeRet(d2i_ASN1_INTEGER)], Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0-pre3-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Call: ASN1_STRING_clear_free = [FakeRet(d2i_ASN1_INTEGER)], Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL-fips-2_0_10-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0705
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl
+vuln match [Condition: If(FakeRet(d2i_ASN1_INTEGER) == 0, 0, 1), Put: 16 = FakeRet(d2i_ASN1_INTEGER), Put: 72 = FakeRet(d2i_ASN1_INTEGER), Put: 16 = FakeRet(BN_CTX_new), Put: 72 = FakeRet(BN_CTX_new), Put: 152 = FakeRet(d2i_ASN1_INTEGER), Call: BN_CTX_free = [FakeRet(BN_CTX_new)]], patch match []
+Result for dsa_priv_decode:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+Result for ssl_srp_server_param_cb:vuln , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for sv_body:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for init_ssl_connection:None , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for www_body:None , truth is vuln
+Result for rev_body:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl
+Result for ssl_srp_server_param_cb:vuln , truth is vuln
+vuln match [Store: 18446744073709551296 + SR(48) = 4648765], patch match []
+Result for sv_body:vuln , truth is vuln
+vuln match [Store: 18446744073709543312 + SR(48) = 4650282], patch match []
+Result for init_ssl_connection:vuln , truth is vuln
+vuln match [Store: 18446744073709551408 + SR(48) = 4653104], patch match []
+Result for www_body:vuln , truth is vuln
+vuln match [Store: 18446744073709551488 + SR(48) = 4657324], patch match []
+Result for rev_body:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl
+Result for ssl_srp_server_param_cb:vuln , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for sv_body:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for init_ssl_connection:None , truth is vuln
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for www_body:None , truth is vuln
+Result for rev_body:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48), Store: 18446744073709551596 + SR(48) = 0, Call: SRP_user_pwd_free = [Mem(16 + SR(32))]]
+Result for ssl_srp_server_param_cb:patch , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for sv_body:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for init_ssl_connection:None , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for www_body:None , truth is patch
+Result for rev_body:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [], patch match [Put: 48 = 18446744073709551552 + SR(48), Store: 18446744073709551552 + SR(48) = 4624608, Store: 18446744073709551596 + SR(48) = 0, Call: SRP_user_pwd_free = [Mem(16 + SR(32))]]
+Result for ssl_srp_server_param_cb:patch , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for sv_body:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for init_ssl_connection:None , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for www_body:None , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for rev_body:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0798
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0-pre3-o0-openssl
+Result for ssl_srp_server_param_cb:vuln , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for sv_body:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for init_ssl_connection:None , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for www_body:None , truth is patch
+vuln match [], patch match []
+vuln match [], patch match []
+fail to determine
+Result for rev_body:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Put: 152 = FakeRet(fmtint)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtfp) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtfp)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 32 = Mem(8 + SR(48)), Put: 152 = Mem(Mem(8 + SR(48))), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtstr) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtstr)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+Result for _dopr:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtint:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64)], patch match [Condition: If(And(Extract(63, 31, Mem(SR(24))) == 0,
+       ULE(Extract(30, 0, Mem(SR(24))), 2147482623)),
+   0,
+   1), Put: 48 = 18446744073709551536 + SR(48), Put: 16 = SR(64), Store: SR(64) = FakeRet]
+Result for doapr_outch:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vprintf:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vsnprintf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Put: 152 = FakeRet(fmtint)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtfp) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtfp)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 32 = Mem(8 + SR(48)), Put: 152 = Mem(Mem(8 + SR(48))), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtstr) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtstr)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+Result for _dopr:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtint:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64)], patch match [Condition: If(And(Extract(63, 31, Mem(SR(24))) == 0,
+       ULE(Extract(30, 0, Mem(SR(24))), 2147482623)),
+   0,
+   1), Put: 48 = 18446744073709551536 + SR(48), Put: 16 = SR(64), Store: SR(64) = FakeRet]
+Result for doapr_outch:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vprintf:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vsnprintf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0799
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0-pre3-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is patch
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is patch
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is vuln
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is vuln
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is vuln
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Put: 152 = FakeRet(fmtint)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtfp) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtfp)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 32 = Mem(8 + SR(48)), Put: 152 = Mem(Mem(8 + SR(48))), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtstr) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtstr)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+Result for _dopr:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtint:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64)], patch match [Condition: If(And(Extract(63, 31, Mem(SR(24))) == 0,
+       ULE(Extract(30, 0, Mem(SR(24))), 2147482623)),
+   0,
+   1), Put: 48 = 18446744073709551536 + SR(48), Put: 16 = SR(64), Store: SR(64) = FakeRet]
+Result for doapr_outch:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vprintf:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vsnprintf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Put: 152 = FakeRet(fmtint)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtfp) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtfp)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 32 = Mem(8 + SR(48)), Put: 152 = Mem(Mem(8 + SR(48))), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(fmtint) == 0, 0, 1), Condition: If(FakeRet(fmtstr) == 0, 0, 1), Put: 152 = FakeRet(fmtint), Put: 152 = FakeRet(fmtstr)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+vuln match [], patch match [Condition: If(FakeRet(doapr_outch) == 0, 0, 1), Put: 152 = FakeRet(doapr_outch)]
+Result for _dopr:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtint:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64)], patch match [Condition: If(And(Extract(63, 31, Mem(SR(24))) == 0,
+       ULE(Extract(30, 0, Mem(SR(24))), 2147482623)),
+   0,
+   1), Put: 48 = 18446744073709551536 + SR(48), Put: 16 = SR(64), Store: SR(64) = FakeRet]
+Result for doapr_outch:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vprintf:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 152 = FakeRet]
+Result for BIO_vsnprintf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0-pre3-o0-openssl
+vuln match [Put: 152 = 18446744073709551416 + SR(48)], patch match []
+Result for _dopr:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for fmtint:None , truth is patch
+vuln match [], patch match [Put: 152 = FakeRet]
+Result for fmtfp:patch , truth is patch
+vuln match [Put: 32 = SR(64), Put: 48 = 18446744073709551552 + SR(48)], patch match [Store: SR(64) = FakeRet]
+Result for doapr_outch:vuln , truth is patch
+vuln match [], patch match []
+Result for BIO_vprintf:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for BIO_vsnprintf:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-0797
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0-pre3-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for BN_hex2bn:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for BN_dec2bn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2109
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for asn1_d2i_read_bio:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2109
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for asn1_d2i_read_bio:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2109
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for asn1_d2i_read_bio:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2109
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for asn1_d2i_read_bio:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2109
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for asn1_d2i_read_bio:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2105
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [Condition: If(Mem(4 + SR(72)) <= Mem(SR(72)) + SR(80), 1, 0)], patch match []
+Result for EVP_EncodeUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2105
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+vuln match [Condition: If(Mem(4 + SR(72)) <= Mem(SR(72)) + SR(80), 1, 0)], patch match []
+Result for EVP_EncodeUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2105
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+vuln match [Condition: If(Mem(4 + SR(72)) <= Mem(SR(72)) + SR(80), 1, 0)], patch match []
+Result for EVP_EncodeUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2105
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl
+vuln match [], patch match [Condition: If(Mem(4 + SR(72)) + 18446744073709551615*Mem(SR(72)) <=
+   SR(80),
+   1,
+   0)]
+Result for EVP_EncodeUpdate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2105
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl
+vuln match [], patch match [Condition: If(Mem(4 + SR(72)) + 18446744073709551615*Mem(SR(72)) <=
+   SR(80),
+   1,
+   0)]
+Result for EVP_EncodeUpdate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2106
+CVE-2016-2106 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2106
+CVE-2016-2106 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2106
+CVE-2016-2106 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2106
+CVE-2016-2106 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2106
+CVE-2016-2106 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2107
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+Result for aesni_cbc_hmac_sha1_cipher:vuln , truth is vuln
+Result for aesni_cbc_hmac_sha256_cipher:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2107
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+Result for aesni_cbc_hmac_sha1_cipher:vuln , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551248 + SR(48)]
+Result for aesni_cbc_hmac_sha256_cipher:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2107
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl
+Result for aesni_cbc_hmac_sha1_cipher:vuln , truth is vuln
+Result for aesni_cbc_hmac_sha256_cipher:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2107
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl
+vuln match [], patch match [Put: 32 = Mem(18446744073709551615 + SR(64) + SR(24)), Put: 16 = Concat(0,
+       219 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 292 + 18446744073709551615*SR(24))), Put: 48 = 18446744073709551312 + SR(48), Store: 18446744073709551356 + SR(48) = Concat(0, Extract(0, 0, FakeRet(constant_time_ge))), Call: constant_time_ge = [Concat(0,
+       219 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 292 + 18446744073709551615*SR(24))), Mem(18446744073709551615 + SR(64) + SR(24))], Store: 18446744073709551312 + SR(48) = 5876675]
+Result for aesni_cbc_hmac_sha1_cipher:patch , truth is patch
+vuln match [], patch match [Put: 32 = Mem(18446744073709551615 + SR(64) + SR(24)), Put: 16 = Concat(0,
+       207 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 304 + 18446744073709551615*SR(24))), Put: 72 = Concat(0,
+       207 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 304 + 18446744073709551615*SR(24))), Put: 64 = Mem(18446744073709551615 + SR(64) + SR(24)), Put: 48 = 18446744073709551248 + SR(48), Store: 18446744073709551296 + SR(48) = Concat(0, Extract(0, 0, FakeRet)), Store: 18446744073709551248 + SR(48) = 5889756]
+Result for aesni_cbc_hmac_sha256_cipher:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2107
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl
+vuln match [], patch match [Put: 32 = Mem(18446744073709551615 + SR(64) + SR(24)), Put: 16 = Concat(0,
+       219 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 292 + 18446744073709551615*SR(24))), Put: 48 = 18446744073709551312 + SR(48), Store: 18446744073709551356 + SR(48) = Concat(0, Extract(0, 0, FakeRet(constant_time_ge))), Call: constant_time_ge = [Concat(0,
+       219 + Extract(7, 0, SR(24)) |
+       Extract(31, 24, 292 + 18446744073709551615*SR(24))), Mem(18446744073709551615 + SR(64) + SR(24))]]
+Result for aesni_cbc_hmac_sha1_cipher:patch , truth is patch
+Result for aesni_cbc_hmac_sha256_cipher:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-2108
+CVE-2016-2108 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2108
+CVE-2016-2108 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2108
+CVE-2016-2108 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2176
+CVE-2016-2176 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2176
+CVE-2016-2176 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2176
+CVE-2016-2176 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2176
+CVE-2016-2176 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2176
+CVE-2016-2176 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-2177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl
+vuln match [Put: 16 = Mem(88 + SR(72)) + FakeRet, Put: 160 = Mem(88 + SR(72)) + FakeRet, Condition: If(ULE(Mem(88 + SR(72)) + FakeRet,
+       35 + Mem(88 + SR(72)) + Mem(34 + Mem(88 + SR(72)))),
+   1,
+   0)], patch match []
+Result for ssl3_get_client_hello:vuln , truth is vuln
+vuln match [Condition: If(ULE(SR(64) + SR(32), SR(24)), 1, 0)], patch match []
+Result for ssl_get_prev_session:vuln , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551614 + SR(32), SR(64)), 1, 0), Condition: If(ULE(2 + SR(64), 18446744073709551612 + SR(32)), 0, 1)], patch match []
+Result for ssl_check_for_safari:vuln , truth is vuln
+vuln match [Condition: If(ULE(6 +
+       Mem(SR(64)) +
+       (Mem(5 + Mem(SR(64))) |
+        Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0)),
+       SR(32)),
+   1,
+   0), Condition: If(ULE(2 + Mem(SR(64)), 18446744073709551612 + SR(32)),
+   0,
+   1), Condition: If(ULE(Mem(SR(64)), 18446744073709551614 + SR(32)), 0, 1)], patch match []
+Result for ssl_scan_clienthello_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(2 + SR(64),
+       SR(32) +
+       18446744073709551615*
+       (Mem(1 + SR(64)) |
+        Concat(Extract(55, 0, Mem(SR(64))), 0))),
+   0,
+   1), Condition: If(ULE(6 +
+       SR(64) +
+       (Mem(5 + SR(64)) |
+        Concat(Extract(55, 0, Mem(4 + SR(64))), 0)),
+       SR(32)),
+   1,
+   0), Condition: If(ULE(2 + SR(64), 18446744073709551612 + SR(32)), 0, 1), Condition: If(ULE(18446744073709551614 + SR(32), SR(64)), 1, 0)], patch match []
+Result for ssl_scan_clienthello_custom_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(6 +
+       (Mem(5 + Mem(SR(64))) |
+        Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0)) +
+       Mem(SR(64)),
+       SR(32) + SR(24)),
+   0,
+   1), Condition: If(ULE(2 + Mem(SR(64)),
+       18446744073709551612 + SR(32) + SR(24)),
+   0,
+   1), Condition: If(ULE(18446744073709551614 + SR(32) + SR(24), Mem(SR(64))),
+   1,
+   0)], patch match []
+Result for ssl_scan_serverhello_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(SR(24), 1 + SR(64) + SR(32) + Mem(SR(64) + SR(32))),
+   1,
+   0), Condition: If(ULE(10 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))),
+       SR(24)),
+   1,
+   0), Condition: If(ULE(4 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))),
+       SR(24)),
+   0,
+   1), Condition: If(ULE(SR(24),
+       3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))),
+   1,
+   0), Condition: If(ULE(SR(24),
+       6 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0)))),
+   0,
+   1), Condition: If(ULE(10 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))) +
+       (Mem(9 +
+            SR(64) +
+            SR(32) +
+            Mem(SR(64) + SR(32)) +
+            (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+             Concat(Extract(55,
+                            0,
+                            Mem(1 +
+                                SR(64) +
+                                SR(32) +
+                                Mem(SR(64) + SR(32)))),
+                    0)) +
+            Mem(3 +
+                SR(64) +
+                SR(32) +
+                Mem(SR(64) + SR(32)) +
+                (Mem(2 +
+                     SR(64) +
+                     SR(32) +
+                     Mem(SR(64) + SR(32))) |
+                 Concat(Extract(55,
+                                0,
+                                Mem(1 +
+                                    SR(64) +
+                                    SR(32) +
+                                    Mem(SR(64) + SR(32)))),
+                        0)))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(8 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)) +
+                           (Mem(2 +
+                                SR(64) +
+                                SR(32) +
+                                Mem(SR(64) + SR(32))) |
+                            Concat(Extract(55,
+                                        0,
+                                        Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                                   0)) +
+                           Mem(3 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)) +
+                               (Mem(2 +
+                                    SR(64) +
+                                    SR(32) +
+                                    Mem(SR(64) + SR(32))) |
+                                Concat(Extract(55,
+                                        0,
+                                        Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                                       0))))),
+               0)),
+       SR(24)),
+   1,
+   0)], patch match []
+Result for tls1_process_ticket:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl
+vuln match [Put: 16 = Mem(88 + SR(72)) + FakeRet, Put: 160 = Mem(88 + SR(72)) + FakeRet, Condition: If(ULE(Mem(88 + SR(72)) + FakeRet,
+       35 + Mem(88 + SR(72)) + Mem(34 + Mem(88 + SR(72)))),
+   1,
+   0)], patch match []
+Result for ssl3_get_client_hello:vuln , truth is vuln
+vuln match [Condition: If(ULE(SR(64) + SR(32), SR(24)), 1, 0)], patch match []
+Result for ssl_get_prev_session:vuln , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551614 + SR(32), SR(64)), 1, 0), Condition: If(ULE(2 + SR(64), 18446744073709551612 + SR(32)), 0, 1)], patch match []
+Result for ssl_check_for_safari:vuln , truth is vuln
+Result for ssl_scan_clienthello_tlsext:None , truth is vuln
+Result for ssl_scan_clienthello_custom_tlsext:None , truth is vuln
+Result for ssl_scan_serverhello_tlsext:None , truth is vuln
+vuln match [Condition: If(ULE(SR(24), 1 + SR(64) + SR(32) + Mem(SR(64) + SR(32))),
+   1,
+   0)], patch match []
+Result for tls1_process_ticket:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl
+vuln match [Put: 16 = Mem(88 + SR(72)) + FakeRet, Put: 160 = Mem(88 + SR(72)) + FakeRet, Condition: If(ULE(Mem(88 + SR(72)) + FakeRet,
+       35 + Mem(88 + SR(72)) + Mem(34 + Mem(88 + SR(72)))),
+   1,
+   0)], patch match []
+Result for ssl3_get_client_hello:vuln , truth is vuln
+vuln match [Condition: If(ULE(SR(64) + SR(32), SR(24)), 1, 0)], patch match []
+Result for ssl_get_prev_session:vuln , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551614 + SR(32), SR(64)), 1, 0), Condition: If(ULE(2 + SR(64), 18446744073709551612 + SR(32)), 0, 1)], patch match []
+Result for ssl_check_for_safari:vuln , truth is vuln
+vuln match [Condition: If(ULE(6 +
+       Mem(SR(64)) +
+       (Mem(5 + Mem(SR(64))) |
+        Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0)),
+       SR(32)),
+   1,
+   0), Condition: If(ULE(2 + Mem(SR(64)), 18446744073709551612 + SR(32)),
+   0,
+   1), Condition: If(ULE(Mem(SR(64)), 18446744073709551614 + SR(32)), 0, 1)], patch match []
+Result for ssl_scan_clienthello_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(2 + SR(64),
+       SR(32) +
+       18446744073709551615*
+       (Mem(1 + SR(64)) |
+        Concat(Extract(55, 0, Mem(SR(64))), 0))),
+   0,
+   1), Condition: If(ULE(6 +
+       SR(64) +
+       (Mem(5 + SR(64)) |
+        Concat(Extract(55, 0, Mem(4 + SR(64))), 0)),
+       SR(32)),
+   1,
+   0), Condition: If(ULE(2 + SR(64), 18446744073709551612 + SR(32)), 0, 1), Condition: If(ULE(18446744073709551614 + SR(32), SR(64)), 1, 0)], patch match []
+Result for ssl_scan_clienthello_custom_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(6 +
+       (Mem(5 + Mem(SR(64))) |
+        Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0)) +
+       Mem(SR(64)),
+       SR(32) + SR(24)),
+   0,
+   1), Condition: If(ULE(2 + Mem(SR(64)),
+       18446744073709551612 + SR(32) + SR(24)),
+   0,
+   1), Condition: If(ULE(18446744073709551614 + SR(32) + SR(24), Mem(SR(64))),
+   1,
+   0)], patch match []
+Result for ssl_scan_serverhello_tlsext:vuln , truth is vuln
+vuln match [Condition: If(ULE(SR(24), 1 + SR(64) + SR(32) + Mem(SR(64) + SR(32))),
+   1,
+   0), Condition: If(ULE(10 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))),
+       SR(24)),
+   1,
+   0), Condition: If(ULE(4 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))),
+       SR(24)),
+   0,
+   1), Condition: If(ULE(SR(24),
+       3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))),
+   1,
+   0), Condition: If(ULE(SR(24),
+       6 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0)))),
+   0,
+   1), Condition: If(ULE(10 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0))) +
+       (Mem(9 +
+            SR(64) +
+            SR(32) +
+            Mem(SR(64) + SR(32)) +
+            (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+             Concat(Extract(55,
+                            0,
+                            Mem(1 +
+                                SR(64) +
+                                SR(32) +
+                                Mem(SR(64) + SR(32)))),
+                    0)) +
+            Mem(3 +
+                SR(64) +
+                SR(32) +
+                Mem(SR(64) + SR(32)) +
+                (Mem(2 +
+                     SR(64) +
+                     SR(32) +
+                     Mem(SR(64) + SR(32))) |
+                 Concat(Extract(55,
+                                0,
+                                Mem(1 +
+                                    SR(64) +
+                                    SR(32) +
+                                    Mem(SR(64) + SR(32)))),
+                        0)))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(8 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)) +
+                           (Mem(2 +
+                                SR(64) +
+                                SR(32) +
+                                Mem(SR(64) + SR(32))) |
+                            Concat(Extract(55,
+                                        0,
+                                        Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                                   0)) +
+                           Mem(3 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)) +
+                               (Mem(2 +
+                                    SR(64) +
+                                    SR(32) +
+                                    Mem(SR(64) + SR(32))) |
+                                Concat(Extract(55,
+                                        0,
+                                        Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                                       0))))),
+               0)),
+       SR(24)),
+   1,
+   0)], patch match []
+Result for tls1_process_ticket:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-2177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl
+vuln match [], patch match [Put: 160 = 18446744073709551614 + FakeRet]
+vuln match [], patch match [Put: 32 = 18446744073709551581 + FakeRet, Put: 152 = 18446744073709551581 + FakeRet, Condition: If(Mem(34 + Mem(88 + SR(72))) <=
+   18446744073709551581 + FakeRet,
+   1,
+   0)]
+vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition), Put: 16 = 18446744073709551581 +
+FakeRet +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Put: 152 = 18446744073709551581 +
+FakeRet +
+18446744073709551615*Mem(34 + Mem(88 + SR(72)))]
+vuln match [], patch match [Put: 16 = 18446744073709551580 +
+FakeRet +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Put: 152 = 18446744073709551580 +
+FakeRet +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Condition: If(18446744073709551580 +
+   FakeRet +
+   18446744073709551615*
+   Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+   18446744073709551615*Mem(34 + Mem(88 + SR(72))) <=
+   1,
+   0,
+   1)]
+vuln match [], patch match [Put: 32 = 18446744073709551578 +
+FakeRet +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Put: 152 = 18446744073709551578 +
+FakeRet +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Condition: If(1 +
+   (Mem(37 +
+        Mem(35 +
+            Mem(34 + Mem(88 + SR(72))) +
+            Mem(88 + SR(72))) +
+        Mem(34 + Mem(88 + SR(72))) +
+        Mem(88 + SR(72))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(36 +
+                       Mem(35 +
+                           Mem(34 + Mem(88 + SR(72))) +
+                           Mem(88 + SR(72))) +
+                       Mem(34 + Mem(88 + SR(72))) +
+                       Mem(88 + SR(72)))),
+           0)) <=
+   18446744073709551578 +
+   FakeRet +
+   18446744073709551615*
+   Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+   18446744073709551615*Mem(34 + Mem(88 + SR(72))),
+   1,
+   0)]
+vuln match [], patch match [Put: 32 = 18446744073709551577 +
+FakeRet +
+18446744073709551615*
+(Mem(37 +
+     Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+     Mem(34 + Mem(88 + SR(72))) +
+     Mem(88 + SR(72))) |
+ Concat(Extract(55,
+                0,
+                Mem(36 +
+                    Mem(35 +
+                        Mem(34 + Mem(88 + SR(72))) +
+                        Mem(88 + SR(72))) +
+                    Mem(34 + Mem(88 + SR(72))) +
+                    Mem(88 + SR(72)))),
+        0)) +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Put: 152 = 18446744073709551577 +
+FakeRet +
+18446744073709551615*
+(Mem(37 +
+     Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+     Mem(34 + Mem(88 + SR(72))) +
+     Mem(88 + SR(72))) |
+ Concat(Extract(55,
+                0,
+                Mem(36 +
+                    Mem(35 +
+                        Mem(34 + Mem(88 + SR(72))) +
+                        Mem(88 + SR(72))) +
+                    Mem(34 + Mem(88 + SR(72))) +
+                    Mem(88 + SR(72)))),
+        0)) +
+18446744073709551615*
+Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+18446744073709551615*Mem(34 + Mem(88 + SR(72))), Condition: If(Mem(38 +
+       (Mem(37 +
+            Mem(35 +
+                Mem(34 + Mem(88 + SR(72))) +
+                Mem(88 + SR(72))) +
+            Mem(34 + Mem(88 + SR(72))) +
+            Mem(88 + SR(72))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(36 +
+                           Mem(35 +
+                               Mem(34 + Mem(88 + SR(72))) +
+                               Mem(88 + SR(72))) +
+                           Mem(34 + Mem(88 + SR(72))) +
+                           Mem(88 + SR(72)))),
+               0)) +
+       Mem(35 +
+           Mem(34 + Mem(88 + SR(72))) +
+           Mem(88 + SR(72))) +
+       Mem(34 + Mem(88 + SR(72))) +
+       Mem(88 + SR(72))) <=
+   18446744073709551577 +
+   FakeRet +
+   18446744073709551615*
+   (Mem(37 +
+        Mem(35 +
+            Mem(34 + Mem(88 + SR(72))) +
+            Mem(88 + SR(72))) +
+        Mem(34 + Mem(88 + SR(72))) +
+        Mem(88 + SR(72))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(36 +
+                       Mem(35 +
+                           Mem(34 + Mem(88 + SR(72))) +
+                           Mem(88 + SR(72))) +
+                       Mem(34 + Mem(88 + SR(72))) +
+                       Mem(88 + SR(72)))),
+           0)) +
+   18446744073709551615*
+   Mem(35 + Mem(34 + Mem(88 + SR(72))) + Mem(88 + SR(72))) +
+   18446744073709551615*Mem(34 + Mem(88 + SR(72))),
+   1,
+   0)]
+Result for ssl3_get_client_hello:patch , truth is patch
+vuln match [], patch match [Condition: If(SR(32) <= SR(24) + 18446744073709551615*SR(64), 1, 0)]
+Result for ssl_get_prev_session:patch , truth is patch
+vuln match [], patch match [Condition: If(SR(32) + 18446744073709551615*SR(64) <= 2, 0, 1), Condition: If(18446744073709551614 +
+   SR(32) +
+   18446744073709551615*SR(64) <=
+   3,
+   0,
+   1)]
+vuln match [], patch match [Condition: If(Mem(5 + SR(64)) |
+   Concat(Extract(55, 0, Mem(4 + SR(64))), 0) <=
+   18446744073709551610 +
+   SR(32) +
+   18446744073709551615*SR(64),
+   1,
+   0)]
+Result for ssl_check_for_safari:patch , truth is patch
+vuln match [], patch match [Condition: If(18446744073709551614 +
+   SR(32) +
+   18446744073709551615*Mem(SR(64)) <=
+   3,
+   0,
+   1), Condition: If(Mem(5 + Mem(SR(64))) |
+   Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0) <=
+   18446744073709551610 +
+   SR(32) +
+   18446744073709551615*Mem(SR(64)),
+   1,
+   0), Condition: If(SR(32) + 18446744073709551615*Mem(SR(64)) <= 1, 0, 1)]
+Result for ssl_scan_clienthello_tlsext:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(5 + SR(64)) |
+   Concat(Extract(55, 0, Mem(4 + SR(64))), 0) <=
+   18446744073709551610 +
+   SR(32) +
+   18446744073709551615*SR(64),
+   1,
+   0), Condition: If(Mem(1 + SR(64)) | Concat(Extract(55, 0, Mem(SR(64))), 0) <=
+   18446744073709551614 +
+   SR(32) +
+   18446744073709551615*SR(64),
+   1,
+   0), Condition: If(SR(32) + 18446744073709551615*SR(64) <= 2, 0, 1), Condition: If(18446744073709551614 +
+   SR(32) +
+   18446744073709551615*SR(64) <=
+   3,
+   0,
+   1)]
+Result for ssl_scan_clienthello_custom_tlsext:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(5 + Mem(SR(64))) |
+   Concat(Extract(55, 0, Mem(4 + Mem(SR(64)))), 0) <=
+   18446744073709551610 +
+   SR(32) +
+   SR(24) +
+   18446744073709551615*Mem(SR(64)),
+   1,
+   0), Condition: If(SR(32) + SR(24) + 18446744073709551615*Mem(SR(64)) <= 2,
+   0,
+   1), Condition: If(18446744073709551614 +
+   SR(32) +
+   SR(24) +
+   18446744073709551615*Mem(SR(64)) <=
+   3,
+   0,
+   1)]
+Result for ssl_scan_serverhello_tlsext:patch , truth is patch
+vuln match [], patch match [Condition: If(18446744073709551610 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) +
+   18446744073709551615*Mem(SR(64) + SR(32)) +
+   18446744073709551615*
+   (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(1 +
+                       SR(64) +
+                       SR(32) +
+                       Mem(SR(64) + SR(32)))),
+           0)) +
+   18446744073709551615*
+   Mem(3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))) <=
+   3,
+   0,
+   1), Condition: If(Mem(9 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0)) +
+       Mem(3 +
+           SR(64) +
+           SR(32) +
+           Mem(SR(64) + SR(32)) +
+           (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+            Concat(Extract(55,
+                           0,
+                           Mem(1 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32)))),
+                   0)))) |
+   Concat(Extract(55,
+                  0,
+                  Mem(8 +
+                      SR(64) +
+                      SR(32) +
+                      Mem(SR(64) + SR(32)) +
+                      (Mem(2 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32))) |
+                       Concat(Extract(55,
+                                      0,
+                                      Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                              0)) +
+                      Mem(3 +
+                          SR(64) +
+                          SR(32) +
+                          Mem(SR(64) + SR(32)) +
+                          (Mem(2 +
+                               SR(64) +
+                               SR(32) +
+                               Mem(SR(64) + SR(32))) |
+                           Concat(Extract(55,
+                                        0,
+                                        Mem(1 +
+                                        SR(64) +
+                                        SR(32) +
+                                        Mem(SR(64) + SR(32)))),
+                                  0))))),
+          0) <=
+   18446744073709551606 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) +
+   18446744073709551615*Mem(SR(64) + SR(32)) +
+   18446744073709551615*
+   (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(1 +
+                       SR(64) +
+                       SR(32) +
+                       Mem(SR(64) + SR(32)))),
+           0)) +
+   18446744073709551615*
+   Mem(3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))),
+   1,
+   0), Condition: If(18446744073709551615 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) <=
+   Mem(SR(64) + SR(32)),
+   0,
+   1), Condition: If(18446744073709551612 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) +
+   18446744073709551615*Mem(SR(64) + SR(32)) +
+   18446744073709551615*
+   (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(1 +
+                       SR(64) +
+                       SR(32) +
+                       Mem(SR(64) + SR(32)))),
+           0)) +
+   18446744073709551615*
+   Mem(3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))) <=
+   2,
+   0,
+   1), Condition: If(Mem(3 +
+       SR(64) +
+       SR(32) +
+       Mem(SR(64) + SR(32)) +
+       (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+        Concat(Extract(55,
+                       0,
+                       Mem(1 +
+                           SR(64) +
+                           SR(32) +
+                           Mem(SR(64) + SR(32)))),
+               0))) <=
+   18446744073709551612 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) +
+   18446744073709551615*Mem(SR(64) + SR(32)) +
+   18446744073709551615*
+   (Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+    Concat(Extract(55,
+                   0,
+                   Mem(1 +
+                       SR(64) +
+                       SR(32) +
+                       Mem(SR(64) + SR(32)))),
+           0)),
+   1,
+   0), Condition: If(18446744073709551613 +
+   SR(24) +
+   18446744073709551615*SR(64) +
+   18446744073709551615*SR(32) +
+   18446744073709551615*Mem(SR(64) + SR(32)) <=
+   Mem(2 + SR(64) + SR(32) + Mem(SR(64) + SR(32))) |
+   Concat(Extract(55,
+                  0,
+                  Mem(1 +
+                      SR(64) +
+                      SR(32) +
+                      Mem(SR(64) + SR(32)))),
+          0),
+   0,
+   1)]
+Result for tls1_process_ticket:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-6304
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl
+Result for ssl_parse_clienthello_tlsext:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-6304
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(sk_new_null) == 0, 0, 1), Condition: If(Mem(8 + Mem(SR(64))) |
+   Concat(Extract(55, 0, Mem(7 + Mem(SR(64)))), 0) <=
+   0,
+   0,
+   1), Put: 32 = SR(72), Put: 16 = FakeRet(sk_new_null), Put: 152 = FakeRet(sk_new_null), Put: 72 = Mem(504 + SR(72)), Put: 48 = 18446744073709551440 + SR(48), Store: SR(24) = 80]
+vuln match [Condition: If(Mem(504 + SR(72)) == 0, 0, 1), Condition: If(FakeRet(sk_new_null) == 0, 0, 1), Store: SR(24) = 80, Put: 48 = 18446744073709551440 + SR(48), Put: 32 = SR(72), Put: 16 = FakeRet(sk_new_null), Put: 152 = FakeRet(sk_new_null), Put: 16 = FakeRet(d2i_OCSP_RESPID), Put: 72 = FakeRet(d2i_OCSP_RESPID), Call: OCSP_RESPID_free = [FakeRet(d2i_OCSP_RESPID)]], patch match []
+Result for ssl_parse_clienthello_tlsext:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-6304
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl
+Result for ssl_parse_clienthello_tlsext:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-6304
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(sk_new_null) == 0, 0, 1), Condition: If(Mem(8 + Mem(SR(64))) |
+   Concat(Extract(55, 0, Mem(7 + Mem(SR(64)))), 0) <=
+   0,
+   0,
+   1), Put: 32 = SR(72), Put: 16 = FakeRet(sk_new_null), Put: 152 = FakeRet(sk_new_null), Put: 72 = Mem(504 + SR(72)), Put: 48 = 18446744073709551440 + SR(48), Store: SR(24) = 80]
+Result for ssl_parse_clienthello_tlsext:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-6306
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl
+Result for ssl3_get_server_certificate:vuln , truth is vuln
+Result for ssl3_get_certificate_request:vuln , truth is vuln
+Result for ssl3_get_client_certificate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-6306
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl
+Result for ssl3_get_server_certificate:vuln , truth is vuln
+Result for ssl3_get_certificate_request:vuln , truth is vuln
+Result for ssl3_get_client_certificate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-6306
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl
+Result for ssl3_get_server_certificate:vuln , truth is vuln
+Result for ssl3_get_certificate_request:vuln , truth is vuln
+Result for ssl3_get_client_certificate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-6306
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl
+vuln match [], patch match [Condition: If(ULE(3,
+       Mem(2 + Mem(88 + SR(72))) |
+       Concat(Extract(47, 0, Mem(Mem(88 + SR(72)))), 0) |
+       Concat(Extract(55, 0, Mem(1 + Mem(88 + SR(72)))), 0)),
+   1,
+   0), Put: 48 = 18446744073709551456 + SR(48)]
+Result for ssl3_get_server_certificate:patch , truth is patch
+Result for ssl3_get_certificate_request:vuln , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551472 + SR(48), Store: 18446744073709551500 + SR(48) = 50, Condition: If(ULE(3,
+       Mem(2 + Mem(88 + SR(72))) |
+       Concat(Extract(47, 0, Mem(Mem(88 + SR(72)))), 0) |
+       Concat(Extract(55, 0, Mem(1 + Mem(88 + SR(72)))), 0)),
+   1,
+   0)]
+Result for ssl3_get_client_certificate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-6306
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o0-openssl
+vuln match [], patch match [Condition: If(ULE(3,
+       Mem(2 + Mem(88 + SR(72))) |
+       Concat(Extract(47, 0, Mem(Mem(88 + SR(72)))), 0) |
+       Concat(Extract(55, 0, Mem(1 + Mem(88 + SR(72)))), 0)),
+   1,
+   0), Store: 18446744073709551496 + SR(48) = 50, Put: 48 = 18446744073709551456 + SR(48), Store: 18446744073709551456 + SR(48) = 4875617]
+Result for ssl3_get_server_certificate:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551488 + SR(48), Store: 18446744073709551488 + SR(48) = 4886784, Store: 18446744073709551488 + SR(48) = 4886748, Condition: If(ULE(2,
+       Mem(11 + Mem(88 + SR(72))) |
+       Concat(Extract(55, 0, Mem(10 + Mem(88 + SR(72)))), 0)),
+   0,
+   1)]
+Result for ssl3_get_certificate_request:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551472 + SR(48), Store: 18446744073709551500 + SR(48) = 50, Store: 18446744073709551472 + SR(48) = 4863023, Condition: If(ULE(3,
+       Mem(2 + Mem(88 + SR(72))) |
+       Concat(Extract(47, 0, Mem(Mem(88 + SR(72)))), 0) |
+       Concat(Extract(55, 0, Mem(1 + Mem(88 + SR(72)))), 0)),
+   1,
+   0)]
+Result for ssl3_get_client_certificate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-7052
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl
+Result for get_crl_sk:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-7052
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2j-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(get_crl_score) == 0, 0, 1)]
+Result for get_crl_sk:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0h-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2o-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2n-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre5-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre4-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0737
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre6-o0-libcrypto
+Result for rsa_builtin_keygen:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0h-o0-openssl
+Result for generate_key:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2o-o0-openssl
+Result for generate_key:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2n-o0-openssl
+Result for generate_key:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre8-o0-openssl
+vuln match [], patch match [Condition: If(FakeRet(BN_num_bits) <= 10000, 0, 1), Put: 152 = FakeRet(BN_num_bits), Call: BN_num_bits = [Mem(8 + SR(72))], Store: 18446744073709551568 + SR(48) = 0]
+Result for generate_key:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre7-o0-openssl
+Result for generate_key:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0732
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1-pre6-o0-openssl
+Result for generate_key:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2q-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for dtls1_read_bytes:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for ssl3_read_bytes:None , truth is vuln
+vuln match [Store: 18446744073709551584 + SR(48) = 4990590], patch match [Put: 72 = Mem(624 + SR(72)), Put: 16 = SR(72)]
+Result for ssl3_send_alert:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2p-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for dtls1_read_bytes:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for ssl3_read_bytes:None , truth is vuln
+vuln match [], patch match [Put: 72 = Mem(624 + SR(72)), Put: 16 = SR(72)]
+Result for ssl3_send_alert:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2o-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for dtls1_read_bytes:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for ssl3_read_bytes:None , truth is vuln
+vuln match [], patch match [Put: 72 = Mem(624 + SR(72)), Put: 16 = SR(72)]
+Result for ssl3_send_alert:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2r-o0-openssl
+vuln match [], patch match [Store: 72 + SR(72) = 12293]
+Result for dtls1_read_bytes:patch , truth is patch
+vuln match [], patch match [Store: 72 + SR(72) = 12293]
+Result for ssl3_read_bytes:patch , truth is patch
+vuln match [], patch match [Put: 72 = Mem(624 + SR(72)), Store: 72 + SR(72) = 12293, Put: 16 = SR(72), Store: 18446744073709551584 + SR(48) = 4990604]
+Result for ssl3_send_alert:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1b-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for dtls1_read_bytes:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for ssl3_read_bytes:None , truth is patch
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for ssl3_send_alert:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1559
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1c-o0-openssl
+vuln match [], patch match []
+fail to determine
+Result for dtls1_read_bytes:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for ssl3_read_bytes:None , truth is patch
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for ssl3_send_alert:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1b-o0-libcrypto
+vuln match [Condition: If(SR(32) <= 16, 0, 1)], patch match []
+Result for chacha20_poly1305_ctrl:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1a-o0-libcrypto
+vuln match [Condition: If(SR(32) <= 16, 0, 1)], patch match []
+Result for chacha20_poly1305_ctrl:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0j-o0-libcrypto
+vuln match [Condition: If(SR(32) <= 16, 0, 1)], patch match []
+Result for chacha20_poly1305_ctrl:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto
+vuln match [Condition: If(SR(32) <= 16, 0, 1)], patch match [Condition: If(SR(32) <= 12, 0, 1)]
+fail to determine
+Result for chacha20_poly1305_ctrl:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto
+vuln match [Condition: If(SR(32) <= 16, 0, 1)], patch match [Condition: If(SR(32) <= 12, 0, 1)]
+fail to determine
+Result for chacha20_poly1305_ctrl:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1543
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto
+no function dict_keys(['chacha20_poly1305_ctrl']) in target
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is vuln
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = Mem(24 + Mem(8 + SR(72)))]
+Result for CMS_decrypt:patch , truth is vuln
+Result for pkcs7_decrypt_rinfo:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for PKCS7_dataDecode:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is vuln
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = Mem(24 + Mem(8 + SR(72)))]
+Result for CMS_decrypt:patch , truth is vuln
+Result for pkcs7_decrypt_rinfo:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for PKCS7_dataDecode:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is vuln
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = Mem(24 + Mem(8 + SR(72)))]
+Result for CMS_decrypt:patch , truth is vuln
+Result for pkcs7_decrypt_rinfo:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for PKCS7_dataDecode:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1d-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is patch
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 1, Put: 16 = Mem(24 + Mem(8 + SR(72))), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 0]
+Result for CMS_decrypt:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(18446744073709551576 + SR(48)) == 0, 0, 1), Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(80) == Mem(18446744073709551576 + SR(48)), 0, 1)]
+Result for pkcs7_decrypt_rinfo:patch , truth is patch
+vuln match [], patch match [Put: 80 = FakeRet, Store: 18446744073709551424 + SR(48) = 6174422, Store: 18446744073709551424 + SR(48) = 6174458, Store: 18446744073709551424 + SR(48) = 6174536]
+Result for PKCS7_dataDecode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_0l-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is patch
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 1, Put: 16 = Mem(24 + Mem(8 + SR(72))), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 0]
+Result for CMS_decrypt:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(18446744073709551576 + SR(48)) == 0, 0, 1), Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(80) == Mem(18446744073709551576 + SR(48)), 0, 1)]
+Result for pkcs7_decrypt_rinfo:patch , truth is patch
+vuln match [], patch match [Put: 80 = FakeRet]
+Result for PKCS7_dataDecode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-1563
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2t-o0-libcrypto
+fail to determine
+Result for cms_RecipientInfo_ktri_decrypt:None , truth is patch
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 1, Put: 16 = Mem(24 + Mem(8 + SR(72))), Store: 52 + Mem(24 + Mem(8 + SR(72))) = 0]
+Result for CMS_decrypt:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(18446744073709551576 + SR(48)) == 0, 0, 1), Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(80) == Mem(18446744073709551576 + SR(48)), 0, 1)]
+Result for pkcs7_decrypt_rinfo:patch , truth is patch
+vuln match [], patch match [Put: 80 = FakeRet]
+Result for PKCS7_dataDecode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-1967
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1f-o0-libssl
+Result for tls1_check_sig_alg:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-1967
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1e-o0-libssl
+Result for tls1_check_sig_alg:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-1967
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1d-o0-libssl
+Result for tls1_check_sig_alg:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-1967
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1g-o0-libssl
+vuln match [], patch match [Condition: If(Mem(Mem(6264 + SR(72))) == 0, 0, 1)]
+Result for tls1_check_sig_alg:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-1967
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-alpha2-o0-libssl
+Result for tls1_check_sig_alg:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1i-o0-libcrypto
+Result for evp_EncryptDecryptUpdate:vuln , truth is vuln
+Result for EVP_DecryptUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1h-o0-libcrypto
+Result for evp_EncryptDecryptUpdate:vuln , truth is vuln
+Result for EVP_DecryptUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1g-o0-libcrypto
+Result for evp_EncryptDecryptUpdate:vuln , truth is vuln
+Result for EVP_DecryptUpdate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1j-o0-libcrypto
+vuln match [], patch match [Put: 48 = 18446744073709551536 + SR(48), Store: 18446744073709551536 + SR(48) = 5951669, Condition: If(~(~(SR(80) +
+       18446744073709551615*Mem(4 + Mem(SR(72))) +
+       Mem(20 + SR(72))) |
+     ~(18446744073709551615*Mem(4 + Mem(SR(72))))) <=
+   2147483647 + 18446744073709551615*Mem(4 + Mem(SR(72))),
+   0,
+   1)]
+Result for evp_EncryptDecryptUpdate:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(~(~(18446744073709551615*Mem(4 + Mem(SR(72)))) |
+         ~SR(80)),
+       2147483647 +
+       18446744073709551615*Mem(4 + Mem(SR(72)))),
+   0,
+   1), Store: 18446744073709551536 + SR(48) = 5953249, Put: 48 = 18446744073709551536 + SR(48)]
+Result for EVP_DecryptUpdate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-alpha12-o0-libcrypto
+vuln match [], patch match [Put: 48 = 18446744073709551536 + SR(48), Condition: If(~(~(SR(80) +
+       18446744073709551615*Mem(4 + Mem(SR(72))) +
+       Mem(20 + SR(72))) |
+     ~(18446744073709551615*Mem(4 + Mem(SR(72))))) <=
+   2147483647 + 18446744073709551615*Mem(4 + Mem(SR(72))),
+   0,
+   1)]
+Result for evp_EncryptDecryptUpdate:patch , truth is patch
+vuln match [], patch match [Condition: If(ULE(~(~(18446744073709551615*Mem(4 + Mem(SR(72)))) |
+         ~SR(80)),
+       2147483647 +
+       18446744073709551615*Mem(4 + Mem(SR(72)))),
+   0,
+   1)]
+Result for EVP_DecryptUpdate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-23840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-alpha11-o0-libcrypto
+Result for evp_EncryptDecryptUpdate:vuln , truth is patch
+Result for EVP_DecryptUpdate:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-4044
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-o0-libssl
+Result for ssl_verify_cert_chain:vuln , truth is vuln
+vuln match [Condition: If(FakeRet <= 0, 0, 1)], patch match [Condition: If(FakeRet == 0, 0, 1)]
+fail to determine
+Result for tls_post_process_server_certificate:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-4044
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o0-libssl
+Result for ssl_verify_cert_chain:vuln , truth is vuln
+Result for tls_post_process_server_certificate:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-4044
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1m-o0-libssl
+Result for ssl_verify_cert_chain:vuln , truth is patch
+Result for tls_post_process_server_certificate:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-4044
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.1-o0-libssl
+vuln match [], patch match [Put: 152 = FakeRet(X509_verify_cert), Store: 18446744073709551556 + SR(48) = 0, Condition: Concat(0, Extract(31, 31, FakeRet(X509_verify_cert)))]
+Result for ssl_verify_cert_chain:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1)]
+Result for tls_post_process_server_certificate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-4044
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.2-o0-libssl
+vuln match [], patch match [Put: 152 = FakeRet(X509_verify_cert), Store: 18446744073709551556 + SR(48) = 0, Condition: Concat(0, Extract(31, 31, FakeRet(X509_verify_cert)))]
+Result for ssl_verify_cert_chain:patch , truth is patch
+vuln match [Condition: If(FakeRet <= 0, 0, 1)], patch match [Condition: If(FakeRet == 0, 0, 1)]
+fail to determine
+Result for tls_post_process_server_certificate:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.2-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for OPENSSL_LH_flush:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.1-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for OPENSSL_LH_flush:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for OPENSSL_LH_flush:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.3-o0-libcrypto
+vuln match [], patch match [Put: 16 = SR(72), Store: 56 + SR(72) = 0]
+Result for OPENSSL_LH_flush:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1o-o0-libcrypto
+no function dict_keys(['OPENSSL_LH_flush']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-1473
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+vuln match [], patch match [Put: 16 = SR(72), Store: 56 + SR(72) = 0]
+Result for OPENSSL_LH_flush:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.2-o0-libcrypto
+fail to determine
+Result for ocsp_verify_signer:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.1-o0-libcrypto
+fail to determine
+Result for ocsp_verify_signer:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.0-o0-libcrypto
+fail to determine
+Result for ocsp_verify_signer:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.3-o0-libcrypto
+fail to determine
+Result for ocsp_verify_signer:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1o-o0-libcrypto
+no function dict_keys(['ocsp_verify_signer']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-1343
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+fail to determine
+Result for ocsp_verify_signer:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-2274
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for ossl_rsaz_mod_exp_avx512_x2:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-2274
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+vuln match [], patch match [Put: 152 = Concat(0, Extract(63, 6, Mem(56 + SR(48)))), Store: 56 + SR(48) = Concat(0, Extract(63, 6, Mem(56 + SR(48)))), Put: 160 = Concat(0, Extract(63, 5, Mem(56 + SR(48))))]
+Result for ossl_rsaz_mod_exp_avx512_x2:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-2274
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1q-o0-libcrypto
+no function dict_keys(['ossl_rsaz_mod_exp_avx512_x2']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-2274
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [], patch match [Put: 152 = Concat(0, Extract(63, 6, Mem(56 + SR(48)))), Store: 56 + SR(48) = Concat(0, Extract(63, 6, Mem(56 + SR(48)))), Put: 160 = Concat(0, Extract(63, 5, Mem(56 + SR(48))))]
+Result for ossl_rsaz_mod_exp_avx512_x2:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+Result for evp_md_init_internal:vuln , truth is vuln
+Result for evp_cipher_init_internal:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+Result for evp_md_init_internal:vuln , truth is vuln
+Result for evp_cipher_init_internal:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.3-o0-libcrypto
+Result for evp_md_init_internal:vuln , truth is vuln
+Result for evp_cipher_init_internal:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(64) == 0, 0, 1), Condition: If(Mem(24 + Mem(8 + SR(72))) == 2, 0, 1), Condition: If(Mem(8 + SR(72)) == 0, 0, 1)]
+Result for evp_md_init_internal:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(24 + Mem(SR(72))) == 2, 0, 1), Condition: If(Mem(24 + SR(64)) == 2, 0, 1), Condition: If(SR(64) == 0, 0, 1), Condition: If(Mem(SR(72)) == 0, 0, 1)]
+Result for evp_cipher_init_internal:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1r-o0-libcrypto
+no function dict_keys(['evp_md_init_internal', 'evp_cipher_init_internal']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-3358
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto
+no function dict_keys(['evp_md_init_internal', 'evp_cipher_init_internal']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [Put: 160 = Mem(SR(24))], patch match []
+Result for ossl_punycode_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+vuln match [Put: 160 = Mem(SR(24))], patch match []
+Result for ossl_punycode_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+vuln match [Put: 160 = Mem(SR(24))], patch match []
+Result for ossl_punycode_decode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto
+no function dict_keys(['ossl_punycode_decode']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+vuln match [Put: 160 = Mem(SR(24))], patch match [Condition: If(Mem(SR(24)) == 0, 1, 0)]
+Result for ossl_punycode_decode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3602
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o0-libcrypto
+vuln match [Put: 160 = Mem(SR(24))], patch match [Condition: If(Mem(SR(24)) == 0, 1, 0)]
+Result for ossl_punycode_decode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+fail to determine
+Result for ossl_punycode_decode:None , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551615 + Mem(SR(32)),
+       1 + FakeRet + 18446744073709551615*SR(72)),
+   1,
+   0), Store: 18446744073709549496 + SR(48) = 1 + SR(64) + FakeRet + 18446744073709551615*SR(72), Put: 32 = FakeRet + 18446744073709551615*SR(72), Put: 152 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 48 = 18446744073709549440 + SR(48), Put: 16 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 152 = SR(64), Store: 18446744073709549488 + SR(48) = 0], patch match [Put: 24 = SR(72), Put: 16 = SR(64)]
+Result for ossl_a2ulabel:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+fail to determine
+Result for ossl_punycode_decode:None , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551615 + Mem(SR(32)),
+       1 + FakeRet + 18446744073709551615*SR(72)),
+   1,
+   0), Store: 18446744073709549496 + SR(48) = 1 + SR(64) + FakeRet + 18446744073709551615*SR(72), Put: 32 = FakeRet + 18446744073709551615*SR(72), Put: 152 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 48 = 18446744073709549440 + SR(48), Put: 16 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 152 = SR(64), Store: 18446744073709549488 + SR(48) = 0], patch match [Put: 24 = SR(72), Put: 16 = SR(64)]
+Result for ossl_a2ulabel:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.4-o0-libcrypto
+fail to determine
+Result for ossl_punycode_decode:None , truth is vuln
+vuln match [Condition: If(ULE(18446744073709551615 + Mem(SR(32)),
+       1 + FakeRet + 18446744073709551615*SR(72)),
+   1,
+   0), Store: 18446744073709549496 + SR(48) = 1 + SR(64) + FakeRet + 18446744073709551615*SR(72), Put: 32 = FakeRet + 18446744073709551615*SR(72), Put: 152 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 48 = 18446744073709549440 + SR(48), Put: 16 = 1 + FakeRet + 18446744073709551615*SR(72), Put: 152 = SR(64), Store: 18446744073709549488 + SR(48) = 0], patch match [Put: 24 = SR(72), Put: 16 = SR(64)]
+Result for ossl_a2ulabel:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto
+no function dict_keys(['ossl_punycode_decode', 'ossl_a2ulabel']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+fail to determine
+Result for ossl_punycode_decode:None , truth is patch
+vuln match [Put: 152 = SR(64)], patch match [Condition: If(FakeRet == 18446744073709551615 + SR(72), 1, 0), Condition: If(Mem(SR(32)) == 0, 0, 1), Store: 18446744073709549424 + SR(48) = 6792155, Store: 18446744073709549480 + SR(48) = 1, Store: 18446744073709549504 + SR(48) = 1, Store: 18446744073709549476 + SR(48) = 0, Store: 18446744073709549488 + SR(48) = 1 + SR(64), Put: 48 = 18446744073709549424 + SR(48), Put: 24 = SR(72), Put: 16 = SR(64), Store: SR(64) = Mem(SR(72))]
+vuln match [Store: SR(64) = 46, Put: 16 = FakeRet], patch match [Condition: If(Mem(SR(32)) == 0, 0, 1), Store: SR(64) = Mem(18446744073709551594 + SR(48)), Store: 18446744073709549504 + SR(48) = 1, Store: 18446744073709549484 + SR(48) = 1, Put: 24 = Mem(18446744073709551594 + SR(48)), Put: 16 = SR(64), Store: 18446744073709549488 + SR(48) = 1 + SR(64)]
+Result for ossl_a2ulabel:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3786
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o0-libcrypto
+fail to determine
+Result for ossl_punycode_decode:None , truth is patch
+vuln match [Put: 32 = FakeRet + 18446744073709551615*SR(72), Put: 152 = SR(64)], patch match [Put: 24 = SR(72)]
+Result for ossl_a2ulabel:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+vuln match [Condition: If(FakeRet(CRYPTO_THREAD_write_lock) == 0, 0, 1), Call: CRYPTO_THREAD_write_lock = [Mem(344 + SR(72))], Put: 16 = Mem(232 + SR(72)), Put: 152 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 32 = Mem(232 + SR(72)), Put: 17 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(CRYPTO_THREAD_write_lock), Call: CRYPTO_THREAD_unlock = [Mem(344 + SR(72))], Store: 232 + SR(72) = Mem(232 + SR(72))], patch match []
+Result for ossl_policy_cache_set_mapping:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [Condition: If(FakeRet(CRYPTO_THREAD_write_lock) == 0, 0, 1), Call: CRYPTO_THREAD_write_lock = [Mem(344 + SR(72))], Put: 16 = Mem(232 + SR(72)), Put: 152 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 32 = Mem(232 + SR(72)), Put: 17 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(CRYPTO_THREAD_write_lock), Call: CRYPTO_THREAD_unlock = [Mem(344 + SR(72))], Store: 232 + SR(72) = Mem(232 + SR(72))], patch match []
+Result for ossl_policy_cache_set_mapping:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+vuln match [Condition: If(FakeRet(CRYPTO_THREAD_write_lock) == 0, 0, 1), Call: CRYPTO_THREAD_write_lock = [Mem(344 + SR(72))], Put: 16 = Mem(232 + SR(72)), Put: 152 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 32 = Mem(232 + SR(72)), Put: 17 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(CRYPTO_THREAD_write_lock), Call: CRYPTO_THREAD_unlock = [Mem(344 + SR(72))], Store: 232 + SR(72) = Mem(232 + SR(72))], patch match []
+Result for ossl_policy_cache_set_mapping:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o0-libcrypto
+vuln match [Condition: If(FakeRet(CRYPTO_THREAD_write_lock) == 0, 0, 1), Call: CRYPTO_THREAD_write_lock = [Mem(344 + SR(72))], Put: 16 = Mem(232 + SR(72)), Put: 152 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 32 = Mem(232 + SR(72)), Put: 17 = Concat(Extract(63, 4, SR(17)), 1, Extract(2, 0, SR(17))), Put: 48 = 18446744073709551536 + SR(48), Put: 152 = FakeRet(CRYPTO_THREAD_write_lock), Call: CRYPTO_THREAD_unlock = [Mem(344 + SR(72))], Store: 232 + SR(72) = Mem(232 + SR(72))], patch match []
+Result for ossl_policy_cache_set_mapping:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-beta1-o0-libcrypto
+Result for ossl_policy_cache_set_mapping:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-3996
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto
+no function dict_keys(['ossl_policy_cache_set_mapping']) in target
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+vuln match [Store: 18446744073709551592 + SR(48) = Mem(SR(72))], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Put: 16 = Mem(SR(72))]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Condition: If(Mem(SR(72)) == 0, 0, 1), Put: 72 = Mem(Mem(8 + SR(72))), Put: 16 = Mem(SR(72))]
+Result for nc_match:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [Store: 18446744073709551592 + SR(48) = Mem(SR(72))], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Put: 16 = Mem(SR(72))]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Condition: If(Mem(SR(72)) == 0, 0, 1), Put: 72 = Mem(Mem(8 + SR(72))), Put: 16 = Mem(SR(72))]
+Result for nc_match:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+vuln match [Store: 18446744073709551592 + SR(48) = Mem(SR(72))], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Put: 16 = Mem(SR(72))]
+vuln match [Put: 64 = Mem(FakeRet(OPENSSL_sk_value))], patch match [Condition: If(Mem(SR(72)) == 0, 0, 1), Put: 72 = Mem(Mem(8 + SR(72))), Put: 16 = Mem(SR(72))]
+Result for nc_match:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto
+vuln match [], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [], patch match []
+vuln match [], patch match []
+Result for nc_match:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.8-o0-libcrypto
+vuln match [Store: 18446744073709551592 + SR(48) = Mem(SR(72))], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [], patch match [Put: 16 = Mem(SR(72)), Call: nc_match_single = [Mem(SR(72)), SR(72), Mem(FakeRet(OPENSSL_sk_value))]]
+vuln match [], patch match [Condition: If(FakeRet(OBJ_cmp) == 0, 0, 1), Condition: If(Mem(SR(72)) == 0, 0, 1), Put: 72 = Mem(Mem(8 + SR(72))), Put: 152 = FakeRet(OBJ_cmp), Put: 16 = Mem(SR(72)), Put: 32 = Mem(Mem(8 + Mem(FakeRet(OPENSSL_sk_value)))), Put: 64 = Mem(Mem(8 + Mem(FakeRet(OPENSSL_sk_value)))), Call: nc_match_single = [Mem(SR(72)), SR(72), Mem(FakeRet(OPENSSL_sk_value))]]
+Result for nc_match:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-4203
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-o0-libcrypto
+vuln match [Store: 18446744073709551592 + SR(48) = Mem(SR(72))], patch match [Store: 18446744073709551592 + SR(48) = 1]
+vuln match [], patch match [Put: 16 = Mem(SR(72)), Call: nc_match_single = [Mem(SR(72)), SR(72), Mem(FakeRet(OPENSSL_sk_value))]]
+vuln match [], patch match [Condition: If(FakeRet(OBJ_cmp) == 0, 0, 1), Condition: If(Mem(SR(72)) == 0, 0, 1), Put: 72 = Mem(Mem(8 + SR(72))), Put: 152 = FakeRet(OBJ_cmp), Put: 16 = Mem(SR(72)), Put: 32 = Mem(Mem(8 + Mem(FakeRet(OPENSSL_sk_value)))), Put: 64 = Mem(Mem(8 + Mem(FakeRet(OPENSSL_sk_value)))), Call: nc_match_single = [Mem(SR(72)), SR(72), Mem(FakeRet(OPENSSL_sk_value))]]
+Result for nc_match:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto
+vuln match [], patch match [Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Put: 24 = FakeRet(CRYPTO_zalloc)]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match []
+Result for BIO_new_NDEF:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+vuln match [], patch match [Store: 18446744073709551504 + SR(48) = 5105910, Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Put: 24 = FakeRet(CRYPTO_zalloc)]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match []
+Result for BIO_new_NDEF:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [], patch match [Store: 18446744073709551504 + SR(48) = 5105910, Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Put: 24 = FakeRet(CRYPTO_zalloc)]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match []
+Result for BIO_new_NDEF:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto
+vuln match [], patch match [Condition: If(FakeRet(BIO_asn1_set_prefix) <= 0, 0, 1), Condition: If(FakeRet(BIO_asn1_set_suffix) <= 0, 0, 1), Condition: FakeRet(amd64g_calculate_condition), Store: 18446744073709551544 + SR(48) = 0, Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Put: 152 = FakeRet(BIO_asn1_set_prefix), Put: 152 = FakeRet(BIO_asn1_set_suffix), Put: 152 = FakeRet(BIO_ctrl), Put: 24 = FakeRet(CRYPTO_zalloc)]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match [Call: BIO_pop = [FakeRet(BIO_new)]]
+Result for BIO_new_NDEF:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.8-o0-libcrypto
+vuln match [], patch match [Condition: If(FakeRet(BIO_asn1_set_prefix) <= 0, 0, 1), Condition: If(FakeRet(BIO_asn1_set_suffix) <= 0, 0, 1), Condition: FakeRet(amd64g_calculate_condition), Store: 18446744073709551504 + SR(48) = 5105910, Store: 18446744073709551544 + SR(48) = 0, Store: 18446744073709551504 + SR(48) = 5105772, Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Call: BIO_asn1_set_prefix = [FakeRet(BIO_new), 5106074, 5106435], Store: 18446744073709551504 + SR(48) = 5105809, Put: 152 = FakeRet(BIO_asn1_set_prefix), Put: 152 = FakeRet(BIO_asn1_set_suffix), Put: 152 = FakeRet(BIO_ctrl), Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_asn1_set_suffix = [FakeRet(BIO_new), 5106692, 5106573], Store: 18446744073709551504 + SR(48) = 5105846]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match [Call: BIO_pop = [FakeRet(BIO_new)], Store: 18446744073709551504 + SR(48) = 5106008]
+Result for BIO_new_NDEF:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0215
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-o0-libcrypto
+vuln match [], patch match [Condition: If(FakeRet(BIO_asn1_set_prefix) <= 0, 0, 1), Condition: If(FakeRet(BIO_asn1_set_suffix) <= 0, 0, 1), Condition: FakeRet(amd64g_calculate_condition), Store: 18446744073709551544 + SR(48) = 0, Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)], Put: 152 = FakeRet(BIO_asn1_set_prefix), Put: 152 = FakeRet(BIO_asn1_set_suffix), Put: 152 = FakeRet(BIO_ctrl), Put: 24 = FakeRet(CRYPTO_zalloc)]
+vuln match [Put: 24 = FakeRet(CRYPTO_zalloc), Call: BIO_ctrl = [FakeRet(BIO_new), 153, 0, FakeRet(CRYPTO_zalloc)]], patch match [Call: BIO_pop = [FakeRet(BIO_new)]]
+Result for BIO_new_NDEF:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for ossl_pkcs7_resolve_libctx:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for ossl_pkcs7_resolve_libctx:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+vuln match [], patch match []
+fail to determine
+Result for ossl_pkcs7_resolve_libctx:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto
+no function dict_keys(['ossl_pkcs7_resolve_libctx']) in target
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.8-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(32 + SR(72)) == 0, 0, 1)]
+Result for ossl_pkcs7_resolve_libctx:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0216
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(32 + SR(72)) == 0, 0, 1)]
+Result for ossl_pkcs7_resolve_libctx:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.7-o0-libcrypto
+Result for pkcs7_bio_add_digest:vuln , truth is vuln
+vuln match [], patch match []
+Result for PKCS7_dataDecode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.6-o0-libcrypto
+Result for pkcs7_bio_add_digest:vuln , truth is vuln
+vuln match [], patch match []
+Result for PKCS7_dataDecode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.5-o0-libcrypto
+Result for pkcs7_bio_add_digest:vuln , truth is vuln
+vuln match [], patch match []
+Result for PKCS7_dataDecode:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto
+Result for pkcs7_bio_add_digest:None , truth is patch
+vuln match [], patch match []
+Result for PKCS7_dataDecode:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.8-o0-libcrypto
+vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition), Store: 18446744073709551456 + SR(48) = 6974645, Store: 18446744073709551456 + SR(48) = 6974578, Store: 18446744073709551456 + SR(48) = 6974633, Put: 152 = FakeRet(BIO_ctrl), Put: 16 = FakeRet(EVP_MD_fetch), Put: 72 = FakeRet(EVP_MD_fetch), Call: EVP_MD_free = [FakeRet(EVP_MD_fetch)], Store: 18446744073709551456 + SR(48) = 6974608]
+Result for pkcs7_bio_add_digest:patch , truth is patch
+vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition), Store: 18446744073709551328 + SR(48) = 6980283, Store: 18446744073709551328 + SR(48) = 6980288, Store: 18446744073709551328 + SR(48) = 6980343, Store: 18446744073709551328 + SR(48) = 6980318, Store: 18446744073709551328 + SR(48) = 6980266]
+Result for PKCS7_dataDecode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-0401
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-o0-libcrypto
+vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition), Put: 152 = FakeRet(BIO_ctrl), Put: 16 = FakeRet(EVP_MD_fetch), Put: 72 = FakeRet(EVP_MD_fetch), Call: EVP_MD_free = [FakeRet(EVP_MD_fetch)]]
+Result for pkcs7_bio_add_digest:patch , truth is patch
+vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition)]
+Result for PKCS7_dataDecode:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2650
+CVE-2023-2650 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.1-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = SR(32)]
+Result for siv_cipher:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.9-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = SR(32)]
+Result for siv_cipher:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.0-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Put: 16 = SR(32)]
+Result for siv_cipher:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.10-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Condition: If(SR(64) == 0, 0, 1), Put: 16 = SR(32)]
+Result for siv_cipher:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.2-o0-libcrypto
+vuln match [], patch match [Condition: If(SR(32) == 0, 0, 1), Condition: If(SR(64) == 0, 0, 1), Put: 16 = SR(32)]
+Result for siv_cipher:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-2975
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_1_1v-o0-libcrypto
+no function dict_keys(['siv_cipher']) in target
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.4-o0-libcrypto
+Result for ossl_dh_compute_key:vuln , truth is vuln
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.12-o0-libcrypto
+Result for ossl_dh_compute_key:vuln , truth is vuln
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.11-o0-libcrypto
+Result for ossl_dh_compute_key:vuln , truth is vuln
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.2.0-beta1-o0-libcrypto
+Result for ossl_dh_compute_key:vuln , truth is patch
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.2.0-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(16 + SR(32)) == 0, 0, 1), Condition: If(FakeRet(BN_num_bits) <= 10000, 0, 1), Put: 48 = 18446744073709551520 + SR(48), Put: 152 = FakeRet(BN_num_bits), Call: BN_num_bits = [Mem(16 + SR(32))]]
+Result for ossl_dh_compute_key:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-5678
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.2.1-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(16 + SR(32)) == 0, 0, 1), Condition: If(FakeRet(BN_num_bits) <= 10000, 0, 1), Put: 48 = 18446744073709551520 + SR(48), Put: 152 = FakeRet(BN_num_bits), Call: BN_num_bits = [Mem(16 + SR(32))]]
+Result for ossl_dh_compute_key:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(16 + SR(72)) == 0, 0, 1), Condition: If(FakeRet <= 10000, 0, 1), Put: 152 = FakeRet, Put: 48 = 18446744073709551520 + SR(48)]
+Result for generate_key:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.2.0-o0-libcrypto
+Result for pkcs12_gen_mac:vuln , truth is vuln
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet]
+Result for newpass_p12:patch , truth is vuln
+Result for SMIME_write_PKCS7:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.4-o0-libcrypto
+Result for pkcs12_gen_mac:vuln , truth is vuln
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet]
+Result for newpass_p12:patch , truth is vuln
+Result for SMIME_write_PKCS7:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.12-o0-libcrypto
+Result for pkcs12_gen_mac:vuln , truth is vuln
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet]
+Result for newpass_p12:patch , truth is vuln
+Result for SMIME_write_PKCS7:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.2.1-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(32 + Mem(16 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)]
+Result for pkcs12_gen_mac:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Condition: If(Mem(32 + FakeRet) == 0, 0, 1), Put: 152 = Mem(32 + FakeRet), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet, Put: 16 = Mem(32 + FakeRet)]
+Result for newpass_p12:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(32 + SR(64)) == 0, 0, 1)]
+Result for SMIME_write_PKCS7:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.0.13-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(32 + Mem(16 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)]
+Result for pkcs12_gen_mac:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Condition: If(Mem(32 + FakeRet) == 0, 0, 1), Put: 152 = Mem(32 + FakeRet), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet, Put: 16 = Mem(32 + FakeRet)]
+Result for newpass_p12:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(32 + SR(64)) == 0, 0, 1)]
+Result for SMIME_write_PKCS7:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2024-0727
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-openssl-3.1.5-o0-libcrypto
+vuln match [], patch match [Condition: If(Mem(32 + Mem(16 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)]
+Result for pkcs12_gen_mac:patch , truth is patch
+vuln match [], patch match [Condition: If(FakeRet == 0, 0, 1), Condition: If(Mem(32 + FakeRet) == 0, 0, 1), Put: 152 = Mem(32 + FakeRet), Put: 72 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 16 = Mem(8 + Mem(8 + Mem(32 + FakeRet))), Put: 152 = FakeRet, Put: 16 = Mem(32 + FakeRet)]
+Result for newpass_p12:patch , truth is patch
+vuln match [], patch match [Condition: If(Mem(32 + SR(64)) == 0, 0, 1)]
+Result for SMIME_write_PKCS7:patch , truth is patch

@@ -1,5 +1,5 @@
 CVE-2020-20446 2021-05-29 223b5e8ac9f6 ffmpeg psy_3gpp_analyze_channel
-CVE-2020-20448 2019-11-09 8802e329c831 ffmpeg encode_q_branch
+CVE-2020-20448 2019-11-09 8802e329c831 ffmpeg encode_q_branch,uninit
 CVE-2020-20453 2021-05-29 a7a7f32c8ad0 ffmpeg aac_encode_frame
 CVE-2020-20896 2019-10-15 dd01947397b9 ffmpeg latm_write_packet
 CVE-2020-20898 2019-10-13 99f8d32129dd ffmpeg filter_prewitt,filter16_roberts,filter_roberts,filter_sobel,filter16_sobel,filter16_prewitt
@@ -19,16 +19,8 @@ CVE-2020-22043 2019-10-17 b288a7eb3d96 ffmpeg mpeg_mux_end,mpeg_mux_init
 CVE-2020-22044 2019-10-18 1d479300cbe0 ffmpeg nut_write_trailer
 CVE-2020-22046 2019-10-17 097c917c1476 ffmpeg ff_ac3_encode_init,ff_ac3_encode_close
 CVE-2020-24020 2020-07-06 584f396132aa ffmpeg dnn_execute_layer_conv2d,dnn_execute_layer_math_binary,dnn_execute_layer_math_unary,calculate_operand_dims_count,set_input_output_native,dnn_execute_layer_maximum,dnn_execute_layer_pad,dnn_execute_layer_depth2space
-CVE-2021-33815 2021-05-27 26d3c81bc5ef ffmpeg dwa_uncompress
-CVE-2021-38291 2021-08-07 e01d306c647b ffmpeg get_audio_frame_duration
+CVE-2021-38291 2021-08-07 e01d306c647b ffmpeg av_get_audio_frame_duration2,av_get_audio_frame_duration
 CVE-2022-1475 2022-03-07 757da974b218 ffmpeg g729_parse
-CVE-2023-47342 2023-10-27 e4d5ac8d7d2a ffmpeg parse_fmtp
-CVE-2023-47343 2021-04-05 0f6a3405e898 ffmpeg mov_probe
-CVE-2023-49501 2023-11-23 4adb93dff05d ffmpeg config_eq_output
-CVE-2024-31578 2024-03-01 3bb00c0a420c ffmpeg av_hwframe_ctx_init
-CVE-2024-7055 2024-07-21 3faadbe2a27e ffmpeg pnm_decode_frame
-CVE-2025-1373 2025-02-08 43be8d07281c ffmpeg mov_read_trak
-CVE-2025-22920 2025-01-03 4bf784c0e561 ffmpeg dump_stream_groupCVE-2020-20891 2019-10-16 64a805883d72 ffmpeg config_input
 CVE-2020-22020 2019-10-19 ce5274c1385d ffmpeg config_input
 CVE-2020-22022 2019-10-13 07050d7bdc32 ffmpeg filter_frame
 CVE-2020-22023 2019-10-11 0b5672387418 ffmpeg filter_frame
@@ -42,7 +34,3 @@ CVE-2020-22036 2019-10-14 8c3166e1c302 ffmpeg config_props
 CVE-2020-22048 2019-10-18 fddef964e8aa ffmpeg filter_frame
 CVE-2020-23906 2020-07-10 ec59dc73f0cc ffmpeg read_packet
 CVE-2020-35965 2020-11-22 b0a8b40294ea ffmpeg decode_frame
-CVE-2023-50007 2023-11-27 b1942734c7cb ffmpeg activate,filter_frame
-CVE-2023-50008 2023-11-27 5f87a68cf70d ffmpeg uninit
-CVE-2025-0518 2025-01-08 b5b6391d6480 ffmpeg init
-CVE-2025-22919 2024-12-31 1446e37d3d03 ffmpeg init_audio

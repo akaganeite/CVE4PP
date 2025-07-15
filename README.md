@@ -81,7 +81,6 @@
   - 无法checkout 到 patch/vuln commit
     - CVE-2020-1971_2154ab83e14e
     - CVE-2021-23839_30919ab80a47
-    - CVE-2023-5678_34efaef6c103
   - 编译reference失败
     - CVE-2016-2178
     - CVE-2016-2179
@@ -103,13 +102,12 @@
     - CVE-2018-0734
     - CVE-2022-0778
   - 编译出的reference找不到目标函数
+    - CVE-2019-1547
     - CVE-2019-1549
     - CVE-2021-3450
     - CVE-2021-3711
-    - CVE-2021-3711
     - CVE-2021-4160
     - CVE-2022-1434
-    - CVE-2022-4203
     - CVE-2023-0216
     - CVE-2023-0217
 
@@ -316,16 +314,65 @@
   - CVE-2025-1816
   - CVE-2025-22920
 
+# Adjustment in target versions
+## openssl
+- failed to compile
+  - OpenSSL_0_9_8zg
+  - OpenSSL_1_1_0
+  - OpenSSL_1_1_0a
+  - OpenSSL_1_1_0-pre5
+  - OpenSSL_1_1_0-pre6
+  - OpenSSL_1_1_0b
+  - OpenSSL_1_0_0t
+  - openssl-3.0.0-alpha1
+## curl
+- failed to compile
+  - 7.27.0
+  - 7.28.0
+  - 7.28.1
+## ffmpeg
+- fail to compile
+  - 3.2.16
+## sqlite
+- fail to compile
+  - 3.14
+
+
+# Error in testset
+## binutils
+- false negative
+  - 2.29.1
+
+# Case Study Candidates
+- CVE-2022-42916 create_conn
+  - patch为pure deletion，后续添加代码和deletion部分有些类似
+- CVE-2022-40304 xmlFreeEntity
+- CVE-2019-19244 sqlite3Select
+  - 使用`#ifndef`,`#idefine`的条件编译
+- CVE-2019-19880 exprListAppendList
+  -  v3.32.0有func upgrade 更改了代码看起来的样子，
+- CVE-2021-36690
+  -  挺有意思的，新增变量和对新增变量的操作
+- CVE-2020-16590
+  - 只更改了赋值语句的变量名
+# both func not found in diff error
+## curl
+  - Curl_idn_strerror
+  - idna_init
+  - tld_check_name
+
 # Robin succeed
 
 ## Overview
-
-- Curl:2/37
-- ffmpeg:0/62
-- libxml2:29/83
-- sqlite:11/46
-- binutils:17/80
-- openssl:12/92
+### func
+project:has_sig/total | succeed/target
+- binutils:18/80 | 49/363=13.50%
+- Curl:2/58  | 7/351=1.99%
+- ffmpeg:0/59 | 0/381=0%
+- libxml2:22/89 | 106/558=19.00%
+- openssl:14/87 ｜ 23/548=4.20%
+- sqlite:11/44 ｜ 49/342=14.33%
+### cve
 
 ## Details
 

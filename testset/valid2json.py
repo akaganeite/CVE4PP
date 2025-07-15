@@ -9,7 +9,7 @@ parser.add_argument('-target', required=True, help='target文件路径')
 args = parser.parse_args()
 
 valid_cves=[]
-with open(f"../Diff/{args.proj}/diff_files/details_llvm", "r") as f:
+with open(f"../Diff/{args.proj}/details_llvm", "r") as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('#'):

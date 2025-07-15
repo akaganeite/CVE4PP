@@ -31,7 +31,7 @@ CVE-2020-8177 2020-06-21 8236aba58542 curl tool_header_cb,getparameter
 CVE-2019-5435 2019-04-29 5fc28510a466 curl seturl,Curl_setstropt,curl_url_set
 CVE-2018-1000007 2018-01-22 af32cd385933 curl Curl_vsetopt,Curl_add_custom_headers,Curl_http_output_auth
 CVE-2018-1000120 2018-03-12 535432c0adb6 curl ftp_done,ftp_parse_url_path,ftp_state_list
-CVE-2017-8818 2017-11-27 9b5e12a5491d curl llist_dtor,allocate_conn
-CVE-2017-8816 2017-11-27 7f2a1df6f5fc curl Curl_hmac_md5,Curl_ntlm_core_mk_ntlmv2_hash
-CVE-2016-8625 2016-10-31 9c91ec778104 curl curl_version,is_ASCII_name,create_conn,curl_version_info,fix_hostname,Curl_strerror,global_init,win32_init
-CVE-2016-8623 2016-10-31 c5be3d7267c7 curl Curl_cookie_clearall,Curl_cookie_getlist,Curl_cookie_cleanup,Curl_http,cookie_sort
+CVE-2017-8818 2017-11-27 9b5e12a5491d curl allocate_conn
+CVE-2017-8816 2017-11-27 7f2a1df6f5fc curl Curl_ntlm_core_mk_ntlmv2_hash
+CVE-2016-8625 2016-10-31 9c91ec778104 curl curl_version,create_conn,curl_version_info,fix_hostname,global_init,Curl_idn_strerror,idna_init,tld_check_name
+CVE-2016-8623 2016-10-31 c5be3d7267c7 curl Curl_cookie_clearall,Curl_cookie_getlist,Curl_cookie_cleanup,Curl_http,dup_cookie

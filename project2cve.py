@@ -104,6 +104,7 @@ def analyze_versions(vulnerable_products, target_vendor, target_product):
     
     return versions
 
+
 def process_cve_data(output, target_vendor, target_product):
     """处理CVE数据并生成结果"""
     cve_data= output

@@ -29,9 +29,10 @@ def get_cves_to_remove(cve_issues):
         project = project_data['project']
         failed_cves = project_data.get('failed', [])
         no_func_cves = project_data.get('no_func', [])
+        no_target_cves = project_data.get('no_target',[])
         
         # 合并failed和no_func中的CVE
-        all_cves = failed_cves + no_func_cves
+        all_cves = failed_cves + no_func_cves + no_target_cves
         if all_cves:
             cves_to_remove[project] = set(all_cves)
     
@@ -111,7 +112,7 @@ def main():
     # 获取脚本所在目录
     script_dir = Path(__file__).parent
     json_file = script_dir / "cve_compilation_issues.json"
-    testset_dir = script_dir / "testset"
+    testset_dir = script_dir
     
     print("开始处理CVE删除任务...")
     print(f"JSON文件: {json_file}")
@@ -133,8 +134,8 @@ def main():
         if not valid_file_path.exists():
             print(f"警告: 项目 {project} 的valid文件不存在: {valid_file_path}")
             continue
-        
-        process_valid_file(project, valid_file_path, cves_to_remove)
+        if project =="ffmpeg":
+            process_valid_file(project, valid_file_path, cves_to_remove)
         print("-" * 50)
     
     print("处理完成!")

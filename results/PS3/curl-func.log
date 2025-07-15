@@ -1,0 +1,1317 @@
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for allocate_conn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for allocate_conn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for allocate_conn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.0-o0-curl
+vuln match [], patch match [Store: 802 + FakeRet(curl_docalloc) = Mem(1098 + SR(72)), Store: 866 + FakeRet(curl_docalloc) = Mem(1282 + SR(72))]
+Result for allocate_conn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.1-o0-curl
+vuln match [], patch match [Store: 802 + FakeRet(curl_docalloc) = Mem(1098 + SR(72)), Store: 866 + FakeRet(curl_docalloc) = Mem(1282 + SR(72))]
+Result for allocate_conn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-2629
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for allocate_conn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2013-1944
+CVE-2013-1944 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2013-1944
+CVE-2013-1944 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2013-1944
+CVE-2013-1944 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2013-1944
+CVE-2013-1944 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for Curl_close:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for Curl_close:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for Curl_close:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.62.0-o0-curl
+vuln match [], patch match [Put: 16 = SR(72), Store: 176 + SR(72) = 0]
+Result for Curl_close:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.63.0-o0-curl
+vuln match [], patch match [Put: 16 = SR(72), Store: 176 + SR(72) = 0]
+Result for Curl_close:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16840
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.64.0-o0-curl
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for Curl_close:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [Put: 32 = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72)), Put: 16 = SR(32), Store: SR(32) = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72))], patch match []
+Result for Curl_http_readwrite_headers:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [Put: 32 = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72)), Put: 16 = SR(32), Store: SR(32) = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72))], patch match []
+Result for Curl_http_readwrite_headers:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [Put: 32 = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72)), Put: 16 = SR(32), Store: SR(32) = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72))], patch match []
+Result for Curl_http_readwrite_headers:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [Put: 32 = 1 + FakeRet(memchr) + 18446744073709551615*Mem(320 + SR(72)), Put: 16 = SR(32)], patch match [Store: SR(32) = Mem(SR(32)), Store: 320 + SR(72) = Mem(320 + SR(72))]
+Result for Curl_http_readwrite_headers:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [Put: 16 = SR(32)], patch match [Store: SR(32) = Mem(SR(32))]
+Result for Curl_http_readwrite_headers:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000301
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [Put: 16 = SR(32)], patch match [Store: SR(32) = Mem(SR(32))]
+Result for Curl_http_readwrite_headers:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+Result for dprintf_formatf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+Result for dprintf_formatf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+Result for dprintf_formatf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [], patch match [Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 9, FakeRet(strlen)) == 0,
+       ULE(Extract(8, 0, FakeRet(strlen)), 326)),
+   0,
+   1), Call: strlen = [18446744073709551272 + SR(48)], Put: 48 = 18446744073709545888 + SR(48)]
+Result for dprintf_formatf:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [], patch match [Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 9, FakeRet(strlen)) == 0,
+       ULE(Extract(8, 0, FakeRet(strlen)), 326)),
+   0,
+   1), Call: strlen = [18446744073709551272 + SR(48)], Put: 48 = 18446744073709545888 + SR(48)]
+Result for dprintf_formatf:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9586
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.0-o0-curl
+vuln match [], patch match [Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 9, FakeRet(strlen)) == 0,
+       ULE(Extract(8, 0, FakeRet(strlen)), 326)),
+   0,
+   1), Call: strlen = [18446744073709551272 + SR(48)], Put: 48 = 18446744073709545888 + SR(48), Store: 18446744073709545888 + SR(48) = 4406322]
+Result for dprintf_formatf:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.0-o0-curl
+vuln match [Put: 16 = 2 + FakeRet(strlen), Put: 16 = 3 + 2*FakeRet(strlen), Put: 72 = 2 + FakeRet(strlen), Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Put: 152 = FakeRet(curl_strnequal)]
+Result for parseurlandfillconn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.1-o0-curl
+vuln match [Put: 16 = 2 + FakeRet(strlen), Put: 16 = 3 + 2*FakeRet(strlen), Put: 72 = 2 + FakeRet(strlen), Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Put: 152 = FakeRet(curl_strnequal)]
+Result for parseurlandfillconn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.0-o0-curl
+vuln match [Put: 16 = 2 + FakeRet(strlen), Put: 16 = 3 + 2*FakeRet(strlen), Put: 72 = 2 + FakeRet(strlen), Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Put: 152 = FakeRet(curl_strnequal)]
+Result for parseurlandfillconn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.1-o0-curl
+vuln match [Put: 72 = Mem(2416 + SR(72)), Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Condition: If(Mem(5 + Mem(2416 + SR(72))) == 47, 0, 1), Put: 16 = 4 + 3*FakeRet(strlen), Put: 72 = 4 + 3*FakeRet(strlen), Put: 152 = 3 + 3*FakeRet(strlen), Call: curl_strnequal = [WildCard, Mem(2416 + SR(72)), 5], Put: 152 = FakeRet(curl_strnequal), Put: 64 = FakeRet(strlen) + Mem(2416 + SR(72)), Call: curl_strnequal = [WildCard, FakeRet(strlen) + Mem(2416 + SR(72)), 3], Call: curl_strnequal = [WildCard, Mem(2416 + SR(72)), FakeRet(strlen)], Store: 18446744073709551312 + SR(48) = 4629866, Store: 18446744073709551312 + SR(48) = 4629994, Store: 18446744073709551312 + SR(48) = 4629809, Store: 18446744073709551432 + SR(48) = 1 + 2*FakeRet(strlen), Store: 18446744073709551432 + SR(48) = 2*FakeRet(strlen), Store: 18446744073709551312 + SR(48) = 4629773, Store: 18446744073709551312 + SR(48) = 4629674, Store: 18446744073709551312 + SR(48) = 4629946, Store: 18446744073709551312 + SR(48) = 4629714]
+Result for parseurlandfillconn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.0-o0-curl
+vuln match [Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Put: 16 = 4 + 3*FakeRet(strlen), Put: 72 = 4 + 3*FakeRet(strlen), Put: 152 = 3 + 3*FakeRet(strlen), Put: 152 = FakeRet(curl_strnequal), Store: 18446744073709551432 + SR(48) = 1 + 2*FakeRet(strlen), Store: 18446744073709551432 + SR(48) = 2*FakeRet(strlen)]
+Result for parseurlandfillconn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-9502
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.1-o0-curl
+vuln match [Store: 18446744073709551488 + SR(48) = FakeRet(strlen)], patch match [Condition: If(FakeRet(curl_strnequal) == 0, 0, 1), Put: 16 = 4 + 3*FakeRet(strlen), Put: 72 = 4 + 3*FakeRet(strlen), Put: 152 = 3 + 3*FakeRet(strlen), Put: 152 = FakeRet(curl_strnequal), Store: 18446744073709551432 + SR(48) = 1 + 2*FakeRet(strlen), Store: 18446744073709551432 + SR(48) = 2*FakeRet(strlen)]
+Result for parseurlandfillconn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-7407
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.1-o0-curl
+Result for ourWriteOut:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-7407
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.0-o0-curl
+vuln match [], patch match [Condition: If(Extract(7, 0, Mem(1 + SR(32))) == 0, 0, 1)]
+Result for ourWriteOut:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-7407
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.1-o0-curl
+vuln match [], patch match [Condition: If(Extract(7, 0, Mem(1 + SR(32))) == 0, 0, 1)]
+Result for ourWriteOut:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-7407
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.0-o0-curl
+vuln match [], patch match [Condition: If(Extract(7, 0, Mem(1 + SR(32))) == 0, 0, 1)]
+Result for ourWriteOut:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [Put: 16 = FakeRet(strlen), Condition: FakeRet(amd64g_calculate_condition)], patch match []
+Result for Curl_auth_create_plain_message:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [Put: 16 = FakeRet(strlen), Condition: FakeRet(amd64g_calculate_condition)], patch match []
+Result for Curl_auth_create_plain_message:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [Put: 16 = FakeRet(strlen), Condition: FakeRet(amd64g_calculate_condition)], patch match []
+Result for Curl_auth_create_plain_message:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.62.0-o0-curl
+vuln match [], patch match [Condition: If(Extract(63, 62, FakeRet(strlen)) == 0, 0, 1)]
+Result for Curl_auth_create_plain_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.63.0-o0-curl
+vuln match [], patch match [Condition: If(Extract(63, 62, FakeRet(strlen)) == 0, 0, 1)]
+Result for Curl_auth_create_plain_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16839
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.64.0-o0-curl
+vuln match [], patch match [Condition: If(Extract(63, 62, FakeRet(strlen)) == 0, 0, 1)]
+Result for Curl_auth_create_plain_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000300
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [], patch match []
+Result for Curl_pp_readresp:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.4.0-o0-curl
+vuln match [Put: 64 = SR(64), Put: 48 = 18446744073709551232 + SR(48), Condition: If(Extract(15, 12, Mem(18446744073709551312 + SR(48))) == 8,
+   0,
+   1), Put: 64 = 18446744073709551288 + SR(48), Call: Curl_rand_alnum = [SR(72), 18446744073709551591 + SR(48), 9], Store: 18446744073709551280 + SR(48) = FakeRet(curl_maprintf), Store: 18446744073709551272 + SR(48) = FakeRet(Curl_rand_alnum)], patch match []
+Result for Curl_fopen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.2.1-o0-curl
+vuln match [Put: 64 = SR(64), Put: 48 = 18446744073709551232 + SR(48), Condition: If(Extract(15, 12, Mem(18446744073709551312 + SR(48))) == 8,
+   0,
+   1), Put: 64 = 18446744073709551288 + SR(48), Store: 18446744073709551280 + SR(48) = FakeRet(curl_maprintf)], patch match []
+Result for Curl_fopen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.2.0-o0-curl
+vuln match [Put: 64 = SR(64), Put: 48 = 18446744073709551232 + SR(48), Condition: If(Extract(15, 12, Mem(18446744073709551312 + SR(48))) == 8,
+   0,
+   1), Put: 64 = 18446744073709551288 + SR(48), Store: 18446744073709551280 + SR(48) = FakeRet(curl_maprintf)], patch match []
+Result for Curl_fopen:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.5.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(dirslash) == 0, 0, 1), Put: 16 = FakeRet(dirslash), Put: 32 = 18446744073709551544 + SR(48), Put: 64 = FakeRet(dirslash), Put: 72 = FakeRet(dirslash), Call: Curl_rand_alnum = [SR(72), 18446744073709551544 + SR(48), 41], Put: 152 = FakeRet(dirslash), Call: dirslash = [SR(64)]]
+Result for Curl_fopen:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.6.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(dirslash) == 0, 0, 1), Put: 16 = FakeRet(dirslash), Put: 32 = 18446744073709551544 + SR(48), Put: 64 = FakeRet(dirslash), Put: 72 = FakeRet(dirslash), Call: Curl_rand_alnum = [SR(72), 18446744073709551544 + SR(48), 41], Put: 152 = FakeRet(dirslash), Call: dirslash = [SR(64)]]
+Result for Curl_fopen:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46219
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.7.1-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(dirslash) == 0, 0, 1), Put: 16 = FakeRet(dirslash), Put: 32 = 18446744073709551544 + SR(48), Put: 64 = FakeRet(dirslash), Put: 72 = FakeRet(dirslash), Call: Curl_rand_alnum = [SR(72), 18446744073709551544 + SR(48), 41], Put: 152 = FakeRet(dirslash), Call: dirslash = [SR(64)]]
+Result for Curl_fopen:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+vuln match [Put: 32 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551444 + SR(48), Put: 48 = 18446744073709551408 + SR(48), Put: 24 = 18446744073709551440 + SR(48), Store: 18446744073709551424 + SR(48) = 5 + SR(72), Store: 18446744073709551424 + SR(48) = 8 + SR(72)], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for parsedate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+vuln match [Put: 32 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551444 + SR(48), Put: 48 = 18446744073709551408 + SR(48), Put: 24 = 18446744073709551440 + SR(48), Store: 18446744073709551424 + SR(48) = 5 + SR(72), Store: 18446744073709551424 + SR(48) = 8 + SR(72)], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for parsedate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.1-o0-curl
+vuln match [Put: 32 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551444 + SR(48), Put: 48 = 18446744073709551408 + SR(48), Put: 24 = 18446744073709551440 + SR(48), Store: 18446744073709551424 + SR(48) = 5 + SR(72), Store: 18446744073709551424 + SR(48) = 8 + SR(72)], patch match [Store: 18446744073709551444 + SR(48) = 0]
+Result for parsedate:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+vuln match [Put: 80 = 18446744073709551444 + SR(48)], patch match [Put: 88 = 18446744073709551444 + SR(48), Put: 24 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551440 + SR(48), Put: 32 = 18446744073709551432 + SR(48), Put: 48 = 18446744073709551392 + SR(48), Store: 18446744073709551444 + SR(48) = 0, Store: 18446744073709551408 + SR(48) = SR(72)]
+Result for parsedate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [Put: 80 = 18446744073709551444 + SR(48)], patch match [Put: 88 = 18446744073709551444 + SR(48), Put: 24 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551440 + SR(48), Put: 32 = 18446744073709551432 + SR(48), Put: 48 = 18446744073709551392 + SR(48), Store: 18446744073709551444 + SR(48) = 0, Store: 18446744073709551408 + SR(48) = SR(72)]
+Result for parsedate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8621
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [Put: 80 = 18446744073709551444 + SR(48)], patch match [Put: 88 = 18446744073709551444 + SR(48), Put: 24 = 18446744073709551436 + SR(48), Put: 80 = 18446744073709551440 + SR(48), Put: 32 = 18446744073709551432 + SR(48), Put: 48 = 18446744073709551392 + SR(48), Store: 18446744073709551444 + SR(48) = 0, Store: 18446744073709551408 + SR(48) = SR(72)]
+Result for parsedate:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_smtp_escape_eob:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_smtp_escape_eob:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_smtp_escape_eob:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [], patch match [Condition: If(SR(64) <= 16384, 0, 1), Store: 18446744073709551520 + SR(48) = 4816281, Store: 18446744073709551520 + SR(48) = 4816175]
+Result for Curl_smtp_escape_eob:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_smtp_escape_eob:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-0500
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.62.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_smtp_escape_eob:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2013-0249
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.30.0-o0-curl
+vuln match [], patch match [Put: 24 = SR(80), Put: 72 = 18446744073709550952 + SR(48), Put: 80 = 18446744073709550824 + SR(48)]
+vuln match [], patch match [Put: 48 = 18446744073709550392 + SR(48), Put: 152 = 18446744073709550360 + SR(48), Put: 48 = 18446744073709550368 + SR(48), Put: 48 = 18446744073709550376 + SR(48), Put: 48 = 18446744073709550360 + SR(48), Put: 88 = 18446744073709550696 + SR(48), Put: 80 = 18446744073709550824 + SR(48), Put: 24 = SR(32), Put: 72 = 18446744073709551080 + SR(48), Put: 48 = 18446744073709550352 + SR(48), Store: 18446744073709550384 + SR(48) = 18446744073709550648 + SR(48), Store: 18446744073709550376 + SR(48) = 18446744073709550952 + SR(48), Store: 18446744073709550368 + SR(48) = 18446744073709550505 + SR(48), Store: 18446744073709550360 + SR(48) = 18446744073709550514 + SR(48)]
+Result for Curl_sasl_create_digest_md5_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2013-0249
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.31.0-o0-curl
+vuln match [], patch match [Put: 24 = SR(80), Put: 72 = 18446744073709550952 + SR(48), Put: 80 = 18446744073709550824 + SR(48)]
+vuln match [], patch match [Put: 48 = 18446744073709550392 + SR(48), Put: 152 = 18446744073709550360 + SR(48), Put: 48 = 18446744073709550368 + SR(48), Put: 48 = 18446744073709550376 + SR(48), Put: 48 = 18446744073709550360 + SR(48), Put: 88 = 18446744073709550696 + SR(48), Put: 80 = 18446744073709550824 + SR(48), Put: 24 = SR(32), Put: 72 = 18446744073709551080 + SR(48), Put: 48 = 18446744073709550352 + SR(48), Store: 18446744073709550384 + SR(48) = 18446744073709550648 + SR(48), Store: 18446744073709550376 + SR(48) = 18446744073709550952 + SR(48), Store: 18446744073709550368 + SR(48) = 18446744073709550505 + SR(48), Store: 18446744073709550360 + SR(48) = 18446744073709550514 + SR(48)]
+Result for Curl_sasl_create_digest_md5_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2013-0249
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.32.0-o0-curl
+vuln match [], patch match [Put: 24 = SR(80), Put: 72 = 18446744073709550952 + SR(48), Put: 80 = 18446744073709550824 + SR(48)]
+vuln match [], patch match [Put: 48 = 18446744073709550392 + SR(48), Put: 152 = 18446744073709550360 + SR(48), Put: 48 = 18446744073709550368 + SR(48), Put: 48 = 18446744073709550376 + SR(48), Put: 48 = 18446744073709550360 + SR(48), Put: 88 = 18446744073709550696 + SR(48), Put: 80 = 18446744073709550824 + SR(48), Put: 24 = SR(32), Put: 72 = 18446744073709551080 + SR(48), Put: 48 = 18446744073709550352 + SR(48), Store: 18446744073709550384 + SR(48) = 18446744073709550648 + SR(48), Store: 18446744073709550376 + SR(48) = 18446744073709550952 + SR(48), Store: 18446744073709550368 + SR(48) = 18446744073709550505 + SR(48), Store: 18446744073709550360 + SR(48) = 18446744073709550514 + SR(48)]
+Result for Curl_sasl_create_digest_md5_message:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.34.0-o0-curl
+vuln match [Condition: If(Mem(35248 + SR(72)) == 32, 0, 1), Condition: If(Mem(35248 + SR(72)) == 8, 0, 1), Store: 18446744073709551535 + SR(48) = 0], patch match [Store: 18446744073709551535 + SR(48) = 1]
+Result for ConnectionExists:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.33.0-o0-curl
+vuln match [Condition: If(Mem(35248 + SR(72)) == 32, 0, 1), Condition: If(Mem(35248 + SR(72)) == 8, 0, 1), Store: 18446744073709551535 + SR(48) = 0], patch match [Store: 18446744073709551535 + SR(48) = 1]
+Result for ConnectionExists:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.32.0-o0-curl
+vuln match [Store: 18446744073709551535 + SR(48) = 0], patch match [Store: 18446744073709551535 + SR(48) = 1]
+fail to determine
+Result for ConnectionExists:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.35.0-o0-curl
+vuln match [Store: 18446744073709551535 + SR(48) = 0], patch match [Condition: If(Extract(5, 5, Mem(35248 + SR(72))) == 0, 0, 1), Condition: If(Extract(3, 3, Mem(35248 + SR(72))) == 0, 0, 1), Store: 18446744073709551535 + SR(48) = 1]
+Result for ConnectionExists:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.36.0-o0-curl
+vuln match [Store: 18446744073709551535 + SR(48) = 0], patch match [Store: 18446744073709551535 + SR(48) = 1]
+fail to determine
+Result for ConnectionExists:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2014-0015
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.37.0-o0-curl
+vuln match [Store: 18446744073709551535 + SR(48) = 0], patch match [Store: 18446744073709551535 + SR(48) = 1]
+fail to determine
+Result for ConnectionExists:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.70.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.69.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.69.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.71.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.71.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8169
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.72.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for override_login:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.0-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.1-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8817
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)]
+vuln match [Condition: If(Mem(Mem(SR(72))) == 0, 0, 1)], patch match []
+Result for setcharset:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.76.1-o0-curl
+vuln match [Condition: If(FakeRet(__isoc99_sscanf) == 0, 0, 1)], patch match []
+Result for suboption:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.76.0-o0-curl
+vuln match [Condition: If(FakeRet(__isoc99_sscanf) == 0, 0, 1)], patch match []
+Result for suboption:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.75.0-o0-curl
+vuln match [Condition: If(FakeRet(__isoc99_sscanf) == 0, 0, 1)], patch match []
+Result for suboption:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.77.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(__isoc99_sscanf) == 2, 0, 1)]
+Result for suboption:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.78.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for suboption:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2021-22898
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.79.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for suboption:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.3-o0-curl
+vuln match [Put: 48 = 18446744073709551424 + SR(48), Put: 64 = 4 + Mem(1984 + Mem(SR(72))), Put: 152 = Mem(1984 + Mem(SR(72)))], patch match [Store: 18446744073709551448 + SR(48) = 512]
+Result for tftp_connect:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.2-o0-curl
+vuln match [Put: 48 = 18446744073709551424 + SR(48), Put: 64 = 4 + Mem(1984 + Mem(SR(72))), Put: 152 = Mem(1984 + Mem(SR(72)))], patch match [Store: 18446744073709551448 + SR(48) = 512]
+Result for tftp_connect:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.1-o0-curl
+vuln match [Put: 48 = 18446744073709551424 + SR(48)], patch match [Store: 18446744073709551448 + SR(48) = 512]
+vuln match [], patch match []
+Result for tftp_connect:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.66.0-o0-curl
+vuln match [Put: 152 = Mem(1984 + Mem(SR(72)))], patch match [Put: 48 = 18446744073709551408 + SR(48), Condition: If(Mem(1984 + Mem(SR(72))) <= 511, 0, 1), Store: 18446744073709551448 + SR(48) = 512]
+vuln match [], patch match [Store: 340 + FakeRet(curl_dbg_calloc) = 512]
+Result for tftp_connect:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.67.0-o0-curl
+vuln match [Put: 152 = Mem(1984 + Mem(SR(72)))], patch match [Put: 48 = 18446744073709551408 + SR(48), Condition: If(Mem(1984 + Mem(SR(72))) <= 511, 0, 1), Store: 18446744073709551448 + SR(48) = 512]
+vuln match [], patch match [Store: 340 + FakeRet(curl_dbg_calloc) = 512]
+Result for tftp_connect:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5482
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.68.0-o0-curl
+vuln match [Put: 152 = Mem(1984 + Mem(SR(72)))], patch match [Put: 48 = 18446744073709551408 + SR(48), Condition: If(Mem(1984 + Mem(SR(72))) <= 511, 0, 1), Store: 18446744073709551448 + SR(48) = 512]
+vuln match [], patch match [Store: 340 + FakeRet(curl_dbg_calloc) = 512]
+Result for tftp_connect:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.1-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8624
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+fail to determine
+Result for parseurlandfillconn:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+vuln match [Put: 16 = SR(64), Store: 18446744073709551600 + SR(48) = FakeRet(curl_dorealloc), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match []
+Result for alloc_addbyter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+vuln match [Put: 16 = SR(64), Store: 18446744073709551600 + SR(48) = FakeRet(curl_dorealloc), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match []
+Result for alloc_addbyter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.1-o0-curl
+vuln match [Put: 16 = SR(64), Store: 18446744073709551600 + SR(48) = FakeRet(curl_dorealloc), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match []
+Result for alloc_addbyter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+vuln match [Put: 16 = SR(64), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match [Condition: If(ULE(Concat(Extract(62, 0, Mem(16 + SR(64))), 0),
+       Mem(16 + SR(64))),
+   0,
+   1), Store: 18446744073709551584 + SR(48) = 0, Store: 18446744073709551584 + SR(48) = FakeRet(curl_dorealloc)]
+Result for alloc_addbyter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [Put: 16 = SR(64), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match [Condition: If(ULE(Concat(Extract(62, 0, Mem(16 + SR(64))), 0),
+       Mem(16 + SR(64))),
+   0,
+   1), Store: 18446744073709551584 + SR(48) = 0, Store: 18446744073709551584 + SR(48) = FakeRet(curl_dorealloc)]
+Result for alloc_addbyter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8618
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [Put: 16 = SR(64), Put: 64 = Concat(Extract(62, 0, Mem(16 + SR(64))), 0)], patch match [Condition: If(ULE(Concat(Extract(62, 0, Mem(16 + SR(64))), 0),
+       Mem(16 + SR(64))),
+   0,
+   1), Store: 18446744073709551584 + SR(48) = 0, Store: 18446744073709551584 + SR(48) = FakeRet(curl_dorealloc)]
+Result for alloc_addbyter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.4.0-o0-curl
+vuln match [Put: 152 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain))), Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), SR(88), Mem(40 + FakeRet(curl_dbg_calloc))], Put: 16 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain))), Put: 48 = 18446744073709551168 + SR(48), Store: 18446744073709551256 + SR(48) = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain))), Store: 18446744073709551256 + SR(48) = FakeRet(psl_is_cookie_domain_acceptable)], patch match [Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 152 = FakeRet(strlen), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc))]
+Result for Curl_cookie_add:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.2.1-o0-curl
+vuln match [Put: 152 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain))), Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), SR(88), Mem(40 + FakeRet(curl_dbg_calloc))], Put: 16 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain)))], patch match [Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 152 = FakeRet(strlen), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc))]
+Result for Curl_cookie_add:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.2.0-o0-curl
+vuln match [Put: 152 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain))), Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), SR(88), Mem(40 + FakeRet(curl_dbg_calloc))], Put: 16 = Concat(Extract(63, 1, FakeRet(bad_domain)),
+       ~Extract(0, 0, FakeRet(bad_domain)))], patch match [Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 152 = FakeRet(strlen), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc))]
+Result for Curl_cookie_add:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.5.0-o0-curl
+vuln match [Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc))], patch match [Condition: If(Extract(63, 8, FakeRet(strlen)) == 0, 0, 1), Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 16 = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0), Put: 16 = FakeRet(bad_domain), Put: 16 = If(FakeRet(bad_domain) == 0, 1, 0), Put: 16 = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0)), Put: 152 = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0)), Put: 152 = FakeRet(strlen), Call: Curl_strntolower = [18446744073709551320 + SR(48), Mem(40 + FakeRet(curl_dbg_calloc)), 1 + FakeRet(strlen)], Call: Curl_strntolower = [18446744073709551064 + SR(48), SR(88), 1 + FakeRet(strlen)], Call: strlen = [Mem(40 + FakeRet(curl_dbg_calloc))], Put: 48 = 18446744073709550768 + SR(48), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 32 = 1 + FakeRet(strlen), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), 18446744073709551064 + SR(48), 18446744073709551320 + SR(48)], Store: 18446744073709550853 + SR(48) = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0), Store: 18446744073709550853 + SR(48) = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0))]
+Result for Curl_cookie_add:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.6.0-o0-curl
+vuln match [Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc))], patch match [Condition: If(Extract(63, 8, FakeRet(strlen)) == 0, 0, 1), Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 16 = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0), Put: 16 = FakeRet(bad_domain), Put: 16 = If(FakeRet(bad_domain) == 0, 1, 0), Put: 16 = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0)), Put: 152 = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0)), Put: 152 = FakeRet(strlen), Call: Curl_strntolower = [18446744073709551320 + SR(48), Mem(40 + FakeRet(curl_dbg_calloc)), 1 + FakeRet(strlen)], Call: Curl_strntolower = [18446744073709551064 + SR(48), SR(88), 1 + FakeRet(strlen)], Call: strlen = [Mem(40 + FakeRet(curl_dbg_calloc))], Put: 48 = 18446744073709550768 + SR(48), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 32 = 1 + FakeRet(strlen), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), 18446744073709551064 + SR(48), 18446744073709551320 + SR(48)], Store: 18446744073709550853 + SR(48) = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0), Store: 18446744073709550853 + SR(48) = Concat(0, ~If(FakeRet(bad_domain) == 0, 1, 0))]
+Result for Curl_cookie_add:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2023-46218
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-8.7.1-o0-curl
+vuln match [Put: 32 = Mem(40 + FakeRet(curl_dbg_calloc))], patch match [Condition: If(Extract(63, 8, FakeRet(strlen)) == 0, 0, 1), Put: 64 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 152 = FakeRet(psl_is_cookie_domain_acceptable), Put: 16 = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0), Put: 152 = FakeRet(strlen), Call: Curl_strntolower = [18446744073709551320 + SR(48), Mem(40 + FakeRet(curl_dbg_calloc)), 1 + FakeRet(strlen)], Call: Curl_strntolower = [18446744073709551064 + SR(48), SR(88), 1 + FakeRet(strlen)], Call: strlen = [Mem(40 + FakeRet(curl_dbg_calloc))], Put: 48 = 18446744073709550768 + SR(48), Put: 16 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 72 = Mem(40 + FakeRet(curl_dbg_calloc)), Put: 32 = 1 + FakeRet(strlen), Put: 24 = Mem(40 + FakeRet(curl_dbg_calloc)), Call: psl_is_cookie_domain_acceptable = [FakeRet(Curl_psl_use), 18446744073709551064 + SR(48), 18446744073709551320 + SR(48)], Store: 18446744073709550853 + SR(48) = If(FakeRet(psl_is_cookie_domain_acceptable) == 0, 1, 0)]
+Result for Curl_cookie_add:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2016-8617
+CVE-2016-8617 has no sigs, skip
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.0-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.1-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.54.0-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.1-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.0-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-1000101
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+vuln match [], patch match [Store: 18446744073709551536 + SR(48) = 0]
+Result for glob_range:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [Call: Curl_ssl_random = [SR(72), 18446744073709551512 + SR(48)]], patch match []
+Result for randit:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+no function dict_keys(['randit']) in target
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+no function dict_keys(['randit']) in target
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [], patch match [Call: Curl_ssl_random = [SR(72), SR(64)]]
+Result for randit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.0-o0-curl
+vuln match [], patch match [Call: Curl_ssl_random = [SR(72), SR(64)]]
+Result for randit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-9594
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.53.1-o0-curl
+vuln match [], patch match [Call: Curl_ssl_random = [SR(72), SR(64)]]
+Result for randit:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+Result for readwrite_data:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+Result for readwrite_data:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+Result for readwrite_data:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match [Put: 152 = Mem(232 + SR(32)) + Mem(1920 + SR(72)), Condition: If(ULE(Mem(232 + SR(32)) +
+       Mem(120 + SR(32)) +
+       Mem(32 + SR(32)) +
+       Mem(18446744073709551536 + SR(48)) +
+       18446744073709551615*Mem(16 + SR(32)),
+       Mem(1920 + SR(72)) + Mem(232 + SR(32))),
+   0,
+   1), Put: 160 = Mem(232 + SR(32)), Store: 18446744073709551544 + SR(48) = Mem(1920 + SR(72))]
+Result for readwrite_data:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+Result for readwrite_data:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000122
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+Result for readwrite_data:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.1-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 160 = 78 + 18446744073709551615*FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551538 + 2*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen)]
+Result for voutf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 160 = 78 + 18446744073709551615*FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551538 + 2*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen)]
+Result for voutf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 160 = 78 + 18446744073709551615*FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551538 + 2*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen)]
+Result for voutf:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.62.0-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen), Put: 16 = 18446744073709551537 + 2*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551537 + 2*FakeRet(strlen)]
+Result for voutf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.63.0-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen), Put: 16 = 18446744073709551537 + 2*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551537 + 2*FakeRet(strlen)]
+Result for voutf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-16842
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.64.0-o0-curl
+vuln match [Put: 152 = FakeRet(strlen), Put: 16 = 78 + 18446744073709551615*FakeRet(strlen)], patch match [Put: 152 = 18446744073709551538 + 2*FakeRet(strlen), Put: 16 = 18446744073709551537 + 2*FakeRet(strlen), Store: 18446744073709551568 + SR(48) = 18446744073709551537 + 2*FakeRet(strlen)]
+Result for voutf:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.85.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Store: 933 + SR(64) = Concat(Extract(63, 4, Mem(933 + SR(64))),
+       1,
+       Extract(2, 0, Mem(933 + SR(64)))), Store: 152 + SR(64) = FakeRet(curl_dbg_strdup)]
+Result for parseurlandfillconn:patch , truth is vuln
+vuln match [Put: 152 = Concat(0, Extract(0, 0, Mem(932 + FakeRet))), Put: 16 = Concat(0, Extract(1, 1, Mem(933 + FakeRet)), 0), Condition: If(FakeRet == 0, 0, 1), Condition: If(Extract(1, 1, Mem(932 + FakeRet)) == 0, 0, 1), Condition: If(Extract(0, 0, Mem(932 + FakeRet)) == 0, 0, 1), Condition: If(Extract(1, 1, Mem(933 + FakeRet)) == 0, 0, 1), Put: 152 = Concat(0, Extract(1, 1, Mem(933 + FakeRet)), 0), Put: 32 = 216 + FakeRet, Put: 64 = 216 + FakeRet, Put: 32 = 280 + FakeRet, Put: 64 = 280 + FakeRet, Put: 72 = SR(72), Put: 48 = 18446744073709551488 + SR(48), Put: 32 = 184 + FakeRet, Put: 152 = FakeRet, Put: 64 = 184 + FakeRet, Put: 16 = Concat(0, Extract(1, 1, Mem(932 + FakeRet)), 0), Put: 152 = Concat(0, Extract(1, 1, Mem(932 + FakeRet)), 0), Put: 32 = 136 + FakeRet, Put: 64 = 136 + FakeRet, Put: 16 = Concat(0, Extract(0, 0, Mem(932 + FakeRet)))], patch match []
+Result for create_conn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.84.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup)]
+Result for parseurlandfillconn:patch , truth is vuln
+Result for create_conn:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.83.1-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup)]
+Result for parseurlandfillconn:patch , truth is vuln
+Result for create_conn:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.86.0-o0-curl
+vuln match [], patch match [Condition: If(Mem(Mem(4728 + SR(72))) == 91, 0, 1), Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Condition: If(FakeRet(Curl_idnconvert_hostname) == 0, 0, 1), Condition: If(Mem(4728 + SR(72)) == 0, 0, 1), Condition: If(Extract(1, 1, Mem(932 + SR(64))) == 0, 0, 1), Condition: If(Extract(0, 0, Mem(932 + SR(64))) == 0, 0, 1), Condition: If(Extract(1, 1, Mem(933 + SR(64))) == 0, 0, 1), Call: Curl_idnconvert_hostname = [SR(72), 136 + SR(64)], Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 16 = FakeRet(Curl_idnconvert_hostname), Put: 24 = FakeRet(curl_dbg_strdup), Put: 64 = FakeRet(curl_dbg_strdup), Put: 152 = 1 + Mem(4728 + SR(72)), Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Call: Curl_idnconvert_hostname = [SR(72), 216 + SR(64)], Call: Curl_idnconvert_hostname = [SR(72), 280 + SR(64)], Call: Curl_idnconvert_hostname = [SR(72), 184 + SR(64)], Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Call: strlen = [1 + Mem(4728 + SR(72))], Put: 152 = FakeRet(Curl_idnconvert_hostname), Call: Curl_hsts = [Mem(2864 + SR(72)), FakeRet(curl_dbg_strdup), 1], Store: 933 + SR(64) = Concat(Extract(63, 4, Mem(933 + SR(64))),
+       1,
+       Extract(2, 0, Mem(933 + SR(64)))), Store: 152 + SR(64) = FakeRet(curl_dbg_strdup), Store: 18446744073709551584 + SR(48) = FakeRet(strlen), Store: Mem(4728 + SR(72)) + FakeRet(strlen) = 0]
+Result for parseurlandfillconn:patch , truth is patch
+Result for create_conn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.87.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Condition: If(FakeRet(Curl_idnconvert_hostname) == 0, 0, 1), Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 16 = FakeRet(Curl_idnconvert_hostname), Put: 24 = FakeRet(curl_dbg_strdup), Put: 64 = FakeRet(curl_dbg_strdup), Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(Curl_idnconvert_hostname), Store: 18446744073709551584 + SR(48) = FakeRet(strlen)]
+Result for parseurlandfillconn:patch , truth is patch
+Result for create_conn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42916
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.88.0-o0-curl
+vuln match [], patch match [Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Condition: If(FakeRet(Curl_idnconvert_hostname) == 0, 0, 1), Call: zonefrom_url = [FakeRet(curl_url_dup), SR(72), SR(64)], Put: 16 = FakeRet(Curl_idnconvert_hostname), Put: 24 = FakeRet(curl_dbg_strdup), Put: 64 = FakeRet(curl_dbg_strdup), Put: 160 = 18446744073709551615 + FakeRet(strlen), Put: 16 = FakeRet(curl_url_dup), Put: 72 = FakeRet(curl_url_dup), Put: 32 = FakeRet(curl_dbg_strdup), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(Curl_idnconvert_hostname), Store: 18446744073709551584 + SR(48) = FakeRet(strlen)]
+Result for parseurlandfillconn:patch , truth is patch
+Result for create_conn:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.85.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_connect_done:None , truth is vuln
+Result for conn_shutdown:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.84.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_connect_done:None , truth is vuln
+Result for conn_shutdown:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.83.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_connect_done:None , truth is vuln
+Result for conn_shutdown:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.86.0-o0-curl
+vuln match [], patch match [Store: 416 + SR(72) = Mem(768 + Mem(1464 + Mem(24 + SR(72))))]
+Result for Curl_connect_done:patch , truth is patch
+Result for conn_shutdown:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.87.0-o0-curl
+Result for Curl_connect_done:None , truth is patch
+Result for conn_shutdown:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2022-42915
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.88.0-o0-curl
+Result for Curl_connect_done:None , truth is patch
+Result for conn_shutdown:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.73.0-o0-curl
+vuln match [], patch match [Put: 16 = 1624 + SR(72)]
+Result for Curl_init_userdefined:patch , truth is vuln
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for config_init:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.72.0-o0-curl
+vuln match [], patch match [Put: 16 = 1624 + SR(72)]
+Result for Curl_init_userdefined:patch , truth is vuln
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for config_init:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.71.1-o0-curl
+vuln match [], patch match [Put: 16 = 1624 + SR(72)]
+Result for Curl_init_userdefined:patch , truth is vuln
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for config_init:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.74.0-o0-curl
+vuln match [], patch match [Put: 16 = 1624 + SR(72), Put: 32 = Concat(0, Extract(31, 3, Mem(4090 + SR(72))), 5)]
+Result for Curl_init_userdefined:patch , truth is patch
+vuln match [], patch match [Put: 16 = SR(72), Store: 795 + SR(72) = 1]
+Result for config_init:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.75.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_init_userdefined:None , truth is patch
+vuln match [], patch match [Put: 16 = SR(72), Store: 795 + SR(72) = 1]
+Result for config_init:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8284
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.76.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_init_userdefined:None , truth is patch
+vuln match [], patch match [Put: 16 = SR(72)]
+Result for config_init:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.70.0-o0-curl
+vuln match [Condition: If(Extract(7, 0, Mem(208 + SR(24))) == 0, 0, 1), Condition: If(FakeRet(rename) == 0, 0, 1), Condition: If(Extract(7, 0, Mem(211 + SR(24))) == 0, 0, 1), Put: 16 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 24 = FakeRet(parse_filename), Call: rename = [Mem(200 + SR(24)), FakeRet(parse_filename)], Call: strerror = [Mem(FakeRet(__errno_location))], Put: 80 = FakeRet(strerror), Put: 32 = FakeRet(parse_filename), Put: 64 = FakeRet(parse_filename), Put: 152 = FakeRet(rename), Put: 72 = Mem(200 + SR(24)), Put: 72 = Mem(216 + SR(24))], patch match []
+Result for tool_header_cb:vuln , truth is vuln
+Result for getparameter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.69.1-o0-curl
+vuln match [Condition: If(Extract(7, 0, Mem(208 + SR(24))) == 0, 0, 1), Condition: If(FakeRet(rename) == 0, 0, 1), Condition: If(Extract(7, 0, Mem(211 + SR(24))) == 0, 0, 1), Put: 16 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 24 = FakeRet(parse_filename), Call: rename = [Mem(200 + SR(24)), FakeRet(parse_filename)], Call: strerror = [Mem(FakeRet(__errno_location))], Put: 80 = FakeRet(strerror), Put: 32 = FakeRet(parse_filename), Put: 64 = FakeRet(parse_filename), Put: 152 = FakeRet(rename), Put: 72 = Mem(200 + SR(24)), Put: 72 = Mem(216 + SR(24))], patch match []
+Result for tool_header_cb:vuln , truth is vuln
+Result for getparameter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.69.0-o0-curl
+vuln match [Condition: If(Extract(7, 0, Mem(208 + SR(24))) == 0, 0, 1), Condition: If(FakeRet(rename) == 0, 0, 1), Condition: If(Extract(7, 0, Mem(211 + SR(24))) == 0, 0, 1), Put: 16 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(FakeRet(__errno_location)), Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 24 = FakeRet(parse_filename), Call: rename = [Mem(200 + SR(24)), FakeRet(parse_filename)], Call: strerror = [Mem(FakeRet(__errno_location))], Put: 80 = FakeRet(strerror), Put: 32 = FakeRet(parse_filename), Put: 64 = FakeRet(parse_filename), Put: 152 = FakeRet(rename), Put: 72 = Mem(200 + SR(24)), Put: 72 = Mem(216 + SR(24))], patch match []
+Result for tool_header_cb:vuln , truth is vuln
+Result for getparameter:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.71.0-o0-curl
+vuln match [Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 72 = Mem(216 + SR(24))], patch match [Store: 18446744073709551392 + SR(48) = 4281423]
+Result for tool_header_cb:vuln , truth is patch
+vuln match [], patch match [Put: 72 = SR(24), Condition: If(Extract(7, 0, Mem(1088 + SR(80))) == 0, 0, 1), Put: 48 = 18446744073709551248 + SR(48), Store: 18446744073709551248 + SR(48) = 4332791]
+Result for getparameter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.71.1-o0-curl
+vuln match [Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 72 = Mem(216 + SR(24))], patch match []
+Result for tool_header_cb:vuln , truth is patch
+vuln match [], patch match [Put: 72 = SR(24), Condition: If(Extract(7, 0, Mem(1088 + SR(80))) == 0, 0, 1), Put: 48 = 18446744073709551248 + SR(48)]
+Result for getparameter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2020-8177
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.72.0-o0-curl
+vuln match [Put: 72 = Mem(1208 + Mem(16 + SR(24))), Put: 72 = Mem(216 + SR(24))], patch match []
+Result for tool_header_cb:vuln , truth is patch
+vuln match [], patch match [Put: 72 = SR(24), Condition: If(Extract(7, 0, Mem(1088 + SR(80))) == 0, 0, 1), Put: 48 = 18446744073709551248 + SR(48)]
+Result for getparameter:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.64.1-o0-curl
+Result for Curl_setstropt:vuln , truth is vuln
+Result for seturl:vuln , truth is vuln
+Result for curl_url_set:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.64.0-o0-curl
+Result for Curl_setstropt:vuln , truth is vuln
+Result for seturl:vuln , truth is vuln
+Result for curl_url_set:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.63.0-o0-curl
+Result for Curl_setstropt:vuln , truth is vuln
+Result for seturl:vuln , truth is vuln
+Result for curl_url_set:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.0-o0-curl
+vuln match [], patch match [Put: 72 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Put: 48 = 18446744073709551568 + SR(48), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 23, FakeRet(strlen)) == 0,
+       ULE(Extract(22, 0, FakeRet(strlen)), 8000000)),
+   0,
+   1), Call: strlen = [FakeRet(curl_dbg_strdup)]]
+Result for Curl_setstropt:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for seturl:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for curl_url_set:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.1-o0-curl
+vuln match [], patch match [Put: 72 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Put: 48 = 18446744073709551568 + SR(48), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 23, FakeRet(strlen)) == 0,
+       ULE(Extract(22, 0, FakeRet(strlen)), 8000000)),
+   0,
+   1), Call: strlen = [FakeRet(curl_dbg_strdup)]]
+Result for Curl_setstropt:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for seturl:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for curl_url_set:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2019-5435
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.65.2-o0-curl
+vuln match [], patch match [Put: 72 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(curl_dbg_strdup), Condition: If(FakeRet(curl_dbg_strdup) == 0, 0, 1), Put: 48 = 18446744073709551568 + SR(48), Put: 16 = FakeRet(curl_dbg_strdup), Put: 152 = FakeRet(strlen), Condition: If(And(Extract(63, 23, FakeRet(strlen)) == 0,
+       ULE(Extract(22, 0, FakeRet(strlen)), 8000000)),
+   0,
+   1), Call: strlen = [FakeRet(curl_dbg_strdup)]]
+Result for Curl_setstropt:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for seturl:patch , truth is patch
+vuln match [], patch match [Condition: If(And(Extract(63, 23, FakeRet) == 0,
+       ULE(Extract(22, 0, FakeRet), 8000000)),
+   0,
+   1)]
+Result for curl_url_set:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is vuln
+Result for Curl_add_custom_headers:vuln , truth is vuln
+Result for Curl_vsetopt:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is vuln
+Result for Curl_add_custom_headers:vuln , truth is vuln
+Result for Curl_vsetopt:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.0-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is vuln
+Result for Curl_add_custom_headers:vuln , truth is vuln
+Result for Curl_vsetopt:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551488 + SR(48), Put: 152 = FakeRet, Condition: If(FakeRet == 0, 0, 1), Condition: If(Mem(19696 + Mem(SR(72))) == 0, 0, 1), Put: 64 = Mem(Mem(18446744073709551576 + SR(48))), Condition: If(And(Extract(0, 0, Mem(1989 + Mem(SR(72)))) == 1,
+       Extract(7, 1, Mem(1989 + Mem(SR(72)))) == 0),
+   0,
+   1), Condition: If(Extract(7, 0, Mem(19688 + Mem(SR(72)))) == 0, 0, 1), Put: 64 = Mem(216 + SR(72)), Put: 72 = Mem(19696 + Mem(SR(72))), Store: 18446744073709551488 + SR(48) = 4614823, Store: 18446744073709551488 + SR(48) = 4614909]
+Result for Curl_add_custom_headers:patch , truth is patch
+fail to determine
+Result for Curl_vsetopt:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is patch
+Result for Curl_add_custom_headers:vuln , truth is patch
+fail to determine
+Result for Curl_vsetopt:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000007
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+fail to determine
+Result for Curl_http_output_auth:None , truth is patch
+Result for Curl_add_custom_headers:vuln , truth is patch
+fail to determine
+Result for Curl_vsetopt:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for ftp_state_list:None , truth is vuln
+fail to determine
+Result for ftp_done:None , truth is vuln
+fail to determine
+Result for ftp_parse_url_path:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for ftp_state_list:None , truth is vuln
+fail to determine
+Result for ftp_done:None , truth is vuln
+fail to determine
+Result for ftp_parse_url_path:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for ftp_state_list:None , truth is vuln
+fail to determine
+Result for ftp_done:None , truth is vuln
+fail to determine
+Result for ftp_parse_url_path:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match [Call: Curl_urldecode = [Mem(SR(72)), Mem(20704 + Mem(SR(72))), FakeRet(strrchr) +
+18446744073709551615*Mem(20704 + Mem(SR(72))), 18446744073709551552 + SR(48), 0, 1]]
+Result for ftp_state_list:patch , truth is patch
+fail to determine
+Result for ftp_done:None , truth is patch
+fail to determine
+Result for ftp_parse_url_path:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.60.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for ftp_state_list:None , truth is patch
+fail to determine
+Result for ftp_done:None , truth is patch
+fail to determine
+Result for ftp_parse_url_path:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2018-1000120
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.61.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for ftp_state_list:None , truth is patch
+fail to determine
+Result for ftp_done:None , truth is patch
+fail to determine
+Result for ftp_parse_url_path:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8818
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+vuln match [Put: 160 = 1896 + FakeRet(curl_docalloc), Put: 16 = FakeRet(curl_docalloc), Store: 672 + FakeRet(curl_docalloc) = 1896 + FakeRet(curl_docalloc)], patch match []
+Result for allocate_conn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8818
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.0-o0-curl
+vuln match [Put: 160 = 1896 + FakeRet(curl_docalloc), Put: 16 = FakeRet(curl_docalloc), Store: 672 + FakeRet(curl_docalloc) = 1896 + FakeRet(curl_docalloc)], patch match []
+Result for allocate_conn:vuln , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8818
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [Put: 16 = FakeRet(curl_docalloc), Store: 672 + FakeRet(curl_docalloc) = 1896 + FakeRet(curl_docalloc)], patch match []
+Result for allocate_conn:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8818
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [Put: 16 = FakeRet(curl_docalloc)], patch match []
+Result for allocate_conn:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8818
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [Put: 16 = FakeRet(curl_docalloc)], patch match []
+Result for allocate_conn:vuln , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_ntlm_core_mk_ntlmv2_hash:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.56.0-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_ntlm_core_mk_ntlmv2_hash:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.55.1-o0-curl
+vuln match [], patch match []
+fail to determine
+Result for Curl_ntlm_core_mk_ntlmv2_hash:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.57.0-o0-curl
+vuln match [], patch match [Put: 152 = SR(64), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = SR(24)]
+Result for Curl_ntlm_core_mk_ntlmv2_hash:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.58.0-o0-curl
+vuln match [], patch match [Put: 152 = SR(64), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = SR(24)]
+Result for Curl_ntlm_core_mk_ntlmv2_hash:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2017-8816
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.59.0-o0-curl
+vuln match [], patch match [Put: 152 = SR(64), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = SR(24)]
+Result for Curl_ntlm_core_mk_ntlmv2_hash:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+Result for fix_hostname:vuln , truth is vuln
+vuln match [], patch match [Put: 32 = 208 + FakeRet, Put: 32 = 240 + FakeRet, Put: 32 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48)]
+Result for curl_version_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+Result for fix_hostname:vuln , truth is vuln
+vuln match [], patch match [Put: 32 = 208 + FakeRet, Put: 32 = 240 + FakeRet, Put: 32 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48)]
+Result for curl_version_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.1-o0-curl
+Result for fix_hostname:vuln , truth is vuln
+vuln match [], patch match [Put: 32 = 208 + FakeRet, Put: 32 = 240 + FakeRet, Put: 32 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is vuln
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48)]
+Result for curl_version_info:patch , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+vuln match [], patch match [Put: 64 = 18446744073709551576 + SR(48), Put: 152 = FakeRet(idn2_check_version), Condition: If(FakeRet(idn2_check_version) == 0, 0, 1), Put: 48 = 18446744073709551536 + SR(48), Call: idn2_lookup_ul = [Mem(16 + SR(64))], Put: 152 = FakeRet(idn2_lookup_ul), Condition: If(FakeRet(idn2_lookup_ul) == 0, 0, 1)]
+Result for fix_hostname:patch , truth is patch
+vuln match [], patch match [Put: 64 = 208 + FakeRet, Put: 32 = 208 + FakeRet, Put: 64 = 240 + FakeRet, Put: 32 = 240 + FakeRet, Put: 32 = 176 + FakeRet, Put: 64 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Put: 72 = 5194273 + 3*FakeRet, Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48), Store: 5193848 = FakeRet]
+Result for curl_version_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [], patch match [Put: 64 = 18446744073709551576 + SR(48), Put: 152 = FakeRet(idn2_check_version), Condition: If(FakeRet(idn2_check_version) == 0, 0, 1), Put: 48 = 18446744073709551536 + SR(48), Call: idn2_lookup_ul = [Mem(16 + SR(64))], Put: 152 = FakeRet(idn2_lookup_ul), Condition: If(FakeRet(idn2_lookup_ul) == 0, 0, 1)]
+Result for fix_hostname:patch , truth is patch
+vuln match [], patch match [Put: 32 = 176 + FakeRet, Put: 64 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48)]
+Result for curl_version_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8625
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [], patch match [Put: 64 = 18446744073709551576 + SR(48), Put: 152 = FakeRet(idn2_check_version), Condition: If(FakeRet(idn2_check_version) == 0, 0, 1), Put: 48 = 18446744073709551536 + SR(48), Call: idn2_lookup_ul = [Mem(16 + SR(64))], Put: 152 = FakeRet(idn2_lookup_ul), Condition: If(FakeRet(idn2_lookup_ul) == 0, 0, 1)]
+Result for fix_hostname:patch , truth is patch
+vuln match [], patch match [Put: 32 = 176 + FakeRet, Put: 64 = 176 + FakeRet, Put: 72 = FakeRet]
+Result for create_conn:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551568 + SR(48), Put: 64 = 199 + 18446744073709551613*FakeRet, Condition: If(FakeRet == 0, 0, 1), Store: 18446744073709551600 + SR(48) = FakeRet]
+Result for curl_version:patch , truth is patch
+vuln match [], patch match [Put: 48 = 18446744073709551584 + SR(48)]
+Result for curl_version_info:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.3-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Call: memcpy = [FakeRet(curl_domalloc), Mem(SR(72)), 96], Put: 16 = FakeRet(curl_domalloc)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.2-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Call: memcpy = [FakeRet(curl_domalloc), Mem(SR(72)), 96], Put: 16 = FakeRet(curl_domalloc)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.50.1-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Call: memcpy = [FakeRet(curl_domalloc), Mem(SR(72)), 96], Put: 16 = FakeRet(curl_domalloc)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is vuln
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is vuln
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.51.0-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Put: 16 = FakeRet(curl_domalloc)], patch match [Call: dup_cookie = [Mem(SR(72))], Store: 18446744073709551600 + SR(48) = FakeRet(dup_cookie)]
+vuln match [Store: 18446744073709551552 + SR(48) = Mem(0)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.0-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Put: 16 = FakeRet(curl_domalloc)], patch match [Call: dup_cookie = [Mem(SR(72))], Store: 18446744073709551600 + SR(48) = FakeRet(dup_cookie)]
+vuln match [Store: 18446744073709551552 + SR(48) = Mem(0)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-8623
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/curl/curl-7.52.1-o0-curl
+vuln match [Put: 72 = FakeRet(curl_domalloc), Put: 16 = FakeRet(curl_domalloc)], patch match [Call: dup_cookie = [Mem(SR(72))], Store: 18446744073709551600 + SR(48) = FakeRet(dup_cookie)]
+vuln match [Store: 18446744073709551552 + SR(48) = Mem(0)], patch match []
+Result for Curl_cookie_getlist:vuln , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_cookie_cleanup:None , truth is patch
+vuln match [], patch match []
+fail to determine
+Result for Curl_http:None , truth is patch

@@ -1,0 +1,52 @@
+binutils_result.csv:
+  succeed/targets = 261/357 = 0.7311
+  succeed/(targets-func_not_found) = 261/(357-15) = 0.7632
+  succeed/(targets-func_not_found-wrong_version) = 261/(357-15-7) = 0.7791
+  succeed/valid_targets = 261/281 = 0.9288 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 76.54%
+    排除failed的准确率: 90.73%  
+
+libxml2_result.csv:
+  succeed/targets = 395/558 = 0.7079
+  succeed/(targets-func_not_found) = 395/(558-18) = 0.7315
+  succeed/valid_targets = 395/428 = 0.9229 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 68.06%
+    排除failed的准确率: 92.45%
+
+openssl_result.csv:
+  succeed/targets = 349/518 = 0.6737
+  succeed/(targets-func_not_found) = 349/(518-63) = 0.7670
+  succeed/(targets-func_not_found-wrong_version) = 349/(518-63-41) = 0.8450
+  succeed/valid_targets = 349/351 = 0.9943 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 63.84%
+    排除failed的准确率: 98.62%
+
+sqlite_result.csv:
+  succeed/targets = 158/228 = 0.6930
+  succeed/(targets-func_not_found) = 158/(228-5) = 0.7085
+  succeed/(targets-func_not_found-wrong_version) = 158/(228-5) = 0.7085
+  succeed/valid_targets = 158/195 = 0.8103 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 57.46%
+    排除failed的准确率: 68.75%
+
+ffmpeg_result.csv:
+  succeed/targets = 56/244 = 0.2295
+  succeed/(targets-func_not_found) = 56/(244-33) = 0.2654
+  succeed/(targets-func_not_found-wrong_version) =  56/(244-33-39) = 0.32558
+  succeed/valid_targets = 56/69 = 0.8116 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 22.67%
+    排除failed的准确率: 75.56%
+
+curl_result.csv:
+  succeed/targets = 264/327 = 0.8073
+  succeed/(targets-func_not_found) = 264/(327-14) = 0.8435
+  succeed/(targets-func_not_found-wrong_version) = 264/(327-14) = 0.8435
+  succeed/valid_targets = 264/279 = 0.9462 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 76.26%
+    排除failed的准确率: 92.27%

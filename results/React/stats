@@ -1,0 +1,24 @@
+binutils_result.csv:
+  succeed/targets = 80/209 = 0.3828
+  succeed/(targets-func_not_found) = 80/(209-25) = 0.4348
+  succeed/valid_targets = 80/112 = 0.7143 (只考虑FP/FN)
+
+libxml2_result.csv:
+  succeed/targets = 78/198 = 0.3939
+  succeed/(targets-func_not_found) = 78/(198-11) = 0.4171
+  succeed/valid_targets = 78/138 = 0.5652 (只考虑FP/FN)
+
+openssl_result.csv:
+  succeed/targets = 52/82 = 0.6341
+  succeed/(targets-func_not_found) = 52/(82-9) = 0.7123
+  succeed/valid_targets = 52/56 = 0.9286 (只考虑FP/FN)
+
+sqlite_result.csv:
+  succeed/targets = 60/130 = 0.4615
+  succeed/(targets-func_not_found) = 60/(130-0) = 0.4615
+  succeed/valid_targets = 60/90 = 0.6667 (只考虑FP/FN)
+
+curl_result.csv:
+  succeed/targets = 104/202 = 0.5149
+  succeed/(targets-func_not_found) = 104/(202-1) = 0.5174
+  succeed/valid_targets = 104/140 = 0.7429 (只考虑FP/FN)

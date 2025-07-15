@@ -5747,5 +5747,137 @@
       "https://trac.ffmpeg.org/ticket/10952"
     ],
     "last_vuln_version": "7.0"
+  },
+  {
+    "id": "CVE-2024-7055",
+    "cwe": [
+      "CWE-122"
+    ],
+    "summary": "A vulnerability was found in FFmpeg up to 7.0.1. It has been classified as critical. This affects the function pnm_decode_frame in the library /libavcodec/pnmdec.c. The manipulation leads to heap-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 7.0.2 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-273651.",
+    "references": [
+      "https://ffmpeg.org/",
+      "https://ffmpeg.org/download.html",
+      "https://github.com/CookedMelon/ReportCVE/tree/main/FFmpeg/poc3"
+    ]
+  },
+  {
+    "id": "CVE-2023-49501",
+    "cwe": [
+      "CWE-122"
+    ],
+    "summary": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allows a local attacker to execute arbitrary code via the config_eq_output function in the libavfilter/asrc_afirsrc.c:495:30 component.",
+    "references": [
+      "https://github.com/FFmpeg/FFmpeg",
+      "https://trac.ffmpeg.org/ticket/10686",
+      "https://trac.ffmpeg.org/ticket/10686#no1",
+      "https://github.com/FFmpeg/FFmpeg",
+      "https://trac.ffmpeg.org/ticket/10686",
+      "https://trac.ffmpeg.org/ticket/10686#no1"
+    ]
+  },
+  {
+    "id": "CVE-2023-49502",
+    "cwe": [
+      "CWE-120"
+    ],
+    "summary": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allows a local attacker to execute arbitrary code via the ff_bwdif_filter_intra_c function in the libavfilter/bwdifdsp.c:125:5 component.",
+    "references": [
+      "https://github.com/FFmpeg/FFmpeg",
+      "https://trac.ffmpeg.org/ticket/10688",
+      "https://github.com/FFmpeg/FFmpeg",
+      "https://trac.ffmpeg.org/ticket/10688"
+    ]
+  },
+  {
+    "id": "CVE-2024-31578",
+    "cwe": [
+      "CWE-416"
+    ],
+    "summary": "FFmpeg version n6.1.1 was discovered to contain a heap use-after-free via the av_hwframe_ctx_init function.",
+    "references": [
+      "https://gist.github.com/1047524396/45400cce5859d78dcd3a62010df8d179",
+      "https://github.com/ffmpeg/ffmpeg/commit/3bb00c0a420c3ce83c6fafee30270d69622ccad7",
+      "https://gist.github.com/1047524396/45400cce5859d78dcd3a62010df8d179",
+      "https://github.com/ffmpeg/ffmpeg/commit/3bb00c0a420c3ce83c6fafee30270d69622ccad7"
+    ]
+  },
+  {
+    "id": "CVE-2024-31582",
+    "cwe": [
+      "CWE-122"
+    ],
+    "summary": "FFmpeg version n6.1 was discovered to contain a heap buffer overflow vulnerability in the draw_block_rectangle function of libavfilter/vf_codecview.c. This vulnerability allows attackers to cause undefined behavior or a Denial of Service (DoS) via crafted input.",
+    "references": [
+      "https://gist.github.com/1047524396/b47d5efe3bc420fb91dbb77c73c0fff3",
+      "https://github.com/FFmpeg/FFmpeg/blob/n6.1.1/libavfilter/vf_codecview.c#L220",
+      "https://github.com/ffmpeg/ffmpeg/commit/99debe5f823f45a482e1dc08de35879aa9c74bd2",
+      "https://gist.github.com/1047524396/b47d5efe3bc420fb91dbb77c73c0fff3",
+      "https://github.com/FFmpeg/FFmpeg/blob/n6.1.1/libavfilter/vf_codecview.c#L220",
+      "https://github.com/ffmpeg/ffmpeg/commit/99debe5f823f45a482e1dc08de35879aa9c74bd2"
+    ]
+  },
+  {
+    "id": "CVE-2024-7055",
+    "cwe": [
+      "CWE-122"
+    ],
+    "summary": "A vulnerability was found in FFmpeg up to 7.0.1. It has been classified as critical. This affects the function pnm_decode_frame in the library /libavcodec/pnmdec.c. The manipulation leads to heap-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 7.0.2 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-273651.",
+    "references": [
+      "https://ffmpeg.org/",
+      "https://ffmpeg.org/download.html",
+      "https://github.com/CookedMelon/ReportCVE/tree/main/FFmpeg/poc3"
+    ]
+  },
+  {
+    "id": "CVE-2024-36617",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "FFmpeg n6.1.1 has an integer overflow vulnerability in the FFmpeg CAF decoder.",
+    "references": [
+      "https://gist.github.com/1047524396/f20749f8addc8f86de9cfacf17ba29df",
+      "https://github.com/FFmpeg/FFmpeg/blob/n6.1.1/libavformat/cafdec.c#L274",
+      "https://github.com/ffmpeg/ffmpeg/commit/d973fcbcc2f944752ff10e6a76b0b2d9329937a7"
+    ]
+  },
+  {
+    "id": "CVE-2025-1373",
+    "cwe": [
+      "CWE-404",
+      "CWE-476"
+    ],
+    "summary": "A vulnerability was found in FFmpeg up to 7.1. It has been rated as problematic. Affected by this issue is the function mov_read_trak of the file libavformat/mov.c of the component MOV Parser. The manipulation leads to null pointer dereference. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The patch is identified as 43be8d07281caca2e88bfd8ee2333633e1fb1a13. It is recommended to apply a patch to fix this issue.",
+    "references": [
+      "https://ffmpeg.org/",
+      "https://git.ffmpeg.org/gitweb/ffmpeg.git/commit/43be8d07281caca2e88bfd8ee2333633e1fb1a13",
+      "https://trac.ffmpeg.org/attachment/ticket/11460/poc",
+      "https://trac.ffmpeg.org/ticket/11460"
+    ]
+  },
+  {
+    "id": "CVE-2025-1816",
+    "cwe": [
+      "CWE-401",
+      "CWE-404"
+    ],
+    "summary": "A vulnerability classified as problematic has been found in FFmpeg up to 6e26f57f672b05e7b8b052007a83aef99dc81ccb. This affects the function audio_element_obu of the file libavformat/iamf_parse.c of the component IAMF File Handler. The manipulation of the argument num_parameters leads to memory leak. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of the patch is 0526535cd58444dd264e810b2f3348b4d96cff3b. It is recommended to apply a patch to fix this issue.",
+    "references": [
+      "https://ffmpeg.org/",
+      "https://git.ffmpeg.org/gitweb/ffmpeg.git/commit/0526535cd58444dd264e810b2f3348b4d96cff3b",
+      "https://trac.ffmpeg.org/attachment/ticket/11475/poc",
+      "https://trac.ffmpeg.org/ticket/11475",
+      "https://trac.ffmpeg.org/ticket/11475"
+    ]
+  },
+  {
+    "id": "CVE-2025-22920",
+    "cwe": [
+      "CWE-122"
+    ],
+    "summary": "A heap buffer overflow vulnerability in FFmpeg before commit 4bf784c allows attackers to trigger a memory corruption via supplying a crafted media file in avformat when processing tile grid group streams. This can lead to a Denial of Service (DoS).",
+    "references": [
+      "https://git.ffmpeg.org/gitweb/ffmpeg.git/commit/4bf784c0e5615c3f934e677d5de093a8be7da7ae",
+      "https://trac.ffmpeg.org/ticket/11389"
+    ]
   }
 ]
