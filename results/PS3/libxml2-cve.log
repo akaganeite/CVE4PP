@@ -35,9 +35,9 @@ CVE-2015-5312 has no sigs, skip
 CVE-2015-7497 libxml2-2.9.2-o0-libxml2 truth = vuln result = vuln
 CVE-2015-7497 libxml2-2.9.1-o0-libxml2 truth = vuln result = vuln
 CVE-2015-7497 libxml2-2.9.0-o0-libxml2 truth = vuln result = vuln
-CVE-2015-7497 libxml2-2.9.4-rc1-o0-libxml2 truth = patch result = patch
-CVE-2015-7497 libxml2-2.9.4-rc2-o0-libxml2 truth = patch result = patch
 CVE-2015-7497 libxml2-2.9.4-o0-libxml2 truth = patch result = patch
+CVE-2015-7497 libxml2-2.9.5-rc1-o0-libxml2 truth = patch result = patch
+CVE-2015-7497 libxml2-2.9.5-rc2-o0-libxml2 truth = patch result = patch
 CVE-2015-7498 has no sigs, skip
 CVE-2015-7498 has no sigs, skip
 CVE-2015-7498 has no sigs, skip
@@ -58,8 +58,8 @@ CVE-2015-7500 has no sigs, skip
 CVE-2015-7500 has no sigs, skip
 CVE-2015-7941 libxml2-2.9.2-o0-libxml2 truth = vuln result = vuln
 CVE-2015-7941 libxml2-2.9.3-o0-libxml2 truth = patch result = vuln
-CVE-2015-7941 libxml2-2.9.4-rc1-o0-libxml2 truth = patch result = vuln
-CVE-2015-7941 libxml2-2.9.4-rc2-o0-libxml2 truth = patch result = vuln
+CVE-2015-7941 libxml2-2.9.4-o0-libxml2 truth = patch result = vuln
+CVE-2015-7941 libxml2-2.9.5-rc1-o0-libxml2 truth = patch result = vuln
 CVE-2015-8241 has no sigs, skip
 CVE-2015-8241 has no sigs, skip
 CVE-2015-8241 has no sigs, skip
@@ -82,14 +82,14 @@ CVE-2015-8710 libxml2-2.9.2-o0-libxml2 truth = vuln result = patch
 CVE-2015-8710 libxml2-2.9.2-rc2-o0-libxml2 truth = vuln result = patch
 CVE-2015-8710 libxml2-2.9.2-rc1-o0-libxml2 truth = vuln result = patch
 CVE-2015-8710 libxml2-2.9.3-o0-libxml2 truth = patch result = patch
-CVE-2015-8710 libxml2-2.9.4-rc1-o0-libxml2 truth = patch result = patch
-CVE-2015-8710 libxml2-2.9.4-rc2-o0-libxml2 truth = patch result = patch
+CVE-2015-8710 libxml2-2.9.4-o0-libxml2 truth = patch result = patch
+CVE-2015-8710 libxml2-2.9.5-rc1-o0-libxml2 truth = patch result = patch
 TestJson(file='libxml2-2.9.3-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='vuln', project='libxml2') is not valid
 TestJson(file='libxml2-2.9.2-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='vuln', project='libxml2') is not valid
 TestJson(file='libxml2-2.9.2-rc2-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='vuln', project='libxml2') is not valid
-TestJson(file='libxml2-2.9.4-rc1-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='patch', project='libxml2') is not valid
-TestJson(file='libxml2-2.9.4-rc2-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='patch', project='libxml2') is not valid
 TestJson(file='libxml2-2.9.4-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='patch', project='libxml2') is not valid
+TestJson(file='libxml2-2.9.5-rc1-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='patch', project='libxml2') is not valid
+TestJson(file='libxml2-2.9.5-rc2-o0-libxml2', cve='CVE-2016-1762', commit='', ground_truth='patch', project='libxml2') is not valid
 CVE-2016-1833 has no sigs, skip
 CVE-2016-1833 has no sigs, skip
 CVE-2016-1833 has no sigs, skip

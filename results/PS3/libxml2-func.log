@@ -43,86 +43,14 @@ Result for xmlParserEntityCheck:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2013-0338
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.1-o0-libxml2
-vuln match [], patch match [Condition: If(And(Extract(63, 24, SR(24)) == 0,
-       ULE(Extract(23, 0, SR(24)), 9999999)),
-   0,
-   1), Condition: If(SR(24) == 0, 0, 1), Condition: If(ULE(Concat(Concat(Extract(60,
-                             0,
-                             Mem(32 + Mem(56 + SR(72)))) +
-                     2305843009213693951*
-                     Extract(60,
-                             0,
-                             Mem(24 + Mem(56 + SR(72)))) +
-                     Extract(60,
-                             0,
-                             Mem(64 + Mem(56 + SR(72)))) +
-                     Extract(60, 0, Mem(704 + SR(72))),
-                     0) +
-              Extract(62, 0, Mem(32 + Mem(56 + SR(72)))) +
-              9223372036854775807*
-              Extract(62, 0, Mem(24 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(64 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(704 + SR(72))),
-              0),
-       SR(24)),
-   1,
-   0), Condition: If(Mem(56 + SR(72)) == 0, 0, 1)]
 Result for xmlParserEntityCheck:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2013-0338
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc1-o0-libxml2
-vuln match [], patch match [Condition: If(And(Extract(63, 24, SR(24)) == 0,
-       ULE(Extract(23, 0, SR(24)), 9999999)),
-   0,
-   1), Condition: If(SR(24) == 0, 0, 1), Condition: If(ULE(Concat(Concat(Extract(60,
-                             0,
-                             Mem(32 + Mem(56 + SR(72)))) +
-                     2305843009213693951*
-                     Extract(60,
-                             0,
-                             Mem(24 + Mem(56 + SR(72)))) +
-                     Extract(60,
-                             0,
-                             Mem(64 + Mem(56 + SR(72)))) +
-                     Extract(60, 0, Mem(704 + SR(72))),
-                     0) +
-              Extract(62, 0, Mem(32 + Mem(56 + SR(72)))) +
-              9223372036854775807*
-              Extract(62, 0, Mem(24 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(64 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(704 + SR(72))),
-              0),
-       SR(24)),
-   1,
-   0), Condition: If(Mem(56 + SR(72)) == 0, 0, 1)]
 Result for xmlParserEntityCheck:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2013-0338
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2
-vuln match [], patch match [Condition: If(And(Extract(63, 24, SR(24)) == 0,
-       ULE(Extract(23, 0, SR(24)), 9999999)),
-   0,
-   1), Condition: If(SR(24) == 0, 0, 1), Condition: If(ULE(Concat(Concat(Extract(60,
-                             0,
-                             Mem(32 + Mem(56 + SR(72)))) +
-                     2305843009213693951*
-                     Extract(60,
-                             0,
-                             Mem(24 + Mem(56 + SR(72)))) +
-                     Extract(60,
-                             0,
-                             Mem(64 + Mem(56 + SR(72)))) +
-                     Extract(60, 0, Mem(704 + SR(72))),
-                     0) +
-              Extract(62, 0, Mem(32 + Mem(56 + SR(72)))) +
-              9223372036854775807*
-              Extract(62, 0, Mem(24 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(64 + Mem(56 + SR(72)))) +
-              Extract(62, 0, Mem(704 + SR(72))),
-              0),
-       SR(24)),
-   1,
-   0), Condition: If(Mem(56 + SR(72)) == 0, 0, 1)]
 Result for xmlParserEntityCheck:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2013-0339
@@ -193,77 +121,26 @@ CVE-2015-5312 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2015-7497
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-vuln match [Put: 32 = 18446744073709551614 + SR(24) + 18446744073709551615*SR(64), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64)), Put: 16 = Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64))], patch match [Put: 152 = SR(24)]
 Result for xmlDictComputeFastQKey:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-7497
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.1-o0-libxml2
-vuln match [Put: 32 = 18446744073709551614 + SR(24) + 18446744073709551615*SR(64), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64)), Put: 16 = Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64))], patch match [Put: 152 = SR(24)]
 Result for xmlDictComputeFastQKey:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-7497
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.0-o0-libxml2
-vuln match [Put: 32 = 18446744073709551614 + SR(24) + 18446744073709551615*SR(64), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64)), Put: 16 = Mem(18446744073709551614 +
-    SR(32) +
-    SR(24) +
-    18446744073709551615*SR(64))], patch match [Put: 152 = SR(24)]
 Result for xmlDictComputeFastQKey:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-7497
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc1-o0-libxml2
-vuln match [], patch match [Put: 16 = Mem(18446744073709551605 + SR(32) + SR(24)), Store: 18446744073709551596 + SR(48) = 18446744073709551605 + SR(24), Condition: Concat(0,
-       Extract(31,
-               31,
-               18446744073709551614 +
-               SR(24) +
-               18446744073709551615*SR(64))), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551605 + SR(32) + SR(24)), Put: 152 = SR(24), Put: 16 = 18446744073709551605 + SR(24), Put: 32 = 18446744073709551605 + SR(24)]
-Result for xmlDictComputeFastQKey:patch , truth is patch
-------------------------------------------
-Detecing CVE:CVE-2015-7497
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc2-o0-libxml2
-vuln match [], patch match [Put: 16 = Mem(18446744073709551605 + SR(32) + SR(24)), Store: 18446744073709551596 + SR(48) = 18446744073709551605 + SR(24), Condition: Concat(0,
-       Extract(31,
-               31,
-               18446744073709551614 +
-               SR(24) +
-               18446744073709551615*SR(64))), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551605 + SR(32) + SR(24)), Put: 152 = SR(24), Put: 16 = 18446744073709551605 + SR(24), Put: 32 = 18446744073709551605 + SR(24)]
-Result for xmlDictComputeFastQKey:patch , truth is patch
-------------------------------------------
-Detecing CVE:CVE-2015-7497
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
-vuln match [], patch match [Put: 16 = Mem(18446744073709551605 + SR(32) + SR(24)), Store: 18446744073709551596 + SR(48) = 18446744073709551605 + SR(24), Condition: Concat(0,
-       Extract(31,
-               31,
-               18446744073709551614 +
-               SR(24) +
-               18446744073709551615*SR(64))), Store: 18446744073709551600 + SR(48) = SR(80) +
-30*Mem(SR(72)) +
-Mem(18446744073709551605 + SR(32) + SR(24)), Put: 152 = SR(24), Put: 16 = 18446744073709551605 + SR(24), Put: 32 = 18446744073709551605 + SR(24)]
+Result for xmlDictComputeFastQKey:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2015-7497
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
+Result for xmlDictComputeFastQKey:patch , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2015-7497
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2
 Result for xmlDictComputeFastQKey:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-7498
@@ -322,36 +199,36 @@ CVE-2015-7500 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2015-7941
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-
-
-
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlParseConditionalSections:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-7941
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.3-o0-libxml2
-
-
-
-
-
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlParseConditionalSections:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-7941
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc1-o0-libxml2
-
-
-
-
-
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlParseConditionalSections:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-7941
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc2-o0-libxml2
-
-
-
-
-
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlParseConditionalSections:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-8241
@@ -410,38 +287,26 @@ CVE-2015-8317 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
 Result for htmlParseComment:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
 Result for htmlParseComment:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc1-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
 Result for htmlParseComment:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.3-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
 Result for htmlParseComment:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc1-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
 Result for htmlParseComment:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2015-8710
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc2-o0-libxml2
-vuln match [Store: 18446744073709551560 + SR(48) = 0], patch match [Condition: If(FakeRet(htmlCurrentChar) <= 65533, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 57343, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 255, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 65535, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 1114111, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 8, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 10, 0, 1), Condition: If(FakeRet(htmlCurrentChar) == 13, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 31, 0, 1), Condition: If(FakeRet(htmlCurrentChar) <= 55295, 0, 1), Put: 152 = FakeRet(htmlCurrentChar)]
-vuln match [Put: 16 = SR(72)], patch match [Put: 72 = FakeRet, Put: 72 = SR(72)]
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
 Result for htmlParseComment:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1762
@@ -458,22 +323,22 @@ Detecing CVE:CVE-2016-1762
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2
 fail to determine
 Result for xmlParseInternalSubset:None , truth is vuln
-------------------------------------------
-Detecing CVE:CVE-2016-1762
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc1-o0-libxml2
-fail to determine
-Result for xmlParseInternalSubset:None , truth is patch
-------------------------------------------
-Detecing CVE:CVE-2016-1762
-Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-rc2-o0-libxml2
-fail to determine
-Result for xmlParseInternalSubset:None , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1762
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
 fail to determine
 Result for xmlParseInternalSubset:None , truth is patch
 ------------------------------------------
+Detecing CVE:CVE-2016-1762
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
+fail to determine
+Result for xmlParseInternalSubset:None , truth is patch
+------------------------------------------
+Detecing CVE:CVE-2016-1762
+Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2
+fail to determine
+Result for xmlParseInternalSubset:None , truth is patch
+------------------------------------------
 Detecing CVE:CVE-2016-1833
 CVE-2016-1833 has no sigs, skip
 ------------------------------------------
@@ -512,38 +377,26 @@ CVE-2016-1834 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.3-o0-libxml2
-vuln match [Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72)))], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-vuln match [Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72)))], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2
-vuln match [Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72)))], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
-vuln match [], patch match [Put: 152 = Mem(32 + Mem(56 + SR(72))), Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72))) +
-18446744073709551615*Mem(24 + Mem(56 + SR(72))), Put: 160 = Mem(24 + Mem(56 + SR(72)))]
-vuln match [], patch match [Call: xmlDictLookup = [Mem(456 + SR(72)), Mem(32 + Mem(56 + SR(72)))]]
 Result for xmlParseNCNameComplex:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2
-vuln match [], patch match [Put: 152 = Mem(32 + Mem(56 + SR(72))), Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72))) +
-18446744073709551615*Mem(24 + Mem(56 + SR(72))), Put: 160 = Mem(24 + Mem(56 + SR(72)))]
-vuln match [], patch match [Call: xmlDictLookup = [Mem(456 + SR(72)), Mem(32 + Mem(56 + SR(72)))]]
 Result for xmlParseNCNameComplex:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1836
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-o0-libxml2
-vuln match [], patch match [Put: 152 = Mem(32 + Mem(56 + SR(72))), Store: 18446744073709551592 + SR(48) = Mem(32 + Mem(56 + SR(72))) +
-18446744073709551615*Mem(24 + Mem(56 + SR(72))), Put: 160 = Mem(24 + Mem(56 + SR(72)))]
-vuln match [], patch match [Call: xmlDictLookup = [Mem(456 + SR(72)), Mem(32 + Mem(56 + SR(72)))]]
 Result for xmlParseNCNameComplex:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1837
@@ -566,74 +419,28 @@ CVE-2016-1837 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
-vuln match [], patch match [Condition: If(ULE(SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0), Condition: If(ULE(1 + SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0)]
 Result for xmlParseEndTag2:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.3-o0-libxml2
-vuln match [], patch match []
 fail to determine
 Result for xmlParseEndTag2:None , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-vuln match [], patch match []
 fail to determine
 Result for xmlParseEndTag2:None , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2
-vuln match [], patch match [Condition: If(ULE(SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0), Condition: If(ULE(1 + SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0)]
 Result for xmlParseEndTag2:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2
-vuln match [], patch match [Condition: If(ULE(SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0), Condition: If(ULE(1 + SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0)]
 Result for xmlParseEndTag2:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1838
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.5-o0-libxml2
-vuln match [], patch match [Condition: If(ULE(SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0), Condition: If(ULE(1 + SR(88),
-       18446744073709551614 +
-       Mem(40 + Mem(56 + SR(72))) +
-       18446744073709551615*Mem(32 + Mem(56 + SR(72)))),
-   1,
-   0)]
 Result for xmlParseEndTag2:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2016-1840
@@ -734,32 +541,14 @@ CVE-2016-4658 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2017-16931
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.4-o0-libxml2
-vuln match [Condition: If(Mem(272 + SR(72)) == 4294967295, 0, 1), Condition: If(Mem(452 + SR(72)) == 0, 0, 1), Condition: If(Mem(40 + Mem(56 + SR(72))) +
-   18446744073709551614*Mem(18446744073709551584 + SR(48)) +
-   18446744073709551615*Mem(32 + Mem(56 + SR(72))) <=
-   249,
-   0,
-   1), Condition: If(FakeRet(xmlCurrentChar) == 0, 0, 1), Put: 48 = 18446744073709551552 + SR(48), Put: 152 = FakeRet(xmlCurrentChar)], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2017-16931
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.3-o0-libxml2
-vuln match [Condition: If(Mem(272 + SR(72)) == 4294967295, 0, 1), Condition: If(Mem(452 + SR(72)) == 0, 0, 1), Condition: If(Mem(40 + Mem(56 + SR(72))) +
-   18446744073709551614*Mem(18446744073709551584 + SR(48)) +
-   18446744073709551615*Mem(32 + Mem(56 + SR(72))) <=
-   249,
-   0,
-   1), Condition: If(FakeRet(xmlCurrentChar) == 0, 0, 1), Put: 48 = 18446744073709551552 + SR(48), Put: 152 = FakeRet(xmlCurrentChar)], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2017-16931
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.2-o0-libxml2
-vuln match [Condition: If(Mem(272 + SR(72)) == 4294967295, 0, 1), Condition: If(Mem(452 + SR(72)) == 0, 0, 1), Condition: If(Mem(40 + Mem(56 + SR(72))) +
-   18446744073709551614*Mem(18446744073709551584 + SR(48)) +
-   18446744073709551615*Mem(32 + Mem(56 + SR(72))) <=
-   249,
-   0,
-   1), Condition: If(FakeRet(xmlCurrentChar) == 0, 0, 1), Put: 48 = 18446744073709551552 + SR(48), Put: 152 = FakeRet(xmlCurrentChar)], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2017-16931
@@ -830,35 +619,206 @@ CVE-2017-7375 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.8-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Store: 16 + FakeRet(valuePop) = Mem(16 + FakeRet(valuePop)), Put: 152 = Mem(16 + FakeRet(valuePop)), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 16 = Mem(32 + SR(72))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.7-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Store: 16 + FakeRet(valuePop) = Mem(16 + FakeRet(valuePop)), Put: 152 = Mem(16 + FakeRet(valuePop)), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 16 = Mem(32 + SR(72))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.7-rc1-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Store: 16 + FakeRet(valuePop) = Mem(16 + FakeRet(valuePop)), Put: 152 = Mem(16 + FakeRet(valuePop)), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 16 = Mem(32 + SR(72))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.9-rc1-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 32 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Store: 16 + Mem(32 + SR(72)) = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 24 = Mem(16 + Mem(32 + SR(72))), Put: 16 = Mem(32 + SR(72)), Put: 152 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72))))]
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePop = [SR(72)], Call: valuePush = [SR(72), FakeRet(valuePop)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 152 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Store: 16 + Mem(32 + SR(72)) = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 32 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Put: 24 = Mem(16 + Mem(32 + SR(72)))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.9-rc2-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 32 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Store: 16 + Mem(32 + SR(72)) = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 24 = Mem(16 + Mem(32 + SR(72))), Put: 16 = Mem(32 + SR(72)), Put: 152 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72))))]
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePop = [SR(72)], Call: valuePush = [SR(72), FakeRet(valuePop)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 152 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Store: 16 + Mem(32 + SR(72)) = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 32 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Put: 24 = Mem(16 + Mem(32 + SR(72)))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2018-14404
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.9-o0-libxml2
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePush = [SR(72), FakeRet(valuePop)], Call: valuePop = [SR(72)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 32 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Store: 16 + Mem(32 + SR(72)) = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72)))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 24 = Mem(16 + Mem(32 + SR(72))), Put: 16 = Mem(32 + SR(72)), Put: 152 = ~(~Mem(16 + FakeRet(valuePop)) | ~Mem(16 + Mem(32 + SR(72))))]
-vuln match [Put: 48 = 18446744073709551248 + SR(48), Call: valuePop = [SR(72)], Call: valuePush = [SR(72), FakeRet(valuePop)], Put: 32 = FakeRet(valuePop), Put: 64 = FakeRet(valuePop)], patch match [Put: 152 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Store: 16 + Mem(32 + SR(72)) = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Condition: If(Mem(32 + SR(72)) == 0, 0, 1), Put: 32 = Mem(16 + FakeRet(valuePop)) | Mem(16 + Mem(32 + SR(72))), Put: 24 = Mem(16 + Mem(32 + SR(72)))]
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
+NotImplementedError Ijk_Ret
 Result for xmlXPathCompOpEval:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2019-19956
@@ -911,73 +871,43 @@ CVE-2022-23308 has no sigs, skip
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.13-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0, Store: 40 + FakeRet = 2 + SR(72), Store: 12 + FakeRet = 2 + SR(72)], patch match []
 Result for xmlBufCreateSize:vuln , truth is vuln
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Put: 32 = 10 + SR(64), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match []
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is vuln
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.11-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0, Store: 40 + FakeRet = 2 + SR(72), Store: 12 + FakeRet = 2 + SR(72)], patch match []
 Result for xmlBufCreateSize:vuln , truth is vuln
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Put: 32 = 10 + SR(64), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match []
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is vuln
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.9.12-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0, Store: 40 + FakeRet = 2 + SR(72), Store: 12 + FakeRet = 2 + SR(72)], patch match []
 Result for xmlBufCreateSize:vuln , truth is vuln
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Put: 32 = 10 + SR(64), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match []
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is vuln
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.0-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0], patch match [Store: 40 + FakeRet = 1 + SR(72)]
 Result for xmlBufCreateSize:vuln , truth is patch
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition)]
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is patch
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.1-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0], patch match [Store: 40 + FakeRet = 1 + SR(72)]
 Result for xmlBufCreateSize:vuln , truth is patch
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition)]
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is patch
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-29824
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.2-o0-libxml2
-vuln match [Store: 40 + FakeRet = 0, Store: 12 + FakeRet = 0], patch match [Store: 40 + FakeRet = 1 + SR(72)]
 Result for xmlBufCreateSize:vuln , truth is patch
-vuln match [], patch match [Condition: If(ULE(SR(64), 18446744073709551605), 0, 1), Condition: FakeRet(amd64g_calculate_condition), Put: 152 = Mem(40 + SR(72))]
-vuln match [], patch match [Condition: FakeRet(amd64g_calculate_condition)]
-vuln match [], patch match [Put: 16 = 10 + SR(64), Put: 152 = SR(64)]
 Result for xmlBufResize:patch , truth is patch
-vuln match [], patch match []
 fail to determine
 Result for xmlBufAdd:None , truth is patch
 ------------------------------------------
@@ -985,370 +915,192 @@ Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.2-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is vuln
-vuln match [Store: 18446744073709551588 + SR(48) = 2*Mem(18446744073709551584 + SR(48))], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is vuln
-vuln match [Store: 18446744073709551552 + SR(48) = 4518475, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551580 + SR(48) = Mem(18446744073709551576 + SR(48)), Put: 72 = SR(72), Put: 48 = 18446744073709551552 + SR(48)], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 32 = Mem(Mem(6045616))]
 Result for xmlParseStringName:patch , truth is vuln
 fail to determine
 Result for xmlParseNmtoken:None , truth is vuln
 Result for xmlParseEntityValue:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Store: 18446744073709551312 + SR(48) = 4524706, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4529563, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Store: 18446744073709551520 + SR(48) = 4529582, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551536 + SR(48) = 4531113, Store: 18446744073709551536 + SR(48) = 4531132, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(64), Store: 18446744073709551504 + SR(48) = 4537948, Store: 18446744073709551504 + SR(48) = 4537929, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Condition: If(And(Extract(63, 24, SR(32)) == 0,
-       ULE(Extract(23, 0, SR(32)), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551504 + SR(48), Put: 32 = Mem(Mem(6045616))], patch match []
 Result for xmlParseCommentComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is vuln
-vuln match [Store: 18446744073709551504 + SR(48) = 4544447, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551504 + SR(48) = 4544466, Put: 72 = FakeRet, Put: 48 = 18446744073709551504 + SR(48)], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is vuln
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4595867, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551520 + SR(48) = 4595848, Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.1-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is vuln
-vuln match [Store: 18446744073709551588 + SR(48) = 2*Mem(18446744073709551584 + SR(48))], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is vuln
-vuln match [Store: 18446744073709551552 + SR(48) = 4518475, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551580 + SR(48) = Mem(18446744073709551576 + SR(48)), Put: 72 = SR(72), Put: 48 = 18446744073709551552 + SR(48)], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 32 = Mem(Mem(6045616))]
 Result for xmlParseStringName:patch , truth is vuln
 fail to determine
 Result for xmlParseNmtoken:None , truth is vuln
 Result for xmlParseEntityValue:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Store: 18446744073709551312 + SR(48) = 4524706, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4529563, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Store: 18446744073709551520 + SR(48) = 4529582, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551536 + SR(48) = 4531113, Store: 18446744073709551536 + SR(48) = 4531132, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(64), Store: 18446744073709551504 + SR(48) = 4537948, Store: 18446744073709551504 + SR(48) = 4537929, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Condition: If(And(Extract(63, 24, SR(32)) == 0,
-       ULE(Extract(23, 0, SR(32)), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551504 + SR(48), Put: 32 = Mem(Mem(6045616))], patch match []
 Result for xmlParseCommentComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is vuln
-vuln match [Store: 18446744073709551504 + SR(48) = 4544447, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551504 + SR(48) = 4544466, Put: 72 = FakeRet, Put: 48 = 18446744073709551504 + SR(48)], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is vuln
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4595867, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551520 + SR(48) = 4595848, Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.0-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is vuln
-vuln match [Store: 18446744073709551588 + SR(48) = 2*Mem(18446744073709551584 + SR(48))], patch match []
 Result for xmlParseNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is vuln
-vuln match [Store: 18446744073709551552 + SR(48) = 4518475, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551580 + SR(48) = Mem(18446744073709551576 + SR(48)), Put: 72 = SR(72), Put: 48 = 18446744073709551552 + SR(48)], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is vuln
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 32 = Mem(Mem(6045616))]
 Result for xmlParseStringName:patch , truth is vuln
 fail to determine
 Result for xmlParseNmtoken:None , truth is vuln
 Result for xmlParseEntityValue:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Store: 18446744073709551312 + SR(48) = 4524706, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4529563, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Store: 18446744073709551520 + SR(48) = 4529582, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551536 + SR(48) = 4531113, Store: 18446744073709551536 + SR(48) = 4531132, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(64), Store: 18446744073709551504 + SR(48) = 4537948, Store: 18446744073709551504 + SR(48) = 4537929, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Condition: If(And(Extract(63, 24, SR(32)) == 0,
-       ULE(Extract(23, 0, SR(32)), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551504 + SR(48), Put: 32 = Mem(Mem(6045616))], patch match []
 Result for xmlParseCommentComplex:vuln , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is vuln
-vuln match [Store: 18446744073709551504 + SR(48) = 4544447, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551504 + SR(48) = 4544466, Put: 72 = FakeRet, Put: 48 = 18446744073709551504 + SR(48)], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is vuln
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is vuln
-vuln match [], patch match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Store: 18446744073709551520 + SR(48) = 4595867, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551520 + SR(48) = 4595848, Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.4-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is patch
-vuln match [], patch match [Put: 160 = Mem(18446744073709551580 + SR(48)), Store: 18446744073709551584 + SR(48) = 2*Mem(18446744073709551580 + SR(48)), Condition: If(Mem(18446744073709551580 + SR(48)) <=
-   2147483647 +
-   18446744073709551615*Mem(18446744073709551580 + SR(48)),
-   0,
-   1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Condition: If(Mem(18446744073709551580 + SR(48)) <=
-   2147483647 +
-   18446744073709551615*Mem(18446744073709551580 + SR(48)),
-   0,
-   1), Put: 160 = Mem(18446744073709551580 + SR(48)), Store: 18446744073709551584 + SR(48) = 2*Mem(18446744073709551580 + SR(48)), Condition: If(Mem(18446744073709551580 + SR(48)) <= 50000, 0, 1)]
 Result for xmlParseNameComplex:patch , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = SR(72)], patch match [Put: 160 = Mem(18446744073709551572 + SR(48)), Store: 18446744073709551576 + SR(48) = Mem(18446744073709551572 + SR(48)), Condition: If(0 <=
-   2147483647 +
-   18446744073709551615*Mem(18446744073709551572 + SR(48)),
-   0,
-   1)]
 Result for xmlParseNCNameComplex:patch , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Condition: If(3*FakeRet <= 50000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = 3*FakeRet, Put: 32 = Mem(Mem(6045616))]
 Result for xmlParseStringName:patch , truth is patch
 fail to determine
 Result for xmlParseNmtoken:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551548 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 152 = FakeRet, Condition: If(FakeRet <= 10000000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551488 + SR(48), Put: 16 = FakeRet]
 Result for xmlParseEntityValue:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551432 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 72 = SR(64), Put: 48 = 18446744073709551488 + SR(48), Put: 152 = SR(32) + FakeRet, Condition: If(And(Extract(63, 24, SR(32) + FakeRet) == 0,
-       ULE(Extract(23, 0, SR(32)) + Extract(23, 0, FakeRet),
-           10000000)),
-   0,
-   1), Put: 72 = SR(72), Put: 16 = SR(32) + FakeRet, Put: 32 = Mem(Mem(6045616))]
 Result for xmlParseCommentComplex:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551488 + SR(48), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is patch
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551580 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 32 = Mem(Mem(6045616)), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.0-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is patch
-vuln match [Store: 18446744073709551588 + SR(48) = 2*Mem(18446744073709551584 + SR(48))], patch match []
 Result for xmlParseNameComplex:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551580 + SR(48) = Mem(18446744073709551576 + SR(48)), Put: 72 = SR(72), Put: 48 = 18446744073709551552 + SR(48)], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Condition: If(3*FakeRet <= 50000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = 3*FakeRet]
 Result for xmlParseStringName:patch , truth is patch
 fail to determine
 Result for xmlParseNmtoken:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551548 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 152 = FakeRet, Condition: If(FakeRet <= 10000000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551488 + SR(48), Put: 16 = FakeRet]
 Result for xmlParseEntityValue:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551432 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 72 = SR(64), Put: 152 = SR(32) + FakeRet, Condition: If(And(Extract(63, 24, SR(32) + FakeRet) == 0,
-       ULE(Extract(23, 0, SR(32)) + Extract(23, 0, FakeRet),
-           10000000)),
-   0,
-   1), Put: 72 = SR(72), Put: 16 = SR(32) + FakeRet]
 Result for xmlParseCommentComplex:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551488 + SR(48), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is patch
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551580 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-40303
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.1-o0-libxml2
 fail to determine
 Result for xmlFatalErr:None , truth is patch
-vuln match [Store: 18446744073709551588 + SR(48) = 2*Mem(18446744073709551584 + SR(48))], patch match []
 Result for xmlParseNameComplex:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Store: 18446744073709551580 + SR(48) = Mem(18446744073709551576 + SR(48)), Put: 72 = SR(72), Put: 48 = 18446744073709551552 + SR(48)], patch match []
 Result for xmlParseNCNameComplex:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match []
 Result for xmlParseNCName:vuln , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)], patch match [Put: 16 = FakeRet, Put: 16 = 3*FakeRet, Condition: If(3*FakeRet <= 50000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551408 + SR(48), Put: 152 = 3*FakeRet]
 Result for xmlParseStringName:patch , truth is patch
 fail to determine
 Result for xmlParseNmtoken:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551548 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 152 = FakeRet, Condition: If(FakeRet <= 10000000, 0, 1), Put: 72 = SR(72), Put: 48 = 18446744073709551488 + SR(48), Put: 16 = FakeRet]
 Result for xmlParseEntityValue:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551432 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Put: 72 = SR(72), Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 48 = 18446744073709551312 + SR(48)], patch match []
 Result for xmlParseAttValueComplex:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 32 = Mem(272 + SR(72)), Store: 272 + SR(72) = Mem(272 + SR(72)), Put: 72 = SR(72), Put: 48 = 18446744073709551520 + SR(48)], patch match []
 Result for xmlParseSystemLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 50000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551536 + SR(48)], patch match []
 Result for xmlParsePubidLiteral:vuln , truth is patch
-vuln match [], patch match [Store: 18446744073709551576 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [], patch match [Put: 72 = SR(64), Put: 152 = SR(32) + FakeRet, Condition: If(And(Extract(63, 24, SR(32) + FakeRet) == 0,
-       ULE(Extract(23, 0, SR(32)) + Extract(23, 0, FakeRet),
-           10000000)),
-   0,
-   1), Put: 72 = SR(72), Put: 16 = SR(32) + FakeRet]
 Result for xmlParseCommentComplex:patch , truth is patch
-vuln match [], patch match [Store: 18446744073709551584 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
 Result for xmlParseComment:patch , truth is patch
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet], patch match [Put: 16 = SR(72), Condition: If(And(Extract(63, 24, FakeRet) == 0,
-       ULE(Extract(23, 0, FakeRet), 10000000)),
-   0,
-   1), Put: 48 = 18446744073709551488 + SR(48), Put: 152 = FakeRet, Put: 16 = FakeRet, Put: 24 = FakeRet]
 fail to determine
 Result for xmlParsePI:None , truth is patch
 fail to determine
 Result for xmlParseAttValueInternal:None , truth is patch
-vuln match [], patch match [Store: 18446744073709551580 + SR(48) = 10000000, Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1)]
-vuln match [Condition: If(Extract(19, 19, Mem(564 + SR(72))) == 0, 0, 1), Put: 72 = FakeRet, Put: 48 = 18446744073709551520 + SR(48), Put: 72 = SR(72)], patch match []
 Result for xmlParseCDSect:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.2-o0-libxml2
-vuln match [Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(104 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(80 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(120 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(96 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(72 + SR(72))], Store: 18446744073709551568 + SR(48) = 4432799, Store: 18446744073709551568 + SR(48) = 4432673, Store: 18446744073709551568 + SR(48) = 4433055, Store: 18446744073709551568 + SR(48) = 4432547, Store: 18446744073709551568 + SR(48) = 4432947, Store: 18446744073709551568 + SR(48) = 4433091, Store: 18446744073709551568 + SR(48) = 4432709, Store: 18446744073709551568 + SR(48) = 4432583, Store: 18446744073709551568 + SR(48) = 4432839, Store: 18446744073709551568 + SR(48) = 4432983, Put: 72 = Mem(16 + SR(72)), Store: 18446744073709551568 + SR(48) = 4432736, Store: 18446744073709551568 + SR(48) = 4432610, Store: 18446744073709551568 + SR(48) = 4432870, Store: 18446744073709551568 + SR(48) = 4433019, Store: 18446744073709551568 + SR(48) = 4432772, Store: 18446744073709551568 + SR(48) = 4432646, Store: 18446744073709551568 + SR(48) = 4432520, Store: 18446744073709551568 + SR(48) = 4432911, Put: 72 = Mem(96 + SR(72))], patch match [Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 Result for xmlFreeEntity:vuln , truth is vuln
-vuln match [Put: 152 = FakeRet, Store: 18446744073709551536 + SR(48) = 4433559, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 18446744073709551536 + SR(48) = 4433410, Store: 18446744073709551536 + SR(48) = 4433449, Condition: If(FakeRet <= 4, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 64 = SR(88), Put: 72 = SR(72), Store: 18446744073709551536 + SR(48) = 4433528, Put: 64 = SR(80), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 104 + FakeRet = FakeRet, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.1-o0-libxml2
-vuln match [Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(104 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(80 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(120 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(96 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(72 + SR(72))], Store: 18446744073709551568 + SR(48) = 4432799, Store: 18446744073709551568 + SR(48) = 4432673, Store: 18446744073709551568 + SR(48) = 4433055, Store: 18446744073709551568 + SR(48) = 4432547, Store: 18446744073709551568 + SR(48) = 4432947, Store: 18446744073709551568 + SR(48) = 4433091, Store: 18446744073709551568 + SR(48) = 4432709, Store: 18446744073709551568 + SR(48) = 4432583, Store: 18446744073709551568 + SR(48) = 4432839, Store: 18446744073709551568 + SR(48) = 4432983, Put: 72 = Mem(16 + SR(72)), Store: 18446744073709551568 + SR(48) = 4432736, Store: 18446744073709551568 + SR(48) = 4432610, Store: 18446744073709551568 + SR(48) = 4432870, Store: 18446744073709551568 + SR(48) = 4433019, Store: 18446744073709551568 + SR(48) = 4432772, Store: 18446744073709551568 + SR(48) = 4432646, Store: 18446744073709551568 + SR(48) = 4432520, Store: 18446744073709551568 + SR(48) = 4432911, Put: 72 = Mem(96 + SR(72))], patch match [Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 Result for xmlFreeEntity:vuln , truth is vuln
-vuln match [Put: 152 = FakeRet, Store: 18446744073709551536 + SR(48) = 4433559, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 18446744073709551536 + SR(48) = 4433410, Store: 18446744073709551536 + SR(48) = 4433449, Condition: If(FakeRet <= 4, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 64 = SR(88), Put: 72 = SR(72), Store: 18446744073709551536 + SR(48) = 4433528, Put: 64 = SR(80), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 104 + FakeRet = FakeRet, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.0-o0-libxml2
-vuln match [Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(104 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(80 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(120 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(96 + SR(72))], Call: xmlDictOwns = [Mem(152 + Mem(64 + SR(72))), Mem(72 + SR(72))], Store: 18446744073709551568 + SR(48) = 4432799, Store: 18446744073709551568 + SR(48) = 4432673, Store: 18446744073709551568 + SR(48) = 4433055, Store: 18446744073709551568 + SR(48) = 4432547, Store: 18446744073709551568 + SR(48) = 4432947, Store: 18446744073709551568 + SR(48) = 4433091, Store: 18446744073709551568 + SR(48) = 4432709, Store: 18446744073709551568 + SR(48) = 4432583, Store: 18446744073709551568 + SR(48) = 4432839, Store: 18446744073709551568 + SR(48) = 4432983, Put: 72 = Mem(16 + SR(72)), Store: 18446744073709551568 + SR(48) = 4432736, Store: 18446744073709551568 + SR(48) = 4432610, Store: 18446744073709551568 + SR(48) = 4432870, Store: 18446744073709551568 + SR(48) = 4433019, Store: 18446744073709551568 + SR(48) = 4432772, Store: 18446744073709551568 + SR(48) = 4432646, Store: 18446744073709551568 + SR(48) = 4432520, Store: 18446744073709551568 + SR(48) = 4432911, Put: 72 = Mem(96 + SR(72))], patch match [Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 Result for xmlFreeEntity:vuln , truth is vuln
-vuln match [Put: 152 = FakeRet, Store: 18446744073709551536 + SR(48) = 4433559, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 18446744073709551536 + SR(48) = 4433410, Store: 18446744073709551536 + SR(48) = 4433449, Condition: If(FakeRet <= 4, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 64 = SR(88), Put: 72 = SR(72), Store: 18446744073709551536 + SR(48) = 4433528, Put: 64 = SR(80), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 104 + FakeRet = FakeRet, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.4-o0-libxml2
-vuln match [Put: 72 = Mem(16 + SR(72)), Put: 72 = Mem(96 + SR(72))], patch match [Store: 18446744073709551568 + SR(48) = 4432615, Store: 18446744073709551568 + SR(48) = 4432543, Store: 18446744073709551568 + SR(48) = 4432651, Store: 18446744073709551568 + SR(48) = 4432579, Store: 18446744073709551568 + SR(48) = 4432516, Store: 18446744073709551568 + SR(48) = 4432687, Store: 18446744073709551568 + SR(48) = 4432723, Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 Result for xmlFreeEntity:patch , truth is patch
-vuln match [Put: 152 = FakeRet, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 72 = SR(72), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 18446744073709551536 + SR(48) = 4433019, Store: 104 + FakeRet = FakeRet, Store: 18446744073709551536 + SR(48) = 4433094, Store: 18446744073709551536 + SR(48) = 4433039, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.0-o0-libxml2
-vuln match [Put: 72 = Mem(16 + SR(72)), Put: 72 = Mem(96 + SR(72))], patch match [Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 fail to determine
 Result for xmlFreeEntity:None , truth is patch
-vuln match [Put: 152 = FakeRet, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 72 = SR(72), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 104 + FakeRet = FakeRet, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2022-40304
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.1-o0-libxml2
-vuln match [Put: 72 = Mem(16 + SR(72)), Put: 72 = Mem(96 + SR(72))], patch match [Put: 72 = Mem(80 + SR(72)), Put: 72 = Mem(104 + SR(72))]
 fail to determine
 Result for xmlFreeEntity:None , truth is patch
-vuln match [Put: 152 = FakeRet, Condition: If(SR(80) == 0, 0, 1), Condition: If(SR(72) == 0, 0, 1), Store: 80 + FakeRet = FakeRet, Condition: If(SR(24) == 0, 0, 1), Put: 72 = SR(72), Put: 16 = FakeRet], patch match [Put: 72 = SR(24), Store: 104 + FakeRet = FakeRet, Put: 72 = SR(80), Put: 72 = SR(88)]
 Result for xmlCreateEntity:vuln , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.3-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.2-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.10.1-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is vuln
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.0-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.1-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is patch
 ------------------------------------------
 Detecing CVE:CVE-2023-28484
 Detection for: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2/libxml2-2.11.2-o0-libxml2
-vuln match [], patch match [Condition: If(Mem(56 + Mem(112 + SR(64))) == 0, 0, 1)]
 Result for xmlSchemaFixupComplexType:patch , truth is patch

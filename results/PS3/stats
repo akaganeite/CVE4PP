@@ -18,6 +18,12 @@ curl:
         succeed/(targets-func_not_found) = 161/(304-2) = 0.5331
         succeed/valid_targets = 161/215 = 0.7488 (只考虑FP/FN)
 
+ffmpeg:
+    CVE_acc:
+        succeed/targets = 42/163 = 0.2577
+        succeed/(targets-func_not_found) = 42/(163-3) = 0.2625
+        succeed/valid_targets = 42/55 = 0.7636 (只考虑FP/FN)
+
 libxml2:
     CVE-acc:
         总体准确率: 43/94 = 0.4574
@@ -37,3 +43,10 @@ openssl:
         succeed/targets = 226/416 = 0.5433
         succeed/(targets-func_not_found) = 226/(416-11) = 0.5580
         succeed/valid_targets = 226/278 = 0.8129 (只考虑FP/FN)
+
+sqlite:
+    CVE-acc:
+    Func-acc:
+        succeed/targets = 43/82 = 0.5244
+        succeed/(targets-func_not_found) = 43/(82-0) = 0.5244
+        succeed/valid_targets = 43/66 = 0.6515 (只考虑FP/FN)
