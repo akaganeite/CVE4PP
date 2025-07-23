@@ -1,55 +1,118 @@
 {
-    "OpenSSL_1_1_1t": [
+    "OpenSSL-fips-2_0_13": [
         {
-            "CVE-2023-0215": {
-                "commit": "",
-                "source": "",
-                "result": ""
+            "CVE-2016-7052": {
+                "commit": "vuln",
+                "source": "DK",
+                "result": "wrong"
+            }
+        }
+    ],
+    "openssl-3.1.0-beta1": [
+        {
+            "CVE-2022-3786": {
+                "commit": "cherrypick",
+                "source": "patch",
+                "result": "right"
             }
         }
     ],
     "OpenSSL_1_0_2g": [
         {
             "CVE-2016-0798": {
-                "commit": "",
-                "source": "",
-                "result": ""
+                "commit": "patch",
+                "source": "patch",
+                "result": "right"
+            }
+        }
+    ],
+    "OpenSSL_1_0_2h": [
+        {
+            "CVE-2016-0798": {
+                "commit": "patch",
+                "source": "patch",
+                "result": "right"
             }
         }
     ],
     "OpenSSL_1_0_1s": [
         {
             "CVE-2016-0798": {
-                "commit": "",
-                "source": "",
-                "result": ""
+                "commit": "vuln",
+                "source": "patch",
+                "result": "patch"
+            }
+        }
+    ],
+    "openssl-3.0.3": [
+        {
+            "CVE-2021-4044": {
+                "commit": "patch",
+                "source": "vuln",
+                "result": "wrong"
             }
         }
     ],
     "openssl-3.1.0-alpha1": [
         {
             "CVE-2022-3786": {
-                "commit": "",
-                "source": "",
-                "result": ""
+                "commit": "cherrypick",
+                "source": "patch",
+                "result": "right"
+            }
+        }
+    ],
+    "OpenSSL_1_1_1": [
+        {
+            "CVE-2018-0737": {
+                "commit": "vuln",
+                "source": "vuln",
+                "result": "wrong"
+            }
+        }
+    ],
+    "OpenSSL_1_0_2p": [
+        {
+            "CVE-2018-0737": {
+                "commit": "patch",
+                "source": "patch",
+                "result": "right"
+            }
+        }
+    ],
+    "OpenSSL_1_0_2j": [
+        {
+            "CVE-2016-6304": {
+                "commit": "vuln",
+                "source": "vuln",
+                "result": "wrong"
+            }
+        }
+    ],
+    "openssl-3.0.8": [
+        {
+            "CVE-2022-3786": {
+                "commit": "patch",
+                "source": "patch",
+                "result": "right"
+            }
+        }
+    ],
+    "OpenSSL_1_1_1n": [
+        {
+            "CVE-2021-4044": {
+                "commit": "vuln",
+                "source": "vuln",
+                "result": "wrong"
             }
         }
     ],
     "OpenSSL_1_0_2i": [
         {
             "CVE-2016-6304": {
-                "commit": "",
-                "source": "",
-                "result": ""
-            }
-        }
-    ],
-    "openssl-3.0.7": [
-        {
-            "CVE-2022-3786": {
-                "commit": "",
-                "source": "",
-                "result": ""
+                "commit": "vuln",
+                "source": "vuln",
+                "result": "wrong"
             }
         }
     ],

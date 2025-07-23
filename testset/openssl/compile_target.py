@@ -14,13 +14,14 @@ from datetime import datetime
 # from tkinter import N
 from typing import List, Tuple, Optional
 import re
-
+import argparse
+now_str = datetime.now().strftime("%Y%m%d_%H")
 # Configuration
 REPO_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/target/openssl"
 VERSIONS_FILE = "/home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openssl/versions"
-TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl-new"
+TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl"
 FAILED_LOG_DIR = "logs"
-FAILED_LOG_FILE = f"{FAILED_LOG_DIR}/compile_target.log"
+FAILED_LOG_FILE = f"{FAILED_LOG_DIR}/compile_target_{now_str}.log"
 
 # Setup logging
 os.makedirs(FAILED_LOG_DIR, exist_ok=True)
@@ -128,8 +129,8 @@ def find_binary_files(repo_dir: str, output_binary_name: str) -> Tuple[bool, str
     return binary_found, target_binary, binary_type
 
 
-def compile_openssl_tag(git_checkout_ref: str, output_binary_name: str, destination_dir: str) -> bool:
-    """Compile OpenSSL for a specific git tag."""
+def compile_openssl_tag(git_checkout_ref: str, output_binary_name: str, destination_dir: str, compiler: str, opt_level: str) -> bool:
+    """Compile OpenSSL for a specific git tag with given compiler and optimization level."""
     
     logger.info(f"--- [BEGIN] Processing: {git_checkout_ref} ---")
     logger.info(f"Output binary: {output_binary_name}")
@@ -174,6 +175,10 @@ def compile_openssl_tag(git_checkout_ref: str, output_binary_name: str, destinat
         # Clean previous build
         run_command(["make", "clean"], cwd=REPO_DIR, redirect_to_devnull=True)
         
+        # 配置环境变量
+        env = os.environ.copy()
+        env["CC"] = compiler
+        env["CFLAGS"] = f"-g -{opt_level}"
         # Configure
         config_cmd = ["./config"] + config_options
         return_code, stdout, stderr = run_command(config_cmd, cwd=REPO_DIR)
@@ -227,6 +232,10 @@ def compile_openssl_tag(git_checkout_ref: str, output_binary_name: str, destinat
 
 def main():
     """Main function to process OpenSSL tags."""
+    parser = argparse.ArgumentParser(description="批量编译OpenSSL指定版本，支持不同编译器和优化级别")
+    parser.add_argument("--compiler", choices=["gcc", "clang"], default="gcc", help="选择编译器")
+    parser.add_argument("--opt", choices=["O0", "O1", "O2", "O3"], default="O0", help="优化级别")
+    args = parser.parse_args()
     # Create necessary directories
     os.makedirs(TARGET_DIR, exist_ok=True)
     
@@ -247,14 +256,15 @@ def main():
             
             logger.info(f"Processing tag: {tag}")
             
-            # Compile openssl executable version
-            compile_openssl_tag(tag, f"openssl-{tag}-o0-openssl", TARGET_DIR)
+            opt_lower = args.opt.lower()
+            # 编译 openssl 可执行文件
+            compile_openssl_tag(tag, f"openssl-{tag}-{opt_lower}-openssl", TARGET_DIR, args.compiler, args.opt)
             
-            # Compile libcrypto version
-            compile_openssl_tag(tag, f"openssl-{tag}-o0-libcrypto", TARGET_DIR)
+            # 编译 libcrypto
+            compile_openssl_tag(tag, f"openssl-{tag}-{opt_lower}-libcrypto", TARGET_DIR, args.compiler, args.opt)
             
-            # Compile libssl version
-            compile_openssl_tag(tag, f"openssl-{tag}-o0-libssl", TARGET_DIR)
+            # 编译 libssl
+            compile_openssl_tag(tag, f"openssl-{tag}-{opt_lower}-libssl", TARGET_DIR, args.compiler, args.opt)
     
     logger.info("===== All tasks completed =====")
     logger.info(f"Version binaries: {TARGET_DIR}")

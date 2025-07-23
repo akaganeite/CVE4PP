@@ -176,9 +176,9 @@ def parse_react_log(input_file, output_file, project_name):
                     else:
                         results[key]['failed'] += 1
                         if current_ground_truth == 'vuln' and current_test_result == 'patch':
-                            results[key]['false_negative'].append(current_version)
-                        elif current_ground_truth == 'patch' and current_test_result == 'vuln':
                             results[key]['false_positive'].append(current_version)
+                        elif current_ground_truth == 'patch' and current_test_result == 'vuln':
+                            results[key]['false_negative'].append(current_version)
                 
                 # 重置当前变量
                 current_version = None

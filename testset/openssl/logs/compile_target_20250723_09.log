@@ -1,0 +1,579 @@
+2025-07-23 09:48:27,587 - INFO - ===== Processing Tags =====
+2025-07-23 09:48:27,587 - INFO - Processing tag: OpenSSL-fips-2_0_13
+2025-07-23 09:48:27,587 - INFO - --- [BEGIN] Processing: OpenSSL-fips-2_0_13 ---
+2025-07-23 09:48:27,587 - INFO - Output binary: openssl-OpenSSL-fips-2_0_13-o2-openssl
+2025-07-23 09:48:27,587 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:48:27,789 - INFO - Trying configuration: ./config -d
+2025-07-23 09:48:28,737 - INFO - Configuration successful
+2025-07-23 09:49:00,270 - INFO - Build ended
+2025-07-23 09:49:00,270 - ERROR - no target binary type found
+2025-07-23 09:49:00,485 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:49:01,509 - INFO - Configuration successful
+2025-07-23 09:49:32,914 - INFO - Build ended
+2025-07-23 09:49:32,914 - ERROR - no target binary type found
+2025-07-23 09:49:33,279 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 09:49:35,673 - INFO - Configuration successful
+2025-07-23 09:50:10,341 - INFO - Build ended
+2025-07-23 09:50:10,341 - ERROR - no target binary type found
+2025-07-23 09:50:10,555 - ERROR - No suitable binary found after build
+2025-07-23 09:50:10,555 - ERROR - [2025-07-23 09:50:10] Tag: OpenSSL-fips-2_0_13 | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL-fips-2_0_13-o2-openssl | Details: No suitable binary found after successful build
+2025-07-23 09:50:10,555 - INFO - --- [BEGIN] Processing: OpenSSL-fips-2_0_13 ---
+2025-07-23 09:50:10,555 - INFO - Output binary: openssl-OpenSSL-fips-2_0_13-o2-libcrypto
+2025-07-23 09:50:10,555 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:50:10,725 - INFO - Trying configuration: ./config -d
+2025-07-23 09:50:11,784 - INFO - Configuration successful
+2025-07-23 09:50:46,408 - INFO - Build ended
+2025-07-23 09:50:46,629 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:50:48,653 - INFO - Configuration successful
+2025-07-23 09:51:23,639 - INFO - Build ended
+2025-07-23 09:51:23,646 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.1.0
+2025-07-23 09:51:23,648 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL-fips-2_0_13-o2-libcrypto
+2025-07-23 09:51:23,863 - INFO - --- [END] Processed: OpenSSL-fips-2_0_13 ---
+2025-07-23 09:51:23,863 - INFO - --- [BEGIN] Processing: OpenSSL-fips-2_0_13 ---
+2025-07-23 09:51:23,863 - INFO - Output binary: openssl-OpenSSL-fips-2_0_13-o2-libssl
+2025-07-23 09:51:23,863 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:51:23,932 - INFO - Trying configuration: ./config -d
+2025-07-23 09:51:25,947 - INFO - Configuration successful
+2025-07-23 09:52:04,319 - INFO - Build ended
+2025-07-23 09:52:04,590 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:52:07,019 - INFO - Configuration successful
+2025-07-23 09:52:42,854 - INFO - Build ended
+2025-07-23 09:52:43,180 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 09:52:45,249 - INFO - Configuration successful
+2025-07-23 09:53:20,982 - INFO - Build ended
+2025-07-23 09:53:20,989 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.1.0
+2025-07-23 09:53:20,989 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL-fips-2_0_13-o2-libssl
+2025-07-23 09:53:21,254 - INFO - --- [END] Processed: OpenSSL-fips-2_0_13 ---
+2025-07-23 09:53:21,254 - INFO - Processing tag: OpenSSL_0_9_8zh
+2025-07-23 09:53:21,254 - INFO - --- [BEGIN] Processing: OpenSSL_0_9_8zh ---
+2025-07-23 09:53:21,254 - INFO - Output binary: openssl-OpenSSL_0_9_8zh-o2-openssl
+2025-07-23 09:53:21,254 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:53:21,449 - INFO - Trying configuration: ./config -d
+2025-07-23 09:53:22,224 - INFO - Configuration successful
+2025-07-23 09:53:58,149 - INFO - Build ended
+2025-07-23 09:53:58,149 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 09:53:58,151 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_0_9_8zh-o2-openssl
+2025-07-23 09:53:58,365 - INFO - --- [END] Processed: OpenSSL_0_9_8zh ---
+2025-07-23 09:53:58,365 - INFO - --- [BEGIN] Processing: OpenSSL_0_9_8zh ---
+2025-07-23 09:53:58,365 - INFO - Output binary: openssl-OpenSSL_0_9_8zh-o2-libcrypto
+2025-07-23 09:53:58,365 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:53:58,494 - INFO - Trying configuration: ./config -d
+2025-07-23 09:54:00,403 - INFO - Configuration successful
+2025-07-23 09:54:35,518 - INFO - Build ended
+2025-07-23 09:54:35,738 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:54:37,754 - INFO - Configuration successful
+2025-07-23 09:55:07,985 - INFO - Build ended
+2025-07-23 09:55:08,255 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 09:55:09,911 - INFO - Configuration successful
+2025-07-23 09:55:39,655 - INFO - Build ended
+2025-07-23 09:55:39,925 - ERROR - No suitable binary found after build
+2025-07-23 09:55:39,926 - ERROR - [2025-07-23 09:55:39] Tag: OpenSSL_0_9_8zh | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_0_9_8zh-o2-libcrypto | Details: No suitable binary found after successful build
+2025-07-23 09:55:39,926 - INFO - --- [BEGIN] Processing: OpenSSL_0_9_8zh ---
+2025-07-23 09:55:39,926 - INFO - Output binary: openssl-OpenSSL_0_9_8zh-o2-libssl
+2025-07-23 09:55:39,926 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:55:39,973 - INFO - Trying configuration: ./config -d
+2025-07-23 09:55:41,866 - INFO - Configuration successful
+2025-07-23 09:56:16,757 - INFO - Build ended
+2025-07-23 09:56:17,035 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:56:18,950 - INFO - Configuration successful
+2025-07-23 09:56:48,699 - INFO - Build ended
+2025-07-23 09:56:48,970 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 09:56:50,829 - INFO - Configuration successful
+2025-07-23 09:57:20,473 - INFO - Build ended
+2025-07-23 09:57:20,744 - ERROR - No suitable binary found after build
+2025-07-23 09:57:20,744 - ERROR - [2025-07-23 09:57:20] Tag: OpenSSL_0_9_8zh | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_0_9_8zh-o2-libssl | Details: No suitable binary found after successful build
+2025-07-23 09:57:20,744 - INFO - Processing tag: OpenSSL_1_0_0s
+2025-07-23 09:57:20,744 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_0s ---
+2025-07-23 09:57:20,745 - INFO - Output binary: openssl-OpenSSL_1_0_0s-o2-openssl
+2025-07-23 09:57:20,745 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:57:20,897 - INFO - Trying configuration: ./config -d
+2025-07-23 09:57:22,263 - INFO - Configuration successful
+2025-07-23 09:58:00,782 - INFO - Build ended
+2025-07-23 09:58:00,782 - ERROR - no target binary type found
+2025-07-23 09:58:00,997 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:58:02,769 - INFO - Configuration successful
+2025-07-23 09:58:37,908 - INFO - Build ended
+2025-07-23 09:58:37,908 - ERROR - no target binary type found
+2025-07-23 09:58:38,172 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 09:58:40,064 - INFO - Configuration successful
+2025-07-23 09:59:13,802 - INFO - Build ended
+2025-07-23 09:59:13,802 - ERROR - no target binary type found
+2025-07-23 09:59:14,116 - ERROR - No suitable binary found after build
+2025-07-23 09:59:14,116 - ERROR - [2025-07-23 09:59:14] Tag: OpenSSL_1_0_0s | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_1_0_0s-o2-openssl | Details: No suitable binary found after successful build
+2025-07-23 09:59:14,117 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_0s ---
+2025-07-23 09:59:14,117 - INFO - Output binary: openssl-OpenSSL_1_0_0s-o2-libcrypto
+2025-07-23 09:59:14,117 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 09:59:14,246 - INFO - Trying configuration: ./config -d
+2025-07-23 09:59:16,023 - INFO - Configuration successful
+2025-07-23 09:59:50,005 - INFO - Build ended
+2025-07-23 09:59:50,326 - INFO - Trying configuration: ./config -d shared
+2025-07-23 09:59:52,299 - INFO - Configuration successful
+2025-07-23 10:00:25,383 - INFO - Build ended
+2025-07-23 10:00:25,806 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 10:00:27,737 - INFO - Configuration successful
+2025-07-23 10:01:00,605 - INFO - Build ended
+2025-07-23 10:01:00,979 - ERROR - No suitable binary found after build
+2025-07-23 10:01:00,979 - ERROR - [2025-07-23 10:01:00] Tag: OpenSSL_1_0_0s | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_1_0_0s-o2-libcrypto | Details: No suitable binary found after successful build
+2025-07-23 10:01:00,980 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_0s ---
+2025-07-23 10:01:00,980 - INFO - Output binary: openssl-OpenSSL_1_0_0s-o2-libssl
+2025-07-23 10:01:00,980 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:01:01,107 - INFO - Trying configuration: ./config -d
+2025-07-23 10:01:02,920 - INFO - Configuration successful
+2025-07-23 10:01:17,346 - INFO - Build ended
+2025-07-23 10:01:17,667 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:01:19,472 - INFO - Configuration successful
+2025-07-23 10:01:52,548 - INFO - Build ended
+2025-07-23 10:01:52,871 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 10:01:54,597 - INFO - Configuration successful
+2025-07-23 10:02:27,564 - INFO - Build ended
+2025-07-23 10:02:27,570 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:02:27,571 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl
+2025-07-23 10:02:27,835 - INFO - --- [END] Processed: OpenSSL_1_0_0s ---
+2025-07-23 10:02:27,835 - INFO - Processing tag: OpenSSL_1_0_1q
+2025-07-23 10:02:27,835 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1q ---
+2025-07-23 10:02:27,835 - INFO - Output binary: openssl-OpenSSL_1_0_1q-o2-openssl
+2025-07-23 10:02:27,835 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:02:28,001 - INFO - Trying configuration: ./config -d
+2025-07-23 10:02:29,497 - INFO - Configuration successful
+2025-07-23 10:03:13,398 - INFO - Build ended
+2025-07-23 10:03:13,398 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:03:13,401 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl
+2025-07-23 10:03:13,665 - INFO - --- [END] Processed: OpenSSL_1_0_1q ---
+2025-07-23 10:03:13,666 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1q ---
+2025-07-23 10:03:13,666 - INFO - Output binary: openssl-OpenSSL_1_0_1q-o2-libcrypto
+2025-07-23 10:03:13,666 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:03:13,794 - INFO - Trying configuration: ./config -d
+2025-07-23 10:03:15,738 - INFO - Configuration successful
+2025-07-23 10:03:59,011 - INFO - Build ended
+2025-07-23 10:03:59,382 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:04:01,288 - INFO - Configuration successful
+2025-07-23 10:04:44,232 - INFO - Build ended
+2025-07-23 10:04:44,242 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:04:44,244 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-libcrypto
+2025-07-23 10:04:44,609 - INFO - --- [END] Processed: OpenSSL_1_0_1q ---
+2025-07-23 10:04:44,609 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1q ---
+2025-07-23 10:04:44,609 - INFO - Output binary: openssl-OpenSSL_1_0_1q-o2-libssl
+2025-07-23 10:04:44,609 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:04:44,682 - INFO - Trying configuration: ./config -d
+2025-07-23 10:04:46,593 - INFO - Configuration successful
+2025-07-23 10:05:30,787 - INFO - Build ended
+2025-07-23 10:05:31,115 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:05:33,021 - INFO - Configuration successful
+2025-07-23 10:06:14,933 - INFO - Build ended
+2025-07-23 10:06:14,953 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:06:14,954 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-libssl
+2025-07-23 10:06:15,218 - INFO - --- [END] Processed: OpenSSL_1_0_1q ---
+2025-07-23 10:06:15,218 - INFO - Processing tag: OpenSSL_1_0_1r
+2025-07-23 10:06:15,218 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1r ---
+2025-07-23 10:06:15,218 - INFO - Output binary: openssl-OpenSSL_1_0_1r-o2-openssl
+2025-07-23 10:06:15,218 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:06:15,280 - INFO - Trying configuration: ./config -d
+2025-07-23 10:06:16,660 - INFO - Configuration successful
+2025-07-23 10:06:59,076 - INFO - Build ended
+2025-07-23 10:06:59,076 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:06:59,079 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl
+2025-07-23 10:06:59,393 - INFO - --- [END] Processed: OpenSSL_1_0_1r ---
+2025-07-23 10:06:59,394 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1r ---
+2025-07-23 10:06:59,394 - INFO - Output binary: openssl-OpenSSL_1_0_1r-o2-libcrypto
+2025-07-23 10:06:59,394 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:06:59,468 - INFO - Trying configuration: ./config -d
+2025-07-23 10:07:01,241 - INFO - Configuration successful
+2025-07-23 10:07:43,157 - INFO - Build ended
+2025-07-23 10:07:43,428 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:07:45,223 - INFO - Configuration successful
+2025-07-23 10:08:27,920 - INFO - Build ended
+2025-07-23 10:08:27,934 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:08:27,936 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-libcrypto
+2025-07-23 10:08:28,250 - INFO - --- [END] Processed: OpenSSL_1_0_1r ---
+2025-07-23 10:08:28,250 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1r ---
+2025-07-23 10:08:28,250 - INFO - Output binary: openssl-OpenSSL_1_0_1r-o2-libssl
+2025-07-23 10:08:28,251 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:08:28,328 - INFO - Trying configuration: ./config -d
+2025-07-23 10:08:30,112 - INFO - Configuration successful
+2025-07-23 10:09:12,246 - INFO - Build ended
+2025-07-23 10:09:12,617 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:09:14,492 - INFO - Configuration successful
+2025-07-23 10:09:56,173 - INFO - Build ended
+2025-07-23 10:09:56,184 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:09:56,185 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-libssl
+2025-07-23 10:09:56,449 - INFO - --- [END] Processed: OpenSSL_1_0_1r ---
+2025-07-23 10:09:56,449 - INFO - Processing tag: OpenSSL_1_0_1s
+2025-07-23 10:09:56,450 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1s ---
+2025-07-23 10:09:56,450 - INFO - Output binary: openssl-OpenSSL_1_0_1s-o2-openssl
+2025-07-23 10:09:56,450 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:09:56,602 - INFO - Trying configuration: ./config -d
+2025-07-23 10:09:58,154 - INFO - Configuration successful
+2025-07-23 10:10:40,230 - INFO - Build ended
+2025-07-23 10:10:40,230 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:10:40,234 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl
+2025-07-23 10:10:40,452 - INFO - --- [END] Processed: OpenSSL_1_0_1s ---
+2025-07-23 10:10:40,452 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1s ---
+2025-07-23 10:10:40,452 - INFO - Output binary: openssl-OpenSSL_1_0_1s-o2-libcrypto
+2025-07-23 10:10:40,452 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:10:40,490 - INFO - Trying configuration: ./config -d
+2025-07-23 10:10:42,385 - INFO - Configuration successful
+2025-07-23 10:11:26,021 - INFO - Build ended
+2025-07-23 10:11:26,246 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:11:28,232 - INFO - Configuration successful
+2025-07-23 10:12:09,691 - INFO - Build ended
+2025-07-23 10:12:09,710 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:12:09,713 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-libcrypto
+2025-07-23 10:12:09,927 - INFO - --- [END] Processed: OpenSSL_1_0_1s ---
+2025-07-23 10:12:09,927 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1s ---
+2025-07-23 10:12:09,927 - INFO - Output binary: openssl-OpenSSL_1_0_1s-o2-libssl
+2025-07-23 10:12:09,927 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:12:09,965 - INFO - Trying configuration: ./config -d
+2025-07-23 10:12:11,849 - INFO - Configuration successful
+2025-07-23 10:12:56,153 - INFO - Build ended
+2025-07-23 10:12:56,378 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:12:58,346 - INFO - Configuration successful
+2025-07-23 10:13:40,378 - INFO - Build ended
+2025-07-23 10:13:40,393 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:13:40,394 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-libssl
+2025-07-23 10:13:40,609 - INFO - --- [END] Processed: OpenSSL_1_0_1s ---
+2025-07-23 10:13:40,609 - INFO - Processing tag: OpenSSL_1_0_1t
+2025-07-23 10:13:40,609 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1t ---
+2025-07-23 10:13:40,609 - INFO - Output binary: openssl-OpenSSL_1_0_1t-o2-openssl
+2025-07-23 10:13:40,609 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:13:40,707 - INFO - Trying configuration: ./config -d
+2025-07-23 10:13:42,584 - INFO - Configuration successful
+2025-07-23 10:14:27,824 - INFO - Build ended
+2025-07-23 10:14:27,824 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:14:27,827 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl
+2025-07-23 10:14:28,192 - INFO - --- [END] Processed: OpenSSL_1_0_1t ---
+2025-07-23 10:14:28,192 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1t ---
+2025-07-23 10:14:28,192 - INFO - Output binary: openssl-OpenSSL_1_0_1t-o2-libcrypto
+2025-07-23 10:14:28,192 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:14:28,228 - INFO - Trying configuration: ./config -d
+2025-07-23 10:14:30,133 - INFO - Configuration successful
+2025-07-23 10:15:13,777 - INFO - Build ended
+2025-07-23 10:15:13,998 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:15:15,690 - INFO - Configuration successful
+2025-07-23 10:15:58,240 - INFO - Build ended
+2025-07-23 10:15:58,263 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:15:58,268 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libcrypto
+2025-07-23 10:15:58,533 - INFO - --- [END] Processed: OpenSSL_1_0_1t ---
+2025-07-23 10:15:58,533 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1t ---
+2025-07-23 10:15:58,533 - INFO - Output binary: openssl-OpenSSL_1_0_1t-o2-libssl
+2025-07-23 10:15:58,533 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:15:58,612 - INFO - Trying configuration: ./config -d
+2025-07-23 10:16:00,593 - INFO - Configuration successful
+2025-07-23 10:16:43,042 - INFO - Build ended
+2025-07-23 10:16:43,363 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:16:45,442 - INFO - Configuration successful
+2025-07-23 10:17:28,026 - INFO - Build ended
+2025-07-23 10:17:28,049 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:17:28,050 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libssl
+2025-07-23 10:17:28,265 - INFO - --- [END] Processed: OpenSSL_1_0_1t ---
+2025-07-23 10:17:28,266 - INFO - Processing tag: OpenSSL_1_0_1u
+2025-07-23 10:17:28,266 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1u ---
+2025-07-23 10:17:28,266 - INFO - Output binary: openssl-OpenSSL_1_0_1u-o2-openssl
+2025-07-23 10:17:28,266 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:17:28,364 - INFO - Trying configuration: ./config -d
+2025-07-23 10:17:29,952 - INFO - Configuration successful
+2025-07-23 10:18:13,433 - INFO - Build ended
+2025-07-23 10:18:13,433 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:18:13,436 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl
+2025-07-23 10:18:13,650 - INFO - --- [END] Processed: OpenSSL_1_0_1u ---
+2025-07-23 10:18:13,650 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1u ---
+2025-07-23 10:18:13,651 - INFO - Output binary: openssl-OpenSSL_1_0_1u-o2-libcrypto
+2025-07-23 10:18:13,651 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:18:13,727 - INFO - Trying configuration: ./config -d
+2025-07-23 10:18:15,363 - INFO - Configuration successful
+2025-07-23 10:18:56,015 - INFO - Build ended
+2025-07-23 10:18:56,347 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:18:58,372 - INFO - Configuration successful
+2025-07-23 10:19:41,663 - INFO - Build ended
+2025-07-23 10:19:41,682 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:19:41,684 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-libcrypto
+2025-07-23 10:19:42,049 - INFO - --- [END] Processed: OpenSSL_1_0_1u ---
+2025-07-23 10:19:42,049 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_1u ---
+2025-07-23 10:19:42,049 - INFO - Output binary: openssl-OpenSSL_1_0_1u-o2-libssl
+2025-07-23 10:19:42,049 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:19:42,129 - INFO - Trying configuration: ./config -d
+2025-07-23 10:19:43,984 - INFO - Configuration successful
+2025-07-23 10:20:26,821 - INFO - Build ended
+2025-07-23 10:20:27,093 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:20:28,920 - INFO - Configuration successful
+2025-07-23 10:21:10,892 - INFO - Build ended
+2025-07-23 10:21:10,912 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:21:10,914 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-libssl
+2025-07-23 10:21:11,179 - INFO - --- [END] Processed: OpenSSL_1_0_1u ---
+2025-07-23 10:21:11,179 - INFO - Processing tag: OpenSSL_1_0_2b
+2025-07-23 10:21:11,179 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2b ---
+2025-07-23 10:21:11,179 - INFO - Output binary: openssl-OpenSSL_1_0_2b-o2-openssl
+2025-07-23 10:21:11,179 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:21:11,318 - INFO - Trying configuration: ./config -d
+2025-07-23 10:21:12,950 - INFO - Configuration successful
+2025-07-23 10:21:51,691 - INFO - Build ended
+2025-07-23 10:21:51,691 - ERROR - no target binary type found
+2025-07-23 10:21:52,006 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:21:53,969 - INFO - Configuration successful
+2025-07-23 10:22:33,260 - INFO - Build ended
+2025-07-23 10:22:33,261 - ERROR - no target binary type found
+2025-07-23 10:22:33,476 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 10:22:35,445 - INFO - Configuration successful
+2025-07-23 10:23:14,976 - INFO - Build ended
+2025-07-23 10:23:14,976 - ERROR - no target binary type found
+2025-07-23 10:23:15,291 - ERROR - No suitable binary found after build
+2025-07-23 10:23:15,291 - ERROR - [2025-07-23 10:23:15] Tag: OpenSSL_1_0_2b | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_1_0_2b-o2-openssl | Details: No suitable binary found after successful build
+2025-07-23 10:23:15,292 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2b ---
+2025-07-23 10:23:15,292 - INFO - Output binary: openssl-OpenSSL_1_0_2b-o2-libcrypto
+2025-07-23 10:23:15,292 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:23:15,423 - INFO - Trying configuration: ./config -d
+2025-07-23 10:23:17,452 - INFO - Configuration successful
+2025-07-23 10:23:56,794 - INFO - Build ended
+2025-07-23 10:23:57,126 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:23:58,859 - INFO - Configuration successful
+2025-07-23 10:24:38,514 - INFO - Build ended
+2025-07-23 10:24:38,521 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:24:38,523 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto
+2025-07-23 10:24:38,838 - INFO - --- [END] Processed: OpenSSL_1_0_2b ---
+2025-07-23 10:24:38,838 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2b ---
+2025-07-23 10:24:38,838 - INFO - Output binary: openssl-OpenSSL_1_0_2b-o2-libssl
+2025-07-23 10:24:38,838 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:24:38,916 - INFO - Trying configuration: ./config -d
+2025-07-23 10:24:40,889 - INFO - Configuration successful
+2025-07-23 10:25:18,839 - INFO - Build ended
+2025-07-23 10:25:19,119 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:25:21,039 - INFO - Configuration successful
+2025-07-23 10:25:58,409 - INFO - Build ended
+2025-07-23 10:25:58,749 - INFO - Trying configuration: ./config -d shared no-apps
+2025-07-23 10:26:00,794 - INFO - Configuration successful
+2025-07-23 10:26:37,903 - INFO - Build ended
+2025-07-23 10:26:38,190 - ERROR - No suitable binary found after build
+2025-07-23 10:26:38,190 - ERROR - [2025-07-23 10:26:38] Tag: OpenSSL_1_0_2b | Type: BINARY_NOT_FOUND | Binary: openssl-OpenSSL_1_0_2b-o2-libssl | Details: No suitable binary found after successful build
+2025-07-23 10:26:38,191 - INFO - Processing tag: OpenSSL_1_0_2f
+2025-07-23 10:26:38,191 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2f ---
+2025-07-23 10:26:38,191 - INFO - Output binary: openssl-OpenSSL_1_0_2f-o2-openssl
+2025-07-23 10:26:38,191 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:26:38,384 - INFO - Trying configuration: ./config -d
+2025-07-23 10:26:39,915 - INFO - Configuration successful
+2025-07-23 10:27:26,876 - INFO - Build ended
+2025-07-23 10:27:26,876 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:27:26,880 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl
+2025-07-23 10:27:27,194 - INFO - --- [END] Processed: OpenSSL_1_0_2f ---
+2025-07-23 10:27:27,195 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2f ---
+2025-07-23 10:27:27,195 - INFO - Output binary: openssl-OpenSSL_1_0_2f-o2-libcrypto
+2025-07-23 10:27:27,195 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:27:27,324 - INFO - Trying configuration: ./config -d
+2025-07-23 10:27:29,220 - INFO - Configuration successful
+2025-07-23 10:28:14,809 - INFO - Build ended
+2025-07-23 10:28:15,030 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:28:16,839 - INFO - Configuration successful
+2025-07-23 10:29:00,894 - INFO - Build ended
+2025-07-23 10:29:00,911 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:29:00,913 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-libcrypto
+2025-07-23 10:29:01,128 - INFO - --- [END] Processed: OpenSSL_1_0_2f ---
+2025-07-23 10:29:01,128 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2f ---
+2025-07-23 10:29:01,128 - INFO - Output binary: openssl-OpenSSL_1_0_2f-o2-libssl
+2025-07-23 10:29:01,128 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:29:01,205 - INFO - Trying configuration: ./config -d
+2025-07-23 10:29:03,133 - INFO - Configuration successful
+2025-07-23 10:29:47,308 - INFO - Build ended
+2025-07-23 10:29:47,529 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:29:49,474 - INFO - Configuration successful
+2025-07-23 10:30:33,282 - INFO - Build ended
+2025-07-23 10:30:33,295 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:30:33,296 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-libssl
+2025-07-23 10:30:33,560 - INFO - --- [END] Processed: OpenSSL_1_0_2f ---
+2025-07-23 10:30:33,560 - INFO - Processing tag: OpenSSL_1_0_2g
+2025-07-23 10:30:33,560 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2g ---
+2025-07-23 10:30:33,560 - INFO - Output binary: openssl-OpenSSL_1_0_2g-o2-openssl
+2025-07-23 10:30:33,560 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:30:33,652 - INFO - Trying configuration: ./config -d
+2025-07-23 10:30:35,248 - INFO - Configuration successful
+2025-07-23 10:31:20,030 - INFO - Build ended
+2025-07-23 10:31:20,030 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:31:20,033 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl
+2025-07-23 10:31:20,347 - INFO - --- [END] Processed: OpenSSL_1_0_2g ---
+2025-07-23 10:31:20,347 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2g ---
+2025-07-23 10:31:20,348 - INFO - Output binary: openssl-OpenSSL_1_0_2g-o2-libcrypto
+2025-07-23 10:31:20,348 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:31:20,427 - INFO - Trying configuration: ./config -d
+2025-07-23 10:31:22,449 - INFO - Configuration successful
+2025-07-23 10:32:06,983 - INFO - Build ended
+2025-07-23 10:32:07,304 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:32:09,195 - INFO - Configuration successful
+2025-07-23 10:32:54,397 - INFO - Build ended
+2025-07-23 10:32:54,407 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:32:54,410 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-libcrypto
+2025-07-23 10:32:54,624 - INFO - --- [END] Processed: OpenSSL_1_0_2g ---
+2025-07-23 10:32:54,625 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2g ---
+2025-07-23 10:32:54,625 - INFO - Output binary: openssl-OpenSSL_1_0_2g-o2-libssl
+2025-07-23 10:32:54,625 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:32:54,662 - INFO - Trying configuration: ./config -d
+2025-07-23 10:32:56,380 - INFO - Configuration successful
+2025-07-23 10:33:40,619 - INFO - Build ended
+2025-07-23 10:33:40,940 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:33:42,629 - INFO - Configuration successful
+2025-07-23 10:34:27,053 - INFO - Build ended
+2025-07-23 10:34:27,074 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:34:27,075 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-libssl
+2025-07-23 10:34:27,289 - INFO - --- [END] Processed: OpenSSL_1_0_2g ---
+2025-07-23 10:34:27,290 - INFO - Processing tag: OpenSSL_1_0_2h
+2025-07-23 10:34:27,290 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2h ---
+2025-07-23 10:34:27,290 - INFO - Output binary: openssl-OpenSSL_1_0_2h-o2-openssl
+2025-07-23 10:34:27,290 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:34:27,397 - INFO - Trying configuration: ./config -d
+2025-07-23 10:34:29,291 - INFO - Configuration successful
+2025-07-23 10:35:13,820 - INFO - Build ended
+2025-07-23 10:35:13,820 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:35:13,823 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl
+2025-07-23 10:35:14,138 - INFO - --- [END] Processed: OpenSSL_1_0_2h ---
+2025-07-23 10:35:14,138 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2h ---
+2025-07-23 10:35:14,138 - INFO - Output binary: openssl-OpenSSL_1_0_2h-o2-libcrypto
+2025-07-23 10:35:14,138 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:35:14,270 - INFO - Trying configuration: ./config -d
+2025-07-23 10:35:16,013 - INFO - Configuration successful
+2025-07-23 10:36:00,426 - INFO - Build ended
+2025-07-23 10:36:00,697 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:36:02,581 - INFO - Configuration successful
+2025-07-23 10:36:46,426 - INFO - Build ended
+2025-07-23 10:36:46,446 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:36:46,450 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-libcrypto
+2025-07-23 10:36:46,765 - INFO - --- [END] Processed: OpenSSL_1_0_2h ---
+2025-07-23 10:36:46,765 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2h ---
+2025-07-23 10:36:46,765 - INFO - Output binary: openssl-OpenSSL_1_0_2h-o2-libssl
+2025-07-23 10:36:46,765 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:36:46,895 - INFO - Trying configuration: ./config -d
+2025-07-23 10:36:48,885 - INFO - Configuration successful
+2025-07-23 10:37:33,128 - INFO - Build ended
+2025-07-23 10:37:33,399 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:37:35,307 - INFO - Configuration successful
+2025-07-23 10:38:18,796 - INFO - Build ended
+2025-07-23 10:38:18,817 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:38:18,818 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-libssl
+2025-07-23 10:38:19,083 - INFO - --- [END] Processed: OpenSSL_1_0_2h ---
+2025-07-23 10:38:19,083 - INFO - Processing tag: OpenSSL_1_0_2i
+2025-07-23 10:38:19,083 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2i ---
+2025-07-23 10:38:19,083 - INFO - Output binary: openssl-OpenSSL_1_0_2i-o2-openssl
+2025-07-23 10:38:19,083 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:38:19,168 - INFO - Trying configuration: ./config -d
+2025-07-23 10:38:20,584 - INFO - Configuration successful
+2025-07-23 10:39:04,833 - INFO - Build ended
+2025-07-23 10:39:04,833 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:39:04,836 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl
+2025-07-23 10:39:05,100 - INFO - --- [END] Processed: OpenSSL_1_0_2i ---
+2025-07-23 10:39:05,100 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2i ---
+2025-07-23 10:39:05,101 - INFO - Output binary: openssl-OpenSSL_1_0_2i-o2-libcrypto
+2025-07-23 10:39:05,101 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:39:05,180 - INFO - Trying configuration: ./config -d
+2025-07-23 10:39:07,111 - INFO - Configuration successful
+2025-07-23 10:39:54,013 - INFO - Build ended
+2025-07-23 10:39:54,292 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:39:56,177 - INFO - Configuration successful
+2025-07-23 10:40:42,790 - INFO - Build ended
+2025-07-23 10:40:42,801 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:40:42,804 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-libcrypto
+2025-07-23 10:40:43,018 - INFO - --- [END] Processed: OpenSSL_1_0_2i ---
+2025-07-23 10:40:43,018 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2i ---
+2025-07-23 10:40:43,018 - INFO - Output binary: openssl-OpenSSL_1_0_2i-o2-libssl
+2025-07-23 10:40:43,018 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:40:43,097 - INFO - Trying configuration: ./config -d
+2025-07-23 10:40:45,045 - INFO - Configuration successful
+2025-07-23 10:41:30,363 - INFO - Build ended
+2025-07-23 10:41:30,684 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:41:32,478 - INFO - Configuration successful
+2025-07-23 10:42:17,611 - INFO - Build ended
+2025-07-23 10:42:17,628 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:42:17,630 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-libssl
+2025-07-23 10:42:17,895 - INFO - --- [END] Processed: OpenSSL_1_0_2i ---
+2025-07-23 10:42:17,895 - INFO - Processing tag: OpenSSL_1_0_2j
+2025-07-23 10:42:17,895 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2j ---
+2025-07-23 10:42:17,895 - INFO - Output binary: openssl-OpenSSL_1_0_2j-o2-openssl
+2025-07-23 10:42:17,895 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:42:17,973 - INFO - Trying configuration: ./config -d
+2025-07-23 10:42:19,726 - INFO - Configuration successful
+2025-07-23 10:43:05,632 - INFO - Build ended
+2025-07-23 10:43:05,632 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:43:05,635 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl
+2025-07-23 10:43:05,950 - INFO - --- [END] Processed: OpenSSL_1_0_2j ---
+2025-07-23 10:43:05,950 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2j ---
+2025-07-23 10:43:05,950 - INFO - Output binary: openssl-OpenSSL_1_0_2j-o2-libcrypto
+2025-07-23 10:43:05,950 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:43:06,027 - INFO - Trying configuration: ./config -d
+2025-07-23 10:43:07,927 - INFO - Configuration successful
+2025-07-23 10:43:52,937 - INFO - Build ended
+2025-07-23 10:43:53,258 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:43:55,136 - INFO - Configuration successful
+2025-07-23 10:44:39,252 - INFO - Build ended
+2025-07-23 10:44:39,268 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:44:39,270 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-libcrypto
+2025-07-23 10:44:39,485 - INFO - --- [END] Processed: OpenSSL_1_0_2j ---
+2025-07-23 10:44:39,485 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2j ---
+2025-07-23 10:44:39,485 - INFO - Output binary: openssl-OpenSSL_1_0_2j-o2-libssl
+2025-07-23 10:44:39,485 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:44:39,528 - INFO - Trying configuration: ./config -d
+2025-07-23 10:44:41,420 - INFO - Configuration successful
+2025-07-23 10:45:26,256 - INFO - Build ended
+2025-07-23 10:45:26,477 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:45:28,416 - INFO - Configuration successful
+2025-07-23 10:46:12,669 - INFO - Build ended
+2025-07-23 10:46:12,690 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:46:12,691 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-libssl
+2025-07-23 10:46:12,907 - INFO - --- [END] Processed: OpenSSL_1_0_2j ---
+2025-07-23 10:46:12,907 - INFO - Processing tag: OpenSSL_1_0_2n
+2025-07-23 10:46:12,907 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2n ---
+2025-07-23 10:46:12,907 - INFO - Output binary: openssl-OpenSSL_1_0_2n-o2-openssl
+2025-07-23 10:46:12,907 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:46:13,054 - INFO - Trying configuration: ./config -d
+2025-07-23 10:46:14,459 - INFO - Configuration successful
+2025-07-23 10:46:59,800 - INFO - Build ended
+2025-07-23 10:46:59,800 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:46:59,804 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2n-o2-openssl
+2025-07-23 10:47:00,018 - INFO - --- [END] Processed: OpenSSL_1_0_2n ---
+2025-07-23 10:47:00,018 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2n ---
+2025-07-23 10:47:00,018 - INFO - Output binary: openssl-OpenSSL_1_0_2n-o2-libcrypto
+2025-07-23 10:47:00,018 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:47:00,098 - INFO - Trying configuration: ./config -d
+2025-07-23 10:47:01,995 - INFO - Configuration successful
+2025-07-23 10:47:48,552 - INFO - Build ended
+2025-07-23 10:47:48,824 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:47:50,739 - INFO - Configuration successful
+2025-07-23 10:48:34,932 - INFO - Build ended
+2025-07-23 10:48:34,953 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:48:34,955 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2n-o2-libcrypto
+2025-07-23 10:48:35,220 - INFO - --- [END] Processed: OpenSSL_1_0_2n ---
+2025-07-23 10:48:35,220 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2n ---
+2025-07-23 10:48:35,220 - INFO - Output binary: openssl-OpenSSL_1_0_2n-o2-libssl
+2025-07-23 10:48:35,220 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:48:35,260 - INFO - Trying configuration: ./config -d
+2025-07-23 10:48:37,154 - INFO - Configuration successful
+2025-07-23 10:49:22,522 - INFO - Build ended
+2025-07-23 10:49:22,843 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:49:24,738 - INFO - Configuration successful
+2025-07-23 10:50:08,914 - INFO - Build ended
+2025-07-23 10:50:08,925 - INFO - Found ssl library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libssl.so.1.0.0
+2025-07-23 10:50:08,927 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2n-o2-libssl
+2025-07-23 10:50:09,292 - INFO - --- [END] Processed: OpenSSL_1_0_2n ---
+2025-07-23 10:50:09,292 - INFO - Processing tag: OpenSSL_1_0_2o
+2025-07-23 10:50:09,292 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2o ---
+2025-07-23 10:50:09,292 - INFO - Output binary: openssl-OpenSSL_1_0_2o-o2-openssl
+2025-07-23 10:50:09,292 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:50:09,415 - INFO - Trying configuration: ./config -d
+2025-07-23 10:50:10,812 - INFO - Configuration successful
+2025-07-23 10:50:56,413 - INFO - Build ended
+2025-07-23 10:50:56,414 - INFO - Found openssl executable: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/apps/openssl
+2025-07-23 10:50:56,420 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-openssl
+2025-07-23 10:50:56,634 - INFO - --- [END] Processed: OpenSSL_1_0_2o ---
+2025-07-23 10:50:56,634 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2o ---
+2025-07-23 10:50:56,634 - INFO - Output binary: openssl-OpenSSL_1_0_2o-o2-libcrypto
+2025-07-23 10:50:56,634 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:50:56,706 - INFO - Trying configuration: ./config -d
+2025-07-23 10:50:58,696 - INFO - Configuration successful
+2025-07-23 10:51:43,653 - INFO - Build ended
+2025-07-23 10:51:43,926 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:51:45,798 - INFO - Configuration successful
+2025-07-23 10:52:29,463 - INFO - Build ended
+2025-07-23 10:52:29,483 - INFO - Found crypto library: /home/zhangxb/patch/related-works/CVE-Dataset/target/openssl/libcrypto.so.1.0.0
+2025-07-23 10:52:29,485 - INFO - Copied to /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-libcrypto
+2025-07-23 10:52:29,750 - INFO - --- [END] Processed: OpenSSL_1_0_2o ---
+2025-07-23 10:52:29,750 - INFO - --- [BEGIN] Processing: OpenSSL_1_0_2o ---
+2025-07-23 10:52:29,750 - INFO - Output binary: openssl-OpenSSL_1_0_2o-o2-libssl
+2025-07-23 10:52:29,750 - INFO - Destination: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl
+2025-07-23 10:52:29,829 - INFO - Trying configuration: ./config -d
+2025-07-23 10:52:31,643 - INFO - Configuration successful
+2025-07-23 10:53:17,620 - INFO - Build ended
+2025-07-23 10:53:17,890 - INFO - Trying configuration: ./config -d shared
+2025-07-23 10:53:19,781 - INFO - Configuration successful

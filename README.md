@@ -315,8 +315,12 @@
   - CVE-2025-22920
 
 # Adjustment in target versions
-## openssl
+## binutils
 - failed to compile
+  - 2.40 O1
+## openssl
+### failed to compile
+- gcc/o0
   - OpenSSL_0_9_8zg
   - OpenSSL_1_1_0
   - OpenSSL_1_1_0a
@@ -325,23 +329,25 @@
   - OpenSSL_1_1_0b
   - OpenSSL_1_0_0t
   - openssl-3.0.0-alpha1
+  - OpenSSL_1_1_0c
+  - OpenSSL_1_1_0d
+  - adjust target binary
+    - openssl-OpenSSL-fips-2_0_13-o0-openssl  ->  openssl-OpenSSL-fips-2_0_13-o0-libcrypto
+    - openssl-OpenSSL_1_0_0s-o0-openssl  -> openssl-OpenSSL_1_0_0s-o0-libcrypto
+    - openssl-OpenSSL_1_0_2b-o0-openssl ->  openssl-OpenSSL_1_0_2b-o0-libcrypto
+- gcc/o1(whats more compared to O0)
+  - OpenSSL_1_0_2b
+  - OpenSSL-fips-2_0_13-libcrypto && openssl
+
 ## curl
 - failed to compile
-  - 7.27.0
-  - 7.28.0
-  - 7.28.1
+  - <7.29.0
 ## ffmpeg
 - fail to compile
   - 3.2.16
 ## sqlite
 - fail to compile
   - 3.14
-
-
-# Error in testset
-## binutils
-- false negative
-  - 2.29.1
 
 # Case Study Candidates
 - CVE-2022-42916 create_conn
@@ -355,6 +361,21 @@
   -  挺有意思的，新增变量和对新增变量的操作
 - CVE-2020-16590
   - 只更改了赋值语句的变量名
+- CVE-2018-1000120
+  - 只修改了函数调用中的一个参数
+- CVE-2022-29824
+  - 部分work fail
+-  CVE-2015-7500
+  -  只更改了变量声明
+-   CVE-2019-5435
+  - React 无输出
+- CVE-2022-3786
+  - trivial 更改
+  - insight patch presence需要有diff parser与审查工具，否则还是需要人力介入，没什么实际作用
+-  CVE-2022-46908
+  -  safemodeauth 的更改太trivial，只涉及全局变量
+- CVE-2020-22043
+  - goto->return
 # both func not found in diff error
 ## curl
   - Curl_idn_strerror

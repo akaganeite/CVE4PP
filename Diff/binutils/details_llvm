@@ -12,14 +12,10 @@ CVE-2017-14933_33e0a9a056bd 2017-09-26 objdump read_formatted_entries
 CVE-2017-14934_19485196044b 2017-09-27 objdump process_debug_info
 CVE-2017-14938_bd61e135492e 2017-09-24 objdump _bfd_elf_slurp_version_tables
 CVE-2017-14939_515f23e63c00 2017-09-24 objdump decode_line_info
-CVE-2017-14940_0d76029f9218 2017-09-24 objdump scan_unit_for_symbols
 CVE-2017-14974_e70c19e3a4c2 2017-09-22 objdump elf_i386_get_synthetic_symtab,elf_x86_64_get_synthetic_symtab
 CVE-2017-15020_1da5c9a485f3 2017-09-25 objdump parse_line_table,parse_die
 CVE-2017-15021_52b36c51e5bf 2017-09-24 objdump bfd_get_debug_link_info_1
-CVE-2017-15022_11855d8a1f11 2017-09-25 objdump parse_comp_unit,scan_unit_for_symbols
-CVE-2017-15023_c361faae8d96 2017-09-25 objdump read_formatted_entries
 CVE-2017-15024_52a93b95ec07 2017-09-24 objdump scan_unit_for_symbols,lookup_symbol_in_variable_table,find_abstract_instance_name
-CVE-2017-15025_d8010d3e75ec 2017-09-24 objdump decode_line_info
 CVE-2017-15225_b55ec8b676ed 2017-10-09 objdump _bfd_dwarf2_cleanup_debug_info
 CVE-2017-15938_1b86808a8607 2017-09-26 objdump parse_comp_unit,find_abstract_instance_name
 CVE-2017-15939_a54018b72d75 2017-09-26 objdump concat_filename,read_formatted_entries,decode_line_info
@@ -35,10 +31,7 @@ CVE-2017-9043_ddef72cdc10d 2017-04-21 readelf print_gnu_build_attribute_name
 CVE-2018-1000876_3a551c7a1b80 2018-12-17 objdump _bfd_elf_get_dynamic_reloc_upper_bound,_bfd_elf_canonicalize_dynamic_symtab,swap_out_syms,_bfd_elf_get_dynamic_symtab_upper_bound,_bfd_elf_get_symtab_upper_bound
 CVE-2018-18605_ab419ddbb2cd 2018-10-23 objdump _bfd_add_merge_section
 CVE-2018-18606_45a0eaf77022 2018-10-23 objdump _bfd_add_merge_section
-CVE-2018-18607_102def4da826 2018-10-23 objdump elf_link_input_bfd
 CVE-2018-19932_beab45322376 2018-11-30 objdump rewrite_elf_program_header
-CVE-2018-20002_c2f5dc30afa3 2018-12-07 nm display_rel_file,_bfd_generic_read_minisymbols
-CVE-2018-20651_54025d5812ff 2018-12-31 objdump elf_link_add_object_symbols
 CVE-2018-20671_11fa9f134fd6 2019-01-04 objdump load_specific_debug_section
 CVE-2018-6872_ef135d4314fd 2018-02-08 objdump elf_parse_notes
 CVE-2018-7570_01f7e10cf2dc 2018-02-23 objdump assign_file_positions_for_non_load_sections
@@ -47,7 +40,6 @@ CVE-2020-16590_c98a4545dc7b 2020-04-15 readelf get_num_dynamic_syms
 CVE-2020-16591_001890e1f926 2020-04-15 readelf get_num_dynamic_syms
 CVE-2020-16593_aec72fda3b32 2020-04-16 objdump scan_unit_for_symbols
 CVE-2020-16599_8d55d10ac0d1 2020-04-17 objdump _bfd_elf_get_symbol_version_string
-CVE-2020-19724_805f38bc551d 2020-01-13 nm display_rel_file
 CVE-2020-35448_8642dafaef21 2020-09-04 objdump _bfd_elf_slurp_secondary_reloc_section
 CVE-2021-20294_372dd157272e 2020-11-22 objdump print_dynamic_symbol
 CVE-2021-45078_161e87d12167 2021-12-15 objdump stab_xcoff_builtin_type,stab_find_type,stab_record_type

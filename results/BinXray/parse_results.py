@@ -315,7 +315,7 @@ def main():
 
 if __name__ == "__main__":
             
-    # main() 
+    main() 
     # 批量计算准确率
     for fname in os.listdir('.'):
         if fname.endswith('_result.csv'):

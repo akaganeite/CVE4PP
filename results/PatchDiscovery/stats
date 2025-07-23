@@ -6,30 +6,6 @@ binutils_result.csv:
     整体准确率: 77.50%
     排除failed的准确率: 78.15%
 
-libxml2_result.csv:
-  succeed/targets = 410/567 = 0.7231
-  succeed/(targets-func_not_found) = 410/(567-0) = 0.7231
-  succeed/valid_targets = 410/537 = 0.7635 (只考虑FP/FN)
-  CVE_ACC:
-    整体准确率: 74.07%
-    排除failed的准确率: 75.47%
-
-openssl_result.csv:
-  succeed/targets = 358/440 = 0.8136
-  succeed/(targets-func_not_found) = 358/(440-33) = 0.8796
-  succeed/valid_targets = 358/407 = 0.8796 (只考虑FP/FN)
-  CVE-ACC:
-    整体准确率: 68.34%
-    排除failed的准确率: 70.47%
-
-ffmpeg_result.csv:
-  succeed/targets = 71/207 = 0.3430
-  succeed/(targets-func_not_found) = 71/(207-40) = 0.4251
-  succeed/valid_targets = 71/158 = 0.4494 (只考虑FP/FN)
-  CVE-ACC:
-    整体准确率: 35.00%
-    排除failed的准确率: 35.51%
-
 curl_result.csv:
   succeed/targets = 257/340 = 0.7559
   succeed/(targets-func_not_found) = 257/(340-7) = 0.7718
@@ -38,10 +14,34 @@ curl_result.csv:
     整体准确率: 76.89%
     排除failed的准确率: 77.99%
 
+ffmpeg_result.csv:
+  succeed/targets = 89/187 = 0.4759
+  succeed/(targets-func_not_found) = 89/(187-17) = 0.5235
+  succeed/valid_targets = 89/170 = 0.5235 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 35.00%
+    排除failed的准确率: 35.51%
+
+libxml2_result.csv:
+  succeed/targets = 393/511 = 0.7691
+  succeed/(targets-func_not_found) = 393/(511-0) = 0.7691
+  succeed/valid_targets = 393/481 = 0.8170 (只考虑FP/FN)
+  CVE_ACC:
+    整体准确率: 74.07%
+    排除failed的准确率: 75.47%
+
+openssl_result.csv:
+  succeed/targets = 397/499 = 0.7956
+  succeed/(targets-func_not_found) = 397/(499-31) = 0.8483
+  succeed/valid_targets = 397/444 = 0.8941 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 68.34%
+    排除failed的准确率: 70.47%
+
 sqlite_result.csv:
-  succeed/targets = 185/225 = 0.8222
-  succeed/(targets-func_not_found) = 185/(225-3) = 0.8333
-  succeed/valid_targets = 185/216 = 0.8565 (只考虑FP/FN)
+  succeed/targets = 193/227 = 0.8502
+  succeed/(targets-func_not_found) = 193/(227-3) = 0.8616
+  succeed/valid_targets = 193/218 = 0.8853 (只考虑FP/FN)
   CVE-ACC:
     整体准确率: 80.30%
     排除failed的准确率: 81.54%

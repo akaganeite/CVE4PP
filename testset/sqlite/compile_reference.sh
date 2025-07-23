@@ -8,12 +8,12 @@ REPO_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/target/sqlite"
 
 # DETAILS_FILE: File containing CVE information. Format: CVEID_CommitHash CVE_ID Functions
 # Example line: CVE-2022-1234_abcdef1234567 CVE-2022-1234 func1,func2
-DETAILS_FILE="/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/sqlite/diff_files/details"
+DETAILS_FILE="/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/sqlite/details"
 
 
 # Output directories for compiled binaries
 # REFERENCE_DIR: For CVE-related binaries (patched and vulnerable versions).
-REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/sqlite"
+REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/sqlite-new"
 # TARGET_DIR: For tagged release binaries.
 TARGET_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/sqlite"
 
@@ -34,7 +34,7 @@ compile_and_copy_sqlite() {
     # Sanitize git_checkout_ref for use in directory names (replace / with _ if tags contain them)
     local sanitized_ref=$(echo "$git_checkout_ref" | tr '/' '_')
     local current_build_dir="${BUILD_DIR_PREFIX}-${sanitized_ref}"
-    local sqlite_executable="${current_build_dir}/.libs/sqlite3" # Expected compiled binary
+    local sqlite_executable="${current_build_dir}/.libs/libsqlite3.so.0.8.6" # Expected compiled binary
     local log_file="${current_build_dir}/compile.log"
 
     echo # Blank line for readability
@@ -98,7 +98,8 @@ compile_and_copy_sqlite() {
                 CFLAGS="-g -O0" \
                 CXXFLAGS="-g -O0" \
                 --enable-all \
-                --enable-debug
+                --enable-debug \
+                --disable-amalgamation
             local configure_exit_code=$?
             if [ $configure_exit_code -ne 0 ]; then
                 echo "错误：配置失败，退出码: $configure_exit_code. 详情请查看 $log_file"
@@ -228,7 +229,7 @@ else
 
         # 1. Compile patch version (the commit_hash itself)
         # Use full commit_hash for checkout, and its short version for the output binary name
-        short_commit_hash="${commit_hash:0:7}"
+        short_commit_hash="${commit_hash:0:12}"
         output_name_patch="${cve_id}-patch-${short_commit_hash}-sqlite3"
 
         compile_and_copy_sqlite "$commit_hash" "$output_name_patch" "$REFERENCE_DIR" "$line"
@@ -251,7 +252,7 @@ else
             continue # Continue to the next CVE entry in the loop
         fi
 
-        short_prev_commit_hash="${prev_commit_full:0:7}"
+        short_prev_commit_hash="${prev_commit_full:0:12}"
         output_name_vuln="${cve_id}-vuln-${short_prev_commit_hash}-sqlite3"
         
         echo "漏洞版本 (父提交): $prev_commit_full"
@@ -260,7 +261,6 @@ else
             echo "错误：编译 CVE $cve_id 的漏洞版本 ($prev_commit_full) 失败。继续下一个条目。"
         fi
     done < "$DETAILS_FILE"
-fi
 fi
 
 echo # Blank line

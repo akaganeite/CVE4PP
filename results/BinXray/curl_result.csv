@@ -1,6 +1,6 @@
 CVE,funcname,succeed,false_positive,false_negative,failed_versions,too_much_diff,cant_tell,no_diff,func_not_found,targets
 CVE-2017-2629,allocate_conn,6,,,,,,,,6
-CVE-2013-1944,tailmatch,4,,,,,,,7.28.1;7.28.0,6
+CVE-2013-1944,tailmatch,4,,,,,,,,4
 CVE-2018-16840,Curl_close,6,,,,,,,,6
 CVE-2018-1000301,Curl_http_readwrite_headers,6,,,,,,,,6
 CVE-2016-9586,dprintf_formatf,6,,,,,,,,6
@@ -8,10 +8,10 @@ CVE-2017-9502,parseurlandfillconn,6,,,,,,,,6
 CVE-2017-7407,ourWriteOut,3,7.53.1,,,,,,,4
 CVE-2018-16839,Curl_auth_create_plain_message,6,,,,,,,,6
 CVE-2018-1000300,Curl_pp_readresp,6,,,,,,,,6
-CVE-2023-46219,Curl_fopen,3,,8.5.0;8.6.0,,,,,8.7.1,6
+CVE-2023-46219,Curl_fopen,3,,8.5.0;8.6.0;8.7.1,,,,,,6
 CVE-2016-8621,parsedate,6,,,,,,,,6
 CVE-2018-0500,Curl_smtp_escape_eob,5,,7.62.0,,,,,,6
-CVE-2013-0249,Curl_sasl_create_digest_md5_message,3,,,,,,,7.28.1;7.28.0;7.27.0,6
+CVE-2013-0249,Curl_sasl_create_digest_md5_message,3,,,,,,,,3
 CVE-2014-0015,ConnectionExists,5,,7.36.0,,,,,,6
 CVE-2020-8169,override_login,6,,,,,,,,6
 CVE-2017-8817,setcharset,5,,,,,7.59.0,,,6
@@ -19,7 +19,7 @@ CVE-2021-22898,suboption,6,,,,,,,,6
 CVE-2019-5482,tftp_connect,3,7.65.3;7.65.2;7.65.1,,,,,,,6
 CVE-2016-8624,parseurlandfillconn,6,,,,,,,,6
 CVE-2016-8618,alloc_addbyter,6,,,,,,,,6
-CVE-2023-46218,Curl_cookie_add,5,,,,,,,8.7.1,6
+CVE-2023-46218,Curl_cookie_add,6,,,,,,,,6
 CVE-2016-8617,base64_encode,6,,,,,,,,6
 CVE-2017-1000101,glob_range,5,7.55.0,,,,,,,6
 CVE-2016-9594,randit,4,,,,,,,7.51.0;7.50.3,6
@@ -49,6 +49,9 @@ CVE-2016-8625,create_conn,6,,,,,,,,6
 CVE-2016-8625,curl_version_info,6,,,,,,,,6
 CVE-2016-8625,fix_hostname,6,,,,,,,,6
 CVE-2016-8625,global_init,0,,,,,,7.50.3;7.50.2;7.50.1;7.51.0;7.52.0;7.52.1,,6
+CVE-2016-8625,Curl_idn_strerror,0,,,7.50.3;7.50.2;7.50.1;7.51.0;7.52.0;7.52.1,,,,,6
+CVE-2016-8625,idna_init,0,,,7.50.3;7.50.2;7.50.1;7.51.0;7.52.0;7.52.1,,,,,6
+CVE-2016-8625,tld_check_name,0,,,7.50.3;7.50.2;7.50.1;7.51.0;7.52.0;7.52.1,,,,,6
 CVE-2016-8623,Curl_cookie_clearall,6,,,,,,,,6
 CVE-2016-8623,Curl_cookie_getlist,6,,,,,,,,6
 CVE-2016-8623,Curl_cookie_cleanup,6,,,,,,,,6

@@ -6,7 +6,7 @@ CVE-2014-3660 2014-10-23 72a46a519ce7 libxml2 xmlParseReference__internal_alias
 CVE-2015-5312 2015-11-20 69030714cde6 libxml2 xmlStringLenDecodeEntities__internal_alias
 CVE-2015-7497 2015-11-20 6360a31a84ef libxml2 xmlDictComputeFastQKey
 CVE-2015-7498 2015-11-09 afd27c21f6b3 libxml2 xmlParseXMLDecl__internal_alias,xmlParseDocument__internal_alias,xmlSwitchEncoding__internal_alias
-CVE-2015-7499 2015-11-20 28cd9cb747a9 libxml2 xmlHaltParser,xmlStopParser
+CVE-2015-7499 2015-11-20 28cd9cb747a9 libxml2 xmlHaltParser,xmlStopParser__internal_alias
 CVE-2015-7500 2015-11-20 f1063fdbe7fa libxml2 xmlParseStartTag2
 CVE-2015-7941 2015-02-23 9b8512337d14 libxml2 xmlParseConditionalSections
 CVE-2015-8241 2015-11-03 ab2b9a93ff19 libxml2 xmlParseMarkupDecl__internal_alias
@@ -16,14 +16,14 @@ CVE-2015-8710 2015-10-30 e724879d964d libxml2 htmlParseComment
 CVE-2016-1762 2016-02-09 a7a94612aa3b libxml2 xmlParseInternalSubset
 CVE-2016-1833 2016-05-23 0bcd05c5cd83 libxml2 xmlNextChar__internal_alias
 CVE-2016-1834 2016-05-22 8fbbf5513d60 libxml2 xmlStrncatNew__internal_alias,xmlStrncat__internal_alias
-CVE-2016-1836 2016-05-23 45752d2c334b libxml2 spacePop,xmlParseNCNameComplex
-CVE-2016-1837 2016-05-23 11ed4a7a90d5 libxml2 htmlNodeInfoPop,htmlParseSystemLiteral
+CVE-2016-1836 2016-05-23 45752d2c334b libxml2 xmlParseNCNameComplex
+CVE-2016-1837 2016-05-23 11ed4a7a90d5 libxml2 htmlParseSystemLiteral
 CVE-2016-1838 2016-05-23 db07dd613e46 libxml2 xmlParseEndTag2
 CVE-2016-1840 2016-05-23 cbb271655cad libxml2 xmlFAParseCharRange
 CVE-2016-4449 2016-05-23 b1d34de46a11 libxml2 xmlStringLenDecodeEntities__internal_alias
 CVE-2016-4483 2016-05-23 c97750d11bb8 libxml2 xmlBufAttrSerializeTxtContent
 CVE-2016-4658 2016-10-12 c1d1f7121194 libxml2 xmlXPtrNewCollapsedRange__internal_alias,xmlXPtrNewRangeNodeObject__internal_alias,xmlXPtrNewRangeNodes__internal_alias,xmlXPtrNewRangePoints,xmlXPtrNewRangePointNode__internal_alias,xmlXPtrNewRangeNodePoint__internal_alias,xmlXPtrNewRange__internal_alias,xmlXPtrNewRangeInternal
-CVE-2017-16931 2017-06-05 e26630548e7d libxml2 xmlGROW,xmlParseNameComplex
+CVE-2017-16931 2017-06-05 e26630548e7d libxml2 xmlParseNameComplex
 CVE-2017-16932 2017-07-25 899a5d9f0ed1 libxml2 xmlPushInput__internal_alias,xmlParsePEReference__internal_alias
 CVE-2017-5130 2017-06-06 897dffbae322 libxml2 xmlReallocLoc__internal_alias,xmlMallocLoc__internal_alias,xmlMemStrdupLoc__internal_alias
 CVE-2017-7375 2017-04-07 90ccb5824286 libxml2 xmlParsePEReference__internal_alias
@@ -31,7 +31,7 @@ CVE-2018-14404 2018-07-30 a436374994c4 libxml2 xmlXPathCompOpEval
 CVE-2019-19956 2019-08-26 5a02583c7e68 libxml2 xmlParseBalancedChunkMemoryRecover__internal_alias
 CVE-2020-7595 2020-01-02 0e1a49c89076 libxml2 xmlStringLenDecodeEntities
 CVE-2022-23308 2022-02-19 652dd12a8589 libxml2 xmlAddRef__internal_alias,xmlRemoveID__internal_alias,xmlAddID__internal_alias,xmlValidCtxtNormalizeAttributeValue__internal_alias,xmlValidNormalizeAttributeValue__internal_alias,xmlIsStreaming,xmlValidNormalizeString
-CVE-2022-29824 2022-05-02 2554a2408e09 libxml2 xmlBufAdd,xmlBufferCreateSize__internal_alias,xmlBufferCreateStatic__internal_alias,xmlBufferResize__internal_alias,xmlBufCreateSize,xmlBufGrowInternal,xmlBufResize,xmlBufCCat,xmlBufferGrow,xmlBufferCCat
+CVE-2022-29824 2022-05-02 2554a2408e09 libxml2 xmlBufAdd,xmlBufferCreateSize__internal_alias,xmlBufferCreateStatic__internal_alias,xmlBufferResize__internal_alias,xmlBufCreateSize,xmlBufGrowInternal,xmlBufResize,xmlBufCCat,xmlBufferGrow__internal_alias,xmlBufferCCat__internal_alias
 CVE-2022-40303 2022-10-14 c846986356fc libxml2 xmlParseCDSect,xmlParseStringName,xmlParseEntityValue,xmlParseNCNameComplex,xmlParseNameComplex,xmlParseSystemLiteral,xmlFatalErr,xmlParseAttValueInternal,xmlParseAttValueComplex,xmlParseNCName,xmlParseName,xmlParsePI,xmlParseNmtoken,xmlParsePubidLiteral,xmlParseComment,xmlParseCommentComplex
 CVE-2022-40304 2022-10-14 1b41ec4e9433 libxml2 xmlFreeEntity,xmlCreateEntity
 CVE-2023-28484 2023-04-11 e4f85f1bd2eb libxml2 xmlSchemaFixupComplexType

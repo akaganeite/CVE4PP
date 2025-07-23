@@ -22,7 +22,7 @@ def get_binxray_negatives(filepath):
         reader = csv.DictReader(csvfile)
         for row in reader:
             cve = row.get('CVE', '').strip()
-            for col in ['false_negative', 'cant_tell', 'no_diff','failed_versions']:
+            for col in ['false_negative', 'cant_tell', 'no_diff','failed_versions','too_much_diff']:
                 versions = get_versions_from_field(row.get(col, ''))
                 for version in versions:
                     if cve and version:
@@ -58,7 +58,7 @@ def main():
     dirs = [
         ('BinXray', get_binxray_negatives),
         ('PatchDiscovery', get_other_negatives),
-        # ('PS3', get_other_negatives)
+        ('PS3', get_other_negatives)
     ]
     out_dir = 'correction'  # 输出目录，可根据需要修改
 

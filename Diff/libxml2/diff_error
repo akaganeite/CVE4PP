@@ -1,8 +1,10 @@
 CVE-2013-0338 xmlCreateEntityParserCtxtInternal
-CVE-2015-7499 xmlCreatePushParserCtxt | xmlStopParser,xmlHaltParser
-CVE-2016-1837 htmlParseAttValue
+CVE-2015-7499 xmlCreatePushParserCtxt | xmlStopParser__internal_alias,xmlHaltParser
+CVE-2016-1836 spacePop
+CVE-2016-1837 htmlParseAttValue htmlNodeInfoPop
 CVE-2016-4658 xmlXPtrRangesEqual | xmlXPtrNewRangeInternal
-CVE-2017-16931 xmlDROW
+CVE-2017-16931 xmlDROW xmlGROW
 CVE-2022-23308 xmlDumpNotationTable,nodeVPop,xmlValidateAttributeValue2 | xmlIsStreaming,xmlValidNormalizeString
-CVE-2022-29824 xmlBufferShrink,xmlBufCat,xmlBufferCat,xmlBufIsEmpty | xmlBufferGrow,xmlBufCCat,xmlBufferCCat
+CVE-2022-29824 xmlBufferShrink,xmlBufCat,xmlBufferCat,xmlBufIsEmpty | xmlBufferGrow__internal_alias,xmlBufCCat,xmlBufferCCat__internal_alias
 CVE-2022-40303 xmlParseElementEnd
+CVE-2023-0215 ndef_suffix
