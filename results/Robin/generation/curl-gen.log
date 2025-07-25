@@ -1,0 +1,232 @@
+2025-07-25 10:59:22,480 - INFO - processing CVE-2019-5435 ( 1)
+2025-07-25 10:59:22,481 - INFO - running: python main.py --mfi --cve_id CVE-2019-5435 --path_to_vul_bin /binaries/reference/curl/CVE-2019-5435-vuln-2fe2da9f1a6b-curl --path_to_patch_bin /binaries/reference/curl/CVE-2019-5435-patch-5fc28510a466-curl --vul_func_name Curl_setstropt
+2025-07-25 10:59:53,655 - ERROR - fail CVE-2019-5435 ,details0
+
+2025-07-25 10:59:53,655 - INFO - processing CVE-2019-5435 ( 2)
+2025-07-25 10:59:53,655 - INFO - running: python main.py --mfi --cve_id CVE-2019-5435 --path_to_vul_bin /binaries/reference/curl/CVE-2019-5435-vuln-2fe2da9f1a6b-curl --path_to_patch_bin /binaries/reference/curl/CVE-2019-5435-patch-5fc28510a466-curl --vul_func_name curl_url_set
+2025-07-25 11:01:25,899 - ERROR - fail CVE-2019-5435 ,details0
+
+2025-07-25 11:01:25,899 - INFO - processing CVE-2019-5435 ( 3)
+2025-07-25 11:01:25,899 - INFO - running: python main.py --mfi --cve_id CVE-2019-5435 --path_to_vul_bin /binaries/reference/curl/CVE-2019-5435-vuln-2fe2da9f1a6b-curl --path_to_patch_bin /binaries/reference/curl/CVE-2019-5435-patch-5fc28510a466-curl --vul_func_name seturl
+2025-07-25 11:01:50,473 - ERROR - fail CVE-2019-5435 ,details0
+
+2025-07-25 11:01:50,474 - INFO - processing CVE-2017-2629 ( 4)
+2025-07-25 11:01:50,474 - INFO - running: python main.py --mfi --cve_id CVE-2017-2629 --path_to_vul_bin /binaries/reference/curl/CVE-2017-2629-vuln-af5fbb14bb4f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-2629-patch-ca6ea6d9be51-curl --vul_func_name allocate_conn
+2025-07-25 11:02:04,930 - INFO - success CVE-2017-2629,details in curl-cve_logs/CVE-2017-2629.log
+
+2025-07-25 11:02:04,930 - INFO - processing CVE-2013-1944 ( 5)
+2025-07-25 11:02:04,930 - INFO - running: python main.py --mfi --cve_id CVE-2013-1944 --path_to_vul_bin /binaries/reference/curl/CVE-2013-1944-vuln-96ffe645fd24-curl --path_to_patch_bin /binaries/reference/curl/CVE-2013-1944-patch-2eb8dcf26cb3-curl --vul_func_name tailmatch
+2025-07-25 11:02:13,638 - INFO - success CVE-2013-1944,details in curl-cve_logs/CVE-2013-1944.log
+
+2025-07-25 11:02:13,638 - INFO - processing CVE-2020-8169 ( 6)
+2025-07-25 11:02:13,638 - INFO - running: python main.py --mfi --cve_id CVE-2020-8169 --path_to_vul_bin /binaries/reference/curl/CVE-2020-8169-vuln-e2a7a6bb9ee9-curl --path_to_patch_bin /binaries/reference/curl/CVE-2020-8169-patch-600a8cded447-curl --vul_func_name override_login
+2025-07-25 11:02:17,013 - ERROR - fail CVE-2020-8169 ,details0
+
+2025-07-25 11:02:17,013 - INFO - processing CVE-2016-8617 ( 7)
+2025-07-25 11:02:17,013 - INFO - running: python main.py --mfi --cve_id CVE-2016-8617 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8617-vuln-3d6460edeee2-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8617-patch-efd24d57426b-curl --vul_func_name base64_encode
+2025-07-25 11:02:20,286 - ERROR - fail CVE-2016-8617 ,details0
+
+2025-07-25 11:02:20,286 - INFO - processing CVE-2016-8618 ( 8)
+2025-07-25 11:02:20,286 - INFO - running: python main.py --mfi --cve_id CVE-2016-8618 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8618-vuln-ee4f76606cfa-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8618-patch-8732ec40db65-curl --vul_func_name alloc_addbyter
+2025-07-25 11:02:32,563 - INFO - success CVE-2016-8618,details in curl-cve_logs/CVE-2016-8618.log
+
+2025-07-25 11:02:32,563 - INFO - processing CVE-2018-1000120 ( 9)
+2025-07-25 11:02:32,563 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000120 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000120-vuln-d52dc4760f6d-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000120-patch-535432c0adb6-curl --vul_func_name ftp_done
+2025-07-25 11:02:35,940 - ERROR - fail CVE-2018-1000120 ,details0
+
+2025-07-25 11:02:35,940 - INFO - processing CVE-2018-1000120 ( 10)
+2025-07-25 11:02:35,940 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000120 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000120-vuln-d52dc4760f6d-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000120-patch-535432c0adb6-curl --vul_func_name ftp_parse_url_path
+2025-07-25 11:02:39,254 - ERROR - fail CVE-2018-1000120 ,details0
+
+2025-07-25 11:02:39,254 - INFO - processing CVE-2018-1000120 ( 11)
+2025-07-25 11:02:39,254 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000120 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000120-vuln-d52dc4760f6d-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000120-patch-535432c0adb6-curl --vul_func_name ftp_state_list
+2025-07-25 11:02:43,079 - ERROR - fail CVE-2018-1000120 ,details0
+
+2025-07-25 11:02:43,080 - INFO - processing CVE-2018-16840 ( 12)
+2025-07-25 11:02:43,080 - INFO - running: python main.py --mfi --cve_id CVE-2018-16840 --path_to_vul_bin /binaries/reference/curl/CVE-2018-16840-vuln-9d8dad1a9d79-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-16840-patch-81d135d67155-curl --vul_func_name Curl_close
+2025-07-25 11:02:52,556 - ERROR - fail CVE-2018-16840 ,details0
+
+2025-07-25 11:02:52,556 - INFO - processing CVE-2019-5482 ( 13)
+2025-07-25 11:02:52,556 - INFO - running: python main.py --mfi --cve_id CVE-2019-5482 --path_to_vul_bin /binaries/reference/curl/CVE-2019-5482-vuln-82f3ba3806a3-curl --path_to_patch_bin /binaries/reference/curl/CVE-2019-5482-patch-facb0e466241-curl --vul_func_name tftp_connect
+2025-07-25 11:03:03,328 - INFO - success CVE-2019-5482,details in curl-cve_logs/CVE-2019-5482.log
+
+2025-07-25 11:03:03,329 - INFO - processing CVE-2018-1000301 ( 14)
+2025-07-25 11:03:03,329 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000301 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000301-vuln-1b55d270ad3d-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000301-patch-8c7b3737d29e-curl --vul_func_name Curl_http_readwrite_headers
+2025-07-25 11:03:28,979 - INFO - success CVE-2018-1000301,details in curl-cve_logs/CVE-2018-1000301.log
+
+2025-07-25 11:03:28,980 - INFO - processing CVE-2017-1000101 ( 15)
+2025-07-25 11:03:28,980 - INFO - running: python main.py --mfi --cve_id CVE-2017-1000101 --path_to_vul_bin /binaries/reference/curl/CVE-2017-1000101-vuln-358b2b131ad6-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-1000101-patch-453e7a7a03a2-curl --vul_func_name glob_range
+2025-07-25 11:04:25,191 - ERROR - fail CVE-2017-1000101 ,details0
+
+2025-07-25 11:04:25,192 - INFO - processing CVE-2016-9586 ( 16)
+2025-07-25 11:04:25,192 - INFO - running: python main.py --mfi --cve_id CVE-2016-9586 --path_to_vul_bin /binaries/reference/curl/CVE-2016-9586-vuln-60450d507f89-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-9586-patch-3ab3c16db6a5-curl --vul_func_name dprintf_formatf
+2025-07-25 11:14:30,332 - ERROR - fail CVE-2016-9586 ,details0
+
+2025-07-25 11:14:30,332 - INFO - processing CVE-2016-8625 ( 17)
+2025-07-25 11:14:30,333 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name Curl_idn_strerror
+2025-07-25 11:14:34,283 - ERROR - fail CVE-2016-8625 ,details0
+
+2025-07-25 11:14:34,283 - INFO - processing CVE-2016-8625 ( 18)
+2025-07-25 11:14:34,283 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name create_conn
+2025-07-25 11:16:23,497 - ERROR - fail CVE-2016-8625 ,details0
+
+2025-07-25 11:16:23,497 - INFO - processing CVE-2016-8625 ( 19)
+2025-07-25 11:16:23,497 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name curl_version
+2025-07-25 11:16:41,624 - INFO - success CVE-2016-8625,details in curl-cve_logs/CVE-2016-8625.log
+
+2025-07-25 11:16:41,624 - INFO - processing CVE-2016-8625 ( 20)
+2025-07-25 11:16:41,624 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name curl_version_info
+2025-07-25 11:16:50,103 - INFO - success CVE-2016-8625,details in curl-cve_logs/CVE-2016-8625.log
+
+2025-07-25 11:16:50,104 - INFO - processing CVE-2016-8625 ( 21)
+2025-07-25 11:16:50,104 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name fix_hostname
+2025-07-25 11:17:00,709 - INFO - success CVE-2016-8625,details in curl-cve_logs/CVE-2016-8625.log
+
+2025-07-25 11:17:00,709 - INFO - processing CVE-2016-8625 ( 22)
+2025-07-25 11:17:00,709 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name global_init
+2025-07-25 11:17:04,143 - ERROR - fail CVE-2016-8625 ,details0
+
+2025-07-25 11:17:04,143 - INFO - processing CVE-2016-8625 ( 23)
+2025-07-25 11:17:04,143 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name idna_init
+2025-07-25 11:17:07,902 - ERROR - fail CVE-2016-8625 ,details0
+
+2025-07-25 11:17:07,902 - INFO - processing CVE-2016-8625 ( 24)
+2025-07-25 11:17:07,902 - INFO - running: python main.py --mfi --cve_id CVE-2016-8625 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8625-vuln-42b650b9ea5f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8625-patch-9c91ec778104-curl --vul_func_name tld_check_name
+2025-07-25 11:17:11,550 - ERROR - fail CVE-2016-8625 ,details0
+
+2025-07-25 11:17:11,551 - INFO - processing CVE-2017-9502 ( 25)
+2025-07-25 11:17:11,551 - INFO - running: python main.py --mfi --cve_id CVE-2017-9502 --path_to_vul_bin /binaries/reference/curl/CVE-2017-9502-vuln-5fa028e50805-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-9502-patch-5d7952f52e41-curl --vul_func_name parseurlandfillconn
+2025-07-25 11:24:59,619 - INFO - success CVE-2017-9502,details in curl-cve_logs/CVE-2017-9502.log
+
+2025-07-25 11:24:59,619 - INFO - processing CVE-2016-8621 ( 26)
+2025-07-25 11:24:59,619 - INFO - running: python main.py --mfi --cve_id CVE-2016-8621 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8621-vuln-46133aa536f7-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8621-patch-96a80b5a262f-curl --vul_func_name parsedate
+2025-07-25 11:25:09,211 - INFO - success CVE-2016-8621,details in curl-cve_logs/CVE-2016-8621.log
+
+2025-07-25 11:25:09,211 - INFO - processing CVE-2018-1000007 ( 27)
+2025-07-25 11:25:09,211 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000007 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000007-vuln-993dd5651a6c-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000007-patch-af32cd385933-curl --vul_func_name Curl_add_custom_headers
+2025-07-25 11:27:08,175 - ERROR - fail CVE-2018-1000007 ,details0
+
+2025-07-25 11:27:08,176 - INFO - processing CVE-2018-1000007 ( 28)
+2025-07-25 11:27:08,176 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000007 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000007-vuln-993dd5651a6c-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000007-patch-af32cd385933-curl --vul_func_name Curl_http_output_auth
+2025-07-25 11:27:11,468 - ERROR - fail CVE-2018-1000007 ,details0
+
+2025-07-25 11:27:11,468 - INFO - processing CVE-2018-1000007 ( 29)
+2025-07-25 11:27:11,468 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000007 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000007-vuln-993dd5651a6c-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000007-patch-af32cd385933-curl --vul_func_name Curl_vsetopt
+2025-07-25 11:27:14,808 - ERROR - fail CVE-2018-1000007 ,details0
+
+2025-07-25 11:27:14,808 - INFO - processing CVE-2017-7407 ( 30)
+2025-07-25 11:27:14,808 - INFO - running: python main.py --mfi --cve_id CVE-2017-7407 --path_to_vul_bin /binaries/reference/curl/CVE-2017-7407-vuln-d14563454a5e-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-7407-patch-8e65877870c1-curl --vul_func_name ourWriteOut
+2025-07-25 11:27:27,039 - ERROR - fail CVE-2017-7407 ,details0
+
+2025-07-25 11:27:27,040 - INFO - processing CVE-2018-16839 ( 31)
+2025-07-25 11:27:27,040 - INFO - running: python main.py --mfi --cve_id CVE-2018-16839 --path_to_vul_bin /binaries/reference/curl/CVE-2018-16839-vuln-81d135d67155-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-16839-patch-f3a24d7916b9-curl --vul_func_name Curl_auth_create_plain_message
+2025-07-25 11:27:49,674 - INFO - success CVE-2018-16839,details in curl-cve_logs/CVE-2018-16839.log
+
+2025-07-25 11:27:49,674 - INFO - processing CVE-2018-1000300 ( 32)
+2025-07-25 11:27:49,674 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000300 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000300-vuln-8c7b3737d29e-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000300-patch-583b42cb3b80-curl --vul_func_name Curl_pp_readresp
+2025-07-25 11:28:01,091 - ERROR - fail CVE-2018-1000300 ,details0
+
+2025-07-25 11:28:01,091 - INFO - processing CVE-2021-22898 ( 33)
+2025-07-25 11:28:01,091 - INFO - running: python main.py --mfi --cve_id CVE-2021-22898 --path_to_vul_bin /binaries/reference/curl/CVE-2021-22898-vuln-bbb71507b7ba-curl --path_to_patch_bin /binaries/reference/curl/CVE-2021-22898-patch-39ce47f219b0-curl --vul_func_name suboption
+2025-07-25 11:28:17,162 - ERROR - fail CVE-2021-22898 ,details0
+
+2025-07-25 11:28:17,162 - INFO - processing CVE-2018-0500 ( 34)
+2025-07-25 11:28:17,162 - INFO - running: python main.py --mfi --cve_id CVE-2018-0500 --path_to_vul_bin /binaries/reference/curl/CVE-2018-0500-vuln-0b4ccc97f263-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-0500-patch-ba1dbd78e5f1-curl --vul_func_name Curl_smtp_escape_eob
+2025-07-25 11:28:26,948 - INFO - success CVE-2018-0500,details in curl-cve_logs/CVE-2018-0500.log
+
+2025-07-25 11:28:26,948 - INFO - processing CVE-2023-46219 ( 35)
+2025-07-25 11:28:26,948 - INFO - running: python main.py --mfi --cve_id CVE-2023-46219 --path_to_vul_bin /binaries/reference/curl/CVE-2023-46219-vuln-2692d41c233f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2023-46219-patch-73b65e94f353-curl --vul_func_name Curl_fopen
+2025-07-25 11:28:37,105 - INFO - success CVE-2023-46219,details in curl-cve_logs/CVE-2023-46219.log
+
+2025-07-25 11:28:37,105 - INFO - processing CVE-2017-8818 ( 36)
+2025-07-25 11:28:37,105 - INFO - running: python main.py --mfi --cve_id CVE-2017-8818 --path_to_vul_bin /binaries/reference/curl/CVE-2017-8818-vuln-c79b2ca03d94-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-8818-patch-9b5e12a5491d-curl --vul_func_name allocate_conn
+2025-07-25 11:28:50,000 - INFO - success CVE-2017-8818,details in curl-cve_logs/CVE-2017-8818.log
+
+2025-07-25 11:28:50,001 - INFO - processing CVE-2022-42916 ( 37)
+2025-07-25 11:28:50,001 - INFO - running: python main.py --mfi --cve_id CVE-2022-42916 --path_to_vul_bin /binaries/reference/curl/CVE-2022-42916-vuln-809c81b9f509-curl --path_to_patch_bin /binaries/reference/curl/CVE-2022-42916-patch-53bcf55b4538-curl --vul_func_name create_conn
+2025-07-25 11:28:53,401 - ERROR - fail CVE-2022-42916 ,details0
+
+2025-07-25 11:28:53,401 - INFO - processing CVE-2022-42916 ( 38)
+2025-07-25 11:28:53,401 - INFO - running: python main.py --mfi --cve_id CVE-2022-42916 --path_to_vul_bin /binaries/reference/curl/CVE-2022-42916-vuln-809c81b9f509-curl --path_to_patch_bin /binaries/reference/curl/CVE-2022-42916-patch-53bcf55b4538-curl --vul_func_name parseurlandfillconn
+2025-07-25 11:33:07,779 - ERROR - fail CVE-2022-42916 ,details0
+
+2025-07-25 11:33:07,780 - INFO - processing CVE-2022-42915 ( 39)
+2025-07-25 11:33:07,780 - INFO - running: python main.py --mfi --cve_id CVE-2022-42915 --path_to_vul_bin /binaries/reference/curl/CVE-2022-42915-vuln-9d0869d234b3-curl --path_to_patch_bin /binaries/reference/curl/CVE-2022-42915-patch-55e1875729f9-curl --vul_func_name Curl_connect_done
+2025-07-25 11:33:17,822 - ERROR - fail CVE-2022-42915 ,details0
+
+2025-07-25 11:33:17,822 - INFO - processing CVE-2022-42915 ( 40)
+2025-07-25 11:33:17,823 - INFO - running: python main.py --mfi --cve_id CVE-2022-42915 --path_to_vul_bin /binaries/reference/curl/CVE-2022-42915-vuln-9d0869d234b3-curl --path_to_patch_bin /binaries/reference/curl/CVE-2022-42915-patch-55e1875729f9-curl --vul_func_name conn_shutdown
+2025-07-25 11:33:30,662 - ERROR - fail CVE-2022-42915 ,details0
+
+2025-07-25 11:33:30,662 - INFO - processing CVE-2013-0249 ( 41)
+2025-07-25 11:33:30,662 - INFO - running: python main.py --mfi --cve_id CVE-2013-0249 --path_to_vul_bin /binaries/reference/curl/CVE-2013-0249-vuln-add37cc49f24-curl --path_to_patch_bin /binaries/reference/curl/CVE-2013-0249-patch-f206d6c055d1-curl --vul_func_name Curl_sasl_create_digest_md5_message
+2025-07-25 11:33:44,417 - ERROR - fail CVE-2013-0249 ,details0
+
+2025-07-25 11:33:44,417 - INFO - processing CVE-2014-0015 ( 42)
+2025-07-25 11:33:44,417 - INFO - running: python main.py --mfi --cve_id CVE-2014-0015 --path_to_vul_bin /binaries/reference/curl/CVE-2014-0015-vuln-fc0b4b0d3141-curl --path_to_patch_bin /binaries/reference/curl/CVE-2014-0015-patch-8ae35102c43d-curl --vul_func_name ConnectionExists
+2025-07-25 11:33:54,566 - INFO - success CVE-2014-0015,details in curl-cve_logs/CVE-2014-0015.log
+
+2025-07-25 11:33:54,567 - INFO - processing CVE-2017-8816 ( 43)
+2025-07-25 11:33:54,567 - INFO - running: python main.py --mfi --cve_id CVE-2017-8816 --path_to_vul_bin /binaries/reference/curl/CVE-2017-8816-vuln-0b664ba96843-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-8816-patch-7f2a1df6f5fc-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-07-25 11:34:02,705 - INFO - success CVE-2017-8816,details in curl-cve_logs/CVE-2017-8816.log
+
+2025-07-25 11:34:02,705 - INFO - processing CVE-2017-8817 ( 44)
+2025-07-25 11:34:02,705 - INFO - running: python main.py --mfi --cve_id CVE-2017-8817 --path_to_vul_bin /binaries/reference/curl/CVE-2017-8817-vuln-9b5e12a5491d-curl --path_to_patch_bin /binaries/reference/curl/CVE-2017-8817-patch-0b664ba96843-curl --vul_func_name setcharset
+2025-07-25 11:35:30,776 - INFO - success CVE-2017-8817,details in curl-cve_logs/CVE-2017-8817.log
+
+2025-07-25 11:35:30,776 - INFO - processing CVE-2020-8177 ( 45)
+2025-07-25 11:35:30,777 - INFO - running: python main.py --mfi --cve_id CVE-2020-8177 --path_to_vul_bin /binaries/reference/curl/CVE-2020-8177-vuln-26d2755d7c31-curl --path_to_patch_bin /binaries/reference/curl/CVE-2020-8177-patch-8236aba58542-curl --vul_func_name getparameter
+2025-07-25 11:35:53,395 - INFO - success CVE-2020-8177,details in curl-cve_logs/CVE-2020-8177.log
+
+2025-07-25 11:35:53,395 - INFO - processing CVE-2020-8177 ( 46)
+2025-07-25 11:35:53,396 - INFO - running: python main.py --mfi --cve_id CVE-2020-8177 --path_to_vul_bin /binaries/reference/curl/CVE-2020-8177-vuln-26d2755d7c31-curl --path_to_patch_bin /binaries/reference/curl/CVE-2020-8177-patch-8236aba58542-curl --vul_func_name tool_header_cb
+2025-07-25 11:35:56,790 - ERROR - fail CVE-2020-8177 ,details0
+
+2025-07-25 11:35:56,791 - INFO - processing CVE-2020-8284 ( 47)
+2025-07-25 11:35:56,791 - INFO - running: python main.py --mfi --cve_id CVE-2020-8284 --path_to_vul_bin /binaries/reference/curl/CVE-2020-8284-vuln-abd846c374c5-curl --path_to_patch_bin /binaries/reference/curl/CVE-2020-8284-patch-ec9cc725d598-curl --vul_func_name Curl_init_userdefined
+2025-07-25 11:36:25,554 - INFO - success CVE-2020-8284,details in curl-cve_logs/CVE-2020-8284.log
+
+2025-07-25 11:36:25,554 - INFO - processing CVE-2020-8284 ( 48)
+2025-07-25 11:36:25,554 - INFO - running: python main.py --mfi --cve_id CVE-2020-8284 --path_to_vul_bin /binaries/reference/curl/CVE-2020-8284-vuln-abd846c374c5-curl --path_to_patch_bin /binaries/reference/curl/CVE-2020-8284-patch-ec9cc725d598-curl --vul_func_name config_init
+2025-07-25 11:36:29,041 - ERROR - fail CVE-2020-8284 ,details0
+
+2025-07-25 11:36:29,041 - INFO - processing CVE-2016-8624 ( 49)
+2025-07-25 11:36:29,041 - INFO - running: python main.py --mfi --cve_id CVE-2016-8624 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8624-vuln-164ee10b0b73-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8624-patch-3bb273db7e40-curl --vul_func_name parseurlandfillconn
+2025-07-25 11:36:42,987 - INFO - success CVE-2016-8624,details in curl-cve_logs/CVE-2016-8624.log
+
+2025-07-25 11:36:42,987 - INFO - processing CVE-2023-46218 ( 50)
+2025-07-25 11:36:42,987 - INFO - running: python main.py --mfi --cve_id CVE-2023-46218 --path_to_vul_bin /binaries/reference/curl/CVE-2023-46218-vuln-006977859dcc-curl --path_to_patch_bin /binaries/reference/curl/CVE-2023-46218-patch-2b0994c29a72-curl --vul_func_name Curl_cookie_add
+2025-07-25 11:50:58,885 - ERROR - fail CVE-2023-46218 ,details0
+
+2025-07-25 11:50:58,886 - INFO - processing CVE-2016-8623 ( 51)
+2025-07-25 11:50:58,886 - INFO - running: python main.py --mfi --cve_id CVE-2016-8623 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8623-vuln-fba28277ca17-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8623-patch-c5be3d7267c7-curl --vul_func_name Curl_cookie_cleanup
+2025-07-25 11:51:07,064 - ERROR - fail CVE-2016-8623 ,details0
+
+2025-07-25 11:51:07,064 - INFO - processing CVE-2016-8623 ( 52)
+2025-07-25 11:51:07,064 - INFO - running: python main.py --mfi --cve_id CVE-2016-8623 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8623-vuln-fba28277ca17-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8623-patch-c5be3d7267c7-curl --vul_func_name Curl_cookie_clearall
+2025-07-25 11:51:13,718 - ERROR - fail CVE-2016-8623 ,details0
+
+2025-07-25 11:51:13,718 - INFO - processing CVE-2016-8623 ( 53)
+2025-07-25 11:51:13,718 - INFO - running: python main.py --mfi --cve_id CVE-2016-8623 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8623-vuln-fba28277ca17-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8623-patch-c5be3d7267c7-curl --vul_func_name Curl_cookie_getlist
+2025-07-25 11:51:39,399 - ERROR - fail CVE-2016-8623 ,details0
+
+2025-07-25 11:51:39,400 - INFO - processing CVE-2016-8623 ( 54)
+2025-07-25 11:51:39,400 - INFO - running: python main.py --mfi --cve_id CVE-2016-8623 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8623-vuln-fba28277ca17-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8623-patch-c5be3d7267c7-curl --vul_func_name Curl_http
+2025-07-25 11:53:20,186 - ERROR - fail CVE-2016-8623 ,details0
+
+2025-07-25 11:53:20,186 - INFO - processing CVE-2016-8623 ( 55)
+2025-07-25 11:53:20,186 - INFO - running: python main.py --mfi --cve_id CVE-2016-8623 --path_to_vul_bin /binaries/reference/curl/CVE-2016-8623-vuln-fba28277ca17-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-8623-patch-c5be3d7267c7-curl --vul_func_name dup_cookie
+2025-07-25 11:53:23,708 - ERROR - fail CVE-2016-8623 ,details0
+
+2025-07-25 11:53:23,709 - INFO - processing CVE-2016-9594 ( 56)
+2025-07-25 11:53:23,709 - INFO - running: python main.py --mfi --cve_id CVE-2016-9594 --path_to_vul_bin /binaries/reference/curl/CVE-2016-9594-vuln-7a01b33c313f-curl --path_to_patch_bin /binaries/reference/curl/CVE-2016-9594-patch-f81b2277a8e7-curl --vul_func_name randit
+2025-07-25 11:53:32,125 - INFO - success CVE-2016-9594,details in curl-cve_logs/CVE-2016-9594.log
+
+2025-07-25 11:53:32,125 - INFO - processing CVE-2018-16842 ( 57)
+2025-07-25 11:53:32,125 - INFO - running: python main.py --mfi --cve_id CVE-2018-16842 --path_to_vul_bin /binaries/reference/curl/CVE-2018-16842-vuln-e97679a360dd-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-16842-patch-d530e92f59ae-curl --vul_func_name voutf
+2025-07-25 11:53:45,725 - ERROR - fail CVE-2018-16842 ,details0
+
+2025-07-25 11:53:45,726 - INFO - processing CVE-2018-1000122 ( 58)
+2025-07-25 11:53:45,726 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000122 --path_to_vul_bin /binaries/reference/curl/CVE-2018-1000122-vuln-ddb879c6ae31-curl --path_to_patch_bin /binaries/reference/curl/CVE-2018-1000122-patch-d52dc4760f6d-curl --vul_func_name readwrite_data
+2025-07-25 11:54:12,430 - ERROR - fail CVE-2018-1000122 ,details0
+

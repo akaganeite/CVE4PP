@@ -462,13 +462,14 @@ def parse_cve_results(project_name):
     total_false_negative = sum(len(stats['false_negative']) for stats in results.values())
     total_failed_versions = sum(len(stats['failed_versions']) for stats in results.values())
     total_targets = sum(stats['targets'] for stats in results.values())
+    valid_targets = total_succeed + total_false_positive + total_false_negative
     
     if total_targets > 0:
         accuracy = total_succeed / total_targets
-        filtered_acc = total_succeed / (total_targets  -  total_failed_versions)
+        filtered_acc = total_succeed / valid_targets
         print(f"总体准确率: {total_succeed}/{total_targets} = {accuracy:.4f}")
         print(f"False Positive: {total_false_positive}, False Negative: {total_false_negative}, Failed Versions: {total_failed_versions}")
-        print(f"filtered_acc:{total_succeed}/{total_targets}-{total_failed_versions} = {filtered_acc:.4f}")
+        print(f"filtered_acc:{total_succeed}/{total_succeed} + {total_false_positive} + {total_false_negative} = {filtered_acc:.4f}")
 
 def main():
     parser = argparse.ArgumentParser(description='解析BinXray检测结果')

@@ -3,22 +3,23 @@ binutils_result.csv:
   succeed/(targets-func_not_found) = 87/(222-32) = 0.4579
   succeed/valid_targets = 87/119 = 0.7311 (只考虑FP/FN)
 
+curl_result.csv:
+  succeed/targets = 107/214 = 0.5000
+  succeed/(targets-func_not_found) = 107/(214-3) = 0.5071
+  succeed/valid_targets = 107/136 = 0.7868 (只考虑FP/FN)
+
 libxml2_result.csv:
   succeed/targets = 76/215 = 0.3535
   succeed/(targets-func_not_found) = 76/(215-21) = 0.3918
   succeed/valid_targets = 76/135 = 0.5630 (只考虑FP/FN)
 
 openssl_result.csv:
-  succeed/targets = 52/82 = 0.6341
-  succeed/(targets-func_not_found) = 52/(82-9) = 0.7123
-  succeed/valid_targets = 52/56 = 0.9286 (只考虑FP/FN)
+  succeed/targets = 48/89 = 0.5393
+  succeed/(targets-func_not_found) = 48/(89-16) = 0.6575
+  succeed/valid_targets = 48/49 = 0.9796 (只考虑FP/FN)
 
 sqlite_result.csv:
-  succeed/targets = 60/130 = 0.4615
-  succeed/(targets-func_not_found) = 60/(130-0) = 0.4615
-  succeed/valid_targets = 60/90 = 0.6667 (只考虑FP/FN)
+  succeed/targets = 61/131 = 0.4656
+  succeed/(targets-func_not_found) = 61/(131-0) = 0.4656
+  succeed/valid_targets = 61/91 = 0.6703 (只考虑FP/FN)
 
-curl_result.csv:
-  succeed/targets = 107/214 = 0.5000
-  succeed/(targets-func_not_found) = 107/(214-3) = 0.5071
-  succeed/valid_targets = 107/136 = 0.7868 (只考虑FP/FN)

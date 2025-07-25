@@ -60,8 +60,8 @@ def run_cmd(cmd, cwd=None, env=None, shell=False, log_file=None):
         return False
 
 def compile_tag(input_tag, git_tag, compiler, opt_level):
-    if compiler == "clang":
-        BINARIES_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target_clang/binutils"
+    # if compiler == "clang":
+    #     BINARIES_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target_clang/binutils"
     build_dir = f"{BASE_BUILD_DIR}-{git_tag}-{compiler}-{opt_level}"
     objdump_path = os.path.join(build_dir, "binutils/objdump")
     objdump_target = os.path.join(BINARIES_DIR, f"binutils-{input_tag}-{opt_level.lower()}-objdump")
@@ -95,8 +95,8 @@ def compile_tag(input_tag, git_tag, compiler, opt_level):
         env = os.environ.copy()
         env["CC"] = compiler
         env["CXX"] = compiler + "++" if compiler == "gcc" else "clang++"
-        env["CFLAGS"] = f"-g3 -{opt_level}"
-        env["CXXFLAGS"] = f"-g3 -{opt_level}"
+        env["CFLAGS"] = f"-{opt_level} -pipe"
+        env["CXXFLAGS"] = f"-{opt_level} -pipe"
 
         configure_cmd = [
             os.path.join(REPO_DIR, "configure"),

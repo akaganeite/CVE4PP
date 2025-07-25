@@ -4,9 +4,9 @@ binutils:
         False Positive: 19, False Negative: 33, Failed Versions: 21
         filtered_acc:160/237-21 = 0.7407
     Func-acc:
-        succeed/targets = 197/307 = 0.6417
-        succeed/(targets-func_not_found) = 197/(307-3) = 0.6480
-        succeed/valid_targets = 197/262 = 0.7519 (只考虑FP/FN)
+        总体准确率: 151/238 = 0.6345
+        False Positive: 19, False Negative: 31, Failed Versions: 33
+        filtered_acc:151/238-33 = 0.7512
 
 curl:
     CVE-acc:
@@ -14,21 +14,25 @@ curl:
         False Positive: 14, False Negative: 25, Failed Versions: 36
         filtered_acc:129/214-36 = 0.7247
     Func-acc:
-        succeed/targets = 161/304 = 0.5296
-        succeed/(targets-func_not_found) = 161/(304-2) = 0.5331
-        succeed/valid_targets = 161/215 = 0.7488 (只考虑FP/FN)
+        总体准确率: 120/214 = 0.5607
+        False Positive: 11, False Negative: 23, Failed Versions: 50
+        filtered_acc:120/214-50 = 0.7792
 
 ffmpeg:
     CVE_acc:
+        总体准确率: 31/125 = 0.2480
+        False Positive: 2, False Negative: 8, Failed Versions: 33
+        filtered_acc:31/31 + 2 + 8 = 0.7561
+    Func-acc:
         succeed/targets = 42/163 = 0.2577
         succeed/(targets-func_not_found) = 42/(163-3) = 0.2625
         succeed/valid_targets = 42/55 = 0.7636 (只考虑FP/FN)
 
 libxml2:
     CVE-acc:
-        总体准确率: 43/94 = 0.4574
-        False Positive: 7, False Negative: 18, Failed Versions: 26
-        filtered_acc:43/94-26 = 0.6324
+        总体准确率: 40/216 = 0.1852
+        False Positive: 7, False Negative: 13, Failed Versions: 34
+        filtered_acc:40/40 + 7 + 13 = 0.6667
     Func-acc:
         succeed/targets = 91/450 = 0.2022
         succeed/(targets-func_not_found) = 91/(450-0) = 0.2022
@@ -36,9 +40,9 @@ libxml2:
 
 openssl:
     CVE-acc:
-        总体准确率: 121/191 = 0.6335
-        False Positive: 9, False Negative: 6, Failed Versions: 36
-        filtered_acc:121/191-36 = 0.7806
+        总体准确率: 114/216 = 0.5278
+        False Positive: 6, False Negative: 10, Failed Versions: 62
+        filtered_acc:114/114 + 6 + 10 = 0.8769
     Func-acc:
         succeed/targets = 226/416 = 0.5433
         succeed/(targets-func_not_found) = 226/(416-11) = 0.5580
@@ -46,7 +50,41 @@ openssl:
 
 sqlite:
     CVE-acc:
+        总体准确率: 28/50 = 0.5600
+        False Positive: 4, False Negative: 10, Failed Versions: 8
+        filtered_acc:28/50-8 = 0.6667
     Func-acc:
         succeed/targets = 43/82 = 0.5244
         succeed/(targets-func_not_found) = 43/(82-0) = 0.5244
         succeed/valid_targets = 43/66 = 0.6515 (只考虑FP/FN)
+
+
+binutils_result.csv:
+  succeed/targets = 197/307 = 0.6417
+  succeed/(targets-func_not_found) = 197/(307-3) = 0.6480
+  succeed/valid_targets = 197/262 = 0.7519 (只考虑FP/FN)
+
+libxml2_result.csv:
+  succeed/targets = 91/444 = 0.2050
+  succeed/(targets-func_not_found) = 91/(444-0) = 0.2050
+  succeed/valid_targets = 91/144 = 0.6319 (只考虑FP/FN)
+
+openssl_result.csv:
+  succeed/targets = 258/453 = 0.5695
+  succeed/(targets-func_not_found) = 258/(453-12) = 0.5850
+  succeed/valid_targets = 258/303 = 0.8515 (只考虑FP/FN)
+
+sqlite_result.csv:
+  succeed/targets = 43/82 = 0.5244
+  succeed/(targets-func_not_found) = 43/(82-0) = 0.5244
+  succeed/valid_targets = 43/66 = 0.6515 (只考虑FP/FN)
+
+ffmpeg_result.csv:
+  succeed/targets = 42/163 = 0.2577
+  succeed/(targets-func_not_found) = 42/(163-3) = 0.2625
+  succeed/valid_targets = 42/55 = 0.7636 (只考虑FP/FN)
+
+curl_result.csv:
+  succeed/targets = 161/304 = 0.5296
+  succeed/(targets-func_not_found) = 161/(304-2) = 0.5331
+  succeed/valid_targets = 161/215 = 0.7488 (只考虑FP/FN)

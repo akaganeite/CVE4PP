@@ -1,123 +1,210 @@
-import re
 import csv
+import re
 from collections import defaultdict
-import os
 
-# 1. 读取test文件，建立映射 (CVE, func, binary_path) -> label
-TEST_PATH = os.path.join(os.path.dirname(__file__), '../../../binaries/Robin/test')
-LOG_PATH = os.path.join(os.path.dirname(__file__), 'patch_detection_full.log')
-CSV_PATH = os.path.join(os.path.dirname(__file__), 'results.csv')
-OUTPUT_CSV_PATH = os.path.join(os.path.dirname(__file__), 'results_with_project.csv')
-
-# 读取test文件
-test_map = dict()  # (CVE, func, binary_path) -> label
-with open(TEST_PATH, 'r') as f:
-    for line in f:
-        line = line.strip()
-        if not line:
-            continue
-        parts = line.split(',')
-        if len(parts) < 4:
-            continue
-        cve, binary_path, func, label = parts[:4]
-        test_map[(cve, func, os.path.basename(binary_path))] = int(label)
-
-# 2. 读取log文件，提取(CVE, func, binary_path) -> score 和 (CVE, func) -> project
-log_map = dict()  # (cve, func, binary) -> score
-cve_func_to_project_map = dict() # (cve, func) -> project
-with open(LOG_PATH, 'r') as f:
-    cve = func = binary = project = None
-    for line in f:
-        if line.startswith('CVE ID:'):
-            cve = line.strip().split(':')[1].strip()
-        elif line.startswith('Target Binary:'):
-            binary_full_path = line.strip().split(':', 1)[1].strip()
-            binary = os.path.basename(binary_full_path)
-            match = re.search(r'/binaries/target/([^/]+)/', binary_full_path)
-            if match:
-                project = match.group(1)
-        elif line.startswith('Vulnerable Function Name:'):
-            func = line.strip().split(':', 1)[1].strip()
-        elif 'Overall Score is:' in line:
-            score = float(line.strip().split(':')[1].strip())
-            if cve and func and binary:
-                log_map[(cve, func, binary)] = score
-                if project:
-                    cve_func_to_project_map[(cve, func)] = project
-            # 重置，防止串行
-            cve = func = binary = project = None
-
-# 3. 读取results.csv，并存入map方便查找
-rows = []
-row_map = dict()  # (CVE, func) -> row
-with open(CSV_PATH, 'r', encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        rows.append(row)
-        row_map[(row['CVE'], row['func'])] = row
-
-# 4. 统计新字段，优先补充到原有行，找不到才新建
-# 从test和log数据中收集所有 (cve, func) 键
-all_cve_func_keys_from_data = set()
-for cve, func, _ in test_map.keys():
-    all_cve_func_keys_from_data.add((cve, func))
-for cve, func, _ in log_map.keys():
-    all_cve_func_keys_from_data.add((cve, func))
-
-# 遍历所有收集到的 (cve, func) 对
-for cve, func in sorted(list(all_cve_func_keys_from_data)):
-    
-    # 查找或创建CSV中的行
-    if (cve, func) in row_map:
-        row = row_map[(cve, func)]
-    else:
-        # 如果CSV中没有，则创建新行
-        row = {'CVE': cve, 'func': func}
-        row_map[(cve, func)] = row
-        rows.append(row)
-
-    # 初始化/重置统计字段
-    succeed = 0
-    false_positive = []
-    false_negative = []
-
-    # 遍历test_map中所有与当前(cve, func)相关的二进制文件
-    for (tcve, tfunc, tbinary), label in test_map.items():
-        if tcve == cve and tfunc == func:
-            score = log_map.get((cve, func, tbinary))
-            if score is None:
+def parse_test_file(file_path):
+    truth_dict = defaultdict(list)
+    with open(file_path, 'r') as f:
+        for line in f:
+            parts = line.strip().split(',')
+            if len(parts) < 4: 
                 continue
+            cve = parts[0]
+            binary = parts[1].strip()
+            func = parts[2].strip()
+            truth = int(parts[3])
+            project = binary.split('/')[3]  # 从路径提取项目名
             
-            # 核心逻辑：比较label和score
-            if label == -1 and score > 0:
-                false_positive.append(tbinary)
-            elif label == 1 and score < 0:
-                false_negative.append(tbinary)
-            elif (label * score) > 0: # 符号相同
-                succeed += 1
+            key = (cve, func)
+            truth_dict[key].append((binary, truth, project))
+    return truth_dict
+
+def parse_result_file(file_path):
+    result_dict = {}
+    with open(file_path, 'r') as f:
+        content = f.read().split('--------------------------------------------')
+        for block in content:
+            if not block.strip(): 
+                continue
+            cve = func = binary = None
+            score = None
+            
+            lines = block.strip().split('\n')
+            for line in lines:
+                if line.startswith('CVE ID: '):
+                    cve = line.split('CVE ID: ')[1].strip()
+                elif line.startswith('Target Binary: '):
+                    binary = line.split('Target Binary: ')[1].strip()
+                elif line.startswith('Vulnerable Function Name: '):
+                    func = line.split('Vulnerable Function Name: ')[1].strip()
+                elif line.startswith('Overall Score is: '):
+                    score_str = line.split('Overall Score is: ')[1].strip()
+                    try:
+                        score = float(score_str)
+                    except ValueError:
+                        continue
+            
+            if cve and func and binary is not None and score is not None:
+                key = (cve, func, binary)
+                result_dict[key] = score
+    return result_dict
+
+def parse_log_file(file_path):
+    failed_versions = set()  # 使用集合存储唯一的三元组
+    current_cve = current_func = current_binary = None
     
-    # 更新行数据
-    row['succeed'] = str(succeed)
-    row['false positive'] = ','.join(sorted(false_positive))
-    row['false negative'] = ','.join(sorted(false_negative))
-    row['project'] = cve_func_to_project_map.get((cve, func), '')
+    with open(file_path, 'r') as f:
+        for line in f:
+            # 解析命令行获取目标二进制
+            if '--detect' in line and '--cve_id' in line and '--target_bin' in line and '--vul_func_name' in line:
+                # 改进的正则表达式提取所有必要信息
+                match = re.search(r'--cve_id (\S+) --target_bin (\S+) --vul_func_name (\S+)', line)
+                if match:
+                    current_cve, current_binary, current_func = match.groups()
+            
+            # 检测ERROR行
+            if 'ERROR - fail' in line:
+                if current_cve and current_func and current_binary:
+                    # 创建三元组作为唯一key
+                    triple = (current_cve, current_func, current_binary)
+                    failed_versions.add(triple)
+    
+    return failed_versions
 
-# 5. 输出新的csv
-project_order = ['ffmpeg', 'openssl', 'libxml2', 'binutils', 'curl', 'sqlite']
-def project_sort_key(row):
-    proj = row.get('project', '')
-    if proj in project_order:
-        return (project_order.index(proj), proj, row.get('CVE', ''), row.get('func', ''))
-    else:
-        return (len(project_order), proj, row.get('CVE', ''), row.get('func', ''))
-rows_sorted = sorted(rows, key=project_sort_key)
-
-fieldnames = ['project', 'CVE', 'func', 'succeed', 'targets', 'false positive', 'false negative', 'failed versions']
-with open(OUTPUT_CSV_PATH, 'w', encoding='utf-8', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
-    writer.writeheader()
-    writer.writerows(rows_sorted)
-
-print(f"解析完成，结果已保存到 {OUTPUT_CSV_PATH}")
-
+def generate_report(truth_dict, result_dict, failed_versions_set, output_path):
+    report_dict = defaultdict(lambda: {
+        'succeed': 0,
+        'target': 0,
+        'false_positive': 0,
+        'false_negative': 0,
+        'failed_versions': []
+    })
+    
+    # 准备项目名映射（每个CVE+func组合的项目名相同）
+    project_map = {}
+    for (cve, func), values in truth_dict.items():
+        project_map[(cve, func)] = values[0][2]  # 取第一个项目的项目名
+    
+    # 处理每个ground truth条目
+    for (cve, func), entries in truth_dict.items():
+        key = (cve, func)
+        report = report_dict[key]
+        report['target'] = len(entries)  # 设置target值
         
+        # 处理每个二进制版本
+        for binary, truth, _ in entries:
+            # 创建三元组用于失败版本检查
+            triple = (cve, func, binary)
+            
+            # 检查是否是失败版本
+            if triple in failed_versions_set:
+                report['failed_versions'].append(binary)
+                continue  # 跳过统计，因为是失败版本
+            
+            # 检查是否有测试结果
+            result_key = triple  # 使用相同的三元组格式
+            if result_key in result_dict:
+                score = result_dict[result_key]
+                
+                # 检查是否匹配
+                if (score > 0 and truth == 1) or (score <= 0 and truth == -1):
+                    report['succeed'] += 1
+                else:
+                    if score > 0 and truth == -1:
+                        report['false_positive'] += 1
+                    elif score <= 0 and truth == 1:
+                        report['false_negative'] += 1
+    
+    # 写入CSV
+    with open(output_path, 'w', newline='') as f:
+        fieldnames = ['project', 'CVE', 'func', 'succeed', 'target', 
+                     'false_positive', 'false_negative', 'failed_versions']
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for (cve, func), report in report_dict.items():
+            row = {
+                'project': project_map[(cve, func)],
+                'CVE': cve,
+                'func': func,
+                'succeed': report['succeed'],
+                'target': report['target'],
+                'false_positive': report['false_positive'],
+                'false_negative': report['false_negative'],
+                'failed_versions': ";".join(report['failed_versions'])
+            }
+            writer.writerow(row)
+
+def generate_accuracy_report(report_csv, accuracy_output):
+    project_stats = defaultdict(lambda: {
+        'total_succeed': 0,
+        'total_target': 0,
+        'total_fp': 0,
+        'total_fn': 0
+    })
+    
+    # 读取主报告CSV
+    with open(report_csv, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            project = row['project']
+            stats = project_stats[project]
+            
+            # 累加各项指标
+            stats['total_succeed'] += int(row['succeed'])
+            stats['total_target'] += int(row['target'])
+            stats['total_fp'] += int(row['false_positive'])
+            stats['total_fn'] += int(row['false_negative'])
+    
+    # 计算准确率并生成报告
+    with open(accuracy_output, 'w', newline='') as f:
+        fieldnames = ['project', 'accuracy_simple', 'accuracy_effective']
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        for project, stats in project_stats.items():
+            total_succeed = stats['total_succeed']
+            total_target = stats['total_target']
+            total_errors = stats['total_fp'] + stats['total_fn']
+            
+            # 第一个准确率：成功检测数/总检测目标数
+            accuracy_simple = total_succeed / total_target if total_target > 0 else 0
+            
+            # 第二个准确率：成功检测数/(成功数+假阳性+假阴性)
+            accuracy_effective = 0
+            denominator = total_succeed + total_errors
+            if denominator > 0:
+                accuracy_effective = total_succeed / denominator
+            
+            # 转换为百分比格式并保留两位小数
+            accuracy_simple = f"{accuracy_simple:.2%}"
+            accuracy_effective = f"{accuracy_effective:.2%}"
+            
+            writer.writerow({
+                'project': project,
+                'accuracy_simple': accuracy_simple,
+                'accuracy_effective': accuracy_effective
+            })
+
+if __name__ == "__main__":
+    # 输入文件（根据实际情况修改路径）
+    test_file = "../../../binaries/Robin/test"
+    result_file = "patch_detection_full.log"
+    log_file = "detectdetails.log"
+    output_csv = "report.csv"
+    accuracy_csv = "acc.csv"  # 新增准确率报告
+    
+    # 解析文件
+    truth_data = parse_test_file(test_file)
+    result_data = parse_result_file(result_file)
+    
+    # 解析日志并获取失败版本集合
+    failed_versions_set = parse_log_file(log_file)
+    
+    # 生成主报告
+    generate_report(truth_data, result_data, failed_versions_set, output_csv)
+    print(f"主报告已生成至: {output_csv}")
+    
+    # 生成准确率统计报告
+    generate_accuracy_report(output_csv, accuracy_csv)
+    print(f"准确率报告已生成至: {accuracy_csv}")

@@ -1,11 +1,12 @@
+
 CVE-2017-13710 binutils-2.29-o0-objdump truth = vuln result = vuln
 CVE-2017-13710 binutils-2.29.1-o0-objdump truth = patch result = patch
 CVE-2017-13710 binutils-2.30-o0-objdump truth = patch result = patch
 CVE-2017-13710 binutils-2.31-o0-objdump truth = patch result = patch
 CVE-2017-13757 binutils-2.29-o0-objdump truth = vuln result = vuln
-CVE-2017-13757 binutils-2.29.1-o0-objdump truth = patch result = patch
-CVE-2017-13757 binutils-2.30-o0-objdump truth = patch result = patch
-CVE-2017-13757 binutils-2.31-o0-objdump truth = patch result = patch
+TestJson(file='binutils-2.29.1-o0-objdump', cve='CVE-2017-13757', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.30-o0-objdump', cve='CVE-2017-13757', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.31-o0-objdump', cve='CVE-2017-13757', commit='', ground_truth='patch', project='binutils') is not valid
 CVE-2017-14128 binutils-2.29-o0-objdump truth = vuln result = vuln
 CVE-2017-14128 binutils-2.29.1-o0-objdump truth = patch result = patch
 CVE-2017-14128 binutils-2.30-o0-objdump truth = patch result = vuln
@@ -66,10 +67,10 @@ CVE-2017-15022 binutils-2.29-o0-objdump truth = vuln result = patch
 CVE-2017-15022 binutils-2.30-o0-objdump truth = patch result = patch
 CVE-2017-15022 binutils-2.31-o0-objdump truth = patch result = patch
 CVE-2017-15022 binutils-2.31.1-o0-objdump truth = patch result = patch
-CVE-2017-15024 binutils-2.29-o0-objdump truth = vuln result = vuln
-CVE-2017-15024 binutils-2.29.1-o0-objdump truth = patch result = vuln
-CVE-2017-15024 binutils-2.30-o0-objdump truth = patch result = patch
-CVE-2017-15024 binutils-2.31-o0-objdump truth = patch result = vuln
+TestJson(file='binutils-2.29-o0-objdump', cve='CVE-2017-15024', commit='', ground_truth='vuln', project='binutils') is not valid
+TestJson(file='binutils-2.29.1-o0-objdump', cve='CVE-2017-15024', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.30-o0-objdump', cve='CVE-2017-15024', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.31-o0-objdump', cve='CVE-2017-15024', commit='', ground_truth='patch', project='binutils') is not valid
 CVE-2017-15025 binutils-2.29-o0-objdump truth = vuln result = patch
 CVE-2017-15025 binutils-2.29.1-o0-objdump truth = patch result = patch
 CVE-2017-15025 binutils-2.30-o0-objdump truth = patch result = patch
@@ -78,8 +79,8 @@ CVE-2017-15225 binutils-2.29-o0-objdump truth = vuln result = vuln
 CVE-2017-15225 binutils-2.30-o0-objdump truth = patch result = patch
 CVE-2017-15225 binutils-2.31-o0-objdump truth = patch result = patch
 CVE-2017-15225 binutils-2.31.1-o0-objdump truth = patch result = patch
-CVE-2017-15938 binutils-2.29-o0-objdump truth = vuln result = vuln
-CVE-2017-15938 binutils-2.30-o0-objdump truth = patch result = vuln
+TestJson(file='binutils-2.29-o0-objdump', cve='CVE-2017-15938', commit='', ground_truth='vuln', project='binutils') is not valid
+TestJson(file='binutils-2.30-o0-objdump', cve='CVE-2017-15938', commit='', ground_truth='patch', project='binutils') is not valid
 TestJson(file='binutils-2.31-o0-objdump', cve='CVE-2017-15938', commit='', ground_truth='patch', project='binutils') is not valid
 TestJson(file='binutils-2.31.1-o0-objdump', cve='CVE-2017-15938', commit='', ground_truth='patch', project='binutils') is not valid
 CVE-2017-15939 binutils-2.29-o0-objdump truth = vuln result = vuln
@@ -230,9 +231,9 @@ CVE-2022-48064 binutils-2.42-o0-objdump truth = patch result = patch
 TestJson(file='binutils-2.39-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='vuln', project='binutils') is not valid
 TestJson(file='binutils-2.38-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='vuln', project='binutils') is not valid
 TestJson(file='binutils-2.37-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='vuln', project='binutils') is not valid
-CVE-2022-48065 binutils-2.40-o0-objdump truth = patch result = patch
-CVE-2022-48065 binutils-2.41-o0-objdump truth = patch result = patch
-CVE-2022-48065 binutils-2.42-o0-objdump truth = patch result = patch
+TestJson(file='binutils-2.40-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.41-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='patch', project='binutils') is not valid
+TestJson(file='binutils-2.42-o0-objdump', cve='CVE-2022-48065', commit='', ground_truth='patch', project='binutils') is not valid
 CVE-2023-1579 binutils-2.39-o0-objdump truth = vuln result = vuln
 CVE-2023-1579 binutils-2.40-o0-objdump truth = patch result = patch
 CVE-2023-1579 binutils-2.41-o0-objdump truth = patch result = patch

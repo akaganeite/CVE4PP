@@ -1,0 +1,307 @@
+2025-07-21 18:37:03,469 - INFO - processing CVE-2022-48065 ( 1)
+2025-07-21 18:37:03,469 - INFO - running: python main.py --mfi --cve_id CVE-2022-48065 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-48065-vuln-f7cb9bba3d5d-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-48065-patch-d28fbc7197ba-objdump --vul_func_name find_abstract_instance
+2025-07-21 18:37:25,062 - INFO - success CVE-2022-48065,details in binutils-cve_logs/CVE-2022-48065.log
+
+2025-07-21 18:37:25,062 - INFO - processing CVE-2022-48065 ( 2)
+2025-07-21 18:37:25,062 - INFO - running: python main.py --mfi --cve_id CVE-2022-48065 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-48065-vuln-f7cb9bba3d5d-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-48065-patch-d28fbc7197ba-objdump --vul_func_name scan_unit_for_symbols
+2025-07-21 18:38:27,297 - ERROR - fail CVE-2022-48065 ,details0
+
+2025-07-21 18:38:27,297 - INFO - processing CVE-2017-17122 ( 3)
+2025-07-21 18:38:27,297 - INFO - running: python main.py --mfi --cve_id CVE-2017-17122 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-17122-vuln-08f650e6b657-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-17122-patch-d785b7d4b877-objdump --vul_func_name dump_relocs_in_section
+2025-07-21 18:38:53,539 - ERROR - fail CVE-2017-17122 ,details0
+
+2025-07-21 18:38:53,539 - INFO - processing CVE-2018-19932 ( 4)
+2025-07-21 18:38:53,539 - INFO - running: python main.py --mfi --cve_id CVE-2018-19932 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-19932-vuln-ba85c15dabe1-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-19932-patch-beab45322376-objdump --vul_func_name rewrite_elf_program_header
+2025-07-21 18:52:47,562 - ERROR - fail CVE-2018-19932 ,details0
+
+2025-07-21 18:52:47,562 - INFO - processing CVE-2017-14933 ( 5)
+2025-07-21 18:52:47,562 - INFO - running: python main.py --mfi --cve_id CVE-2017-14933 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14933-vuln-281c44477384-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14933-patch-30d0157a2ad6-objdump --vul_func_name read_formatted_entries
+2025-07-21 18:53:41,930 - INFO - success CVE-2017-14933,details in binutils-cve_logs/CVE-2017-14933.log
+
+2025-07-21 18:53:41,931 - INFO - processing CVE-2017-15939 ( 6)
+2025-07-21 18:53:41,932 - INFO - running: python main.py --mfi --cve_id CVE-2017-15939 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15939-vuln-e338894dc2e6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15939-patch-a54018b72d75-objdump --vul_func_name concat_filename
+2025-07-21 18:54:13,806 - ERROR - fail CVE-2017-15939 ,details0
+
+2025-07-21 18:54:13,807 - INFO - processing CVE-2017-15939 ( 7)
+2025-07-21 18:54:13,807 - INFO - running: python main.py --mfi --cve_id CVE-2017-15939 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15939-vuln-e338894dc2e6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15939-patch-a54018b72d75-objdump --vul_func_name decode_line_info
+2025-07-21 18:58:30,379 - INFO - success CVE-2017-15939,details in binutils-cve_logs/CVE-2017-15939.log
+
+2025-07-21 18:58:30,380 - INFO - processing CVE-2017-15939 ( 8)
+2025-07-21 18:58:30,380 - INFO - running: python main.py --mfi --cve_id CVE-2017-15939 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15939-vuln-e338894dc2e6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15939-patch-a54018b72d75-objdump --vul_func_name read_formatted_entries
+2025-07-21 18:59:17,724 - ERROR - fail CVE-2017-15939 ,details0
+
+2025-07-21 18:59:17,724 - INFO - processing CVE-2017-17124 ( 9)
+2025-07-21 18:59:17,724 - INFO - running: python main.py --mfi --cve_id CVE-2017-17124 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-17124-vuln-ff174d3ffad1-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-17124-patch-b0029dce6867-objdump --vul_func_name _bfd_coff_read_string_table
+2025-07-21 18:59:41,796 - ERROR - fail CVE-2017-17124 ,details0
+
+2025-07-21 18:59:41,796 - INFO - processing CVE-2017-15021 ( 10)
+2025-07-21 18:59:41,796 - INFO - running: python main.py --mfi --cve_id CVE-2017-15021 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15021-vuln-a26a013f22a1-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15021-patch-52b36c51e5bf-objdump --vul_func_name bfd_get_debug_link_info_1
+2025-07-21 18:59:57,474 - ERROR - fail CVE-2017-15021 ,details0
+
+2025-07-21 18:59:57,474 - INFO - processing CVE-2018-18605 ( 11)
+2025-07-21 18:59:57,474 - INFO - running: python main.py --mfi --cve_id CVE-2018-18605 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-18605-vuln-8e3152af14a9-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-18605-patch-ab419ddbb2cd-objdump --vul_func_name _bfd_add_merge_section
+2025-07-21 19:00:35,477 - ERROR - fail CVE-2018-18605 ,details0
+
+2025-07-21 19:00:35,478 - INFO - processing CVE-2017-16831 ( 12)
+2025-07-21 19:00:35,478 - INFO - running: python main.py --mfi --cve_id CVE-2017-16831 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16831-vuln-8e68731c8a4a-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16831-patch-6cee897971d4-objdump --vul_func_name _bfd_coff_get_external_symbols
+2025-07-21 19:00:46,385 - INFO - success CVE-2017-16831,details in binutils-cve_logs/CVE-2017-16831.log
+
+2025-07-21 19:00:46,386 - INFO - processing CVE-2017-16831 ( 13)
+2025-07-21 19:00:46,386 - INFO - running: python main.py --mfi --cve_id CVE-2017-16831 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16831-vuln-8e68731c8a4a-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16831-patch-6cee897971d4-objdump --vul_func_name coff_get_normalized_symtab
+2025-07-21 19:00:59,455 - INFO - success CVE-2017-16831,details in binutils-cve_logs/CVE-2017-16831.log
+
+2025-07-21 19:00:59,456 - INFO - processing CVE-2017-14129 ( 14)
+2025-07-21 19:00:59,456 - INFO - running: python main.py --mfi --cve_id CVE-2017-14129 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14129-vuln-b55f3386e45d-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14129-patch-e4f272300385-objdump --vul_func_name read_section
+2025-07-21 19:01:13,181 - INFO - success CVE-2017-14129,details in binutils-cve_logs/CVE-2017-14129.log
+
+2025-07-21 19:01:13,181 - INFO - processing CVE-2017-14932 ( 15)
+2025-07-21 19:01:13,181 - INFO - running: python main.py --mfi --cve_id CVE-2017-14932 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14932-vuln-898f57a89f3f-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14932-patch-e338894dc2e6-objdump --vul_func_name decode_line_info
+2025-07-21 19:06:33,482 - ERROR - fail CVE-2017-14932 ,details0
+
+2025-07-21 19:06:33,483 - INFO - processing CVE-2017-15938 ( 16)
+2025-07-21 19:06:33,483 - INFO - running: python main.py --mfi --cve_id CVE-2017-15938 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15938-vuln-5c1c468d0edd-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15938-patch-1b86808a8607-objdump --vul_func_name find_abstract_instance_name
+2025-07-21 19:06:46,246 - INFO - success CVE-2017-15938,details in binutils-cve_logs/CVE-2017-15938.log
+
+2025-07-21 19:06:46,246 - INFO - processing CVE-2017-15938 ( 17)
+2025-07-21 19:06:46,246 - INFO - running: python main.py --mfi --cve_id CVE-2017-15938 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15938-vuln-5c1c468d0edd-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15938-patch-1b86808a8607-objdump --vul_func_name parse_comp_unit
+2025-07-21 19:06:56,730 - ERROR - fail CVE-2017-15938 ,details0
+
+2025-07-21 19:06:56,731 - INFO - processing CVE-2017-15025 ( 18)
+2025-07-21 19:06:56,731 - INFO - running: python main.py --mfi --cve_id CVE-2017-15025 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15025-vuln-515f23e63c00-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15025-patch-d8010d3e75ec-objdump --vul_func_name decode_line_info
+2025-07-21 19:09:57,962 - ERROR - fail CVE-2017-15025 ,details0
+
+2025-07-21 19:09:57,963 - INFO - processing CVE-2018-18606 ( 19)
+2025-07-21 19:09:57,963 - INFO - running: python main.py --mfi --cve_id CVE-2018-18606 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-18606-vuln-102def4da826-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-18606-patch-45a0eaf77022-objdump --vul_func_name _bfd_add_merge_section
+2025-07-21 19:11:32,471 - ERROR - fail CVE-2018-18606 ,details0
+
+2025-07-21 19:11:32,471 - INFO - processing CVE-2018-7570 ( 20)
+2025-07-21 19:11:32,471 - INFO - running: python main.py --mfi --cve_id CVE-2018-7570 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-7570-vuln-340d33e565ee-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-7570-patch-01f7e10cf2dc-objdump --vul_func_name assign_file_positions_for_non_load_sections
+2025-07-21 19:15:13,004 - ERROR - fail CVE-2018-7570 ,details0
+
+2025-07-21 19:15:13,004 - INFO - processing CVE-2021-20294 ( 21)
+2025-07-21 19:15:13,004 - INFO - running: python main.py --mfi --cve_id CVE-2021-20294 --path_to_vul_bin /binaries/reference/binutils/CVE-2021-20294-vuln-0faed9a75423-readelf --path_to_patch_bin /binaries/reference/binutils/CVE-2021-20294-patch-372dd157272e-readelf --vul_func_name print_dynamic_symbol
+2025-07-21 19:15:24,680 - INFO - success CVE-2021-20294,details in binutils-cve_logs/CVE-2021-20294.log
+
+2025-07-21 19:15:24,680 - INFO - processing CVE-2017-13710 ( 22)
+2025-07-21 19:15:24,680 - INFO - running: python main.py --mfi --cve_id CVE-2017-13710 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-13710-vuln-d7f00f429aa5-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-13710-patch-0c54f6929520-objdump --vul_func_name setup_group
+2025-07-21 19:15:37,994 - INFO - success CVE-2017-13710,details in binutils-cve_logs/CVE-2017-13710.log
+
+2025-07-21 19:15:37,994 - INFO - processing CVE-2017-15024 ( 23)
+2025-07-21 19:15:37,994 - INFO - running: python main.py --mfi --cve_id CVE-2017-15024 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15024-vuln-d8010d3e75ec-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15024-patch-52a93b95ec07-objdump --vul_func_name find_abstract_instance_name
+2025-07-21 19:16:09,253 - INFO - success CVE-2017-15024,details in binutils-cve_logs/CVE-2017-15024.log
+
+2025-07-21 19:16:09,253 - INFO - processing CVE-2017-15024 ( 24)
+2025-07-21 19:16:09,253 - INFO - running: python main.py --mfi --cve_id CVE-2017-15024 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15024-vuln-d8010d3e75ec-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15024-patch-52a93b95ec07-objdump --vul_func_name scan_unit_for_symbols
+2025-07-21 19:16:19,920 - INFO - success CVE-2017-15024,details in binutils-cve_logs/CVE-2017-15024.log
+
+2025-07-21 19:16:19,920 - INFO - processing CVE-2017-16828 ( 25)
+2025-07-21 19:16:19,920 - INFO - running: python main.py --mfi --cve_id CVE-2017-16828 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16828-vuln-3334eba7f4ae-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16828-patch-bf59c5d5f4f5-objdump --vul_func_name display_debug_frames
+2025-07-21 19:22:23,757 - ERROR - fail CVE-2017-16828 ,details0
+
+2025-07-21 19:22:23,758 - INFO - processing CVE-2017-16828 ( 26)
+2025-07-21 19:22:23,758 - INFO - running: python main.py --mfi --cve_id CVE-2017-16828 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16828-vuln-3334eba7f4ae-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16828-patch-bf59c5d5f4f5-objdump --vul_func_name read_cie
+2025-07-21 19:22:33,042 - ERROR - fail CVE-2017-16828 ,details1
+
+2025-07-21 19:22:33,043 - INFO - processing CVE-2020-16590 ( 27)
+2025-07-21 19:22:33,043 - INFO - running: python main.py --mfi --cve_id CVE-2020-16590 --path_to_vul_bin /binaries/reference/binutils/CVE-2020-16590-vuln-6a0541414523-readelf --path_to_patch_bin /binaries/reference/binutils/CVE-2020-16590-patch-c98a4545dc7b-readelf --vul_func_name get_num_dynamic_syms
+2025-07-21 19:22:35,594 - ERROR - fail CVE-2020-16590 ,details0
+
+2025-07-21 19:22:35,594 - INFO - processing CVE-2018-20671 ( 28)
+2025-07-21 19:22:35,595 - INFO - running: python main.py --mfi --cve_id CVE-2018-20671 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-20671-vuln-cf0ad5bbf2d3-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-20671-patch-11fa9f134fd6-objdump --vul_func_name load_specific_debug_section
+2025-07-21 19:22:49,642 - INFO - success CVE-2018-20671,details in binutils-cve_logs/CVE-2018-20671.log
+
+2025-07-21 19:22:49,642 - INFO - processing CVE-2018-18607 ( 29)
+2025-07-21 19:22:49,642 - INFO - running: python main.py --mfi --cve_id CVE-2018-18607 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-18607-vuln-ab419ddbb2cd-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-18607-patch-102def4da826-objdump --vul_func_name elf_link_input_bfd
+2025-07-21 19:23:28,735 - INFO - success CVE-2018-18607,details in binutils-cve_logs/CVE-2018-18607.log
+
+2025-07-21 19:23:28,736 - INFO - processing CVE-2017-14729 ( 30)
+2025-07-21 19:23:28,736 - INFO - running: python main.py --mfi --cve_id CVE-2017-14729 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14729-vuln-59ca4c1bbd48-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14729-patch-61e3bf5f83f7-objdump --vul_func_name _bfd_x86_elf_get_synthetic_symtab
+2025-07-21 19:24:03,049 - ERROR - fail CVE-2017-14729 ,details0
+
+2025-07-21 19:24:03,049 - INFO - processing CVE-2017-14974 ( 31)
+2025-07-21 19:24:03,049 - INFO - running: python main.py --mfi --cve_id CVE-2017-14974 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14974-vuln-ea2fdc5952e2-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14974-patch-e70c19e3a4c2-objdump --vul_func_name elf_i386_get_synthetic_symtab
+2025-07-21 19:24:18,514 - ERROR - fail CVE-2017-14974 ,details0
+
+2025-07-21 19:24:18,515 - INFO - processing CVE-2017-14974 ( 32)
+2025-07-21 19:24:18,515 - INFO - running: python main.py --mfi --cve_id CVE-2017-14974 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14974-vuln-ea2fdc5952e2-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14974-patch-e70c19e3a4c2-objdump --vul_func_name elf_x86_64_get_synthetic_symtab
+2025-07-21 19:24:34,221 - ERROR - fail CVE-2017-14974 ,details0
+
+2025-07-21 19:24:34,221 - INFO - processing CVE-2022-48064 ( 33)
+2025-07-21 19:24:34,221 - INFO - running: python main.py --mfi --cve_id CVE-2022-48064 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-48064-vuln-8df77a27a3a3-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-48064-patch-8f2c64de86bc-objdump --vul_func_name find_debug_info
+2025-07-21 19:25:19,706 - ERROR - fail CVE-2022-48064 ,details0
+
+2025-07-21 19:25:19,706 - INFO - processing CVE-2017-14934 ( 34)
+2025-07-21 19:25:19,706 - INFO - running: python main.py --mfi --cve_id CVE-2017-14934 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14934-vuln-6bd6a03d6975-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14934-patch-19485196044b-objdump --vul_func_name process_debug_info
+2025-07-21 19:26:15,838 - ERROR - fail CVE-2017-14934 ,details0
+
+2025-07-21 19:26:15,838 - INFO - processing CVE-2023-25586 ( 35)
+2025-07-21 19:26:15,838 - INFO - running: python main.py --mfi --cve_id CVE-2023-25586 --path_to_vul_bin /binaries/reference/binutils/CVE-2023-25586-vuln-60d260641177-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2023-25586-patch-5830876a0cca-objdump --vul_func_name bfd_init_section_decompress_status
+2025-07-21 19:26:27,968 - INFO - success CVE-2023-25586,details in binutils-cve_logs/CVE-2023-25586.log
+
+2025-07-21 19:26:27,968 - INFO - processing CVE-2019-17451 ( 36)
+2025-07-21 19:26:27,968 - INFO - running: python main.py --mfi --cve_id CVE-2019-17451 --path_to_vul_bin /binaries/reference/binutils/CVE-2019-17451-vuln-41481f9e4e4b-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2019-17451-patch-336bfbeb1848-objdump --vul_func_name _bfd_dwarf2_slurp_debug_info
+2025-07-21 19:27:02,634 - ERROR - fail CVE-2019-17451 ,details0
+
+2025-07-21 19:27:02,635 - INFO - processing CVE-2020-16593 ( 37)
+2025-07-21 19:27:02,635 - INFO - running: python main.py --mfi --cve_id CVE-2020-16593 --path_to_vul_bin /binaries/reference/binutils/CVE-2020-16593-vuln-c54a9b56696e-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2020-16593-patch-aec72fda3b32-objdump --vul_func_name scan_unit_for_symbols
+2025-07-21 19:28:46,802 - ERROR - fail CVE-2020-16593 ,details0
+
+2025-07-21 19:28:46,803 - INFO - processing CVE-2020-16599 ( 38)
+2025-07-21 19:28:46,803 - INFO - running: python main.py --mfi --cve_id CVE-2020-16599 --path_to_vul_bin /binaries/reference/binutils/CVE-2020-16599-vuln-ca3f923f82a0-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2020-16599-patch-8d55d10ac0d1-objdump --vul_func_name _bfd_elf_get_symbol_version_string
+2025-07-21 19:29:29,700 - ERROR - fail CVE-2020-16599 ,details0
+
+2025-07-21 19:29:29,701 - INFO - processing CVE-2022-48063 ( 39)
+2025-07-21 19:29:29,701 - INFO - running: python main.py --mfi --cve_id CVE-2022-48063 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-48063-vuln-a7a32d588f29-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-48063-patch-75393a2d54bc-objdump --vul_func_name load_specific_debug_section
+2025-07-21 19:29:45,865 - INFO - success CVE-2022-48063,details in binutils-cve_logs/CVE-2022-48063.log
+
+2025-07-21 19:29:45,865 - INFO - processing CVE-2017-15020 ( 40)
+2025-07-21 19:29:45,865 - INFO - running: python main.py --mfi --cve_id CVE-2017-15020 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15020-vuln-11855d8a1f11-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15020-patch-1da5c9a485f3-objdump --vul_func_name parse_die
+2025-07-21 19:34:24,853 - INFO - success CVE-2017-15020,details in binutils-cve_logs/CVE-2017-15020.log
+
+2025-07-21 19:34:24,854 - INFO - processing CVE-2017-15020 ( 41)
+2025-07-21 19:34:24,854 - INFO - running: python main.py --mfi --cve_id CVE-2017-15020 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15020-vuln-11855d8a1f11-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15020-patch-1da5c9a485f3-objdump --vul_func_name parse_line_table
+2025-07-21 19:34:38,411 - INFO - success CVE-2017-15020,details in binutils-cve_logs/CVE-2017-15020.log
+
+2025-07-21 19:34:38,411 - INFO - processing CVE-2017-14128 ( 42)
+2025-07-21 19:34:38,411 - INFO - running: python main.py --mfi --cve_id CVE-2017-14128 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14128-vuln-f8ad2513754f-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14128-patch-7e8b60085eb3-objdump --vul_func_name decode_line_info
+2025-07-21 20:03:15,228 - ERROR - fail CVE-2017-14128 ,details0
+
+2025-07-21 20:03:15,228 - INFO - processing CVE-2017-15225 ( 43)
+2025-07-21 20:03:15,228 - INFO - running: python main.py --mfi --cve_id CVE-2017-15225 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15225-vuln-a72f95f7760b-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15225-patch-b55ec8b676ed-objdump --vul_func_name _bfd_dwarf2_cleanup_debug_info
+2025-07-21 20:03:49,239 - ERROR - fail CVE-2017-15225 ,details0
+
+2025-07-21 20:03:49,239 - INFO - processing CVE-2020-16591 ( 44)
+2025-07-21 20:03:49,239 - INFO - running: python main.py --mfi --cve_id CVE-2020-16591 --path_to_vul_bin /binaries/reference/binutils/CVE-2020-16591-vuln-b71d4fa7c35c-readelf --path_to_patch_bin /binaries/reference/binutils/CVE-2020-16591-patch-001890e1f926-readelf --vul_func_name get_num_dynamic_syms
+2025-07-21 20:04:05,484 - ERROR - fail CVE-2020-16591 ,details0
+
+2025-07-21 20:04:05,484 - INFO - processing CVE-2023-1579 ( 45)
+2025-07-21 20:04:05,485 - INFO - running: python main.py --mfi --cve_id CVE-2023-1579 --path_to_vul_bin /binaries/reference/binutils/CVE-2023-1579-vuln-f1e19328594f-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2023-1579-patch-11d171f1910b-objdump --vul_func_name read_indexed_address
+2025-07-21 20:04:08,133 - ERROR - fail CVE-2023-1579 ,details0
+
+2025-07-21 20:04:08,134 - INFO - processing CVE-2020-19724 ( 46)
+2025-07-21 20:04:08,134 - INFO - running: python main.py --mfi --cve_id CVE-2020-19724 --path_to_vul_bin /binaries/reference/binutils/CVE-2020-19724-vuln-4f18d7423cdb-nm --path_to_patch_bin /binaries/reference/binutils/CVE-2020-19724-patch-805f38bc551d-nm --vul_func_name display_rel_file
+2025-07-21 20:04:45,029 - ERROR - fail CVE-2020-19724 ,details0
+
+2025-07-21 20:04:45,029 - INFO - processing CVE-2017-13757 ( 47)
+2025-07-21 20:04:45,029 - INFO - running: python main.py --mfi --cve_id CVE-2017-13757 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-13757-vuln-cefdd1cd64f3-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-13757-patch-90efb6422939-objdump --vul_func_name elf_i386_get_synthetic_symtab
+2025-07-21 20:05:38,723 - ERROR - fail CVE-2017-13757 ,details0
+
+2025-07-21 20:05:38,724 - INFO - processing CVE-2017-13757 ( 48)
+2025-07-21 20:05:38,724 - INFO - running: python main.py --mfi --cve_id CVE-2017-13757 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-13757-vuln-cefdd1cd64f3-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-13757-patch-90efb6422939-objdump --vul_func_name elf_x86_64_get_synthetic_symtab
+2025-07-21 20:06:41,448 - ERROR - fail CVE-2017-13757 ,details0
+
+2025-07-21 20:06:41,448 - INFO - processing CVE-2017-14529 ( 49)
+2025-07-21 20:06:41,448 - INFO - running: python main.py --mfi --cve_id CVE-2017-14529 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14529-vuln-255300f5a960-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14529-patch-4d465c689a8f-objdump --vul_func_name pe_print_idata
+2025-07-21 20:06:53,222 - ERROR - fail CVE-2017-14529 ,details0
+
+2025-07-21 20:06:53,222 - INFO - processing CVE-2017-16829 ( 50)
+2025-07-21 20:06:53,222 - INFO - running: python main.py --mfi --cve_id CVE-2017-16829 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16829-vuln-7b7009999ab8-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16829-patch-cf54ebff3b73-objdump --vul_func_name _bfd_elf_parse_gnu_properties
+2025-07-21 20:07:50,916 - ERROR - fail CVE-2017-16829 ,details0
+
+2025-07-21 20:07:50,917 - INFO - processing CVE-2017-14940 ( 51)
+2025-07-21 20:07:50,917 - INFO - running: python main.py --mfi --cve_id CVE-2017-14940 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14940-vuln-bd61e135492e-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14940-patch-0d76029f9218-objdump --vul_func_name scan_unit_for_symbols
+2025-07-21 20:09:21,715 - ERROR - fail CVE-2017-14940 ,details0
+
+2025-07-21 20:09:21,715 - INFO - processing CVE-2021-45078 ( 52)
+2025-07-21 20:09:21,715 - INFO - running: python main.py --mfi --cve_id CVE-2021-45078 --path_to_vul_bin /binaries/reference/binutils/CVE-2021-45078-vuln-d5c94731766b-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2021-45078-patch-161e87d12167-objdump --vul_func_name stab_find_type
+2025-07-21 20:09:33,704 - ERROR - fail CVE-2021-45078 ,details0
+
+2025-07-21 20:09:33,704 - INFO - processing CVE-2021-45078 ( 53)
+2025-07-21 20:09:33,704 - INFO - running: python main.py --mfi --cve_id CVE-2021-45078 --path_to_vul_bin /binaries/reference/binutils/CVE-2021-45078-vuln-d5c94731766b-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2021-45078-patch-161e87d12167-objdump --vul_func_name stab_xcoff_builtin_type
+2025-07-21 20:10:32,768 - INFO - success CVE-2021-45078,details in binutils-cve_logs/CVE-2021-45078.log
+
+2025-07-21 20:10:32,769 - INFO - processing CVE-2017-14939 ( 54)
+2025-07-21 20:10:32,769 - INFO - running: python main.py --mfi --cve_id CVE-2017-14939 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14939-vuln-0d76029f9218-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14939-patch-515f23e63c00-objdump --vul_func_name decode_line_info
+2025-07-21 20:11:00,356 - ERROR - fail CVE-2017-14939 ,details0
+
+2025-07-21 20:11:00,356 - INFO - processing CVE-2017-15022 ( 55)
+2025-07-21 20:11:00,356 - INFO - running: python main.py --mfi --cve_id CVE-2017-15022 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15022-vuln-c361faae8d96-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15022-patch-11855d8a1f11-objdump --vul_func_name parse_comp_unit
+2025-07-21 20:12:43,860 - ERROR - fail CVE-2017-15022 ,details0
+
+2025-07-21 20:12:43,860 - INFO - processing CVE-2017-15022 ( 56)
+2025-07-21 20:12:43,860 - INFO - running: python main.py --mfi --cve_id CVE-2017-15022 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15022-vuln-c361faae8d96-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15022-patch-11855d8a1f11-objdump --vul_func_name scan_unit_for_symbols
+2025-07-21 20:14:16,838 - ERROR - fail CVE-2017-15022 ,details0
+
+2025-07-21 20:14:16,838 - INFO - processing CVE-2022-38533 ( 57)
+2025-07-21 20:14:16,838 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name is_contained_by
+2025-07-21 20:14:19,970 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:14:19,971 - INFO - processing CVE-2022-38533 ( 58)
+2025-07-21 20:14:19,971 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name is_note
+2025-07-21 20:14:22,748 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:14:22,749 - INFO - processing CVE-2022-38533 ( 59)
+2025-07-21 20:14:22,749 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name rewrite_elf_program_header
+2025-07-21 20:20:04,051 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:20:04,051 - INFO - processing CVE-2022-38533 ( 60)
+2025-07-21 20:20:04,051 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name section_size
+2025-07-21 20:20:06,849 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:20:06,849 - INFO - processing CVE-2022-38533 ( 61)
+2025-07-21 20:20:06,849 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name segment_end
+2025-07-21 20:20:09,685 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:20:09,685 - INFO - processing CVE-2022-38533 ( 62)
+2025-07-21 20:20:09,685 - INFO - running: python main.py --mfi --cve_id CVE-2022-38533 --path_to_vul_bin /binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-objdump --vul_func_name segment_size
+2025-07-21 20:20:12,523 - ERROR - fail CVE-2022-38533 ,details0
+
+2025-07-21 20:20:12,523 - INFO - processing CVE-2017-14130 ( 63)
+2025-07-21 20:20:12,523 - INFO - running: python main.py --mfi --cve_id CVE-2017-14130 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14130-vuln-5c811d30d12b-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14130-patch-2a143b99fc4a-objdump --vul_func_name _bfd_elf_parse_attributes
+2025-07-21 20:20:39,051 - ERROR - fail CVE-2017-14130 ,details0
+
+2025-07-21 20:20:39,051 - INFO - processing CVE-2018-1000876 ( 64)
+2025-07-21 20:20:39,051 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000876 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-1000876-vuln-40b9228581bb-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-1000876-patch-3a551c7a1b80-objdump --vul_func_name _bfd_elf_get_dynamic_reloc_upper_bound
+2025-07-21 20:21:07,650 - ERROR - fail CVE-2018-1000876 ,details0
+
+2025-07-21 20:21:07,650 - INFO - processing CVE-2018-1000876 ( 65)
+2025-07-21 20:21:07,650 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000876 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-1000876-vuln-40b9228581bb-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-1000876-patch-3a551c7a1b80-objdump --vul_func_name _bfd_elf_get_dynamic_symtab_upper_bound
+2025-07-21 20:21:41,641 - ERROR - fail CVE-2018-1000876 ,details0
+
+2025-07-21 20:21:41,641 - INFO - processing CVE-2018-1000876 ( 66)
+2025-07-21 20:21:41,641 - INFO - running: python main.py --mfi --cve_id CVE-2018-1000876 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-1000876-vuln-40b9228581bb-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-1000876-patch-3a551c7a1b80-objdump --vul_func_name _bfd_elf_get_symtab_upper_bound
+2025-07-21 20:21:50,302 - ERROR - fail CVE-2018-1000876 ,details1
+
+2025-07-21 20:21:50,302 - INFO - processing CVE-2017-9043 ( 67)
+2025-07-21 20:21:50,302 - INFO - running: python main.py --mfi --cve_id CVE-2017-9043 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-9043-vuln-792f174f8af4-readelf --path_to_patch_bin /binaries/reference/binutils/CVE-2017-9043-patch-ddef72cdc10d-readelf --vul_func_name print_gnu_build_attribute_name
+2025-07-21 20:22:45,132 - ERROR - fail CVE-2017-9043 ,details0
+
+2025-07-21 20:22:45,132 - INFO - processing CVE-2018-20002 ( 68)
+2025-07-21 20:22:45,132 - INFO - running: python main.py --mfi --cve_id CVE-2018-20002 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-20002-vuln-af03af8f55f2-nm --path_to_patch_bin /binaries/reference/binutils/CVE-2018-20002-patch-c2f5dc30afa3-nm --vul_func_name _bfd_generic_read_minisymbols
+2025-07-21 20:23:05,853 - ERROR - fail CVE-2018-20002 ,details0
+
+2025-07-21 20:23:05,853 - INFO - processing CVE-2018-20002 ( 69)
+2025-07-21 20:23:05,853 - INFO - running: python main.py --mfi --cve_id CVE-2018-20002 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-20002-vuln-af03af8f55f2-nm --path_to_patch_bin /binaries/reference/binutils/CVE-2018-20002-patch-c2f5dc30afa3-nm --vul_func_name display_rel_file
+2025-07-21 20:23:22,222 - ERROR - fail CVE-2018-20002 ,details0
+
+2025-07-21 20:23:22,223 - INFO - processing CVE-2018-20651 ( 70)
+2025-07-21 20:23:22,223 - INFO - running: python main.py --mfi --cve_id CVE-2018-20651 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-20651-vuln-c96e057398b5-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-20651-patch-54025d5812ff-objdump --vul_func_name elf_link_add_object_symbols
+2025-07-21 20:24:52,364 - ERROR - fail CVE-2018-20651 ,details0
+
+2025-07-21 20:24:52,364 - INFO - processing CVE-2017-16830 ( 71)
+2025-07-21 20:24:52,364 - INFO - running: python main.py --mfi --cve_id CVE-2017-16830 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-16830-vuln-f26ae15b471a-readelf --path_to_patch_bin /binaries/reference/binutils/CVE-2017-16830-patch-6ab2c4ed51f9-readelf --vul_func_name print_gnu_property_note
+2025-07-21 20:25:07,690 - ERROR - fail CVE-2017-16830 ,details0
+
+2025-07-21 20:25:07,690 - INFO - processing CVE-2017-14938 ( 72)
+2025-07-21 20:25:07,690 - INFO - running: python main.py --mfi --cve_id CVE-2017-14938 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-14938-vuln-8d296e2d4d8e-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-14938-patch-bd61e135492e-objdump --vul_func_name _bfd_elf_slurp_version_tables
+2025-07-21 20:25:23,322 - ERROR - fail CVE-2017-14938 ,details0
+
+2025-07-21 20:25:23,322 - INFO - processing CVE-2018-6872 ( 73)
+2025-07-21 20:25:23,322 - INFO - running: python main.py --mfi --cve_id CVE-2018-6872 --path_to_vul_bin /binaries/reference/binutils/CVE-2018-6872-vuln-a9479dc051ab-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2018-6872-patch-ef135d4314fd-objdump --vul_func_name elf_parse_notes
+2025-07-21 20:25:49,071 - ERROR - fail CVE-2018-6872 ,details0
+
+2025-07-21 20:25:49,072 - INFO - processing CVE-2017-17126 ( 74)
+2025-07-21 20:25:49,072 - INFO - running: python main.py --mfi --cve_id CVE-2017-17126 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-17126-vuln-e8020e54f4b9-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-17126-patch-f425ec6600b6-objdump --vul_func_name load_debug_section
+2025-07-21 20:25:51,611 - ERROR - fail CVE-2017-17126 ,details0
+
+2025-07-21 20:25:51,611 - INFO - processing CVE-2017-15996 ( 75)
+2025-07-21 20:25:51,611 - INFO - running: python main.py --mfi --cve_id CVE-2017-15996 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15996-vuln-c0e331c794d6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15996-patch-d91f0b20e561-objdump --vul_func_name get_archive_member_name
+2025-07-21 20:26:28,863 - ERROR - fail CVE-2017-15996 ,details0
+
+2025-07-21 20:26:28,863 - INFO - processing CVE-2017-15996 ( 76)
+2025-07-21 20:26:28,863 - INFO - running: python main.py --mfi --cve_id CVE-2017-15996 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15996-vuln-c0e331c794d6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15996-patch-d91f0b20e561-objdump --vul_func_name process_archive_index_and_symbols
+2025-07-21 20:26:39,781 - INFO - success CVE-2017-15996,details in binutils-cve_logs/CVE-2017-15996.log
+
+2025-07-21 20:26:39,782 - INFO - processing CVE-2017-15996 ( 77)
+2025-07-21 20:26:39,782 - INFO - running: python main.py --mfi --cve_id CVE-2017-15996 --path_to_vul_bin /binaries/reference/binutils/CVE-2017-15996-vuln-c0e331c794d6-objdump --path_to_patch_bin /binaries/reference/binutils/CVE-2017-15996-patch-d91f0b20e561-objdump --vul_func_name setup_archive
+2025-07-21 20:26:53,124 - ERROR - fail CVE-2017-15996 ,details0

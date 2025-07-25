@@ -338,6 +338,8 @@
 - gcc/o1(whats more compared to O0)
   - OpenSSL_1_0_2b
   - OpenSSL-fips-2_0_13-libcrypto && openssl
+- gcc/o2
+  - OpenSSL_1_0_0s-o2-libcrypto
 
 ## curl
 - failed to compile
@@ -350,15 +352,15 @@
   - 3.14
 
 # Case Study Candidates
-- CVE-2022-42916 create_conn
+- CVE-2022-42916 create_conn ，partial fail ok
   - patch为pure deletion，后续添加代码和deletion部分有些类似
-- CVE-2022-40304 xmlFreeEntity
-- CVE-2019-19244 sqlite3Select
+  - patch discovery all-succ，PS3和BinXray有false negative
+- CVE-2019-19244 sqlite3Select ok
   - 使用`#ifndef`,`#idefine`的条件编译
-- CVE-2019-19880 exprListAppendList
-  -  v3.32.0有func upgrade 更改了代码看起来的样子，
-- CVE-2021-36690
-  -  挺有意思的，新增变量和对新增变量的操作
+- CVE-2019-19880 exprListAppendList ok
+  -  v3.32.0有func upgrade 更改了代码看起来的样子，只有BinXray有问题。。。
+- CVE-2021-36690 ok
+  -  挺有意思的，新增变量和对新增变量的操作 只有BinXray有问题。。。
 - CVE-2020-16590
   - 只更改了赋值语句的变量名
 - CVE-2018-1000120
@@ -369,13 +371,17 @@
   -  只更改了变量声明
 -   CVE-2019-5435
   - React 无输出
-- CVE-2022-3786
+- CVE-2022-3786 ok
   - trivial 更改
   - insight patch presence需要有diff parser与审查工具，否则还是需要人力介入，没什么实际作用
--  CVE-2022-46908
+-  CVE-2022-46908 ok
   -  safemodeauth 的更改太trivial，只涉及全局变量
 - CVE-2020-22043
   - goto->return
+
+- CVE-2022-48065 只有REACT可以正确检测
+
+
 # both func not found in diff error
 ## curl
   - Curl_idn_strerror
@@ -389,7 +395,7 @@
 project:has_sig/total | succeed/target
 - binutils:18/80 | 49/363=13.50%
 - Curl:2/58  | 7/351=1.99%
-- ffmpeg:0/59 | 0/381=0%
+- ffmpeg:16/59 | 21/381=5.5%
 - libxml2:22/89 | 106/558=19.00%
 - openssl:14/87 ｜ 23/548=4.20%
 - sqlite:11/44 ｜ 49/342=14.33%
@@ -484,4 +490,21 @@ CVE-2025-1176+_bfd_elf_section_for_symbol
 CVE-2025-1181+_bfd_elf_get_link_hash_entry
 CVE-2025-1181+elf_link_input_bfd
 CVE-2025-29088+setupLookaside
+ffmpeg:
+"CVE-2020-21697+mpeg_mux_write_packet",
+"CVE-2020-24020+dnn_execute_layer_conv2d",
+"CVE-2020-24020+dnn_execute_layer_math_binary",
+"CVE-2020-24020+dnn_execute_layer_math_unary",
+"CVE-2020-24020+dnn_execute_layer_maximum",
+"CVE-2020-24020+dnn_execute_layer_pad",
+"CVE-2020-22038+ff_v4l2_m2m_codec_end",
+"CVE-2020-22038+v4l2_decode_init",
+"CVE-2020-22021+filter_edges",
+"CVE-2020-22046+ff_ac3_encode_close",
+"CVE-2020-22019+ff_vmafmotion_init",
+"CVE-2020-22039+avi_write_trailer",
+"CVE-2020-22029+slice_get_derivative",
+"CVE-2020-22037+ff_frame_thread_encoder_init",
+"CVE-2022-1475+g729_parse",
+"CVE-2020-20896+latm_write_packet"
 ```

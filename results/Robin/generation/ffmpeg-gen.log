@@ -1,0 +1,235 @@
+2025-07-22 10:23:35,237 - INFO - processing CVE-2020-21697 ( 1)
+2025-07-22 10:23:35,237 - INFO - running: python main.py --mfi --cve_id CVE-2020-21697 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-21697-vuln-c9d9c6074689-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-21697-patch-cfce16449cb8-ffmpeg --vul_func_name mpeg_mux_write_packet
+2025-07-22 10:24:11,909 - INFO - success CVE-2020-21697,details in ffmpeg-cve_logs/CVE-2020-21697.log
+
+2025-07-22 10:24:11,909 - INFO - processing CVE-2020-21697 ( 2)
+2025-07-22 10:24:11,909 - INFO - running: python main.py --mfi --cve_id CVE-2020-21697 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-21697-vuln-c9d9c6074689-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-21697-patch-cfce16449cb8-ffmpeg --vul_func_name remove_decoded_packets
+2025-07-22 10:29:23,194 - ERROR - fail CVE-2020-21697 ,details0
+
+2025-07-22 10:29:23,195 - INFO - processing CVE-2020-22024 ( 3)
+2025-07-22 10:29:23,195 - INFO - running: python main.py --mfi --cve_id CVE-2020-22024 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22024-vuln-d4d6b7b0355f-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22024-patch-723d69f99cd2-ffmpeg --vul_func_name lagfun_frame16
+2025-07-22 10:33:24,117 - ERROR - fail CVE-2020-22024 ,details0
+
+2025-07-22 10:33:24,118 - INFO - processing CVE-2020-22026 ( 4)
+2025-07-22 10:33:24,118 - INFO - running: python main.py --mfi --cve_id CVE-2020-22026 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22026-vuln-26876fdb5e73-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22026-patch-58bb9d3a3a6e-ffmpeg --vul_func_name config_input
+2025-07-22 10:33:28,700 - ERROR - fail CVE-2020-22026 ,details0
+
+2025-07-22 10:33:28,700 - INFO - processing CVE-2020-22026 ( 5)
+2025-07-22 10:33:28,700 - INFO - running: python main.py --mfi --cve_id CVE-2020-22026 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22026-vuln-26876fdb5e73-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22026-patch-58bb9d3a3a6e-ffmpeg --vul_func_name filter_frame
+2025-07-22 10:33:32,962 - ERROR - fail CVE-2020-22026 ,details0
+
+2025-07-22 10:33:32,962 - INFO - processing CVE-2020-20446 ( 6)
+2025-07-22 10:33:32,962 - INFO - running: python main.py --mfi --cve_id CVE-2020-20446 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20446-vuln-a7a7f32c8ad0-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20446-patch-223b5e8ac9f6-ffmpeg --vul_func_name psy_3gpp_analyze_channel
+2025-07-22 10:39:45,611 - ERROR - fail CVE-2020-20446 ,details0
+
+2025-07-22 10:39:45,612 - INFO - processing CVE-2020-20448 ( 7)
+2025-07-22 10:39:45,612 - INFO - running: python main.py --mfi --cve_id CVE-2020-20448 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20448-vuln-bb190ded678a-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20448-patch-8802e329c831-ffmpeg --vul_func_name encode_q_branch
+2025-07-22 10:39:53,711 - ERROR - fail CVE-2020-20448 ,details0
+
+2025-07-22 10:39:53,712 - INFO - processing CVE-2020-20448 ( 8)
+2025-07-22 10:39:53,712 - INFO - running: python main.py --mfi --cve_id CVE-2020-20448 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20448-vuln-bb190ded678a-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20448-patch-8802e329c831-ffmpeg --vul_func_name uninit
+2025-07-22 10:40:00,832 - ERROR - fail CVE-2020-20448 ,details0
+
+2025-07-22 10:40:00,832 - INFO - processing CVE-2020-24020 ( 9)
+2025-07-22 10:40:00,832 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name calculate_operand_dims_count
+2025-07-22 10:40:05,295 - ERROR - fail CVE-2020-24020 ,details0
+
+2025-07-22 10:40:05,295 - INFO - processing CVE-2020-24020 ( 10)
+2025-07-22 10:40:05,296 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_conv2d
+2025-07-22 10:40:42,892 - INFO - success CVE-2020-24020,details in ffmpeg-cve_logs/CVE-2020-24020.log
+
+2025-07-22 10:40:42,892 - INFO - processing CVE-2020-24020 ( 11)
+2025-07-22 10:40:42,892 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_depth2space
+2025-07-22 10:41:13,875 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-07-22 10:41:13,875 - INFO - processing CVE-2020-24020 ( 12)
+2025-07-22 10:41:13,875 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_math_binary
+2025-07-22 10:41:51,104 - INFO - success CVE-2020-24020,details in ffmpeg-cve_logs/CVE-2020-24020.log
+
+2025-07-22 10:41:51,104 - INFO - processing CVE-2020-24020 ( 13)
+2025-07-22 10:41:51,104 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_math_unary
+2025-07-22 10:42:29,271 - INFO - success CVE-2020-24020,details in ffmpeg-cve_logs/CVE-2020-24020.log
+
+2025-07-22 10:42:29,271 - INFO - processing CVE-2020-24020 ( 14)
+2025-07-22 10:42:29,271 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_maximum
+2025-07-22 10:43:04,552 - INFO - success CVE-2020-24020,details in ffmpeg-cve_logs/CVE-2020-24020.log
+
+2025-07-22 10:43:04,552 - INFO - processing CVE-2020-24020 ( 15)
+2025-07-22 10:43:04,552 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name dnn_execute_layer_pad
+2025-07-22 10:43:41,682 - INFO - success CVE-2020-24020,details in ffmpeg-cve_logs/CVE-2020-24020.log
+
+2025-07-22 10:43:41,682 - INFO - processing CVE-2020-24020 ( 16)
+2025-07-22 10:43:41,682 - INFO - running: python main.py --mfi --cve_id CVE-2020-24020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-24020-vuln-93a435dd4baa-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-24020-patch-584f396132aa-ffmpeg --vul_func_name set_input_output_native
+2025-07-22 10:47:55,966 - ERROR - fail CVE-2020-24020 ,details0
+
+2025-07-22 10:47:55,967 - INFO - processing CVE-2020-22036 ( 17)
+2025-07-22 10:47:55,967 - INFO - running: python main.py --mfi --cve_id CVE-2020-22036 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22036-vuln-ce764a6c74f3-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22036-patch-8c3166e1c302-ffmpeg --vul_func_name config_props
+2025-07-22 10:48:03,839 - ERROR - fail CVE-2020-22036 ,details0
+
+2025-07-22 10:48:03,839 - INFO - processing CVE-2020-22030 ( 18)
+2025-07-22 10:48:03,839 - INFO - running: python main.py --mfi --cve_id CVE-2020-22030 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22030-vuln-de598f82f8c3-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22030-patch-e1b89c76f663-ffmpeg --vul_func_name activate
+2025-07-22 10:48:08,211 - ERROR - fail CVE-2020-22030 ,details0
+
+2025-07-22 10:48:08,211 - INFO - processing CVE-2020-22044 ( 19)
+2025-07-22 10:48:08,211 - INFO - running: python main.py --mfi --cve_id CVE-2020-22044 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22044-vuln-0528adbd85d6-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22044-patch-1d479300cbe0-ffmpeg --vul_func_name nut_write_trailer
+2025-07-22 10:48:12,645 - ERROR - fail CVE-2020-22044 ,details0
+
+2025-07-22 10:48:12,645 - INFO - processing CVE-2020-20453 ( 20)
+2025-07-22 10:48:12,645 - INFO - running: python main.py --mfi --cve_id CVE-2020-20453 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20453-vuln-3300625c6f14-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20453-patch-a7a7f32c8ad0-ffmpeg --vul_func_name aac_encode_frame
+2025-07-22 10:50:03,787 - ERROR - fail CVE-2020-20453 ,details0
+
+2025-07-22 10:50:03,787 - INFO - processing CVE-2020-22043 ( 21)
+2025-07-22 10:50:03,787 - INFO - running: python main.py --mfi --cve_id CVE-2020-22043 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22043-vuln-39d5acbd097b-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22043-patch-b288a7eb3d96-ffmpeg --vul_func_name mpeg_mux_end
+2025-07-22 10:51:37,085 - ERROR - fail CVE-2020-22043 ,details0
+
+2025-07-22 10:51:37,085 - INFO - processing CVE-2020-22043 ( 22)
+2025-07-22 10:51:37,086 - INFO - running: python main.py --mfi --cve_id CVE-2020-22043 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22043-vuln-39d5acbd097b-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22043-patch-b288a7eb3d96-ffmpeg --vul_func_name mpeg_mux_init
+2025-07-22 10:55:08,976 - ERROR - fail CVE-2020-22043 ,details0
+
+2025-07-22 10:55:08,978 - INFO - processing CVE-2020-20898 ( 23)
+2025-07-22 10:55:08,978 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter16_prewitt
+2025-07-22 10:55:37,389 - ERROR - fail CVE-2020-20898 ,details1
+
+2025-07-22 10:55:37,389 - INFO - processing CVE-2020-20898 ( 24)
+2025-07-22 10:55:37,390 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter16_roberts
+2025-07-22 10:56:48,574 - ERROR - fail CVE-2020-20898 ,details1
+
+2025-07-22 10:56:48,576 - INFO - processing CVE-2020-20898 ( 25)
+2025-07-22 10:56:48,576 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter16_sobel
+2025-07-22 10:57:38,391 - ERROR - fail CVE-2020-20898 ,details0
+
+2025-07-22 10:57:38,391 - INFO - processing CVE-2020-20898 ( 26)
+2025-07-22 10:57:38,391 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter_prewitt
+2025-07-22 10:58:28,565 - ERROR - fail CVE-2020-20898 ,details0
+
+2025-07-22 10:58:28,566 - INFO - processing CVE-2020-20898 ( 27)
+2025-07-22 10:58:28,566 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter_roberts
+2025-07-22 10:59:39,756 - ERROR - fail CVE-2020-20898 ,details1
+
+2025-07-22 10:59:39,756 - INFO - processing CVE-2020-20898 ( 28)
+2025-07-22 10:59:39,756 - INFO - running: python main.py --mfi --cve_id CVE-2020-20898 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20898-vuln-365083556ea7-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20898-patch-99f8d32129dd-ffmpeg --vul_func_name filter_sobel
+2025-07-22 11:00:29,623 - ERROR - fail CVE-2020-20898 ,details0
+
+2025-07-22 11:00:29,623 - INFO - processing CVE-2020-22038 ( 29)
+2025-07-22 11:00:29,623 - INFO - running: python main.py --mfi --cve_id CVE-2020-22038 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22038-vuln-533d6030ca3e-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22038-patch-7c32e9cf93b7-ffmpeg --vul_func_name ff_v4l2_m2m_codec_end
+2025-07-22 11:01:01,773 - INFO - success CVE-2020-22038,details in ffmpeg-cve_logs/CVE-2020-22038.log
+
+2025-07-22 11:01:01,773 - INFO - processing CVE-2020-22038 ( 30)
+2025-07-22 11:01:01,773 - INFO - running: python main.py --mfi --cve_id CVE-2020-22038 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22038-vuln-533d6030ca3e-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22038-patch-7c32e9cf93b7-ffmpeg --vul_func_name v4l2_decode_init
+2025-07-22 11:01:34,654 - INFO - success CVE-2020-22038,details in ffmpeg-cve_logs/CVE-2020-22038.log
+
+2025-07-22 11:01:34,654 - INFO - processing CVE-2020-22038 ( 31)
+2025-07-22 11:01:34,654 - INFO - running: python main.py --mfi --cve_id CVE-2020-22038 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22038-vuln-533d6030ca3e-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22038-patch-7c32e9cf93b7-ffmpeg --vul_func_name v4l2_m2m_destroy_context
+2025-07-22 11:02:02,948 - ERROR - fail CVE-2020-22038 ,details0
+
+2025-07-22 11:02:02,949 - INFO - processing CVE-2020-22021 ( 32)
+2025-07-22 11:02:02,949 - INFO - running: python main.py --mfi --cve_id CVE-2020-22021 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22021-vuln-82ad1b76751b-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22021-patch-7971f62120a5-ffmpeg --vul_func_name filter_edges
+2025-07-22 11:04:48,247 - INFO - success CVE-2020-22021,details in ffmpeg-cve_logs/CVE-2020-22021.log
+
+2025-07-22 11:04:48,248 - INFO - processing CVE-2020-22021 ( 33)
+2025-07-22 11:04:48,248 - INFO - running: python main.py --mfi --cve_id CVE-2020-22021 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22021-vuln-82ad1b76751b-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22021-patch-7971f62120a5-ffmpeg --vul_func_name filter_edges_16bit
+2025-07-22 11:09:28,634 - ERROR - fail CVE-2020-22021 ,details1
+
+2025-07-22 11:09:28,635 - INFO - processing CVE-2020-22017 ( 34)
+2025-07-22 11:09:28,635 - INFO - running: python main.py --mfi --cve_id CVE-2020-22017 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22017-vuln-ed78ca41232e-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22017-patch-d4d6b7b0355f-ffmpeg --vul_func_name oscilloscope_filter_frame
+2025-07-22 11:13:21,542 - ERROR - fail CVE-2020-22017 ,details1
+
+2025-07-22 11:13:21,543 - INFO - processing CVE-2020-22022 ( 35)
+2025-07-22 11:13:21,543 - INFO - running: python main.py --mfi --cve_id CVE-2020-22022 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22022-vuln-99f8d32129dd-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22022-patch-07050d7bdc32-ffmpeg --vul_func_name filter_frame
+2025-07-22 11:13:26,024 - ERROR - fail CVE-2020-22022 ,details0
+
+2025-07-22 11:13:26,024 - INFO - processing CVE-2020-23906 ( 36)
+2025-07-22 11:13:26,024 - INFO - running: python main.py --mfi --cve_id CVE-2020-23906 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-23906-vuln-79e8d17024e6-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-23906-patch-ec59dc73f0cc-ffmpeg --vul_func_name read_packet
+2025-07-22 11:13:33,959 - ERROR - fail CVE-2020-23906 ,details0
+
+2025-07-22 11:13:33,960 - INFO - processing CVE-2020-22046 ( 37)
+2025-07-22 11:13:33,960 - INFO - running: python main.py --mfi --cve_id CVE-2020-22046 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22046-vuln-6aae32212041-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22046-patch-097c917c1476-ffmpeg --vul_func_name ff_ac3_encode_close
+2025-07-22 11:14:05,028 - INFO - success CVE-2020-22046,details in ffmpeg-cve_logs/CVE-2020-22046.log
+
+2025-07-22 11:14:05,028 - INFO - processing CVE-2020-22046 ( 38)
+2025-07-22 11:14:05,028 - INFO - running: python main.py --mfi --cve_id CVE-2020-22046 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22046-vuln-6aae32212041-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22046-patch-097c917c1476-ffmpeg --vul_func_name ff_ac3_encode_init
+2025-07-22 11:16:03,472 - ERROR - fail CVE-2020-22046 ,details0
+
+2025-07-22 11:16:03,474 - INFO - processing CVE-2021-38291 ( 39)
+2025-07-22 11:16:03,474 - INFO - running: python main.py --mfi --cve_id CVE-2021-38291 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2021-38291-vuln-35331aa2662d-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2021-38291-patch-e01d306c647b-ffmpeg --vul_func_name av_get_audio_frame_duration
+2025-07-22 11:16:11,673 - ERROR - fail CVE-2021-38291 ,details0
+
+2025-07-22 11:16:11,673 - INFO - processing CVE-2021-38291 ( 40)
+2025-07-22 11:16:11,673 - INFO - running: python main.py --mfi --cve_id CVE-2021-38291 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2021-38291-vuln-35331aa2662d-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2021-38291-patch-e01d306c647b-ffmpeg --vul_func_name av_get_audio_frame_duration2
+2025-07-22 11:16:19,143 - ERROR - fail CVE-2021-38291 ,details0
+
+2025-07-22 11:16:19,144 - INFO - processing CVE-2020-22034 ( 41)
+2025-07-22 11:16:19,144 - INFO - running: python main.py --mfi --cve_id CVE-2020-22034 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22034-vuln-b67af536be10-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22034-patch-1331e001796c-ffmpeg --vul_func_name config_input
+2025-07-22 11:16:23,613 - ERROR - fail CVE-2020-22034 ,details0
+
+2025-07-22 11:16:23,613 - INFO - processing CVE-2020-22034 ( 42)
+2025-07-22 11:16:23,613 - INFO - running: python main.py --mfi --cve_id CVE-2020-22034 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22034-vuln-b67af536be10-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22034-patch-1331e001796c-ffmpeg --vul_func_name filter_frame
+2025-07-22 11:16:27,877 - ERROR - fail CVE-2020-22034 ,details0
+
+2025-07-22 11:16:27,877 - INFO - processing CVE-2020-22035 ( 43)
+2025-07-22 11:16:27,877 - INFO - running: python main.py --mfi --cve_id CVE-2020-22035 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22035-vuln-ccf4ab8c9aca-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22035-patch-0749082eb93e-ffmpeg --vul_func_name config_input
+2025-07-22 11:16:32,286 - ERROR - fail CVE-2020-22035 ,details0
+
+2025-07-22 11:16:32,287 - INFO - processing CVE-2020-22035 ( 44)
+2025-07-22 11:16:32,287 - INFO - running: python main.py --mfi --cve_id CVE-2020-22035 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22035-vuln-ccf4ab8c9aca-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22035-patch-0749082eb93e-ffmpeg --vul_func_name filter_slice
+2025-07-22 11:16:36,475 - ERROR - fail CVE-2020-22035 ,details0
+
+2025-07-22 11:16:36,475 - INFO - processing CVE-2020-22020 ( 45)
+2025-07-22 11:16:36,475 - INFO - running: python main.py --mfi --cve_id CVE-2020-22020 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22020-vuln-c8f3915f8d39-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22020-patch-ce5274c1385d-ffmpeg --vul_func_name config_input
+2025-07-22 11:16:40,844 - ERROR - fail CVE-2020-22020 ,details0
+
+2025-07-22 11:16:40,845 - INFO - processing CVE-2020-22019 ( 46)
+2025-07-22 11:16:40,845 - INFO - running: python main.py --mfi --cve_id CVE-2020-22019 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22019-vuln-4c1afa292520-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22019-patch-82ad1b76751b-ffmpeg --vul_func_name ff_vmafmotion_init
+2025-07-22 11:17:39,016 - INFO - success CVE-2020-22019,details in ffmpeg-cve_logs/CVE-2020-22019.log
+
+2025-07-22 11:17:39,017 - INFO - processing CVE-2020-22042 ( 47)
+2025-07-22 11:17:39,017 - INFO - running: python main.py --mfi --cve_id CVE-2020-22042 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22042-vuln-95b8df687cc0-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22042-patch-426c16d61a9b-ffmpeg --vul_func_name ffmpeg_cleanup
+2025-07-22 11:18:57,874 - ERROR - fail CVE-2020-22042 ,details0
+
+2025-07-22 11:18:57,874 - INFO - processing CVE-2020-22023 ( 48)
+2025-07-22 11:18:57,875 - INFO - running: python main.py --mfi --cve_id CVE-2020-22023 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22023-vuln-b62f7e243cf4-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22023-patch-0b5672387418-ffmpeg --vul_func_name filter_frame
+2025-07-22 11:19:02,345 - ERROR - fail CVE-2020-22023 ,details0
+
+2025-07-22 11:19:02,346 - INFO - processing CVE-2020-22039 ( 49)
+2025-07-22 11:19:02,346 - INFO - running: python main.py --mfi --cve_id CVE-2020-22039 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22039-vuln-02cf2391966a-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22039-patch-a581bb66ea5e-ffmpeg --vul_func_name avi_write_trailer
+2025-07-22 11:19:37,962 - INFO - success CVE-2020-22039,details in ffmpeg-cve_logs/CVE-2020-22039.log
+
+2025-07-22 11:19:37,962 - INFO - processing CVE-2020-22031 ( 50)
+2025-07-22 11:19:37,963 - INFO - running: python main.py --mfi --cve_id CVE-2020-22031 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22031-vuln-0b5672387418-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22031-patch-0e68e8c93f90-ffmpeg --vul_func_name config_input
+2025-07-22 11:19:42,404 - ERROR - fail CVE-2020-22031 ,details0
+
+2025-07-22 11:19:42,404 - INFO - processing CVE-2020-22029 ( 51)
+2025-07-22 11:19:42,404 - INFO - running: python main.py --mfi --cve_id CVE-2020-22029 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22029-vuln-e923e6205eda-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22029-patch-a7fd12797036-ffmpeg --vul_func_name slice_get_derivative
+2025-07-22 11:20:23,872 - INFO - success CVE-2020-22029,details in ffmpeg-cve_logs/CVE-2020-22029.log
+
+2025-07-22 11:20:23,872 - INFO - processing CVE-2020-22015 ( 52)
+2025-07-22 11:20:23,872 - INFO - running: python main.py --mfi --cve_id CVE-2020-22015 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22015-vuln-38d18fb57863-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22015-patch-4c1afa292520-ffmpeg --vul_func_name mov_write_video_tag
+2025-07-22 11:22:33,046 - ERROR - fail CVE-2020-22015 ,details0
+
+2025-07-22 11:22:33,047 - INFO - processing CVE-2020-22037 ( 53)
+2025-07-22 11:22:33,047 - INFO - running: python main.py --mfi --cve_id CVE-2020-22037 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22037-vuln-318e18402271-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22037-patch-7bba0dd6382e-ffmpeg --vul_func_name ff_frame_thread_encoder_init
+2025-07-22 11:23:06,660 - INFO - success CVE-2020-22037,details in ffmpeg-cve_logs/CVE-2020-22037.log
+
+2025-07-22 11:23:06,660 - INFO - processing CVE-2020-22048 ( 54)
+2025-07-22 11:23:06,660 - INFO - running: python main.py --mfi --cve_id CVE-2020-22048 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22048-vuln-daf2bef98ded-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22048-patch-fddef964e8aa-ffmpeg --vul_func_name filter_frame
+2025-07-22 11:23:14,399 - ERROR - fail CVE-2020-22048 ,details0
+
+2025-07-22 11:23:14,399 - INFO - processing CVE-2020-22041 ( 55)
+2025-07-22 11:23:14,399 - INFO - running: python main.py --mfi --cve_id CVE-2020-22041 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22041-vuln-fb7b222b9182-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22041-patch-3488e0977c67-ffmpeg --vul_func_name request_frame
+2025-07-22 11:23:24,242 - ERROR - fail CVE-2020-22041 ,details0
+
+2025-07-22 11:23:24,242 - INFO - processing CVE-2022-1475 ( 56)
+2025-07-22 11:23:24,242 - INFO - running: python main.py --mfi --cve_id CVE-2022-1475 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2022-1475-vuln-ec8ff659f577-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2022-1475-patch-757da974b218-ffmpeg --vul_func_name g729_parse
+2025-07-22 11:24:01,447 - INFO - success CVE-2022-1475,details in ffmpeg-cve_logs/CVE-2022-1475.log
+
+2025-07-22 11:24:01,448 - INFO - processing CVE-2020-20896 ( 57)
+2025-07-22 11:24:01,448 - INFO - running: python main.py --mfi --cve_id CVE-2020-20896 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-20896-vuln-f2598484b830-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-20896-patch-dd01947397b9-ffmpeg --vul_func_name latm_write_packet
+2025-07-22 11:26:37,516 - INFO - success CVE-2020-20896,details in ffmpeg-cve_logs/CVE-2020-20896.log
+
+2025-07-22 11:26:37,516 - INFO - processing CVE-2020-22027 ( 58)
+2025-07-22 11:26:37,516 - INFO - running: python main.py --mfi --cve_id CVE-2020-22027 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-22027-vuln-1331e001796c-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-22027-patch-e787f8fd7ee9-ffmpeg --vul_func_name filter_slice
+2025-07-22 11:26:41,976 - ERROR - fail CVE-2020-22027 ,details0
+
+2025-07-22 11:26:41,977 - INFO - processing CVE-2020-35965 ( 59)
+2025-07-22 11:26:41,977 - INFO - running: python main.py --mfi --cve_id CVE-2020-35965 --path_to_vul_bin /binaries/reference/ffmpeg/CVE-2020-35965-vuln-3e5959b3457f-ffmpeg --path_to_patch_bin /binaries/reference/ffmpeg/CVE-2020-35965-patch-b0a8b40294ea-ffmpeg --vul_func_name decode_frame
+2025-07-22 11:26:49,929 - ERROR - fail CVE-2020-35965 ,details0
