@@ -14,15 +14,14 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Tuple, Optional, Dict
 import re
-
+now_str = datetime.now().strftime("%Y%m%d_%H%M")
 # Configuration
 REPO_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/target/openssl"
-DETAILS_FILE = "/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/openssl/details_checked"
-REFERENCE_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/openssl—new"
-TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/openssl"
+DETAILS_FILE = "/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/openssl/details"
+REFERENCE_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/openssl"
 BUILD_DIR_PREFIX = f"{REPO_DIR}/../build"
 FAILED_LOG_DIR = "logs"
-FAILED_LOG_FILE = f"{FAILED_LOG_DIR}/compile_reference.log"
+FAILED_LOG_FILE = f"{FAILED_LOG_DIR}/compile_reference_{now_str}.log"
 CVE_ISSUES_FILE = "/home/zhangxb/patch/related-works/CVE-Dataset/New/testset/cve_compilation_issues.json"
 
 

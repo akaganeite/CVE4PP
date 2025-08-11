@@ -122,7 +122,7 @@ def process_cve_data(output, target_vendor, target_product):
         # 引用过滤
         filtered_refs = [
             ref for ref in entry.get('references', [])
-            if any(kw in ref.lower() for kw in ['git', target_product])
+            if any(kw in ref.lower() for kw in ['git', target_product]) or 'sourceware' in ref.lower() or 'bugzilla' in ref.lower()
         ]
         
         # 构建结果条目

@@ -1,0 +1,1637 @@
+[2025-08-10 14:18:34] 开始FreeType LLVM编译流程
+[2025-08-10 14:18:34] 处理: CVE-2009-0946, 符号: cff_charset_load
+[2025-08-10 14:18:34] 命令成功: git stash --include-untracked
+[2025-08-10 14:18:34] 命令成功: git checkout 0545ec1ca36b
+[2025-08-10 14:18:34] 成功检出commit: 0545ec1ca36b
+[2025-08-10 14:18:34] 处理 patch 版本 (0545ec1ca36b)
+[2025-08-10 14:18:34] 目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_patch.bc
+[2025-08-10 14:18:34] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_patch.bc 包含所有必需符号: cff_charset_load
+[2025-08-10 14:18:34] 目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_patch.bc
+[2025-08-10 14:18:34] 命令成功: git rev-parse 0545ec1ca36b~1
+[2025-08-10 14:18:34] 命令成功: git checkout 8b819254b9fa
+[2025-08-10 14:18:34] 成功检出commit: 8b819254b9fa
+[2025-08-10 14:18:34] 处理 vuln 版本 (8b819254b9fa)
+[2025-08-10 14:18:34] 目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_vuln.bc
+[2025-08-10 14:18:34] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_vuln.bc 包含所有必需符号: cff_charset_load
+[2025-08-10 14:18:34] 目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2009-0946_vuln.bc
+[2025-08-10 14:18:34] 命令成功: git stash --include-untracked
+[2025-08-10 14:18:34] 处理: CVE-2010-2497, 符号: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-10 14:18:34] 命令成功: git stash --include-untracked
+[2025-08-10 14:18:34] 命令成功: git checkout 7d3d2cc4fef7
+[2025-08-10 14:18:34] 成功检出commit: 7d3d2cc4fef7
+[2025-08-10 14:18:34] 处理 patch 版本 (7d3d2cc4fef7)
+[2025-08-10 14:18:34] === start autogen.sh ===
+[2025-08-10 14:18:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:18:35] === start configure ===
+[2025-08-10 14:18:38] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:18:38] === start make ===
+[2025-08-10 14:18:40] 命令成功: make -j20
+[2025-08-10 14:18:40] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:40] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-10 14:18:40] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:40] 找到有效的BC文件，检查符号...
+[2025-08-10 14:18:40] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-10 14:18:40] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2497_patch.bc
+[2025-08-10 14:18:40] 命令成功: git rev-parse 7d3d2cc4fef7~1
+[2025-08-10 14:18:40] 命令成功: git checkout a4124bf088fb
+[2025-08-10 14:18:40] 成功检出commit: a4124bf088fb
+[2025-08-10 14:18:40] 处理 vuln 版本 (a4124bf088fb)
+[2025-08-10 14:18:40] 命令成功: make clean
+[2025-08-10 14:18:40] === start autogen.sh ===
+[2025-08-10 14:18:42] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:18:42] === start configure ===
+[2025-08-10 14:18:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:18:45] === start make ===
+[2025-08-10 14:18:47] 命令成功: make -j20
+[2025-08-10 14:18:47] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:47] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-10 14:18:47] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:47] 找到有效的BC文件，检查符号...
+[2025-08-10 14:18:47] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-10 14:18:47] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2497_vuln.bc
+[2025-08-10 14:18:47] 命令成功: git stash --include-untracked
+[2025-08-10 14:18:47] 处理: CVE-2010-2498, 符号: psh_glyph_find_strong_points
+[2025-08-10 14:18:47] 命令成功: git stash --include-untracked
+[2025-08-10 14:18:47] 命令成功: git checkout 8d22746c9e5a
+[2025-08-10 14:18:47] 成功检出commit: 8d22746c9e5a
+[2025-08-10 14:18:47] 处理 patch 版本 (8d22746c9e5a)
+[2025-08-10 14:18:47] 命令成功: make clean
+[2025-08-10 14:18:47] === start autogen.sh ===
+[2025-08-10 14:18:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:18:49] === start configure ===
+[2025-08-10 14:18:52] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:18:52] === start make ===
+[2025-08-10 14:18:55] 命令成功: make -j20
+[2025-08-10 14:18:55] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:55] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: psh_glyph_find_strong_points
+[2025-08-10 14:18:55] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:18:55] 找到有效的BC文件，检查符号...
+[2025-08-10 14:18:55] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: psh_glyph_find_strong_points
+[2025-08-10 14:18:55] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2498_patch.bc
+[2025-08-10 14:18:55] 命令成功: git rev-parse 8d22746c9e5a~1
+[2025-08-10 14:18:55] 命令成功: git checkout 3624110cc25c
+[2025-08-10 14:18:55] 成功检出commit: 3624110cc25c
+[2025-08-10 14:18:55] 处理 vuln 版本 (3624110cc25c)
+[2025-08-10 14:18:55] 命令成功: make clean
+[2025-08-10 14:18:55] === start autogen.sh ===
+[2025-08-10 14:18:56] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:18:56] === start configure ===
+[2025-08-10 14:19:00] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:00] === start make ===
+[2025-08-10 14:19:02] 命令成功: make -j20
+[2025-08-10 14:19:02] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:02] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: psh_glyph_find_strong_points
+[2025-08-10 14:19:02] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:02] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:02] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: psh_glyph_find_strong_points
+[2025-08-10 14:19:02] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2498_vuln.bc
+[2025-08-10 14:19:02] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:02] 处理: CVE-2010-2500, 符号: ft_smooth_render_generic, gray_render_span
+[2025-08-10 14:19:02] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:02] 命令成功: git checkout 6305b869d86f
+[2025-08-10 14:19:02] 成功检出commit: 6305b869d86f
+[2025-08-10 14:19:02] 处理 patch 版本 (6305b869d86f)
+[2025-08-10 14:19:02] 命令成功: make clean
+[2025-08-10 14:19:02] === start autogen.sh ===
+[2025-08-10 14:19:03] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:03] === start configure ===
+[2025-08-10 14:19:07] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:07] === start make ===
+[2025-08-10 14:19:09] 命令成功: make -j20
+[2025-08-10 14:19:09] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:09] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: ft_smooth_render_generic, gray_render_span
+[2025-08-10 14:19:09] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:09] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:09] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: ft_smooth_render_generic, gray_render_span
+[2025-08-10 14:19:09] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2500_patch.bc
+[2025-08-10 14:19:09] 命令成功: git rev-parse 6305b869d86f~1
+[2025-08-10 14:19:09] 命令成功: git checkout 0ae6cf214ff1
+[2025-08-10 14:19:09] 成功检出commit: 0ae6cf214ff1
+[2025-08-10 14:19:09] 处理 vuln 版本 (0ae6cf214ff1)
+[2025-08-10 14:19:09] 命令成功: make clean
+[2025-08-10 14:19:09] === start autogen.sh ===
+[2025-08-10 14:19:10] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:10] === start configure ===
+[2025-08-10 14:19:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:13] === start make ===
+[2025-08-10 14:19:16] 命令成功: make -j20
+[2025-08-10 14:19:16] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:16] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: ft_smooth_render_generic, gray_render_span
+[2025-08-10 14:19:16] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:16] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:16] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: ft_smooth_render_generic, gray_render_span
+[2025-08-10 14:19:16] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2500_vuln.bc
+[2025-08-10 14:19:16] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:16] 处理: CVE-2010-2499, 符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:16] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:16] 命令成功: git checkout c69891a13456
+[2025-08-10 14:19:16] 成功检出commit: c69891a13456
+[2025-08-10 14:19:16] 处理 patch 版本 (c69891a13456)
+[2025-08-10 14:19:16] 命令成功: make clean
+[2025-08-10 14:19:16] === start autogen.sh ===
+[2025-08-10 14:19:17] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:17] === start configure ===
+[2025-08-10 14:19:20] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:20] === start make ===
+[2025-08-10 14:19:23] 命令成功: make -j20
+[2025-08-10 14:19:23] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:23] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:23] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:23] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2499_patch.bc
+[2025-08-10 14:19:23] 命令成功: git rev-parse c69891a13456~1
+[2025-08-10 14:19:23] 命令成功: git checkout 6fc12943e99b
+[2025-08-10 14:19:23] 成功检出commit: 6fc12943e99b
+[2025-08-10 14:19:23] 处理 vuln 版本 (6fc12943e99b)
+[2025-08-10 14:19:23] 命令成功: make clean
+[2025-08-10 14:19:23] === start autogen.sh ===
+[2025-08-10 14:19:24] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:24] === start configure ===
+[2025-08-10 14:19:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:27] === start make ===
+[2025-08-10 14:19:30] 命令成功: make -j20
+[2025-08-10 14:19:30] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:30] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:30] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:30] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:30] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:30] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2499_vuln.bc
+[2025-08-10 14:19:30] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:30] 处理: CVE-2010-2519, 符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:30] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:30] 命令成功: git checkout 5ef20c8c1d4d
+[2025-08-10 14:19:30] 成功检出commit: 5ef20c8c1d4d
+[2025-08-10 14:19:30] 处理 patch 版本 (5ef20c8c1d4d)
+[2025-08-10 14:19:30] 命令成功: make clean
+[2025-08-10 14:19:30] === start autogen.sh ===
+[2025-08-10 14:19:31] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:31] === start configure ===
+[2025-08-10 14:19:34] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:34] === start make ===
+[2025-08-10 14:19:37] 命令成功: make -j20
+[2025-08-10 14:19:37] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:37] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:37] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:37] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2519_patch.bc
+[2025-08-10 14:19:37] 命令成功: git rev-parse 5ef20c8c1d4d~1
+[2025-08-10 14:19:37] 命令成功: git checkout f29f741efbba
+[2025-08-10 14:19:37] 成功检出commit: f29f741efbba
+[2025-08-10 14:19:37] 处理 vuln 版本 (f29f741efbba)
+[2025-08-10 14:19:37] 命令成功: make clean
+[2025-08-10 14:19:37] === start autogen.sh ===
+[2025-08-10 14:19:38] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:38] === start configure ===
+[2025-08-10 14:19:41] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:41] === start make ===
+[2025-08-10 14:19:44] 命令成功: make -j20
+[2025-08-10 14:19:44] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:44] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:44] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:44] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:44] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:19:44] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2519_vuln.bc
+[2025-08-10 14:19:44] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:44] 处理: CVE-2010-2520, 符号: Ins_IUP
+[2025-08-10 14:19:44] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:44] 命令成功: git checkout 888cd1843e93
+[2025-08-10 14:19:44] 成功检出commit: 888cd1843e93
+[2025-08-10 14:19:44] 处理 patch 版本 (888cd1843e93)
+[2025-08-10 14:19:44] 命令成功: make clean
+[2025-08-10 14:19:44] === start autogen.sh ===
+[2025-08-10 14:19:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:45] === start configure ===
+[2025-08-10 14:19:48] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:48] === start make ===
+[2025-08-10 14:19:51] 命令成功: make -j20
+[2025-08-10 14:19:51] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:51] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Ins_IUP
+[2025-08-10 14:19:51] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:51] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:51] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Ins_IUP
+[2025-08-10 14:19:51] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2520_patch.bc
+[2025-08-10 14:19:51] 命令成功: git rev-parse 888cd1843e93~1
+[2025-08-10 14:19:51] 命令成功: git checkout c73e160517fa
+[2025-08-10 14:19:51] 成功检出commit: c73e160517fa
+[2025-08-10 14:19:51] 处理 vuln 版本 (c73e160517fa)
+[2025-08-10 14:19:51] 命令成功: make clean
+[2025-08-10 14:19:51] === start autogen.sh ===
+[2025-08-10 14:19:52] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:52] === start configure ===
+[2025-08-10 14:19:55] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:19:55] === start make ===
+[2025-08-10 14:19:58] 命令成功: make -j20
+[2025-08-10 14:19:58] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:58] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Ins_IUP
+[2025-08-10 14:19:58] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc
+[2025-08-10 14:19:58] 找到有效的BC文件，检查符号...
+[2025-08-10 14:19:58] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 包含所有必需符号: Ins_IUP
+[2025-08-10 14:19:58] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2520_vuln.bc
+[2025-08-10 14:19:58] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:58] 处理: CVE-2010-2805, 符号: FT_Stream_EnterFrame
+[2025-08-10 14:19:58] 命令成功: git stash --include-untracked
+[2025-08-10 14:19:58] 命令成功: git checkout 45a3c76b5475
+[2025-08-10 14:19:58] 成功检出commit: 45a3c76b5475
+[2025-08-10 14:19:58] 处理 patch 版本 (45a3c76b5475)
+[2025-08-10 14:19:58] 命令成功: make clean
+[2025-08-10 14:19:58] === start autogen.sh ===
+[2025-08-10 14:19:59] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:19:59] === start configure ===
+[2025-08-10 14:20:02] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:02] === start make ===
+[2025-08-10 14:20:04] 命令成功: make -j20
+[2025-08-10 14:20:04] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:04] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: FT_Stream_EnterFrame
+[2025-08-10 14:20:04] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:04] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:04] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: FT_Stream_EnterFrame
+[2025-08-10 14:20:04] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2805_patch.bc
+[2025-08-10 14:20:04] 命令成功: git rev-parse 45a3c76b5475~1
+[2025-08-10 14:20:04] 命令成功: git checkout 32dc43a5cc7b
+[2025-08-10 14:20:04] 成功检出commit: 32dc43a5cc7b
+[2025-08-10 14:20:04] 处理 vuln 版本 (32dc43a5cc7b)
+[2025-08-10 14:20:04] 命令成功: make clean
+[2025-08-10 14:20:04] === start autogen.sh ===
+[2025-08-10 14:20:06] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:06] === start configure ===
+[2025-08-10 14:20:09] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:09] === start make ===
+[2025-08-10 14:20:11] 命令成功: make -j20
+[2025-08-10 14:20:11] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:11] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: FT_Stream_EnterFrame
+[2025-08-10 14:20:11] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:11] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:11] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: FT_Stream_EnterFrame
+[2025-08-10 14:20:11] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2805_vuln.bc
+[2025-08-10 14:20:11] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:11] 处理: CVE-2010-2806, 符号: t42_parse_sfnts
+[2025-08-10 14:20:11] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:11] 命令成功: git checkout c06da1ad3466
+[2025-08-10 14:20:11] 成功检出commit: c06da1ad3466
+[2025-08-10 14:20:11] 处理 patch 版本 (c06da1ad3466)
+[2025-08-10 14:20:11] 命令成功: make clean
+[2025-08-10 14:20:11] === start autogen.sh ===
+[2025-08-10 14:20:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:13] === start configure ===
+[2025-08-10 14:20:16] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:16] === start make ===
+[2025-08-10 14:20:18] 命令成功: make -j20
+[2025-08-10 14:20:18] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:18] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: t42_parse_sfnts
+[2025-08-10 14:20:18] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:18] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:18] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: t42_parse_sfnts
+[2025-08-10 14:20:18] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2806_patch.bc
+[2025-08-10 14:20:18] 命令成功: git rev-parse c06da1ad3466~1
+[2025-08-10 14:20:18] 命令成功: git checkout d9b3e39484bb
+[2025-08-10 14:20:18] 成功检出commit: d9b3e39484bb
+[2025-08-10 14:20:18] 处理 vuln 版本 (d9b3e39484bb)
+[2025-08-10 14:20:18] 命令成功: make clean
+[2025-08-10 14:20:18] === start autogen.sh ===
+[2025-08-10 14:20:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:19] === start configure ===
+[2025-08-10 14:20:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:23] === start make ===
+[2025-08-10 14:20:25] 命令成功: make -j20
+[2025-08-10 14:20:25] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:25] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: t42_parse_sfnts
+[2025-08-10 14:20:25] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:25] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:25] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: t42_parse_sfnts
+[2025-08-10 14:20:25] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2806_vuln.bc
+[2025-08-10 14:20:25] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:25] 处理: CVE-2010-2808, 符号: Mac_Read_POST_Resource
+[2025-08-10 14:20:25] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:25] 命令成功: git checkout 81f3472c0ba7
+[2025-08-10 14:20:25] 成功检出commit: 81f3472c0ba7
+[2025-08-10 14:20:25] 处理 patch 版本 (81f3472c0ba7)
+[2025-08-10 14:20:25] 命令成功: make clean
+[2025-08-10 14:20:25] === start autogen.sh ===
+[2025-08-10 14:20:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:27] === start configure ===
+[2025-08-10 14:20:30] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:30] === start make ===
+[2025-08-10 14:20:32] 命令成功: make -j20
+[2025-08-10 14:20:32] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:32] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:20:32] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:32] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:32] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:20:32] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2808_patch.bc
+[2025-08-10 14:20:32] 命令成功: git rev-parse 81f3472c0ba7~1
+[2025-08-10 14:20:32] 命令成功: git checkout 223cb1b57c1c
+[2025-08-10 14:20:32] 成功检出commit: 223cb1b57c1c
+[2025-08-10 14:20:32] 处理 vuln 版本 (223cb1b57c1c)
+[2025-08-10 14:20:32] 命令成功: make clean
+[2025-08-10 14:20:32] === start autogen.sh ===
+[2025-08-10 14:20:34] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:34] === start configure ===
+[2025-08-10 14:20:37] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:37] === start make ===
+[2025-08-10 14:20:39] 命令成功: make -j20
+[2025-08-10 14:20:39] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:39] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:20:39] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc
+[2025-08-10 14:20:39] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:39] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:20:39] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-2808_vuln.bc
+[2025-08-10 14:20:39] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:39] 处理: CVE-2010-3814, 符号: Ins_SHZ
+[2025-08-10 14:20:39] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:39] 命令成功: git checkout 0edf0986f3be
+[2025-08-10 14:20:39] 成功检出commit: 0edf0986f3be
+[2025-08-10 14:20:39] 处理 patch 版本 (0edf0986f3be)
+[2025-08-10 14:20:39] 命令成功: make clean
+[2025-08-10 14:20:39] === start autogen.sh ===
+[2025-08-10 14:20:40] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:40] === start configure ===
+[2025-08-10 14:20:44] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:44] === start make ===
+[2025-08-10 14:20:46] 命令成功: make -j20
+[2025-08-10 14:20:46] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:20:46] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: Ins_SHZ
+[2025-08-10 14:20:46] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:20:46] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:46] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: Ins_SHZ
+[2025-08-10 14:20:46] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-3814_patch.bc
+[2025-08-10 14:20:46] 命令成功: git rev-parse 0edf0986f3be~1
+[2025-08-10 14:20:46] 命令成功: git checkout 94d540ef7753
+[2025-08-10 14:20:46] 成功检出commit: 94d540ef7753
+[2025-08-10 14:20:46] 处理 vuln 版本 (94d540ef7753)
+[2025-08-10 14:20:46] 命令成功: make clean
+[2025-08-10 14:20:46] === start autogen.sh ===
+[2025-08-10 14:20:48] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:48] === start configure ===
+[2025-08-10 14:20:51] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:51] === start make ===
+[2025-08-10 14:20:53] 命令成功: make -j20
+[2025-08-10 14:20:53] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:20:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: Ins_SHZ
+[2025-08-10 14:20:53] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:20:53] 找到有效的BC文件，检查符号...
+[2025-08-10 14:20:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: Ins_SHZ
+[2025-08-10 14:20:53] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-3814_vuln.bc
+[2025-08-10 14:20:53] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:53] 处理: CVE-2010-3855, 符号: ft_var_readpackedpoints
+[2025-08-10 14:20:53] 命令成功: git stash --include-untracked
+[2025-08-10 14:20:53] 命令成功: git checkout 59eb9f8cfe7d
+[2025-08-10 14:20:53] 成功检出commit: 59eb9f8cfe7d
+[2025-08-10 14:20:53] 处理 patch 版本 (59eb9f8cfe7d)
+[2025-08-10 14:20:53] 命令成功: make clean
+[2025-08-10 14:20:53] === start autogen.sh ===
+[2025-08-10 14:20:55] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:20:55] === start configure ===
+[2025-08-10 14:20:58] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:20:58] === start make ===
+[2025-08-10 14:21:00] 命令成功: make -j20
+[2025-08-10 14:21:00] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:21:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: ft_var_readpackedpoints
+[2025-08-10 14:21:00] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:21:00] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: ft_var_readpackedpoints
+[2025-08-10 14:21:00] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-3855_patch.bc
+[2025-08-10 14:21:00] 命令成功: git rev-parse 59eb9f8cfe7d~1
+[2025-08-10 14:21:00] 命令成功: git checkout bc4ed48e4133
+[2025-08-10 14:21:00] 成功检出commit: bc4ed48e4133
+[2025-08-10 14:21:00] 处理 vuln 版本 (bc4ed48e4133)
+[2025-08-10 14:21:00] 命令成功: make clean
+[2025-08-10 14:21:00] === start autogen.sh ===
+[2025-08-10 14:21:02] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:02] === start configure ===
+[2025-08-10 14:21:05] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:05] === start make ===
+[2025-08-10 14:21:07] 命令成功: make -j20
+[2025-08-10 14:21:07] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:21:07] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: ft_var_readpackedpoints
+[2025-08-10 14:21:07] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc
+[2025-08-10 14:21:07] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:07] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 包含所有必需符号: ft_var_readpackedpoints
+[2025-08-10 14:21:07] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.6.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2010-3855_vuln.bc
+[2025-08-10 14:21:07] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:07] 处理: CVE-2012-5668, 符号: _bdf_parse_start
+[2025-08-10 14:21:07] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:07] 命令成功: git checkout 9b6b5754b57c
+[2025-08-10 14:21:07] 成功检出commit: 9b6b5754b57c
+[2025-08-10 14:21:07] 处理 patch 版本 (9b6b5754b57c)
+[2025-08-10 14:21:07] 命令成功: make clean
+[2025-08-10 14:21:07] === start autogen.sh ===
+[2025-08-10 14:21:08] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:08] === start configure ===
+[2025-08-10 14:21:12] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:12] === start make ===
+[2025-08-10 14:21:14] 命令成功: make -j20
+[2025-08-10 14:21:14] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_start
+[2025-08-10 14:21:14] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:14] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_start
+[2025-08-10 14:21:14] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5668_patch.bc
+[2025-08-10 14:21:14] 命令成功: git rev-parse 9b6b5754b57c~1
+[2025-08-10 14:21:14] 命令成功: git checkout 65d6572105c0
+[2025-08-10 14:21:14] 成功检出commit: 65d6572105c0
+[2025-08-10 14:21:14] 处理 vuln 版本 (65d6572105c0)
+[2025-08-10 14:21:14] 命令成功: make clean
+[2025-08-10 14:21:14] === start autogen.sh ===
+[2025-08-10 14:21:16] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:16] === start configure ===
+[2025-08-10 14:21:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:19] === start make ===
+[2025-08-10 14:21:21] 命令成功: make -j20
+[2025-08-10 14:21:21] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:21] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_start
+[2025-08-10 14:21:21] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:21] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:21] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_start
+[2025-08-10 14:21:21] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5668_vuln.bc
+[2025-08-10 14:21:21] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:21] 处理: CVE-2012-5669, 符号: _bdf_parse_glyphs
+[2025-08-10 14:21:21] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:22] 命令成功: git checkout 07bdb6e289c7
+[2025-08-10 14:21:22] 成功检出commit: 07bdb6e289c7
+[2025-08-10 14:21:22] 处理 patch 版本 (07bdb6e289c7)
+[2025-08-10 14:21:22] 命令成功: make clean
+[2025-08-10 14:21:22] === start autogen.sh ===
+[2025-08-10 14:21:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:23] === start configure ===
+[2025-08-10 14:21:26] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:26] === start make ===
+[2025-08-10 14:21:29] 命令成功: make -j20
+[2025-08-10 14:21:29] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:29] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:29] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:29] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5669_patch.bc
+[2025-08-10 14:21:29] 命令成功: git rev-parse 07bdb6e289c7~1
+[2025-08-10 14:21:29] 命令成功: git checkout 9b6b5754b57c
+[2025-08-10 14:21:29] 成功检出commit: 9b6b5754b57c
+[2025-08-10 14:21:29] 处理 vuln 版本 (9b6b5754b57c)
+[2025-08-10 14:21:29] 命令成功: make clean
+[2025-08-10 14:21:29] === start autogen.sh ===
+[2025-08-10 14:21:30] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:30] === start configure ===
+[2025-08-10 14:21:33] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:33] === start make ===
+[2025-08-10 14:21:36] 命令成功: make -j20
+[2025-08-10 14:21:36] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:36] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:36] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:36] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:36] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:36] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5669_vuln.bc
+[2025-08-10 14:21:36] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:36] 处理: CVE-2012-5670, 符号: _bdf_parse_glyphs
+[2025-08-10 14:21:36] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:36] 命令成功: git checkout 7f2e4f4f553f
+[2025-08-10 14:21:36] 成功检出commit: 7f2e4f4f553f
+[2025-08-10 14:21:36] 处理 patch 版本 (7f2e4f4f553f)
+[2025-08-10 14:21:36] 命令成功: make clean
+[2025-08-10 14:21:36] === start autogen.sh ===
+[2025-08-10 14:21:37] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:37] === start configure ===
+[2025-08-10 14:21:41] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:41] === start make ===
+[2025-08-10 14:21:43] 命令成功: make -j20
+[2025-08-10 14:21:43] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:43] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:43] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:43] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:43] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:43] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5670_patch.bc
+[2025-08-10 14:21:43] 命令成功: git rev-parse 7f2e4f4f553f~1
+[2025-08-10 14:21:43] 命令成功: git checkout 07bdb6e289c7
+[2025-08-10 14:21:43] 成功检出commit: 07bdb6e289c7
+[2025-08-10 14:21:43] 处理 vuln 版本 (07bdb6e289c7)
+[2025-08-10 14:21:43] 命令成功: make clean
+[2025-08-10 14:21:43] === start autogen.sh ===
+[2025-08-10 14:21:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:45] === start configure ===
+[2025-08-10 14:21:48] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:48] === start make ===
+[2025-08-10 14:21:50] 命令成功: make -j20
+[2025-08-10 14:21:50] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:50] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:50] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc
+[2025-08-10 14:21:50] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:51] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:21:51] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2012-5670_vuln.bc
+[2025-08-10 14:21:51] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:51] 处理: CVE-2014-9746, 符号: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-10 14:21:51] 命令成功: git stash --include-untracked
+[2025-08-10 14:21:51] 命令成功: git checkout 8b281f83e851
+[2025-08-10 14:21:51] 成功检出commit: 8b281f83e851
+[2025-08-10 14:21:51] 处理 patch 版本 (8b281f83e851)
+[2025-08-10 14:21:51] 命令成功: make clean
+[2025-08-10 14:21:51] === start autogen.sh ===
+[2025-08-10 14:21:52] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:52] === start configure ===
+[2025-08-10 14:21:55] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:21:55] === start make ===
+[2025-08-10 14:21:58] 命令成功: make -j20
+[2025-08-10 14:21:58] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:21:58] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-10 14:21:58] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:21:58] 找到有效的BC文件，检查符号...
+[2025-08-10 14:21:58] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-10 14:21:58] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9746_patch.bc
+[2025-08-10 14:21:58] 命令成功: git rev-parse 8b281f83e851~1
+[2025-08-10 14:21:58] 命令成功: git checkout 039f049656bf
+[2025-08-10 14:21:58] 成功检出commit: 039f049656bf
+[2025-08-10 14:21:58] 处理 vuln 版本 (039f049656bf)
+[2025-08-10 14:21:58] 命令成功: make clean
+[2025-08-10 14:21:58] === start autogen.sh ===
+[2025-08-10 14:21:59] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:21:59] === start configure ===
+[2025-08-10 14:22:03] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:03] === start make ===
+[2025-08-10 14:22:05] 命令成功: make -j20
+[2025-08-10 14:22:05] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:05] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-10 14:22:05] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:05] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:05] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-10 14:22:05] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9746_vuln.bc
+[2025-08-10 14:22:05] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:05] 处理: CVE-2014-9745, 符号: parse_encoding
+[2025-08-10 14:22:05] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:05] 命令成功: git checkout df14e6c0b959
+[2025-08-10 14:22:05] 成功检出commit: df14e6c0b959
+[2025-08-10 14:22:05] 处理 patch 版本 (df14e6c0b959)
+[2025-08-10 14:22:05] 命令成功: make clean
+[2025-08-10 14:22:05] === start autogen.sh ===
+[2025-08-10 14:22:07] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:07] === start configure ===
+[2025-08-10 14:22:10] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:10] === start make ===
+[2025-08-10 14:22:13] 命令成功: make -j20
+[2025-08-10 14:22:13] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:13] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: parse_encoding
+[2025-08-10 14:22:13] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:13] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:13] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: parse_encoding
+[2025-08-10 14:22:13] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9745_patch.bc
+[2025-08-10 14:22:13] 命令成功: git rev-parse df14e6c0b959~1
+[2025-08-10 14:22:13] 命令成功: git checkout cc9a0c26af5f
+[2025-08-10 14:22:13] 成功检出commit: cc9a0c26af5f
+[2025-08-10 14:22:13] 处理 vuln 版本 (cc9a0c26af5f)
+[2025-08-10 14:22:13] 命令成功: make clean
+[2025-08-10 14:22:13] === start autogen.sh ===
+[2025-08-10 14:22:14] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:14] === start configure ===
+[2025-08-10 14:22:17] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:17] === start make ===
+[2025-08-10 14:22:20] 命令成功: make -j20
+[2025-08-10 14:22:20] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:20] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: parse_encoding
+[2025-08-10 14:22:20] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:20] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:20] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: parse_encoding
+[2025-08-10 14:22:20] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9745_vuln.bc
+[2025-08-10 14:22:20] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:20] 处理: CVE-2014-2241, 符号: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-10 14:22:20] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:20] 命令成功: git checkout 135c3faebb96
+[2025-08-10 14:22:20] 成功检出commit: 135c3faebb96
+[2025-08-10 14:22:20] 处理 patch 版本 (135c3faebb96)
+[2025-08-10 14:22:20] 命令成功: make clean
+[2025-08-10 14:22:20] === start autogen.sh ===
+[2025-08-10 14:22:21] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:21] === start configure ===
+[2025-08-10 14:22:25] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:25] === start make ===
+[2025-08-10 14:22:27] 命令成功: make -j20
+[2025-08-10 14:22:27] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:27] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-10 14:22:27] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:27] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:27] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-10 14:22:27] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-2241_patch.bc
+[2025-08-10 14:22:27] 命令成功: git rev-parse 135c3faebb96~1
+[2025-08-10 14:22:27] 命令成功: git checkout 0eae6eb06452
+[2025-08-10 14:22:27] 成功检出commit: 0eae6eb06452
+[2025-08-10 14:22:27] 处理 vuln 版本 (0eae6eb06452)
+[2025-08-10 14:22:27] 命令成功: make clean
+[2025-08-10 14:22:27] === start autogen.sh ===
+[2025-08-10 14:22:29] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:29] === start configure ===
+[2025-08-10 14:22:32] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:32] === start make ===
+[2025-08-10 14:22:35] 命令成功: make -j20
+[2025-08-10 14:22:35] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:35] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-10 14:22:35] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc
+[2025-08-10 14:22:35] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:35] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 包含所有必需符号: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-10 14:22:35] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-2241_vuln.bc
+[2025-08-10 14:22:35] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:35] 处理: CVE-2014-9670, 符号: pcf_get_encodings
+[2025-08-10 14:22:35] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:35] 命令成功: git checkout ef1eba75187a
+[2025-08-10 14:22:35] 成功检出commit: ef1eba75187a
+[2025-08-10 14:22:35] 处理 patch 版本 (ef1eba75187a)
+[2025-08-10 14:22:35] 命令成功: make clean
+[2025-08-10 14:22:35] === start autogen.sh ===
+[2025-08-10 14:22:36] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:36] === start configure ===
+[2025-08-10 14:22:39] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:39] === start make ===
+[2025-08-10 14:22:42] 命令成功: make -j20
+[2025-08-10 14:22:42] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:42] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_get_encodings
+[2025-08-10 14:22:42] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:42] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:42] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_get_encodings
+[2025-08-10 14:22:42] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9670_patch.bc
+[2025-08-10 14:22:42] 命令成功: git rev-parse ef1eba75187a~1
+[2025-08-10 14:22:42] 命令成功: git checkout 0e2f5d518c60
+[2025-08-10 14:22:42] 成功检出commit: 0e2f5d518c60
+[2025-08-10 14:22:42] 处理 vuln 版本 (0e2f5d518c60)
+[2025-08-10 14:22:42] 命令成功: make clean
+[2025-08-10 14:22:42] === start autogen.sh ===
+[2025-08-10 14:22:43] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:43] === start configure ===
+[2025-08-10 14:22:47] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:47] === start make ===
+[2025-08-10 14:22:49] 命令成功: make -j20
+[2025-08-10 14:22:49] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:49] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_get_encodings
+[2025-08-10 14:22:49] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:49] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:49] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_get_encodings
+[2025-08-10 14:22:49] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9670_vuln.bc
+[2025-08-10 14:22:49] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:49] 处理: CVE-2014-9671, 符号: pcf_read_TOC
+[2025-08-10 14:22:49] 命令成功: git stash --include-untracked
+[2025-08-10 14:22:49] 命令成功: git checkout 0e2f5d518c60
+[2025-08-10 14:22:49] 成功检出commit: 0e2f5d518c60
+[2025-08-10 14:22:49] 处理 patch 版本 (0e2f5d518c60)
+[2025-08-10 14:22:49] 命令成功: make clean
+[2025-08-10 14:22:49] === start autogen.sh ===
+[2025-08-10 14:22:51] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:51] === start configure ===
+[2025-08-10 14:22:54] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:22:54] === start make ===
+[2025-08-10 14:22:56] 命令成功: make -j20
+[2025-08-10 14:22:56] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:56] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_read_TOC
+[2025-08-10 14:22:56] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:22:56] 找到有效的BC文件，检查符号...
+[2025-08-10 14:22:57] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_read_TOC
+[2025-08-10 14:22:57] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9671_patch.bc
+[2025-08-10 14:22:57] 命令成功: git rev-parse 0e2f5d518c60~1
+[2025-08-10 14:22:57] 命令成功: git checkout f49a100a6c4b
+[2025-08-10 14:22:57] 成功检出commit: f49a100a6c4b
+[2025-08-10 14:22:57] 处理 vuln 版本 (f49a100a6c4b)
+[2025-08-10 14:22:57] 命令成功: make clean
+[2025-08-10 14:22:57] === start autogen.sh ===
+[2025-08-10 14:22:58] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:22:58] === start configure ===
+[2025-08-10 14:23:02] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:02] === start make ===
+[2025-08-10 14:23:04] 命令成功: make -j20
+[2025-08-10 14:23:04] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:04] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_read_TOC
+[2025-08-10 14:23:04] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:04] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:04] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: pcf_read_TOC
+[2025-08-10 14:23:04] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9671_vuln.bc
+[2025-08-10 14:23:04] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:04] 处理: CVE-2014-9666, 符号: tt_sbit_decoder_init
+[2025-08-10 14:23:04] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:04] 命令成功: git checkout 257c270bd25e
+[2025-08-10 14:23:04] 成功检出commit: 257c270bd25e
+[2025-08-10 14:23:04] 处理 patch 版本 (257c270bd25e)
+[2025-08-10 14:23:04] 命令成功: make clean
+[2025-08-10 14:23:04] === start autogen.sh ===
+[2025-08-10 14:23:06] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:06] === start configure ===
+[2025-08-10 14:23:09] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:09] === start make ===
+[2025-08-10 14:23:11] 命令成功: make -j20
+[2025-08-10 14:23:11] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:11] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_init
+[2025-08-10 14:23:11] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:11] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:11] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_init
+[2025-08-10 14:23:11] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9666_patch.bc
+[2025-08-10 14:23:11] 命令成功: git rev-parse 257c270bd25e~1
+[2025-08-10 14:23:11] 命令成功: git checkout 677ddf4f1dc1
+[2025-08-10 14:23:11] 成功检出commit: 677ddf4f1dc1
+[2025-08-10 14:23:11] 处理 vuln 版本 (677ddf4f1dc1)
+[2025-08-10 14:23:11] 命令成功: make clean
+[2025-08-10 14:23:11] === start autogen.sh ===
+[2025-08-10 14:23:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:13] === start configure ===
+[2025-08-10 14:23:16] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:16] === start make ===
+[2025-08-10 14:23:19] 命令成功: make -j20
+[2025-08-10 14:23:19] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:19] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_init
+[2025-08-10 14:23:19] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:19] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:19] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_init
+[2025-08-10 14:23:19] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9666_vuln.bc
+[2025-08-10 14:23:19] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:19] 处理: CVE-2014-9667, 符号: check_table_dir, tt_face_load_font_dir
+[2025-08-10 14:23:19] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:19] 命令成功: git checkout 677ddf4f1dc1
+[2025-08-10 14:23:19] 成功检出commit: 677ddf4f1dc1
+[2025-08-10 14:23:19] 处理 patch 版本 (677ddf4f1dc1)
+[2025-08-10 14:23:19] 命令成功: make clean
+[2025-08-10 14:23:19] === start autogen.sh ===
+[2025-08-10 14:23:20] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:20] === start configure ===
+[2025-08-10 14:23:24] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:24] === start make ===
+[2025-08-10 14:23:26] 命令成功: make -j20
+[2025-08-10 14:23:26] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:26] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: check_table_dir, tt_face_load_font_dir
+[2025-08-10 14:23:26] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:26] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:26] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: check_table_dir, tt_face_load_font_dir
+[2025-08-10 14:23:26] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9667_patch.bc
+[2025-08-10 14:23:26] 命令成功: git rev-parse 677ddf4f1dc1~1
+[2025-08-10 14:23:26] 命令成功: git checkout f46add138953
+[2025-08-10 14:23:26] 成功检出commit: f46add138953
+[2025-08-10 14:23:26] 处理 vuln 版本 (f46add138953)
+[2025-08-10 14:23:26] 命令成功: make clean
+[2025-08-10 14:23:26] === start autogen.sh ===
+[2025-08-10 14:23:28] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:28] === start configure ===
+[2025-08-10 14:23:31] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:31] === start make ===
+[2025-08-10 14:23:33] 命令成功: make -j20
+[2025-08-10 14:23:33] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:33] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: check_table_dir, tt_face_load_font_dir
+[2025-08-10 14:23:33] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:33] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:34] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: check_table_dir, tt_face_load_font_dir
+[2025-08-10 14:23:34] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9667_vuln.bc
+[2025-08-10 14:23:34] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:34] 处理: CVE-2014-9668, 符号: woff_open_font
+[2025-08-10 14:23:34] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:34] 命令成功: git checkout f46add138953
+[2025-08-10 14:23:34] 成功检出commit: f46add138953
+[2025-08-10 14:23:34] 处理 patch 版本 (f46add138953)
+[2025-08-10 14:23:34] 命令成功: make clean
+[2025-08-10 14:23:34] === start autogen.sh ===
+[2025-08-10 14:23:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:35] === start configure ===
+[2025-08-10 14:23:39] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:39] === start make ===
+[2025-08-10 14:23:41] 命令成功: make -j20
+[2025-08-10 14:23:41] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:41] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: woff_open_font
+[2025-08-10 14:23:41] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:41] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:41] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: woff_open_font
+[2025-08-10 14:23:41] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9668_patch.bc
+[2025-08-10 14:23:41] 命令成功: git rev-parse f46add138953~1
+[2025-08-10 14:23:41] 命令成功: git checkout 602040b1112c
+[2025-08-10 14:23:41] 成功检出commit: 602040b1112c
+[2025-08-10 14:23:41] 处理 vuln 版本 (602040b1112c)
+[2025-08-10 14:23:41] 命令成功: make clean
+[2025-08-10 14:23:41] === start autogen.sh ===
+[2025-08-10 14:23:42] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:42] === start configure ===
+[2025-08-10 14:23:46] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:46] === start make ===
+[2025-08-10 14:23:49] 命令成功: make -j20
+[2025-08-10 14:23:49] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:49] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: woff_open_font
+[2025-08-10 14:23:49] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:49] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:49] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: woff_open_font
+[2025-08-10 14:23:49] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9668_vuln.bc
+[2025-08-10 14:23:49] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:49] 处理: CVE-2014-9669, 符号: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-10 14:23:49] 命令成功: git stash --include-untracked
+[2025-08-10 14:23:49] 命令成功: git checkout 602040b1112c
+[2025-08-10 14:23:49] 成功检出commit: 602040b1112c
+[2025-08-10 14:23:49] 处理 patch 版本 (602040b1112c)
+[2025-08-10 14:23:49] 命令成功: make clean
+[2025-08-10 14:23:49] === start autogen.sh ===
+[2025-08-10 14:23:50] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:50] === start configure ===
+[2025-08-10 14:23:53] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:23:53] === start make ===
+[2025-08-10 14:23:56] 命令成功: make -j20
+[2025-08-10 14:23:56] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:56] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-10 14:23:56] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:23:56] 找到有效的BC文件，检查符号...
+[2025-08-10 14:23:56] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-10 14:23:56] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9669_patch.bc
+[2025-08-10 14:23:56] 命令成功: git rev-parse 602040b1112c~1
+[2025-08-10 14:23:56] 命令成功: git checkout 2e73a1b4fdc4
+[2025-08-10 14:23:56] 成功检出commit: 2e73a1b4fdc4
+[2025-08-10 14:23:56] 处理 vuln 版本 (2e73a1b4fdc4)
+[2025-08-10 14:23:56] 命令成功: make clean
+[2025-08-10 14:23:56] === start autogen.sh ===
+[2025-08-10 14:23:57] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:23:57] === start configure ===
+[2025-08-10 14:24:01] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:01] === start make ===
+[2025-08-10 14:24:03] 命令成功: make -j20
+[2025-08-10 14:24:03] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:03] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-10 14:24:03] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:03] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:03] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-10 14:24:03] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9669_vuln.bc
+[2025-08-10 14:24:03] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:03] 处理: CVE-2014-9664, 符号: t42_parse_charstrings, parse_charstrings
+[2025-08-10 14:24:03] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:03] 命令成功: git checkout 73be9f9ab678
+[2025-08-10 14:24:03] 成功检出commit: 73be9f9ab678
+[2025-08-10 14:24:03] 处理 patch 版本 (73be9f9ab678)
+[2025-08-10 14:24:03] 命令成功: make clean
+[2025-08-10 14:24:03] === start autogen.sh ===
+[2025-08-10 14:24:05] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:05] === start configure ===
+[2025-08-10 14:24:08] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:08] === start make ===
+[2025-08-10 14:24:10] 命令成功: make -j20
+[2025-08-10 14:24:10] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:10] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: t42_parse_charstrings, parse_charstrings
+[2025-08-10 14:24:10] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:10] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:10] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: t42_parse_charstrings, parse_charstrings
+[2025-08-10 14:24:10] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9664_patch.bc
+[2025-08-10 14:24:10] 命令成功: git rev-parse 73be9f9ab678~1
+[2025-08-10 14:24:11] 命令成功: git checkout a7a4207d1087
+[2025-08-10 14:24:11] 成功检出commit: a7a4207d1087
+[2025-08-10 14:24:11] 处理 vuln 版本 (a7a4207d1087)
+[2025-08-10 14:24:11] 命令成功: make clean
+[2025-08-10 14:24:11] === start autogen.sh ===
+[2025-08-10 14:24:12] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:12] === start configure ===
+[2025-08-10 14:24:15] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:15] === start make ===
+[2025-08-10 14:24:18] 命令成功: make -j20
+[2025-08-10 14:24:18] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:18] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: t42_parse_charstrings, parse_charstrings
+[2025-08-10 14:24:18] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:18] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:18] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: t42_parse_charstrings, parse_charstrings
+[2025-08-10 14:24:18] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9664_vuln.bc
+[2025-08-10 14:24:18] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:18] 处理: CVE-2014-9665, 符号: Load_SBit_Png
+[2025-08-10 14:24:18] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:18] 命令成功: git checkout 54abd22891bd
+[2025-08-10 14:24:18] 成功检出commit: 54abd22891bd
+[2025-08-10 14:24:18] 处理 patch 版本 (54abd22891bd)
+[2025-08-10 14:24:18] 命令成功: make clean
+[2025-08-10 14:24:18] === start autogen.sh ===
+[2025-08-10 14:24:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:19] === start configure ===
+[2025-08-10 14:24:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:23] === start make ===
+[2025-08-10 14:24:25] 命令成功: make -j20
+[2025-08-10 14:24:25] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:25] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Load_SBit_Png
+[2025-08-10 14:24:25] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:25] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:25] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Load_SBit_Png
+[2025-08-10 14:24:25] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9665_patch.bc
+[2025-08-10 14:24:25] 命令成功: git rev-parse 54abd22891bd~1
+[2025-08-10 14:24:25] 命令成功: git checkout 257c270bd25e
+[2025-08-10 14:24:25] 成功检出commit: 257c270bd25e
+[2025-08-10 14:24:25] 处理 vuln 版本 (257c270bd25e)
+[2025-08-10 14:24:25] 命令成功: make clean
+[2025-08-10 14:24:25] === start autogen.sh ===
+[2025-08-10 14:24:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:27] === start configure ===
+[2025-08-10 14:24:30] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:30] === start make ===
+[2025-08-10 14:24:33] 命令成功: make -j20
+[2025-08-10 14:24:33] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:33] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Load_SBit_Png
+[2025-08-10 14:24:33] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:33] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:33] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Load_SBit_Png
+[2025-08-10 14:24:33] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9665_vuln.bc
+[2025-08-10 14:24:33] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:33] 处理: CVE-2014-9660, 符号: _bdf_parse_glyphs
+[2025-08-10 14:24:33] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:33] 命令成功: git checkout af8346172a7b
+[2025-08-10 14:24:33] 成功检出commit: af8346172a7b
+[2025-08-10 14:24:33] 处理 patch 版本 (af8346172a7b)
+[2025-08-10 14:24:33] 命令成功: make clean
+[2025-08-10 14:24:33] === start autogen.sh ===
+[2025-08-10 14:24:34] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:34] === start configure ===
+[2025-08-10 14:24:37] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:37] === start make ===
+[2025-08-10 14:24:40] 命令成功: make -j20
+[2025-08-10 14:24:40] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:40] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:24:40] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:40] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:40] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:24:40] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9660_patch.bc
+[2025-08-10 14:24:40] 命令成功: git rev-parse af8346172a7b~1
+[2025-08-10 14:24:40] 命令成功: git checkout 42fcd6693ec7
+[2025-08-10 14:24:40] 成功检出commit: 42fcd6693ec7
+[2025-08-10 14:24:40] 处理 vuln 版本 (42fcd6693ec7)
+[2025-08-10 14:24:40] 命令成功: make clean
+[2025-08-10 14:24:40] === start autogen.sh ===
+[2025-08-10 14:24:41] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:41] === start configure ===
+[2025-08-10 14:24:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:45] === start make ===
+[2025-08-10 14:24:47] 命令成功: make -j20
+[2025-08-10 14:24:47] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:47] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:24:47] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:47] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:47] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: _bdf_parse_glyphs
+[2025-08-10 14:24:47] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9660_vuln.bc
+[2025-08-10 14:24:47] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:47] 处理: CVE-2014-9661, 符号: T42_Face_Init
+[2025-08-10 14:24:47] 命令成功: git stash --include-untracked
+[2025-08-10 14:24:47] 命令成功: git checkout 3788187e0c39
+[2025-08-10 14:24:47] 成功检出commit: 3788187e0c39
+[2025-08-10 14:24:47] 处理 patch 版本 (3788187e0c39)
+[2025-08-10 14:24:47] 命令成功: make clean
+[2025-08-10 14:24:47] === start autogen.sh ===
+[2025-08-10 14:24:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:49] === start configure ===
+[2025-08-10 14:24:52] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:52] === start make ===
+[2025-08-10 14:24:55] 命令成功: make -j20
+[2025-08-10 14:24:55] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:55] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: T42_Face_Init
+[2025-08-10 14:24:55] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:24:55] 找到有效的BC文件，检查符号...
+[2025-08-10 14:24:55] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: T42_Face_Init
+[2025-08-10 14:24:55] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9661_patch.bc
+[2025-08-10 14:24:55] 命令成功: git rev-parse 3788187e0c39~1
+[2025-08-10 14:24:55] 命令成功: git checkout 5f201ab5c24c
+[2025-08-10 14:24:55] 成功检出commit: 5f201ab5c24c
+[2025-08-10 14:24:55] 处理 vuln 版本 (5f201ab5c24c)
+[2025-08-10 14:24:55] 命令成功: make clean
+[2025-08-10 14:24:55] === start autogen.sh ===
+[2025-08-10 14:24:56] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:24:56] === start configure ===
+[2025-08-10 14:24:59] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:24:59] === start make ===
+[2025-08-10 14:25:02] 命令成功: make -j20
+[2025-08-10 14:25:02] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:02] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: T42_Face_Init
+[2025-08-10 14:25:02] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:02] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:02] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: T42_Face_Init
+[2025-08-10 14:25:02] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9661_vuln.bc
+[2025-08-10 14:25:02] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:02] 处理: CVE-2014-9662, 符号: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-10 14:25:02] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:02] 命令成功: git checkout 5f201ab5c24c
+[2025-08-10 14:25:02] 成功检出commit: 5f201ab5c24c
+[2025-08-10 14:25:02] 处理 patch 版本 (5f201ab5c24c)
+[2025-08-10 14:25:02] 命令成功: make clean
+[2025-08-10 14:25:02] === start autogen.sh ===
+[2025-08-10 14:25:03] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:03] === start configure ===
+[2025-08-10 14:25:07] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:07] === start make ===
+[2025-08-10 14:25:09] 命令成功: make -j20
+[2025-08-10 14:25:09] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:10] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-10 14:25:10] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:10] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:10] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-10 14:25:10] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9662_patch.bc
+[2025-08-10 14:25:10] 命令成功: git rev-parse 5f201ab5c24c~1
+[2025-08-10 14:25:10] 命令成功: git checkout 801b35fe81ad
+[2025-08-10 14:25:10] 成功检出commit: 801b35fe81ad
+[2025-08-10 14:25:10] 处理 vuln 版本 (801b35fe81ad)
+[2025-08-10 14:25:10] 命令成功: make clean
+[2025-08-10 14:25:10] === start autogen.sh ===
+[2025-08-10 14:25:11] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:11] === start configure ===
+[2025-08-10 14:25:14] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:14] === start make ===
+[2025-08-10 14:25:17] 命令成功: make -j20
+[2025-08-10 14:25:17] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:17] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-10 14:25:17] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:17] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:17] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-10 14:25:17] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9662_vuln.bc
+[2025-08-10 14:25:17] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:17] 处理: CVE-2014-9663, 符号: tt_cmap4_validate
+[2025-08-10 14:25:17] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:17] 命令成功: git checkout 9bd20b7304aa
+[2025-08-10 14:25:17] 成功检出commit: 9bd20b7304aa
+[2025-08-10 14:25:17] 处理 patch 版本 (9bd20b7304aa)
+[2025-08-10 14:25:17] 命令成功: make clean
+[2025-08-10 14:25:17] === start autogen.sh ===
+[2025-08-10 14:25:18] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:18] === start configure ===
+[2025-08-10 14:25:21] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:21] === start make ===
+[2025-08-10 14:25:24] 命令成功: make -j20
+[2025-08-10 14:25:24] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:24] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap4_validate
+[2025-08-10 14:25:24] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:24] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:24] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap4_validate
+[2025-08-10 14:25:24] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9663_patch.bc
+[2025-08-10 14:25:24] 命令成功: git rev-parse 9bd20b7304aa~1
+[2025-08-10 14:25:24] 命令成功: git checkout dd89710f0f64
+[2025-08-10 14:25:24] 成功检出commit: dd89710f0f64
+[2025-08-10 14:25:24] 处理 vuln 版本 (dd89710f0f64)
+[2025-08-10 14:25:24] 命令成功: make clean
+[2025-08-10 14:25:24] === start autogen.sh ===
+[2025-08-10 14:25:25] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:25] === start configure ===
+[2025-08-10 14:25:29] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:29] === start make ===
+[2025-08-10 14:25:31] 命令成功: make -j20
+[2025-08-10 14:25:31] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:31] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap4_validate
+[2025-08-10 14:25:31] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:31] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:31] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_cmap4_validate
+[2025-08-10 14:25:32] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9663_vuln.bc
+[2025-08-10 14:25:32] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:32] 处理: CVE-2014-9656, 符号: tt_sbit_decoder_load_image
+[2025-08-10 14:25:32] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:32] 命令成功: git checkout f0292bb9920a
+[2025-08-10 14:25:32] 成功检出commit: f0292bb9920a
+[2025-08-10 14:25:32] 处理 patch 版本 (f0292bb9920a)
+[2025-08-10 14:25:32] 命令成功: make clean
+[2025-08-10 14:25:32] === start autogen.sh ===
+[2025-08-10 14:25:33] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:33] === start configure ===
+[2025-08-10 14:25:36] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:36] === start make ===
+[2025-08-10 14:25:39] 命令成功: make -j20
+[2025-08-10 14:25:39] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:39] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_load_image
+[2025-08-10 14:25:39] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:39] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:39] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_load_image
+[2025-08-10 14:25:39] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9656_patch.bc
+[2025-08-10 14:25:39] 命令成功: git rev-parse f0292bb9920a~1
+[2025-08-10 14:25:39] 命令成功: git checkout eca0f0670680
+[2025-08-10 14:25:39] 成功检出commit: eca0f0670680
+[2025-08-10 14:25:39] 处理 vuln 版本 (eca0f0670680)
+[2025-08-10 14:25:39] 命令成功: make clean
+[2025-08-10 14:25:39] === start autogen.sh ===
+[2025-08-10 14:25:40] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:40] === start configure ===
+[2025-08-10 14:25:43] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:43] === start make ===
+[2025-08-10 14:25:46] 命令成功: make -j20
+[2025-08-10 14:25:46] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:46] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_load_image
+[2025-08-10 14:25:46] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:46] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:46] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_sbit_decoder_load_image
+[2025-08-10 14:25:46] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9656_vuln.bc
+[2025-08-10 14:25:46] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:46] 处理: CVE-2014-9657, 符号: tt_face_load_hdmx
+[2025-08-10 14:25:46] 命令成功: git stash --include-untracked
+[2025-08-10 14:25:46] 命令成功: git checkout eca0f0670680
+[2025-08-10 14:25:46] 成功检出commit: eca0f0670680
+[2025-08-10 14:25:46] 处理 patch 版本 (eca0f0670680)
+[2025-08-10 14:25:46] 命令成功: make clean
+[2025-08-10 14:25:46] === start autogen.sh ===
+[2025-08-10 14:25:47] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:47] === start configure ===
+[2025-08-10 14:25:51] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:51] === start make ===
+[2025-08-10 14:25:53] 命令成功: make -j20
+[2025-08-10 14:25:53] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_hdmx
+[2025-08-10 14:25:53] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:25:53] 找到有效的BC文件，检查符号...
+[2025-08-10 14:25:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_hdmx
+[2025-08-10 14:25:53] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9657_patch.bc
+[2025-08-10 14:25:53] 命令成功: git rev-parse eca0f0670680~1
+[2025-08-10 14:25:53] 命令成功: git checkout 96341dc3785a
+[2025-08-10 14:25:53] 成功检出commit: 96341dc3785a
+[2025-08-10 14:25:53] 处理 vuln 版本 (96341dc3785a)
+[2025-08-10 14:25:53] 命令成功: make clean
+[2025-08-10 14:25:53] === start autogen.sh ===
+[2025-08-10 14:25:55] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:25:55] === start configure ===
+[2025-08-10 14:25:58] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:25:58] === start make ===
+[2025-08-10 14:26:01] 命令成功: make -j20
+[2025-08-10 14:26:01] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:01] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_hdmx
+[2025-08-10 14:26:01] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:01] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:01] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_hdmx
+[2025-08-10 14:26:01] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9657_vuln.bc
+[2025-08-10 14:26:01] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:01] 处理: CVE-2014-9658, 符号: tt_face_load_kern
+[2025-08-10 14:26:01] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:01] 命令成功: git checkout f70d9342e65c
+[2025-08-10 14:26:01] 成功检出commit: f70d9342e65c
+[2025-08-10 14:26:01] 处理 patch 版本 (f70d9342e65c)
+[2025-08-10 14:26:01] 命令成功: make clean
+[2025-08-10 14:26:01] === start autogen.sh ===
+[2025-08-10 14:26:02] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:02] === start configure ===
+[2025-08-10 14:26:05] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:05] === start make ===
+[2025-08-10 14:26:08] 命令成功: make -j20
+[2025-08-10 14:26:08] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:08] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_kern
+[2025-08-10 14:26:08] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:08] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:08] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_kern
+[2025-08-10 14:26:08] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9658_patch.bc
+[2025-08-10 14:26:08] 命令成功: git rev-parse f70d9342e65c~1
+[2025-08-10 14:26:08] 命令成功: git checkout 73be9f9ab678
+[2025-08-10 14:26:08] 成功检出commit: 73be9f9ab678
+[2025-08-10 14:26:08] 处理 vuln 版本 (73be9f9ab678)
+[2025-08-10 14:26:08] 命令成功: make clean
+[2025-08-10 14:26:08] === start autogen.sh ===
+[2025-08-10 14:26:09] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:09] === start configure ===
+[2025-08-10 14:26:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:13] === start make ===
+[2025-08-10 14:26:15] 命令成功: make -j20
+[2025-08-10 14:26:15] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:15] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_kern
+[2025-08-10 14:26:15] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:15] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:15] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: tt_face_load_kern
+[2025-08-10 14:26:15] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9658_vuln.bc
+[2025-08-10 14:26:15] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:15] 处理: CVE-2014-9673, 符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:15] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:16] 命令成功: git checkout 35252ae9aa1d
+[2025-08-10 14:26:16] 成功检出commit: 35252ae9aa1d
+[2025-08-10 14:26:16] 处理 patch 版本 (35252ae9aa1d)
+[2025-08-10 14:26:16] 命令成功: make clean
+[2025-08-10 14:26:16] === start autogen.sh ===
+[2025-08-10 14:26:17] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:17] === start configure ===
+[2025-08-10 14:26:20] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:20] === start make ===
+[2025-08-10 14:26:23] 命令成功: make -j20
+[2025-08-10 14:26:23] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:23] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:23] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:23] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9673_patch.bc
+[2025-08-10 14:26:23] 命令成功: git rev-parse 35252ae9aa1d~1
+[2025-08-10 14:26:23] 命令成功: git checkout 240c94a185cd
+[2025-08-10 14:26:23] 成功检出commit: 240c94a185cd
+[2025-08-10 14:26:23] 处理 vuln 版本 (240c94a185cd)
+[2025-08-10 14:26:23] 命令成功: make clean
+[2025-08-10 14:26:23] === start autogen.sh ===
+[2025-08-10 14:26:24] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:24] === start configure ===
+[2025-08-10 14:26:28] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:28] === start make ===
+[2025-08-10 14:26:30] 命令成功: make -j20
+[2025-08-10 14:26:30] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:30] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:30] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:30] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:30] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:30] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9673_vuln.bc
+[2025-08-10 14:26:30] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:30] 处理: CVE-2014-9674, 符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:30] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:30] 命令成功: git checkout 240c94a185cd
+[2025-08-10 14:26:30] 成功检出commit: 240c94a185cd
+[2025-08-10 14:26:30] 处理 patch 版本 (240c94a185cd)
+[2025-08-10 14:26:30] 命令成功: make clean
+[2025-08-10 14:26:30] === start autogen.sh ===
+[2025-08-10 14:26:31] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:31] === start configure ===
+[2025-08-10 14:26:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:35] === start make ===
+[2025-08-10 14:26:37] 命令成功: make -j20
+[2025-08-10 14:26:37] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:37] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:37] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:37] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9674_patch.bc
+[2025-08-10 14:26:37] 命令成功: git rev-parse 240c94a185cd~1
+[2025-08-10 14:26:38] 命令成功: git checkout 5aff85301bdc
+[2025-08-10 14:26:38] 成功检出commit: 5aff85301bdc
+[2025-08-10 14:26:38] 处理 vuln 版本 (5aff85301bdc)
+[2025-08-10 14:26:38] 命令成功: make clean
+[2025-08-10 14:26:38] === start autogen.sh ===
+[2025-08-10 14:26:39] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:39] === start configure ===
+[2025-08-10 14:26:42] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:42] === start make ===
+[2025-08-10 14:26:45] 命令成功: make -j20
+[2025-08-10 14:26:45] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:45] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:45] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:45] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:45] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: Mac_Read_POST_Resource
+[2025-08-10 14:26:45] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9674_vuln.bc
+[2025-08-10 14:26:45] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:45] 处理: CVE-2014-9659, 符号: cf2_hintmap_build
+[2025-08-10 14:26:45] 命令成功: git stash --include-untracked
+[2025-08-10 14:26:45] 命令成功: git checkout 2cdc4562f873
+[2025-08-10 14:26:45] 成功检出commit: 2cdc4562f873
+[2025-08-10 14:26:45] 处理 patch 版本 (2cdc4562f873)
+[2025-08-10 14:26:45] 命令成功: make clean
+[2025-08-10 14:26:45] === start autogen.sh ===
+[2025-08-10 14:26:46] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:46] === start configure ===
+[2025-08-10 14:26:50] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:50] === start make ===
+[2025-08-10 14:26:52] 命令成功: make -j20
+[2025-08-10 14:26:52] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:52] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_hintmap_build
+[2025-08-10 14:26:52] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:26:52] 找到有效的BC文件，检查符号...
+[2025-08-10 14:26:52] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_hintmap_build
+[2025-08-10 14:26:52] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9659_patch.bc
+[2025-08-10 14:26:52] 命令成功: git rev-parse 2cdc4562f873~1
+[2025-08-10 14:26:52] 命令成功: git checkout 8fa69a88d75f
+[2025-08-10 14:26:52] 成功检出commit: 8fa69a88d75f
+[2025-08-10 14:26:52] 处理 vuln 版本 (8fa69a88d75f)
+[2025-08-10 14:26:52] 命令成功: make clean
+[2025-08-10 14:26:52] === start autogen.sh ===
+[2025-08-10 14:26:54] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:26:54] === start configure ===
+[2025-08-10 14:26:57] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:26:57] === start make ===
+[2025-08-10 14:27:00] 命令成功: make -j20
+[2025-08-10 14:27:00] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:27:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_hintmap_build
+[2025-08-10 14:27:00] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc
+[2025-08-10 14:27:00] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 包含所有必需符号: cf2_hintmap_build
+[2025-08-10 14:27:00] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2014-9659_vuln.bc
+[2025-08-10 14:27:00] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:00] 处理: CVE-2015-9382, 符号: ps_parser_skip_PS_token
+[2025-08-10 14:27:00] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:00] 命令成功: git checkout db5a4a9ae7b0
+[2025-08-10 14:27:00] 成功检出commit: db5a4a9ae7b0
+[2025-08-10 14:27:00] 处理 patch 版本 (db5a4a9ae7b0)
+[2025-08-10 14:27:00] 命令成功: make clean
+[2025-08-10 14:27:00] === start autogen.sh ===
+[2025-08-10 14:27:01] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:01] === start configure ===
+[2025-08-10 14:27:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:04] === start make ===
+[2025-08-10 14:27:07] 命令成功: make -j20
+[2025-08-10 14:27:07] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:07] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: ps_parser_skip_PS_token
+[2025-08-10 14:27:07] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:07] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:07] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: ps_parser_skip_PS_token
+[2025-08-10 14:27:07] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9382_patch.bc
+[2025-08-10 14:27:07] 命令成功: git rev-parse db5a4a9ae7b0~1
+[2025-08-10 14:27:07] 命令成功: git checkout 19b82cfbed2a
+[2025-08-10 14:27:07] 成功检出commit: 19b82cfbed2a
+[2025-08-10 14:27:07] 处理 vuln 版本 (19b82cfbed2a)
+[2025-08-10 14:27:07] 命令成功: make clean
+[2025-08-10 14:27:07] === start autogen.sh ===
+[2025-08-10 14:27:08] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:08] === start configure ===
+[2025-08-10 14:27:12] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:12] === start make ===
+[2025-08-10 14:27:14] 命令成功: make -j20
+[2025-08-10 14:27:14] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: ps_parser_skip_PS_token
+[2025-08-10 14:27:14] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:14] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: ps_parser_skip_PS_token
+[2025-08-10 14:27:14] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9382_vuln.bc
+[2025-08-10 14:27:14] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:14] 处理: CVE-2015-9290, 符号: T1_Get_Private_Dict
+[2025-08-10 14:27:14] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:14] 命令成功: git checkout e3058617f384
+[2025-08-10 14:27:14] 成功检出commit: e3058617f384
+[2025-08-10 14:27:14] 处理 patch 版本 (e3058617f384)
+[2025-08-10 14:27:15] 命令成功: make clean
+[2025-08-10 14:27:15] === start autogen.sh ===
+[2025-08-10 14:27:16] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:16] === start configure ===
+[2025-08-10 14:27:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:19] === start make ===
+[2025-08-10 14:27:22] 命令成功: make -j20
+[2025-08-10 14:27:22] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:22] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:22] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:22] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:22] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:22] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9290_patch.bc
+[2025-08-10 14:27:22] 命令成功: git rev-parse e3058617f384~1
+[2025-08-10 14:27:22] 命令成功: git checkout e40e8b33a1e9
+[2025-08-10 14:27:22] 成功检出commit: e40e8b33a1e9
+[2025-08-10 14:27:22] 处理 vuln 版本 (e40e8b33a1e9)
+[2025-08-10 14:27:22] 命令成功: make clean
+[2025-08-10 14:27:22] === start autogen.sh ===
+[2025-08-10 14:27:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:23] === start configure ===
+[2025-08-10 14:27:26] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:26] === start make ===
+[2025-08-10 14:27:29] 命令成功: make -j20
+[2025-08-10 14:27:29] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:29] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:29] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:29] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9290_vuln.bc
+[2025-08-10 14:27:29] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:29] 处理: CVE-2015-9381, 符号: T1_Get_Private_Dict
+[2025-08-10 14:27:29] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:29] 命令成功: git checkout 7962a15d64c8
+[2025-08-10 14:27:29] 成功检出commit: 7962a15d64c8
+[2025-08-10 14:27:29] 处理 patch 版本 (7962a15d64c8)
+[2025-08-10 14:27:29] 命令成功: make clean
+[2025-08-10 14:27:29] === start autogen.sh ===
+[2025-08-10 14:27:30] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:30] === start configure ===
+[2025-08-10 14:27:34] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:34] === start make ===
+[2025-08-10 14:27:36] 命令成功: make -j20
+[2025-08-10 14:27:36] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:36] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:36] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:36] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:36] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:36] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9381_patch.bc
+[2025-08-10 14:27:36] 命令成功: git rev-parse 7962a15d64c8~1
+[2025-08-10 14:27:36] 命令成功: git checkout ff7d64040411
+[2025-08-10 14:27:36] 成功检出commit: ff7d64040411
+[2025-08-10 14:27:36] 处理 vuln 版本 (ff7d64040411)
+[2025-08-10 14:27:36] 命令成功: make clean
+[2025-08-10 14:27:36] === start autogen.sh ===
+[2025-08-10 14:27:38] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:38] === start configure ===
+[2025-08-10 14:27:41] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:41] === start make ===
+[2025-08-10 14:27:44] 命令成功: make -j20
+[2025-08-10 14:27:44] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:44] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:44] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc
+[2025-08-10 14:27:44] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:44] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 包含所有必需符号: T1_Get_Private_Dict
+[2025-08-10 14:27:44] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9381_vuln.bc
+[2025-08-10 14:27:44] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:44] 处理: CVE-2015-9383, 符号: tt_cmap14_validate
+[2025-08-10 14:27:44] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:44] 命令成功: git checkout 57cbb8c14899
+[2025-08-10 14:27:44] 成功检出commit: 57cbb8c14899
+[2025-08-10 14:27:44] 处理 patch 版本 (57cbb8c14899)
+[2025-08-10 14:27:44] 命令成功: make clean
+[2025-08-10 14:27:44] === start autogen.sh ===
+[2025-08-10 14:27:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:45] === start configure ===
+[2025-08-10 14:27:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:49] === start make ===
+[2025-08-10 14:27:51] 命令成功: make -j20
+[2025-08-10 14:27:51] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc
+[2025-08-10 14:27:51] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 包含所有必需符号: tt_cmap14_validate
+[2025-08-10 14:27:51] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc
+[2025-08-10 14:27:51] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:51] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 包含所有必需符号: tt_cmap14_validate
+[2025-08-10 14:27:51] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9383_patch.bc
+[2025-08-10 14:27:51] 命令成功: git rev-parse 57cbb8c14899~1
+[2025-08-10 14:27:51] 命令成功: git checkout 009cc1503516
+[2025-08-10 14:27:51] 成功检出commit: 009cc1503516
+[2025-08-10 14:27:51] 处理 vuln 版本 (009cc1503516)
+[2025-08-10 14:27:51] 命令成功: make clean
+[2025-08-10 14:27:51] === start autogen.sh ===
+[2025-08-10 14:27:53] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:27:53] === start configure ===
+[2025-08-10 14:27:56] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:27:56] === start make ===
+[2025-08-10 14:27:59] 命令成功: make -j20
+[2025-08-10 14:27:59] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc
+[2025-08-10 14:27:59] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 包含所有必需符号: tt_cmap14_validate
+[2025-08-10 14:27:59] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc
+[2025-08-10 14:27:59] 找到有效的BC文件，检查符号...
+[2025-08-10 14:27:59] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 包含所有必需符号: tt_cmap14_validate
+[2025-08-10 14:27:59] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2015-9383_vuln.bc
+[2025-08-10 14:27:59] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:59] 处理: CVE-2016-10328, 符号: cff_parser_run
+[2025-08-10 14:27:59] 命令成功: git stash --include-untracked
+[2025-08-10 14:27:59] 命令成功: git checkout beecf80a6dee
+[2025-08-10 14:27:59] 成功检出commit: beecf80a6dee
+[2025-08-10 14:27:59] 处理 patch 版本 (beecf80a6dee)
+[2025-08-10 14:27:59] 命令成功: make clean
+[2025-08-10 14:27:59] === start autogen.sh ===
+[2025-08-10 14:28:00] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:00] === start configure ===
+[2025-08-10 14:28:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:04] === start make ===
+[2025-08-10 14:28:06] 命令成功: make -j20
+[2025-08-10 14:28:06] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc
+[2025-08-10 14:28:06] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 包含所有必需符号: cff_parser_run
+[2025-08-10 14:28:06] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc
+[2025-08-10 14:28:06] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:06] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 包含所有必需符号: cff_parser_run
+[2025-08-10 14:28:06] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2016-10328_patch.bc
+[2025-08-10 14:28:06] 命令成功: git rev-parse beecf80a6dee~1
+[2025-08-10 14:28:07] 命令成功: git checkout 01658be6fbda
+[2025-08-10 14:28:07] 成功检出commit: 01658be6fbda
+[2025-08-10 14:28:07] 处理 vuln 版本 (01658be6fbda)
+[2025-08-10 14:28:07] 命令成功: make clean
+[2025-08-10 14:28:07] === start autogen.sh ===
+[2025-08-10 14:28:08] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:08] === start configure ===
+[2025-08-10 14:28:11] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:11] === start make ===
+[2025-08-10 14:28:14] 命令成功: make -j20
+[2025-08-10 14:28:14] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc
+[2025-08-10 14:28:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 包含所有必需符号: cff_parser_run
+[2025-08-10 14:28:14] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc
+[2025-08-10 14:28:14] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:14] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 包含所有必需符号: cff_parser_run
+[2025-08-10 14:28:14] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2016-10328_vuln.bc
+[2025-08-10 14:28:14] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:14] 处理: CVE-2017-7864, 符号: tt_size_reset
+[2025-08-10 14:28:14] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:14] 命令成功: git checkout e6699596af5c
+[2025-08-10 14:28:14] 成功检出commit: e6699596af5c
+[2025-08-10 14:28:14] 处理 patch 版本 (e6699596af5c)
+[2025-08-10 14:28:14] 命令成功: make clean
+[2025-08-10 14:28:14] === start autogen.sh ===
+[2025-08-10 14:28:15] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:15] === start configure ===
+[2025-08-10 14:28:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:19] === start make ===
+[2025-08-10 14:28:22] 命令成功: make -j20
+[2025-08-10 14:28:22] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:22] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: tt_size_reset
+[2025-08-10 14:28:22] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:22] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:22] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: tt_size_reset
+[2025-08-10 14:28:22] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7864_patch.bc
+[2025-08-10 14:28:22] 命令成功: git rev-parse e6699596af5c~1
+[2025-08-10 14:28:22] 命令成功: git checkout dadc50a4679c
+[2025-08-10 14:28:22] 成功检出commit: dadc50a4679c
+[2025-08-10 14:28:22] 处理 vuln 版本 (dadc50a4679c)
+[2025-08-10 14:28:22] 命令成功: make clean
+[2025-08-10 14:28:22] === start autogen.sh ===
+[2025-08-10 14:28:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:23] === start configure ===
+[2025-08-10 14:28:26] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:26] === start make ===
+[2025-08-10 14:28:29] 命令成功: make -j20
+[2025-08-10 14:28:29] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: tt_size_reset
+[2025-08-10 14:28:29] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:29] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:29] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: tt_size_reset
+[2025-08-10 14:28:29] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7864_vuln.bc
+[2025-08-10 14:28:29] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:29] 处理: CVE-2017-7858, 符号: sfnt_init_face
+[2025-08-10 14:28:29] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:29] 命令成功: git checkout 779309744222
+[2025-08-10 14:28:29] 成功检出commit: 779309744222
+[2025-08-10 14:28:29] 处理 patch 版本 (779309744222)
+[2025-08-10 14:28:29] 命令成功: make clean
+[2025-08-10 14:28:29] === start autogen.sh ===
+[2025-08-10 14:28:31] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:31] === start configure ===
+[2025-08-10 14:28:34] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:34] === start make ===
+[2025-08-10 14:28:37] 命令成功: make -j20
+[2025-08-10 14:28:37] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:37] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:37] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:37] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:37] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7858_patch.bc
+[2025-08-10 14:28:37] 命令成功: git rev-parse 779309744222~1
+[2025-08-10 14:28:37] 命令成功: git checkout 27fee7f8c6ae
+[2025-08-10 14:28:37] 成功检出commit: 27fee7f8c6ae
+[2025-08-10 14:28:37] 处理 vuln 版本 (27fee7f8c6ae)
+[2025-08-10 14:28:37] 命令成功: make clean
+[2025-08-10 14:28:37] === start autogen.sh ===
+[2025-08-10 14:28:38] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:38] === start configure ===
+[2025-08-10 14:28:42] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:42] === start make ===
+[2025-08-10 14:28:45] 命令成功: make -j20
+[2025-08-10 14:28:45] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:45] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:45] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:45] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:45] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:45] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7858_vuln.bc
+[2025-08-10 14:28:45] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:45] 处理: CVE-2017-7857, 符号: sfnt_init_face
+[2025-08-10 14:28:45] 命令成功: git stash --include-untracked
+[2025-08-10 14:28:45] 命令成功: git checkout 7bbb91fbf47f
+[2025-08-10 14:28:45] 成功检出commit: 7bbb91fbf47f
+[2025-08-10 14:28:45] 处理 patch 版本 (7bbb91fbf47f)
+[2025-08-10 14:28:45] 命令成功: make clean
+[2025-08-10 14:28:45] === start autogen.sh ===
+[2025-08-10 14:28:46] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:46] === start configure ===
+[2025-08-10 14:28:50] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:50] === start make ===
+[2025-08-10 14:28:53] 命令成功: make -j20
+[2025-08-10 14:28:53] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:53] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:28:53] 找到有效的BC文件，检查符号...
+[2025-08-10 14:28:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:28:53] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7857_patch.bc
+[2025-08-10 14:28:53] 命令成功: git rev-parse 7bbb91fbf47f~1
+[2025-08-10 14:28:53] 命令成功: git checkout 7d7aae1de3e2
+[2025-08-10 14:28:53] 成功检出commit: 7d7aae1de3e2
+[2025-08-10 14:28:53] 处理 vuln 版本 (7d7aae1de3e2)
+[2025-08-10 14:28:53] 命令成功: make clean
+[2025-08-10 14:28:53] === start autogen.sh ===
+[2025-08-10 14:28:54] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:28:54] === start configure ===
+[2025-08-10 14:28:57] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:28:57] === start make ===
+[2025-08-10 14:29:00] 命令成功: make -j20
+[2025-08-10 14:29:00] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:29:00] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:00] 找到有效的BC文件，检查符号...
+[2025-08-10 14:29:00] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: sfnt_init_face
+[2025-08-10 14:29:00] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-7857_vuln.bc
+[2025-08-10 14:29:00] 命令成功: git stash --include-untracked
+[2025-08-10 14:29:00] 处理: CVE-2017-8105, 符号: t1_decoder_parse_charstrings
+[2025-08-10 14:29:00] 命令成功: git stash --include-untracked
+[2025-08-10 14:29:00] 命令成功: git checkout f958c48ee431
+[2025-08-10 14:29:00] 成功检出commit: f958c48ee431
+[2025-08-10 14:29:00] 处理 patch 版本 (f958c48ee431)
+[2025-08-10 14:29:00] 命令成功: make clean
+[2025-08-10 14:29:00] === start autogen.sh ===
+[2025-08-10 14:29:02] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:29:02] === start configure ===
+[2025-08-10 14:29:05] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:29:05] === start make ===
+[2025-08-10 14:29:08] 命令成功: make -j20
+[2025-08-10 14:29:08] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:08] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_decoder_parse_charstrings
+[2025-08-10 14:29:08] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:08] 找到有效的BC文件，检查符号...
+[2025-08-10 14:29:08] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_decoder_parse_charstrings
+[2025-08-10 14:29:08] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-8105_patch.bc
+[2025-08-10 14:29:08] 命令成功: git rev-parse f958c48ee431~1
+[2025-08-10 14:29:08] 命令成功: git checkout 913f436d12df
+[2025-08-10 14:29:08] 成功检出commit: 913f436d12df
+[2025-08-10 14:29:08] 处理 vuln 版本 (913f436d12df)
+[2025-08-10 14:29:08] 命令成功: make clean
+[2025-08-10 14:29:08] === start autogen.sh ===
+[2025-08-10 14:29:09] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:29:09] === start configure ===
+[2025-08-10 14:29:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:29:13] === start make ===
+[2025-08-10 14:29:16] 命令成功: make -j20
+[2025-08-10 14:29:16] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:16] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_decoder_parse_charstrings
+[2025-08-10 14:29:16] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:16] 找到有效的BC文件，检查符号...
+[2025-08-10 14:29:16] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_decoder_parse_charstrings
+[2025-08-10 14:29:16] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-8105_vuln.bc
+[2025-08-10 14:29:16] 命令成功: git stash --include-untracked
+[2025-08-10 14:29:16] 处理: CVE-2017-8287, 符号: t1_builder_close_contour
+[2025-08-10 14:29:16] 命令成功: git stash --include-untracked
+[2025-08-10 14:29:16] 命令成功: git checkout 3774fc08b502
+[2025-08-10 14:29:16] 成功检出commit: 3774fc08b502
+[2025-08-10 14:29:16] 处理 patch 版本 (3774fc08b502)
+[2025-08-10 14:29:16] 命令成功: make clean
+[2025-08-10 14:29:16] === start autogen.sh ===
+[2025-08-10 14:29:17] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:29:17] === start configure ===
+[2025-08-10 14:29:21] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:29:21] === start make ===
+[2025-08-10 14:29:23] 命令成功: make -j20
+[2025-08-10 14:29:23] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_builder_close_contour
+[2025-08-10 14:29:23] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:23] 找到有效的BC文件，检查符号...
+[2025-08-10 14:29:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_builder_close_contour
+[2025-08-10 14:29:23] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-8287_patch.bc
+[2025-08-10 14:29:23] 命令成功: git rev-parse 3774fc08b502~1
+[2025-08-10 14:29:23] 命令成功: git checkout f958c48ee431
+[2025-08-10 14:29:23] 成功检出commit: f958c48ee431
+[2025-08-10 14:29:23] 处理 vuln 版本 (f958c48ee431)
+[2025-08-10 14:29:23] 命令成功: make clean
+[2025-08-10 14:29:23] === start autogen.sh ===
+[2025-08-10 14:29:25] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/autogen.sh
+[2025-08-10 14:29:25] === start configure ===
+[2025-08-10 14:29:28] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/configure --enable-freetype-config --with-harfbuzz=no --with-png=yes --with-zlib=yes --enable-static --enable-shared
+[2025-08-10 14:29:28] === start make ===
+[2025-08-10 14:29:31] 命令成功: make -j20
+[2025-08-10 14:29:31] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:31] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_builder_close_contour
+[2025-08-10 14:29:31] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc
+[2025-08-10 14:29:31] 找到有效的BC文件，检查符号...
+[2025-08-10 14:29:31] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 包含所有必需符号: t1_builder_close_contour
+[2025-08-10 14:29:31] 符号检查通过，已复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/CVE-2017-8287_vuln.bc
+[2025-08-10 14:29:31] 命令成功: git stash --include-untracked
+[2025-08-10 14:29:31] 所有操作完成，结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/freetype/

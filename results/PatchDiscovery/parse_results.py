@@ -144,6 +144,8 @@ def parse_binxray_results(input_file, output_file,project_name):
                 last_dash = s.rfind('-', 0, s.rfind('-'))
                 current_version = s[first_dash + 1:last_dash]
                 # print(current_version)
+                if "CVE" in s:
+                    current_version = s.split('-')[-2]  # 对于CVE开头的情况，直接取第二部分
                 
                 # 提取函数名
                 current_func = parts[1]

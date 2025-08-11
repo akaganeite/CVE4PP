@@ -1,1128 +1,2013 @@
-=========2025-07-07 22:44:42.206797============
+=========2025-08-05 12:00:24.939827============
 Detect o0 Binaries.
 ------------------------------------------
-[*] Detecting CVE: CVE-2017-13710
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,setup_group,-1
-[*] /s; sim-cal:0.040708
+[*] Detecting CVE: CVE-2014-8484
+[*] Detection for /binaries/target/binutils/binutils-2.24-o0-objdump,srec_scan,-1
+[*] /s; sim-cal:6.192336
+[*] Detection Result:V 0.45860332382071517/0.14355741985001802 2/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.25-o0-objdump,srec_scan,1
+[*] /s; sim-cal:6.589203
+[*] Detection Result:P 0.356078735842163/0.5874065004558053 13/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.25.1-o0-objdump,srec_scan,1
+[*] /s; sim-cal:6.657446
+[*] Detection Result:P 0.356078735842163/0.5874065004558053 13/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.26-o0-objdump,srec_scan,1
+[*] /s; sim-cal:6.921783
+[*] Detection Result:P 0.356078735842163/0.5874065004558053 16/7,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-8485
+[*] Detection for /binaries/target/binutils/binutils-2.24-o0-objdump,setup_group,-1
+[*] /s; sim-cal:0.39789
+[*] Detection Result:V 0.9878205128205128/0.4715770838834973 3/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.25-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.457698
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.25.1-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.480555
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.26-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.483758
+[*] Detection Result:V 0.8130475113122172/0.5812974817722664 7/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-8738
+[*] Detection for /binaries/target/binutils/binutils-2.24-o0-objdump,_bfd_slurp_extended_name_table,-1
+[*] /s; sim-cal:0.416945
 [*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,setup_group,1
-[*] /s; sim-cal:0.029915
+[*] Detection for /binaries/target/binutils/binutils-2.25-o0-objdump,_bfd_slurp_extended_name_table,1
+[*] /s; sim-cal:0.429034
+[*] Detection Result:P 0.49575757575757573/0.7695060908084164 1/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.25.1-o0-objdump,_bfd_slurp_extended_name_table,1
+[*] /s; sim-cal:0.428363
+[*] Detection Result:P 0.49575757575757573/0.7695060908084164 1/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.26-o0-objdump,_bfd_slurp_extended_name_table,1
+[*] /s; sim-cal:0.498075
+[*] Detection Result:P 0.49575757575757573/0.7695060908084164 1/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7299
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_elf_final_link,-1
+[*] /s; sim-cal:6.49632
+[*] Detection Result:V 0.7469762981470238/0.7176197809751172 27/26,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:0.900019
+[*] Detection Result:V 0.6456495234179934/0.6230481245613556 35/34,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:0.806616
+[*] Detection Result:V 0.6456495234179934/0.6230481245613556 37/36,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:1.063498
+[*] Detection Result:V 0.6456495234179934/0.6338008127333985 45/44,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7303
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,find_link,-1
+[*] /s; sim-cal:0.486242
+[*] Detection Result:P,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,find_link,1
+[*] /s; sim-cal:0.72148
+[*] Detection Result:P 0.17613636363636365/0.8293650793650794 8/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,find_link,1
+[*] /s; sim-cal:0.759899
+[*] Detection Result:P 0.17613636363636365/0.8293650793650794 8/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,find_link,1
+[*] /s; sim-cal:0.688392
+[*] Detection Result:P 0.17613636363636365/0.8293650793650794 8/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7304
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,copy_special_section_fields,-1
+[*] /s; sim-cal:0.563228
+[*] Detection Result:P,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.663322
 [*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,setup_group,1
-[*] /s; sim-cal:0.020462
-[*] Detection Result:P 0.25584795321637427/0.8443149326443471 14/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,setup_group,1
-[*] /s; sim-cal:0.762715
-[*] Detection Result:P 0.25584795321637427/0.8364597150856256 20/15,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-13757
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_i386_get_synthetic_symtab,-1
-[*] /s; sim-cal:0.062214
-[*] Detection Result:V 1.0/0.3879317431193959 10/10,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.037604
-[*] Detection Result:V 0.6027525368200125/0.5496073286070147 16/10,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.092814
-[*] Detection Result:P 0.3463689573367779/0.37582699169687955 19/16,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.575625
-[*] Detection Result:P 0.3463689573367779/0.37582699169687955 22/19,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_x86_64_get_synthetic_symtab,-1
-[*] /s; sim-cal:0.128866
-[*] Detection Result:V 1.0/0.3277773939725196 10/10,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.056291
-[*] Detection Result:V 0.5111940951313241/0.4207879797178849 17/10,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.197541
-[*] Detection Result:P 0.2910876644963089/0.3875901970275714 25/21,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.671906
-[*] Detection Result:P 0.2910876644963089/0.3875901970275714 25/21,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14128
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
-[*] /s; sim-cal:0.020233
-[*] Detection Result:V 0.725796225867064/0.2937681943584554 8/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.023591
-[*] Detection Result:V 0.5277426952543554/0.3800724195780414 9/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.022045
-[*] Detection Result:V 0.63338330085698/0.33142364611478053 17/18,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.531069
-[*] Detection Result:V 0.63338330085698/0.33142364611478053 17/18,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14129
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_section,-1
-[*] /s; sim-cal:0.007205
-[*] Detection Result:V 0.801904761904762/0.34936864531161965 2/4,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,read_section,1
-[*] /s; sim-cal:0.006538
-[*] Detection Result:P 0.2219198790627362/0.8722067933887274 9/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_section,1
-[*] /s; sim-cal:0.006748
-[*] Detection Result:P 0.2782361833622337/0.4613894911493137 11/10,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_section,1
-[*] /s; sim-cal:0.430314
-[*] Detection Result:P 0.3008616780045351/0.3253353948187855 11/11,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14130
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_elf_parse_attributes,-1
-[*] /s; sim-cal:0.007138
-[*] Detection Result:V 0.9/0.5041381023348237 2/4,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_parse_attributes,1
-[*] /s; sim-cal:0.006994
-[*] Detection Result:P 0.2978018278018278/0.95 4/1,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_parse_attributes,1
-[*] /s; sim-cal:0.004566
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.596338
 [*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_parse_attributes,1
-[*] /s; sim-cal:0.460699
-[*] Detection Result:P 0.3166522366522367/0.6528205128205128 9/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.597927
+[*] Detection Result:P 0.31153846153846154/0.7424010217113665 6/3,1
 ------------------------------------------
-[*] Detecting CVE: CVE-2017-14529
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,pe_print_idata,-1
-[*] /s; sim-cal:0.006449
-[*] Detection Result:V 1.0/0.8485714285714285 7/7,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,pe_print_idata,1
-[*] /s; sim-cal:0.007673
-[*] Detection Result:P 0.5952380952380952/0.9613095238095238 8/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,pe_print_idata,1
-[*] /s; sim-cal:0.005782
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,pe_print_idata,1
-[*] /s; sim-cal:0.475308
-[*] Detection Result:P 0.5952380952380952/0.9613095238095238 9/8,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14729
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,-1
-target function: _bfd_x86_elf_get_synthetic_symtab not found
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
-target function: _bfd_x86_elf_get_synthetic_symtab not found
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
-[*] /s; sim-cal:0.007812
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
-[*] /s; sim-cal:0.453917
-[*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14932
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
-[*] /s; sim-cal:0.021293
-[*] Detection Result:V 0.7650925372142477/0.4154302201491107 12/13,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.027337
-[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.028482
-[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.568828
-[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14933
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
-[*] /s; sim-cal:0.004232
-[*] Detection Result:V 1.0/0.23520286020286021 3/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.007517
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.444864
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.448064
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
-[*] /s; sim-cal:0.00469
-[*] Detection Result:V 1.0/0.23520286020286021 3/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.00471
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.003689
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.028718
-[*] Detection Result:P 0.6314968814968815/0.9868329868329868 12/11,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14934
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,process_debug_info,-1
-[*] /s; sim-cal:0.058626
-[*] Detection Result:V 0.8088715570738544/0.40743266904871545 9/14,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_debug_info,1
-[*] /s; sim-cal:0.050014
-[*] Detection Result:V 0.6155790209503346/0.6008075205900072 32/32,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,process_debug_info,1
-[*] /s; sim-cal:0.594706
-[*] Detection Result:V 0.6136182366366091/0.5992202190027056 33/33,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,process_debug_info,1
-[*] /s; sim-cal:0.595905
-[*] Detection Result:V 0.6136182366366091/0.5992202190027056 33/33,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14938
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_elf_slurp_version_tables,-1
-[*] /s; sim-cal:0.009634
-[*] Detection Result:V 0.6532812266157404/0.4626088581725397 2/4,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_slurp_version_tables,1
-[*] /s; sim-cal:0.012319
-[*] Detection Result:V 0.6532812266157404/0.4626088581725397 2/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_slurp_version_tables,1
-[*] /s; sim-cal:0.011757
-[*] Detection Result:P 0.5026509924938503/0.6391117449405378 4/2,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_slurp_version_tables,1
-[*] /s; sim-cal:0.494095
-[*] Detection Result:P 0.5026509924938503/0.6391117449405378 4/2,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14939
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
-[*] /s; sim-cal:0.01794
-[*] Detection Result:V 0.6657447705802969/0.6209431161745829 9/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.015378
-[*] Detection Result:V 0.8003700603641641/0.4730058136614672 9/10,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.016697
-[*] Detection Result:P 0.42243903866133375/0.7976168476322922 18/17,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.020682
-[*] Detection Result:P 0.42243903866133375/0.7976168476322922 18/17,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14940
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.017225
-[*] Detection Result:V 0.9/0.7777777777777777 3/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.008233
-[*] Detection Result:V 0.9/0.7777777777777777 3/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.015883
-[*] Detection Result:V 0.9/0.8407407407407407 13/12,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.501161
-[*] Detection Result:P 0.7/0.774074074074074 13/12,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-14974
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_i386_get_synthetic_symtab,-1
-[*] /s; sim-cal:0.011377
-[*] Detection Result:C can't tell,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.008868
-[*] Detection Result:C can't tell,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.017133
-[*] Detection Result:C can't tell,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_i386_get_synthetic_symtab,1
-[*] /s; sim-cal:0.016051
-[*] Detection Result:C can't tell,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_x86_64_get_synthetic_symtab,-1
-[*] /s; sim-cal:0.00946
-[*] Detection Result:C can't tell,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.009339
-[*] Detection Result:C can't tell,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.01295
-[*] Detection Result:C can't tell,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_x86_64_get_synthetic_symtab,1
-[*] /s; sim-cal:0.017721
-[*] Detection Result:C can't tell,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15020
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_line_table,-1
-[*] /s; sim-cal:0.001697
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_line_table,1
-[*] /s; sim-cal:0.002217
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_line_table,1
-[*] /s; sim-cal:0.441484
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_line_table,1
-[*] /s; sim-cal:0.453316
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_die,-1
-[*] /s; sim-cal:0.002395
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_die,1
-[*] /s; sim-cal:0.003193
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_die,1
-[*] /s; sim-cal:0.454386
-[*] Detection Result:P 0.3108757272295158/0.9347175458286571 21/6,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_die,1
-[*] /s; sim-cal:0.539859
-[*] Detection Result:P 0.3108757272295158/0.9347175458286571 21/6,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15021
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_get_debug_link_info_1,-1
-[*] /s; sim-cal:0.001897
-[*] Detection Result:V 1.0/0.26653225806451614 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_get_debug_link_info_1,1
-[*] /s; sim-cal:0.003384
-[*] Detection Result:V 1.0/0.26653225806451614 2/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_get_debug_link_info_1,1
-[*] /s; sim-cal:0.019092
-[*] Detection Result:P 0.21370235934664247/0.8141025641025641 2/1,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_get_debug_link_info_1,1
-[*] /s; sim-cal:0.533123
-[*] Detection Result:C can't tell,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15022
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_comp_unit,-1
-[*] /s; sim-cal:0.006917
-[*] Detection Result:V 0.5625/0.3333333333333333 5/5,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.007223
-[*] Detection Result:P 0.47916666666666663/0.7395833333333334 9/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.500408
-[*] Detection Result:P 0.41666666666666663/0.7083333333333334 9/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.534819
-[*] Detection Result:P 0.41666666666666663/0.7083333333333334 9/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.020188
-[*] Detection Result:V 0.9/0.4380952380952381 9/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.01474
-[*] Detection Result:P 0.9/0.9666666666666667 5/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.008999
-[*] Detection Result:P 0.7/0.9 6/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.585119
-[*] Detection Result:P 0.7/0.9 6/4,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15024
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.018181
-[*] Detection Result:V 0.9899811439346323/0.5464955354911478 3/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.015501
-[*] Detection Result:V 0.9899811439346323/0.5464955354911478 3/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.020281
-[*] Detection Result:P 0.577323121509168/0.9906719219219219 12/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.01649
-[*] Detection Result:P 0.5606375987771336/0.9295451895995374 12/6,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,find_abstract_instance_name,-1
-[*] /s; sim-cal:0.007357
-[*] Detection Result:V 0.7845273773845202/0.5179554945548013 6/8,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,find_abstract_instance_name,1
-[*] /s; sim-cal:0.006691
-[*] Detection Result:V 0.7845273773845202/0.5179554945548013 6/8,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,find_abstract_instance_name,1
-[*] /s; sim-cal:0.010213
-[*] Detection Result:P 0.3826540283987093/0.8781556539691711 20/15,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,find_abstract_instance_name,1
-target function: find_abstract_instance_name not found
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15025
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
-[*] /s; sim-cal:0.014045
-[*] Detection Result:P 0.10294977640178879/0.38888888888888884 9/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.014203
-[*] Detection Result:P 0.10294977640178879/0.38888888888888884 10/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.039096
-[*] Detection Result:P 0.16136910904712765/0.3833333333333333 17/16,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.022013
-[*] Detection Result:P 0.16136910904712765/0.3833333333333333 17/16,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15225
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_dwarf2_cleanup_debug_info,-1
-[*] /s; sim-cal:0.004938
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
-[*] /s; sim-cal:0.008584
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
-[*] /s; sim-cal:0.485372
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
-[*] /s; sim-cal:0.633012
-[*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15938
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_comp_unit,-1
-[*] /s; sim-cal:0.00661
-[*] Detection Result:V 0.6354166666666667/0.44153911564625853 5/7,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.005533
-[*] Detection Result:P 0.4001657779600765/0.5982789855072463 7/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.005373
-[*] Detection Result:P 0.3689157779600765/0.5670289855072463 7/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_comp_unit,1
-[*] /s; sim-cal:0.005253
-[*] Detection Result:P 0.3689157779600765/0.5670289855072463 7/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,find_abstract_instance_name,-1
-[*] /s; sim-cal:0.006607
-[*] Detection Result:V 0.6089711312033027/0.43494127408263045 8/13,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,find_abstract_instance_name,1
-[*] /s; sim-cal:0.011193
-[*] Detection Result:P 0.4839569712324289/0.9467423927635761 15/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,find_abstract_instance_name,1
-target function: find_abstract_instance_name not found
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,find_abstract_instance_name,1
-target function: find_abstract_instance_name not found
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15939
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,concat_filename,-1
-[*] /s; sim-cal:0.003616
-[*] Detection Result:V 1.0/0.353263749683187 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,concat_filename,1
-[*] /s; sim-cal:0.002889
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,concat_filename,1
-[*] /s; sim-cal:0.536119
-[*] Detection Result:P 0.3423295454545454/0.9504985754985755 6/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,concat_filename,1
-[*] /s; sim-cal:0.528642
-[*] Detection Result:P 0.3423295454545454/0.9504985754985755 7/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
-[*] /s; sim-cal:0.002804
-[*] Detection Result:V 0.4166666666666667/0.23529411764705882 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.003142
-[*] Detection Result:P 0.3/1.0 13/12,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.003864
-[*] Detection Result:P 0.3/1.0 13/12,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
-[*] /s; sim-cal:0.003694
-[*] Detection Result:P 0.3/1.0 13/12,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
-[*] /s; sim-cal:0.015824
-[*] Detection Result:V 0.767866286299466/0.03666450356911097 13/17,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.013952
-[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.01792
-[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,decode_line_info,1
-[*] /s; sim-cal:0.020456
-[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-15996
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,get_archive_member_name,-1
-[*] /s; sim-cal:0.007758
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,get_archive_member_name,1
-[*] /s; sim-cal:0.003188
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,get_archive_member_name,1
-[*] /s; sim-cal:0.491304
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,get_archive_member_name,1
-[*] /s; sim-cal:0.460576
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,setup_archive,-1
-[*] /s; sim-cal:0.002356
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,setup_archive,1
-[*] /s; sim-cal:0.003146
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,setup_archive,1
-[*] /s; sim-cal:0.440406
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,setup_archive,1
-[*] /s; sim-cal:0.456758
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,process_archive_index_and_symbols,-1
-[*] /s; sim-cal:0.003594
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_archive_index_and_symbols,1
-[*] /s; sim-cal:0.00354
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,process_archive_index_and_symbols,1
-[*] /s; sim-cal:0.453609
-[*] Detection Result:P 0.4154040404040404/0.9811320754716981 5/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,process_archive_index_and_symbols,1
-[*] /s; sim-cal:0.448197
-[*] Detection Result:P 0.4154040404040404/0.9811320754716981 5/3,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-16828
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,read_cie,-1
-[*] /s; sim-cal:0.0065
-[*] Detection Result:V 0.8740740740740741/0.3419246031746032 9/11,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_cie,1
-[*] /s; sim-cal:0.007396
-[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_cie,1
-[*] /s; sim-cal:0.007845
-[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_cie,1
-[*] /s; sim-cal:0.008848
-[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,display_debug_frames,-1
-[*] /s; sim-cal:0.153497
-[*] Detection Result:V 0.7615223233054323/0.6952063375367561 45/56,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,display_debug_frames,1
-[*] /s; sim-cal:0.111139
-[*] Detection Result:P 0.8077052080381159/0.8568515468248435 58/53,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,display_debug_frames,1
-[*] /s; sim-cal:0.125802
-[*] Detection Result:P 0.8065373007156909/0.8557124767202563 56/52,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,display_debug_frames,1
-[*] /s; sim-cal:0.144218
-[*] Detection Result:P 0.8065373007156909/0.8557124767202563 56/52,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-16829
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_parse_gnu_properties,-1
-[*] /s; sim-cal:0.008252
-[*] Detection Result:V 0.8996250497630872/0.2653994782990027 6/11,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_parse_gnu_properties,1
-[*] /s; sim-cal:0.003435
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_parse_gnu_properties,1
-[*] /s; sim-cal:0.00991
-[*] Detection Result:P 0.2977377495202736/0.9154003408024537 10/5,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_parse_gnu_properties,1
-[*] /s; sim-cal:0.009829
-[*] Detection Result:P 0.2977377495202736/0.9154003408024537 10/5,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-16830
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,print_gnu_property_note,-1
-[*] /s; sim-cal:0.003828
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,print_gnu_property_note,1
-[*] /s; sim-cal:0.006121
-[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-readelf,print_gnu_property_note,1
-[*] /s; sim-cal:0.00621
-[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-readelf,print_gnu_property_note,1
-[*] /s; sim-cal:0.005624
-[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-16831
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,coff_get_normalized_symtab,-1
-[*] /s; sim-cal:0.00765
-[*] Detection Result:V 0.7942857142857143/0.6834032363983297 7/7,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,coff_get_normalized_symtab,1
-[*] /s; sim-cal:0.00609
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,coff_get_normalized_symtab,1
-[*] /s; sim-cal:0.008188
-[*] Detection Result:P 0.706838397451605/0.8055785123966944 10/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,coff_get_normalized_symtab,1
-[*] /s; sim-cal:0.008239
-[*] Detection Result:P 0.706838397451605/0.8055785123966944 10/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_coff_get_external_symbols,-1
-[*] /s; sim-cal:0.002414
-[*] Detection Result:V 0.9130434782608695/0.4365324491215199 1/4,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_coff_get_external_symbols,1
-[*] /s; sim-cal:0.00125
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_coff_get_external_symbols,1
-[*] /s; sim-cal:0.003092
-[*] Detection Result:P 0.44887278582930756/0.9330990210239126 8/2,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_coff_get_external_symbols,1
-[*] /s; sim-cal:0.003354
-[*] Detection Result:P 0.44887278582930756/0.9330990210239126 8/2,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-17122
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,dump_relocs_in_section,-1
-[*] /s; sim-cal:0.001963
-[*] Detection Result:V 0.9876543209876543/0.5740950226244343 1/2,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,dump_relocs_in_section,1
-[*] /s; sim-cal:0.00163
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,dump_relocs_in_section,1
-[*] /s; sim-cal:0.00159
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,dump_relocs_in_section,1
-[*] /s; sim-cal:0.001695
-[*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-17124
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_coff_read_string_table,-1
-[*] /s; sim-cal:0.002889
-[*] Detection Result:V 0.9569597069597069/0.24402777777777776 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_coff_read_string_table,1
-[*] /s; sim-cal:0.001549
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_coff_read_string_table,1
-[*] /s; sim-cal:0.002331
-[*] Detection Result:P 0.3634659090909091/0.9455555555555556 3/1,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_coff_read_string_table,1
-[*] /s; sim-cal:0.00322
-[*] Detection Result:P 0.3634659090909091/0.9455555555555556 3/1,1
-------------------------------------------
-[*] Detecting CVE: CVE-2017-17126
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,load_debug_section,-1
-[*] /s; sim-cal:0.000922
+[*] Detecting CVE: CVE-2017-6965
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_syminfo,-1
+[*] /s; sim-cal:0.302854
 [*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,load_debug_section,1
-[*] /s; sim-cal:0.00141
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.326547
 [*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,load_debug_section,1
-[*] /s; sim-cal:0.000935
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.323663
 [*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,load_debug_section,1
-[*] /s; sim-cal:0.000859
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.317828
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,apply_relocations,-1
+[*] /s; sim-cal:0.287808
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.312458
+[*] Detection Result:P 0.8541114058355437/0.927055702917772 16/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.301084
+[*] Detection Result:P 0.8541114058355437/0.927055702917772 16/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.325284
+[*] Detection Result:P 0.609375/0.671875 55/55,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,target_specific_reloc_handling,-1
+[*] /s; sim-cal:0.310091
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.316777
+[*] Detection Result:P 0.5057085002220298/0.6648263979126277 56/50,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.314978
+[*] Detection Result:P 0.5057085002220298/0.6648263979126277 56/50,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.335841
+[*] Detection Result:P 0.48127668204021157/0.6502701208563506 59/53,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-6966
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_syminfo,-1
+[*] /s; sim-cal:0.005825
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.002064
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.002044
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.00219
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,apply_relocations,-1
+[*] /s; sim-cal:0.006184
+[*] Detection Result:V 0.8981481481481481/0.5858876117496807 1/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.006786
+[*] Detection Result:P 0.40922619047619047/0.9320276497695853 16/14,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.008034
+[*] Detection Result:P 0.40922619047619047/0.9320276497695853 16/14,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,apply_relocations,1
+[*] /s; sim-cal:0.012332
+[*] Detection Result:P 0.6450284090909091/0.7558238636363637 55/55,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,target_specific_reloc_handling,-1
+[*] /s; sim-cal:0.011279
+[*] Detection Result:V 0.7290453487022991/0.44201723794426434 11/14,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.022419
+[*] Detection Result:P 0.4779615029351954/0.872586407101382 50/32,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.043213
+[*] Detection Result:P 0.4779615029351954/0.872586407101382 50/32,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.025564
+[*] Detection Result:P 0.5447835697572623/0.8388742729249437 53/38,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7209
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,dump_section_as_bytes,-1
+[*] /s; sim-cal:0.26026
+[*] Detection Result:V 1.0/0.6672240802675585 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.335987
+[*] Detection Result:P 0.39583333333333337/0.6696428571428572 10/10,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.304466
+[*] Detection Result:P 0.39583333333333337/0.6696428571428572 13/13,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.303155
+[*] Detection Result:P 0.3653846153846154/0.635989010989011 19/19,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-6969
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_syminfo,-1
+[*] /s; sim-cal:0.00228
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.002126
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.001985
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_syminfo,1
+[*] /s; sim-cal:0.002935
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,target_specific_reloc_handling,-1
+[*] /s; sim-cal:0.007411
+[*] Detection Result:V 0.28910717763418725/0.23639896045666797 14/14,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.00878
+[*] Detection Result:P 0.29096438772694916/0.9434050626496088 32/20,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.010546
+[*] Detection Result:P 0.29096438772694916/0.9434050626496088 32/20,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.009378
+[*] Detection Result:P 0.29096438772694916/0.9434050626496088 38/26,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9038
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,get_unwind_section_word,-1
+[*] /s; sim-cal:0.295628
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.297595
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.293245
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.308218
+[*] Detection Result:P 0.7007936507936509/1.0 7/6,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9039
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,get_program_headers,-1
+[*] /s; sim-cal:0.296784
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,get_program_headers,1
+[*] /s; sim-cal:0.278926
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,get_program_headers,1
+[*] /s; sim-cal:0.260795
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,get_program_headers,1
+[*] /s; sim-cal:0.296026
+[*] Detection Result:P 0.5162300084175084/0.6486029507768638 9/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_mips_specific,-1
+[*] /s; sim-cal:0.402805
+[*] Detection Result:P 0.04/0.041666666666666664 7/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.459394
+[*] Detection Result:P 0.08/0.08333333333333333 30/30,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.478348
+[*] Detection Result:P 0.08/0.08333333333333333 34/34,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.471209
+[*] Detection Result:P 0.08/0.08333333333333333 68/68,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9040
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,print_symbol_for_build_attribute,-1
+target function: print_symbol_for_build_attribute not found
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,print_symbol_for_build_attribute,1
+[*] /s; sim-cal:0.26148
+[*] Detection Result:P 0.3611111111111111/0.8472222222222221 17/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,print_symbol_for_build_attribute,1
+[*] /s; sim-cal:0.280415
+[*] Detection Result:P 0.3611111111111111/0.8472222222222221 17/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,print_symbol_for_build_attribute,1
+target function: print_symbol_for_build_attribute not found
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_dynamic_section,-1
+[*] /s; sim-cal:0.376939
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_dynamic_section,1
+[*] /s; sim-cal:0.385686
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_dynamic_section,1
+[*] /s; sim-cal:0.357816
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_dynamic_section,1
+[*] /s; sim-cal:0.365257
+[*] Detection Result:P 0.6460869565217391/0.8685147622267299 11/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,print_gnu_build_attribute_name,-1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,print_gnu_build_attribute_name,1
+[*] /s; sim-cal:0.008765
+[*] Detection Result:P 0.3821199107826492/1.0 25/23,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,print_gnu_build_attribute_name,1
+[*] /s; sim-cal:0.008468
+[*] Detection Result:P 0.3821199107826492/1.0 25/23,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,print_gnu_build_attribute_name,1
+[*] /s; sim-cal:0.010935
+[*] Detection Result:P 0.5393939393939394/1.0 30/28,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_mips_specific,-1
+[*] /s; sim-cal:0.026402
+[*] Detection Result:V 1.0/0.45238095238095233 7/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.048838
+[*] Detection Result:P 0.34623655913978496/1.0 30/28,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.047945
+[*] Detection Result:P 0.34623655913978496/1.0 34/32,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.054811
+[*] Detection Result:V 0.7380952380952381/0.7138047138047138 68/67,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,process_arch_specific,-1
+[*] /s; sim-cal:0.279419
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,process_arch_specific,1
+[*] /s; sim-cal:0.25524
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,process_arch_specific,1
+[*] /s; sim-cal:0.24891
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,process_arch_specific,1
+[*] /s; sim-cal:0.256612
 [*] Detection Result:N VP no diff,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2017-9043
 [*] Detection for /binaries/target/binutils/binutils-2.28-o0-readelf,print_gnu_build_attribute_name,-1
 target function: print_gnu_build_attribute_name not found
 [*] Detection for /binaries/target/binutils/binutils-2.29-o0-readelf,print_gnu_build_attribute_name,1
-[*] /s; sim-cal:0.008824
+[*] /s; sim-cal:0.008911
 [*] Detection Result:P 0.5622222222222222/0.6981112637362636 23/21,1
 [*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,print_gnu_build_attribute_name,1
-[*] /s; sim-cal:0.008656
+[*] /s; sim-cal:0.007603
 [*] Detection Result:P 0.5622222222222222/0.6981112637362636 23/21,1
 [*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,print_gnu_build_attribute_name,1
-[*] /s; sim-cal:0.313022
+[*] /s; sim-cal:0.008804
 [*] Detection Result:P 0.5622222222222222/0.7103578853578854 28/26,1
 ------------------------------------------
-[*] Detecting CVE: CVE-2018-1000876
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
-[*] /s; sim-cal:0.001816
+[*] Detecting CVE: CVE-2017-8392
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,_bfd_dwarf2_find_nearest_line,-1
+[*] /s; sim-cal:0.507364
+[*] Detection Result:P 0.20866327300150828/0.23614592035644666 4/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:0.482673
+[*] Detection Result:P 0.24512160633484165/0.5828094541910331 5/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:0.506589
+[*] Detection Result:P 0.24512160633484165/0.5828094541910331 5/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:0.508427
+[*] Detection Result:P 0.24512160633484165/0.5828094541910331 5/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8394
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,_bfd_elf_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.470269
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.455276
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.45469
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.452107
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8395
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_init_section_compress_status,-1
+[*] /s; sim-cal:0.451782
 [*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
-[*] /s; sim-cal:0.001429
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
-[*] /s; sim-cal:0.001356
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
-[*] /s; sim-cal:0.000908
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.478042
 [*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
-[*] /s; sim-cal:0.000895
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.436133
 [*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.446302
+[*] Detection Result:P 0.45387205387205387/0.9692760942760943 7/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8397
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_perform_relocation,-1
+[*] /s; sim-cal:0.473173
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.487112
+[*] Detection Result:P 0.29292929292929293/0.2976292289793434 1/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.471932
+[*] Detection Result:P 0.29292929292929293/0.2976292289793434 1/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.477151
+[*] Detection Result:V 0.2272727272727273/0.21673254281949936 9/9,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8398
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,process_extended_line_op,-1
+[*] /s; sim-cal:0.464927
+[*] Detection Result:V 0.9904286499358856/0.6068892562585223 1/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,process_extended_line_op,1
+[*] /s; sim-cal:0.699368
+[*] Detection Result:P 0.6114149770973165/0.9954742791612059 3/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,process_extended_line_op,1
+[*] /s; sim-cal:0.645938
+[*] Detection Result:P 0.6114149770973165/0.9954742791612059 3/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_extended_line_op,1
+[*] /s; sim-cal:0.68783
+[*] Detection Result:P 0.6114149770973165/0.9954742791612059 5/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,fetch_indexed_string,-1
+[*] /s; sim-cal:0.622135
+[*] Detection Result:V 0.9305863805493967/0.33931071760891574 3/6,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.612423
+[*] Detection Result:P 0.4145430572061297/0.9416613304081265 8/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.626685
+[*] Detection Result:P 0.4145430572061297/0.9416613304081265 8/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.556479
+[*] Detection Result:P 0.4145430572061297/0.9416613304081265 9/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8396
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,_bfd_final_link_relocate,-1
+[*] /s; sim-cal:0.542469
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.512355
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.483978
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.546974
+[*] Detection Result:P 0.5645391559478246/0.8484848484848485 2/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_check_overflow,-1
+[*] /s; sim-cal:0.567111
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:0.58366
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:0.528666
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:0.616165
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_perform_relocation,-1
+[*] /s; sim-cal:0.005967
+[*] Detection Result:V 0.7588226177765517/0.2 1/5,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.004356
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.004223
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.005787
+[*] Detection Result:P 0.32663480456983573/0.7329545454545454 9/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_install_relocation,-1
+[*] /s; sim-cal:0.673557
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.539093
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.603632
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.601753
+[*] Detection Result:P 0.26114890400604684/0.49863945578231295 6/6,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8421
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,dump_relocs_in_section,-1
+[*] /s; sim-cal:0.453413
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.450787
+[*] Detection Result:P 0.4481937602627258/0.9060846560846562 3/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.0037
+[*] Detection Result:P 0.4481937602627258/0.9060846560846562 3/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.00373
+[*] Detection Result:P 0.4481937602627258/0.8873015873015874 4/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9954
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,pass_over,-1
+[*] /s; sim-cal:0.440964
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,pass_over,1
+[*] /s; sim-cal:0.467931
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,pass_over,1
+[*] /s; sim-cal:0.447398
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,pass_over,1
+[*] /s; sim-cal:0.460359
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,getvalue,-1
+[*] /s; sim-cal:0.442204
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,getvalue,1
+[*] /s; sim-cal:0.441315
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,getvalue,1
+[*] /s; sim-cal:0.449692
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,getvalue,1
+[*] /s; sim-cal:0.446507
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9955
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,_bfd_generic_get_section_contents,-1
+[*] /s; sim-cal:0.459295
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.44716
+[*] Detection Result:V 0.7619047619047619/0.5760396136203733 4/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.447257
+[*] Detection Result:V 0.7619047619047619/0.5760396136203733 4/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.465521
+[*] Detection Result:V 0.7063492063492064/0.554580647577816 6/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_get_full_section_contents,-1
+[*] /s; sim-cal:0.476742
+[*] Detection Result:P 0.486142755879598/0.8660714285714286 2/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.461569
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.458427
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.485182
+[*] Detection Result:P 0.47298486114275595/0.8660714285714286 7/7,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13710
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,setup_group,-1
+[*] /s; sim-cal:0.004938
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.005857
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.008385
+[*] Detection Result:P 0.25584795321637427/0.8443149326443471 14/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,setup_group,1
+[*] /s; sim-cal:0.008906
+[*] Detection Result:P 0.25584795321637427/0.8364597150856256 20/15,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12967
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,getsym,-1
+[*] /s; sim-cal:0.445457
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,getsym,1
+[*] /s; sim-cal:0.582183
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,getsym,1
+[*] /s; sim-cal:0.505413
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,getsym,1
+[*] /s; sim-cal:0.822695
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13757
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.123476
+[*] Detection Result:V 1.0/0.3277773939725196 10/10,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.0378
+[*] Detection Result:V 0.5111940951313241/0.4207879797178849 17/10,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.182784
+[*] Detection Result:P 0.2910876644963089/0.3875901970275714 25/21,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.183918
+[*] Detection Result:P 0.2910876644963089/0.3875901970275714 25/21,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.068682
+[*] Detection Result:V 1.0/0.3879317431193959 10/10,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.025343
+[*] Detection Result:V 0.6027525368200125/0.5496073286070147 16/10,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.078726
+[*] Detection Result:P 0.3463689573367779/0.37582699169687955 19/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.079313
+[*] Detection Result:P 0.3463689573367779/0.37582699169687955 22/19,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14129
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_section,-1
+[*] /s; sim-cal:0.003362
+[*] Detection Result:V 0.801904761904762/0.34936864531161965 2/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,read_section,1
+[*] /s; sim-cal:0.006923
+[*] Detection Result:P 0.2219198790627362/0.8722067933887274 9/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_section,1
+[*] /s; sim-cal:0.004822
+[*] Detection Result:P 0.2782361833622337/0.4613894911493137 11/10,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_section,1
+[*] /s; sim-cal:0.005395
+[*] Detection Result:P 0.3008616780045351/0.3253353948187855 11/11,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12799
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_read_notes,-1
+[*] /s; sim-cal:0.449131
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_read_notes,1
+[*] /s; sim-cal:0.448504
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_read_notes,1
+[*] /s; sim-cal:0.487665
+[*] Detection Result:P 0.6519607843137255/0.9317460317460317 3/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_read_notes,1
+[*] /s; sim-cal:0.445671
+[*] Detection Result:P 0.6519607843137255/0.9317460317460317 3/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14128
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.01547
+[*] Detection Result:V 0.725796225867064/0.2937681943584554 8/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.019403
+[*] Detection Result:V 0.5277426952543554/0.3800724195780414 9/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.017861
+[*] Detection Result:V 0.63338330085698/0.33142364611478053 17/18,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.021663
+[*] Detection Result:V 0.63338330085698/0.33142364611478053 17/18,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14130
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_elf_parse_attributes,-1
+[*] /s; sim-cal:0.006247
+[*] Detection Result:V 0.9/0.5041381023348237 2/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.005304
+[*] Detection Result:P 0.2978018278018278/0.95 4/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.004596
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.006335
+[*] Detection Result:P 0.3166522366522367/0.6528205128205128 9/7,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12448
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_generic_archive_p,-1
+[*] /s; sim-cal:0.463623
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.28-o0-objdump,bfd_generic_archive_p,-1
+[*] /s; sim-cal:0.433937
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.27-o0-objdump,bfd_generic_archive_p,-1
+[*] /s; sim-cal:6.450986
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.448275
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.47515
+[*] Detection Result:P 0.8947368421052632/0.9403508771929825 5/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.441894
+[*] Detection Result:P 0.5652173913043479/0.9403508771929825 5/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14529
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,pe_print_idata,-1
+[*] /s; sim-cal:0.006945
+[*] Detection Result:V 1.0/0.8485714285714285 7/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,pe_print_idata,1
+[*] /s; sim-cal:0.007935
+[*] Detection Result:P 0.5952380952380952/0.9613095238095238 8/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,pe_print_idata,1
+[*] /s; sim-cal:0.006343
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,pe_print_idata,1
+[*] /s; sim-cal:0.007413
+[*] Detection Result:P 0.5952380952380952/0.9613095238095238 9/8,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14745
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,-1
+target function: _bfd_x86_elf_get_synthetic_symtab not found
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+target function: _bfd_x86_elf_get_synthetic_symtab not found
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.006153
+[*] Detection Result:P 0.45714285714285713/0.9647473560517039 4/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.005753
+[*] Detection Result:P 0.45714285714285713/0.9647473560517039 4/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14729
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:2.222901
+[*] Detection Result:P 0.11859949720969695/0.556708079947366 76/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:2.613832
+[*] Detection Result:P 0.12625313316139353/0.5694140255296211 79/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.004911
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:1.963918
+[*] Detection Result:V 0.7956840604391154/0.10876674389137479 2/21,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:3.54875
+[*] Detection Result:P 0.10900767244776856/0.5718843827851482 75/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:3.820516
+[*] Detection Result:P 0.1104340151140899/0.5824103416130898 78/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.005762
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:1.247719
+[*] Detection Result:V 0.9407040736016316/0.12082722349386779 5/19,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14974
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.008274
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.008194
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.010377
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.010137
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.008343
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.037396
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.018328
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.015099
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14930
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.01834
+[*] Detection Result:V 0.44272136978922366/0.3397238163558106 9/12,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.015116
+[*] Detection Result:V 0.44272136978922366/0.3397238163558106 9/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.014796
+[*] Detection Result:P 0.3188494734582003/0.5180232558139535 16/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.015163
+[*] Detection Result:P 0.3188494734582003/0.5180232558139535 16/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14938
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_elf_slurp_version_tables,-1
+[*] /s; sim-cal:0.01004
+[*] Detection Result:V 0.6532812266157404/0.4626088581725397 2/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.00983
+[*] Detection Result:V 0.6532812266157404/0.4626088581725397 2/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.009702
+[*] Detection Result:P 0.5026509924938503/0.6391117449405378 4/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.022574
+[*] Detection Result:P 0.5026509924938503/0.6391117449405378 4/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14939
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.013878
+[*] Detection Result:V 0.6657447705802969/0.6209431161745829 9/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.017462
+[*] Detection Result:V 0.8003700603641641/0.4730058136614672 9/10,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.016216
+[*] Detection Result:P 0.42243903866133375/0.7976168476322922 18/17,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.014677
+[*] Detection Result:P 0.42243903866133375/0.7976168476322922 18/17,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14940
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.020726
+[*] Detection Result:V 0.9/0.7777777777777777 3/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.008013
+[*] Detection Result:V 0.9/0.7777777777777777 3/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.012563
+[*] Detection Result:V 0.9/0.8407407407407407 13/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.015588
+[*] Detection Result:P 0.7/0.774074074074074 13/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15021
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,bfd_get_debug_link_info_1,-1
+[*] /s; sim-cal:0.002021
+[*] Detection Result:V 1.0/0.26653225806451614 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.001901
+[*] Detection Result:V 1.0/0.26653225806451614 2/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.001602
+[*] Detection Result:P 0.21370235934664247/0.8141025641025641 2/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.002137
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15024
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.014119
+[*] Detection Result:V 0.9899811439346323/0.5464955354911478 3/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.011475
+[*] Detection Result:V 0.9899811439346323/0.5464955354911478 3/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.01876
+[*] Detection Result:P 0.577323121509168/0.9906719219219219 12/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.016915
+[*] Detection Result:P 0.5606375987771336/0.9295451895995374 12/6,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,find_abstract_instance_name,-1
+[*] /s; sim-cal:0.004984
+[*] Detection Result:V 0.7845273773845202/0.5179554945548013 6/8,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.008672
+[*] Detection Result:V 0.7845273773845202/0.5179554945548013 6/8,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.010462
+[*] Detection Result:P 0.3826540283987093/0.8781556539691711 20/15,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,lookup_symbol_in_variable_table,-1
+[*] /s; sim-cal:0.001448
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,lookup_symbol_in_variable_table,1
+[*] /s; sim-cal:0.001276
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,lookup_symbol_in_variable_table,1
+[*] /s; sim-cal:0.00177
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,lookup_symbol_in_variable_table,1
+[*] /s; sim-cal:0.457063
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15025
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.015127
+[*] Detection Result:P 0.10294977640178879/0.38888888888888884 9/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.013263
+[*] Detection Result:P 0.10294977640178879/0.38888888888888884 10/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.013733
+[*] Detection Result:P 0.16136910904712765/0.3833333333333333 17/16,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.01405
+[*] Detection Result:P 0.16136910904712765/0.3833333333333333 17/16,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15020
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_line_table,-1
+[*] /s; sim-cal:0.001686
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_line_table,1
+[*] /s; sim-cal:0.001701
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_line_table,1
+[*] /s; sim-cal:0.002333
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_line_table,1
+[*] /s; sim-cal:0.001741
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_die,-1
+[*] /s; sim-cal:0.00215
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.002448
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.007281
+[*] Detection Result:P 0.3108757272295158/0.9347175458286571 21/6,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.006631
+[*] Detection Result:P 0.3108757272295158/0.9347175458286571 21/6,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15022
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.014127
+[*] Detection Result:V 0.9/0.4380952380952381 9/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.010398
+[*] Detection Result:P 0.9/0.9666666666666667 5/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.009562
+[*] Detection Result:P 0.7/0.9 6/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.012853
+[*] Detection Result:P 0.7/0.9 6/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_comp_unit,-1
+[*] /s; sim-cal:0.009295
+[*] Detection Result:V 0.5625/0.3333333333333333 5/5,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.006504
+[*] Detection Result:P 0.47916666666666663/0.7395833333333334 9/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.006499
+[*] Detection Result:P 0.41666666666666663/0.7083333333333334 9/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.006257
+[*] Detection Result:P 0.41666666666666663/0.7083333333333334 9/7,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15023
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.0041
+[*] Detection Result:V 0.85/0.2014069264069264 1/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.004671
+[*] Detection Result:P 0.25/0.6097812097812098 16/13,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.005894
+[*] Detection Result:P 0.25/0.6097812097812098 16/13,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.005194
+[*] Detection Result:P 0.25/0.6097812097812098 16/13,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14932
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.017707
+[*] Detection Result:V 0.7650925372142477/0.4154302201491107 12/13,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.015982
+[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.016208
+[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.021151
+[*] Detection Result:P 0.5104653204982154/0.7680770773143009 13/11,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14933
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.007161
+[*] Detection Result:V 0.8494632726342287/0.11278325984537785 3/13,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.01028
+[*] Detection Result:P 0.12272274826622652/0.8717506638735051 12/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.009937
+[*] Detection Result:P 0.12272274826622652/0.8717506638735051 12/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.009661
+[*] Detection Result:P 0.12272274826622652/0.8717506638735051 12/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15938
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,find_abstract_instance_name,-1
+[*] /s; sim-cal:0.005662
+[*] Detection Result:V 0.6089711312033027/0.43494127408263045 8/13,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.006062
+[*] Detection Result:P 0.4839569712324289/0.9467423927635761 15/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,parse_comp_unit,-1
+[*] /s; sim-cal:0.006098
+[*] Detection Result:V 0.6354166666666667/0.44153911564625853 5/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.009226
+[*] Detection Result:P 0.4001657779600765/0.5982789855072463 7/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.005869
+[*] Detection Result:P 0.3689157779600765/0.5670289855072463 7/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_comp_unit,1
+[*] /s; sim-cal:0.005133
+[*] Detection Result:P 0.3689157779600765/0.5670289855072463 7/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15939
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.002724
+[*] Detection Result:V 0.4166666666666667/0.23529411764705882 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.00356
+[*] Detection Result:P 0.3/1.0 13/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.003344
+[*] Detection Result:P 0.3/1.0 13/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.002932
+[*] Detection Result:P 0.3/1.0 13/12,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,concat_filename,-1
+[*] /s; sim-cal:0.003133
+[*] Detection Result:V 1.0/0.353263749683187 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.002586
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.003512
+[*] Detection Result:P 0.3423295454545454/0.9504985754985755 6/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.002684
+[*] Detection Result:P 0.3423295454545454/0.9504985754985755 7/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.017728
+[*] Detection Result:V 0.767866286299466/0.03666450356911097 13/17,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.012736
+[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.013377
+[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,decode_line_info,1
+[*] /s; sim-cal:0.012986
+[*] Detection Result:P 0.02339551535707556/0.9780445598096474 11/9,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14934
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,process_debug_info,-1
+[*] /s; sim-cal:0.035197
+[*] Detection Result:V 0.8088715570738544/0.40743266904871545 9/14,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_debug_info,1
+[*] /s; sim-cal:0.04596
+[*] Detection Result:V 0.6155790209503346/0.6008075205900072 32/32,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,process_debug_info,1
+[*] /s; sim-cal:0.044988
+[*] Detection Result:V 0.6136182366366091/0.5992202190027056 33/33,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,process_debug_info,1
+[*] /s; sim-cal:0.046563
+[*] Detection Result:V 0.6136182366366091/0.5992202190027056 33/33,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15225
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,_bfd_dwarf2_cleanup_debug_info,-1
+[*] /s; sim-cal:0.007933
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.008746
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.006321
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.005398
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16829
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_elf_parse_gnu_properties,-1
+[*] /s; sim-cal:0.009563
+[*] Detection Result:V 0.8996250497630872/0.2653994782990027 6/11,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.003845
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.008056
+[*] Detection Result:P 0.2977377495202736/0.9154003408024537 10/5,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.009431
+[*] Detection Result:P 0.2977377495202736/0.9154003408024537 10/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15996
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,get_archive_member_name,-1
+[*] /s; sim-cal:0.003587
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.002982
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.002799
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.002649
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,process_archive_index_and_symbols,-1
+[*] /s; sim-cal:0.002832
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.003381
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.005569
+[*] Detection Result:P 0.4154040404040404/0.9811320754716981 5/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.00595
+[*] Detection Result:P 0.4154040404040404/0.9811320754716981 5/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.29-o0-objdump,setup_archive,-1
+[*] /s; sim-cal:0.003603
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,setup_archive,1
+[*] /s; sim-cal:0.007076
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,setup_archive,1
+[*] /s; sim-cal:0.003328
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,setup_archive,1
+[*] /s; sim-cal:0.0032
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16830
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-readelf,print_gnu_property_note,-1
+[*] /s; sim-cal:0.004029
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-readelf,print_gnu_property_note,1
+[*] /s; sim-cal:0.006246
+[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-readelf,print_gnu_property_note,1
+[*] /s; sim-cal:0.00661
+[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-readelf,print_gnu_property_note,1
+[*] /s; sim-cal:0.012688
+[*] Detection Result:P 0.31541622070206465/1.0 8/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16828
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,display_debug_frames,-1
+[*] /s; sim-cal:0.110188
+[*] Detection Result:V 0.7615223233054323/0.6952063375367561 45/56,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,display_debug_frames,1
+[*] /s; sim-cal:0.130054
+[*] Detection Result:P 0.8077052080381159/0.8568515468248435 58/53,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,display_debug_frames,1
+[*] /s; sim-cal:0.120389
+[*] Detection Result:P 0.8065373007156909/0.8557124767202563 56/52,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,display_debug_frames,1
+[*] /s; sim-cal:0.127372
+[*] Detection Result:P 0.8065373007156909/0.8557124767202563 56/52,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,read_cie,-1
+[*] /s; sim-cal:0.006697
+[*] Detection Result:V 0.8740740740740741/0.3419246031746032 9/11,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_cie,1
+[*] /s; sim-cal:0.007589
+[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_cie,1
+[*] /s; sim-cal:0.007648
+[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_cie,1
+[*] /s; sim-cal:0.00723
+[*] Detection Result:P 0.3035030103995621/0.8974358974358975 10/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,frame_display_row,-1
+[*] /s; sim-cal:0.002042
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,frame_display_row,1
+[*] /s; sim-cal:0.002186
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,frame_display_row,1
+[*] /s; sim-cal:0.002061
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,frame_display_row,1
+[*] /s; sim-cal:0.002293
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16831
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,coff_get_normalized_symtab,-1
+[*] /s; sim-cal:0.007528
+[*] Detection Result:V 0.7942857142857143/0.6834032363983297 7/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.005805
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.008279
+[*] Detection Result:P 0.706838397451605/0.8055785123966944 10/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.008225
+[*] Detection Result:P 0.706838397451605/0.8055785123966944 10/7,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_coff_get_external_symbols,-1
+[*] /s; sim-cal:0.002737
+[*] Detection Result:V 0.9130434782608695/0.4365324491215199 1/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.001371
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.002959
+[*] Detection Result:P 0.44887278582930756/0.9330990210239126 8/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.002638
+[*] Detection Result:P 0.44887278582930756/0.9330990210239126 8/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17080
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elfcore_grok_nto_status,-1
+[*] /s; sim-cal:0.453124
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elfcore_grok_nto_status,1
+[*] /s; sim-cal:0.4739
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elfcore_grok_nto_status,1
+[*] /s; sim-cal:0.447879
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elfcore_grok_nto_status,1
+[*] /s; sim-cal:0.45749
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elfcore_grok_freebsd_psinfo,-1
+[*] /s; sim-cal:0.45127
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elfcore_grok_freebsd_psinfo,1
+[*] /s; sim-cal:0.693235
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elfcore_grok_freebsd_psinfo,1
+[*] /s; sim-cal:0.707486
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elfcore_grok_freebsd_psinfo,1
+[*] /s; sim-cal:0.474432
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elfcore_grok_netbsd_note,-1
+[*] /s; sim-cal:0.462292
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.456168
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.436872
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.434564
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,elfcore_netbsd_get_lwpid,-1
+[*] /s; sim-cal:0.435116
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elfcore_netbsd_get_lwpid,1
+[*] /s; sim-cal:0.46041
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elfcore_netbsd_get_lwpid,1
+[*] /s; sim-cal:0.456562
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elfcore_netbsd_get_lwpid,1
+[*] /s; sim-cal:0.455098
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17124
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,_bfd_coff_read_string_table,-1
+[*] /s; sim-cal:0.004036
+[*] Detection Result:V 0.9569597069597069/0.24402777777777776 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.002334
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.002315
+[*] Detection Result:P 0.3634659090909091/0.9455555555555556 3/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.002344
+[*] Detection Result:P 0.3634659090909091/0.9455555555555556 3/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17122
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,dump_relocs_in_section,-1
+[*] /s; sim-cal:0.001726
+[*] Detection Result:V 0.9876543209876543/0.5740950226244343 1/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.001806
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.002281
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.001511
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17126
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,load_debug_section,-1
 [*] /s; sim-cal:0.000864
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
-[*] /s; sim-cal:0.000769
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
-[*] /s; sim-cal:0.001578
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
-[*] /s; sim-cal:0.000706
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
-[*] /s; sim-cal:0.000732
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
-[*] /s; sim-cal:0.001036
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
-[*] /s; sim-cal:0.00088
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
-[*] /s; sim-cal:0.00061
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
-[*] /s; sim-cal:0.000553
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
-[*] /s; sim-cal:0.000554
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
-[*] /s; sim-cal:0.000944
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
-[*] /s; sim-cal:0.000697
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
-[*] /s; sim-cal:0.000635
-[*] Detection Result:P,1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,load_debug_section,1
+[*] /s; sim-cal:0.001351
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,load_debug_section,1
+[*] /s; sim-cal:0.001849
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,load_debug_section,1
+[*] /s; sim-cal:0.000856
+[*] Detection Result:N VP no diff,1
 ------------------------------------------
-[*] Detecting CVE: CVE-2018-18605
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_add_merge_section,-1
-[*] /s; sim-cal:0.003155
-[*] Detection Result:V 1.0/0.39473684210526316 1/1,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.004436
-[*] Detection Result:P 0.24415204678362573/0.868421052631579 8/6,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.005321
-[*] Detection Result:P 0.24415204678362573/0.868421052631579 8/6,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.512758
-[*] Detection Result:P 0.24415204678362573/0.868421052631579 9/7,1
-------------------------------------------
-[*] Detecting CVE: CVE-2018-18606
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_add_merge_section,-1
-[*] /s; sim-cal:0.005633
-[*] Detection Result:V 0.9161704929206556/0.3832365465163796 1/4,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.029076
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.007012
-[*] Detection Result:P 0.4087678500611306/0.9274622393239479 6/1,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_add_merge_section,1
-[*] /s; sim-cal:0.004507
-[*] Detection Result:P 0.3734230224749237/0.8949097024610662 7/2,1
-------------------------------------------
-[*] Detecting CVE: CVE-2018-18607
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_link_input_bfd,-1
-[*] /s; sim-cal:0.025852
-[*] Detection Result:V 0.7594626240875629/0.5576652814311881 12/17,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,elf_link_input_bfd,1
-[*] /s; sim-cal:0.024355
-[*] Detection Result:P 0.5693054267792391/0.762942232887885 16/9,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,elf_link_input_bfd,1
-[*] /s; sim-cal:0.021988
-[*] Detection Result:P 0.5538002944148533/0.7472586893782546 20/13,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,elf_link_input_bfd,1
-[*] /s; sim-cal:0.621684
-[*] Detection Result:P 0.6706643839479042/0.7644890185728694 33/27,1
-------------------------------------------
-[*] Detecting CVE: CVE-2018-19932
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:0.035165
-[*] Detection Result:V 0.7936216018974639/0.6341009631404635 8/8,-1
-[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:0.044832
-[*] Detection Result:V 0.6841931216931216/0.6078530856463921 37/37,-1
-[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:0.049273
-[*] Detection Result:V 0.6841931216931216/0.6084409751231705 38/38,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,rewrite_elf_program_header,1
-[*] /s; sim-cal:0.029955
-[*] Detection Result:V 0.9351851851851851/0.6598272804195866 25/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,rewrite_elf_program_header,1
-[*] /s; sim-cal:0.049094
-[*] Detection Result:V 0.9007936507936508/0.6562287779906749 25/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,rewrite_elf_program_header,1
-[*] /s; sim-cal:0.615884
-[*] Detection Result:V 0.8821839080459771/0.6509157268442904 36/16,1
-------------------------------------------
-[*] Detecting CVE: CVE-2018-20002
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-nm,display_rel_file,-1
-[*] /s; sim-cal:0.003129
+[*] Detecting CVE: CVE-2018-7208
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,coff_pointerize_aux,-1
+[*] /s; sim-cal:0.449268
 [*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.003224
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.003873
-[*] Detection Result:P 0.625123406005759/0.941683569979716 5/2,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.007928
-[*] Detection Result:P 0.585106785106785/0.8904317879727716 15/12,1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-nm,_bfd_generic_read_minisymbols,-1
-[*] /s; sim-cal:0.001162
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,_bfd_generic_read_minisymbols,1
-[*] /s; sim-cal:0.001257
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,_bfd_generic_read_minisymbols,1
-[*] /s; sim-cal:0.001199
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,_bfd_generic_read_minisymbols,1
-[*] /s; sim-cal:0.366492
-[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,coff_pointerize_aux,1
+[*] /s; sim-cal:0.444057
+[*] Detection Result:P 0.5164569949778662/0.9492521367521367 4/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,coff_pointerize_aux,1
+[*] /s; sim-cal:0.464735
+[*] Detection Result:P 0.5164569949778662/0.9492521367521367 4/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,coff_pointerize_aux,1
+[*] /s; sim-cal:0.525307
+[*] Detection Result:P 0.47083119986345784/0.7937043155820321 7/6,1
 ------------------------------------------
-[*] Detecting CVE: CVE-2018-20651
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elf_link_add_object_symbols,-1
-[*] /s; sim-cal:0.034957
-[*] Detection Result:V 1.0/0.4583333333333333 14/15,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,elf_link_add_object_symbols,1
-[*] /s; sim-cal:0.039091
-[*] Detection Result:P 0.5/1.0 12/11,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,elf_link_add_object_symbols,1
-[*] /s; sim-cal:0.071345
-[*] Detection Result:P 0.5/1.0 38/37,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,elf_link_add_object_symbols,1
-[*] /s; sim-cal:0.077766
-[*] Detection Result:P 0.5/1.0 65/64,1
-------------------------------------------
-[*] Detecting CVE: CVE-2018-20671
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.002065
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.001872
-[*] Detection Result:V,-1
+[*] Detecting CVE: CVE-2018-6543
 [*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.003321
-[*] Detection Result:V 0.72783610627951/0.6196478095633451 2/3,-1
+[*] /s; sim-cal:0.001866
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.002411
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.001696
+[*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,load_specific_debug_section,1
-[*] /s; sim-cal:0.005296
-[*] Detection Result:P 0.2100665419660449/0.9412547516512023 8/3,1
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,load_specific_debug_section,1
-[*] /s; sim-cal:0.006758
-[*] Detection Result:P 0.42799258759213393/0.8823157840365774 9/6,1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,load_specific_debug_section,1
-[*] /s; sim-cal:0.006444
-[*] Detection Result:P 0.3379991701992205/0.75312426107697 10/7,1
+[*] /s; sim-cal:0.003522
+[*] Detection Result:V 0.7703997780196794/0.7689972821640234 8/8,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-6759
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_get_alt_debug_link_info,-1
+[*] /s; sim-cal:0.524942
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.636155
+[*] Detection Result:P 0.20674206461017824/0.6996026254528571 8/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.809534
+[*] Detection Result:P 0.20674206461017824/0.6996026254528571 8/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.862888
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_get_debug_link_info_1,-1
+[*] /s; sim-cal:0.00147
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.004252
+[*] Detection Result:P 0.2192310413129598/0.9811383264481298 7/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.605816
+[*] Detection Result:P 0.2192310413129598/0.9811383264481298 7/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.533042
+[*] Detection Result:P,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2018-6872
 [*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,elf_parse_notes,-1
-[*] /s; sim-cal:0.002859
+[*] /s; sim-cal:0.007047
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_parse_notes,1
-[*] /s; sim-cal:0.003821
+[*] /s; sim-cal:0.004316
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elf_parse_notes,1
-[*] /s; sim-cal:0.004332
+[*] /s; sim-cal:0.003761
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,elf_parse_notes,1
-[*] /s; sim-cal:0.005137
+[*] /s; sim-cal:0.004756
 [*] Detection Result:P 0.6781704343203199/1.0 4/1,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2018-7570
 [*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,assign_file_positions_for_non_load_sections,-1
-[*] /s; sim-cal:0.023512
+[*] /s; sim-cal:0.024125
 [*] Detection Result:V 0.3495804697499612/0.2258784298846959 21/23,-1
 [*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,assign_file_positions_for_non_load_sections,1
-[*] /s; sim-cal:0.017247
+[*] /s; sim-cal:0.018268
 [*] Detection Result:P 0.5861241373006079/0.7837393156324949 12/4,1
 [*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,assign_file_positions_for_non_load_sections,1
-[*] /s; sim-cal:0.017204
+[*] /s; sim-cal:0.01807
 [*] Detection Result:P 0.5861241373006079/0.7837393156324949 12/4,1
 [*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,assign_file_positions_for_non_load_sections,1
-[*] /s; sim-cal:0.025307
+[*] /s; sim-cal:0.018659
 [*] Detection Result:P 0.592184743361214/0.7852055912923188 14/6,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7568
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,parse_die,-1
+[*] /s; sim-cal:0.001975
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.00207
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.002029
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,parse_die,1
+[*] /s; sim-cal:0.556486
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7569
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_8_bytes,-1
+[*] /s; sim-cal:0.51834
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_8_bytes,1
+[*] /s; sim-cal:0.550747
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_8_bytes,1
+[*] /s; sim-cal:0.565194
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,read_8_bytes,1
+[*] /s; sim-cal:0.712225
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_attribute_value,-1
+[*] /s; sim-cal:0.620435
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.532608
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.560314
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.57212
+[*] Detection Result:P 0.2423780487804878/0.9023809523809524 6/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7643
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,read_uleb128,-1
+[*] /s; sim-cal:0.57724
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,read_uleb128,1
+[*] /s; sim-cal:0.608954
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,read_uleb128,1
+[*] /s; sim-cal:0.493159
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,read_uleb128,1
+[*] /s; sim-cal:0.446775
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,display_debug_ranges,-1
+[*] /s; sim-cal:0.62204
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.682623
+[*] Detection Result:P 0.16345811051693404/1.0 7/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.551347
+[*] Detection Result:P 0.16345811051693404/1.0 7/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.572635
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,display_debug_ranges_list,-1
+[*] /s; sim-cal:0.555107
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:0.567012
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:0.557611
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:0.615535
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-10372
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,process_cu_tu_index,-1
+[*] /s; sim-cal:0.728877
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:0.693898
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:0.715103
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:0.758051
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-10373
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,concat_filename,-1
+[*] /s; sim-cal:0.002466
+[*] Detection Result:V 0.7592592592592593/0.26074128711045547 1/2,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.001748
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.002875
+[*] Detection Result:P 0.3259259259259259/0.632183908045977 3/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,concat_filename,1
+[*] /s; sim-cal:0.532408
+[*] Detection Result:P 0.3259259259259259/0.632183908045977 3/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-8945
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_parse_attributes,-1
+[*] /s; sim-cal:0.005291
+[*] Detection Result:V 0.7025974025974027/0.5766666666666667 5/5,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.005681
+[*] Detection Result:P 0.37532467532467534/0.8333333333333334 6/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.562307
+[*] Detection Result:P 0.42532467532467527/0.875 6/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.568056
+[*] Detection Result:P 0.4824675324675325/0.8244444444444445 7/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,bfd_elf_get_str_section,-1
+[*] /s; sim-cal:0.563266
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,bfd_elf_get_str_section,1
+[*] /s; sim-cal:0.540724
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,bfd_elf_get_str_section,1
+[*] /s; sim-cal:0.55594
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,bfd_elf_get_str_section,1
+[*] /s; sim-cal:0.60813
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-17360
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,pe_print_edata,-1
+[*] /s; sim-cal:0.615852
+[*] Detection Result:V 0.9830624956047348/0.16771703543464062 1/5,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,pe_print_edata,1
+[*] /s; sim-cal:0.717785
+[*] Detection Result:P 0.41897439941123904/0.5365911002642156 19/15,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,pe_print_edata,1
+[*] /s; sim-cal:0.928114
+[*] Detection Result:P 0.41897439941123904/0.5365911002642156 19/15,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,pe_print_edata,1
+[*] /s; sim-cal:0.723546
+[*] Detection Result:P 0.41897439941123904/0.5365911002642156 19/15,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18605
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_add_merge_section,-1
+[*] /s; sim-cal:0.006253
+[*] Detection Result:V 1.0/0.39473684210526316 1/1,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.00852
+[*] Detection Result:P 0.24415204678362573/0.868421052631579 8/6,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.005443
+[*] Detection Result:P 0.24415204678362573/0.868421052631579 8/6,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.005019
+[*] Detection Result:P 0.24415204678362573/0.868421052631579 9/7,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18606
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_add_merge_section,-1
+[*] /s; sim-cal:0.006728
+[*] Detection Result:V 0.9161704929206556/0.3832365465163796 1/4,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.002933
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.005516
+[*] Detection Result:P 0.4087678500611306/0.9274622393239479 6/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.004628
+[*] Detection Result:P 0.3734230224749237/0.8949097024610662 7/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18607
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,elf_link_input_bfd,-1
+[*] /s; sim-cal:0.023131
+[*] Detection Result:V 0.7594626240875629/0.5576652814311881 12/17,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:0.024193
+[*] Detection Result:P 0.5693054267792391/0.762942232887885 16/9,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:0.029002
+[*] Detection Result:P 0.5538002944148533/0.7472586893782546 20/13,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:0.029561
+[*] Detection Result:P 0.6706643839479042/0.7644890185728694 33/27,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-19932
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,rewrite_elf_program_header,-1
+[*] /s; sim-cal:0.035376
+[*] Detection Result:V 0.7936216018974639/0.6341009631404635 8/8,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,rewrite_elf_program_header,-1
+[*] /s; sim-cal:0.050318
+[*] Detection Result:V 0.6841931216931216/0.6078530856463921 37/37,-1
+[*] Detection for /binaries/target/binutils/binutils-2.29.1-o0-objdump,rewrite_elf_program_header,-1
+[*] /s; sim-cal:0.051951
+[*] Detection Result:V 0.6841931216931216/0.6084409751231705 38/38,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,rewrite_elf_program_header,1
+[*] /s; sim-cal:0.030887
+[*] Detection Result:V 0.9351851851851851/0.6598272804195866 25/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,rewrite_elf_program_header,1
+[*] /s; sim-cal:0.030926
+[*] Detection Result:V 0.9007936507936508/0.6562287779906749 25/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,rewrite_elf_program_header,1
+[*] /s; sim-cal:0.035999
+[*] Detection Result:V 0.8821839080459771/0.6509157268442904 36/16,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20002
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-nm,_bfd_generic_read_minisymbols,-1
+[*] /s; sim-cal:0.002037
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:0.001493
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:0.001296
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:0.001124
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-nm,display_rel_file,-1
+[*] /s; sim-cal:0.003257
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.003084
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.003955
+[*] Detection Result:P 0.625123406005759/0.941683569979716 5/2,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.005908
+[*] Detection Result:P 0.585106785106785/0.8904317879727716 15/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000876
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.00063
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.000535
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.00048
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.000526
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.00048
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.000621
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,swap_out_syms,-1
+[*] /s; sim-cal:0.007845
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,swap_out_syms,-1
+[*] /s; sim-cal:0.011224
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,swap_out_syms,-1
+[*] /s; sim-cal:0.008471
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,swap_out_syms,1
+[*] /s; sim-cal:0.008708
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,swap_out_syms,1
+[*] /s; sim-cal:0.008134
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,swap_out_syms,1
+[*] /s; sim-cal:0.00858
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.001782
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.000747
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.000688
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.000855
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.000945
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.00082
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.000768
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.00079
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.000966
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.000892
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.000834
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.000801
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.00059
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.000501
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.000622
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.000649
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.000616
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.000688
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20651
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,elf_link_add_object_symbols,-1
+[*] /s; sim-cal:0.035056
+[*] Detection Result:V 1.0/0.4583333333333333 14/15,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,elf_link_add_object_symbols,1
+[*] /s; sim-cal:0.036278
+[*] Detection Result:P 0.5/1.0 12/11,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,elf_link_add_object_symbols,1
+[*] /s; sim-cal:0.062429
+[*] Detection Result:P 0.5/1.0 38/37,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,elf_link_add_object_symbols,1
+[*] /s; sim-cal:0.071444
+[*] Detection Result:P 0.5/1.0 65/64,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20671
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.001561
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.002093
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.30-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.003368
+[*] Detection Result:V 0.72783610627951/0.6196478095633451 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.004176
+[*] Detection Result:P 0.2100665419660449/0.9412547516512023 8/3,1
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.005592
+[*] Detection Result:P 0.42799258759213393/0.8823157840365774 9/6,1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.005848
+[*] Detection Result:P 0.3379991701992205/0.75312426107697 10/7,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2019-17451
 [*] Detection for /binaries/target/binutils/binutils-2.32-o0-objdump,_bfd_dwarf2_slurp_debug_info,-1
-[*] /s; sim-cal:0.009691
+[*] /s; sim-cal:0.004918
 [*] Detection Result:C can't tell,-1
 [*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-objdump,_bfd_dwarf2_slurp_debug_info,1
-[*] /s; sim-cal:0.004353
+[*] /s; sim-cal:0.004991
 [*] Detection Result:C can't tell,1
 [*] Detection for /binaries/target/binutils/binutils-2.34-o0-objdump,_bfd_dwarf2_slurp_debug_info,1
-[*] /s; sim-cal:0.006443
+[*] /s; sim-cal:0.005901
 [*] Detection Result:C can't tell,1
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-objdump,_bfd_dwarf2_slurp_debug_info,1
-[*] /s; sim-cal:0.006243
+[*] /s; sim-cal:0.006513
 [*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-19724
+[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,display_rel_file,-1
+[*] /s; sim-cal:0.003541
+[*] Detection Result:V 0.6138104501944084/0.43406904357668363 9/9,-1
+[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,display_rel_file,-1
+[*] /s; sim-cal:0.003885
+[*] Detection Result:V 0.6138104501944084/0.4480195261128324 7/7,-1
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-nm,display_rel_file,-1
+[*] /s; sim-cal:0.004288
+[*] Detection Result:V 0.6138104501944084/0.2894736842105263 10/10,-1
+[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.002843
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.35-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.005012
+[*] Detection Result:P 0.48361709847511064/0.9453006003462394 4/1,1
+[*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-nm,display_rel_file,1
+[*] /s; sim-cal:0.004312
+[*] Detection Result:P 0.48361709847511064/0.9453006003462394 4/1,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-16590
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-readelf,get_num_dynamic_syms,-1
-[*] /s; sim-cal:0.026362
+[*] /s; sim-cal:0.008985
 [*] Detection Result:C can't tell,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.014319
+[*] /s; sim-cal:0.009837
 [*] Detection Result:C can't tell,1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.011112
+[*] /s; sim-cal:0.010929
 [*] Detection Result:C can't tell,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.010466
+[*] /s; sim-cal:0.013979
 [*] Detection Result:C can't tell,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-16591
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-readelf,get_num_dynamic_syms,-1
-[*] /s; sim-cal:0.014029
+[*] /s; sim-cal:0.009153
 [*] Detection Result:P 0.5/0.5520833333333334 54/53,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.009334
+[*] /s; sim-cal:0.013387
 [*] Detection Result:P 0.5/0.5520833333333334 54/53,1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.009922
+[*] /s; sim-cal:0.009821
 [*] Detection Result:P 0.5/0.5520833333333334 54/53,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-readelf,get_num_dynamic_syms,1
-[*] /s; sim-cal:0.009573
+[*] /s; sim-cal:0.0096
 [*] Detection Result:P 0.5/0.5520833333333334 54/53,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-16593
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.006939
+[*] /s; sim-cal:0.007918
 [*] Detection Result:V 0.8/0.6155701754385965 3/2,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.008015
+[*] /s; sim-cal:0.008699
 [*] Detection Result:V 0.8/0.6155701754385965 3/2,1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.008308
+[*] /s; sim-cal:0.008683
 [*] Detection Result:V 0.8/0.6155701754385965 5/4,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.007867
+[*] /s; sim-cal:0.008801
 [*] Detection Result:V 0.7/0.5905701754385966 5/4,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-16599
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-objdump,_bfd_elf_get_symbol_version_string,-1
-[*] /s; sim-cal:0.002383
+[*] /s; sim-cal:0.001771
 [*] Detection Result:P,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-objdump,_bfd_elf_get_symbol_version_string,1
-[*] /s; sim-cal:0.001662
+[*] /s; sim-cal:0.001598
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,_bfd_elf_get_symbol_version_string,1
-[*] /s; sim-cal:0.00554
+[*] /s; sim-cal:0.00199
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,_bfd_elf_get_symbol_version_string,1
-[*] /s; sim-cal:0.002415
+[*] /s; sim-cal:0.001609
 [*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2020-19724
-[*] Detection for /binaries/target/binutils/binutils-2.33.1-o0-nm,display_rel_file,-1
-[*] /s; sim-cal:0.003359
-[*] Detection Result:V 0.6138104501944084/0.43406904357668363 9/9,-1
-[*] Detection for /binaries/target/binutils/binutils-2.32-o0-nm,display_rel_file,-1
-[*] /s; sim-cal:0.003757
-[*] Detection Result:V 0.6138104501944084/0.4480195261128324 7/7,-1
-[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-nm,display_rel_file,-1
-[*] /s; sim-cal:0.004847
-[*] Detection Result:V 0.6138104501944084/0.2894736842105263 10/10,-1
-[*] Detection for /binaries/target/binutils/binutils-2.34-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.003208
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.35-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.004893
-[*] Detection Result:P 0.48361709847511064/0.9453006003462394 4/1,1
-[*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-nm,display_rel_file,1
-[*] /s; sim-cal:0.004366
-[*] Detection Result:P 0.48361709847511064/0.9453006003462394 4/1,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-35448
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-objdump,_bfd_elf_slurp_secondary_reloc_section,-1
-[*] /s; sim-cal:0.003239
+[*] /s; sim-cal:0.00238
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,_bfd_elf_slurp_secondary_reloc_section,1
-[*] /s; sim-cal:0.003606
+[*] /s; sim-cal:0.003016
 [*] Detection Result:V,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,_bfd_elf_slurp_secondary_reloc_section,1
-[*] /s; sim-cal:0.009345
+[*] /s; sim-cal:0.004027
 [*] Detection Result:P 0.5479082321187585/0.9045584045584045 11/9,1
 [*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,_bfd_elf_slurp_secondary_reloc_section,1
-[*] /s; sim-cal:0.004381
+[*] /s; sim-cal:0.004383
 [*] Detection Result:P 0.5479082321187585/0.9045584045584045 15/13,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2021-20294
 [*] Detection for /binaries/target/binutils/binutils-2.35.1-o0-readelf,print_dynamic_symbol,-1
-[*] /s; sim-cal:0.326784
+[*] /s; sim-cal:0.002787
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35-o0-readelf,print_dynamic_symbol,-1
-[*] /s; sim-cal:0.304063
+[*] /s; sim-cal:0.004036
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-readelf,print_dynamic_symbol,1
-[*] /s; sim-cal:0.299664
+[*] /s; sim-cal:0.002946
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-readelf,print_dynamic_symbol,1
-[*] /s; sim-cal:0.343153
+[*] /s; sim-cal:0.002868
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.37-o0-readelf,print_dynamic_symbol,1
-[*] /s; sim-cal:3.946884
+[*] /s; sim-cal:0.012346
 [*] Detection Result:P 0.587484156024298/0.8395834681507366 27/26,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2021-45078
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,stab_record_type,-1
+[*] /s; sim-cal:0.000601
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,stab_record_type,-1
+[*] /s; sim-cal:0.000608
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,stab_record_type,-1
+[*] /s; sim-cal:0.000467
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,stab_record_type,1
+[*] /s; sim-cal:0.000502
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,stab_record_type,1
+[*] /s; sim-cal:0.000523
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,stab_record_type,1
+target function: stab_record_type not found
 [*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,stab_xcoff_builtin_type,-1
-[*] /s; sim-cal:0.004103
+[*] /s; sim-cal:0.003384
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,stab_xcoff_builtin_type,-1
-[*] /s; sim-cal:0.003794
+[*] /s; sim-cal:0.005397
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,stab_xcoff_builtin_type,-1
-[*] /s; sim-cal:0.004788
+[*] /s; sim-cal:0.00607
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,stab_xcoff_builtin_type,1
-[*] /s; sim-cal:0.004255
+[*] /s; sim-cal:0.004543
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,stab_xcoff_builtin_type,1
-[*] /s; sim-cal:0.00376
+[*] /s; sim-cal:0.003662
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,stab_xcoff_builtin_type,1
 target function: stab_xcoff_builtin_type not found
 [*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,stab_find_type,-1
-[*] /s; sim-cal:0.000969
+[*] /s; sim-cal:0.001021
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.36.1-o0-objdump,stab_find_type,-1
-[*] /s; sim-cal:0.000897
+[*] /s; sim-cal:0.000902
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.35.2-o0-objdump,stab_find_type,-1
-[*] /s; sim-cal:0.00078
+[*] /s; sim-cal:0.000807
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,stab_find_type,1
-[*] /s; sim-cal:0.000701
+[*] /s; sim-cal:0.000664
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,stab_find_type,1
-[*] /s; sim-cal:0.001034
+[*] /s; sim-cal:0.0007
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,stab_find_type,1
 target function: stab_find_type not found
 ------------------------------------------
 [*] Detecting CVE: CVE-2022-38533
 [*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:89.575297
+[*] /s; sim-cal:87.70043
 [*] Detection Result:V 0.8812263648046943/0.405138987926649 2/115,-1
 [*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:90.179408
+[*] /s; sim-cal:87.8972
 [*] Detection Result:V 0.8812263648046943/0.405138987926649 2/115,-1
 [*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,rewrite_elf_program_header,-1
-[*] /s; sim-cal:89.912867
+[*] /s; sim-cal:87.866065
 [*] Detection Result:V 0.8812263648046943/0.405138987926649 3/116,-1
 [*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,rewrite_elf_program_header,1
 target function: rewrite_elf_program_header not found
 [*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,rewrite_elf_program_header,1
-[*] /s; sim-cal:1.332631
+[*] /s; sim-cal:1.29426
 [*] Detection Result:P 0.24982822508231156/0.6097790685808874 19/7,1
 [*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,rewrite_elf_program_header,1
-[*] /s; sim-cal:1.278208
+[*] /s; sim-cal:1.250594
 [*] Detection Result:P 0.24965013598835975/0.6054851642869832 19/7,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,segment_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,segment_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,segment_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,segment_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,segment_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,segment_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,is_note,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,is_note,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,is_note,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,is_note,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,is_note,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,is_note,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,section_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,section_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,section_size,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,section_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,section_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,section_size,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,segment_end,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,segment_end,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,segment_end,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,segment_end,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,segment_end,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,segment_end,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,is_contained_by,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,is_contained_by,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,is_contained_by,-1
-[*] Detection Result:Sig file not found,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,is_contained_by,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,is_contained_by,1
-[*] Detection Result:Sig file not found,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,is_contained_by,1
-[*] Detection Result:Sig file not found,1
-------------------------------------------
-[*] Detecting CVE: CVE-2022-48063
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.003306
-[*] Detection Result:V 1.0/0.7771503896443556 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.003316
-[*] Detection Result:V 1.0/0.7771503896443556 2/3,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,load_specific_debug_section,-1
-[*] /s; sim-cal:0.00255
-[*] Detection Result:V 0.6121600621600621/0.47948717948717945 4/5,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,load_specific_debug_section,1
-target function: load_specific_debug_section not found
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,load_specific_debug_section,1
-[*] /s; sim-cal:0.004673
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,load_specific_debug_section,1
-[*] /s; sim-cal:0.002612
-[*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2022-48064
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,find_debug_info,-1
-[*] /s; sim-cal:0.001144
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,find_debug_info,-1
-[*] /s; sim-cal:0.001279
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,find_debug_info,-1
-[*] /s; sim-cal:0.001241
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,find_debug_info,1
-target function: find_debug_info not found
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,find_debug_info,1
-[*] /s; sim-cal:0.00281
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,find_debug_info,1
-[*] /s; sim-cal:0.001476
-[*] Detection Result:P,1
-------------------------------------------
-[*] Detecting CVE: CVE-2022-48065
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,find_abstract_instance,-1
-[*] /s; sim-cal:0.014109
-[*] Detection Result:V 0.6638242429367087/0.4344821916589158 21/27,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,find_abstract_instance,-1
-[*] /s; sim-cal:0.014461
-[*] Detection Result:V 0.6638242429367087/0.4344821916589158 21/27,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,find_abstract_instance,-1
-[*] /s; sim-cal:0.014715
-[*] Detection Result:V 0.5766069918337535/0.34513903481575886 23/29,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,find_abstract_instance,1
-target function: find_abstract_instance not found
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,find_abstract_instance,1
-[*] /s; sim-cal:0.006462
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,find_abstract_instance,1
-[*] /s; sim-cal:0.006404
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.024089
-[*] Detection Result:V 0.6468966533982013/0.6344472291840713 19/21,-1
-[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.030455
-[*] Detection Result:V 0.5681711038922526/0.566303690260133 26/28,-1
-[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,scan_unit_for_symbols,-1
-[*] /s; sim-cal:0.025842
-[*] Detection Result:V 0.47293300865415727/0.47106559502203776 29/31,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,scan_unit_for_symbols,1
-target function: scan_unit_for_symbols not found
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.015126
-[*] Detection Result:V 0.7294520000982849/0.717002575884155 6/4,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,scan_unit_for_symbols,1
-[*] /s; sim-cal:0.018264
-[*] Detection Result:V 0.7090207135485773/0.6965712893344472 6/4,1
-------------------------------------------
-[*] Detecting CVE: CVE-2023-1579
-[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,read_indexed_address,-1
-[*] /s; sim-cal:0.002391
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.001199
 [*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,read_indexed_address,1
-target function: read_indexed_address not found
-[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,read_indexed_address,1
-[*] /s; sim-cal:0.002539
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.001552
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.001126
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,1
+target function: _bfd_elf_symbol_from_bfd_symbol not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,1
+[*] /s; sim-cal:0.002223
 [*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,read_indexed_address,1
-[*] /s; sim-cal:0.002193
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,_bfd_elf_symbol_from_bfd_symbol,1
+[*] /s; sim-cal:0.001403
 [*] Detection Result:N VP no diff,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2023-25586
 [*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,bfd_init_section_decompress_status,-1
 target function: bfd_init_section_decompress_status not found
 [*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,bfd_init_section_decompress_status,1
-[*] /s; sim-cal:0.004405
+[*] /s; sim-cal:0.003897
 [*] Detection Result:P 0.44/0.9615384615384616 4/3,1
 [*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,bfd_init_section_decompress_status,1
-[*] /s; sim-cal:0.002916
+[*] /s; sim-cal:0.002024
 [*] Detection Result:P 0.44/0.9615384615384616 4/3,1
 [*] Detection for /binaries/target/binutils/binutils-2.43-o0-objdump,bfd_init_section_decompress_status,1
-[*] /s; sim-cal:0.001987
+[*] /s; sim-cal:0.002635
 [*] Detection Result:P 0.44/0.9615384615384616 4/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48063
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.003371
+[*] Detection Result:V 1.0/0.7771503896443556 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.002544
+[*] Detection Result:V 1.0/0.7771503896443556 2/3,-1
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.002585
+[*] Detection Result:V 0.6121600621600621/0.47948717948717945 4/5,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,load_specific_debug_section,1
+target function: load_specific_debug_section not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.004636
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.003336
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48064
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.00118
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.001593
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.001092
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,find_debug_info,1
+target function: find_debug_info not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,find_debug_info,1
+[*] /s; sim-cal:0.002967
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,find_debug_info,1
+[*] /s; sim-cal:0.002023
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48065
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.013894
+[*] Detection Result:V 0.6468966533982013/0.6344472291840713 19/21,-1
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.028414
+[*] Detection Result:V 0.5681711038922526/0.566303690260133 26/28,-1
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.097574
+[*] Detection Result:V 0.47293300865415727/0.47106559502203776 29/31,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.01424
+[*] Detection Result:V 0.7294520000982849/0.717002575884155 6/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.013633
+[*] Detection Result:V 0.7090207135485773/0.6965712893344472 6/4,1
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.014024
+[*] Detection Result:V 0.6638242429367087/0.4344821916589158 21/27,-1
+[*] Detection for /binaries/target/binutils/binutils-2.38-o0-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.014591
+[*] Detection Result:V 0.6638242429367087/0.4344821916589158 21/27,-1
+[*] Detection for /binaries/target/binutils/binutils-2.37-o0-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.01683
+[*] Detection Result:V 0.5766069918337535/0.34513903481575886 23/29,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,find_abstract_instance,1
+target function: find_abstract_instance not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,find_abstract_instance,1
+[*] /s; sim-cal:0.006848
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,find_abstract_instance,1
+[*] /s; sim-cal:0.005128
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-1579
+[*] Detection for /binaries/target/binutils/binutils-2.39-o0-objdump,read_indexed_address,-1
+[*] /s; sim-cal:0.00142
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/binutils/binutils-2.40-o0-objdump,read_indexed_address,1
+target function: read_indexed_address not found
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,read_indexed_address,1
+[*] /s; sim-cal:0.002112
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,read_indexed_address,1
+[*] /s; sim-cal:0.001527
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-17358
+[*] Detection for /binaries/target/binutils/binutils-2.31.1-o0-objdump,_bfd_stab_section_find_nearest_line,-1
+[*] /s; sim-cal:0.51905
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/binutils/binutils-2.41-o0-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:0.659727
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.42-o0-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:0.679098
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/binutils/binutils-2.43-o0-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:0.692761
+[*] Detection Result:P,1

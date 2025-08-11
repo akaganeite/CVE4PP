@@ -41,6 +41,9 @@ def run_cmd(cmd, cwd=None, env=None, shell=False, log_file=None):
         return False
 
 def compile_and_copy_curl(git_checkout_ref, output_binary_name, destination_dir, compiler, opt_level):
+    if compiler == "clang":
+        TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target_clang/curl"
+        destination_dir = TARGET_DIR
     run_cmd(["make","clean"],cwd=REPO_DIR)
     run_cmd(["git","stash","--include-untracked"],cwd=REPO_DIR)
     sanitized_ref = git_checkout_ref.replace("/", "_")

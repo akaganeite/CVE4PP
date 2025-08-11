@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import time
 PROJECT="libxml2"
-
+MODE = "append"
 def extract_git_hash(url):
     """从URL中提取h=后的全部字符（不依赖参数解析）"""
     # 使用正则表达式匹配 h= 后的非分隔符内容
@@ -147,7 +147,7 @@ def process_cve_data(json_path, target_cves):
 if __name__ == "__main__":
     # 配置参数
     JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
-    with open(f"../../testset/{PROJECT}/chosen.txt", "r", encoding="utf-8") as f:
+    with open(f"../../testset/{PROJECT}/{MODE}.txt", "r", encoding="utf-8") as f:
         cve_data = f.readlines()
     TARGET_CVES =[]
     for key in cve_data:

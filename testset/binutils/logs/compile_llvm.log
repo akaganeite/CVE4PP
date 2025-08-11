@@ -1,0 +1,984 @@
+开始LLVM编译流程
+处理: CVE-2014-8484, 符号: srec_scan
+[2025-08-09 17:17:08] CVE: CVE-2014-8484 | Commit: bd25671c6f20 | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit bd25671c6f20
+处理: CVE-2014-8485, 符号: setup_group
+[2025-08-09 17:17:08] CVE: CVE-2014-8485 | Commit: 493a33860c71 | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit 493a33860c71
+处理: CVE-2014-8738, 符号: _bfd_slurp_extended_name_table
+[2025-08-09 17:17:08] CVE: CVE-2014-8738 | Commit: bb0d867169d7 | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit bb0d867169d7
+处理: CVE-2017-7299, 符号: bfd_elf_final_link
+[2025-08-09 17:17:08] CVE: CVE-2017-7299 | Commit: d7f399a8de4c | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit d7f399a8de4c
+处理: CVE-2017-7303, 符号: find_link
+[2025-08-09 17:17:08] CVE: CVE-2017-7303 | Commit: a55c9876bb11 | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit a55c9876bb11
+处理: CVE-2017-7304, 符号: copy_special_section_fields
+[2025-08-09 17:17:08] CVE: CVE-2017-7304 | Commit: 4f3ca05b487e | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit 4f3ca05b487e
+处理: CVE-2017-6965, 符号: process_syminfo,apply_relocations,target_specific_reloc_handling
+[2025-08-09 17:17:08] CVE: CVE-2017-6965 | Commit: 03f7786e2f44 | Type: CHECKOUT_ERROR | Binary: patch | Details: 无法检出补丁commit 03f7786e2f44
+处理: CVE-2017-6966, 符号: process_syminfo,apply_relocations,target_specific_reloc_handling
+处理 patch 版本 (f84ce13b6708)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_syminfo,apply_relocations,target_specific_reloc_handling
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-f84ce13b6708/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-6966_patch.bc
+处理 vuln 版本 (5cf30ebf64d3)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_syminfo,apply_relocations,target_specific_reloc_handling
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-5cf30ebf64d3/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-6966_vuln.bc
+处理: CVE-2017-7209, 符号: dump_section_as_bytes
+处理 patch 版本 (f055032e4e92)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: dump_section_as_bytes
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-f055032e4e92/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-7209_patch.bc
+处理 vuln 版本 (ebdf1ebfa551)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: dump_section_as_bytes
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-ebdf1ebfa551/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-7209_vuln.bc
+处理: CVE-2017-6969, 符号: process_syminfo,target_specific_reloc_handling
+处理 patch 版本 (b32e566ba6ee)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_syminfo,target_specific_reloc_handling
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-b32e566ba6ee/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-6969_patch.bc
+处理 vuln 版本 (7e0de605cbac)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_syminfo,target_specific_reloc_handling
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-7e0de605cbac/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-6969_vuln.bc
+处理: CVE-2017-9038, 符号: get_unwind_section_word
+处理 patch 版本 (f32ba72991d2)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: get_unwind_section_word
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-f32ba72991d2/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9038_patch.bc
+处理 vuln 版本 (12bfb8fec326)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: get_unwind_section_word
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-12bfb8fec326/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9038_vuln.bc
+处理: CVE-2017-9039, 符号: get_program_headers,process_mips_specific
+处理 patch 版本 (82156ab704b0)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: get_program_headers,process_mips_specific
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-82156ab704b0/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9039_patch.bc
+处理 vuln 版本 (75ec1fdbb797)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: get_program_headers,process_mips_specific
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-75ec1fdbb797/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9039_vuln.bc
+处理: CVE-2017-9040, 符号: print_symbol_for_build_attribute,process_dynamic_section,print_gnu_build_attribute_name,process_mips_specific,process_arch_specific
+处理 patch 版本 (7296a62a2a23)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: print_symbol_for_build_attribute,process_dynamic_section,print_gnu_build_attribute_name,process_mips_specific,process_arch_specific
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-7296a62a2a23/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9040_patch.bc
+处理 vuln 版本 (1d15e434f43b)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: print_symbol_for_build_attribute,process_dynamic_section,print_gnu_build_attribute_name,process_mips_specific,process_arch_specific
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-1d15e434f43b/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9040_vuln.bc
+处理: CVE-2017-9043, 符号: print_gnu_build_attribute_name
+处理 patch 版本 (ddef72cdc10d)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9043_patch.bc
+所有符号检查通过: print_gnu_build_attribute_name
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9043_patch.bc
+处理 vuln 版本 (792f174f8af4)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9043_vuln.bc
+所有符号检查通过: print_gnu_build_attribute_name
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9043_vuln.bc
+处理: CVE-2017-8392, 符号: _bfd_dwarf2_find_nearest_line
+处理 patch 版本 (97e83a100aa8)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_dwarf2_find_nearest_line
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-97e83a100aa8/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8392_patch.bc
+处理 vuln 版本 (f082820db966)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_dwarf2_find_nearest_line
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-f082820db966/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8392_vuln.bc
+处理: CVE-2017-8394, 符号: _bfd_elf_get_synthetic_symtab
+处理 patch 版本 (7eacd66b086c)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_elf_get_synthetic_symtab
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-7eacd66b086c/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8394_patch.bc
+处理 vuln 版本 (bce964aa6c77)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_elf_get_synthetic_symtab
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-bce964aa6c77/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8394_vuln.bc
+处理: CVE-2017-8395, 符号: bfd_init_section_compress_status
+处理 patch 版本 (e63d123268f2)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_init_section_compress_status
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-e63d123268f2/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8395_patch.bc
+处理 vuln 版本 (c185f580b2b3)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_init_section_compress_status
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-c185f580b2b3/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8395_vuln.bc
+处理: CVE-2017-8397, 符号: bfd_perform_relocation
+处理 patch 版本 (04b31182bf3f)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_perform_relocation
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-04b31182bf3f/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8397_patch.bc
+处理 vuln 版本 (d21f3ddb0d5f)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_perform_relocation
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d21f3ddb0d5f/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8397_vuln.bc
+处理: CVE-2017-8398, 符号: process_extended_line_op,fetch_indexed_string
+处理 patch 版本 (d949ff5607b9)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_extended_line_op,fetch_indexed_string
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d949ff5607b9/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8398_patch.bc
+处理 vuln 版本 (339053c29aba)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_extended_line_op,fetch_indexed_string
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-339053c29aba/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8398_vuln.bc
+处理: CVE-2017-8396, 符号: _bfd_final_link_relocate,bfd_check_overflow,bfd_perform_relocation,bfd_install_relocation
+处理 patch 版本 (a941291cab71)
+=== start configure ===
+找到.bc文件，检查符号...
+Error: 符号 'bfd_install_relocation' 未在BC文件中找到
+[2025-08-09 17:31:00] CVE: CVE-2017-8396 | Commit: a941291cab71 | Type: SYMBOL_CHECK_FAILED | Binary: patch | Details: BC文件 objdump.0.5.precodegen.bc 不包含符号: _bfd_final_link_relocate,bfd_check_overflow,bfd_perform_relocation,bfd_install_relocation
+编译补丁版本失败: CVE-2017-8396
+处理 vuln 版本 (45ce1b47e449)
+=== start configure ===
+找到.bc文件，检查符号...
+Error: 符号 'bfd_install_relocation' 未在BC文件中找到
+[2025-08-09 17:31:41] CVE: CVE-2017-8396 | Commit: 45ce1b47e449 | Type: SYMBOL_CHECK_FAILED | Binary: vuln | Details: BC文件 objdump.0.5.precodegen.bc 不包含符号: _bfd_final_link_relocate,bfd_check_overflow,bfd_perform_relocation,bfd_install_relocation
+编译漏洞版本失败: CVE-2017-8396
+处理: CVE-2017-8421, 符号: dump_relocs_in_section
+处理 patch 版本 (39ff1b79f687)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: dump_relocs_in_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-39ff1b79f687/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8421_patch.bc
+处理 vuln 版本 (d050f7d7f474)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: dump_relocs_in_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d050f7d7f474/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-8421_vuln.bc
+处理: CVE-2017-9954, 符号: pass_over,getvalue
+处理 patch 版本 (04e15b4a9462)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: pass_over,getvalue
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-04e15b4a9462/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9954_patch.bc
+处理 vuln 版本 (cfd14a500e04)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: pass_over,getvalue
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-cfd14a500e04/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9954_vuln.bc
+处理: CVE-2017-9955, 符号: _bfd_generic_get_section_contents,bfd_get_full_section_contents
+处理 patch 版本 (0630b49c470c)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_generic_get_section_contents,bfd_get_full_section_contents
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0630b49c470c/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9955_patch.bc
+处理 vuln 版本 (515a4464176e)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_generic_get_section_contents,bfd_get_full_section_contents
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-515a4464176e/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-9955_vuln.bc
+处理: CVE-2017-13710, 符号: setup_group
+处理 patch 版本 (0c54f6929520)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13710_patch.bc
+所有符号检查通过: setup_group
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13710_patch.bc
+处理 vuln 版本 (d7f00f429aa5)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13710_vuln.bc
+所有符号检查通过: setup_group
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13710_vuln.bc
+处理: CVE-2017-12967, 符号: getsym
+处理 patch 版本 (de25939739ff)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: getsym
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-de25939739ff/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12967_patch.bc
+处理 vuln 版本 (dd66b39984d2)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: getsym
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-dd66b39984d2/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12967_vuln.bc
+处理: CVE-2017-13757, 符号: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+处理 patch 版本 (90efb6422939)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13757_patch.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13757_patch.bc
+处理 vuln 版本 (cefdd1cd64f3)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13757_vuln.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-13757_vuln.bc
+处理: CVE-2017-14129, 符号: read_section
+处理 patch 版本 (e4f272300385)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14129_patch.bc
+所有符号检查通过: read_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14129_patch.bc
+处理 vuln 版本 (b55f3386e45d)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14129_vuln.bc
+所有符号检查通过: read_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14129_vuln.bc
+处理: CVE-2017-12799, 符号: elf_read_notes
+处理 patch 版本 (30326b094b8f)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elf_read_notes
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-30326b094b8f/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12799_patch.bc
+处理 vuln 版本 (aceaeff8140a)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elf_read_notes
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-aceaeff8140a/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12799_vuln.bc
+处理: CVE-2017-14128, 符号: decode_line_info
+处理 patch 版本 (7e8b60085eb3)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14128_patch.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14128_patch.bc
+处理 vuln 版本 (f8ad2513754f)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14128_vuln.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14128_vuln.bc
+处理: CVE-2017-14130, 符号: _bfd_elf_parse_attributes
+处理 patch 版本 (2a143b99fc4a)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14130_patch.bc
+所有符号检查通过: _bfd_elf_parse_attributes
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14130_patch.bc
+处理 vuln 版本 (5c811d30d12b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14130_vuln.bc
+所有符号检查通过: _bfd_elf_parse_attributes
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14130_vuln.bc
+处理: CVE-2017-12448, 符号: bfd_generic_archive_p
+处理 patch 版本 (a541116faa57)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_generic_archive_p
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-a541116faa57/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12448_patch.bc
+处理 vuln 版本 (7e693dd5cede)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_generic_archive_p
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-7e693dd5cede/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-12448_vuln.bc
+处理: CVE-2017-14529, 符号: pe_print_idata
+处理 patch 版本 (4d465c689a8f)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14529_patch.bc
+所有符号检查通过: pe_print_idata
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14529_patch.bc
+处理 vuln 版本 (255300f5a960)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14529_vuln.bc
+所有符号检查通过: pe_print_idata
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14529_vuln.bc
+处理: CVE-2017-14745, 符号: _bfd_x86_elf_get_synthetic_symtab
+处理 patch 版本 (94670f6cf11f)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_x86_elf_get_synthetic_symtab
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-94670f6cf11f/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14745_patch.bc
+处理 vuln 版本 (0615127c5872)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_x86_elf_get_synthetic_symtab
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0615127c5872/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14745_vuln.bc
+处理: CVE-2017-14729, 符号: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+处理 patch 版本 (56933f9e3e90)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14729_patch.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14729_patch.bc
+处理 vuln 版本 (e70c19e3a4c2)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14729_vuln.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14729_vuln.bc
+处理: CVE-2017-14974, 符号: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+处理 patch 版本 (e70c19e3a4c2)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14974_patch.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14974_patch.bc
+处理 vuln 版本 (ea2fdc5952e2)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14974_vuln.bc
+所有符号检查通过: elf_x86_64_get_synthetic_symtab,elf_i386_get_synthetic_symtab
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14974_vuln.bc
+处理: CVE-2017-14930, 符号: decode_line_info
+处理 patch 版本 (a26a013f22a1)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: decode_line_info
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-a26a013f22a1/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14930_patch.bc
+处理 vuln 版本 (52a93b95ec07)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: decode_line_info
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-52a93b95ec07/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14930_vuln.bc
+处理: CVE-2017-14938, 符号: _bfd_elf_slurp_version_tables
+处理 patch 版本 (bd61e135492e)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14938_patch.bc
+所有符号检查通过: _bfd_elf_slurp_version_tables
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14938_patch.bc
+处理 vuln 版本 (8d296e2d4d8e)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14938_vuln.bc
+所有符号检查通过: _bfd_elf_slurp_version_tables
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14938_vuln.bc
+处理: CVE-2017-14939, 符号: decode_line_info
+处理 patch 版本 (515f23e63c00)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14939_patch.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14939_patch.bc
+处理 vuln 版本 (0d76029f9218)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14939_vuln.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14939_vuln.bc
+处理: CVE-2017-14940, 符号: scan_unit_for_symbols
+处理 patch 版本 (0d76029f9218)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: scan_unit_for_symbols
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0d76029f9218/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14940_patch.bc
+处理 vuln 版本 (bd61e135492e)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: scan_unit_for_symbols
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-bd61e135492e/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14940_vuln.bc
+处理: CVE-2017-15021, 符号: bfd_get_debug_link_info_1
+处理 patch 版本 (52b36c51e5bf)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15021_patch.bc
+所有符号检查通过: bfd_get_debug_link_info_1
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15021_patch.bc
+处理 vuln 版本 (a26a013f22a1)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15021_vuln.bc
+所有符号检查通过: bfd_get_debug_link_info_1
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15021_vuln.bc
+处理: CVE-2017-15024, 符号: scan_unit_for_symbols,find_abstract_instance_name,lookup_symbol_in_variable_table
+处理 patch 版本 (52a93b95ec07)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15024_patch.bc
+所有符号检查通过: scan_unit_for_symbols,find_abstract_instance_name,lookup_symbol_in_variable_table
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15024_patch.bc
+处理 vuln 版本 (d8010d3e75ec)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15024_vuln.bc
+所有符号检查通过: scan_unit_for_symbols,find_abstract_instance_name,lookup_symbol_in_variable_table
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15024_vuln.bc
+处理: CVE-2017-15025, 符号: decode_line_info
+处理 patch 版本 (d8010d3e75ec)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: decode_line_info
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d8010d3e75ec/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15025_patch.bc
+处理 vuln 版本 (515f23e63c00)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: decode_line_info
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-515f23e63c00/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15025_vuln.bc
+处理: CVE-2017-15020, 符号: parse_line_table,parse_die
+处理 patch 版本 (1da5c9a485f3)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15020_patch.bc
+所有符号检查通过: parse_line_table,parse_die
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15020_patch.bc
+处理 vuln 版本 (11855d8a1f11)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15020_vuln.bc
+所有符号检查通过: parse_line_table,parse_die
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15020_vuln.bc
+处理: CVE-2017-15022, 符号: scan_unit_for_symbols,parse_comp_unit
+处理 patch 版本 (11855d8a1f11)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: scan_unit_for_symbols,parse_comp_unit
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-11855d8a1f11/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15022_patch.bc
+处理 vuln 版本 (c361faae8d96)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15022_vuln.bc
+所有符号检查通过: scan_unit_for_symbols,parse_comp_unit
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15022_vuln.bc
+处理: CVE-2017-15023, 符号: read_formatted_entries
+处理 patch 版本 (c361faae8d96)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: read_formatted_entries
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-c361faae8d96/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15023_patch.bc
+处理 vuln 版本 (57a024f4650d)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15023_vuln.bc
+所有符号检查通过: read_formatted_entries
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15023_vuln.bc
+处理: CVE-2017-14932, 符号: decode_line_info
+处理 patch 版本 (e338894dc2e6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14932_patch.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14932_patch.bc
+处理 vuln 版本 (898f57a89f3f)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14932_vuln.bc
+所有符号检查通过: decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14932_vuln.bc
+处理: CVE-2017-14933, 符号: read_formatted_entries
+处理 patch 版本 (33e0a9a056bd)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14933_patch.bc
+所有符号检查通过: read_formatted_entries
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14933_patch.bc
+处理 vuln 版本 (30d0157a2ad6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14933_vuln.bc
+所有符号检查通过: read_formatted_entries
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14933_vuln.bc
+处理: CVE-2017-15938, 符号: find_abstract_instance_name,parse_comp_unit
+处理 patch 版本 (1b86808a8607)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15938_patch.bc
+所有符号检查通过: find_abstract_instance_name,parse_comp_unit
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15938_patch.bc
+处理 vuln 版本 (5c1c468d0edd)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15938_vuln.bc
+所有符号检查通过: find_abstract_instance_name,parse_comp_unit
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15938_vuln.bc
+处理: CVE-2017-15939, 符号: read_formatted_entries,concat_filename,decode_line_info
+处理 patch 版本 (a54018b72d75)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15939_patch.bc
+所有符号检查通过: read_formatted_entries,concat_filename,decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15939_patch.bc
+处理 vuln 版本 (e338894dc2e6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15939_vuln.bc
+所有符号检查通过: read_formatted_entries,concat_filename,decode_line_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15939_vuln.bc
+处理: CVE-2017-14934, 符号: process_debug_info
+处理 patch 版本 (19485196044b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14934_patch.bc
+所有符号检查通过: process_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14934_patch.bc
+处理 vuln 版本 (6bd6a03d6975)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14934_vuln.bc
+所有符号检查通过: process_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-14934_vuln.bc
+处理: CVE-2017-15225, 符号: _bfd_dwarf2_cleanup_debug_info
+处理 patch 版本 (b55ec8b676ed)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15225_patch.bc
+所有符号检查通过: _bfd_dwarf2_cleanup_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15225_patch.bc
+处理 vuln 版本 (a72f95f7760b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15225_vuln.bc
+所有符号检查通过: _bfd_dwarf2_cleanup_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15225_vuln.bc
+处理: CVE-2017-16829, 符号: _bfd_elf_parse_gnu_properties
+处理 patch 版本 (cf54ebff3b73)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16829_patch.bc
+所有符号检查通过: _bfd_elf_parse_gnu_properties
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16829_patch.bc
+处理 vuln 版本 (7b7009999ab8)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16829_vuln.bc
+所有符号检查通过: _bfd_elf_parse_gnu_properties
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16829_vuln.bc
+处理: CVE-2017-15996, 符号: get_archive_member_name,process_archive_index_and_symbols,setup_archive
+处理 patch 版本 (d91f0b20e561)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15996_patch.bc
+Error: 符号 'get_archive_member_name' 未在BC文件中找到
+目标二进制符号检查失败，重新编译
+=== start configure ===
+找到.bc文件，检查符号...
+Error: 符号 'get_archive_member_name' 未在BC文件中找到
+[2025-08-09 17:50:56] CVE: CVE-2017-15996 | Commit: d91f0b20e561 | Type: SYMBOL_CHECK_FAILED | Binary: patch | Details: BC文件 objdump.0.5.precodegen.bc 不包含符号: get_archive_member_name,process_archive_index_and_symbols,setup_archive
+编译补丁版本失败: CVE-2017-15996
+处理 vuln 版本 (c0e331c794d6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-15996_vuln.bc
+Error: 符号 'get_archive_member_name' 未在BC文件中找到
+目标二进制符号检查失败，重新编译
+=== start configure ===
+找到.bc文件，检查符号...
+Error: 符号 'get_archive_member_name' 未在BC文件中找到
+[2025-08-09 17:51:24] CVE: CVE-2017-15996 | Commit: c0e331c794d6 | Type: SYMBOL_CHECK_FAILED | Binary: vuln | Details: BC文件 objdump.0.5.precodegen.bc 不包含符号: get_archive_member_name,process_archive_index_and_symbols,setup_archive
+编译漏洞版本失败: CVE-2017-15996
+处理: CVE-2017-16830, 符号: print_gnu_property_note
+处理 patch 版本 (6ab2c4ed51f9)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16830_patch.bc
+所有符号检查通过: print_gnu_property_note
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16830_patch.bc
+处理 vuln 版本 (f26ae15b471a)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16830_vuln.bc
+所有符号检查通过: print_gnu_property_note
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16830_vuln.bc
+处理: CVE-2017-16828, 符号: display_debug_frames,read_cie,frame_display_row
+处理 patch 版本 (bf59c5d5f4f5)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16828_patch.bc
+所有符号检查通过: display_debug_frames,read_cie,frame_display_row
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16828_patch.bc
+处理 vuln 版本 (3334eba7f4ae)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16828_vuln.bc
+所有符号检查通过: display_debug_frames,read_cie,frame_display_row
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16828_vuln.bc
+处理: CVE-2017-16831, 符号: coff_get_normalized_symtab,_bfd_coff_get_external_symbols
+处理 patch 版本 (6cee897971d4)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16831_patch.bc
+所有符号检查通过: coff_get_normalized_symtab,_bfd_coff_get_external_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16831_patch.bc
+处理 vuln 版本 (8e68731c8a4a)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16831_vuln.bc
+所有符号检查通过: coff_get_normalized_symtab,_bfd_coff_get_external_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-16831_vuln.bc
+处理: CVE-2017-17080, 符号: elfcore_grok_nto_status,elfcore_grok_freebsd_psinfo,elfcore_grok_netbsd_note,elfcore_netbsd_get_lwpid
+处理 patch 版本 (80a043787304)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elfcore_grok_nto_status,elfcore_grok_freebsd_psinfo,elfcore_grok_netbsd_note,elfcore_netbsd_get_lwpid
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-80a043787304/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17080_patch.bc
+处理 vuln 版本 (d8ae99a7b08e)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elfcore_grok_nto_status,elfcore_grok_freebsd_psinfo,elfcore_grok_netbsd_note,elfcore_netbsd_get_lwpid
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d8ae99a7b08e/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17080_vuln.bc
+处理: CVE-2017-17124, 符号: _bfd_coff_read_string_table
+处理 patch 版本 (b0029dce6867)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17124_patch.bc
+所有符号检查通过: _bfd_coff_read_string_table
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17124_patch.bc
+处理 vuln 版本 (ff174d3ffad1)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17124_vuln.bc
+所有符号检查通过: _bfd_coff_read_string_table
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17124_vuln.bc
+处理: CVE-2017-17122, 符号: dump_relocs_in_section
+处理 patch 版本 (d785b7d4b877)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17122_patch.bc
+所有符号检查通过: dump_relocs_in_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17122_patch.bc
+处理 vuln 版本 (08f650e6b657)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17122_vuln.bc
+所有符号检查通过: dump_relocs_in_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17122_vuln.bc
+处理: CVE-2017-17126, 符号: load_debug_section
+处理 patch 版本 (f425ec6600b6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17126_patch.bc
+所有符号检查通过: load_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17126_patch.bc
+处理 vuln 版本 (e8020e54f4b9)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17126_vuln.bc
+所有符号检查通过: load_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2017-17126_vuln.bc
+处理: CVE-2018-7208, 符号: coff_pointerize_aux
+处理 patch 版本 (eb77f6a46217)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: coff_pointerize_aux
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-eb77f6a46217/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7208_patch.bc
+处理 vuln 版本 (0d5e2f6abee3)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: coff_pointerize_aux
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0d5e2f6abee3/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7208_vuln.bc
+处理: CVE-2018-6543, 符号: load_specific_debug_section
+处理 patch 版本 (f2023ce7e8d7)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: load_specific_debug_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-f2023ce7e8d7/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6543_patch.bc
+处理 vuln 版本 (35f48e217ab6)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: load_specific_debug_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-35f48e217ab6/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6543_vuln.bc
+处理: CVE-2018-6759, 符号: bfd_get_alt_debug_link_info,bfd_get_debug_link_info_1
+处理 patch 版本 (64e234d417d5)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_get_alt_debug_link_info,bfd_get_debug_link_info_1
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-64e234d417d5/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6759_patch.bc
+处理 vuln 版本 (422f3d3d6d57)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: bfd_get_alt_debug_link_info,bfd_get_debug_link_info_1
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-422f3d3d6d57/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6759_vuln.bc
+处理: CVE-2018-6872, 符号: elf_parse_notes
+处理 patch 版本 (ef135d4314fd)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6872_patch.bc
+所有符号检查通过: elf_parse_notes
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6872_patch.bc
+处理 vuln 版本 (a9479dc051ab)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6872_vuln.bc
+所有符号检查通过: elf_parse_notes
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-6872_vuln.bc
+处理: CVE-2018-7570, 符号: assign_file_positions_for_non_load_sections
+处理 patch 版本 (01f7e10cf2dc)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7570_patch.bc
+所有符号检查通过: assign_file_positions_for_non_load_sections
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7570_patch.bc
+处理 vuln 版本 (340d33e565ee)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7570_vuln.bc
+所有符号检查通过: assign_file_positions_for_non_load_sections
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7570_vuln.bc
+处理: CVE-2018-7568, 符号: parse_die
+处理 patch 版本 (eef104664efb)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: parse_die
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-eef104664efb/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7568_patch.bc
+处理 vuln 版本 (0d329c0a83a2)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: parse_die
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0d329c0a83a2/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7568_vuln.bc
+处理: CVE-2018-7569, 符号: read_8_bytes,read_attribute_value
+处理 patch 版本 (12c963421d04)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: read_8_bytes,read_attribute_value
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-12c963421d04/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7569_patch.bc
+处理 vuln 版本 (116acb2c268c)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: read_8_bytes,read_attribute_value
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-116acb2c268c/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7569_vuln.bc
+处理: CVE-2018-7643, 符号: read_uleb128,display_debug_ranges,display_debug_ranges_list
+处理 patch 版本 (d11ae95ea340)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: read_uleb128,display_debug_ranges,display_debug_ranges_list
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-d11ae95ea340/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7643_patch.bc
+处理 vuln 版本 (0cb7c7b0bb79)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: read_uleb128,display_debug_ranges,display_debug_ranges_list
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0cb7c7b0bb79/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-7643_vuln.bc
+处理: CVE-2018-10372, 符号: process_cu_tu_index
+处理 patch 版本 (6aea08d9f3e3)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_cu_tu_index
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-6aea08d9f3e3/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-10372_patch.bc
+处理 vuln 版本 (c48935d75f72)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: process_cu_tu_index
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-c48935d75f72/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-10372_vuln.bc
+处理: CVE-2018-10373, 符号: concat_filename
+处理 patch 版本 (6327533b1fd2)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: concat_filename
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-6327533b1fd2/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-10373_patch.bc
+处理 vuln 版本 (e9301e762ab6)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: concat_filename
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-e9301e762ab6/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-10373_vuln.bc
+处理: CVE-2018-8945, 符号: _bfd_elf_parse_attributes,bfd_elf_get_str_section
+处理 patch 版本 (95a6d2356616)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_elf_parse_attributes,bfd_elf_get_str_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-95a6d2356616/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-8945_patch.bc
+处理 vuln 版本 (a87a64780fde)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_elf_parse_attributes,bfd_elf_get_str_section
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-a87a64780fde/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-8945_vuln.bc
+处理: CVE-2018-17360, 符号: pe_print_edata
+处理 patch 版本 (cf93e9c2cf8f)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: pe_print_edata
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-cf93e9c2cf8f/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-17360_patch.bc
+处理 vuln 版本 (4206c05ea154)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: pe_print_edata
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-4206c05ea154/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-17360_vuln.bc
+处理: CVE-2018-18605, 符号: _bfd_add_merge_section
+处理 patch 版本 (ab419ddbb2cd)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18605_patch.bc
+所有符号检查通过: _bfd_add_merge_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18605_patch.bc
+处理 vuln 版本 (8e3152af14a9)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18605_vuln.bc
+所有符号检查通过: _bfd_add_merge_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18605_vuln.bc
+处理: CVE-2018-18606, 符号: _bfd_add_merge_section
+处理 patch 版本 (45a0eaf77022)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18606_patch.bc
+所有符号检查通过: _bfd_add_merge_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18606_patch.bc
+处理 vuln 版本 (102def4da826)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18606_vuln.bc
+所有符号检查通过: _bfd_add_merge_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18606_vuln.bc
+处理: CVE-2018-18607, 符号: elf_link_input_bfd
+处理 patch 版本 (102def4da826)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elf_link_input_bfd
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-102def4da826/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18607_patch.bc
+处理 vuln 版本 (ab419ddbb2cd)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: elf_link_input_bfd
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-ab419ddbb2cd/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-18607_vuln.bc
+处理: CVE-2018-19932, 符号: rewrite_elf_program_header
+处理 patch 版本 (beab45322376)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-19932_patch.bc
+所有符号检查通过: rewrite_elf_program_header
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-19932_patch.bc
+处理 vuln 版本 (ba85c15dabe1)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-19932_vuln.bc
+所有符号检查通过: rewrite_elf_program_header
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-19932_vuln.bc
+处理: CVE-2018-20002, 符号: _bfd_generic_read_minisymbols,display_rel_file
+处理 patch 版本 (c2f5dc30afa3)
+=== start configure ===
+[2025-08-09 18:06:36] CVE: CVE-2018-20002 | Commit: c2f5dc30afa3 | Type: BC_FILE_NOT_FOUND | Binary: patch | Details: 未找到 .bc 文件: nm.0.5.precodegen.bc
+编译补丁版本失败: CVE-2018-20002
+处理 vuln 版本 (af03af8f55f2)
+=== start configure ===
+[2025-08-09 18:07:03] CVE: CVE-2018-20002 | Commit: af03af8f55f2 | Type: BC_FILE_NOT_FOUND | Binary: vuln | Details: 未找到 .bc 文件: nm.0.5.precodegen.bc
+编译漏洞版本失败: CVE-2018-20002
+处理: CVE-2018-1000876, 符号: _bfd_elf_canonicalize_dynamic_symtab,swap_out_syms,_bfd_elf_get_dynamic_symtab_upper_bound,_bfd_elf_get_dynamic_reloc_upper_bound,_bfd_elf_get_symtab_upper_bound
+处理 patch 版本 (3a551c7a1b80)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-1000876_patch.bc
+所有符号检查通过: _bfd_elf_canonicalize_dynamic_symtab,swap_out_syms,_bfd_elf_get_dynamic_symtab_upper_bound,_bfd_elf_get_dynamic_reloc_upper_bound,_bfd_elf_get_symtab_upper_bound
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-1000876_patch.bc
+处理 vuln 版本 (40b9228581bb)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-1000876_vuln.bc
+所有符号检查通过: _bfd_elf_canonicalize_dynamic_symtab,swap_out_syms,_bfd_elf_get_dynamic_symtab_upper_bound,_bfd_elf_get_dynamic_reloc_upper_bound,_bfd_elf_get_symtab_upper_bound
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-1000876_vuln.bc
+处理: CVE-2018-20651, 符号: elf_link_add_object_symbols
+处理 patch 版本 (54025d5812ff)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20651_patch.bc
+所有符号检查通过: elf_link_add_object_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20651_patch.bc
+处理 vuln 版本 (c96e057398b5)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20651_vuln.bc
+所有符号检查通过: elf_link_add_object_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20651_vuln.bc
+处理: CVE-2018-20671, 符号: load_specific_debug_section
+处理 patch 版本 (11fa9f134fd6)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20671_patch.bc
+所有符号检查通过: load_specific_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20671_patch.bc
+处理 vuln 版本 (cf0ad5bbf2d3)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20671_vuln.bc
+所有符号检查通过: load_specific_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-20671_vuln.bc
+处理: CVE-2019-17451, 符号: _bfd_dwarf2_slurp_debug_info
+处理 patch 版本 (336bfbeb1848)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2019-17451_patch.bc
+所有符号检查通过: _bfd_dwarf2_slurp_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2019-17451_patch.bc
+处理 vuln 版本 (41481f9e4e4b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2019-17451_vuln.bc
+所有符号检查通过: _bfd_dwarf2_slurp_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2019-17451_vuln.bc
+处理: CVE-2020-19724, 符号: display_rel_file
+处理 patch 版本 (805f38bc551d)
+=== start configure ===
+[2025-08-09 18:07:48] CVE: CVE-2020-19724 | Commit: 805f38bc551d | Type: BC_FILE_NOT_FOUND | Binary: patch | Details: 未找到 .bc 文件: nm.0.5.precodegen.bc
+编译补丁版本失败: CVE-2020-19724
+处理 vuln 版本 (4f18d7423cdb)
+=== start configure ===
+[2025-08-09 18:08:17] CVE: CVE-2020-19724 | Commit: 4f18d7423cdb | Type: BC_FILE_NOT_FOUND | Binary: vuln | Details: 未找到 .bc 文件: nm.0.5.precodegen.bc
+编译漏洞版本失败: CVE-2020-19724
+处理: CVE-2020-16590, 符号: get_num_dynamic_syms
+处理 patch 版本 (c98a4545dc7b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16590_patch.bc
+所有符号检查通过: get_num_dynamic_syms
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16590_patch.bc
+处理 vuln 版本 (6a0541414523)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16590_vuln.bc
+所有符号检查通过: get_num_dynamic_syms
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16590_vuln.bc
+处理: CVE-2020-16591, 符号: get_num_dynamic_syms
+处理 patch 版本 (001890e1f926)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16591_patch.bc
+所有符号检查通过: get_num_dynamic_syms
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16591_patch.bc
+处理 vuln 版本 (b71d4fa7c35c)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16591_vuln.bc
+所有符号检查通过: get_num_dynamic_syms
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16591_vuln.bc
+处理: CVE-2020-16593, 符号: scan_unit_for_symbols
+处理 patch 版本 (aec72fda3b32)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16593_patch.bc
+所有符号检查通过: scan_unit_for_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16593_patch.bc
+处理 vuln 版本 (c54a9b56696e)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16593_vuln.bc
+所有符号检查通过: scan_unit_for_symbols
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16593_vuln.bc
+处理: CVE-2020-16599, 符号: _bfd_elf_get_symbol_version_string
+处理 patch 版本 (8d55d10ac0d1)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16599_patch.bc
+所有符号检查通过: _bfd_elf_get_symbol_version_string
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16599_patch.bc
+处理 vuln 版本 (ca3f923f82a0)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16599_vuln.bc
+所有符号检查通过: _bfd_elf_get_symbol_version_string
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-16599_vuln.bc
+处理: CVE-2020-35448, 符号: _bfd_elf_slurp_secondary_reloc_section
+处理 patch 版本 (8642dafaef21)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-35448_patch.bc
+所有符号检查通过: _bfd_elf_slurp_secondary_reloc_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-35448_patch.bc
+处理 vuln 版本 (1e3b96fd6cf0)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-35448_vuln.bc
+所有符号检查通过: _bfd_elf_slurp_secondary_reloc_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2020-35448_vuln.bc
+处理: CVE-2021-20294, 符号: print_dynamic_symbol
+处理 patch 版本 (372dd157272e)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-20294_patch.bc
+Error: 符号 'print_dynamic_symbol' 未在BC文件中找到
+目标二进制符号检查失败，重新编译
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: print_dynamic_symbol
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-372dd157272e/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-20294_patch.bc
+处理 vuln 版本 (0faed9a75423)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-20294_vuln.bc
+Error: 符号 'print_dynamic_symbol' 未在BC文件中找到
+目标二进制符号检查失败，重新编译
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: print_dynamic_symbol
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0faed9a75423/binutils/readelf.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-20294_vuln.bc
+处理: CVE-2021-45078, 符号: stab_record_type,stab_xcoff_builtin_type,stab_find_type
+处理 patch 版本 (161e87d12167)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-45078_patch.bc
+所有符号检查通过: stab_record_type,stab_xcoff_builtin_type,stab_find_type
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-45078_patch.bc
+处理 vuln 版本 (d5c94731766b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-45078_vuln.bc
+所有符号检查通过: stab_record_type,stab_xcoff_builtin_type,stab_find_type
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2021-45078_vuln.bc
+处理: CVE-2022-38533, 符号: rewrite_elf_program_header,_bfd_elf_symbol_from_bfd_symbol
+处理 patch 版本 (45d92439aebd)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-38533_patch.bc
+所有符号检查通过: rewrite_elf_program_header,_bfd_elf_symbol_from_bfd_symbol
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-38533_patch.bc
+处理 vuln 版本 (390ddd6f6812)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-38533_vuln.bc
+所有符号检查通过: rewrite_elf_program_header,_bfd_elf_symbol_from_bfd_symbol
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-38533_vuln.bc
+处理: CVE-2023-25586, 符号: bfd_init_section_decompress_status
+处理 patch 版本 (5830876a0cca)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-25586_patch.bc
+所有符号检查通过: bfd_init_section_decompress_status
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-25586_patch.bc
+处理 vuln 版本 (60d260641177)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-25586_vuln.bc
+所有符号检查通过: bfd_init_section_decompress_status
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-25586_vuln.bc
+处理: CVE-2022-48063, 符号: load_specific_debug_section
+处理 patch 版本 (75393a2d54bc)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48063_patch.bc
+所有符号检查通过: load_specific_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48063_patch.bc
+处理 vuln 版本 (a7a32d588f29)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48063_vuln.bc
+所有符号检查通过: load_specific_debug_section
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48063_vuln.bc
+处理: CVE-2022-48064, 符号: find_debug_info
+处理 patch 版本 (8f2c64de86bc)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48064_patch.bc
+所有符号检查通过: find_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48064_patch.bc
+处理 vuln 版本 (8df77a27a3a3)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48064_vuln.bc
+所有符号检查通过: find_debug_info
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48064_vuln.bc
+处理: CVE-2022-48065, 符号: scan_unit_for_symbols,find_abstract_instance
+处理 patch 版本 (d28fbc7197ba)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48065_patch.bc
+所有符号检查通过: scan_unit_for_symbols,find_abstract_instance
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48065_patch.bc
+处理 vuln 版本 (f7cb9bba3d5d)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48065_vuln.bc
+所有符号检查通过: scan_unit_for_symbols,find_abstract_instance
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2022-48065_vuln.bc
+处理: CVE-2023-1579, 符号: read_indexed_address
+处理 patch 版本 (11d171f1910b)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-1579_patch.bc
+所有符号检查通过: read_indexed_address
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-1579_patch.bc
+处理 vuln 版本 (f1e19328594f)
+目标二进制已存在，检查符号: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-1579_vuln.bc
+所有符号检查通过: read_indexed_address
+目标二进制符号检查通过，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2023-1579_vuln.bc
+处理: CVE-2018-17358, 符号: _bfd_stab_section_find_nearest_line
+处理 patch 版本 (0bbd2b1ad042)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_stab_section_find_nearest_line
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-0bbd2b1ad042/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-17358_patch.bc
+处理 vuln 版本 (cb3f0ff47953)
+=== start configure ===
+找到.bc文件，检查符号...
+所有符号检查通过: _bfd_stab_section_find_nearest_line
+符号检查通过
+copied /home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/build-cb3f0ff47953/binutils/objdump.0.5.precodegen.bc to /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/CVE-2018-17358_vuln.bc
+所有操作完成，结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/
+===== 所有操作完成 =====
+结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/binutils/
+失败记录: logs/failed_llvm.log

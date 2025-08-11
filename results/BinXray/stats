@@ -23,6 +23,11 @@ ffmpeg_result.csv:
     整体准确率: 22.31%
     排除failed的准确率: 87.88%
 
+freetype_result.csv:
+  succeed/targets = 301/353 = 0.8527
+  succeed/(targets-func_not_found) = 301/(353-1) = 0.8551
+  succeed/valid_targets = 301/333 = 0.9039 (只考虑FP/FN)
+
 libxml2_result.csv:
   succeed/targets = 416/511 = 0.8141
   succeed/(targets-func_not_found) = 416/(511-20) = 0.8473

@@ -318,9 +318,17 @@
 ## binutils
 - failed to compile
   - 2.40 O1
+  - 2.23.1 O0
+  - 2.23.2 O0
 ## openssl
 ### failed to compile
 - gcc/o0
+  - OpenSSL-fips-2_0_11 openssl
+  - OpenSSL_1_0_0q
+  - OpenSSL_1_0_1i
+  - OpenSSL_1_0_1l
+  - OpenSSL_1_0_2a
+  - OpenSSL_1_0_2c
   - OpenSSL_0_9_8zg
   - OpenSSL_1_1_0
   - OpenSSL_1_1_0a
@@ -332,9 +340,18 @@
   - OpenSSL_1_1_0c
   - OpenSSL_1_1_0d
   - adjust target binary
+    - openssl-OpenSSL_1_0_0r-o0-openssl -> openssl-OpenSSL_1_0_0r-o0-libcrypto
     - openssl-OpenSSL-fips-2_0_13-o0-openssl  ->  openssl-OpenSSL-fips-2_0_13-o0-libcrypto
-    - openssl-OpenSSL_1_0_0s-o0-openssl  -> openssl-OpenSSL_1_0_0s-o0-libcrypto
+    - （CVE-2016-2108）openssl-OpenSSL_1_0_0s-o0-openssl  -> openssl-OpenSSL_1_0_0s-o0-libcrypto
+    - （others）openssl-OpenSSL_1_0_0s-o0-openssl  -> openssl-OpenSSL_1_0_0s-o0-libssl
+    - openssl-OpenSSL_1_0_1j-o0-openssl ->  openssl-OpenSSL_1_0_1j-o0-libssl
+    - openssl-OpenSSL_1_0_1k-o0-openssl ->  openssl-OpenSSL_1_0_1k-o0-libssl
     - openssl-OpenSSL_1_0_2b-o0-openssl ->  openssl-OpenSSL_1_0_2b-o0-libcrypto
+    - openssl-OpenSSL_1_0_0o-o0-openssl -> openssl-OpenSSL_1_0_0o-o0-libssl
+    - openssl-OpenSSL_1_0_0p-o0-openssl -> openssl-OpenSSL_1_0_0p-o0-libssl
+    - openssl-OpenSSL_1_0_1n-o0-openssl -> openssl-OpenSSL_1_0_1n-o0-libssl
+    - openssl-OpenSSL_1_0_1o-o0-openssl -> openssl-OpenSSL_1_0_1o-o0-libssl
+    - openssl-OpenSSL_1_0_2-o0-openssl -> openssl-OpenSSL_1_0_2-o0-libssl
 - gcc/o1(whats more compared to O0)
   - OpenSSL_1_0_2b
   - OpenSSL-fips-2_0_13-libcrypto && openssl

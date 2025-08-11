@@ -1,0 +1,2176 @@
+===== 开始处理 binutils CVE 参考版本 =====
+>>> 处理: CVE-2014-8484 (bd25671c6f20) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 57f3676f3e5 this-is-the-2.43-release
+HEAD 目前位于 bd25671c6f2 Report an error for S-records with less than the miniumum size
+命令成功: git checkout bd25671c6f20
+处理 patch 版本 (bd25671c6f20)
+构建目录不存在，开始编译...
+found all functions in objdump: srec_scan
+找到有效二进制: objdump
+之前的 HEAD 位置是 bd25671c6f2 Report an error for S-records with less than the miniumum size
+HEAD 目前位于 5a1431e66e1 Fix testsuite ld_simple_link_defsyms for windows targets
+命令成功: git checkout 5a1431e66e1c
+处理 vuln 版本 (5a1431e66e1c)
+构建目录不存在，开始编译...
+found all functions in objdump: srec_scan
+找到有效二进制: objdump
+--- 完成处理: CVE-2014-8484 ---
+>>> 处理: CVE-2014-8485 (493a33860c71) <<<
+保存工作目录和索引状态 WIP on (no branch): 5a1431e66e1 Fix testsuite ld_simple_link_defsyms for windows targets
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5a1431e66e1 Fix testsuite ld_simple_link_defsyms for windows targets
+HEAD 目前位于 493a33860c7 This patch closes a potential security hole in applications that use the bfd library to parse binaries containing maliciously corrupt section group headers.
+命令成功: git checkout 493a33860c71
+处理 patch 版本 (493a33860c71)
+构建目录不存在，开始编译...
+found all functions in objdump: setup_group
+找到有效二进制: objdump
+之前的 HEAD 位置是 493a33860c7 This patch closes a potential security hole in applications that use the bfd library to parse binaries containing maliciously corrupt section group headers.
+HEAD 目前位于 763905a3ad8 Fix trace file fails on powerpc64
+命令成功: git checkout 763905a3ad8f
+处理 vuln 版本 (763905a3ad8f)
+构建目录不存在，开始编译...
+found all functions in objdump: setup_group
+找到有效二进制: objdump
+--- 完成处理: CVE-2014-8485 ---
+>>> 处理: CVE-2014-8501 (37e3922eed41) <<<
+保存工作目录和索引状态 WIP on (no branch): 763905a3ad8 Fix trace file fails on powerpc64
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 763905a3ad8 Fix trace file fails on powerpc64
+HEAD 目前位于 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+命令成功: git checkout 37e3922eed41
+处理 patch 版本 (37e3922eed41)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+HEAD 目前位于 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+命令成功: git checkout 20d79870f35f
+处理 vuln 版本 (20d79870f35f)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2014-8501 ---
+>>> 处理: CVE-2014-8502 (37e3922eed41) <<<
+保存工作目录和索引状态 WIP on (no branch): 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+HEAD 目前位于 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+命令成功: git checkout 37e3922eed41
+处理 patch 版本 (37e3922eed41)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+HEAD 目前位于 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+命令成功: git checkout 20d79870f35f
+处理 vuln 版本 (20d79870f35f)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2014-8502 ---
+>>> 处理: CVE-2014-8503 (37e3922eed41) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+HEAD 目前位于 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+命令成功: git checkout 37e3922eed41
+处理 patch 版本 (37e3922eed41)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 37e3922eed4 Fix memory access violations triggered by running dlltool on corrupt binaries.
+HEAD 目前位于 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+命令成功: git checkout 20d79870f35f
+处理 vuln 版本 (20d79870f35f)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2014-8503 ---
+>>> 处理: CVE-2014-8504 (708d7d0d11f0) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 20d79870f35 NDS32/gas: Limit the format of pseudo instruction la.
+HEAD 目前位于 708d7d0d11f This patch fixes a flaw in the SREC parser which could cause a stack overflow and potential secuiryt breach.
+命令成功: git checkout 708d7d0d11f0
+处理 patch 版本 (708d7d0d11f0)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 708d7d0d11f This patch fixes a flaw in the SREC parser which could cause a stack overflow and potential secuiryt breach.
+HEAD 目前位于 6fb9c0f8325 daily update
+命令成功: git checkout 6fb9c0f83252
+处理 vuln 版本 (6fb9c0f83252)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2014-8504 ---
+>>> 处理: CVE-2014-8737 (dd9b91de2149) <<<
+保存工作目录和索引状态 WIP on (no branch): 6fb9c0f8325 daily update
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 6fb9c0f8325 daily update
+HEAD 目前位于 dd9b91de214 Prevent archive memebers with illegal pathnames from being extracted from an archive.
+命令成功: git checkout dd9b91de2149
+处理 patch 版本 (dd9b91de2149)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 dd9b91de214 Prevent archive memebers with illegal pathnames from being extracted from an archive.
+HEAD 目前位于 834107255bb Revert changes in previous deltas that introduced new failures into the linker testsuite.
+命令成功: git checkout 834107255bbe
+处理 vuln 版本 (834107255bbe)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2014-8737 ---
+>>> 处理: CVE-2014-8738 (bb0d867169d7) <<<
+保存工作目录和索引状态 WIP on (no branch): 834107255bb Revert changes in previous deltas that introduced new failures into the linker testsuite.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 834107255bb Revert changes in previous deltas that introduced new failures into the linker testsuite.
+HEAD 目前位于 bb0d867169d Fix a seg-fault triggered by reading a mal-formed archive.
+命令成功: git checkout bb0d867169d7
+处理 patch 版本 (bb0d867169d7)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_slurp_extended_name_table
+找到有效二进制: objdump
+之前的 HEAD 位置是 bb0d867169d Fix a seg-fault triggered by reading a mal-formed archive.
+HEAD 目前位于 ed9e98c214d Don't use register keyword
+命令成功: git checkout ed9e98c214dd
+处理 vuln 版本 (ed9e98c214dd)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_slurp_extended_name_table
+找到有效二进制: objdump
+--- 完成处理: CVE-2014-8738 ---
+>>> 处理: CVE-2014-9939 (7e27a9d5f22f) <<<
+保存工作目录和索引状态 WIP on (no branch): ed9e98c214d Don't use register keyword
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ed9e98c214d Don't use register keyword
+HEAD 目前位于 7e27a9d5f22 Fix stack buffer overflows when parsing corrupt ihex files.
+命令成功: git checkout 7e27a9d5f22f
+处理 patch 版本 (7e27a9d5f22f)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 7e27a9d5f22 Fix stack buffer overflows when parsing corrupt ihex files.
+HEAD 目前位于 4e13f8fb05e Fix memory leak in ar if it encounters an invalid path whilst extracting files.
+命令成功: git checkout 4e13f8fb05eb
+处理 vuln 版本 (4e13f8fb05eb)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2014-9939 ---
+>>> 处理: CVE-2017-12448 (a541116faa57) <<<
+保存工作目录和索引状态 WIP on (no branch): 4e13f8fb05e Fix memory leak in ar if it encounters an invalid path whilst extracting files.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 4e13f8fb05e Fix memory leak in ar if it encounters an invalid path whilst extracting files.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 patch 版本 (a541116faa57)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_generic_archive_p
+找到有效二进制: objdump
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 7e693dd5ced Import patch from mainline to fix address violations when parsing corrupt COFF binaries
+命令成功: git checkout 7e693dd5cede
+处理 vuln 版本 (7e693dd5cede)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_generic_archive_p
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-12448 ---
+>>> 处理: CVE-2017-12449 (8bdf0be19d27) <<<
+保存工作目录和索引状态 WIP on (no branch): 7e693dd5ced Import patch from mainline to fix address violations when parsing corrupt COFF binaries
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 7e693dd5ced Import patch from mainline to fix address violations when parsing corrupt COFF binaries
+HEAD 目前位于 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+命令成功: git checkout 8bdf0be19d27
+处理 patch 版本 (8bdf0be19d27)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+HEAD 目前位于 63d4980d60d Automatic date update in version.in
+命令成功: git checkout 63d4980d60dd
+处理 vuln 版本 (63d4980d60dd)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-12449 ---
+>>> 处理: CVE-2017-12450 (deeb3d27c254) <<<
+保存工作目录和索引状态 WIP on (no branch): 63d4980d60d Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63d4980d60d Automatic date update in version.in
+HEAD 目前位于 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+命令成功: git checkout deeb3d27c254
+处理 patch 版本 (deeb3d27c254)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 vuln 版本 (a541116faa57)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12450 ---
+>>> 处理: CVE-2017-12451 (6c4e7b6bfbc4) <<<
+保存工作目录和索引状态 WIP on (no branch): a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 6c4e7b6bfbc Extend previous fix to coff-rs6000.c to coff64-rs6000.c
+命令成功: git checkout 6c4e7b6bfbc4
+处理 patch 版本 (6c4e7b6bfbc4)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 6c4e7b6bfbc Extend previous fix to coff-rs6000.c to coff64-rs6000.c
+HEAD 目前位于 909e4e716c4 Fix use-after-free error when parsing a corrupt nested archive.
+命令成功: git checkout 909e4e716c4d
+处理 vuln 版本 (909e4e716c4d)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-12451 ---
+>>> 处理: CVE-2017-12452 (deeb3d27c254) <<<
+保存工作目录和索引状态 WIP on (no branch): 909e4e716c4 Fix use-after-free error when parsing a corrupt nested archive.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 909e4e716c4 Fix use-after-free error when parsing a corrupt nested archive.
+HEAD 目前位于 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+命令成功: git checkout deeb3d27c254
+处理 patch 版本 (deeb3d27c254)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 vuln 版本 (a541116faa57)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12452 ---
+>>> 处理: CVE-2017-12453 (deeb3d27c254) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+命令成功: git checkout deeb3d27c254
+处理 patch 版本 (deeb3d27c254)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 vuln 版本 (a541116faa57)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12453 ---
+>>> 处理: CVE-2017-12454 (deeb3d27c254) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+命令成功: git checkout deeb3d27c254
+处理 patch 版本 (deeb3d27c254)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 vuln 版本 (a541116faa57)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12454 ---
+>>> 处理: CVE-2017-12455 (8bdf0be19d27) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+命令成功: git checkout 8bdf0be19d27
+处理 patch 版本 (8bdf0be19d27)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+HEAD 目前位于 63d4980d60d Automatic date update in version.in
+命令成功: git checkout 63d4980d60dd
+处理 vuln 版本 (63d4980d60dd)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12455 ---
+>>> 处理: CVE-2017-12456 (deeb3d27c254) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63d4980d60d Automatic date update in version.in
+HEAD 目前位于 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+命令成功: git checkout deeb3d27c254
+处理 patch 版本 (deeb3d27c254)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 deeb3d27c25 Import patch from mainline to fix address violation errors when parsing corrupt VMS and MACHO binaries.
+HEAD 目前位于 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+命令成功: git checkout a541116faa57
+处理 vuln 版本 (a541116faa57)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12456 ---
+>>> 处理: CVE-2017-12457 (8bdf0be19d27) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a541116faa5 Import patch from mainline to improve reporting of corrupt archives.
+HEAD 目前位于 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+命令成功: git checkout 8bdf0be19d27
+处理 patch 版本 (8bdf0be19d27)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+HEAD 目前位于 63d4980d60d Automatic date update in version.in
+命令成功: git checkout 63d4980d60dd
+处理 vuln 版本 (63d4980d60dd)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12457 ---
+>>> 处理: CVE-2017-12458 (8bdf0be19d27) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63d4980d60d Automatic date update in version.in
+HEAD 目前位于 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+命令成功: git checkout 8bdf0be19d27
+处理 patch 版本 (8bdf0be19d27)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+HEAD 目前位于 63d4980d60d Automatic date update in version.in
+命令成功: git checkout 63d4980d60dd
+处理 vuln 版本 (63d4980d60dd)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12458 ---
+>>> 处理: CVE-2017-12459 (8bdf0be19d27) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63d4980d60d Automatic date update in version.in
+HEAD 目前位于 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+命令成功: git checkout 8bdf0be19d27
+处理 patch 版本 (8bdf0be19d27)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 8bdf0be19d2 Fix address violation issues encountered when parsing corrupt binaries.
+HEAD 目前位于 63d4980d60d Automatic date update in version.in
+命令成功: git checkout 63d4980d60dd
+处理 vuln 版本 (63d4980d60dd)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-12459 ---
+>>> 处理: CVE-2017-12799 (30326b094b8f) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63d4980d60d Automatic date update in version.in
+HEAD 目前位于 30326b094b8 Check for an invalid note size when parsing ELF notes.
+命令成功: git checkout 30326b094b8f
+处理 patch 版本 (30326b094b8f)
+构建目录不存在，开始编译...
+found all functions in objdump: elf_read_notes
+找到有效二进制: objdump
+之前的 HEAD 位置是 30326b094b8 Check for an invalid note size when parsing ELF notes.
+HEAD 目前位于 aceaeff8140 Fix buffer overrun when parsing an ELF attribute string that is not NUL terminated.
+命令成功: git checkout aceaeff8140a
+处理 vuln 版本 (aceaeff8140a)
+构建目录不存在，开始编译...
+found all functions in objdump: elf_read_notes
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-12799 ---
+>>> 处理: CVE-2017-12967 (de25939739ff) <<<
+保存工作目录和索引状态 WIP on (no branch): aceaeff8140 Fix buffer overrun when parsing an ELF attribute string that is not NUL terminated.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 aceaeff8140 Fix buffer overrun when parsing an ELF attribute string that is not NUL terminated.
+HEAD 目前位于 de25939739f Fix buffer overrun parsing a corrupt tekhex binary.
+命令成功: git checkout de25939739ff
+处理 patch 版本 (de25939739ff)
+构建目录不存在，开始编译...
+found all functions in objdump: getsym
+找到有效二进制: objdump
+之前的 HEAD 位置是 de25939739f Fix buffer overrun parsing a corrupt tekhex binary.
+HEAD 目前位于 dd66b39984d Automatic date update in version.in
+命令成功: git checkout dd66b39984d2
+处理 vuln 版本 (dd66b39984d2)
+构建目录不存在，开始编译...
+found all functions in objdump: getsym
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-12967 ---
+>>> 处理: CVE-2017-13710 (0c54f6929520) <<<
+保存工作目录和索引状态 WIP on (no branch): dd66b39984d Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 dd66b39984d Automatic date update in version.in
+HEAD 目前位于 0c54f692952 Fix null pointer dereference when parsing a corrupt ELF binary.
+命令成功: git checkout 0c54f6929520
+处理 patch 版本 (0c54f6929520)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-13710-patch-0c54f6929520-*
+之前的 HEAD 位置是 0c54f692952 Fix null pointer dereference when parsing a corrupt ELF binary.
+HEAD 目前位于 d7f00f429aa Automatic date update in version.in
+命令成功: git checkout d7f00f429aa5
+处理 vuln 版本 (d7f00f429aa5)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-13710-vuln-d7f00f429aa5-*
+--- 完成处理: CVE-2017-13710 ---
+>>> 处理: CVE-2017-13757 (90efb6422939) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d7f00f429aa Automatic date update in version.in
+HEAD 目前位于 90efb642293 x86: Check for valid PLT section size
+命令成功: git checkout 90efb6422939
+处理 patch 版本 (90efb6422939)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-13757-patch-90efb6422939-*
+之前的 HEAD 位置是 90efb642293 x86: Check for valid PLT section size
+HEAD 目前位于 cefdd1cd64f Fix bad offset calculation for R_AARCH64_TLSDESC_* relocs.
+命令成功: git checkout cefdd1cd64f3
+处理 vuln 版本 (cefdd1cd64f3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-13757-vuln-cefdd1cd64f3-*
+--- 完成处理: CVE-2017-13757 ---
+>>> 处理: CVE-2017-14128 (7e8b60085eb3) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cefdd1cd64f Fix bad offset calculation for R_AARCH64_TLSDESC_* relocs.
+HEAD 目前位于 7e8b60085eb Prevent an address violation parsing corrupt DWARF information by fixing the test for an overlong debug line info structure.
+命令成功: git checkout 7e8b60085eb3
+处理 patch 版本 (7e8b60085eb3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14128-patch-7e8b60085eb3-*
+之前的 HEAD 位置是 7e8b60085eb Prevent an address violation parsing corrupt DWARF information by fixing the test for an overlong debug line info structure.
+HEAD 目前位于 f8ad2513754 Import latest fixes to libiberty from GCC.
+命令成功: git checkout f8ad2513754f
+处理 vuln 版本 (f8ad2513754f)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14128-vuln-f8ad2513754f-*
+--- 完成处理: CVE-2017-14128 ---
+>>> 处理: CVE-2017-14129 (e4f272300385) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f8ad2513754 Import latest fixes to libiberty from GCC.
+HEAD 目前位于 e4f27230038 Fix buffer read overrun by ensuring that DWARF sections containing strings always end in a NUL byte.
+命令成功: git checkout e4f272300385
+处理 patch 版本 (e4f272300385)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14129-patch-e4f272300385-*
+之前的 HEAD 位置是 e4f27230038 Fix buffer read overrun by ensuring that DWARF sections containing strings always end in a NUL byte.
+HEAD 目前位于 b55f3386e45 Add updated French translations for opcodes and gprof
+命令成功: git checkout b55f3386e45d
+处理 vuln 版本 (b55f3386e45d)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14129-vuln-b55f3386e45d-*
+--- 完成处理: CVE-2017-14129 ---
+>>> 处理: CVE-2017-14130 (2a143b99fc4a) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 b55f3386e45 Add updated French translations for opcodes and gprof
+HEAD 目前位于 2a143b99fc4 Fix buffer overrun when parsing an ELF attribute string that is not NUL terminated.
+命令成功: git checkout 2a143b99fc4a
+处理 patch 版本 (2a143b99fc4a)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14130-patch-2a143b99fc4a-*
+之前的 HEAD 位置是 2a143b99fc4 Fix buffer overrun when parsing an ELF attribute string that is not NUL terminated.
+HEAD 目前位于 5c811d30d12 PR gdb/22046: Fix T-stopped detach regression on old Linux kernels
+命令成功: git checkout 5c811d30d12b
+处理 vuln 版本 (5c811d30d12b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14130-vuln-5c811d30d12b-*
+--- 完成处理: CVE-2017-14130 ---
+>>> 处理: CVE-2017-14333 (64aa12465723) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5c811d30d12 PR gdb/22046: Fix T-stopped detach regression on old Linux kernels
+HEAD 目前位于 64aa1246572 Import patches from mainline to fix minor binutils bugs:
+命令成功: git checkout 64aa12465723
+处理 patch 版本 (64aa12465723)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 64aa1246572 Import patches from mainline to fix minor binutils bugs:
+HEAD 目前位于 5709459090f Import patch from mainline to fix memory leak.
+命令成功: git checkout 5709459090fb
+处理 vuln 版本 (5709459090fb)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-14333 ---
+>>> 处理: CVE-2017-14529 (4d465c689a8f) <<<
+保存工作目录和索引状态 WIP on (no branch): 5709459090f Import patch from mainline to fix memory leak.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5709459090f Import patch from mainline to fix memory leak.
+HEAD 目前位于 4d465c689a8 Fix address violation when parsing a corrupt PE binary.
+命令成功: git checkout 4d465c689a8f
+处理 patch 版本 (4d465c689a8f)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14529-patch-4d465c689a8f-*
+之前的 HEAD 位置是 4d465c689a8 Fix address violation when parsing a corrupt PE binary.
+HEAD 目前位于 255300f5a96 Add enable-gold and enable-ld to src-release
+命令成功: git checkout 255300f5a960
+处理 vuln 版本 (255300f5a960)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14529-vuln-255300f5a960-*
+--- 完成处理: CVE-2017-14529 ---
+>>> 处理: CVE-2017-14729 (56933f9e3e90) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 255300f5a96 Add enable-gold and enable-ld to src-release
+HEAD 目前位于 56933f9e3e9 x86: Guard against corrupted PLT
+命令成功: git checkout 56933f9e3e90
+处理 patch 版本 (56933f9e3e90)
+构建目录不存在，开始编译...
+found all functions in objdump: elf_x86_64_get_synthetic_symtab, elf_i386_get_synthetic_symtab
+找到有效二进制: objdump
+之前的 HEAD 位置是 56933f9e3e9 x86: Guard against corrupted PLT
+HEAD 目前位于 e70c19e3a4c x86: Return -1 if bfd_canonicalize_dynamic_reloc returns 0
+命令成功: git checkout e70c19e3a4c2
+处理 vuln 版本 (e70c19e3a4c2)
+构建目录不存在，开始编译...
+found all functions in objdump: elf_x86_64_get_synthetic_symtab, elf_i386_get_synthetic_symtab
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-14729 ---
+>>> 处理: CVE-2017-14745 (94670f6cf11f) <<<
+保存工作目录和索引状态 WIP on (no branch): e70c19e3a4c x86: Return -1 if bfd_canonicalize_dynamic_reloc returns 0
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 e70c19e3a4c x86: Return -1 if bfd_canonicalize_dynamic_reloc returns 0
+HEAD 目前位于 94670f6cf11 Check error return from bfd_canonicalize_dynamic_reloc
+命令成功: git checkout 94670f6cf11f
+处理 patch 版本 (94670f6cf11f)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_x86_elf_get_synthetic_symtab
+找到有效二进制: objdump
+之前的 HEAD 位置是 94670f6cf11 Check error return from bfd_canonicalize_dynamic_reloc
+HEAD 目前位于 0615127c587 dwarf2expr: Remove unused abort_expression label in execute_stack_op
+命令成功: git checkout 0615127c5872
+处理 vuln 版本 (0615127c5872)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_x86_elf_get_synthetic_symtab
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-14745 ---
+>>> 处理: CVE-2017-14930 (a26a013f22a1) <<<
+保存工作目录和索引状态 WIP on (no branch): 0615127c587 dwarf2expr: Remove unused abort_expression label in execute_stack_op
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0615127c587 dwarf2expr: Remove unused abort_expression label in execute_stack_op
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录不存在，开始编译...
+found all functions in objdump: decode_line_info
+找到有效二进制: objdump
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录不存在，开始编译...
+found all functions in objdump: decode_line_info
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-14930 ---
+>>> 处理: CVE-2017-14932 (e338894dc2e6) <<<
+保存工作目录和索引状态 WIP on (no branch): 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 e338894dc2e PR22204, Lack of DW_LNE_end_sequence causes "infinite" loop
+命令成功: git checkout e338894dc2e6
+处理 patch 版本 (e338894dc2e6)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14932-patch-e338894dc2e6-*
+之前的 HEAD 位置是 e338894dc2e PR22204, Lack of DW_LNE_end_sequence causes "infinite" loop
+HEAD 目前位于 898f57a89f3 Automatic date update in version.in
+命令成功: git checkout 898f57a89f3f
+处理 vuln 版本 (898f57a89f3f)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14932-vuln-898f57a89f3f-*
+--- 完成处理: CVE-2017-14932 ---
+>>> 处理: CVE-2017-14933 (33e0a9a056bd) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 898f57a89f3 Automatic date update in version.in
+HEAD 目前位于 33e0a9a056b Tidy reading data in read_formatted_entries
+命令成功: git checkout 33e0a9a056bd
+处理 patch 版本 (33e0a9a056bd)
+构建目录不存在，开始编译...
+found all functions in objdump: read_formatted_entries
+找到有效二进制: objdump
+之前的 HEAD 位置是 33e0a9a056b Tidy reading data in read_formatted_entries
+HEAD 目前位于 30d0157a2ad Avoid needless resource usage when processing a corrupt DWARF directory or file name table.
+命令成功: git checkout 30d0157a2ad6
+处理 vuln 版本 (30d0157a2ad6)
+构建目录不存在，开始编译...
+found all functions in objdump: read_formatted_entries
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-14933 ---
+>>> 处理: CVE-2017-14934 (19485196044b) <<<
+保存工作目录和索引状态 WIP on (no branch): 30d0157a2ad Avoid needless resource usage when processing a corrupt DWARF directory or file name table.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 30d0157a2ad Avoid needless resource usage when processing a corrupt DWARF directory or file name table.
+HEAD 目前位于 19485196044 Prevent an infinite loop in the DWARF parsing code when encountering a CU structure with a small negative size.
+命令成功: git checkout 19485196044b
+处理 patch 版本 (19485196044b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14934-patch-19485196044b-*
+之前的 HEAD 位置是 19485196044 Prevent an infinite loop in the DWARF parsing code when encountering a CU structure with a small negative size.
+HEAD 目前位于 6bd6a03d697 PR22216, infinite loop in readelf process_symbol_table
+命令成功: git checkout 6bd6a03d6975
+处理 vuln 版本 (6bd6a03d6975)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14934-vuln-6bd6a03d6975-*
+--- 完成处理: CVE-2017-14934 ---
+>>> 处理: CVE-2017-14938 (bd61e135492e) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 6bd6a03d697 PR22216, infinite loop in readelf process_symbol_table
+HEAD 目前位于 bd61e135492 PR22166, SHT_GNU_verneed memory allocation
+命令成功: git checkout bd61e135492e
+处理 patch 版本 (bd61e135492e)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14938-patch-bd61e135492e-*
+之前的 HEAD 位置是 bd61e135492 PR22166, SHT_GNU_verneed memory allocation
+HEAD 目前位于 8d296e2d4d8 Automatic date update in version.in
+命令成功: git checkout 8d296e2d4d8e
+处理 vuln 版本 (8d296e2d4d8e)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14938-vuln-8d296e2d4d8e-*
+--- 完成处理: CVE-2017-14938 ---
+>>> 处理: CVE-2017-14939 (515f23e63c00) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8d296e2d4d8 Automatic date update in version.in
+HEAD 目前位于 515f23e63c0 PR22169, heap-based buffer overflow in read_1_byte
+命令成功: git checkout 515f23e63c00
+处理 patch 版本 (515f23e63c00)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14939-patch-515f23e63c00-*
+之前的 HEAD 位置是 515f23e63c0 PR22169, heap-based buffer overflow in read_1_byte
+HEAD 目前位于 0d76029f921 PR22167, NULL pointer dereference in scan_unit_for_symbols
+命令成功: git checkout 0d76029f9218
+处理 vuln 版本 (0d76029f9218)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14939-vuln-0d76029f9218-*
+--- 完成处理: CVE-2017-14939 ---
+>>> 处理: CVE-2017-14940 (0d76029f9218) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+HEAD 目前位于 0d76029f921 PR22167, NULL pointer dereference in scan_unit_for_symbols
+命令成功: git checkout 0d76029f9218
+处理 patch 版本 (0d76029f9218)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14940-patch-0d76029f9218-*
+之前的 HEAD 位置是 0d76029f921 PR22167, NULL pointer dereference in scan_unit_for_symbols
+HEAD 目前位于 bd61e135492 PR22166, SHT_GNU_verneed memory allocation
+命令成功: git checkout bd61e135492e
+处理 vuln 版本 (bd61e135492e)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14940-vuln-bd61e135492e-*
+--- 完成处理: CVE-2017-14940 ---
+>>> 处理: CVE-2017-14974 (e70c19e3a4c2) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 bd61e135492 PR22166, SHT_GNU_verneed memory allocation
+HEAD 目前位于 e70c19e3a4c x86: Return -1 if bfd_canonicalize_dynamic_reloc returns 0
+命令成功: git checkout e70c19e3a4c2
+处理 patch 版本 (e70c19e3a4c2)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14974-patch-e70c19e3a4c2-*
+之前的 HEAD 位置是 e70c19e3a4c x86: Return -1 if bfd_canonicalize_dynamic_reloc returns 0
+HEAD 目前位于 ea2fdc5952e Automatic date update in version.in
+命令成功: git checkout ea2fdc5952e2
+处理 vuln 版本 (ea2fdc5952e2)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-14974-vuln-ea2fdc5952e2-*
+--- 完成处理: CVE-2017-14974 ---
+>>> 处理: CVE-2017-15020 (1da5c9a485f3) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ea2fdc5952e Automatic date update in version.in
+HEAD 目前位于 1da5c9a485f PR22202, buffer overflow in parse_die
+命令成功: git checkout 1da5c9a485f3
+处理 patch 版本 (1da5c9a485f3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15020-patch-1da5c9a485f3-*
+之前的 HEAD 位置是 1da5c9a485f PR22202, buffer overflow in parse_die
+HEAD 目前位于 11855d8a1f1 PR22201, DW_AT_name with out of bounds reference
+命令成功: git checkout 11855d8a1f11
+处理 vuln 版本 (11855d8a1f11)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15020-vuln-11855d8a1f11-*
+--- 完成处理: CVE-2017-15020 ---
+>>> 处理: CVE-2017-15021 (52b36c51e5bf) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 11855d8a1f1 PR22201, DW_AT_name with out of bounds reference
+HEAD 目前位于 52b36c51e5b PR22197, buffer overflow in bfd_get_debug_link_info_1
+命令成功: git checkout 52b36c51e5bf
+处理 patch 版本 (52b36c51e5bf)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15021-patch-52b36c51e5bf-*
+之前的 HEAD 位置是 52b36c51e5b PR22197, buffer overflow in bfd_get_debug_link_info_1
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 vuln 版本 (a26a013f22a1)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15021-vuln-a26a013f22a1-*
+--- 完成处理: CVE-2017-15021 ---
+>>> 处理: CVE-2017-15022 (11855d8a1f11) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 11855d8a1f1 PR22201, DW_AT_name with out of bounds reference
+命令成功: git checkout 11855d8a1f11
+处理 patch 版本 (11855d8a1f11)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15022-patch-11855d8a1f11-*
+之前的 HEAD 位置是 11855d8a1f1 PR22201, DW_AT_name with out of bounds reference
+HEAD 目前位于 c361faae8d9 PR22200, DWARF5 .debug_line sanity check
+命令成功: git checkout c361faae8d96
+处理 vuln 版本 (c361faae8d96)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15022-vuln-c361faae8d96-*
+--- 完成处理: CVE-2017-15022 ---
+>>> 处理: CVE-2017-15023 (c361faae8d96) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+HEAD 目前位于 c361faae8d9 PR22200, DWARF5 .debug_line sanity check
+命令成功: git checkout c361faae8d96
+处理 patch 版本 (c361faae8d96)
+构建目录不存在，开始编译...
+found all functions in objdump: read_formatted_entries
+找到有效二进制: objdump
+之前的 HEAD 位置是 c361faae8d9 PR22200, DWARF5 .debug_line sanity check
+HEAD 目前位于 57a024f4650 Initialize 'imm' on opcodes/aarch64-opc.c:expand_fp_imm (and fix breakage on mingw)
+命令成功: git checkout 57a024f4650d
+处理 vuln 版本 (57a024f4650d)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15023-vuln-57a024f4650d-*
+--- 完成处理: CVE-2017-15023 ---
+>>> 处理: CVE-2017-15024 (52a93b95ec07) <<<
+保存工作目录和索引状态 WIP on (no branch): 57a024f4650 Initialize 'imm' on opcodes/aarch64-opc.c:expand_fp_imm (and fix breakage on mingw)
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 57a024f4650 Initialize 'imm' on opcodes/aarch64-opc.c:expand_fp_imm (and fix breakage on mingw)
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 patch 版本 (52a93b95ec07)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15024-patch-52a93b95ec07-*
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 d8010d3e75e PR22186, divide-by-zero in decode_line_info
+命令成功: git checkout d8010d3e75ec
+处理 vuln 版本 (d8010d3e75ec)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15024-vuln-d8010d3e75ec-*
+--- 完成处理: CVE-2017-15024 ---
+>>> 处理: CVE-2017-15025 (d8010d3e75ec) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+HEAD 目前位于 d8010d3e75e PR22186, divide-by-zero in decode_line_info
+命令成功: git checkout d8010d3e75ec
+处理 patch 版本 (d8010d3e75ec)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15025-patch-d8010d3e75ec-*
+之前的 HEAD 位置是 d8010d3e75e PR22186, divide-by-zero in decode_line_info
+HEAD 目前位于 515f23e63c0 PR22169, heap-based buffer overflow in read_1_byte
+命令成功: git checkout 515f23e63c00
+处理 vuln 版本 (515f23e63c00)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15025-vuln-515f23e63c00-*
+--- 完成处理: CVE-2017-15025 ---
+>>> 处理: CVE-2017-15225 (b55ec8b676ed) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 515f23e63c0 PR22169, heap-based buffer overflow in read_1_byte
+HEAD 目前位于 b55ec8b676e PR22212, memory leak in nm
+命令成功: git checkout b55ec8b676ed
+处理 patch 版本 (b55ec8b676ed)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15225-patch-b55ec8b676ed-*
+之前的 HEAD 位置是 b55ec8b676e PR22212, memory leak in nm
+HEAD 目前位于 a72f95f7760 sh: Dump dynamic relocation info to the map file
+命令成功: git checkout a72f95f7760b
+处理 vuln 版本 (a72f95f7760b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15225-vuln-a72f95f7760b-*
+--- 完成处理: CVE-2017-15225 ---
+>>> 处理: CVE-2017-15938 (1b86808a8607) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a72f95f7760 sh: Dump dynamic relocation info to the map file
+HEAD 目前位于 1b86808a860 PR22209, invalid memory read in find_abstract_instance_name
+命令成功: git checkout 1b86808a8607
+处理 patch 版本 (1b86808a8607)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15938-patch-1b86808a8607-*
+之前的 HEAD 位置是 1b86808a860 PR22209, invalid memory read in find_abstract_instance_name
+HEAD 目前位于 5c1c468d0ed Fix address violations when parsing a corrupt DWARF linenumber table.
+命令成功: git checkout 5c1c468d0edd
+处理 vuln 版本 (5c1c468d0edd)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15938-vuln-5c1c468d0edd-*
+--- 完成处理: CVE-2017-15938 ---
+>>> 处理: CVE-2017-15939 (a54018b72d75) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5c1c468d0ed Fix address violations when parsing a corrupt DWARF linenumber table.
+HEAD 目前位于 a54018b72d7 PR22205, .debug_line file table NULL filename
+命令成功: git checkout a54018b72d75
+处理 patch 版本 (a54018b72d75)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15939-patch-a54018b72d75-*
+之前的 HEAD 位置是 a54018b72d7 PR22205, .debug_line file table NULL filename
+HEAD 目前位于 e338894dc2e PR22204, Lack of DW_LNE_end_sequence causes "infinite" loop
+命令成功: git checkout e338894dc2e6
+处理 vuln 版本 (e338894dc2e6)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15939-vuln-e338894dc2e6-*
+--- 完成处理: CVE-2017-15939 ---
+>>> 处理: CVE-2017-15996 (d91f0b20e561) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 e338894dc2e PR22204, Lack of DW_LNE_end_sequence causes "infinite" loop
+HEAD 目前位于 d91f0b20e56 PR22361 readelf buffer overflow on fuzzed archive header
+命令成功: git checkout d91f0b20e561
+处理 patch 版本 (d91f0b20e561)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15996-patch-d91f0b20e561-*
+之前的 HEAD 位置是 d91f0b20e56 PR22361 readelf buffer overflow on fuzzed archive header
+HEAD 目前位于 c0e331c794d PR22300, Abort in elf32_hppa_relocate_section building polyml
+命令成功: git checkout c0e331c794d6
+处理 vuln 版本 (c0e331c794d6)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-15996-vuln-c0e331c794d6-*
+--- 完成处理: CVE-2017-15996 ---
+>>> 处理: CVE-2017-16826 (a26a013f22a1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c0e331c794d PR22300, Abort in elf32_hppa_relocate_section building polyml
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-16826 ---
+>>> 处理: CVE-2017-16827 (a26a013f22a1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-16827 ---
+>>> 处理: CVE-2017-16828 (bf59c5d5f4f5) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 bf59c5d5f4f Fix integer overflow problems when reading an ELF binary with corrupt augmentation data.
+命令成功: git checkout bf59c5d5f4f5
+处理 patch 版本 (bf59c5d5f4f5)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16828-patch-bf59c5d5f4f5-*
+之前的 HEAD 位置是 bf59c5d5f4f Fix integer overflow problems when reading an ELF binary with corrupt augmentation data.
+HEAD 目前位于 3334eba7f4a [ARC] Sync opcode data base.
+命令成功: git checkout 3334eba7f4ae
+处理 vuln 版本 (3334eba7f4ae)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16828-vuln-3334eba7f4ae-*
+--- 完成处理: CVE-2017-16828 ---
+>>> 处理: CVE-2017-16829 (cf54ebff3b73) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 3334eba7f4a [ARC] Sync opcode data base.
+HEAD 目前位于 cf54ebff3b7 PR22307, Heap out of bounds read in _bfd_elf_parse_gnu_properties
+命令成功: git checkout cf54ebff3b73
+处理 patch 版本 (cf54ebff3b73)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16829-patch-cf54ebff3b73-*
+之前的 HEAD 位置是 cf54ebff3b7 PR22307, Heap out of bounds read in _bfd_elf_parse_gnu_properties
+HEAD 目前位于 7b7009999ab Fix double-free corruption
+命令成功: git checkout 7b7009999ab8
+处理 vuln 版本 (7b7009999ab8)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16829-vuln-7b7009999ab8-*
+--- 完成处理: CVE-2017-16829 ---
+>>> 处理: CVE-2017-16830 (6ab2c4ed51f9) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 7b7009999ab Fix double-free corruption
+HEAD 目前位于 6ab2c4ed51f Work around integer overflows when readelf is checking for corrupt ELF notes when run on a 32-bit host.
+命令成功: git checkout 6ab2c4ed51f9
+处理 patch 版本 (6ab2c4ed51f9)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16830-patch-6ab2c4ed51f9-*
+之前的 HEAD 位置是 6ab2c4ed51f Work around integer overflows when readelf is checking for corrupt ELF notes when run on a 32-bit host.
+HEAD 目前位于 f26ae15b471 Construct readonly regcache without address space
+命令成功: git checkout f26ae15b471a
+处理 vuln 版本 (f26ae15b471a)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16830-vuln-f26ae15b471a-*
+--- 完成处理: CVE-2017-16830 ---
+>>> 处理: CVE-2017-16831 (6cee897971d4) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f26ae15b471 Construct readonly regcache without address space
+HEAD 目前位于 6cee897971d Fix excessive memory allocation attempts and possible integer overfloaws when attempting to read a COFF binary with a corrupt symbol count.
+命令成功: git checkout 6cee897971d4
+处理 patch 版本 (6cee897971d4)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16831-patch-6cee897971d4-*
+之前的 HEAD 位置是 6cee897971d Fix excessive memory allocation attempts and possible integer overfloaws when attempting to read a COFF binary with a corrupt symbol count.
+HEAD 目前位于 8e68731c8a4 Skip gdb.python/py-thrhandle.exp if python is not enabled.
+命令成功: git checkout 8e68731c8a4a
+处理 vuln 版本 (8e68731c8a4a)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-16831-vuln-8e68731c8a4a-*
+--- 完成处理: CVE-2017-16831 ---
+>>> 处理: CVE-2017-16832 (a26a013f22a1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8e68731c8a4 Skip gdb.python/py-thrhandle.exp if python is not enabled.
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-16832 ---
+>>> 处理: CVE-2017-17080 (80a043787304) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 80a04378730 Prevent illegal memory accesses when parsing incorrecctly formated core notes.
+命令成功: git checkout 80a043787304
+处理 patch 版本 (80a043787304)
+构建目录不存在，开始编译...
+found all functions in objdump: elfcore_grok_nto_status, elfcore_grok_freebsd_psinfo, elfcore_grok_netbsd_note, elfcore_netbsd_get_lwpid
+找到有效二进制: objdump
+之前的 HEAD 位置是 80a04378730 Prevent illegal memory accesses when parsing incorrecctly formated core notes.
+HEAD 目前位于 d8ae99a7b08 Add Python rbreak command.
+命令成功: git checkout d8ae99a7b08e
+处理 vuln 版本 (d8ae99a7b08e)
+构建目录不存在，开始编译...
+found all functions in objdump: elfcore_grok_nto_status, elfcore_grok_freebsd_psinfo, elfcore_grok_netbsd_note, elfcore_netbsd_get_lwpid
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-17080 ---
+>>> 处理: CVE-2017-17121 (b23dc97fe237) <<<
+保存工作目录和索引状态 WIP on (no branch): d8ae99a7b08 Add Python rbreak command.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d8ae99a7b08 Add Python rbreak command.
+HEAD 目前位于 b23dc97fe23 Fix a memory access violation when attempting to parse a corrupt COFF binary with a relocation that points beyond the end of the section to be relocated.
+命令成功: git checkout b23dc97fe237
+处理 patch 版本 (b23dc97fe237)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 b23dc97fe23 Fix a memory access violation when attempting to parse a corrupt COFF binary with a relocation that points beyond the end of the section to be relocated.
+fatal: 对引用 'HEAD' 执行 update_ref 失败：cannot lock ref 'HEAD': 无法创建 '/home/zhangxb/patch/related-works/CVE-Dataset/target/binutils-gdb/.git/HEAD.lock'：文件已存在。
+
+似乎另外一个 git 进程在这个仓库中运行，例如：'git commit' 命令打
+开了一个编辑器。请确认所有进程都已经关闭然后重试。如果仍然报错，
+可能之前有一个 git 进程在这个仓库中异常退出：
+手动删除这个文件再继续。
+>>> 处理: CVE-2017-17122 (d785b7d4b877) <<<
+保存工作目录和索引状态 WIP on (no branch): b23dc97fe23 Fix a memory access violation when attempting to parse a corrupt COFF binary with a relocation that points beyond the end of the section to be relocated.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 b23dc97fe23 Fix a memory access violation when attempting to parse a corrupt COFF binary with a relocation that points beyond the end of the section to be relocated.
+HEAD 目前位于 d785b7d4b87 Stop objdump from attempting to allocate a huge chunk of memory when parsing relocs in a corrupt file.
+命令成功: git checkout d785b7d4b877
+处理 patch 版本 (d785b7d4b877)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17122-patch-d785b7d4b877-*
+之前的 HEAD 位置是 d785b7d4b87 Stop objdump from attempting to allocate a huge chunk of memory when parsing relocs in a corrupt file.
+HEAD 目前位于 08f650e6b65 ld: Add a testcase for PR ld/22471
+命令成功: git checkout 08f650e6b657
+处理 vuln 版本 (08f650e6b657)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17122-vuln-08f650e6b657-*
+--- 完成处理: CVE-2017-17122 ---
+>>> 处理: CVE-2017-17123 (e6b6fad2fe4d) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 08f650e6b65 ld: Add a testcase for PR ld/22471
+HEAD 目前位于 e6b6fad2fe4 PR22509 - Null pointer dereference on coff_slurp_reloc_table
+命令成功: git checkout e6b6fad2fe4d
+处理 patch 版本 (e6b6fad2fe4d)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 e6b6fad2fe4 PR22509 - Null pointer dereference on coff_slurp_reloc_table
+HEAD 目前位于 d499fb89448 asan: NULL deref in filter_symbols
+命令成功: git checkout d499fb89448c
+处理 vuln 版本 (d499fb89448c)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-17123 ---
+>>> 处理: CVE-2017-17124 (b0029dce6867) <<<
+保存工作目录和索引状态 WIP on (no branch): d499fb89448 asan: NULL deref in filter_symbols
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d499fb89448 asan: NULL deref in filter_symbols
+HEAD 目前位于 b0029dce686 Prevent a memory exhaustion problem when trying to read in strings from a COFF binary with a corrupt string table size.
+命令成功: git checkout b0029dce6867
+处理 patch 版本 (b0029dce6867)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17124-patch-b0029dce6867-*
+之前的 HEAD 位置是 b0029dce686 Prevent a memory exhaustion problem when trying to read in strings from a COFF binary with a corrupt string table size.
+HEAD 目前位于 ff174d3ffad gold: Add a newline at end of pr22266_a.c
+命令成功: git checkout ff174d3ffad1
+处理 vuln 版本 (ff174d3ffad1)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17124-vuln-ff174d3ffad1-*
+--- 完成处理: CVE-2017-17124 ---
+>>> 处理: CVE-2017-17125 (160b1a618ad9) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ff174d3ffad gold: Add a newline at end of pr22266_a.c
+HEAD 目前位于 160b1a618ad PR22443, Global buffer overflow in _bfd_elf_get_symbol_version_string
+命令成功: git checkout 160b1a618ad9
+处理 patch 版本 (160b1a618ad9)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 160b1a618ad PR22443, Global buffer overflow in _bfd_elf_get_symbol_version_string
+HEAD 目前位于 c977a5f0280 Automatic date update in version.in
+命令成功: git checkout c977a5f0280f
+处理 vuln 版本 (c977a5f0280f)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-17125 ---
+>>> 处理: CVE-2017-17126 (f425ec6600b6) <<<
+保存工作目录和索引状态 WIP on (no branch): c977a5f0280 Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c977a5f0280 Automatic date update in version.in
+HEAD 目前位于 f425ec6600b Prevent an illegal memory access in readelf when attempting to parse a corrupt ELF file.
+命令成功: git checkout f425ec6600b6
+处理 patch 版本 (f425ec6600b6)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17126-patch-f425ec6600b6-*
+之前的 HEAD 位置是 f425ec6600b Prevent an illegal memory access in readelf when attempting to parse a corrupt ELF file.
+HEAD 目前位于 e8020e54f4b Fix sol-thread.c compilation on Solaris
+命令成功: git checkout e8020e54f4b9
+处理 vuln 版本 (e8020e54f4b9)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-17126-vuln-e8020e54f4b9-*
+--- 完成处理: CVE-2017-17126 ---
+>>> 处理: CVE-2017-6965 (03f7786e2f44) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 e8020e54f4b Fix sol-thread.c compilation on Solaris
+HEAD 目前位于 03f7786e2f4 Fix readelf writing to illegal addresses whilst processing corrupt input files containing symbol-difference relocations.
+命令成功: git checkout 03f7786e2f44
+处理 patch 版本 (03f7786e2f44)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 03f7786e2f4 Fix readelf writing to illegal addresses whilst processing corrupt input files containing symbol-difference relocations.
+HEAD 目前位于 13a590ca65f sim: use ARRAY_SIZE instead of ad-hoc sizeof calculations
+命令成功: git checkout 13a590ca65f7
+处理 vuln 版本 (13a590ca65f7)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-6965 ---
+>>> 处理: CVE-2017-6966 (f84ce13b6708) <<<
+保存工作目录和索引状态 WIP on (no branch): 13a590ca65f sim: use ARRAY_SIZE instead of ad-hoc sizeof calculations
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 13a590ca65f sim: use ARRAY_SIZE instead of ad-hoc sizeof calculations
+HEAD 目前位于 f84ce13b670 Fix read-after-free error in readelf when processing multiple, relocated sections in an MSP430 binary.
+命令成功: git checkout f84ce13b6708
+处理 patch 版本 (f84ce13b6708)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 f84ce13b670 Fix read-after-free error in readelf when processing multiple, relocated sections in an MSP430 binary.
+HEAD 目前位于 5cf30ebf64d Improve load command's help text
+命令成功: git checkout 5cf30ebf64d3
+处理 vuln 版本 (5cf30ebf64d3)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-6966 ---
+>>> 处理: CVE-2017-6969 (b32e566ba6ee) <<<
+保存工作目录和索引状态 WIP on (no branch): 5cf30ebf64d Improve load command's help text
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5cf30ebf64d Improve load command's help text
+HEAD 目前位于 b32e566ba6e Fix illegal memory access problems with readelf processing corrupt RL78 binaries.
+命令成功: git checkout b32e566ba6ee
+处理 patch 版本 (b32e566ba6ee)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 b32e566ba6e Fix illegal memory access problems with readelf processing corrupt RL78 binaries.
+HEAD 目前位于 7e0de605cba PowerPC register expression checks
+命令成功: git checkout 7e0de605cbac
+处理 vuln 版本 (7e0de605cbac)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-6969 ---
+>>> 处理: CVE-2017-7209 (f055032e4e92) <<<
+保存工作目录和索引状态 WIP on (no branch): 7e0de605cba PowerPC register expression checks
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 7e0de605cba PowerPC register expression checks
+HEAD 目前位于 f055032e4e9 Fix invalid read of section contents whilst processing a corrupt binary.
+命令成功: git checkout f055032e4e92
+处理 patch 版本 (f055032e4e92)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 f055032e4e9 Fix invalid read of section contents whilst processing a corrupt binary.
+HEAD 目前位于 ebdf1ebfa55 Fix invalid memory access attempting to read the compression header of a too-small compressed section.
+命令成功: git checkout ebdf1ebfa551
+处理 vuln 版本 (ebdf1ebfa551)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-7209 ---
+>>> 处理: CVE-2017-7210 (a2dea0b20bc6) <<<
+保存工作目录和索引状态 WIP on (no branch): ebdf1ebfa55 Fix invalid memory access attempting to read the compression header of a too-small compressed section.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ebdf1ebfa55 Fix invalid memory access attempting to read the compression header of a too-small compressed section.
+HEAD 目前位于 a2dea0b20bc Fix handling of corrupt STABS enum type strings.
+命令成功: git checkout a2dea0b20bc6
+处理 patch 版本 (a2dea0b20bc6)
+构建目录不存在，开始编译...
+found all functions in objdump: parse_number, parse_stab_enum_type
+找到有效二进制: objdump
+之前的 HEAD 位置是 a2dea0b20bc Fix handling of corrupt STABS enum type strings.
+HEAD 目前位于 b32e566ba6e Fix illegal memory access problems with readelf processing corrupt RL78 binaries.
+命令成功: git checkout b32e566ba6ee
+处理 vuln 版本 (b32e566ba6ee)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-7210 ---
+>>> 处理: CVE-2017-7223 (69ace2200106) <<<
+保存工作目录和索引状态 WIP on (no branch): b32e566ba6e Fix illegal memory access problems with readelf processing corrupt RL78 binaries.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 b32e566ba6e Fix illegal memory access problems with readelf processing corrupt RL78 binaries.
+HEAD 目前位于 69ace220010 Fix seg fault attempting to unget an EOF character.
+命令成功: git checkout 69ace2200106
+处理 patch 版本 (69ace2200106)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 69ace220010 Fix seg fault attempting to unget an EOF character.
+HEAD 目前位于 4cbd84083ea Fix seg-fault printing assembler statistics when the output file was not created.
+命令成功: git checkout 4cbd84083ea8
+处理 vuln 版本 (4cbd84083ea8)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-7223 ---
+>>> 处理: CVE-2017-7299 (d7f399a8de4c) <<<
+保存工作目录和索引状态 WIP on (no branch): 4cbd84083ea Fix seg-fault printing assembler statistics when the output file was not created.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 4cbd84083ea Fix seg-fault printing assembler statistics when the output file was not created.
+HEAD 目前位于 d7f399a8de4 Fix seg-fault in linker when passed a corrupt binary input file.
+命令成功: git checkout d7f399a8de4c
+处理 patch 版本 (d7f399a8de4c)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_elf_final_link
+找到有效二进制: objdump
+之前的 HEAD 位置是 d7f399a8de4 Fix seg-fault in linker when passed a corrupt binary input file.
+HEAD 目前位于 008459ea88a Revert change to gdb.cp/ovldbreak.exp
+命令成功: git checkout 008459ea88ad
+处理 vuln 版本 (008459ea88ad)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_elf_final_link
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-7299 ---
+>>> 处理: CVE-2017-7303 (a55c9876bb11) <<<
+保存工作目录和索引状态 WIP on (no branch): 008459ea88a Revert change to gdb.cp/ovldbreak.exp
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 008459ea88a Revert change to gdb.cp/ovldbreak.exp
+HEAD 目前位于 a55c9876bb1 Fix seg-fault attempting to strip a corrupt binary.
+命令成功: git checkout a55c9876bb11
+处理 patch 版本 (a55c9876bb11)
+构建目录不存在，开始编译...
+found all functions in objdump: find_link
+找到有效二进制: objdump
+之前的 HEAD 位置是 a55c9876bb1 Fix seg-fault attempting to strip a corrupt binary.
+HEAD 目前位于 88add6d8e79 Fix seg-fault running strip on a corrupt binary.
+命令成功: git checkout 88add6d8e794
+处理 vuln 版本 (88add6d8e794)
+构建目录不存在，开始编译...
+found all functions in objdump: find_link
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-7303 ---
+>>> 处理: CVE-2017-7304 (4f3ca05b487e) <<<
+保存工作目录和索引状态 WIP on (no branch): 88add6d8e79 Fix seg-fault running strip on a corrupt binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 88add6d8e79 Fix seg-fault running strip on a corrupt binary.
+HEAD 目前位于 4f3ca05b487 Fix seg-fault in strip when copying a corrupt binary.
+命令成功: git checkout 4f3ca05b487e
+处理 patch 版本 (4f3ca05b487e)
+构建目录不存在，开始编译...
+found all functions in objdump: copy_special_section_fields
+找到有效二进制: objdump
+之前的 HEAD 位置是 4f3ca05b487 Fix seg-fault in strip when copying a corrupt binary.
+HEAD 目前位于 8b929e420a8 Fix seg-fault running strip on a corrupt binary.
+命令成功: git checkout 8b929e420a81
+处理 vuln 版本 (8b929e420a81)
+构建目录不存在，开始编译...
+found all functions in objdump: copy_special_section_fields
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-7304 ---
+>>> 处理: CVE-2017-8392 (97e83a100aa8) <<<
+保存工作目录和索引状态 WIP on (no branch): 8b929e420a8 Fix seg-fault running strip on a corrupt binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8b929e420a8 Fix seg-fault running strip on a corrupt binary.
+HEAD 目前位于 97e83a100aa PR 21409, segfault in _bfd_dwarf2_find_nearest_line
+命令成功: git checkout 97e83a100aa8
+处理 patch 版本 (97e83a100aa8)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_dwarf2_find_nearest_line
+找到有效二进制: objdump
+之前的 HEAD 位置是 97e83a100aa PR 21409, segfault in _bfd_dwarf2_find_nearest_line
+HEAD 目前位于 f082820db96 PR 21408, segfault in display_debug_lines_decoded
+命令成功: git checkout f082820db966
+处理 vuln 版本 (f082820db966)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_dwarf2_find_nearest_line
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8392 ---
+>>> 处理: CVE-2017-8394 (7eacd66b086c) <<<
+保存工作目录和索引状态 WIP on (no branch): f082820db96 PR 21408, segfault in display_debug_lines_decoded
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f082820db96 PR 21408, segfault in display_debug_lines_decoded
+HEAD 目前位于 7eacd66b086 PR 21414, null pointer deref of _bfd_elf_large_com_section sym
+命令成功: git checkout 7eacd66b086c
+处理 patch 版本 (7eacd66b086c)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_elf_get_synthetic_symtab
+找到有效二进制: objdump
+之前的 HEAD 位置是 7eacd66b086 PR 21414, null pointer deref of _bfd_elf_large_com_section sym
+HEAD 目前位于 bce964aa6c7 PR 21412, get_reloc_section assumes .rel/.rela name for SHT_REL/RELA.
+命令成功: git checkout bce964aa6c77
+处理 vuln 版本 (bce964aa6c77)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_elf_get_synthetic_symtab
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8394 ---
+>>> 处理: CVE-2017-8395 (e63d123268f2) <<<
+保存工作目录和索引状态 WIP on (no branch): bce964aa6c7 PR 21412, get_reloc_section assumes .rel/.rela name for SHT_REL/RELA.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 bce964aa6c7 PR 21412, get_reloc_section assumes .rel/.rela name for SHT_REL/RELA.
+HEAD 目前位于 e63d123268f Fix seg-fault attempting to compress a debug section in a corrupt binary.
+命令成功: git checkout e63d123268f2
+处理 patch 版本 (e63d123268f2)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_init_section_compress_status
+找到有效二进制: objdump
+之前的 HEAD 位置是 e63d123268f Fix seg-fault attempting to compress a debug section in a corrupt binary.
+HEAD 目前位于 c185f580b2b xtensa_pseudo_register_read/write - Use regcache_raw_read_unsigned
+命令成功: git checkout c185f580b2b3
+处理 vuln 版本 (c185f580b2b3)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_init_section_compress_status
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8395 ---
+>>> 处理: CVE-2017-8396 (a941291cab71) <<<
+保存工作目录和索引状态 WIP on (no branch): c185f580b2b xtensa_pseudo_register_read/write - Use regcache_raw_read_unsigned
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c185f580b2b xtensa_pseudo_register_read/write - Use regcache_raw_read_unsigned
+HEAD 目前位于 a941291cab7 PR21432, buffer overflow in perform_relocation
+命令成功: git checkout a941291cab71
+处理 patch 版本 (a941291cab71)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_final_link_relocate, bfd_check_overflow, bfd_perform_relocation, bfd_install_relocation
+找到有效二进制: objdump
+之前的 HEAD 位置是 a941291cab7 PR21432, buffer overflow in perform_relocation
+HEAD 目前位于 45ce1b47e44 Make environ.exp run on all platforms (and create info-program.exp)
+命令成功: git checkout 45ce1b47e449
+处理 vuln 版本 (45ce1b47e449)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_final_link_relocate, bfd_check_overflow, bfd_perform_relocation, bfd_install_relocation
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8396 ---
+>>> 处理: CVE-2017-8397 (04b31182bf3f) <<<
+保存工作目录和索引状态 WIP on (no branch): 45ce1b47e44 Make environ.exp run on all platforms (and create info-program.exp)
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 45ce1b47e44 Make environ.exp run on all platforms (and create info-program.exp)
+HEAD 目前位于 04b31182bf3 Fix a seg-fault when processing a corrupt binary containing reloc(s) with negative addresses.
+命令成功: git checkout 04b31182bf3f
+处理 patch 版本 (04b31182bf3f)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_perform_relocation
+找到有效二进制: objdump
+之前的 HEAD 位置是 04b31182bf3 Fix a seg-fault when processing a corrupt binary containing reloc(s) with negative addresses.
+HEAD 目前位于 d21f3ddb0d5 Fix PR number in ChangeLog comment.
+命令成功: git checkout d21f3ddb0d5f
+处理 vuln 版本 (d21f3ddb0d5f)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_perform_relocation
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8397 ---
+>>> 处理: CVE-2017-8398 (d949ff5607b9) <<<
+保存工作目录和索引状态 WIP on (no branch): d21f3ddb0d5 Fix PR number in ChangeLog comment.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d21f3ddb0d5 Fix PR number in ChangeLog comment.
+HEAD 目前位于 d949ff5607b Fix heap-buffer overflow bugs caused when dumping debug information from a corrupt binary.
+命令成功: git checkout d949ff5607b9
+处理 patch 版本 (d949ff5607b9)
+构建目录不存在，开始编译...
+found all functions in objdump: process_extended_line_op, fetch_indexed_string
+找到有效二进制: objdump
+之前的 HEAD 位置是 d949ff5607b Fix heap-buffer overflow bugs caused when dumping debug information from a corrupt binary.
+HEAD 目前位于 339053c29ab Use ptid method lwp in mips_linux_new_thread
+命令成功: git checkout 339053c29aba
+处理 vuln 版本 (339053c29aba)
+构建目录不存在，开始编译...
+found all functions in objdump: process_extended_line_op, fetch_indexed_string
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8398 ---
+>>> 处理: CVE-2017-8421 (39ff1b79f687) <<<
+保存工作目录和索引状态 WIP on (no branch): 339053c29ab Use ptid method lwp in mips_linux_new_thread
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 339053c29ab Use ptid method lwp in mips_linux_new_thread
+HEAD 目前位于 39ff1b79f68 Prevent memory exhaustion from a corrupt PE binary with an overlarge number of relocs.
+命令成功: git checkout 39ff1b79f687
+处理 patch 版本 (39ff1b79f687)
+构建目录不存在，开始编译...
+found all functions in objdump: dump_relocs_in_section
+找到有效二进制: objdump
+之前的 HEAD 位置是 39ff1b79f68 Prevent memory exhaustion from a corrupt PE binary with an overlarge number of relocs.
+HEAD 目前位于 d050f7d7f47 Python: Introduce gdb.Instruction class
+命令成功: git checkout d050f7d7f474
+处理 vuln 版本 (d050f7d7f474)
+构建目录不存在，开始编译...
+found all functions in objdump: dump_relocs_in_section
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-8421 ---
+>>> 处理: CVE-2017-9038 (f32ba72991d2) <<<
+保存工作目录和索引状态 WIP on (no branch): d050f7d7f47 Python: Introduce gdb.Instruction class
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d050f7d7f47 Python: Introduce gdb.Instruction class
+HEAD 目前位于 f32ba72991d readelf: Update check for invalid word offsets in ARM unwind information.
+命令成功: git checkout f32ba72991d2
+处理 patch 版本 (f32ba72991d2)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 f32ba72991d readelf: Update check for invalid word offsets in ARM unwind information.
+HEAD 目前位于 12bfb8fec32 Automatic date update in version.in
+命令成功: git checkout 12bfb8fec326
+处理 vuln 版本 (12bfb8fec326)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-9038 ---
+>>> 处理: CVE-2017-9039 (82156ab704b0) <<<
+保存工作目录和索引状态 WIP on (no branch): 12bfb8fec32 Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 12bfb8fec32 Automatic date update in version.in
+HEAD 目前位于 82156ab704b readelf: Fix overlarge memory allocation when reading a binary with an excessive number of program headers.
+命令成功: git checkout 82156ab704b0
+处理 patch 版本 (82156ab704b0)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 82156ab704b readelf: Fix overlarge memory allocation when reading a binary with an excessive number of program headers.
+HEAD 目前位于 75ec1fdbb79 Fix runtime seg-fault in readelf when parsing a corrupt MIPS binary.
+命令成功: git checkout 75ec1fdbb797
+处理 vuln 版本 (75ec1fdbb797)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-9039 ---
+>>> 处理: CVE-2017-9040 (7296a62a2a23) <<<
+保存工作目录和索引状态 WIP on (no branch): 75ec1fdbb79 Fix runtime seg-fault in readelf when parsing a corrupt MIPS binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 75ec1fdbb79 Fix runtime seg-fault in readelf when parsing a corrupt MIPS binary.
+HEAD 目前位于 7296a62a2a2 readelf: fix out of range subtraction, seg fault from a NULL pointer and memory exhaustion, all from parsing corrupt binaries.
+命令成功: git checkout 7296a62a2a23
+处理 patch 版本 (7296a62a2a23)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+之前的 HEAD 位置是 7296a62a2a2 readelf: fix out of range subtraction, seg fault from a NULL pointer and memory exhaustion, all from parsing corrupt binaries.
+HEAD 目前位于 1d15e434f43 Add note merging to strip and add code to merge stack size notes.
+命令成功: git checkout 1d15e434f43b
+处理 vuln 版本 (1d15e434f43b)
+构建目录不存在，开始编译...
+找到有效二进制: readelf
+--- 完成处理: CVE-2017-9040 ---
+>>> 处理: CVE-2017-9041 (75ec1fdbb797) <<<
+保存工作目录和索引状态 WIP on (no branch): 1d15e434f43 Add note merging to strip and add code to merge stack size notes.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 1d15e434f43 Add note merging to strip and add code to merge stack size notes.
+HEAD 目前位于 75ec1fdbb79 Fix runtime seg-fault in readelf when parsing a corrupt MIPS binary.
+命令成功: git checkout 75ec1fdbb797
+处理 patch 版本 (75ec1fdbb797)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 75ec1fdbb79 Fix runtime seg-fault in readelf when parsing a corrupt MIPS binary.
+HEAD 目前位于 f32ba72991d readelf: Update check for invalid word offsets in ARM unwind information.
+命令成功: git checkout f32ba72991d2
+处理 vuln 版本 (f32ba72991d2)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-9041 ---
+>>> 处理: CVE-2017-9042 (7296a62a2a23) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f32ba72991d readelf: Update check for invalid word offsets in ARM unwind information.
+HEAD 目前位于 7296a62a2a2 readelf: fix out of range subtraction, seg fault from a NULL pointer and memory exhaustion, all from parsing corrupt binaries.
+命令成功: git checkout 7296a62a2a23
+处理 patch 版本 (7296a62a2a23)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 7296a62a2a2 readelf: fix out of range subtraction, seg fault from a NULL pointer and memory exhaustion, all from parsing corrupt binaries.
+HEAD 目前位于 1d15e434f43 Add note merging to strip and add code to merge stack size notes.
+命令成功: git checkout 1d15e434f43b
+处理 vuln 版本 (1d15e434f43b)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-9042 ---
+跳过已处理的CVE: CVE-2017-9042
+>>> 处理: CVE-2017-9043 (ddef72cdc10d) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 1d15e434f43 Add note merging to strip and add code to merge stack size notes.
+HEAD 目前位于 ddef72cdc10 Fix shift overflow when parsing an overlarge note value.
+命令成功: git checkout ddef72cdc10d
+处理 patch 版本 (ddef72cdc10d)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-9043-patch-ddef72cdc10d-*
+之前的 HEAD 位置是 ddef72cdc10 Fix shift overflow when parsing an overlarge note value.
+HEAD 目前位于 792f174f8af Fix detection of illegal AArch64 opcodes that resemble LD1R, LD2R, LD3R and LD4R.
+命令成功: git checkout 792f174f8af4
+处理 vuln 版本 (792f174f8af4)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2017-9043-vuln-792f174f8af4-*
+--- 完成处理: CVE-2017-9043 ---
+>>> 处理: CVE-2017-9744 (f461bbd847f1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 792f174f8af Fix detection of illegal AArch64 opcodes that resemble LD1R, LD2R, LD3R and LD4R.
+HEAD 目前位于 f461bbd847f Fix address violation bug when disassembling a corrupt SH binary.
+命令成功: git checkout f461bbd847f1
+处理 patch 版本 (f461bbd847f1)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 f461bbd847f Fix address violation bug when disassembling a corrupt SH binary.
+HEAD 目前位于 ae87f7e73eb Fix address violation when disassembling a corrupt binary.
+命令成功: git checkout ae87f7e73eba
+处理 vuln 版本 (ae87f7e73eba)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9744 ---
+>>> 处理: CVE-2017-9745 (76800cba595e) <<<
+保存工作目录和索引状态 WIP on (no branch): ae87f7e73eb Fix address violation when disassembling a corrupt binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ae87f7e73eb Fix address violation when disassembling a corrupt binary.
+HEAD 目前位于 76800cba595 Handle EITR records in VMS Alpha binaries with overlarge command length parameters.
+命令成功: git checkout 76800cba595e
+处理 patch 版本 (76800cba595e)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 76800cba595 Handle EITR records in VMS Alpha binaries with overlarge command length parameters.
+HEAD 目前位于 08c7881b814 Prevent invalid array accesses when disassembling a corrupt bfin binary.
+命令成功: git checkout 08c7881b814c
+处理 vuln 版本 (08c7881b814c)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9745 ---
+>>> 处理: CVE-2017-9746 (ae87f7e73eba) <<<
+保存工作目录和索引状态 WIP on (no branch): 08c7881b814 Prevent invalid array accesses when disassembling a corrupt bfin binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 08c7881b814 Prevent invalid array accesses when disassembling a corrupt bfin binary.
+HEAD 目前位于 ae87f7e73eb Fix address violation when disassembling a corrupt binary.
+命令成功: git checkout ae87f7e73eba
+处理 patch 版本 (ae87f7e73eba)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 ae87f7e73eb Fix address violation when disassembling a corrupt binary.
+HEAD 目前位于 6394c606997 Don't use print_insn_XXX in GDB
+命令成功: git checkout 6394c606997f
+处理 vuln 版本 (6394c606997f)
+构建目录不存在，开始编译...
+found all functions in objdump: disassemble_bytes
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-9746 ---
+>>> 处理: CVE-2017-9747 (62b76e4b6e0b) <<<
+保存工作目录和索引状态 WIP on (no branch): 6394c606997 Don't use print_insn_XXX in GDB
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 6394c606997 Don't use print_insn_XXX in GDB
+HEAD 目前位于 62b76e4b6e0 Fix address violation parsing a corrupt ieee binary.
+命令成功: git checkout 62b76e4b6e0b
+处理 patch 版本 (62b76e4b6e0b)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 62b76e4b6e0 Fix address violation parsing a corrupt ieee binary.
+HEAD 目前位于 63634bb4a10 Avoid a possible compiler bug by using a static buffer instead of a stack local buffer.
+命令成功: git checkout 63634bb4a107
+处理 vuln 版本 (63634bb4a107)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9747 ---
+>>> 处理: CVE-2017-9748 (63634bb4a107) <<<
+保存工作目录和索引状态 WIP on (no branch): 63634bb4a10 Avoid a possible compiler bug by using a static buffer instead of a stack local buffer.
+命令成功: git stash --include-untracked
+HEAD 目前位于 63634bb4a10 Avoid a possible compiler bug by using a static buffer instead of a stack local buffer.
+命令成功: git checkout 63634bb4a107
+处理 patch 版本 (63634bb4a107)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 63634bb4a10 Avoid a possible compiler bug by using a static buffer instead of a stack local buffer.
+HEAD 目前位于 63323b5b23b Fix address violation when disassembling a corrupt RL78 binary.
+命令成功: git checkout 63323b5b23bd
+处理 vuln 版本 (63323b5b23bd)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9748 ---
+>>> 处理: CVE-2017-9752 (c53d2e6d744d) <<<
+保存工作目录和索引状态 WIP on (no branch): 63323b5b23b Fix address violation when disassembling a corrupt RL78 binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 63323b5b23b Fix address violation when disassembling a corrupt RL78 binary.
+HEAD 目前位于 c53d2e6d744 Fix potential address violations when processing a corrupt Alpha VMA binary.
+命令成功: git checkout c53d2e6d744d
+处理 patch 版本 (c53d2e6d744d)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 c53d2e6d744 Fix potential address violations when processing a corrupt Alpha VMA binary.
+HEAD 目前位于 d5722aa2fe9 Introduce gdb::byte_vector, add allocator that default-initializes
+命令成功: git checkout d5722aa2fe9e
+处理 vuln 版本 (d5722aa2fe9e)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9752 ---
+>>> 处理: CVE-2017-9753 (04f963fd489c) <<<
+保存工作目录和索引状态 WIP on (no branch): d5722aa2fe9 Introduce gdb::byte_vector, add allocator that default-initializes
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d5722aa2fe9 Introduce gdb::byte_vector, add allocator that default-initializes
+HEAD 目前位于 04f963fd489 Fix seg-faults in objdump when disassembling a corrupt versados binary.
+命令成功: git checkout 04f963fd489c
+处理 patch 版本 (04f963fd489c)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 04f963fd489 Fix seg-faults in objdump when disassembling a corrupt versados binary.
+HEAD 目前位于 319c2dbe240 Accept more epiphany targets
+命令成功: git checkout 319c2dbe240a
+处理 vuln 版本 (319c2dbe240a)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2017-9753 ---
+>>> 处理: CVE-2017-9754 (04f963fd489c) <<<
+保存工作目录和索引状态 WIP on (no branch): 319c2dbe240 Accept more epiphany targets
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 319c2dbe240 Accept more epiphany targets
+HEAD 目前位于 04f963fd489 Fix seg-faults in objdump when disassembling a corrupt versados binary.
+命令成功: git checkout 04f963fd489c
+处理 patch 版本 (04f963fd489c)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 04f963fd489 Fix seg-faults in objdump when disassembling a corrupt versados binary.
+HEAD 目前位于 319c2dbe240 Accept more epiphany targets
+命令成功: git checkout 319c2dbe240a
+处理 vuln 版本 (319c2dbe240a)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-9754 ---
+>>> 处理: CVE-2017-9756 (cd3ea7c69acc) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 319c2dbe240 Accept more epiphany targets
+HEAD 目前位于 cd3ea7c69ac Prevent address violation problem when disassembling corrupt aarch64 binary.
+命令成功: git checkout cd3ea7c69acc
+处理 patch 版本 (cd3ea7c69acc)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 cd3ea7c69ac Prevent address violation problem when disassembling corrupt aarch64 binary.
+HEAD 目前位于 62b76e4b6e0 Fix address violation parsing a corrupt ieee binary.
+命令成功: git checkout 62b76e4b6e0b
+处理 vuln 版本 (62b76e4b6e0b)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2017-9756 ---
+>>> 处理: CVE-2017-9954 (04e15b4a9462) <<<
+保存工作目录和索引状态 WIP on (no branch): 62b76e4b6e0 Fix address violation parsing a corrupt ieee binary.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 62b76e4b6e0 Fix address violation parsing a corrupt ieee binary.
+HEAD 目前位于 04e15b4a946 Fix address violation parsing a corrupt texhex format file.
+命令成功: git checkout 04e15b4a9462
+处理 patch 版本 (04e15b4a9462)
+构建目录不存在，开始编译...
+found all functions in objdump: pass_over, getvalue
+找到有效二进制: objdump
+之前的 HEAD 位置是 04e15b4a946 Fix address violation parsing a corrupt texhex format file.
+HEAD 目前位于 cfd14a500e0 Fix address violations when atempting to parse fuzzed binaries.
+命令成功: git checkout cfd14a500e04
+处理 vuln 版本 (cfd14a500e04)
+构建目录不存在，开始编译...
+found all functions in objdump: pass_over, getvalue
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-9954 ---
+>>> 处理: CVE-2017-9955 (0630b49c470c) <<<
+保存工作目录和索引状态 WIP on (no branch): cfd14a500e0 Fix address violations when atempting to parse fuzzed binaries.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cfd14a500e0 Fix address violations when atempting to parse fuzzed binaries.
+HEAD 目前位于 0630b49c470 Check file size before getting section contents
+命令成功: git checkout 0630b49c470c
+处理 patch 版本 (0630b49c470c)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_generic_get_section_contents, bfd_get_full_section_contents
+找到有效二进制: objdump
+之前的 HEAD 位置是 0630b49c470 Check file size before getting section contents
+HEAD 目前位于 515a4464176 LD: Fix .startof.SECNAME/.sizeof.SECNAME tests for MIPS/IRIX
+命令成功: git checkout 515a4464176e
+处理 vuln 版本 (515a4464176e)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_generic_get_section_contents, bfd_get_full_section_contents
+找到有效二进制: objdump
+--- 完成处理: CVE-2017-9955 ---
+>>> 处理: CVE-2018-1000876 (3a551c7a1b80) <<<
+保存工作目录和索引状态 WIP on (no branch): 515a4464176 LD: Fix .startof.SECNAME/.sizeof.SECNAME tests for MIPS/IRIX
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 515a4464176 LD: Fix .startof.SECNAME/.sizeof.SECNAME tests for MIPS/IRIX
+HEAD 目前位于 3a551c7a1b8 PR23994, libbfd integer overflow
+命令成功: git checkout 3a551c7a1b80
+处理 patch 版本 (3a551c7a1b80)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-1000876-patch-3a551c7a1b80-*
+之前的 HEAD 位置是 3a551c7a1b8 PR23994, libbfd integer overflow
+HEAD 目前位于 40b9228581b Automatic date update in version.in
+命令成功: git checkout 40b9228581bb
+处理 vuln 版本 (40b9228581bb)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-1000876-vuln-40b9228581bb-*
+--- 完成处理: CVE-2018-1000876 ---
+>>> 处理: CVE-2018-10372 (6aea08d9f3e3) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 40b9228581b Automatic date update in version.in
+HEAD 目前位于 6aea08d9f3e Fix illegal memory access when parsing corrupt DWARF information.
+命令成功: git checkout 6aea08d9f3e3
+处理 patch 版本 (6aea08d9f3e3)
+构建目录不存在，开始编译...
+found all functions in objdump: process_cu_tu_index
+找到有效二进制: objdump
+之前的 HEAD 位置是 6aea08d9f3e Fix illegal memory access when parsing corrupt DWARF information.
+HEAD 目前位于 c48935d75f7 Enable Intel CLDEMOTE instruction.
+命令成功: git checkout c48935d75f72
+处理 vuln 版本 (c48935d75f72)
+构建目录不存在，开始编译...
+found all functions in objdump: process_cu_tu_index
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-10372 ---
+>>> 处理: CVE-2018-10373 (6327533b1fd2) <<<
+保存工作目录和索引状态 WIP on (no branch): c48935d75f7 Enable Intel CLDEMOTE instruction.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c48935d75f7 Enable Intel CLDEMOTE instruction.
+HEAD 目前位于 6327533b1fd Add a check for a NULL table pointer before attempting to compute a DWARF filename.
+命令成功: git checkout 6327533b1fd2
+处理 patch 版本 (6327533b1fd2)
+构建目录不存在，开始编译...
+found all functions in objdump: concat_filename
+找到有效二进制: objdump
+之前的 HEAD 位置是 6327533b1fd Add a check for a NULL table pointer before attempting to compute a DWARF filename.
+HEAD 目前位于 e9301e762ab Resync libiberty sources with master version in GCC repository.
+命令成功: git checkout e9301e762ab6
+处理 vuln 版本 (e9301e762ab6)
+构建目录不存在，开始编译...
+found all functions in objdump: concat_filename
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-10373 ---
+>>> 处理: CVE-2018-10534 (aa4a8c2a2a67) <<<
+保存工作目录和索引状态 WIP on (no branch): e9301e762ab Resync libiberty sources with master version in GCC repository.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 e9301e762ab Resync libiberty sources with master version in GCC repository.
+HEAD 目前位于 aa4a8c2a2a6 Fix an illegal memory access when copying a PE format file with corrupt debug information.
+命令成功: git checkout aa4a8c2a2a67
+处理 patch 版本 (aa4a8c2a2a67)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 aa4a8c2a2a6 Fix an illegal memory access when copying a PE format file with corrupt debug information.
+HEAD 目前位于 0a8ddac418d info-shared.exp: Replace libs=-ldl with shlib_load
+命令成功: git checkout 0a8ddac418d3
+处理 vuln 版本 (0a8ddac418d3)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2018-10534 ---
+>>> 处理: CVE-2018-10535 (db0c309f4011) <<<
+保存工作目录和索引状态 WIP on (no branch): 0a8ddac418d info-shared.exp: Replace libs=-ldl with shlib_load
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0a8ddac418d info-shared.exp: Replace libs=-ldl with shlib_load
+HEAD 目前位于 db0c309f401 Fix an illegal memory access when trying to copy an ELF binary with corrupt section symbols.
+命令成功: git checkout db0c309f4011
+处理 patch 版本 (db0c309f4011)
+构建目录不存在，开始编译...
+found all functions in objdump: ignore_section_sym
+找到有效二进制: objdump
+之前的 HEAD 位置是 db0c309f401 Fix an illegal memory access when trying to copy an ELF binary with corrupt section symbols.
+HEAD 目前位于 aa4a8c2a2a6 Fix an illegal memory access when copying a PE format file with corrupt debug information.
+命令成功: git checkout aa4a8c2a2a67
+处理 vuln 版本 (aa4a8c2a2a67)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2018-10535 ---
+>>> 处理: CVE-2018-17358 (0bbd2b1ad042) <<<
+保存工作目录和索引状态 WIP on (no branch): aa4a8c2a2a6 Fix an illegal memory access when copying a PE format file with corrupt debug information.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 aa4a8c2a2a6 Fix an illegal memory access when copying a PE format file with corrupt debug information.
+HEAD 目前位于 0bbd2b1ad04 Re: Bug 23686, two segment faults in nm
+命令成功: git checkout 0bbd2b1ad042
+处理 patch 版本 (0bbd2b1ad042)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_stab_section_find_nearest_line
+找到有效二进制: objdump
+之前的 HEAD 位置是 0bbd2b1ad04 Re: Bug 23686, two segment faults in nm
+HEAD 目前位于 cb3f0ff4795 coffcode.h handle_COMDAT tidy
+命令成功: git checkout cb3f0ff47953
+处理 vuln 版本 (cb3f0ff47953)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_stab_section_find_nearest_line
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-17358 ---
+>>> 处理: CVE-2018-17359 (0bbd2b1ad042) <<<
+保存工作目录和索引状态 WIP on (no branch): cb3f0ff4795 coffcode.h handle_COMDAT tidy
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cb3f0ff4795 coffcode.h handle_COMDAT tidy
+HEAD 目前位于 0bbd2b1ad04 Re: Bug 23686, two segment faults in nm
+命令成功: git checkout 0bbd2b1ad042
+处理 patch 版本 (0bbd2b1ad042)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 0bbd2b1ad04 Re: Bug 23686, two segment faults in nm
+HEAD 目前位于 cb3f0ff4795 coffcode.h handle_COMDAT tidy
+命令成功: git checkout cb3f0ff47953
+处理 vuln 版本 (cb3f0ff47953)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2018-17359 ---
+>>> 处理: CVE-2018-17360 (cf93e9c2cf8f) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cb3f0ff4795 coffcode.h handle_COMDAT tidy
+HEAD 目前位于 cf93e9c2cf8 PR23685, buffer overflow
+命令成功: git checkout cf93e9c2cf8f
+处理 patch 版本 (cf93e9c2cf8f)
+构建目录不存在，开始编译...
+found all functions in objdump: pe_print_edata
+找到有效二进制: objdump
+之前的 HEAD 位置是 cf93e9c2cf8 PR23685, buffer overflow
+HEAD 目前位于 4206c05ea15 Provide pid_to_exec_file on Solaris (PR tdep/17903)
+命令成功: git checkout 4206c05ea154
+处理 vuln 版本 (4206c05ea154)
+构建目录不存在，开始编译...
+found all functions in objdump: pe_print_edata
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-17360 ---
+>>> 处理: CVE-2018-18309 (0930cb3021b8) <<<
+保存工作目录和索引状态 WIP on (no branch): 4206c05ea15 Provide pid_to_exec_file on Solaris (PR tdep/17903)
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 4206c05ea15 Provide pid_to_exec_file on Solaris (PR tdep/17903)
+HEAD 目前位于 0930cb3021b _bfd_clear_contents bounds checking
+命令成功: git checkout 0930cb3021b8
+处理 patch 版本 (0930cb3021b8)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 0930cb3021b _bfd_clear_contents bounds checking
+HEAD 目前位于 2bf2bf23da5 ELF ld -r scripts
+命令成功: git checkout 2bf2bf23da52
+处理 vuln 版本 (2bf2bf23da52)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2018-18309 ---
+>>> 处理: CVE-2018-18605 (ab419ddbb2cd) <<<
+保存工作目录和索引状态 WIP on (no branch): 2bf2bf23da5 ELF ld -r scripts
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 2bf2bf23da5 ELF ld -r scripts
+HEAD 目前位于 ab419ddbb2c PR23804, buffer overflow in sec_merge_hash_lookup
+命令成功: git checkout ab419ddbb2cd
+处理 patch 版本 (ab419ddbb2cd)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18605-patch-ab419ddbb2cd-*
+之前的 HEAD 位置是 ab419ddbb2c PR23804, buffer overflow in sec_merge_hash_lookup
+HEAD 目前位于 8e3152af14a alpha testsuite fixes
+命令成功: git checkout 8e3152af14a9
+处理 vuln 版本 (8e3152af14a9)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18605-vuln-8e3152af14a9-*
+--- 完成处理: CVE-2018-18605 ---
+>>> 处理: CVE-2018-18606 (45a0eaf77022) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8e3152af14a alpha testsuite fixes
+HEAD 目前位于 45a0eaf7702 PR23806, NULL pointer dereference in merge_strings
+命令成功: git checkout 45a0eaf77022
+处理 patch 版本 (45a0eaf77022)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18606-patch-45a0eaf77022-*
+之前的 HEAD 位置是 45a0eaf7702 PR23806, NULL pointer dereference in merge_strings
+HEAD 目前位于 102def4da82 PR23805, NULL pointer dereference in elf_link_input_bfd
+命令成功: git checkout 102def4da826
+处理 vuln 版本 (102def4da826)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18606-vuln-102def4da826-*
+--- 完成处理: CVE-2018-18606 ---
+>>> 处理: CVE-2018-18607 (102def4da826) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+HEAD 目前位于 102def4da82 PR23805, NULL pointer dereference in elf_link_input_bfd
+命令成功: git checkout 102def4da826
+处理 patch 版本 (102def4da826)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18607-patch-102def4da826-*
+之前的 HEAD 位置是 102def4da82 PR23805, NULL pointer dereference in elf_link_input_bfd
+HEAD 目前位于 ab419ddbb2c PR23804, buffer overflow in sec_merge_hash_lookup
+命令成功: git checkout ab419ddbb2cd
+处理 vuln 版本 (ab419ddbb2cd)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-18607-vuln-ab419ddbb2cd-*
+--- 完成处理: CVE-2018-18607 ---
+>>> 处理: CVE-2018-19931 (a26a013f22a1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ab419ddbb2c PR23804, buffer overflow in sec_merge_hash_lookup
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2018-19931 ---
+>>> 处理: CVE-2018-19932 (beab45322376) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 beab4532237 Remove an abort in the bfd library and add a check for an integer overflow when mapping sections to segments.
+命令成功: git checkout beab45322376
+处理 patch 版本 (beab45322376)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-19932-patch-beab45322376-*
+之前的 HEAD 位置是 beab4532237 Remove an abort in the bfd library and add a check for an integer overflow when mapping sections to segments.
+HEAD 目前位于 ba85c15dabe PR23937, powerpc64le local ifunc IRELATIVE relocs are wrong
+命令成功: git checkout ba85c15dabe1
+处理 vuln 版本 (ba85c15dabe1)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-19932-vuln-ba85c15dabe1-*
+--- 完成处理: CVE-2018-19932 ---
+>>> 处理: CVE-2018-20002 (c2f5dc30afa3) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ba85c15dabe PR23937, powerpc64le local ifunc IRELATIVE relocs are wrong
+HEAD 目前位于 c2f5dc30afa PR23952, memory leak in _bfd_generic_read_minisymbols
+命令成功: git checkout c2f5dc30afa3
+处理 patch 版本 (c2f5dc30afa3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20002-patch-c2f5dc30afa3-*
+之前的 HEAD 位置是 c2f5dc30afa PR23952, memory leak in _bfd_generic_read_minisymbols
+HEAD 目前位于 af03af8f55f Synchronize libiberty with gcc and add --no-recruse-limit option to tools that support name demangling.
+命令成功: git checkout af03af8f55f2
+处理 vuln 版本 (af03af8f55f2)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20002-vuln-af03af8f55f2-*
+--- 完成处理: CVE-2018-20002 ---
+>>> 处理: CVE-2018-20651 (54025d5812ff) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 af03af8f55f Synchronize libiberty with gcc and add --no-recruse-limit option to tools that support name demangling.
+HEAD 目前位于 54025d5812f PR24041, Invalid Memory Address Dereference in elf_link_add_object_symbols
+命令成功: git checkout 54025d5812ff
+处理 patch 版本 (54025d5812ff)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20651-patch-54025d5812ff-*
+之前的 HEAD 位置是 54025d5812f PR24041, Invalid Memory Address Dereference in elf_link_add_object_symbols
+HEAD 目前位于 c96e057398b [PowerPC64] Nop out ld 2,24(1) after old-style __tls_get_addr
+命令成功: git checkout c96e057398b5
+处理 vuln 版本 (c96e057398b5)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20651-vuln-c96e057398b5-*
+--- 完成处理: CVE-2018-20651 ---
+>>> 处理: CVE-2018-20671 (11fa9f134fd6) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c96e057398b [PowerPC64] Nop out ld 2,24(1) after old-style __tls_get_addr
+HEAD 目前位于 11fa9f134fd Fix a possible integer overflow problem when examining corrupt binaries using a 32-bit binutil.
+命令成功: git checkout 11fa9f134fd6
+处理 patch 版本 (11fa9f134fd6)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20671-patch-11fa9f134fd6-*
+之前的 HEAD 位置是 11fa9f134fd Fix a possible integer overflow problem when examining corrupt binaries using a 32-bit binutil.
+HEAD 目前位于 cf0ad5bbf2d Fix ridiculously small memory leak.
+命令成功: git checkout cf0ad5bbf2d3
+处理 vuln 版本 (cf0ad5bbf2d3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-20671-vuln-cf0ad5bbf2d3-*
+--- 完成处理: CVE-2018-20671 ---
+>>> 处理: CVE-2018-6543 (f2023ce7e8d7) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cf0ad5bbf2d Fix ridiculously small memory leak.
+HEAD 目前位于 f2023ce7e8d PR22769, crash when running 32-bit objdump on corrupted file
+命令成功: git checkout f2023ce7e8d7
+处理 patch 版本 (f2023ce7e8d7)
+构建目录不存在，开始编译...
+found all functions in objdump: load_specific_debug_section
+找到有效二进制: objdump
+之前的 HEAD 位置是 f2023ce7e8d PR22769, crash when running 32-bit objdump on corrupted file
+HEAD 目前位于 35f48e217ab Automatic date update in version.in
+命令成功: git checkout 35f48e217ab6
+处理 vuln 版本 (35f48e217ab6)
+构建目录不存在，开始编译...
+found all functions in objdump: load_specific_debug_section
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-6543 ---
+>>> 处理: CVE-2018-6759 (64e234d417d5) <<<
+保存工作目录和索引状态 WIP on (no branch): 35f48e217ab Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 35f48e217ab Automatic date update in version.in
+HEAD 目前位于 64e234d417d Prevent attempts to call strncpy with a zero-length field by chacking the size of debuglink sections.
+命令成功: git checkout 64e234d417d5
+处理 patch 版本 (64e234d417d5)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_get_alt_debug_link_info, bfd_get_debug_link_info_1
+找到有效二进制: objdump
+之前的 HEAD 位置是 64e234d417d Prevent attempts to call strncpy with a zero-length field by chacking the size of debuglink sections.
+HEAD 目前位于 422f3d3d6d5 Allow the find_abstract_instance_name() function in the BFD library to also return file and line number information.
+命令成功: git checkout 422f3d3d6d57
+处理 vuln 版本 (422f3d3d6d57)
+构建目录不存在，开始编译...
+found all functions in objdump: bfd_get_alt_debug_link_info, bfd_get_debug_link_info_1
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-6759 ---
+>>> 处理: CVE-2018-6872 (ef135d4314fd) <<<
+保存工作目录和索引状态 WIP on (no branch): 422f3d3d6d5 Allow the find_abstract_instance_name() function in the BFD library to also return file and line number information.
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 422f3d3d6d5 Allow the find_abstract_instance_name() function in the BFD library to also return file and line number information.
+HEAD 目前位于 ef135d4314f Fix a seg-fault in the ELF note parser when a note with an excessively large alignment is encountered.
+命令成功: git checkout ef135d4314fd
+处理 patch 版本 (ef135d4314fd)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-6872-patch-ef135d4314fd-*
+之前的 HEAD 位置是 ef135d4314f Fix a seg-fault in the ELF note parser when a note with an excessively large alignment is encountered.
+HEAD 目前位于 a9479dc051a PR22819, powerpc gas "instruction address is not a multiple of 4"
+命令成功: git checkout a9479dc051ab
+处理 vuln 版本 (a9479dc051ab)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-6872-vuln-a9479dc051ab-*
+--- 完成处理: CVE-2018-6872 ---
+>>> 处理: CVE-2018-7208 (eb77f6a46217) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a9479dc051a PR22819, powerpc gas "instruction address is not a multiple of 4"
+HEAD 目前位于 eb77f6a4621 PR22741, objcopy segfault on fuzzed COFF object
+命令成功: git checkout eb77f6a46217
+处理 patch 版本 (eb77f6a46217)
+构建目录不存在，开始编译...
+found all functions in objdump: coff_pointerize_aux
+找到有效二进制: objdump
+之前的 HEAD 位置是 eb77f6a4621 PR22741, objcopy segfault on fuzzed COFF object
+HEAD 目前位于 0d5e2f6abee Automatic date update in version.in
+命令成功: git checkout 0d5e2f6abee3
+处理 vuln 版本 (0d5e2f6abee3)
+构建目录不存在，开始编译...
+found all functions in objdump: coff_pointerize_aux
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-7208 ---
+>>> 处理: CVE-2018-7568 (eef104664efb) <<<
+保存工作目录和索引状态 WIP on (no branch): 0d5e2f6abee Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0d5e2f6abee Automatic date update in version.in
+HEAD 目前位于 eef104664ef Fix potential integer overflow when reading corrupt dwarf1 debug information.
+命令成功: git checkout eef104664efb
+处理 patch 版本 (eef104664efb)
+构建目录不存在，开始编译...
+found all functions in objdump: parse_die
+找到有效二进制: objdump
+之前的 HEAD 位置是 eef104664ef Fix potential integer overflow when reading corrupt dwarf1 debug information.
+HEAD 目前位于 0d329c0a83a Nonsense error messages on invalid aout string offset
+命令成功: git checkout 0d329c0a83a2
+处理 vuln 版本 (0d329c0a83a2)
+构建目录不存在，开始编译...
+found all functions in objdump: parse_die
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-7568 ---
+>>> 处理: CVE-2018-7569 (12c963421d04) <<<
+保存工作目录和索引状态 WIP on (no branch): 0d329c0a83a Nonsense error messages on invalid aout string offset
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0d329c0a83a Nonsense error messages on invalid aout string offset
+HEAD 目前位于 12c963421d0 Catch integer overflows/underflows when parsing corrupt DWARF FORM blocks.
+命令成功: git checkout 12c963421d04
+处理 patch 版本 (12c963421d04)
+构建目录不存在，开始编译...
+found all functions in objdump: read_8_bytes, read_attribute_value
+找到有效二进制: objdump
+之前的 HEAD 位置是 12c963421d0 Catch integer overflows/underflows when parsing corrupt DWARF FORM blocks.
+HEAD 目前位于 116acb2c268 PR22887, null pointer dereference in aout_32_swap_std_reloc_out
+命令成功: git checkout 116acb2c268c
+处理 vuln 版本 (116acb2c268c)
+构建目录不存在，开始编译...
+found all functions in objdump: read_8_bytes, read_attribute_value
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-7569 ---
+>>> 处理: CVE-2018-7570 (01f7e10cf2dc) <<<
+保存工作目录和索引状态 WIP on (no branch): 116acb2c268 PR22887, null pointer dereference in aout_32_swap_std_reloc_out
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 116acb2c268 PR22887, null pointer dereference in aout_32_swap_std_reloc_out
+HEAD 目前位于 01f7e10cf2d PR22881, null pointer dereference in assign_file_positions_for_non_load_sections
+命令成功: git checkout 01f7e10cf2dc
+处理 patch 版本 (01f7e10cf2dc)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-7570-patch-01f7e10cf2dc-*
+之前的 HEAD 位置是 01f7e10cf2d PR22881, null pointer dereference in assign_file_positions_for_non_load_sections
+HEAD 目前位于 340d33e565e Document the assembler's .dc, .dcb and .ds directives.
+命令成功: git checkout 340d33e565ee
+处理 vuln 版本 (340d33e565ee)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2018-7570-vuln-340d33e565ee-*
+--- 完成处理: CVE-2018-7570 ---
+>>> 处理: CVE-2018-7642 (a26a013f22a1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 340d33e565e Document the assembler's .dc, .dcb and .ds directives.
+HEAD 目前位于 a26a013f22a PR22191, memory leak in dwarf2.c
+命令成功: git checkout a26a013f22a1
+处理 patch 版本 (a26a013f22a1)
+构建目录已存在，跳过编译步骤
+之前的 HEAD 位置是 a26a013f22a PR22191, memory leak in dwarf2.c
+HEAD 目前位于 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+命令成功: git checkout 52a93b95ec07
+处理 vuln 版本 (52a93b95ec07)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2018-7642 ---
+>>> 处理: CVE-2018-7643 (d11ae95ea340) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52a93b95ec0 PR22187, infinite loop in find_abstract_instance_name
+HEAD 目前位于 d11ae95ea34 Prevent illegal memory accesses triggerd by intger overflow when parsing corrupt DWARF information on a 32-bit host.
+命令成功: git checkout d11ae95ea340
+处理 patch 版本 (d11ae95ea340)
+构建目录不存在，开始编译...
+found all functions in objdump: read_uleb128, display_debug_ranges, display_debug_ranges_list
+找到有效二进制: objdump
+之前的 HEAD 位置是 d11ae95ea34 Prevent illegal memory accesses triggerd by intger overflow when parsing corrupt DWARF information on a 32-bit host.
+HEAD 目前位于 0cb7c7b0bb7 Propagate record_print_flags
+命令成功: git checkout 0cb7c7b0bb79
+处理 vuln 版本 (0cb7c7b0bb79)
+构建目录不存在，开始编译...
+found all functions in objdump: read_uleb128, display_debug_ranges, display_debug_ranges_list
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-7643 ---
+>>> 处理: CVE-2018-8945 (95a6d2356616) <<<
+保存工作目录和索引状态 WIP on (no branch): 0cb7c7b0bb7 Propagate record_print_flags
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0cb7c7b0bb7 Propagate record_print_flags
+HEAD 目前位于 95a6d235661 Prevent a memory exhaustion failure when running objdump on a fuzzed input file with corrupt string and attribute sections.
+命令成功: git checkout 95a6d2356616
+处理 patch 版本 (95a6d2356616)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_elf_parse_attributes, bfd_elf_get_str_section
+找到有效二进制: objdump
+之前的 HEAD 位置是 95a6d235661 Prevent a memory exhaustion failure when running objdump on a fuzzed input file with corrupt string and attribute sections.
+HEAD 目前位于 a87a64780fd Simplify VLE handling in print_insn_powerpc().
+命令成功: git checkout a87a64780fde
+处理 vuln 版本 (a87a64780fde)
+构建目录不存在，开始编译...
+found all functions in objdump: _bfd_elf_parse_attributes, bfd_elf_get_str_section
+找到有效二进制: objdump
+--- 完成处理: CVE-2018-8945 ---
+>>> 处理: CVE-2019-17451 (336bfbeb1848) <<<
+保存工作目录和索引状态 WIP on (no branch): a87a64780fd Simplify VLE handling in print_insn_powerpc().
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a87a64780fd Simplify VLE handling in print_insn_powerpc().
+HEAD 目前位于 336bfbeb184 PR25070, SEGV in function _bfd_dwarf2_find_nearest_line
+命令成功: git checkout 336bfbeb1848
+处理 patch 版本 (336bfbeb1848)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2019-17451-patch-336bfbeb1848-*
+之前的 HEAD 位置是 336bfbeb184 PR25070, SEGV in function _bfd_dwarf2_find_nearest_line
+HEAD 目前位于 41481f9e4e4 Automatic date update in version.in
+命令成功: git checkout 41481f9e4e4b
+处理 vuln 版本 (41481f9e4e4b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2019-17451-vuln-41481f9e4e4b-*
+--- 完成处理: CVE-2019-17451 ---
+>>> 处理: CVE-2020-16590 (c98a4545dc7b) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 41481f9e4e4 Automatic date update in version.in
+HEAD 目前位于 c98a4545dc7 Re: readelf: Consolidate --syms --use-dynamic with --dyn-syms
+命令成功: git checkout c98a4545dc7b
+处理 patch 版本 (c98a4545dc7b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16590-patch-c98a4545dc7b-*
+之前的 HEAD 位置是 c98a4545dc7 Re: readelf: Consolidate --syms --use-dynamic with --dyn-syms
+HEAD 目前位于 6a054141452 Automatic date update in version.in
+命令成功: git checkout 6a0541414523
+处理 vuln 版本 (6a0541414523)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16590-vuln-6a0541414523-*
+--- 完成处理: CVE-2020-16590 ---
+>>> 处理: CVE-2020-16591 (001890e1f926) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 6a054141452 Automatic date update in version.in
+HEAD 目前位于 001890e1f92 PR25822, Invalid read in process_symbol_table
+命令成功: git checkout 001890e1f926
+处理 patch 版本 (001890e1f926)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16591-patch-001890e1f926-*
+之前的 HEAD 位置是 001890e1f92 PR25822, Invalid read in process_symbol_table
+HEAD 目前位于 b71d4fa7c35 readelf: zero static vars after freeing
+命令成功: git checkout b71d4fa7c35c
+处理 vuln 版本 (b71d4fa7c35c)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16591-vuln-b71d4fa7c35c-*
+--- 完成处理: CVE-2020-16591 ---
+>>> 处理: CVE-2020-16592 (7ecb51549ab1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 b71d4fa7c35 readelf: zero static vars after freeing
+HEAD 目前位于 7ecb51549ab PR25823, Use after free in bfd_hash_lookup
+命令成功: git checkout 7ecb51549ab1
+处理 patch 版本 (7ecb51549ab1)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 7ecb51549ab PR25823, Use after free in bfd_hash_lookup
+HEAD 目前位于 0ca4866abeb Fix makeinfo warnings in gdb.texinfo and python.texi docs
+命令成功: git checkout 0ca4866abeb9
+处理 vuln 版本 (0ca4866abeb9)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2020-16592 ---
+>>> 处理: CVE-2020-16593 (aec72fda3b32) <<<
+保存工作目录和索引状态 WIP on (no branch): 0ca4866abeb Fix makeinfo warnings in gdb.texinfo and python.texi docs
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0ca4866abeb Fix makeinfo warnings in gdb.texinfo and python.texi docs
+HEAD 目前位于 aec72fda3b3 PR25827, Null pointer dereferencing in scan_unit_for_symbols
+命令成功: git checkout aec72fda3b32
+处理 patch 版本 (aec72fda3b32)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16593-patch-aec72fda3b32-*
+之前的 HEAD 位置是 aec72fda3b3 PR25827, Null pointer dereferencing in scan_unit_for_symbols
+HEAD 目前位于 c54a9b56696 cpu,gas,opcodes: support for eBPF JMP32 instruction class
+命令成功: git checkout c54a9b56696e
+处理 vuln 版本 (c54a9b56696e)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16593-vuln-c54a9b56696e-*
+--- 完成处理: CVE-2020-16593 ---
+>>> 处理: CVE-2020-16599 (8d55d10ac0d1) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c54a9b56696 cpu,gas,opcodes: support for eBPF JMP32 instruction class
+HEAD 目前位于 8d55d10ac0d PR25842, Null pointer dereference in nm-new
+命令成功: git checkout 8d55d10ac0d1
+处理 patch 版本 (8d55d10ac0d1)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16599-patch-8d55d10ac0d1-*
+之前的 HEAD 位置是 8d55d10ac0d PR25842, Null pointer dereference in nm-new
+HEAD 目前位于 ca3f923f82a PR25840, Null pointer dereference in objdump
+命令成功: git checkout ca3f923f82a0
+处理 vuln 版本 (ca3f923f82a0)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-16599-vuln-ca3f923f82a0-*
+--- 完成处理: CVE-2020-16599 ---
+>>> 处理: CVE-2020-19724 (805f38bc551d) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ca3f923f82a PR25840, Null pointer dereference in objdump
+HEAD 目前位于 805f38bc551 PR25362, memory leak in nm
+命令成功: git checkout 805f38bc551d
+处理 patch 版本 (805f38bc551d)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-19724-patch-805f38bc551d-*
+之前的 HEAD 位置是 805f38bc551 PR25362, memory leak in nm
+HEAD 目前位于 4f18d7423cd [ARC][committed] Update test matching pattern.
+命令成功: git checkout 4f18d7423cdb
+处理 vuln 版本 (4f18d7423cdb)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-19724-vuln-4f18d7423cdb-*
+--- 完成处理: CVE-2020-19724 ---
+>>> 处理: CVE-2020-21490 (378fd436405b) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 4f18d7423cd [ARC][committed] Update test matching pattern.
+HEAD 目前位于 378fd436405 PR25249, Memory leak in microblaze-dis.c
+命令成功: git checkout 378fd436405b
+处理 patch 版本 (378fd436405b)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 378fd436405 PR25249, Memory leak in microblaze-dis.c
+HEAD 目前位于 c72a8174b3b Automatic date update in version.in
+命令成功: git checkout c72a8174b3b4
+处理 vuln 版本 (c72a8174b3b4)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2020-21490 ---
+>>> 处理: CVE-2020-35448 (8642dafaef21) <<<
+保存工作目录和索引状态 WIP on (no branch): c72a8174b3b Automatic date update in version.in
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c72a8174b3b Automatic date update in version.in
+HEAD 目前位于 8642dafaef2 PR26574, heap buffer overflow in _bfd_elf_slurp_secondary_reloc_section
+命令成功: git checkout 8642dafaef21
+处理 patch 版本 (8642dafaef21)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-35448-patch-8642dafaef21-*
+之前的 HEAD 位置是 8642dafaef2 PR26574, heap buffer overflow in _bfd_elf_slurp_secondary_reloc_section
+HEAD 目前位于 1e3b96fd6cf Allow plugin syms to mark as-needed shared libs needed
+命令成功: git checkout 1e3b96fd6cf0
+处理 vuln 版本 (1e3b96fd6cf0)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2020-35448-vuln-1e3b96fd6cf0-*
+--- 完成处理: CVE-2020-35448 ---
+>>> 处理: CVE-2021-20294 (372dd157272e) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 1e3b96fd6cf Allow plugin syms to mark as-needed shared libs needed
+HEAD 目前位于 372dd157272 asan: readelf: stack buffer overflow
+命令成功: git checkout 372dd157272e
+处理 patch 版本 (372dd157272e)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2021-20294-patch-372dd157272e-*
+之前的 HEAD 位置是 372dd157272 asan: readelf: stack buffer overflow
+HEAD 目前位于 0faed9a7542 Automatic date update in version.in
+命令成功: git checkout 0faed9a75423
+处理 vuln 版本 (0faed9a75423)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2021-20294-vuln-0faed9a75423-*
+--- 完成处理: CVE-2021-20294 ---
+>>> 处理: CVE-2021-45078 (161e87d12167) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0faed9a7542 Automatic date update in version.in
+HEAD 目前位于 161e87d1216 PR28694, Out-of-bounds write in stab_xcoff_builtin_type
+命令成功: git checkout 161e87d12167
+处理 patch 版本 (161e87d12167)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2021-45078-patch-161e87d12167-*
+之前的 HEAD 位置是 161e87d1216 PR28694, Out-of-bounds write in stab_xcoff_builtin_type
+HEAD 目前位于 d5c94731766 Automatic date update in version.in
+命令成功: git checkout d5c94731766b
+处理 vuln 版本 (d5c94731766b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2021-45078-vuln-d5c94731766b-*
+--- 完成处理: CVE-2021-45078 ---
+>>> 处理: CVE-2022-38533 (45d92439aebd) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d5c94731766 Automatic date update in version.in
+HEAD 目前位于 45d92439aeb PR29495, rewrite_elf_program_header looping
+命令成功: git checkout 45d92439aebd
+处理 patch 版本 (45d92439aebd)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-38533-patch-45d92439aebd-*
+之前的 HEAD 位置是 45d92439aeb PR29495, rewrite_elf_program_header looping
+HEAD 目前位于 390ddd6f681 x86: shorten certain template names
+命令成功: git checkout 390ddd6f6812
+处理 vuln 版本 (390ddd6f6812)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-38533-vuln-390ddd6f6812-*
+--- 完成处理: CVE-2022-38533 ---
+>>> 处理: CVE-2022-48063 (75393a2d54bc) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 390ddd6f681 x86: shorten certain template names
+HEAD 目前位于 75393a2d54b Fix an attempt to allocate an unreasonably large amount of memory when parsing a corrupt ELF file.
+命令成功: git checkout 75393a2d54bc
+处理 patch 版本 (75393a2d54bc)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48063-patch-75393a2d54bc-*
+之前的 HEAD 位置是 75393a2d54b Fix an attempt to allocate an unreasonably large amount of memory when parsing a corrupt ELF file.
+HEAD 目前位于 a7a32d588f2 Keep the .drectve section when performing a relocateable link.
+命令成功: git checkout a7a32d588f29
+处理 vuln 版本 (a7a32d588f29)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48063-vuln-a7a32d588f29-*
+--- 完成处理: CVE-2022-48063 ---
+>>> 处理: CVE-2022-48064 (8f2c64de86bc) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a7a32d588f2 Keep the .drectve section when performing a relocateable link.
+HEAD 目前位于 8f2c64de86b PR29922, SHT_NOBITS section avoids section size sanity check
+命令成功: git checkout 8f2c64de86bc
+处理 patch 版本 (8f2c64de86bc)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48064-patch-8f2c64de86bc-*
+之前的 HEAD 位置是 8f2c64de86b PR29922, SHT_NOBITS section avoids section size sanity check
+HEAD 目前位于 8df77a27a3a sim: fully merge sim_cpu_base into sim_cpu
+命令成功: git checkout 8df77a27a3a3
+处理 vuln 版本 (8df77a27a3a3)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48064-vuln-8df77a27a3a3-*
+--- 完成处理: CVE-2022-48064 ---
+>>> 处理: CVE-2022-48065 (d28fbc7197ba) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8df77a27a3a sim: fully merge sim_cpu_base into sim_cpu
+HEAD 目前位于 d28fbc7197b PR29925, Memory leak in find_abstract_instance
+命令成功: git checkout d28fbc7197ba
+处理 patch 版本 (d28fbc7197ba)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48065-patch-d28fbc7197ba-*
+之前的 HEAD 位置是 d28fbc7197b PR29925, Memory leak in find_abstract_instance
+HEAD 目前位于 f7cb9bba3d5 Fix compiling of top.c
+命令成功: git checkout f7cb9bba3d5d
+处理 vuln 版本 (f7cb9bba3d5d)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2022-48065-vuln-f7cb9bba3d5d-*
+--- 完成处理: CVE-2022-48065 ---
+>>> 处理: CVE-2023-1579 (11d171f1910b) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f7cb9bba3d5 Fix compiling of top.c
+HEAD 目前位于 11d171f1910 Fix a potential illegal memory access in the BFD library when parsing a corrupt DWARF file.
+命令成功: git checkout 11d171f1910b
+处理 patch 版本 (11d171f1910b)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2023-1579-patch-11d171f1910b-*
+之前的 HEAD 位置是 11d171f1910 Fix a potential illegal memory access in the BFD library when parsing a corrupt DWARF file.
+HEAD 目前位于 f1e19328594 [gdb/testsuite] Fix gdb.threads/dlopen-libpthread.exp for upstream glibc, again
+命令成功: git checkout f1e19328594f
+处理 vuln 版本 (f1e19328594f)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2023-1579-vuln-f1e19328594f-*
+--- 完成处理: CVE-2023-1579 ---
+>>> 处理: CVE-2023-25584 (77c225bdeb41) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f1e19328594 [gdb/testsuite] Fix gdb.threads/dlopen-libpthread.exp for upstream glibc, again
+HEAD 目前位于 77c225bdeb4 Lack of bounds checking in vms-alpha.c parse_module
+命令成功: git checkout 77c225bdeb41
+处理 patch 版本 (77c225bdeb41)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 77c225bdeb4 Lack of bounds checking in vms-alpha.c parse_module
+HEAD 目前位于 b1f1cefd584 PR29872, uninitialised value in display_debug_lines_decoded dwarf.c:5413
+命令成功: git checkout b1f1cefd5844
+处理 vuln 版本 (b1f1cefd5844)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2023-25584 ---
+>>> 处理: CVE-2023-25585 (65cf035b8dc1) <<<
+保存工作目录和索引状态 WIP on (no branch): b1f1cefd584 PR29872, uninitialised value in display_debug_lines_decoded dwarf.c:5413
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 b1f1cefd584 PR29872, uninitialised value in display_debug_lines_decoded dwarf.c:5413
+HEAD 目前位于 65cf035b8dc PR29892, Field file_table of struct module is uninitialized
+命令成功: git checkout 65cf035b8dc1
+处理 patch 版本 (65cf035b8dc1)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 65cf035b8dc PR29892, Field file_table of struct module is uninitialized
+HEAD 目前位于 77c225bdeb4 Lack of bounds checking in vms-alpha.c parse_module
+命令成功: git checkout 77c225bdeb41
+处理 vuln 版本 (77c225bdeb41)
+构建目录已存在，跳过编译步骤
+--- 完成处理: CVE-2023-25585 ---
+>>> 处理: CVE-2023-25586 (5830876a0cca) <<<
+保存工作目录和索引状态 WIP on (no branch): 77c225bdeb4 Lack of bounds checking in vms-alpha.c parse_module
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 77c225bdeb4 Lack of bounds checking in vms-alpha.c parse_module
+HEAD 目前位于 5830876a0cc PR29855, ch_type in bfd_init_section_decompress_status can be uninitialized
+命令成功: git checkout 5830876a0cca
+处理 patch 版本 (5830876a0cca)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2023-25586-patch-5830876a0cca-*
+之前的 HEAD 位置是 5830876a0cc PR29855, ch_type in bfd_init_section_decompress_status can be uninitialized
+HEAD 目前位于 60d26064117 Automatic date update in version.in
+命令成功: git checkout 60d260641177
+处理 vuln 版本 (60d260641177)
+目标二进制已存在，跳过编译: /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/CVE-2023-25586-vuln-60d260641177-*
+--- 完成处理: CVE-2023-25586 ---
+>>> 处理: CVE-2023-25588 (d12f8998d2d0) <<<
+没有要保存的本地修改
+命令成功: git stash --include-untracked
+之前的 HEAD 位置是 60d26064117 Automatic date update in version.in
+HEAD 目前位于 d12f8998d2d PR29677, Field `the_bfd` of `asymbol` is uninitialised
+命令成功: git checkout d12f8998d2d0
+处理 patch 版本 (d12f8998d2d0)
+构建目录不存在，开始编译...
+之前的 HEAD 位置是 d12f8998d2d PR29677, Field `the_bfd` of `asymbol` is uninitialised
+HEAD 目前位于 b3a5b1fd710 [gdb/testsuite] Drop unnecessary -Wl,-soname in gdb.base/skip-solib.exp
+命令成功: git checkout b3a5b1fd7107
+处理 vuln 版本 (b3a5b1fd7107)
+构建目录不存在，开始编译...
+--- 完成处理: CVE-2023-25588 ---
+保存工作目录和索引状态 WIP on (no branch): b3a5b1fd710 [gdb/testsuite] Drop unnecessary -Wl,-soname in gdb.base/skip-solib.exp
+命令成功: git stash --include-untracked
+===== 所有操作完成 =====
+结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/binutils/

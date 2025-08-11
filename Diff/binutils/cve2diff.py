@@ -7,14 +7,26 @@ import time
 import re
 
 PROJECT="binutils"
-
+MODE = "append"
 
 
 def extract_git_hash(url):
     """从URL中提取h=后的全部字符（不依赖参数解析）"""
     # 使用正则表达式匹配 h= 后的非分隔符内容
-    match = re.search(r'h=([^&;]+)', url)
-    return match.group(1) if match else None
+    if "git" in url:
+        match = re.search(r'h=([^&;]+)', url)
+        return match.group(1) if match else None
+    elif "sourceware.org/bugzilla/show_bug.cgi" in url:
+        pattern1 = r'https://sourceware\.org/git/gitweb\.cgi\?p=binutils-gdb\.git;h=([0-9a-f]{40})'
+        pattern2 = r'commit\s+([0-9a-f]{40})(?:\s|$)'  # 确保哈希后是空白或行尾
+        response = requests.get(url)
+        hashs1 = re.findall(pattern1, response.text)
+        hashs2 = re.findall(pattern2, response.text)
+        # 合并hashs1 hashs2 并去重
+        hashs = list(set(hashs1 + hashs2))
+        return hashs[0] if hashs else None
+    else:
+        return None
 
 
 
@@ -97,8 +109,8 @@ def process_cve_data(json_path, target_cves):
 
 if __name__ == "__main__":
     # 配置参数
-    JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
-    with open(f"../../testset/{PROJECT}/chosen.txt", "r", encoding="utf-8") as f:
+    JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_parsed.json"
+    with open(f"../../testset/{PROJECT}/{MODE}.txt", "r", encoding="utf-8") as f:
         cve_data = f.readlines()
     TARGET_CVES =[]
     for key in cve_data:

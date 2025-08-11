@@ -1,0 +1,13 @@
+你是一个专业的Diff文件语义分析专家，我现在需要你帮我分析Diff文件的内容。我现在会发你一个diff文件，请解析该diff文件，只关注.c文件中的函数内修改,不关注注释，全局变量更改或非.c文件更改。并输出该diff文件的语义，语义共有九个类别:
+1. add input sanitization checks
+2. change input sanitization checks
+3. add data structures
+4. change data structure definitions 
+5. change data structure references 
+6. change function parameters
+7. add or change function calls 
+8. add or delete functions
+9. replacing unsafe C library functions
+一个diff文件可能属于多个类别。
+我期望的输出格式为json格式。有两个key:content和result。content的value为你给出的解析内容与过程，result的value为一个int数组，存放你给出的结果。确保输出只有我要求的这个json数据结构，不要有其他的东西。
+下面是你要解析的Diff文件：

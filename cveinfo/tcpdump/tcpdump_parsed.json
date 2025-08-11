@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "CVE-2018-14880",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The OSPFv3 parser in tcpdump before 4.9.3 has a buffer over-read in print-ospf6.c:ospf6_print_lshdr().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e01c9bf76740802025c9328901b55ee4a0c49ed6",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e01c9bf76740802025c9328901b55ee4a0c49ed6"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14468",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The FRF.16 parser in tcpdump before 4.9.3 has a buffer over-read in print-fr.c:mfr_print().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa3e54f594385ce7e1e319b0c84999e51192578b",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa3e54f594385ce7e1e319b0c84999e51192578b"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14462",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMP parser in tcpdump before 4.9.3 has a buffer over-read in print-icmp.c:icmp_print().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1a1bce0526a77b62e41531b00f8bb5e21fd4f3a3",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1a1bce0526a77b62e41531b00f8bb5e21fd4f3a3"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14463",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:vrrp_print() for VRRP version 2, a different vulnerability than CVE-2019-15167.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3de07c772166b7e8e8bb4b9d1d078f1d901b570b",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3de07c772166b7e8e8bb4b9d1d078f1d901b570b"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14465",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RSVP parser in tcpdump before 4.9.3 has a buffer over-read in print-rsvp.c:rsvp_obj_print().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/bea2686c296b79609060a104cc139810785b0739",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/bea2686c296b79609060a104cc139810785b0739"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14469",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IKEv1 parser in tcpdump before 4.9.3 has a buffer over-read in print-isakmp.c:ikev1_n_print().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/396e94ff55a80d554b1fe46bf107db1e91008d6c",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/396e94ff55a80d554b1fe46bf107db1e91008d6c"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14879",
+    "cwe": [
+      "CWE-120"
+    ],
+    "summary": "The command-line argument parser in tcpdump before 4.9.3 has a buffer overflow in tcpdump.c:get_next_file().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9ba91381954ad325ea4fd26b9c65a8bd9a2a85b6",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9ba91381954ad325ea4fd26b9c65a8bd9a2a85b6"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14882",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMPv6 parser in tcpdump before 4.9.3 has a buffer over-read in print-icmp6.c.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d7505276842e85bfd067fa21cdb32b8a2dc3c5e4",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d7505276842e85bfd067fa21cdb32b8a2dc3c5e4"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16229",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The DCCP parser in tcpdump before 4.9.3 has a buffer over-read in print-dccp.c:dccp_print_option().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/211124b972e74f0da66bc8b16f181f78793e2f66",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/211124b972e74f0da66bc8b16f181f78793e2f66"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2019-15166",
+    "cwe": [
+      "CWE-120"
+    ],
+    "summary": "lmp_print_data_link_subobjs() in print-lmp.c in tcpdump before 4.9.3 lacks certain bounds checks.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0b661e0aa61850234b64394585cf577aac570bf4",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0b661e0aa61850234b64394585cf577aac570bf4"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2007-3798",
+    "cwe": [
+      "CWE-252"
+    ],
+    "summary": "Integer overflow in print-bgp.c in the BGP dissector in tcpdump 3.9.6 and earlier allows remote attackers to execute arbitrary code via crafted TLVs in a BGP packet, related to an unchecked return value.",
+    "references": [
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-bgp.c?r1=1.91.2.11&r2=1.91.2.12",
+      "http://security.freebsd.org/advisories/FreeBSD-SA-07:06.tcpdump.asc",
+      "http://www.digit-labs.org/files/exploits/private/tcpdump-bgp.c",
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-bgp.c?r1=1.91.2.11&r2=1.91.2.12",
+      "http://security.freebsd.org/advisories/FreeBSD-SA-07:06.tcpdump.asc",
+      "http://www.digit-labs.org/files/exploits/private/tcpdump-bgp.c"
+    ],
+    "last_vuln_version": "3.9.6"
+  },
+  {
+    "id": "CVE-2004-0183",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "TCPDUMP 3.8.1 and earlier allows remote attackers to cause a denial of service (crash) via ISAKMP packets containing a Delete payload with a large number of SPI's, which causes an out-of-bounds read, as demonstrated by the Striker ISAKMP Protocol Test Suite.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "http://www.tcpdump.org/tcpdump-changes.txt"
+    ],
+    "last_vuln_version": "3.8.1"
+  },
+  {
+    "id": "CVE-2004-0184",
+    "cwe": [
+      "CWE-125",
+      "CWE-191"
+    ],
+    "summary": "Integer underflow in the isakmp_id_print for TCPDUMP 3.8.1 and earlier allows remote attackers to cause a denial of service (crash) via an ISAKMP packet with an Identification payload with a length that becomes less than 8 during byte order conversion, which causes an out-of-bounds read, as demonstrated by the Striker ISAKMP Protocol Test Suite.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "http://www.tcpdump.org/tcpdump-changes.txt"
+    ],
+    "last_vuln_version": "3.8.1"
+  },
+  {
+    "id": "CVE-2007-1218",
+    "cwe": [
+      "CWE-119",
+      "CWE-189"
+    ],
+    "summary": "Off-by-one buffer overflow in the parse_elements function in the 802.11 printer code (print-802_11.c) for tcpdump 3.9.5 and earlier allows remote attackers to cause a denial of service (crash) via a crafted 802.11 frame.  NOTE: this was originally referred to as heap-based, but it might be stack-based.",
+    "references": [
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-802_11.c",
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-802_11.c?r1=1.31.2.11&r2=1.31.2.12",
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-802_11.c",
+      "http://cvs.tcpdump.org/cgi-bin/cvsweb/tcpdump/print-802_11.c?r1=1.31.2.11&r2=1.31.2.12"
+    ],
+    "last_vuln_version": "3.9.5"
+  },
+  {
+    "id": "CVE-2015-0261",
+    "cwe": [
+      "CWE-189"
+    ],
+    "summary": "Integer signedness error in the mobility_opt_print function in the IPv6 mobility printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read and crash) or possibly execute arbitrary code via a negative length value.",
+    "references": [
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html",
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html"
+    ],
+    "last_vuln_version": "4.7.0"
+  },
+  {
+    "id": "CVE-2015-2153",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The rpki_rtr_pdu_print function in print-rpki-rtr.c in the TCP printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read or write and crash) via a crafted header length in an RPKI-RTR Protocol Data Unit (PDU).",
+    "references": [
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html",
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html"
+    ],
+    "last_vuln_version": "4.7.0"
+  },
+  {
+    "id": "CVE-2015-2154",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The osi_print_cksum function in print-isoclns.c in the ethernet printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (out-of-bounds read and crash) via a crafted (1) length, (2) offset, or (3) base pointer checksum value.",
+    "references": [
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html",
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html"
+    ],
+    "last_vuln_version": "4.7.0"
+  },
+  {
+    "id": "CVE-2015-2155",
+    "cwe": [
+      "NVD-CWE-noinfo"
+    ],
+    "summary": "The force printer in tcpdump before 4.7.2 allows remote attackers to cause a denial of service (crash) and possibly execute arbitrary code via unspecified vectors.",
+    "references": [
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html",
+      "http://packetstormsecurity.com/files/130730/tcpdump-Denial-Of-Service-Code-Execution.html"
+    ],
+    "last_vuln_version": "4.7.0"
+  },
+  {
+    "id": "CVE-2016-7922",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The AH parser in tcpdump before 4.9.0 has a buffer overflow in print-ah.c:ah_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7923",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ARP parser in tcpdump before 4.9.0 has a buffer overflow in print-arp.c:arp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7924",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ATM parser in tcpdump before 4.9.0 has a buffer overflow in print-atm.c:oam_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7925",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The compressed SLIP parser in tcpdump before 4.9.0 has a buffer overflow in print-sl.c:sl_if_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7926",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The Ethernet parser in tcpdump before 4.9.0 has a buffer overflow in print-ether.c:ethertype_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7927",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The IEEE 802.11 parser in tcpdump before 4.9.0 has a buffer overflow in print-802_11.c:ieee802_11_radio_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7928",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The IPComp parser in tcpdump before 4.9.0 has a buffer overflow in print-ipcomp.c:ipcomp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7929",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The Juniper PPPoE ATM parser in tcpdump before 4.9.0 has a buffer overflow in print-juniper.c:juniper_parse_header().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7930",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The LLC/SNAP parser in tcpdump before 4.9.0 has a buffer overflow in print-llc.c:llc_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7931",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The MPLS parser in tcpdump before 4.9.0 has a buffer overflow in print-mpls.c:mpls_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7932",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The PIM parser in tcpdump before 4.9.0 has a buffer overflow in print-pim.c:pimv2_check_checksum().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7933",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The PPP parser in tcpdump before 4.9.0 has a buffer overflow in print-ppp.c:ppp_hdlc_if_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7934",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The RTCP parser in tcpdump before 4.9.0 has a buffer overflow in print-udp.c:rtcp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7935",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The RTP parser in tcpdump before 4.9.0 has a buffer overflow in print-udp.c:rtp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7936",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The UDP parser in tcpdump before 4.9.0 has a buffer overflow in print-udp.c:udp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7937",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The VAT parser in tcpdump before 4.9.0 has a buffer overflow in print-udp.c:vat_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7938",
+    "cwe": [
+      "CWE-190"
+    ],
+    "summary": "The ZeroMQ parser in tcpdump before 4.9.0 has an integer overflow in print-zeromq.c:zmtp1_print_frame().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7939",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The GRE parser in tcpdump before 4.9.0 has a buffer overflow in print-gre.c, multiple functions.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7940",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The STP parser in tcpdump before 4.9.0 has a buffer overflow in print-stp.c, multiple functions.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7973",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The AppleTalk parser in tcpdump before 4.9.0 has a buffer overflow in print-atalk.c, multiple functions.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7974",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The IP parser in tcpdump before 4.9.0 has a buffer overflow in print-ip.c, multiple functions.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7975",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The TCP parser in tcpdump before 4.9.0 has a buffer overflow in print-tcp.c:tcp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7983",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The BOOTP parser in tcpdump before 4.9.0 has a buffer overflow in print-bootp.c:bootp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7984",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The TFTP parser in tcpdump before 4.9.0 has a buffer overflow in print-tftp.c:tftp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7985",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The CALM FAST parser in tcpdump before 4.9.0 has a buffer overflow in print-calm-fast.c:calm_fast_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7986",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The GeoNetworking parser in tcpdump before 4.9.0 has a buffer overflow in print-geonet.c, multiple functions.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7992",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The Classical IP over ATM parser in tcpdump before 4.9.0 has a buffer overflow in print-cip.c:cip_if_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-7993",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "A bug in util-print.c:relts_print() in tcpdump before 4.9.0 could cause a buffer overflow in multiple protocol parsers (DNS, DVMRP, HSRP, IGMP, lightweight resolver protocol, PIM).",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-8574",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The FRF.15 parser in tcpdump before 4.9.0 has a buffer overflow in print-fr.c:frf15_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2016-8575",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The Q.933 parser in tcpdump before 4.9.0 has a buffer overflow in print-fr.c:q933_print(), a different vulnerability than CVE-2017-5482.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5202",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ISO CLNS parser in tcpdump before 4.9.0 has a buffer overflow in print-isoclns.c:clnp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5203",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The BOOTP parser in tcpdump before 4.9.0 has a buffer overflow in print-bootp.c:bootp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5204",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The IPv6 parser in tcpdump before 4.9.0 has a buffer overflow in print-ip6.c:ip6_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5205",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ISAKMP parser in tcpdump before 4.9.0 has a buffer overflow in print-isakmp.c:ikev2_e_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5341",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The OTV parser in tcpdump before 4.9.0 has a buffer overflow in print-otv.c:otv_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5342",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "In tcpdump before 4.9.0, a bug in multiple protocol parsers (Geneve, GRE, NSH, OTV, VXLAN and VXLAN GPE) could cause a buffer overflow in print-ether.c:ether_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5482",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The Q.933 parser in tcpdump before 4.9.0 has a buffer overflow in print-fr.c:q933_print(), a different vulnerability than CVE-2016-8575.",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5483",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The SNMP parser in tcpdump before 4.9.0 has a buffer overflow in print-snmp.c:asn1_parse().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5484",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ATM parser in tcpdump before 4.9.0 has a buffer overflow in print-atm.c:sig_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5485",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ISO CLNS parser in tcpdump before 4.9.0 has a buffer overflow in addrtoname.c:lookup_nsap().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-5486",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "The ISO CLNS parser in tcpdump before 4.9.0 has a buffer overflow in print-isoclns.c:clnp_print().",
+    "references": [],
+    "last_vuln_version": "4.8.1"
+  },
+  {
+    "id": "CVE-2017-12893",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The SMB/CIFS parser in tcpdump before 4.9.2 has a buffer over-read in smbutil.c:name_len().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6f5ba2b651cd9d4b7fa8ee5c4f94460645877c45",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6f5ba2b651cd9d4b7fa8ee5c4f94460645877c45"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12894",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "Several protocol parsers in tcpdump before 4.9.2 could cause a buffer over-read in addrtoname.c:lookup_bytestring().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/730fc35968c5433b9e2a829779057f4f9495dc51",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/730fc35968c5433b9e2a829779057f4f9495dc51"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12895",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMP parser in tcpdump before 4.9.2 has a buffer over-read in print-icmp.c:icmp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2b62d1dda41590db29368ec7ba5f4faf3464765a",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2b62d1dda41590db29368ec7ba5f4faf3464765a"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12896",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISAKMP parser in tcpdump before 4.9.2 has a buffer over-read in print-isakmp.c:isakmp_rfc3948_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4e430c6b0d8b7e77c7abca7e7afb0c3e727502f2",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f76e7feb41a4327d2b0978449bbdafe98d4a3771",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4e430c6b0d8b7e77c7abca7e7afb0c3e727502f2",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f76e7feb41a4327d2b0978449bbdafe98d4a3771"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12897",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO CLNS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:isoclns_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1dcd10aceabbc03bf571ea32b892c522cbe923de",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1dcd10aceabbc03bf571ea32b892c522cbe923de"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12898",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The NFS parser in tcpdump before 4.9.2 has a buffer over-read in print-nfs.c:interp_reply().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/19d25dd8781620cd41bf178a5e2e27fc1cf242d0",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/19d25dd8781620cd41bf178a5e2e27fc1cf242d0"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12899",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The DECnet parser in tcpdump before 4.9.2 has a buffer over-read in print-decnet.c:decnet_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c6e0531b5def26ecf912e8de6ade86cbdaed3751",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f96003b21e2abfbba59b926b10a7f9bc7d11e36c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c6e0531b5def26ecf912e8de6ade86cbdaed3751",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f96003b21e2abfbba59b926b10a7f9bc7d11e36c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12900",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "Several protocol parsers in tcpdump before 4.9.2 could cause a buffer over-read in util-print.c:tok2strbuf().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0318fa8b61bd6c837641129d585f1a73c652b1e0",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0318fa8b61bd6c837641129d585f1a73c652b1e0"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12901",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The EIGRP parser in tcpdump before 4.9.2 has a buffer over-read in print-eigrp.c:eigrp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/de981e6070d168b58ec1bb0713ded77ed4ad87f4",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/de981e6070d168b58ec1bb0713ded77ed4ad87f4"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12902",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Zephyr parser in tcpdump before 4.9.2 has a buffer over-read in print-zephyr.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6ec0c6fa63412c7a07a5bcb790a529c3563b4173",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d17507ffa3e9742199b02a66aa940e79ababfa30",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6ec0c6fa63412c7a07a5bcb790a529c3563b4173",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d17507ffa3e9742199b02a66aa940e79ababfa30"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12985",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 parser in tcpdump before 4.9.2 has a buffer over-read in print-ip6.c:ip6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/66df248b49095c261138b5a5e34d341a6bf9ac7f",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/66df248b49095c261138b5a5e34d341a6bf9ac7f"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12986",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 routing header parser in tcpdump before 4.9.2 has a buffer over-read in print-rt6.c:rt6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7ac73d6cd41e9d4ac0ca7e6830ca390e195bb21c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7ac73d6cd41e9d4ac0ca7e6830ca390e195bb21c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12987",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IEEE 802.11 parser in tcpdump before 4.9.2 has a buffer over-read in print-802_11.c:parse_elements().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2ecb9d2c67d9119250c54811a6ce4d0f2ddf44f1",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/99798bd9a41bd3d03fdc1e949810a38967f20ed3",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2ecb9d2c67d9119250c54811a6ce4d0f2ddf44f1",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/99798bd9a41bd3d03fdc1e949810a38967f20ed3"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12988",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The telnet parser in tcpdump before 4.9.2 has a buffer over-read in print-telnet.c:telnet_parse().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8934a7d6307267d301182f19ed162563717e29e3",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8934a7d6307267d301182f19ed162563717e29e3"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12989",
+    "cwe": [
+      "CWE-835"
+    ],
+    "summary": "The RESP parser in tcpdump before 4.9.2 could enter an infinite loop due to a bug in print-resp.c:resp_get_length().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/db24063b01cba8e9d4d88b7d8ac70c9000c104e4",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/db24063b01cba8e9d4d88b7d8ac70c9000c104e4"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12990",
+    "cwe": [
+      "CWE-835"
+    ],
+    "summary": "The ISAKMP parser in tcpdump before 4.9.2 could enter an infinite loop due to bugs in print-isakmp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c2ef693866beae071a24b45c49f9674af1df4028",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c2ef693866beae071a24b45c49f9674af1df4028"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12991",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.2 has a buffer over-read in print-bgp.c:bgp_attr_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/50a44b6b8e4f7c127440dbd4239cf571945cc1e7",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/50a44b6b8e4f7c127440dbd4239cf571945cc1e7"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12992",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RIPng parser in tcpdump before 4.9.2 has a buffer over-read in print-ripng.c:ripng_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e942fb84fbe3a73a98a00d2a279425872b5fb9d2",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e942fb84fbe3a73a98a00d2a279425872b5fb9d2"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12993",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Juniper protocols parser in tcpdump before 4.9.2 has a buffer over-read in print-juniper.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b534e304568585707c4a92422aeca25cf908ff02",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b534e304568585707c4a92422aeca25cf908ff02"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12994",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.2 has a buffer over-read in print-bgp.c:bgp_attr_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ffde45acf3348f8353fb4064a1b21683ee6b5ddf",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ffde45acf3348f8353fb4064a1b21683ee6b5ddf"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12995",
+    "cwe": [
+      "CWE-835"
+    ],
+    "summary": "The DNS parser in tcpdump before 4.9.2 could enter an infinite loop due to a bug in print-domain.c:ns_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3a76fd7c95fced2c2f8c8148a9055c3a542eff29",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3a76fd7c95fced2c2f8c8148a9055c3a542eff29"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12996",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PIMv2 parser in tcpdump before 4.9.2 has a buffer over-read in print-pim.c:pimv2_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6fca58f5f9c96749a575f52e20598ad43f5bdf30",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/6fca58f5f9c96749a575f52e20598ad43f5bdf30"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12997",
+    "cwe": [
+      "CWE-835"
+    ],
+    "summary": "The LLDP parser in tcpdump before 4.9.2 could enter an infinite loop due to a bug in print-lldp.c:lldp_private_8021_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/34cec721d39c76be1e0a600829a7b17bdfb832b6",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/34cec721d39c76be1e0a600829a7b17bdfb832b6"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12998",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IS-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:isis_print_extd_ip_reach().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/979dcefd7b259e9e233f77fe1c5312793bfd948f",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/979dcefd7b259e9e233f77fe1c5312793bfd948f"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-12999",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IS-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:isis_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3b32029db354cbc875127869d9b12a9addc75b50",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3b32029db354cbc875127869d9b12a9addc75b50"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13000",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IEEE 802.15.4 parser in tcpdump before 4.9.2 has a buffer over-read in print-802_15_4.c:ieee802_15_4_if_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8512734883227c11568bb35da1d48b9f8466f43f",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9be4e0b5938b705e7e36cfcb110a740c6ff0cb97",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a7e5f58f402e6919ec444a57946bade7dfd6b184",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8512734883227c11568bb35da1d48b9f8466f43f",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9be4e0b5938b705e7e36cfcb110a740c6ff0cb97",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a7e5f58f402e6919ec444a57946bade7dfd6b184"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13001",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The NFS parser in tcpdump before 4.9.2 has a buffer over-read in print-nfs.c:nfs_printfh().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7a923447fd49a069a0fd3b6c3547438ab5ee2123",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7a923447fd49a069a0fd3b6c3547438ab5ee2123"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13002",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The AODV parser in tcpdump before 4.9.2 has a buffer over-read in print-aodv.c:aodv_extension().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cbddb98484ea8ec1deece351abd56e063d775b38",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cbddb98484ea8ec1deece351abd56e063d775b38"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13003",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The LMP parser in tcpdump before 4.9.2 has a buffer over-read in print-lmp.c:lmp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a25211918f2e790c67d859d20ccf8dbb81da1598",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a25211918f2e790c67d859d20ccf8dbb81da1598"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13004",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Juniper protocols parser in tcpdump before 4.9.2 has a buffer over-read in print-juniper.c:juniper_parse_header().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/35d146b7a66496d72cdeb95ccb33ab80a265ce90",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/42073d54c53a496be40ae84152bbfe2c923ac7bc",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/35d146b7a66496d72cdeb95ccb33ab80a265ce90",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/42073d54c53a496be40ae84152bbfe2c923ac7bc"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13005",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The NFS parser in tcpdump before 4.9.2 has a buffer over-read in print-nfs.c:xid_map_enter().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b45a9a167ca6a3ef2752ae9d48d56ac14b001bfd",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b45a9a167ca6a3ef2752ae9d48d56ac14b001bfd"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13006",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The L2TP parser in tcpdump before 4.9.2 has a buffer over-read in print-l2tp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cc4a7391c616be7a64ed65742ef9ed3f106eb165",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cc4a7391c616be7a64ed65742ef9ed3f106eb165"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13007",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Apple PKTAP parser in tcpdump before 4.9.2 has a buffer over-read in print-pktap.c:pktap_if_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ca336198e8bebccc18502de27672fdbd6eb34856",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ca336198e8bebccc18502de27672fdbd6eb34856"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13008",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IEEE 802.11 parser in tcpdump before 4.9.2 has a buffer over-read in print-802_11.c:parse_elements().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5edf405d7ed9fc92f4f43e8a3d44baa4c6387562",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5edf405d7ed9fc92f4f43e8a3d44baa4c6387562"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13009",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 mobility parser in tcpdump before 4.9.2 has a buffer over-read in print-mobility.c:mobility_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/db8c799f6dfc68765c9451fcbfca06e662f5bd5f",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/db8c799f6dfc68765c9451fcbfca06e662f5bd5f"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13010",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BEEP parser in tcpdump before 4.9.2 has a buffer over-read in print-beep.c:l_strnstart().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/877b66b398518d9501513e0860c9f3a8acc70892",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/877b66b398518d9501513e0860c9f3a8acc70892"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13011",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "Several protocol parsers in tcpdump before 4.9.2 could cause a buffer overflow in util-print.c:bittok2str_internal().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9f0730bee3eb65d07b49fd468bc2f269173352fe",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/9f0730bee3eb65d07b49fd468bc2f269173352fe"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13012",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMP parser in tcpdump before 4.9.2 has a buffer over-read in print-icmp.c:icmp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8509ef02eceb2bbb479cea10fe4a7ec6395f1a8b",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8509ef02eceb2bbb479cea10fe4a7ec6395f1a8b"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13013",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ARP parser in tcpdump before 4.9.2 has a buffer over-read in print-arp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/13ab8d18617d616c7d343530f8a842e7143fb5cc",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/13ab8d18617d616c7d343530f8a842e7143fb5cc"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13014",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The White Board protocol parser in tcpdump before 4.9.2 has a buffer over-read in print-wb.c:wb_prep(), several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cc356512f512e7fa423b3674db4bb31dbe40ffec",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/cc356512f512e7fa423b3674db4bb31dbe40ffec"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13015",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The EAP parser in tcpdump before 4.9.2 has a buffer over-read in print-eap.c:eap_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/985122081165753c7442bd7824c473eb9ff56308",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/985122081165753c7442bd7824c473eb9ff56308"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13016",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO ES-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:esis_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c177cb3800a9a68d79b2812f0ffcb9479abd6eb8",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c177cb3800a9a68d79b2812f0ffcb9479abd6eb8"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13017",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The DHCPv6 parser in tcpdump before 4.9.2 has a buffer over-read in print-dhcp6.c:dhcp6opt_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/11b426ee05eb62ed103218526f1fa616851c43ce",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/11b426ee05eb62ed103218526f1fa616851c43ce"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13018",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PGM parser in tcpdump before 4.9.2 has a buffer over-read in print-pgm.c:pgm_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/26a6799b9ca80508c05cac7a9a3bef922991520b",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/26a6799b9ca80508c05cac7a9a3bef922991520b"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13019",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PGM parser in tcpdump before 4.9.2 has a buffer over-read in print-pgm.c:pgm_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4601c685e7fd19c3724d5e499c69b8d3ec49933e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4601c685e7fd19c3724d5e499c69b8d3ec49933e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13020",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The VTP parser in tcpdump before 4.9.2 has a buffer over-read in print-vtp.c:vtp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c5dd7bef5e54da5996dc4713284aa6266ae75b75",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d692d67332bcc90540088ad8e725eb3279e39863",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c5dd7bef5e54da5996dc4713284aa6266ae75b75",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d692d67332bcc90540088ad8e725eb3279e39863"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13021",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMPv6 parser in tcpdump before 4.9.2 has a buffer over-read in print-icmp6.c:icmp6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/67c7126062d59729cd421bb38f9594015c9907ba",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/67c7126062d59729cd421bb38f9594015c9907ba"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13022",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IP parser in tcpdump before 4.9.2 has a buffer over-read in print-ip.c:ip_printroute().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/eee0b04bcfdae319c242b0b8fc3d07029ee65b8c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/eee0b04bcfdae319c242b0b8fc3d07029ee65b8c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13023",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 mobility parser in tcpdump before 4.9.2 has a buffer over-read in print-mobility.c:mobility_opt_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b8e559afaeb8fe0604a1f8e3ad4dc1445de07a00",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b8e559afaeb8fe0604a1f8e3ad4dc1445de07a00"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13024",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 mobility parser in tcpdump before 4.9.2 has a buffer over-read in print-mobility.c:mobility_opt_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2e1f6d9320afa83abc1ff716c7981fa504edadf2",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7d3aba9f06899d0128ef46e8a2fa143c6fad8f62",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2e1f6d9320afa83abc1ff716c7981fa504edadf2",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7d3aba9f06899d0128ef46e8a2fa143c6fad8f62"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13025",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 mobility parser in tcpdump before 4.9.2 has a buffer over-read in print-mobility.c:mobility_opt_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5338aac7b8b880b0c5e0c15e27dadc44c5559284",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5338aac7b8b880b0c5e0c15e27dadc44c5559284"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13026",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO IS-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b20e1639dbac84b3fcb393858521c13ad47a9d70",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/b20e1639dbac84b3fcb393858521c13ad47a9d70"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13027",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The LLDP parser in tcpdump before 4.9.2 has a buffer over-read in print-lldp.c:lldp_mgmt_addr_tlv_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a77ff09c46560bc895dea11dc9fe643486b056ac",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a77ff09c46560bc895dea11dc9fe643486b056ac"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13028",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BOOTP parser in tcpdump before 4.9.2 has a buffer over-read in print-bootp.c:bootp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/29e5470e6ab84badbc31f4532bb7554a796d9d52",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/66e22961b30547e9a8daa1f0e8dc9fbe6e2698fa",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/29e5470e6ab84badbc31f4532bb7554a796d9d52",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/66e22961b30547e9a8daa1f0e8dc9fbe6e2698fa"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13029",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PPP parser in tcpdump before 4.9.2 has a buffer over-read in print-ppp.c:print_ccp_config_options().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7029d15f148ef24bb7c6668bc640f5470d085e5a",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7029d15f148ef24bb7c6668bc640f5470d085e5a"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13030",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PIM parser in tcpdump before 4.9.2 has a buffer over-read in print-pim.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5dc1860d8267b1e0cb78c9ffa2a40bea2fdb3ddc",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5dc1860d8267b1e0cb78c9ffa2a40bea2fdb3ddc"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13031",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 fragmentation header parser in tcpdump before 4.9.2 has a buffer over-read in print-frag6.c:frag6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2d669862df7cd17f539129049f6fb70d17174125",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2d669862df7cd17f539129049f6fb70d17174125"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13032",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RADIUS parser in tcpdump before 4.9.2 has a buffer over-read in print-radius.c:print_attr_string().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1bc78d795cd5cad5525498658f414a11ea0a7e9c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/1bc78d795cd5cad5525498658f414a11ea0a7e9c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13033",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The VTP parser in tcpdump before 4.9.2 has a buffer over-read in print-vtp.c:vtp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ae83295915d08a854de27a88efac5dd7353e6d3f",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ae83295915d08a854de27a88efac5dd7353e6d3f"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13034",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PGM parser in tcpdump before 4.9.2 has a buffer over-read in print-pgm.c:pgm_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/da6f1a677bfa4476abaeaf9b1afe1c4390f51b41",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/da6f1a677bfa4476abaeaf9b1afe1c4390f51b41"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13035",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO IS-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:isis_print_id().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/571a6f33f47e7a2394fa08f925e534135c29cf1e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/571a6f33f47e7a2394fa08f925e534135c29cf1e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13036",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The OSPFv3 parser in tcpdump before 4.9.2 has a buffer over-read in print-ospf6.c:ospf6_decode_v3().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/88b2dac837e81cf56dce05e6e7b5989332c0092d",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/88b2dac837e81cf56dce05e6e7b5989332c0092d"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13037",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IP parser in tcpdump before 4.9.2 has a buffer over-read in print-ip.c:ip_printts().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2c2cfbd2b771ac888bc5c4a6d922f749d3822538",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/2c2cfbd2b771ac888bc5c4a6d922f749d3822538"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13038",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The PPP parser in tcpdump before 4.9.2 has a buffer over-read in print-ppp.c:handle_mlppp().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7335163a6ef82d46ff18f3e6099a157747241629",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7335163a6ef82d46ff18f3e6099a157747241629"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13039",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISAKMP parser in tcpdump before 4.9.2 has a buffer over-read in print-isakmp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e0a5a02b0fc1900a69d6c37ed0aab36fb8494e6d",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e0a5a02b0fc1900a69d6c37ed0aab36fb8494e6d"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13040",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The MPTCP parser in tcpdump before 4.9.2 has a buffer over-read in print-mptcp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4c3aee4bb0294c232d56b6d34e9eeb74f630fe8c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4c3aee4bb0294c232d56b6d34e9eeb74f630fe8c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13041",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ICMPv6 parser in tcpdump before 4.9.2 has a buffer over-read in print-icmp6.c:icmp6_nodeinfo_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f4b9e24c7384d882a7f434cc7413925bf871d63e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/f4b9e24c7384d882a7f434cc7413925bf871d63e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13042",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The HNCP parser in tcpdump before 4.9.2 has a buffer over-read in print-hncp.c:dhcpv6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/39582c04cc5e34054b2936b423072fb9df2ff6ef",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/39582c04cc5e34054b2936b423072fb9df2ff6ef"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13043",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.2 has a buffer over-read in print-bgp.c:decode_multicast_vpn().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d515b4b4a300479cdf1a6e0d1bb95bc1f9fee514",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d515b4b4a300479cdf1a6e0d1bb95bc1f9fee514"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13044",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The HNCP parser in tcpdump before 4.9.2 has a buffer over-read in print-hncp.c:dhcpv4_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c2f6833dddecf2d5fb89c9c898eee9981da342ed",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c2f6833dddecf2d5fb89c9c898eee9981da342ed"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13045",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The VQP parser in tcpdump before 4.9.2 has a buffer over-read in print-vqp.c:vqp_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3b36ec4e713dea9266db11975066c425aa669b6c",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3b36ec4e713dea9266db11975066c425aa669b6c"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13046",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.2 has a buffer over-read in print-bgp.c:bgp_attr_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d10a0f980fe8f9407ab1ffbd612641433ebe175e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d10a0f980fe8f9407ab1ffbd612641433ebe175e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13047",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO ES-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:esis_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/331530a4076c69bbd2e3214db6ccbe834fb75640",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/331530a4076c69bbd2e3214db6ccbe834fb75640"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13048",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RSVP parser in tcpdump before 4.9.2 has a buffer over-read in print-rsvp.c:rsvp_obj_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3c8a2b0e91d8d8947e89384dacf6b54673083e71",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3c8a2b0e91d8d8947e89384dacf6b54673083e71"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13049",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Rx protocol parser in tcpdump before 4.9.2 has a buffer over-read in print-rx.c:ubik_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa0858100096a3490edf93034a80e66a4d61aad5",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa0858100096a3490edf93034a80e66a4d61aad5"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13050",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RPKI-Router parser in tcpdump before 4.9.2 has a buffer over-read in print-rpki-rtr.c:rpki_rtr_pdu_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/83c64fce3a5226b080e535f5131a8a318f30e79b",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/83c64fce3a5226b080e535f5131a8a318f30e79b"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13051",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The RSVP parser in tcpdump before 4.9.2 has a buffer over-read in print-rsvp.c:rsvp_obj_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/289c672020280529fd382f3502efab7100d638ec",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/289c672020280529fd382f3502efab7100d638ec"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13052",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The CFM parser in tcpdump before 4.9.2 has a buffer over-read in print-cfm.c:cfm_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5d340a5ca6e420a70297cdbdf777333f18bfdab7",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5d340a5ca6e420a70297cdbdf777333f18bfdab7"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13053",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.2 has a buffer over-read in print-bgp.c:decode_rt_routing_info().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/bd4e697ebd6c8457efa8f28f6831fc929b88a014",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/bd4e697ebd6c8457efa8f28f6831fc929b88a014"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13054",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The LLDP parser in tcpdump before 4.9.2 has a buffer over-read in print-lldp.c:lldp_private_8023_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e6511cc1a950fe1566b2236329d6b4bd0826cc7a",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e6511cc1a950fe1566b2236329d6b4bd0826cc7a"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13055",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The ISO IS-IS parser in tcpdump before 4.9.2 has a buffer over-read in print-isoclns.c:isis_print_is_reach_subtlv().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5d0d76e88ee2d3236d7e032589d6f1d4ec5f7b1e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/5d0d76e88ee2d3236d7e032589d6f1d4ec5f7b1e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13687",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Cisco HDLC parser in tcpdump before 4.9.2 has a buffer over-read in print-chdlc.c:chdlc_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/866c60236c41cea1e1654c8a071897292f64be49",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a1eefe986065846b6c69dbc09afd9fa1a02c4a3d",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/866c60236c41cea1e1654c8a071897292f64be49",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a1eefe986065846b6c69dbc09afd9fa1a02c4a3d"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13688",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The OLSR parser in tcpdump before 4.9.2 has a buffer over-read in print-olsr.c:olsr_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0cb1b8a434b599b8d636db029aadb757c24e39d6",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/0cb1b8a434b599b8d636db029aadb757c24e39d6"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13689",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IKEv1 parser in tcpdump before 4.9.2 has a buffer over-read in print-isakmp.c:ikev1_id_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/061e7371a944588f231cb1b66d6fb070b646e376",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/061e7371a944588f231cb1b66d6fb070b646e376"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13690",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IKEv2 parser in tcpdump before 4.9.2 has a buffer over-read in print-isakmp.c, several functions.",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8dca25d26c7ca2caf6138267f6f17111212c156e",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/8dca25d26c7ca2caf6138267f6f17111212c156e"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2017-13725",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IPv6 routing header parser in tcpdump before 4.9.2 has a buffer over-read in print-rt6.c:rt6_print().",
+    "references": [
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3c4d7c0ee30a30e5abff3d6d9586a3753101faf5",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c7c515ee03c285cc51376328de4ae9d549e501a5",
+      "http://www.tcpdump.org/tcpdump-changes.txt",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3c4d7c0ee30a30e5abff3d6d9586a3753101faf5",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c7c515ee03c285cc51376328de4ae9d549e501a5"
+    ],
+    "last_vuln_version": "4.9.1"
+  },
+  {
+    "id": "CVE-2015-3138",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "print-wb.c in tcpdump before 4.7.4 allows remote attackers to cause a denial of service (segmentation fault and process crash).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3ed82f4ed0095768529afc22b923c8f7171fff70",
+      "https://github.com/the-tcpdump-group/tcpdump/issues/446",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/3ed82f4ed0095768529afc22b923c8f7171fff70",
+      "https://github.com/the-tcpdump-group/tcpdump/issues/446"
+    ],
+    "last_vuln_version": "4.7.3"
+  },
+  {
+    "id": "CVE-2018-10103",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "tcpdump before 4.9.3 mishandles the printing of SMB data (issue 1 of 2).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-10105",
+    "cwe": [
+      "CWE-20"
+    ],
+    "summary": "tcpdump before 4.9.3 mishandles the printing of SMB data (issue 2 of 2).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14461",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The LDP parser in tcpdump before 4.9.3 has a buffer over-read in print-ldp.c:ldp_tlv_print().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa5c6b710dfd8020d2c908d6b3bd41f1da719b3b",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/aa5c6b710dfd8020d2c908d6b3bd41f1da719b3b"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14464",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The LMP parser in tcpdump before 4.9.3 has a buffer over-read in print-lmp.c:lmp_print_data_link_subobjs().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d97e94223720684c6aa740ff219e0d19426c2220",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/d97e94223720684c6aa740ff219e0d19426c2220"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14466",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Rx parser in tcpdump before 4.9.3 has a buffer over-read in print-rx.c:rx_cache_find() and rx_cache_insert().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c24922e692a52121e853a84ead6b9337f4c08a94",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/c24922e692a52121e853a84ead6b9337f4c08a94"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14467",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.3 has a buffer over-read in print-bgp.c:bgp_capabilities_print() (BGP_CAPCODE_MP).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e3f3b445e2d20ac5d5b7fcb7559ce6beb55da0c9",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e3f3b445e2d20ac5d5b7fcb7559ce6beb55da0c9"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14470",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The Babel parser in tcpdump before 4.9.3 has a buffer over-read in print-babel.c:babel_print_v2().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/12f66f69f7bf1ec1266ddbee90a7616cbf33696b",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/12f66f69f7bf1ec1266ddbee90a7616cbf33696b"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-14881",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.3 has a buffer over-read in print-bgp.c:bgp_capabilities_print() (BGP_CAPCODE_RESTART).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/86326e880d31b328a151d45348c35220baa9a1ff",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/86326e880d31b328a151d45348c35220baa9a1ff"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16227",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The IEEE 802.11 parser in tcpdump before 4.9.3 has a buffer over-read in print-802_11.c for the Mesh Flags subfield.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4846b3c5d0a850e860baf4f07340495d29837d09",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/4846b3c5d0a850e860baf4f07340495d29837d09"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16228",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The HNCP parser in tcpdump before 4.9.3 has a buffer over-read in print-hncp.c:print_prefix().",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/83a412a5275cac973c5841eca3511c766bed778d",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/83a412a5275cac973c5841eca3511c766bed778d"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16230",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.3 has a buffer over-read in print-bgp.c:bgp_attr_print() (MP_REACH_NLRI).",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/13d52e9c0e7caf7e6325b0051bc90a49968be67f",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/13d52e9c0e7caf7e6325b0051bc90a49968be67f"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16300",
+    "cwe": [
+      "CWE-674"
+    ],
+    "summary": "The BGP parser in tcpdump before 4.9.3 allows stack consumption in print-bgp.c:bgp_attr_print() because of unlimited recursion.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/af2cf04a9394c1a56227c2289ae8da262828294a",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/af2cf04a9394c1a56227c2289ae8da262828294a"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16301",
+    "cwe": [
+      "CWE-120",
+      "CWE-190",
+      "CWE-787"
+    ],
+    "summary": "The command-line argument parser in tcpdump before 4.99.0 has a buffer overflow in tcpdump.c:read_infile(). To trigger this vulnerability the attacker needs to create a 4GB file on the local filesystem and to specify the file name as the value of the -F command-line argument of tcpdump.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ad7c25bc0decf96dc7768c9e903734d38528b1bd",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/ad7c25bc0decf96dc7768c9e903734d38528b1bd"
+    ],
+    "last_vuln_version": "4.10.0"
+  },
+  {
+    "id": "CVE-2018-16451",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The SMB parser in tcpdump before 4.9.3 has buffer over-reads in print-smb.c:print_trans() for \\MAILSLOT\\BROWSE and \\PIPE\\LANMAN.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/96480ab95308cd9234b4f09b175ebf60e17792c6",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/96480ab95308cd9234b4f09b175ebf60e17792c6"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-16452",
+    "cwe": [
+      "CWE-674"
+    ],
+    "summary": "The SMB parser in tcpdump before 4.9.3 has stack exhaustion in smbutil.c:smb_fdata() via recursion.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/24182d959f661327525a20d9a94c98a8ec016778",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/24182d959f661327525a20d9a94c98a8ec016778"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2019-15167",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The VRRP parser in tcpdump before 4.9.3 has a buffer over-read in print-vrrp.c:vrrp_print() for VRRP version 3, a different vulnerability than CVE-2018-14463.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a152aebfd1114376ba266ed30416be596ef9d806",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/a152aebfd1114376ba266ed30416be596ef9d806"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2020-8036",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "The tok2strbuf() function in tcpdump 4.10.0-PRE-GIT was used by the SOME/IP dissector in an unsafe way.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e2256b4f2506102be2c6f7976f84f0d607c53d43",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/e2256b4f2506102be2c6f7976f84f0d607c53d43"
+    ],
+    "last_vuln_version": "4.10.0"
+  },
+  {
+    "id": "CVE-2017-11108",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "tcpdump 4.9.0 allows remote attackers to cause a denial of service (heap-based buffer over-read and application crash) via crafted packet data. The crash occurs in the EXTRACT_16BITS function, called from the stp_print function for the Spanning Tree Protocol.",
+    "references": [],
+    "last_vuln_version": "4.9.0"
+  },
+  {
+    "id": "CVE-2017-11541",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "tcpdump 4.9.0 has a heap-based buffer over-read in the lldp_print function in print-lldp.c, related to util-print.c.",
+    "references": [
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/heap-buffer-overflow/util-print",
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/heap-buffer-overflow/util-print"
+    ],
+    "last_vuln_version": "4.9.0"
+  },
+  {
+    "id": "CVE-2017-11542",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "tcpdump 4.9.0 has a heap-based buffer over-read in the pimv1_print function in print-pim.c.",
+    "references": [
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/heap-buffer-overflow/print-pim",
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/heap-buffer-overflow/print-pim"
+    ],
+    "last_vuln_version": "4.9.0"
+  },
+  {
+    "id": "CVE-2017-11543",
+    "cwe": [
+      "CWE-119"
+    ],
+    "summary": "tcpdump 4.9.0 has a buffer overflow in the sliplink_print function in print-sl.c.",
+    "references": [
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/global-overflow/print-sl",
+      "https://github.com/hackerlib/hackerlib-vul/tree/master/tcpdump-vul/global-overflow/print-sl"
+    ],
+    "last_vuln_version": "4.9.0"
+  },
+  {
+    "id": "CVE-2017-16808",
+    "cwe": [
+      "CWE-125"
+    ],
+    "summary": "tcpdump before 4.9.3 has a heap-based buffer over-read related to aoe_print in print-aoe.c and lookup_emem in addrtoname.c.",
+    "references": [
+      "http://packetstormsecurity.com/files/154710/Slackware-Security-Advisory-tcpdump-Updates.html",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/issues/645",
+      "http://packetstormsecurity.com/files/154710/Slackware-Security-Advisory-tcpdump-Updates.html",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9/CHANGES",
+      "https://github.com/the-tcpdump-group/tcpdump/issues/645"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2018-19519",
+    "cwe": [
+      "CWE-125",
+      "CWE-909"
+    ],
+    "summary": "In tcpdump 4.9.2, a stack-based buffer over-read exists in the print_prefix function of print-hncp.c via crafted packet data because of missing initialization.",
+    "references": [
+      "https://github.com/zyingp/temp/blob/master/tcpdump.md",
+      "https://github.com/zyingp/temp/blob/master/tcpdump.md"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2019-1010220",
+    "cwe": [
+      "CWE-125",
+      "CWE-126"
+    ],
+    "summary": "tcpdump.org tcpdump 4.9.2 is affected by: CWE-126: Buffer Over-read. The impact is: May expose Saved Frame Pointer, Return Address etc. on stack. The component is: line 234: \"ND_PRINT((ndo, \"%s\", buf));\", in function named \"print_prefix\", in \"print-hncp.c\". The attack vector is: The victim must open a specially crafted pcap file.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/blob/master/print-hncp.c",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9.2/print-hncp.c",
+      "https://github.com/the-tcpdump-group/tcpdump/commits/master/print-hncp.c",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/master/print-hncp.c",
+      "https://github.com/the-tcpdump-group/tcpdump/blob/tcpdump-4.9.2/print-hncp.c",
+      "https://github.com/the-tcpdump-group/tcpdump/commits/master/print-hncp.c"
+    ],
+    "last_vuln_version": "4.9.2"
+  },
+  {
+    "id": "CVE-2020-8037",
+    "cwe": [
+      "CWE-770"
+    ],
+    "summary": "The ppp decapsulator in tcpdump 4.9.3 can be convinced to allocate a large amount of memory.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/32027e199368dad9508965aae8cd8de5b6ab5231",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/32027e199368dad9508965aae8cd8de5b6ab5231"
+    ],
+    "last_vuln_version": "4.9.3"
+  },
+  {
+    "id": "CVE-2023-1801",
+    "cwe": [
+      "CWE-787"
+    ],
+    "summary": "The SMB protocol decoder in tcpdump version 4.99.3 can perform an out-of-bounds write when decoding a crafted network packet.",
+    "references": [
+      "https://github.com/the-tcpdump-group/tcpdump/commit/03c037bbd75588beba3ee09f26d17783d21e30bc",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7578e1c04ee280dda50c4c2813e7d55f539c6501",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/03c037bbd75588beba3ee09f26d17783d21e30bc",
+      "https://github.com/the-tcpdump-group/tcpdump/commit/7578e1c04ee280dda50c4c2813e7d55f539c6501"
+    ],
+    "last_vuln_version": "4.99.3"
+  }
+]

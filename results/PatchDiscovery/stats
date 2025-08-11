@@ -1,10 +1,10 @@
 binutils_result.csv:
-  succeed/targets = 270/350 = 0.7714
-  succeed/(targets-func_not_found) = 270/(350-6) = 0.7824
-  succeed/valid_targets = 270/314 = 0.8581 (只考虑FP/FN)
+  succeed/targets = 458/613 = 0.7471
+  succeed/(targets-func_not_found) = 458/(613-9) = 0.7583
+  succeed/valid_targets = 458/596 = 0.7685 (只考虑FP/FN)
   CVE-ACC:
-    整体准确率: 77.50%
-    排除failed的准确率: 78.15%
+    整体准确率: 70.69%
+    排除failed的准确率: 71.04%
 
 curl_result.csv:
   succeed/targets = 257/340 = 0.7559
@@ -45,3 +45,11 @@ sqlite_result.csv:
   CVE-ACC:
     整体准确率: 82.71%
     排除failed的准确率: 83.97%
+
+tcpdump_result.csv:
+  succeed/targets = 831/1176 = 0.7066
+  succeed/(targets-func_not_found) = 831/(1176-48) = 0.7367
+  succeed/valid_targets = 831/1128 = 0.7367 (只考虑FP/FN)
+  CVE-ACC:
+    整体准确率: 73.38%
+    排除failed的准确率: 73.86%

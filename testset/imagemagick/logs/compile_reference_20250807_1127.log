@@ -1,0 +1,1509 @@
+[2025-08-07 11:27:40] ===== 开始处理 imagemagick CVE 参考二进制编译 =====
+[2025-08-07 11:27:40] 
+[2025-08-07 11:27:40] >>> 处理 CVE: CVE-2015-8895, 补丁 Commit: 0f6fc2d5bf8f <<<
+[2025-08-07 11:27:40] 相关函数: AcquireVirtualMemory, WritePICTImage, ReadICONImage, AutoResizeImage, RelinquishVirtualMemory, GetMagickDelegates
+[2025-08-07 11:27:40] ==================================================
+[2025-08-07 11:27:40] 开始处理 Git Ref: 0f6fc2d5bf8f
+[2025-08-07 11:27:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0f6fc2d5bf8f
+[2025-08-07 11:27:40] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0f6fc2d5bf8f/compile.log
+[2025-08-07 11:27:40] 二进制文件 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8895-patch-0f6fc2d5bf8f-magickcore 已存在，跳过编译
+[2025-08-07 11:27:40] 漏洞版本 (父提交): a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:27:40] ==================================================
+[2025-08-07 11:27:40] 开始处理 Git Ref: a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:27:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:27:40] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/compile.log
+保存工作目录和索引状态 WIP on (no branch): 0f6fc2d5b
+[2025-08-07 11:27:45] 命令成功: git stash --include-untracked
+[2025-08-07 11:27:45] 正在检出 a1f115c91f45051a1f34f219158f72aa29ca4696...
+之前的 HEAD 位置是 0f6fc2d5b 
+HEAD 目前位于 a1f115c91 
+[2025-08-07 11:27:45] 命令成功: git checkout a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:27:45] 已成功检出 a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:28:08] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:29:05] 命令成功: make
+[2025-08-07 11:29:05] 编译子任务完成
+[2025-08-07 11:29:05] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:29:05] 所有函数都找到了: AcquireVirtualMemory, WritePICTImage, ReadICONImage, AutoResizeImage, RelinquishVirtualMemory, GetMagickDelegates in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:29:05] a1f115c91f45051a1f34f219158f72aa29ca4696 编译成功
+[2025-08-07 11:29:05] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8895-vuln-a1f115c91f45-magickcore
+[2025-08-07 11:29:05] 二进制文件复制成功
+[2025-08-07 11:29:05] 
+[2025-08-07 11:29:05] >>> 处理 CVE: CVE-2015-8896, 补丁 Commit: 0f6fc2d5bf8f <<<
+[2025-08-07 11:29:05] 相关函数: AcquireVirtualMemory, WritePICTImage, ReadICONImage, AutoResizeImage, RelinquishVirtualMemory, GetMagickDelegates
+[2025-08-07 11:29:05] ==================================================
+[2025-08-07 11:29:05] 开始处理 Git Ref: 0f6fc2d5bf8f
+[2025-08-07 11:29:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0f6fc2d5bf8f
+[2025-08-07 11:29:05] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0f6fc2d5bf8f/compile.log
+[2025-08-07 11:29:05] 二进制文件 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8896-patch-0f6fc2d5bf8f-magickcore 已存在，跳过编译
+[2025-08-07 11:29:05] 漏洞版本 (父提交): a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:29:05] ==================================================
+[2025-08-07 11:29:05] 开始处理 Git Ref: a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:29:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:29:05] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/compile.log
+保存工作目录和索引状态 WIP on (no branch): a1f115c91
+[2025-08-07 11:29:06] 命令成功: git stash --include-untracked
+[2025-08-07 11:29:06] 正在检出 a1f115c91f45051a1f34f219158f72aa29ca4696...
+HEAD 目前位于 a1f115c91 
+[2025-08-07 11:29:06] 命令成功: git checkout a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:29:06] 已成功检出 a1f115c91f45051a1f34f219158f72aa29ca4696
+[2025-08-07 11:29:31] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:30:27] 命令成功: make
+[2025-08-07 11:30:27] 编译子任务完成
+[2025-08-07 11:30:27] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:30:27] 所有函数都找到了: AcquireVirtualMemory, WritePICTImage, ReadICONImage, AutoResizeImage, RelinquishVirtualMemory, GetMagickDelegates in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:30:27] a1f115c91f45051a1f34f219158f72aa29ca4696 编译成功
+[2025-08-07 11:30:27] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-a1f115c91f45051a1f34f219158f72aa29ca4696/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8896-vuln-a1f115c91f45-magickcore
+[2025-08-07 11:30:27] 二进制文件复制成功
+[2025-08-07 11:30:27] 
+[2025-08-07 11:30:27] >>> 处理 CVE: CVE-2015-8900, 补丁 Commit: 97aa7d7cfd20 <<<
+[2025-08-07 11:30:27] 相关函数: ReadHDRImage
+[2025-08-07 11:30:27] ==================================================
+[2025-08-07 11:30:27] 开始处理 Git Ref: 97aa7d7cfd20
+[2025-08-07 11:30:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-97aa7d7cfd20
+[2025-08-07 11:30:27] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-97aa7d7cfd20/compile.log
+保存工作目录和索引状态 WIP on (no branch): a1f115c91
+[2025-08-07 11:30:28] 命令成功: git stash --include-untracked
+[2025-08-07 11:30:28] 正在检出 97aa7d7cfd20...
+之前的 HEAD 位置是 a1f115c91 
+HEAD 目前位于 97aa7d7cf Fixed infinite loop and added checks for the sscanf result.
+[2025-08-07 11:30:28] 命令成功: git checkout 97aa7d7cfd20
+[2025-08-07 11:30:28] 已成功检出 97aa7d7cfd20
+[2025-08-07 11:30:52] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:32:09] 命令成功: make
+[2025-08-07 11:32:09] 编译子任务完成
+[2025-08-07 11:32:09] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-97aa7d7cfd20/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:32:09] 所有函数都找到了: ReadHDRImage in libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:32:09] 97aa7d7cfd20 编译成功
+[2025-08-07 11:32:09] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-97aa7d7cfd20/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8900-patch-97aa7d7cfd20-magickcore
+[2025-08-07 11:32:09] 二进制文件复制成功
+[2025-08-07 11:32:09] 漏洞版本 (父提交): 44c22978c1f9d4cc6499a3f69de56d83f36080fd
+[2025-08-07 11:32:09] ==================================================
+[2025-08-07 11:32:09] 开始处理 Git Ref: 44c22978c1f9d4cc6499a3f69de56d83f36080fd
+[2025-08-07 11:32:09] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-44c22978c1f9d4cc6499a3f69de56d83f36080fd
+[2025-08-07 11:32:09] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-44c22978c1f9d4cc6499a3f69de56d83f36080fd/compile.log
+保存工作目录和索引状态 WIP on (no branch): 97aa7d7cf Fixed infinite loop and added checks for the sscanf result.
+[2025-08-07 11:32:11] 命令成功: git stash --include-untracked
+[2025-08-07 11:32:11] 正在检出 44c22978c1f9d4cc6499a3f69de56d83f36080fd...
+之前的 HEAD 位置是 97aa7d7cf Fixed infinite loop and added checks for the sscanf result.
+HEAD 目前位于 44c22978c Always check "status" returns.
+[2025-08-07 11:32:11] 命令成功: git checkout 44c22978c1f9d4cc6499a3f69de56d83f36080fd
+[2025-08-07 11:32:11] 已成功检出 44c22978c1f9d4cc6499a3f69de56d83f36080fd
+[2025-08-07 11:32:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:33:21] 命令成功: make
+[2025-08-07 11:33:21] 编译子任务完成
+[2025-08-07 11:33:21] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-44c22978c1f9d4cc6499a3f69de56d83f36080fd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:33:21] 所有函数都找到了: ReadHDRImage in libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:33:21] 44c22978c1f9d4cc6499a3f69de56d83f36080fd 编译成功
+[2025-08-07 11:33:21] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-44c22978c1f9d4cc6499a3f69de56d83f36080fd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8900-vuln-44c22978c1f9-magickcore
+[2025-08-07 11:33:21] 二进制文件复制成功
+[2025-08-07 11:33:21] 
+[2025-08-07 11:33:21] >>> 处理 CVE: CVE-2015-8957, 补丁 Commit: 450bd716ed3b <<<
+[2025-08-07 11:33:21] 相关函数: ReadSUNImage, BlackThresholdImage
+[2025-08-07 11:33:21] ==================================================
+[2025-08-07 11:33:21] 开始处理 Git Ref: 450bd716ed3b
+[2025-08-07 11:33:21] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-450bd716ed3b
+[2025-08-07 11:33:21] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-450bd716ed3b/compile.log
+保存工作目录和索引状态 WIP on (no branch): 44c22978c Always check "status" returns.
+[2025-08-07 11:33:22] 命令成功: git stash --include-untracked
+[2025-08-07 11:33:22] 正在检出 450bd716ed3b...
+之前的 HEAD 位置是 44c22978c Always check "status" returns.
+HEAD 目前位于 450bd716e 
+[2025-08-07 11:33:22] 命令成功: git checkout 450bd716ed3b
+[2025-08-07 11:33:22] 已成功检出 450bd716ed3b
+[2025-08-07 11:33:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:33:35] 编译子任务完成
+[2025-08-07 11:33:35] 漏洞版本 (父提交): 530f17f44f46821989b88b4d6685c8b57ff68914
+[2025-08-07 11:33:35] ==================================================
+[2025-08-07 11:33:35] 开始处理 Git Ref: 530f17f44f46821989b88b4d6685c8b57ff68914
+[2025-08-07 11:33:35] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-530f17f44f46821989b88b4d6685c8b57ff68914
+[2025-08-07 11:33:35] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-530f17f44f46821989b88b4d6685c8b57ff68914/compile.log
+保存工作目录和索引状态 WIP on (no branch): 450bd716e
+[2025-08-07 11:33:36] 命令成功: git stash --include-untracked
+[2025-08-07 11:33:36] 正在检出 530f17f44f46821989b88b4d6685c8b57ff68914...
+之前的 HEAD 位置是 450bd716e 
+HEAD 目前位于 530f17f44 
+[2025-08-07 11:33:36] 命令成功: git checkout 530f17f44f46821989b88b4d6685c8b57ff68914
+[2025-08-07 11:33:36] 已成功检出 530f17f44f46821989b88b4d6685c8b57ff68914
+[2025-08-07 11:33:48] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:34:42] 命令成功: make
+[2025-08-07 11:34:42] 编译子任务完成
+[2025-08-07 11:34:42] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-530f17f44f46821989b88b4d6685c8b57ff68914/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:34:42] 所有函数都找到了: ReadSUNImage, BlackThresholdImage in libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:34:42] 530f17f44f46821989b88b4d6685c8b57ff68914 编译成功
+[2025-08-07 11:34:42] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-530f17f44f46821989b88b4d6685c8b57ff68914/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8957-vuln-530f17f44f46-magickcore
+[2025-08-07 11:34:42] 二进制文件复制成功
+[2025-08-07 11:34:42] 
+[2025-08-07 11:34:42] >>> 处理 CVE: CVE-2015-8958, 补丁 Commit: 1aa0c6dab6dc <<<
+[2025-08-07 11:34:42] 相关函数: ReadSUNImage
+[2025-08-07 11:34:42] ==================================================
+[2025-08-07 11:34:42] 开始处理 Git Ref: 1aa0c6dab6dc
+[2025-08-07 11:34:42] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1aa0c6dab6dc
+[2025-08-07 11:34:42] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1aa0c6dab6dc/compile.log
+保存工作目录和索引状态 WIP on (no branch): 530f17f44
+[2025-08-07 11:34:43] 命令成功: git stash --include-untracked
+[2025-08-07 11:34:43] 正在检出 1aa0c6dab6dc...
+之前的 HEAD 位置是 530f17f44 
+HEAD 目前位于 1aa0c6dab 
+[2025-08-07 11:34:43] 命令成功: git checkout 1aa0c6dab6dc
+[2025-08-07 11:34:43] 已成功检出 1aa0c6dab6dc
+[2025-08-07 11:34:56] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:35:50] 命令成功: make
+[2025-08-07 11:35:50] 编译子任务完成
+[2025-08-07 11:35:50] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1aa0c6dab6dc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:35:50] 所有函数都找到了: ReadSUNImage in libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:35:50] 1aa0c6dab6dc 编译成功
+[2025-08-07 11:35:50] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1aa0c6dab6dc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8958-patch-1aa0c6dab6dc-magickcore
+[2025-08-07 11:35:50] 二进制文件复制成功
+[2025-08-07 11:35:50] 漏洞版本 (父提交): 110fbd73283f04419af70412fa7cf63ab9e5940f
+[2025-08-07 11:35:50] ==================================================
+[2025-08-07 11:35:50] 开始处理 Git Ref: 110fbd73283f04419af70412fa7cf63ab9e5940f
+[2025-08-07 11:35:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-110fbd73283f04419af70412fa7cf63ab9e5940f
+[2025-08-07 11:35:50] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-110fbd73283f04419af70412fa7cf63ab9e5940f/compile.log
+保存工作目录和索引状态 WIP on (no branch): 1aa0c6dab
+[2025-08-07 11:35:51] 命令成功: git stash --include-untracked
+[2025-08-07 11:35:51] 正在检出 110fbd73283f04419af70412fa7cf63ab9e5940f...
+之前的 HEAD 位置是 1aa0c6dab 
+HEAD 目前位于 110fbd732 
+[2025-08-07 11:35:51] 命令成功: git checkout 110fbd73283f04419af70412fa7cf63ab9e5940f
+[2025-08-07 11:35:51] 已成功检出 110fbd73283f04419af70412fa7cf63ab9e5940f
+[2025-08-07 11:36:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:36:58] 命令成功: make
+[2025-08-07 11:36:58] 编译子任务完成
+[2025-08-07 11:36:58] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-110fbd73283f04419af70412fa7cf63ab9e5940f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:36:58] 所有函数都找到了: ReadSUNImage in libMagickCore-7.Q16HDRI.so.1.0.0
+[2025-08-07 11:36:58] 110fbd73283f04419af70412fa7cf63ab9e5940f 编译成功
+[2025-08-07 11:36:58] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-110fbd73283f04419af70412fa7cf63ab9e5940f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.1.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2015-8958-vuln-110fbd73283f-magickcore
+[2025-08-07 11:36:58] 二进制文件复制成功
+[2025-08-07 11:36:58] 
+[2025-08-07 11:36:58] >>> 处理 CVE: CVE-2016-10060, 补丁 Commit: 933e96f01a8c <<<
+[2025-08-07 11:36:58] 相关函数: ConcatenateImages, MagickUsage
+[2025-08-07 11:36:58] ==================================================
+[2025-08-07 11:36:58] 开始处理 Git Ref: 933e96f01a8c
+[2025-08-07 11:36:58] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-933e96f01a8c
+[2025-08-07 11:36:58] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-933e96f01a8c/compile.log
+保存工作目录和索引状态 WIP on (no branch): 110fbd732
+[2025-08-07 11:36:59] 命令成功: git stash --include-untracked
+[2025-08-07 11:36:59] 正在检出 933e96f01a8c...
+之前的 HEAD 位置是 110fbd732 
+HEAD 目前位于 933e96f01 https://github.com/ImageMagick/ImageMagick/issues/196
+[2025-08-07 11:36:59] 命令成功: git checkout 933e96f01a8c
+[2025-08-07 11:36:59] 已成功检出 933e96f01a8c
+[2025-08-07 11:37:12] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:38:22] 命令成功: make
+[2025-08-07 11:38:22] 编译子任务完成
+[2025-08-07 11:38:22] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-933e96f01a8c/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:38:22] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-933e96f01a8c/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:38:22] 所有函数都找到了: ConcatenateImages, MagickUsage in libMagickWand-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:38:22] 933e96f01a8c 编译成功
+[2025-08-07 11:38:22] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-933e96f01a8c/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-10060-patch-933e96f01a8c-magickwand
+[2025-08-07 11:38:22] 二进制文件复制成功
+[2025-08-07 11:38:22] 漏洞版本 (父提交): 8f012e53de440db26b36e690e61d480e78249ab8
+[2025-08-07 11:38:22] ==================================================
+[2025-08-07 11:38:22] 开始处理 Git Ref: 8f012e53de440db26b36e690e61d480e78249ab8
+[2025-08-07 11:38:22] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-8f012e53de440db26b36e690e61d480e78249ab8
+[2025-08-07 11:38:22] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-8f012e53de440db26b36e690e61d480e78249ab8/compile.log
+保存工作目录和索引状态 WIP on (no branch): 933e96f01 https://github.com/ImageMagick/ImageMagick/issues/196
+[2025-08-07 11:38:22] 命令成功: git stash --include-untracked
+[2025-08-07 11:38:22] 正在检出 8f012e53de440db26b36e690e61d480e78249ab8...
+之前的 HEAD 位置是 933e96f01 https://github.com/ImageMagick/ImageMagick/issues/196
+HEAD 目前位于 8f012e53d All devices from the same platform will share a context. The platform name is now part of the signature of the cached kernel.
+[2025-08-07 11:38:22] 命令成功: git checkout 8f012e53de440db26b36e690e61d480e78249ab8
+[2025-08-07 11:38:22] 已成功检出 8f012e53de440db26b36e690e61d480e78249ab8
+[2025-08-07 11:38:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:39:33] 命令成功: make
+[2025-08-07 11:39:33] 编译子任务完成
+[2025-08-07 11:39:33] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-8f012e53de440db26b36e690e61d480e78249ab8/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:39:33] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-8f012e53de440db26b36e690e61d480e78249ab8/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:39:33] 所有函数都找到了: ConcatenateImages, MagickUsage in libMagickWand-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:39:33] 8f012e53de440db26b36e690e61d480e78249ab8 编译成功
+[2025-08-07 11:39:33] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-8f012e53de440db26b36e690e61d480e78249ab8/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-10060-vuln-8f012e53de44-magickwand
+[2025-08-07 11:39:33] 二进制文件复制成功
+[2025-08-07 11:39:33] 
+[2025-08-07 11:39:33] >>> 处理 CVE: CVE-2016-10065, 补丁 Commit: 134463b926fa <<<
+[2025-08-07 11:39:33] 相关函数: IsVIFF, ImportGrayQuantum, ReadVIFFImage
+[2025-08-07 11:39:33] ==================================================
+[2025-08-07 11:39:33] 开始处理 Git Ref: 134463b926fa
+[2025-08-07 11:39:33] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-134463b926fa
+[2025-08-07 11:39:33] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-134463b926fa/compile.log
+保存工作目录和索引状态 WIP on (no branch): 8f012e53d All devices from the same platform will share a context. The platform name is now part of the signature of the cached kernel.
+[2025-08-07 11:39:33] 命令成功: git stash --include-untracked
+[2025-08-07 11:39:33] 正在检出 134463b926fa...
+之前的 HEAD 位置是 8f012e53d All devices from the same platform will share a context. The platform name is now part of the signature of the cached kernel.
+HEAD 目前位于 134463b92 https://github.com/ImageMagick/ImageMagick/issues/129
+[2025-08-07 11:39:34] 命令成功: git checkout 134463b926fa
+[2025-08-07 11:39:34] 已成功检出 134463b926fa
+[2025-08-07 11:39:46] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:40:57] 命令成功: make
+[2025-08-07 11:40:57] 编译子任务完成
+[2025-08-07 11:40:57] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-134463b926fa/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:40:57] 所有函数都找到了: IsVIFF, ImportGrayQuantum, ReadVIFFImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:40:57] 134463b926fa 编译成功
+[2025-08-07 11:40:57] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-134463b926fa/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-10065-patch-134463b926fa-magickcore
+[2025-08-07 11:40:57] 二进制文件复制成功
+[2025-08-07 11:40:57] 漏洞版本 (父提交): 1bc1fd0ff8c555841c78829217ac81fa0598255d
+[2025-08-07 11:40:57] ==================================================
+[2025-08-07 11:40:57] 开始处理 Git Ref: 1bc1fd0ff8c555841c78829217ac81fa0598255d
+[2025-08-07 11:40:57] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1bc1fd0ff8c555841c78829217ac81fa0598255d
+[2025-08-07 11:40:57] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1bc1fd0ff8c555841c78829217ac81fa0598255d/compile.log
+保存工作目录和索引状态 WIP on (no branch): 134463b92 https://github.com/ImageMagick/ImageMagick/issues/129
+[2025-08-07 11:40:57] 命令成功: git stash --include-untracked
+[2025-08-07 11:40:57] 正在检出 1bc1fd0ff8c555841c78829217ac81fa0598255d...
+之前的 HEAD 位置是 134463b92 https://github.com/ImageMagick/ImageMagick/issues/129
+HEAD 目前位于 1bc1fd0ff https://github.com/ImageMagick/ImageMagick/issues/131
+[2025-08-07 11:40:57] 命令成功: git checkout 1bc1fd0ff8c555841c78829217ac81fa0598255d
+[2025-08-07 11:40:57] 已成功检出 1bc1fd0ff8c555841c78829217ac81fa0598255d
+[2025-08-07 11:41:10] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:42:10] 命令成功: make
+[2025-08-07 11:42:10] 编译子任务完成
+[2025-08-07 11:42:10] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1bc1fd0ff8c555841c78829217ac81fa0598255d/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:42:10] 所有函数都找到了: IsVIFF, ImportGrayQuantum, ReadVIFFImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:42:10] 1bc1fd0ff8c555841c78829217ac81fa0598255d 编译成功
+[2025-08-07 11:42:10] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1bc1fd0ff8c555841c78829217ac81fa0598255d/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-10065-vuln-1bc1fd0ff8c5-magickcore
+[2025-08-07 11:42:10] 二进制文件复制成功
+[2025-08-07 11:42:10] 
+[2025-08-07 11:42:10] >>> 处理 CVE: CVE-2016-5689, 补丁 Commit: 5511ef530576 <<<
+[2025-08-07 11:42:10] 相关函数: ReadDCMImage
+[2025-08-07 11:42:10] ==================================================
+[2025-08-07 11:42:10] 开始处理 Git Ref: 5511ef530576
+[2025-08-07 11:42:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576
+[2025-08-07 11:42:10] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/compile.log
+保存工作目录和索引状态 WIP on (no branch): 1bc1fd0ff https://github.com/ImageMagick/ImageMagick/issues/131
+[2025-08-07 11:42:10] 命令成功: git stash --include-untracked
+[2025-08-07 11:42:10] 正在检出 5511ef530576...
+之前的 HEAD 位置是 1bc1fd0ff https://github.com/ImageMagick/ImageMagick/issues/131
+HEAD 目前位于 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:42:10] 命令成功: git checkout 5511ef530576
+[2025-08-07 11:42:10] 已成功检出 5511ef530576
+[2025-08-07 11:42:23] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:43:33] 命令成功: make
+[2025-08-07 11:43:33] 编译子任务完成
+[2025-08-07 11:43:33] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:43:33] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:43:33] 5511ef530576 编译成功
+[2025-08-07 11:43:33] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5689-patch-5511ef530576-magickcore
+[2025-08-07 11:43:33] 二进制文件复制成功
+[2025-08-07 11:43:33] 漏洞版本 (父提交): 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:43:33] ==================================================
+[2025-08-07 11:43:33] 开始处理 Git Ref: 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:43:33] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:43:33] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/compile.log
+保存工作目录和索引状态 WIP on (no branch): 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:43:34] 命令成功: git stash --include-untracked
+[2025-08-07 11:43:34] 正在检出 88acca6232458c226083f48f21b6198e3f4d9eb4...
+之前的 HEAD 位置是 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+HEAD 目前位于 88acca623 ...
+[2025-08-07 11:43:34] 命令成功: git checkout 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:43:34] 已成功检出 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:43:46] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:44:45] 命令成功: make
+[2025-08-07 11:44:45] 编译子任务完成
+[2025-08-07 11:44:45] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:44:45] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:44:45] 88acca6232458c226083f48f21b6198e3f4d9eb4 编译成功
+[2025-08-07 11:44:45] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5689-vuln-88acca623245-magickcore
+[2025-08-07 11:44:45] 二进制文件复制成功
+[2025-08-07 11:44:45] 
+[2025-08-07 11:44:45] >>> 处理 CVE: CVE-2016-5690, 补丁 Commit: 5511ef530576 <<<
+[2025-08-07 11:44:45] 相关函数: ReadDCMImage
+[2025-08-07 11:44:45] ==================================================
+[2025-08-07 11:44:45] 开始处理 Git Ref: 5511ef530576
+[2025-08-07 11:44:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576
+[2025-08-07 11:44:45] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/compile.log
+保存工作目录和索引状态 WIP on (no branch): 88acca623 ...
+[2025-08-07 11:44:45] 命令成功: git stash --include-untracked
+[2025-08-07 11:44:45] 正在检出 5511ef530576...
+之前的 HEAD 位置是 88acca623 ...
+HEAD 目前位于 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:44:45] 命令成功: git checkout 5511ef530576
+[2025-08-07 11:44:45] 已成功检出 5511ef530576
+[2025-08-07 11:45:09] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:46:09] 命令成功: make
+[2025-08-07 11:46:09] 编译子任务完成
+[2025-08-07 11:46:09] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:46:09] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:46:09] 5511ef530576 编译成功
+[2025-08-07 11:46:09] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5690-patch-5511ef530576-magickcore
+[2025-08-07 11:46:09] 二进制文件复制成功
+[2025-08-07 11:46:09] 漏洞版本 (父提交): 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:46:09] ==================================================
+[2025-08-07 11:46:09] 开始处理 Git Ref: 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:46:09] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:46:09] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/compile.log
+保存工作目录和索引状态 WIP on (no branch): 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:46:09] 命令成功: git stash --include-untracked
+[2025-08-07 11:46:09] 正在检出 88acca6232458c226083f48f21b6198e3f4d9eb4...
+之前的 HEAD 位置是 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+HEAD 目前位于 88acca623 ...
+[2025-08-07 11:46:09] 命令成功: git checkout 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:46:09] 已成功检出 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:46:33] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:47:33] 命令成功: make
+[2025-08-07 11:47:33] 编译子任务完成
+[2025-08-07 11:47:33] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:47:33] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:47:33] 88acca6232458c226083f48f21b6198e3f4d9eb4 编译成功
+[2025-08-07 11:47:33] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5690-vuln-88acca623245-magickcore
+[2025-08-07 11:47:33] 二进制文件复制成功
+[2025-08-07 11:47:33] 
+[2025-08-07 11:47:33] >>> 处理 CVE: CVE-2016-5691, 补丁 Commit: 5511ef530576 <<<
+[2025-08-07 11:47:33] 相关函数: ReadDCMImage
+[2025-08-07 11:47:33] ==================================================
+[2025-08-07 11:47:33] 开始处理 Git Ref: 5511ef530576
+[2025-08-07 11:47:33] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576
+[2025-08-07 11:47:33] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/compile.log
+保存工作目录和索引状态 WIP on (no branch): 88acca623 ...
+[2025-08-07 11:47:33] 命令成功: git stash --include-untracked
+[2025-08-07 11:47:33] 正在检出 5511ef530576...
+之前的 HEAD 位置是 88acca623 ...
+HEAD 目前位于 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:47:33] 命令成功: git checkout 5511ef530576
+[2025-08-07 11:47:33] 已成功检出 5511ef530576
+[2025-08-07 11:47:58] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:48:57] 命令成功: make
+[2025-08-07 11:48:57] 编译子任务完成
+[2025-08-07 11:48:57] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:48:57] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:48:57] 5511ef530576 编译成功
+[2025-08-07 11:48:57] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5511ef530576/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5691-patch-5511ef530576-magickcore
+[2025-08-07 11:48:57] 二进制文件复制成功
+[2025-08-07 11:48:57] 漏洞版本 (父提交): 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:48:57] ==================================================
+[2025-08-07 11:48:57] 开始处理 Git Ref: 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:48:57] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:48:57] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/compile.log
+保存工作目录和索引状态 WIP on (no branch): 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+[2025-08-07 11:48:57] 命令成功: git stash --include-untracked
+[2025-08-07 11:48:57] 正在检出 88acca6232458c226083f48f21b6198e3f4d9eb4...
+之前的 HEAD 位置是 5511ef530 Add additional checks to DCM reader to prevent data-driven faults (bug report from Hanno Böck
+HEAD 目前位于 88acca623 ...
+[2025-08-07 11:48:57] 命令成功: git checkout 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:48:57] 已成功检出 88acca6232458c226083f48f21b6198e3f4d9eb4
+[2025-08-07 11:49:22] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:50:23] 命令成功: make
+[2025-08-07 11:50:23] 编译子任务完成
+[2025-08-07 11:50:23] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:50:23] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:50:23] 88acca6232458c226083f48f21b6198e3f4d9eb4 编译成功
+[2025-08-07 11:50:23] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-88acca6232458c226083f48f21b6198e3f4d9eb4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-5691-vuln-88acca623245-magickcore
+[2025-08-07 11:50:23] 二进制文件复制成功
+[2025-08-07 11:50:23] 
+[2025-08-07 11:50:23] >>> 处理 CVE: CVE-2016-6491, 补丁 Commit: dd84447b63a7 <<<
+[2025-08-07 11:50:23] 相关函数: Get8BIMProperty
+[2025-08-07 11:50:23] ==================================================
+[2025-08-07 11:50:23] 开始处理 Git Ref: dd84447b63a7
+[2025-08-07 11:50:23] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-dd84447b63a7
+[2025-08-07 11:50:23] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-dd84447b63a7/compile.log
+保存工作目录和索引状态 WIP on (no branch): 88acca623 ...
+[2025-08-07 11:50:23] 命令成功: git stash --include-untracked
+[2025-08-07 11:50:23] 正在检出 dd84447b63a7...
+之前的 HEAD 位置是 88acca623 ...
+HEAD 目前位于 dd84447b6 Prevent buffer overflow (bug report from Ibrahim el-sayed)
+[2025-08-07 11:50:23] 命令成功: git checkout dd84447b63a7
+[2025-08-07 11:50:23] 已成功检出 dd84447b63a7
+[2025-08-07 11:50:47] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:51:46] 命令成功: make
+[2025-08-07 11:51:46] 编译子任务完成
+[2025-08-07 11:51:46] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-dd84447b63a7/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:51:46] 所有函数都找到了: Get8BIMProperty in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:51:46] dd84447b63a7 编译成功
+[2025-08-07 11:51:46] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-dd84447b63a7/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-6491-patch-dd84447b63a7-magickcore
+[2025-08-07 11:51:46] 二进制文件复制成功
+[2025-08-07 11:51:46] 漏洞版本 (父提交): ae87d4df671d85c4834019ce8244c55c10d1d93b
+[2025-08-07 11:51:46] ==================================================
+[2025-08-07 11:51:46] 开始处理 Git Ref: ae87d4df671d85c4834019ce8244c55c10d1d93b
+[2025-08-07 11:51:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ae87d4df671d85c4834019ce8244c55c10d1d93b
+[2025-08-07 11:51:46] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ae87d4df671d85c4834019ce8244c55c10d1d93b/compile.log
+保存工作目录和索引状态 WIP on (no branch): dd84447b6 Prevent buffer overflow (bug report from Ibrahim el-sayed)
+[2025-08-07 11:51:46] 命令成功: git stash --include-untracked
+[2025-08-07 11:51:46] 正在检出 ae87d4df671d85c4834019ce8244c55c10d1d93b...
+之前的 HEAD 位置是 dd84447b6 Prevent buffer overflow (bug report from Ibrahim el-sayed)
+HEAD 目前位于 ae87d4df6 ...
+[2025-08-07 11:51:46] 命令成功: git checkout ae87d4df671d85c4834019ce8244c55c10d1d93b
+[2025-08-07 11:51:46] 已成功检出 ae87d4df671d85c4834019ce8244c55c10d1d93b
+[2025-08-07 11:52:11] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:53:11] 命令成功: make
+[2025-08-07 11:53:11] 编译子任务完成
+[2025-08-07 11:53:11] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ae87d4df671d85c4834019ce8244c55c10d1d93b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:53:11] 所有函数都找到了: Get8BIMProperty in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:53:11] ae87d4df671d85c4834019ce8244c55c10d1d93b 编译成功
+[2025-08-07 11:53:11] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ae87d4df671d85c4834019ce8244c55c10d1d93b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-6491-vuln-ae87d4df671d-magickcore
+[2025-08-07 11:53:11] 二进制文件复制成功
+[2025-08-07 11:53:11] 
+[2025-08-07 11:53:11] >>> 处理 CVE: CVE-2016-7101, 补丁 Commit: 7afcf9f71043 <<<
+[2025-08-07 11:53:11] 相关函数: ReadSGIImage
+[2025-08-07 11:53:11] ==================================================
+[2025-08-07 11:53:11] 开始处理 Git Ref: 7afcf9f71043
+[2025-08-07 11:53:11] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7afcf9f71043
+[2025-08-07 11:53:11] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7afcf9f71043/compile.log
+保存工作目录和索引状态 WIP on (no branch): ae87d4df6 ...
+[2025-08-07 11:53:11] 命令成功: git stash --include-untracked
+[2025-08-07 11:53:11] 正在检出 7afcf9f71043...
+之前的 HEAD 位置是 ae87d4df6 ...
+HEAD 目前位于 7afcf9f71 Prevent buffer overflow in BMP & SGI coders (bug report from pwchen&rayzhong of tencent)
+[2025-08-07 11:53:11] 命令成功: git checkout 7afcf9f71043
+[2025-08-07 11:53:11] 已成功检出 7afcf9f71043
+[2025-08-07 11:53:35] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:54:56] 命令成功: make
+[2025-08-07 11:54:56] 编译子任务完成
+[2025-08-07 11:54:56] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7afcf9f71043/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:54:56] 所有函数都找到了: ReadSGIImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:54:56] 7afcf9f71043 编译成功
+[2025-08-07 11:54:56] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7afcf9f71043/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7101-patch-7afcf9f71043-magickcore
+[2025-08-07 11:54:56] 二进制文件复制成功
+[2025-08-07 11:54:56] 漏洞版本 (父提交): e7094d16cd8aee6bb48cf1d369f617f7edf89993
+[2025-08-07 11:54:56] ==================================================
+[2025-08-07 11:54:56] 开始处理 Git Ref: e7094d16cd8aee6bb48cf1d369f617f7edf89993
+[2025-08-07 11:54:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e7094d16cd8aee6bb48cf1d369f617f7edf89993
+[2025-08-07 11:54:56] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e7094d16cd8aee6bb48cf1d369f617f7edf89993/compile.log
+保存工作目录和索引状态 WIP on (no branch): 7afcf9f71 Prevent buffer overflow in BMP & SGI coders (bug report from pwchen&rayzhong of tencent)
+[2025-08-07 11:54:56] 命令成功: git stash --include-untracked
+[2025-08-07 11:54:56] 正在检出 e7094d16cd8aee6bb48cf1d369f617f7edf89993...
+之前的 HEAD 位置是 7afcf9f71 Prevent buffer overflow in BMP & SGI coders (bug report from pwchen&rayzhong of tencent)
+HEAD 目前位于 e7094d16c ...
+[2025-08-07 11:54:56] 命令成功: git checkout e7094d16cd8aee6bb48cf1d369f617f7edf89993
+[2025-08-07 11:54:56] 已成功检出 e7094d16cd8aee6bb48cf1d369f617f7edf89993
+[2025-08-07 11:55:22] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:56:21] 命令成功: make
+[2025-08-07 11:56:21] 编译子任务完成
+[2025-08-07 11:56:21] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e7094d16cd8aee6bb48cf1d369f617f7edf89993/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:56:21] 所有函数都找到了: ReadSGIImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:56:21] e7094d16cd8aee6bb48cf1d369f617f7edf89993 编译成功
+[2025-08-07 11:56:21] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e7094d16cd8aee6bb48cf1d369f617f7edf89993/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7101-vuln-e7094d16cd8a-magickcore
+[2025-08-07 11:56:21] 二进制文件复制成功
+[2025-08-07 11:56:21] 
+[2025-08-07 11:56:21] >>> 处理 CVE: CVE-2016-7514, 补丁 Commit: 198fffab4daf <<<
+[2025-08-07 11:56:21] 相关函数: ReadPSDImage
+[2025-08-07 11:56:21] ==================================================
+[2025-08-07 11:56:21] 开始处理 Git Ref: 198fffab4daf
+[2025-08-07 11:56:21] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-198fffab4daf
+[2025-08-07 11:56:21] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-198fffab4daf/compile.log
+保存工作目录和索引状态 WIP on (no branch): e7094d16c ...
+[2025-08-07 11:56:21] 命令成功: git stash --include-untracked
+[2025-08-07 11:56:21] 正在检出 198fffab4daf...
+之前的 HEAD 位置是 e7094d16c ...
+HEAD 目前位于 198fffab4 Added check for bit depth 1.
+[2025-08-07 11:56:21] 命令成功: git checkout 198fffab4daf
+[2025-08-07 11:56:21] 已成功检出 198fffab4daf
+[2025-08-07 11:56:43] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:58:04] 命令成功: make
+[2025-08-07 11:58:04] 编译子任务完成
+[2025-08-07 11:58:04] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-198fffab4daf/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:58:04] 所有函数都找到了: ReadPSDImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:58:04] 198fffab4daf 编译成功
+[2025-08-07 11:58:04] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-198fffab4daf/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7514-patch-198fffab4daf-magickcore
+[2025-08-07 11:58:04] 二进制文件复制成功
+[2025-08-07 11:58:04] 漏洞版本 (父提交): 6cad3f644f0dc0ebcff9f83eb5f651d60322486b
+[2025-08-07 11:58:04] ==================================================
+[2025-08-07 11:58:04] 开始处理 Git Ref: 6cad3f644f0dc0ebcff9f83eb5f651d60322486b
+[2025-08-07 11:58:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6cad3f644f0dc0ebcff9f83eb5f651d60322486b
+[2025-08-07 11:58:04] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6cad3f644f0dc0ebcff9f83eb5f651d60322486b/compile.log
+保存工作目录和索引状态 WIP on (no branch): 198fffab4 Added check for bit depth 1.
+[2025-08-07 11:58:04] 命令成功: git stash --include-untracked
+[2025-08-07 11:58:04] 正在检出 6cad3f644f0dc0ebcff9f83eb5f651d60322486b...
+之前的 HEAD 位置是 198fffab4 Added check for bit depth 1.
+HEAD 目前位于 6cad3f644 Added checks for depth.
+[2025-08-07 11:58:04] 命令成功: git checkout 6cad3f644f0dc0ebcff9f83eb5f651d60322486b
+[2025-08-07 11:58:04] 已成功检出 6cad3f644f0dc0ebcff9f83eb5f651d60322486b
+[2025-08-07 11:58:25] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 11:59:27] 命令成功: make
+[2025-08-07 11:59:27] 编译子任务完成
+[2025-08-07 11:59:27] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6cad3f644f0dc0ebcff9f83eb5f651d60322486b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:59:27] 所有函数都找到了: ReadPSDImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 11:59:27] 6cad3f644f0dc0ebcff9f83eb5f651d60322486b 编译成功
+[2025-08-07 11:59:27] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6cad3f644f0dc0ebcff9f83eb5f651d60322486b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7514-vuln-6cad3f644f0d-magickcore
+[2025-08-07 11:59:27] 二进制文件复制成功
+[2025-08-07 11:59:27] 
+[2025-08-07 11:59:27] >>> 处理 CVE: CVE-2016-7515, 补丁 Commit: 2ad6d3349375 <<<
+[2025-08-07 11:59:27] 相关函数: ReadRLEImage
+[2025-08-07 11:59:27] ==================================================
+[2025-08-07 11:59:27] 开始处理 Git Ref: 2ad6d3349375
+[2025-08-07 11:59:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2ad6d3349375
+[2025-08-07 11:59:27] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2ad6d3349375/compile.log
+保存工作目录和索引状态 WIP on (no branch): 6cad3f644 Added checks for depth.
+[2025-08-07 11:59:27] 命令成功: git stash --include-untracked
+[2025-08-07 11:59:27] 正在检出 2ad6d3349375...
+之前的 HEAD 位置是 6cad3f644 Added checks for depth.
+HEAD 目前位于 2ad6d3349 Fixed check for the number of pixels that will be allocated.
+[2025-08-07 11:59:27] 命令成功: git checkout 2ad6d3349375
+[2025-08-07 11:59:27] 已成功检出 2ad6d3349375
+[2025-08-07 11:59:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:00:44] 命令成功: make
+[2025-08-07 12:00:44] 编译子任务完成
+[2025-08-07 12:00:44] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2ad6d3349375/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:00:45] 所有函数都找到了: ReadRLEImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:00:45] 2ad6d3349375 编译成功
+[2025-08-07 12:00:45] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2ad6d3349375/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7515-patch-2ad6d3349375-magickcore
+[2025-08-07 12:00:45] 二进制文件复制成功
+[2025-08-07 12:00:45] 漏洞版本 (父提交): 70aa59ba920fd758a05dfd1e59a446638b3dd2a9
+[2025-08-07 12:00:45] ==================================================
+[2025-08-07 12:00:45] 开始处理 Git Ref: 70aa59ba920fd758a05dfd1e59a446638b3dd2a9
+[2025-08-07 12:00:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-70aa59ba920fd758a05dfd1e59a446638b3dd2a9
+[2025-08-07 12:00:45] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-70aa59ba920fd758a05dfd1e59a446638b3dd2a9/compile.log
+保存工作目录和索引状态 WIP on (no branch): 2ad6d3349 Fixed check for the number of pixels that will be allocated.
+[2025-08-07 12:00:45] 命令成功: git stash --include-untracked
+[2025-08-07 12:00:45] 正在检出 70aa59ba920fd758a05dfd1e59a446638b3dd2a9...
+之前的 HEAD 位置是 2ad6d3349 Fixed check for the number of pixels that will be allocated.
+HEAD 目前位于 70aa59ba9 http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28403
+[2025-08-07 12:00:45] 命令成功: git checkout 70aa59ba920fd758a05dfd1e59a446638b3dd2a9
+[2025-08-07 12:00:45] 已成功检出 70aa59ba920fd758a05dfd1e59a446638b3dd2a9
+[2025-08-07 12:01:07] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:02:03] 命令成功: make
+[2025-08-07 12:02:03] 编译子任务完成
+[2025-08-07 12:02:03] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-70aa59ba920fd758a05dfd1e59a446638b3dd2a9/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:02:03] 所有函数都找到了: ReadRLEImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:02:03] 70aa59ba920fd758a05dfd1e59a446638b3dd2a9 编译成功
+[2025-08-07 12:02:03] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-70aa59ba920fd758a05dfd1e59a446638b3dd2a9/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7515-vuln-70aa59ba920f-magickcore
+[2025-08-07 12:02:03] 二进制文件复制成功
+[2025-08-07 12:02:03] 
+[2025-08-07 12:02:03] >>> 处理 CVE: CVE-2016-7534, 补丁 Commit: 430403b0029b <<<
+[2025-08-07 12:02:03] 相关函数: SetQuantumPack, GetQuantumExtent, ImportCbYCrYQuantum
+[2025-08-07 12:02:03] ==================================================
+[2025-08-07 12:02:03] 开始处理 Git Ref: 430403b0029b
+[2025-08-07 12:02:03] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-430403b0029b
+[2025-08-07 12:02:03] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-430403b0029b/compile.log
+保存工作目录和索引状态 WIP on (no branch): 70aa59ba9 http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28403
+[2025-08-07 12:02:04] 命令成功: git stash --include-untracked
+[2025-08-07 12:02:04] 正在检出 430403b0029b...
+之前的 HEAD 位置是 70aa59ba9 http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28403
+HEAD 目前位于 430403b00 https://github.com/ImageMagick/ImageMagick/issues/126
+[2025-08-07 12:02:04] 命令成功: git checkout 430403b0029b
+[2025-08-07 12:02:04] 已成功检出 430403b0029b
+[2025-08-07 12:02:26] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:03:28] 命令成功: make
+[2025-08-07 12:03:28] 编译子任务完成
+[2025-08-07 12:03:28] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-430403b0029b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:03:28] 所有函数都找到了: SetQuantumPack, GetQuantumExtent, ImportCbYCrYQuantum in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:03:28] 430403b0029b 编译成功
+[2025-08-07 12:03:28] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-430403b0029b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7534-patch-430403b0029b-magickcore
+[2025-08-07 12:03:28] 二进制文件复制成功
+[2025-08-07 12:03:28] 漏洞版本 (父提交): 5572ef67a81385837decff3746026b9abfd4a599
+[2025-08-07 12:03:28] ==================================================
+[2025-08-07 12:03:28] 开始处理 Git Ref: 5572ef67a81385837decff3746026b9abfd4a599
+[2025-08-07 12:03:28] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5572ef67a81385837decff3746026b9abfd4a599
+[2025-08-07 12:03:28] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5572ef67a81385837decff3746026b9abfd4a599/compile.log
+保存工作目录和索引状态 WIP on (no branch): 430403b00 https://github.com/ImageMagick/ImageMagick/issues/126
+[2025-08-07 12:03:28] 命令成功: git stash --include-untracked
+[2025-08-07 12:03:28] 正在检出 5572ef67a81385837decff3746026b9abfd4a599...
+之前的 HEAD 位置是 430403b00 https://github.com/ImageMagick/ImageMagick/issues/126
+HEAD 目前位于 5572ef67a Update configure script
+[2025-08-07 12:03:28] 命令成功: git checkout 5572ef67a81385837decff3746026b9abfd4a599
+[2025-08-07 12:03:28] 已成功检出 5572ef67a81385837decff3746026b9abfd4a599
+[2025-08-07 12:03:50] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:04:52] 命令成功: make
+[2025-08-07 12:04:52] 编译子任务完成
+[2025-08-07 12:04:52] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5572ef67a81385837decff3746026b9abfd4a599/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:04:52] 所有函数都找到了: SetQuantumPack, GetQuantumExtent, ImportCbYCrYQuantum in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:04:52] 5572ef67a81385837decff3746026b9abfd4a599 编译成功
+[2025-08-07 12:04:52] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5572ef67a81385837decff3746026b9abfd4a599/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-7534-vuln-5572ef67a813-magickcore
+[2025-08-07 12:04:52] 二进制文件复制成功
+[2025-08-07 12:04:52] 
+[2025-08-07 12:04:52] >>> 处理 CVE: CVE-2016-9556, 补丁 Commit: ce98a7acbcfc <<<
+[2025-08-07 12:04:52] 相关函数: ReadSGIImage
+[2025-08-07 12:04:52] ==================================================
+[2025-08-07 12:04:52] 开始处理 Git Ref: ce98a7acbcfc
+[2025-08-07 12:04:52] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ce98a7acbcfc
+[2025-08-07 12:04:52] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ce98a7acbcfc/compile.log
+保存工作目录和索引状态 WIP on (no branch): 5572ef67a Update configure script
+[2025-08-07 12:04:52] 命令成功: git stash --include-untracked
+[2025-08-07 12:04:52] 正在检出 ce98a7acbcfc...
+之前的 HEAD 位置是 5572ef67a Update configure script
+HEAD 目前位于 ce98a7acb https://github.com/ImageMagick/ImageMagick/issues/301
+[2025-08-07 12:04:52] 命令成功: git checkout ce98a7acbcfc
+[2025-08-07 12:04:52] 已成功检出 ce98a7acbcfc
+[2025-08-07 12:05:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:06:40] 命令成功: make
+[2025-08-07 12:06:40] 编译子任务完成
+[2025-08-07 12:06:40] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ce98a7acbcfc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:06:40] 所有函数都找到了: ReadSGIImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:06:40] ce98a7acbcfc 编译成功
+[2025-08-07 12:06:40] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ce98a7acbcfc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-9556-patch-ce98a7acbcfc-magickcore
+[2025-08-07 12:06:40] 二进制文件复制成功
+[2025-08-07 12:06:40] 漏洞版本 (父提交): 35a9ba32f0c24b53de5f2d78504ed8870e7213b1
+[2025-08-07 12:06:40] ==================================================
+[2025-08-07 12:06:40] 开始处理 Git Ref: 35a9ba32f0c24b53de5f2d78504ed8870e7213b1
+[2025-08-07 12:06:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-35a9ba32f0c24b53de5f2d78504ed8870e7213b1
+[2025-08-07 12:06:40] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-35a9ba32f0c24b53de5f2d78504ed8870e7213b1/compile.log
+保存工作目录和索引状态 WIP on (no branch): ce98a7acb https://github.com/ImageMagick/ImageMagick/issues/301
+[2025-08-07 12:06:40] 命令成功: git stash --include-untracked
+[2025-08-07 12:06:40] 正在检出 35a9ba32f0c24b53de5f2d78504ed8870e7213b1...
+之前的 HEAD 位置是 ce98a7acb https://github.com/ImageMagick/ImageMagick/issues/301
+HEAD 目前位于 35a9ba32f Bump release
+[2025-08-07 12:06:40] 命令成功: git checkout 35a9ba32f0c24b53de5f2d78504ed8870e7213b1
+[2025-08-07 12:06:40] 已成功检出 35a9ba32f0c24b53de5f2d78504ed8870e7213b1
+[2025-08-07 12:07:05] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:08:04] 命令成功: make
+[2025-08-07 12:08:04] 编译子任务完成
+[2025-08-07 12:08:04] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-35a9ba32f0c24b53de5f2d78504ed8870e7213b1/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:08:04] 所有函数都找到了: ReadSGIImage in libMagickCore-7.Q16HDRI.so.0.0.0
+[2025-08-07 12:08:04] 35a9ba32f0c24b53de5f2d78504ed8870e7213b1 编译成功
+[2025-08-07 12:08:04] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-35a9ba32f0c24b53de5f2d78504ed8870e7213b1/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.0.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2016-9556-vuln-35a9ba32f0c2-magickcore
+[2025-08-07 12:08:04] 二进制文件复制成功
+[2025-08-07 12:08:04] 
+[2025-08-07 12:08:04] >>> 处理 CVE: CVE-2017-11523, 补丁 Commit: 83e0f8ffd7ee <<<
+[2025-08-07 12:08:04] 相关函数: ReadTXTImage
+[2025-08-07 12:08:04] ==================================================
+[2025-08-07 12:08:04] 开始处理 Git Ref: 83e0f8ffd7ee
+[2025-08-07 12:08:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-83e0f8ffd7ee
+[2025-08-07 12:08:04] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-83e0f8ffd7ee/compile.log
+保存工作目录和索引状态 WIP on (no branch): 35a9ba32f Bump release
+[2025-08-07 12:08:04] 命令成功: git stash --include-untracked
+[2025-08-07 12:08:04] 正在检出 83e0f8ffd7ee...
+之前的 HEAD 位置是 35a9ba32f Bump release
+HEAD 目前位于 83e0f8ffd https://github.com/ImageMagick/ImageMagick/issues/591
+[2025-08-07 12:08:04] 命令成功: git checkout 83e0f8ffd7ee
+[2025-08-07 12:08:04] 已成功检出 83e0f8ffd7ee
+[2025-08-07 12:08:29] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:09:50] 命令成功: make
+[2025-08-07 12:09:50] 编译子任务完成
+[2025-08-07 12:09:50] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-83e0f8ffd7ee/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:09:50] 所有函数都找到了: ReadTXTImage in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:09:50] 83e0f8ffd7ee 编译成功
+[2025-08-07 12:09:50] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-83e0f8ffd7ee/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-11523-patch-83e0f8ffd7ee-magickcore
+[2025-08-07 12:09:50] 二进制文件复制成功
+[2025-08-07 12:09:50] 漏洞版本 (父提交): cd494bc82b4d61ef02da92ac2f0082b018125d00
+[2025-08-07 12:09:50] ==================================================
+[2025-08-07 12:09:50] 开始处理 Git Ref: cd494bc82b4d61ef02da92ac2f0082b018125d00
+[2025-08-07 12:09:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cd494bc82b4d61ef02da92ac2f0082b018125d00
+[2025-08-07 12:09:50] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cd494bc82b4d61ef02da92ac2f0082b018125d00/compile.log
+保存工作目录和索引状态 WIP on (no branch): 83e0f8ffd https://github.com/ImageMagick/ImageMagick/issues/591
+[2025-08-07 12:09:50] 命令成功: git stash --include-untracked
+[2025-08-07 12:09:50] 正在检出 cd494bc82b4d61ef02da92ac2f0082b018125d00...
+之前的 HEAD 位置是 83e0f8ffd https://github.com/ImageMagick/ImageMagick/issues/591
+HEAD 目前位于 cd494bc82 Use mng_get_long() everywhere in coders/png.c
+[2025-08-07 12:09:50] 命令成功: git checkout cd494bc82b4d61ef02da92ac2f0082b018125d00
+[2025-08-07 12:09:50] 已成功检出 cd494bc82b4d61ef02da92ac2f0082b018125d00
+[2025-08-07 12:10:15] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:11:15] 命令成功: make
+[2025-08-07 12:11:15] 编译子任务完成
+[2025-08-07 12:11:15] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cd494bc82b4d61ef02da92ac2f0082b018125d00/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:11:15] 所有函数都找到了: ReadTXTImage in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:11:15] cd494bc82b4d61ef02da92ac2f0082b018125d00 编译成功
+[2025-08-07 12:11:15] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cd494bc82b4d61ef02da92ac2f0082b018125d00/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-11523-vuln-cd494bc82b4d-magickcore
+[2025-08-07 12:11:15] 二进制文件复制成功
+[2025-08-07 12:11:15] 
+[2025-08-07 12:11:15] >>> 处理 CVE: CVE-2017-14174, 补丁 Commit: 04a567494786 <<<
+[2025-08-07 12:11:15] 相关函数: ReadPSDLayersInternal, ReadPSDChannel
+[2025-08-07 12:11:15] ==================================================
+[2025-08-07 12:11:15] 开始处理 Git Ref: 04a567494786
+[2025-08-07 12:11:15] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-04a567494786
+[2025-08-07 12:11:15] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-04a567494786/compile.log
+保存工作目录和索引状态 WIP on (no branch): cd494bc82 Use mng_get_long() everywhere in coders/png.c
+[2025-08-07 12:11:15] 命令成功: git stash --include-untracked
+[2025-08-07 12:11:15] 正在检出 04a567494786...
+之前的 HEAD 位置是 cd494bc82 Use mng_get_long() everywhere in coders/png.c
+HEAD 目前位于 04a567494 Slightly different fix for #714
+[2025-08-07 12:11:15] 命令成功: git checkout 04a567494786
+[2025-08-07 12:11:15] 已成功检出 04a567494786
+[2025-08-07 12:11:39] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:13:00] 命令成功: make
+[2025-08-07 12:13:00] 编译子任务完成
+[2025-08-07 12:13:00] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-04a567494786/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:13:00] 所有函数都找到了: ReadPSDLayersInternal, ReadPSDChannel in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:13:00] 04a567494786 编译成功
+[2025-08-07 12:13:00] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-04a567494786/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-14174-patch-04a567494786-magickcore
+[2025-08-07 12:13:00] 二进制文件复制成功
+[2025-08-07 12:13:00] 漏洞版本 (父提交): bdbbb13f1fe9b7e2465502c500561720f7456aac
+[2025-08-07 12:13:00] ==================================================
+[2025-08-07 12:13:00] 开始处理 Git Ref: bdbbb13f1fe9b7e2465502c500561720f7456aac
+[2025-08-07 12:13:00] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bdbbb13f1fe9b7e2465502c500561720f7456aac
+[2025-08-07 12:13:00] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bdbbb13f1fe9b7e2465502c500561720f7456aac/compile.log
+保存工作目录和索引状态 WIP on (no branch): 04a567494 Slightly different fix for #714
+[2025-08-07 12:13:00] 命令成功: git stash --include-untracked
+[2025-08-07 12:13:00] 正在检出 bdbbb13f1fe9b7e2465502c500561720f7456aac...
+之前的 HEAD 位置是 04a567494 Slightly different fix for #714
+HEAD 目前位于 bdbbb13f1 https://github.com/ImageMagick/ImageMagick/issues/715
+[2025-08-07 12:13:00] 命令成功: git checkout bdbbb13f1fe9b7e2465502c500561720f7456aac
+[2025-08-07 12:13:00] 已成功检出 bdbbb13f1fe9b7e2465502c500561720f7456aac
+[2025-08-07 12:13:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:14:26] 命令成功: make
+[2025-08-07 12:14:26] 编译子任务完成
+[2025-08-07 12:14:26] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bdbbb13f1fe9b7e2465502c500561720f7456aac/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:14:26] 所有函数都找到了: ReadPSDLayersInternal, ReadPSDChannel in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:14:26] bdbbb13f1fe9b7e2465502c500561720f7456aac 编译成功
+[2025-08-07 12:14:26] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bdbbb13f1fe9b7e2465502c500561720f7456aac/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-14174-vuln-bdbbb13f1fe9-magickcore
+[2025-08-07 12:14:26] 二进制文件复制成功
+[2025-08-07 12:14:26] 
+[2025-08-07 12:14:26] >>> 处理 CVE: CVE-2017-15032, 补丁 Commit: 241988ca2813 <<<
+[2025-08-07 12:14:26] 相关函数: ReadYCBCRImage
+[2025-08-07 12:14:26] ==================================================
+[2025-08-07 12:14:26] 开始处理 Git Ref: 241988ca2813
+[2025-08-07 12:14:26] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-241988ca2813
+[2025-08-07 12:14:26] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-241988ca2813/compile.log
+保存工作目录和索引状态 WIP on (no branch): bdbbb13f1 https://github.com/ImageMagick/ImageMagick/issues/715
+[2025-08-07 12:14:26] 命令成功: git stash --include-untracked
+[2025-08-07 12:14:26] 正在检出 241988ca2813...
+之前的 HEAD 位置是 bdbbb13f1 https://github.com/ImageMagick/ImageMagick/issues/715
+HEAD 目前位于 241988ca2 fix memory leak in ReadYCBCRImage as SetImageExtent failure
+[2025-08-07 12:14:26] 命令成功: git checkout 241988ca2813
+[2025-08-07 12:14:26] 已成功检出 241988ca2813
+[2025-08-07 12:14:53] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:16:16] 命令成功: make
+[2025-08-07 12:16:16] 编译子任务完成
+[2025-08-07 12:16:16] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-241988ca2813/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:16:16] 所有函数都找到了: ReadYCBCRImage in libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:16:16] 241988ca2813 编译成功
+[2025-08-07 12:16:16] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-241988ca2813/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15032-patch-241988ca2813-magickcore
+[2025-08-07 12:16:16] 二进制文件复制成功
+[2025-08-07 12:16:16] 漏洞版本 (父提交): c76e4e14db2a02efdb26be2cd8c190beca68683f
+[2025-08-07 12:16:16] ==================================================
+[2025-08-07 12:16:16] 开始处理 Git Ref: c76e4e14db2a02efdb26be2cd8c190beca68683f
+[2025-08-07 12:16:16] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c76e4e14db2a02efdb26be2cd8c190beca68683f
+[2025-08-07 12:16:16] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c76e4e14db2a02efdb26be2cd8c190beca68683f/compile.log
+保存工作目录和索引状态 WIP on (no branch): 241988ca2 fix memory leak in ReadYCBCRImage as SetImageExtent failure
+[2025-08-07 12:16:16] 命令成功: git stash --include-untracked
+[2025-08-07 12:16:16] 正在检出 c76e4e14db2a02efdb26be2cd8c190beca68683f...
+之前的 HEAD 位置是 241988ca2 fix memory leak in ReadYCBCRImage as SetImageExtent failure
+HEAD 目前位于 c76e4e14d fix memory leak in ReadYCBCRImage as SetImageExtent failure
+[2025-08-07 12:16:16] 命令成功: git checkout c76e4e14db2a02efdb26be2cd8c190beca68683f
+[2025-08-07 12:16:16] 已成功检出 c76e4e14db2a02efdb26be2cd8c190beca68683f
+[2025-08-07 12:16:43] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:17:43] 命令成功: make
+[2025-08-07 12:17:43] 编译子任务完成
+[2025-08-07 12:17:43] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c76e4e14db2a02efdb26be2cd8c190beca68683f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:17:43] 所有函数都找到了: ReadYCBCRImage in libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:17:43] c76e4e14db2a02efdb26be2cd8c190beca68683f 编译成功
+[2025-08-07 12:17:43] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c76e4e14db2a02efdb26be2cd8c190beca68683f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15032-vuln-c76e4e14db2a-magickcore
+[2025-08-07 12:17:43] 二进制文件复制成功
+[2025-08-07 12:17:43] 
+[2025-08-07 12:17:43] >>> 处理 CVE: CVE-2017-15033, 补丁 Commit: ef8f40689ac4 <<<
+[2025-08-07 12:17:43] 相关函数: ReadYUVImage
+[2025-08-07 12:17:43] ==================================================
+[2025-08-07 12:17:43] 开始处理 Git Ref: ef8f40689ac4
+[2025-08-07 12:17:43] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ef8f40689ac4
+[2025-08-07 12:17:43] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ef8f40689ac4/compile.log
+保存工作目录和索引状态 WIP on (no branch): c76e4e14d fix memory leak in ReadYCBCRImage as SetImageExtent failure
+[2025-08-07 12:17:43] 命令成功: git stash --include-untracked
+[2025-08-07 12:17:43] 正在检出 ef8f40689ac4...
+之前的 HEAD 位置是 c76e4e14d fix memory leak in ReadYCBCRImage as SetImageExtent failure
+HEAD 目前位于 ef8f40689 fix multiple memory leak in ReadYUVImage
+[2025-08-07 12:17:43] 命令成功: git checkout ef8f40689ac4
+[2025-08-07 12:17:43] 已成功检出 ef8f40689ac4
+[2025-08-07 12:18:10] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:19:10] 命令成功: make
+[2025-08-07 12:19:10] 编译子任务完成
+[2025-08-07 12:19:10] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ef8f40689ac4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:19:10] 所有函数都找到了: ReadYUVImage in libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:19:10] ef8f40689ac4 编译成功
+[2025-08-07 12:19:10] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ef8f40689ac4/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15033-patch-ef8f40689ac4-magickcore
+[2025-08-07 12:19:10] 二进制文件复制成功
+[2025-08-07 12:19:10] 漏洞版本 (父提交): c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5
+[2025-08-07 12:19:10] ==================================================
+[2025-08-07 12:19:10] 开始处理 Git Ref: c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5
+[2025-08-07 12:19:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5
+[2025-08-07 12:19:10] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5/compile.log
+保存工作目录和索引状态 WIP on (no branch): ef8f40689 fix multiple memory leak in ReadYUVImage
+[2025-08-07 12:19:10] 命令成功: git stash --include-untracked
+[2025-08-07 12:19:10] 正在检出 c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5...
+之前的 HEAD 位置是 ef8f40689 fix multiple memory leak in ReadYUVImage
+HEAD 目前位于 c29d15c70 ...
+[2025-08-07 12:19:10] 命令成功: git checkout c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5
+[2025-08-07 12:19:10] 已成功检出 c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5
+[2025-08-07 12:19:36] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:20:36] 命令成功: make
+[2025-08-07 12:20:36] 编译子任务完成
+[2025-08-07 12:20:36] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:20:36] 所有函数都找到了: ReadYUVImage in libMagickCore-7.Q16HDRI.so.4.0.0
+[2025-08-07 12:20:36] c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5 编译成功
+[2025-08-07 12:20:36] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c29d15c70d0eda9d7ffe26a0ccc181f4f0a07ca5/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.4.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15033-vuln-c29d15c70d0e-magickcore
+[2025-08-07 12:20:36] 二进制文件复制成功
+[2025-08-07 12:20:36] 
+[2025-08-07 12:20:36] >>> 处理 CVE: CVE-2017-15277, 补丁 Commit: 9fd10cf63083 <<<
+[2025-08-07 12:20:36] 相关函数: ReadGIFImage
+[2025-08-07 12:20:36] ==================================================
+[2025-08-07 12:20:36] 开始处理 Git Ref: 9fd10cf63083
+[2025-08-07 12:20:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9fd10cf63083
+[2025-08-07 12:20:36] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9fd10cf63083/compile.log
+保存工作目录和索引状态 WIP on (no branch): c29d15c70 ...
+[2025-08-07 12:20:37] 命令成功: git stash --include-untracked
+[2025-08-07 12:20:37] 正在检出 9fd10cf63083...
+之前的 HEAD 位置是 c29d15c70 ...
+HEAD 目前位于 9fd10cf63 https://github.com/ImageMagick/ImageMagick/issues/592
+[2025-08-07 12:20:37] 命令成功: git checkout 9fd10cf63083
+[2025-08-07 12:20:37] 已成功检出 9fd10cf63083
+[2025-08-07 12:21:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:22:27] 命令成功: make
+[2025-08-07 12:22:27] 编译子任务完成
+[2025-08-07 12:22:27] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9fd10cf63083/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:22:27] 所有函数都找到了: ReadGIFImage in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:22:27] 9fd10cf63083 编译成功
+[2025-08-07 12:22:27] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9fd10cf63083/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15277-patch-9fd10cf63083-magickcore
+[2025-08-07 12:22:27] 二进制文件复制成功
+[2025-08-07 12:22:27] 漏洞版本 (父提交): 387eb53ff6c991d5c17e6769f30a0961af77e73b
+[2025-08-07 12:22:27] ==================================================
+[2025-08-07 12:22:27] 开始处理 Git Ref: 387eb53ff6c991d5c17e6769f30a0961af77e73b
+[2025-08-07 12:22:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-387eb53ff6c991d5c17e6769f30a0961af77e73b
+[2025-08-07 12:22:27] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-387eb53ff6c991d5c17e6769f30a0961af77e73b/compile.log
+保存工作目录和索引状态 WIP on (no branch): 9fd10cf63 https://github.com/ImageMagick/ImageMagick/issues/592
+[2025-08-07 12:22:27] 命令成功: git stash --include-untracked
+[2025-08-07 12:22:27] 正在检出 387eb53ff6c991d5c17e6769f30a0961af77e73b...
+之前的 HEAD 位置是 9fd10cf63 https://github.com/ImageMagick/ImageMagick/issues/592
+HEAD 目前位于 387eb53ff Fixed reading UTF8 path names under Windows.
+[2025-08-07 12:22:27] 命令成功: git checkout 387eb53ff6c991d5c17e6769f30a0961af77e73b
+[2025-08-07 12:22:27] 已成功检出 387eb53ff6c991d5c17e6769f30a0961af77e73b
+[2025-08-07 12:22:53] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:23:53] 命令成功: make
+[2025-08-07 12:23:53] 编译子任务完成
+[2025-08-07 12:23:53] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-387eb53ff6c991d5c17e6769f30a0961af77e73b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:23:53] 所有函数都找到了: ReadGIFImage in libMagickCore-7.Q16HDRI.so.3.0.0
+[2025-08-07 12:23:53] 387eb53ff6c991d5c17e6769f30a0961af77e73b 编译成功
+[2025-08-07 12:23:53] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-387eb53ff6c991d5c17e6769f30a0961af77e73b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.3.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-15277-vuln-387eb53ff6c9-magickcore
+[2025-08-07 12:23:53] 二进制文件复制成功
+[2025-08-07 12:23:53] 
+[2025-08-07 12:23:53] >>> 处理 CVE: CVE-2017-9098, 补丁 Commit: 1c358ffe0049 <<<
+[2025-08-07 12:23:53] 相关函数: ReadRLEImage
+[2025-08-07 12:23:53] ==================================================
+[2025-08-07 12:23:53] 开始处理 Git Ref: 1c358ffe0049
+[2025-08-07 12:23:53] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1c358ffe0049
+[2025-08-07 12:23:53] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1c358ffe0049/compile.log
+保存工作目录和索引状态 WIP on (no branch): 387eb53ff Fixed reading UTF8 path names under Windows.
+[2025-08-07 12:23:53] 命令成功: git stash --include-untracked
+[2025-08-07 12:23:53] 正在检出 1c358ffe0049...
+之前的 HEAD 位置是 387eb53ff Fixed reading UTF8 path names under Windows.
+HEAD 目前位于 1c358ffe0 Reset memory for RLE decoder (patch provided by scarybeasts)
+[2025-08-07 12:23:53] 命令成功: git checkout 1c358ffe0049
+[2025-08-07 12:23:53] 已成功检出 1c358ffe0049
+[2025-08-07 12:24:19] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:25:40] 命令成功: make
+[2025-08-07 12:25:40] 编译子任务完成
+[2025-08-07 12:25:40] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1c358ffe0049/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:25:41] 所有函数都找到了: ReadRLEImage in libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:25:41] 1c358ffe0049 编译成功
+[2025-08-07 12:25:41] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-1c358ffe0049/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-9098-patch-1c358ffe0049-magickcore
+[2025-08-07 12:25:41] 二进制文件复制成功
+[2025-08-07 12:25:41] 漏洞版本 (父提交): 0375c7318734648d93c3002e4e49954adc634f2b
+[2025-08-07 12:25:41] ==================================================
+[2025-08-07 12:25:41] 开始处理 Git Ref: 0375c7318734648d93c3002e4e49954adc634f2b
+[2025-08-07 12:25:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0375c7318734648d93c3002e4e49954adc634f2b
+[2025-08-07 12:25:41] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0375c7318734648d93c3002e4e49954adc634f2b/compile.log
+保存工作目录和索引状态 WIP on (no branch): 1c358ffe0 Reset memory for RLE decoder (patch provided by scarybeasts)
+[2025-08-07 12:25:41] 命令成功: git stash --include-untracked
+[2025-08-07 12:25:41] 正在检出 0375c7318734648d93c3002e4e49954adc634f2b...
+之前的 HEAD 位置是 1c358ffe0 Reset memory for RLE decoder (patch provided by scarybeasts)
+HEAD 目前位于 0375c7318 ...
+[2025-08-07 12:25:41] 命令成功: git checkout 0375c7318734648d93c3002e4e49954adc634f2b
+[2025-08-07 12:25:41] 已成功检出 0375c7318734648d93c3002e4e49954adc634f2b
+[2025-08-07 12:26:07] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:27:06] 命令成功: make
+[2025-08-07 12:27:06] 编译子任务完成
+[2025-08-07 12:27:06] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0375c7318734648d93c3002e4e49954adc634f2b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:27:06] 所有函数都找到了: ReadRLEImage in libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:27:06] 0375c7318734648d93c3002e4e49954adc634f2b 编译成功
+[2025-08-07 12:27:06] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0375c7318734648d93c3002e4e49954adc634f2b/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-9098-vuln-0375c7318734-magickcore
+[2025-08-07 12:27:06] 二进制文件复制成功
+[2025-08-07 12:27:06] 
+[2025-08-07 12:27:06] >>> 处理 CVE: CVE-2017-9499, 补丁 Commit: 7fd419441bc7 <<<
+[2025-08-07 12:27:06] 相关函数: ReadMPCImage
+[2025-08-07 12:27:06] ==================================================
+[2025-08-07 12:27:06] 开始处理 Git Ref: 7fd419441bc7
+[2025-08-07 12:27:06] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7fd419441bc7
+[2025-08-07 12:27:06] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7fd419441bc7/compile.log
+保存工作目录和索引状态 WIP on (no branch): 0375c7318 ...
+[2025-08-07 12:27:06] 命令成功: git stash --include-untracked
+[2025-08-07 12:27:06] 正在检出 7fd419441bc7...
+之前的 HEAD 位置是 0375c7318 ...
+HEAD 目前位于 7fd419441 Added check for incorrect number of meta channels report in #492.
+[2025-08-07 12:27:07] 命令成功: git checkout 7fd419441bc7
+[2025-08-07 12:27:07] 已成功检出 7fd419441bc7
+[2025-08-07 12:27:32] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:28:55] 命令成功: make
+[2025-08-07 12:28:55] 编译子任务完成
+[2025-08-07 12:28:55] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7fd419441bc7/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:28:55] 所有函数都找到了: ReadMPCImage in libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:28:55] 7fd419441bc7 编译成功
+[2025-08-07 12:28:55] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7fd419441bc7/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-9499-patch-7fd419441bc7-magickcore
+[2025-08-07 12:28:55] 二进制文件复制成功
+[2025-08-07 12:28:55] 漏洞版本 (父提交): 4e6ac0e67ca157b2b96d8364fae3497b69e187bc
+[2025-08-07 12:28:55] ==================================================
+[2025-08-07 12:28:55] 开始处理 Git Ref: 4e6ac0e67ca157b2b96d8364fae3497b69e187bc
+[2025-08-07 12:28:55] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-4e6ac0e67ca157b2b96d8364fae3497b69e187bc
+[2025-08-07 12:28:55] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-4e6ac0e67ca157b2b96d8364fae3497b69e187bc/compile.log
+保存工作目录和索引状态 WIP on (no branch): 7fd419441 Added check for incorrect number of meta channels report in #492.
+[2025-08-07 12:28:55] 命令成功: git stash --include-untracked
+[2025-08-07 12:28:55] 正在检出 4e6ac0e67ca157b2b96d8364fae3497b69e187bc...
+之前的 HEAD 位置是 7fd419441 Added check for incorrect number of meta channels report in #492.
+HEAD 目前位于 4e6ac0e67 Fixed incorrect call to DestroyImage reported in #491.
+[2025-08-07 12:28:55] 命令成功: git checkout 4e6ac0e67ca157b2b96d8364fae3497b69e187bc
+[2025-08-07 12:28:55] 已成功检出 4e6ac0e67ca157b2b96d8364fae3497b69e187bc
+[2025-08-07 12:29:21] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:30:21] 命令成功: make
+[2025-08-07 12:30:21] 编译子任务完成
+[2025-08-07 12:30:21] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-4e6ac0e67ca157b2b96d8364fae3497b69e187bc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:30:21] 所有函数都找到了: ReadMPCImage in libMagickCore-7.Q16HDRI.so.2.0.0
+[2025-08-07 12:30:21] 4e6ac0e67ca157b2b96d8364fae3497b69e187bc 编译成功
+[2025-08-07 12:30:21] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-4e6ac0e67ca157b2b96d8364fae3497b69e187bc/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.2.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2017-9499-vuln-4e6ac0e67ca1-magickcore
+[2025-08-07 12:30:21] 二进制文件复制成功
+[2025-08-07 12:30:21] 
+[2025-08-07 12:30:21] >>> 处理 CVE: CVE-2018-16643, 补丁 Commit: 6b6bff054d56 <<<
+[2025-08-07 12:30:21] 相关函数: ReadCALSImage, ReadPWPImage, ReadPICTImage, ReadDCMImage
+[2025-08-07 12:30:21] ==================================================
+[2025-08-07 12:30:21] 开始处理 Git Ref: 6b6bff054d56
+[2025-08-07 12:30:21] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6b6bff054d56
+[2025-08-07 12:30:21] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6b6bff054d56/compile.log
+保存工作目录和索引状态 WIP on (no branch): 4e6ac0e67 Fixed incorrect call to DestroyImage reported in #491.
+[2025-08-07 12:30:21] 命令成功: git stash --include-untracked
+[2025-08-07 12:30:21] 正在检出 6b6bff054d56...
+之前的 HEAD 位置是 4e6ac0e67 Fixed incorrect call to DestroyImage reported in #491.
+HEAD 目前位于 6b6bff054 https://github.com/ImageMagick/ImageMagick/issues/1199
+[2025-08-07 12:30:21] 命令成功: git checkout 6b6bff054d56
+[2025-08-07 12:30:21] 已成功检出 6b6bff054d56
+[2025-08-07 12:30:45] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:32:06] 命令成功: make
+[2025-08-07 12:32:06] 编译子任务完成
+[2025-08-07 12:32:06] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6b6bff054d56/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:32:06] 所有函数都找到了: ReadCALSImage, ReadPWPImage, ReadPICTImage, ReadDCMImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:32:06] 6b6bff054d56 编译成功
+[2025-08-07 12:32:06] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6b6bff054d56/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16643-patch-6b6bff054d56-magickcore
+[2025-08-07 12:32:07] 二进制文件复制成功
+[2025-08-07 12:32:07] 漏洞版本 (父提交): c7537dd705e6a0946b546b683e7f651290e4cfbb
+[2025-08-07 12:32:07] ==================================================
+[2025-08-07 12:32:07] 开始处理 Git Ref: c7537dd705e6a0946b546b683e7f651290e4cfbb
+[2025-08-07 12:32:07] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7537dd705e6a0946b546b683e7f651290e4cfbb
+[2025-08-07 12:32:07] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7537dd705e6a0946b546b683e7f651290e4cfbb/compile.log
+保存工作目录和索引状态 WIP on (no branch): 6b6bff054 https://github.com/ImageMagick/ImageMagick/issues/1199
+[2025-08-07 12:32:07] 命令成功: git stash --include-untracked
+[2025-08-07 12:32:07] 正在检出 c7537dd705e6a0946b546b683e7f651290e4cfbb...
+之前的 HEAD 位置是 6b6bff054 https://github.com/ImageMagick/ImageMagick/issues/1199
+HEAD 目前位于 c7537dd70 ...
+[2025-08-07 12:32:07] 命令成功: git checkout c7537dd705e6a0946b546b683e7f651290e4cfbb
+[2025-08-07 12:32:07] 已成功检出 c7537dd705e6a0946b546b683e7f651290e4cfbb
+[2025-08-07 12:32:30] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:33:31] 命令成功: make
+[2025-08-07 12:33:31] 编译子任务完成
+[2025-08-07 12:33:31] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7537dd705e6a0946b546b683e7f651290e4cfbb/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:33:31] 所有函数都找到了: ReadCALSImage, ReadPWPImage, ReadPICTImage, ReadDCMImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:33:31] c7537dd705e6a0946b546b683e7f651290e4cfbb 编译成功
+[2025-08-07 12:33:31] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7537dd705e6a0946b546b683e7f651290e4cfbb/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16643-vuln-c7537dd705e6-magickcore
+[2025-08-07 12:33:31] 二进制文件复制成功
+[2025-08-07 12:33:31] 
+[2025-08-07 12:33:31] >>> 处理 CVE: CVE-2018-16644, 补丁 Commit: 16916c8979c3 <<<
+[2025-08-07 12:33:31] 相关函数: ReadDCMImage
+[2025-08-07 12:33:31] ==================================================
+[2025-08-07 12:33:31] 开始处理 Git Ref: 16916c8979c3
+[2025-08-07 12:33:31] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-16916c8979c3
+[2025-08-07 12:33:31] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-16916c8979c3/compile.log
+保存工作目录和索引状态 WIP on (no branch): c7537dd70 ...
+[2025-08-07 12:33:31] 命令成功: git stash --include-untracked
+[2025-08-07 12:33:31] 正在检出 16916c8979c3...
+之前的 HEAD 位置是 c7537dd70 ...
+HEAD 目前位于 16916c897 https://github.com/ImageMagick/ImageMagick/issues/1269
+[2025-08-07 12:33:31] 命令成功: git checkout 16916c8979c3
+[2025-08-07 12:33:31] 已成功检出 16916c8979c3
+[2025-08-07 12:33:55] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:35:16] 命令成功: make
+[2025-08-07 12:35:16] 编译子任务完成
+[2025-08-07 12:35:16] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-16916c8979c3/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:35:16] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:35:16] 16916c8979c3 编译成功
+[2025-08-07 12:35:16] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-16916c8979c3/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16644-patch-16916c8979c3-magickcore
+[2025-08-07 12:35:16] 二进制文件复制成功
+[2025-08-07 12:35:16] 漏洞版本 (父提交): 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd
+[2025-08-07 12:35:16] ==================================================
+[2025-08-07 12:35:16] 开始处理 Git Ref: 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd
+[2025-08-07 12:35:16] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5a295f0c160a78d5f7b2df8caabb5cdd66208dbd
+[2025-08-07 12:35:16] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5a295f0c160a78d5f7b2df8caabb5cdd66208dbd/compile.log
+保存工作目录和索引状态 WIP on (no branch): 16916c897 https://github.com/ImageMagick/ImageMagick/issues/1269
+[2025-08-07 12:35:17] 命令成功: git stash --include-untracked
+[2025-08-07 12:35:17] 正在检出 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd...
+之前的 HEAD 位置是 16916c897 https://github.com/ImageMagick/ImageMagick/issues/1269
+HEAD 目前位于 5a295f0c1 Fixed incorrect blob referencing.
+[2025-08-07 12:35:17] 命令成功: git checkout 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd
+[2025-08-07 12:35:17] 已成功检出 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd
+[2025-08-07 12:35:40] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:36:41] 命令成功: make
+[2025-08-07 12:36:41] 编译子任务完成
+[2025-08-07 12:36:41] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5a295f0c160a78d5f7b2df8caabb5cdd66208dbd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:36:41] 所有函数都找到了: ReadDCMImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:36:41] 5a295f0c160a78d5f7b2df8caabb5cdd66208dbd 编译成功
+[2025-08-07 12:36:41] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-5a295f0c160a78d5f7b2df8caabb5cdd66208dbd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16644-vuln-5a295f0c160a-magickcore
+[2025-08-07 12:36:41] 二进制文件复制成功
+[2025-08-07 12:36:41] 
+[2025-08-07 12:36:41] >>> 处理 CVE: CVE-2018-16645, 补丁 Commit: ecb31dbad39c <<<
+[2025-08-07 12:36:41] 相关函数: ReadBMPImage
+[2025-08-07 12:36:41] ==================================================
+[2025-08-07 12:36:41] 开始处理 Git Ref: ecb31dbad39c
+[2025-08-07 12:36:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ecb31dbad39c
+[2025-08-07 12:36:41] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ecb31dbad39c/compile.log
+保存工作目录和索引状态 WIP on (no branch): 5a295f0c1 Fixed incorrect blob referencing.
+[2025-08-07 12:36:41] 命令成功: git stash --include-untracked
+[2025-08-07 12:36:41] 正在检出 ecb31dbad39c...
+之前的 HEAD 位置是 5a295f0c1 Fixed incorrect blob referencing.
+HEAD 目前位于 ecb31dbad https://github.com/ImageMagick/ImageMagick/issues/1268
+[2025-08-07 12:36:41] 命令成功: git checkout ecb31dbad39c
+[2025-08-07 12:36:41] 已成功检出 ecb31dbad39c
+[2025-08-07 12:37:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:38:05] 命令成功: make
+[2025-08-07 12:38:05] 编译子任务完成
+[2025-08-07 12:38:05] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ecb31dbad39c/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:38:05] 所有函数都找到了: ReadBMPImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:38:05] ecb31dbad39c 编译成功
+[2025-08-07 12:38:05] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ecb31dbad39c/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16645-patch-ecb31dbad39c-magickcore
+[2025-08-07 12:38:05] 二进制文件复制成功
+[2025-08-07 12:38:05] 漏洞版本 (父提交): 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9
+[2025-08-07 12:38:05] ==================================================
+[2025-08-07 12:38:05] 开始处理 Git Ref: 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9
+[2025-08-07 12:38:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9
+[2025-08-07 12:38:05] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9/compile.log
+保存工作目录和索引状态 WIP on (no branch): ecb31dbad https://github.com/ImageMagick/ImageMagick/issues/1268
+[2025-08-07 12:38:05] 命令成功: git stash --include-untracked
+[2025-08-07 12:38:05] 正在检出 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9...
+之前的 HEAD 位置是 ecb31dbad https://github.com/ImageMagick/ImageMagick/issues/1268
+HEAD 目前位于 817f6ab6e ...
+[2025-08-07 12:38:05] 命令成功: git checkout 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9
+[2025-08-07 12:38:05] 已成功检出 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9
+[2025-08-07 12:38:29] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:39:30] 命令成功: make
+[2025-08-07 12:39:30] 编译子任务完成
+[2025-08-07 12:39:30] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:39:30] 所有函数都找到了: ReadBMPImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:39:30] 817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9 编译成功
+[2025-08-07 12:39:30] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-817f6ab6ed5fe2bb5aebfb0a8ebb034a55fe4bb9/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-16645-vuln-817f6ab6ed5f-magickcore
+[2025-08-07 12:39:30] 二进制文件复制成功
+[2025-08-07 12:39:30] 
+[2025-08-07 12:39:30] >>> 处理 CVE: CVE-2018-20467, 补丁 Commit: db0add932fb8 <<<
+[2025-08-07 12:39:30] 相关函数: ReadBMPImage
+[2025-08-07 12:39:30] ==================================================
+[2025-08-07 12:39:30] 开始处理 Git Ref: db0add932fb8
+[2025-08-07 12:39:30] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-db0add932fb8
+[2025-08-07 12:39:30] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-db0add932fb8/compile.log
+保存工作目录和索引状态 WIP on (no branch): 817f6ab6e ...
+[2025-08-07 12:39:30] 命令成功: git stash --include-untracked
+[2025-08-07 12:39:30] 正在检出 db0add932fb8...
+之前的 HEAD 位置是 817f6ab6e ...
+HEAD 目前位于 db0add932 Prevent infinite loop
+[2025-08-07 12:39:30] 命令成功: git checkout db0add932fb8
+[2025-08-07 12:39:30] 已成功检出 db0add932fb8
+[2025-08-07 12:39:54] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:41:16] 命令成功: make
+[2025-08-07 12:41:16] 编译子任务完成
+[2025-08-07 12:41:16] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-db0add932fb8/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:41:16] 所有函数都找到了: ReadBMPImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:41:16] db0add932fb8 编译成功
+[2025-08-07 12:41:16] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-db0add932fb8/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-20467-patch-db0add932fb8-magickcore
+[2025-08-07 12:41:16] 二进制文件复制成功
+[2025-08-07 12:41:16] 漏洞版本 (父提交): 6a7ac23af498532443ccbfe1941a140100255502
+[2025-08-07 12:41:16] ==================================================
+[2025-08-07 12:41:16] 开始处理 Git Ref: 6a7ac23af498532443ccbfe1941a140100255502
+[2025-08-07 12:41:16] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6a7ac23af498532443ccbfe1941a140100255502
+[2025-08-07 12:41:16] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6a7ac23af498532443ccbfe1941a140100255502/compile.log
+保存工作目录和索引状态 WIP on (no branch): db0add932 Prevent infinite loop
+[2025-08-07 12:41:16] 命令成功: git stash --include-untracked
+[2025-08-07 12:41:16] 正在检出 6a7ac23af498532443ccbfe1941a140100255502...
+之前的 HEAD 位置是 db0add932 Prevent infinite loop
+HEAD 目前位于 6a7ac23af Set attribute when the image contains an acTL chunk to make it possible to detect if the image is APNG.
+[2025-08-07 12:41:16] 命令成功: git checkout 6a7ac23af498532443ccbfe1941a140100255502
+[2025-08-07 12:41:16] 已成功检出 6a7ac23af498532443ccbfe1941a140100255502
+[2025-08-07 12:41:40] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:42:40] 命令成功: make
+[2025-08-07 12:42:40] 编译子任务完成
+[2025-08-07 12:42:40] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6a7ac23af498532443ccbfe1941a140100255502/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:42:40] 所有函数都找到了: ReadBMPImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:42:40] 6a7ac23af498532443ccbfe1941a140100255502 编译成功
+[2025-08-07 12:42:40] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-6a7ac23af498532443ccbfe1941a140100255502/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2018-20467-vuln-6a7ac23af498-magickcore
+[2025-08-07 12:42:40] 二进制文件复制成功
+[2025-08-07 12:42:40] 
+[2025-08-07 12:42:40] >>> 处理 CVE: CVE-2019-10131, 补丁 Commit: cb1214c124e1 <<<
+[2025-08-07 12:42:40] 相关函数: format8BIM
+[2025-08-07 12:42:40] ==================================================
+[2025-08-07 12:42:40] 开始处理 Git Ref: cb1214c124e1
+[2025-08-07 12:42:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cb1214c124e1
+[2025-08-07 12:42:40] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cb1214c124e1/compile.log
+保存工作目录和索引状态 WIP on (no branch): 6a7ac23af Set attribute when the image contains an acTL chunk to make it possible to detect if the image is APNG.
+[2025-08-07 12:42:41] 命令成功: git stash --include-untracked
+[2025-08-07 12:42:41] 正在检出 cb1214c124e1...
+之前的 HEAD 位置是 6a7ac23af Set attribute when the image contains an acTL chunk to make it possible to detect if the image is APNG.
+HEAD 目前位于 cb1214c12 ...
+[2025-08-07 12:42:41] 命令成功: git checkout cb1214c124e1
+[2025-08-07 12:42:41] 已成功检出 cb1214c124e1
+[2025-08-07 12:43:04] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:44:25] 命令成功: make
+[2025-08-07 12:44:25] 编译子任务完成
+[2025-08-07 12:44:25] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cb1214c124e1/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 12:44:25] 所有函数都找到了: format8BIM in libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 12:44:25] cb1214c124e1 编译成功
+[2025-08-07 12:44:25] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-cb1214c124e1/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10131-patch-cb1214c124e1-magickcore
+[2025-08-07 12:44:25] 二进制文件复制成功
+[2025-08-07 12:44:25] 漏洞版本 (父提交): 0daf227874f104a24178d694bba9e4ef48450f6e
+[2025-08-07 12:44:25] ==================================================
+[2025-08-07 12:44:25] 开始处理 Git Ref: 0daf227874f104a24178d694bba9e4ef48450f6e
+[2025-08-07 12:44:25] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0daf227874f104a24178d694bba9e4ef48450f6e
+[2025-08-07 12:44:25] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0daf227874f104a24178d694bba9e4ef48450f6e/compile.log
+保存工作目录和索引状态 WIP on (no branch): cb1214c12 ...
+[2025-08-07 12:44:26] 命令成功: git stash --include-untracked
+[2025-08-07 12:44:26] 正在检出 0daf227874f104a24178d694bba9e4ef48450f6e...
+之前的 HEAD 位置是 cb1214c12 ...
+HEAD 目前位于 0daf22787 Whitespace.
+[2025-08-07 12:44:26] 命令成功: git checkout 0daf227874f104a24178d694bba9e4ef48450f6e
+[2025-08-07 12:44:26] 已成功检出 0daf227874f104a24178d694bba9e4ef48450f6e
+[2025-08-07 12:44:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:45:49] 命令成功: make
+[2025-08-07 12:45:49] 编译子任务完成
+[2025-08-07 12:45:49] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0daf227874f104a24178d694bba9e4ef48450f6e/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 12:45:49] 所有函数都找到了: format8BIM in libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 12:45:49] 0daf227874f104a24178d694bba9e4ef48450f6e 编译成功
+[2025-08-07 12:45:49] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-0daf227874f104a24178d694bba9e4ef48450f6e/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10131-vuln-0daf227874f1-magickcore
+[2025-08-07 12:45:49] 二进制文件复制成功
+[2025-08-07 12:45:49] 
+[2025-08-07 12:45:49] >>> 处理 CVE: CVE-2019-10649, 补丁 Commit: d3ae9c19125c <<<
+[2025-08-07 12:45:49] 相关函数: SVGEndElement
+[2025-08-07 12:45:49] ==================================================
+[2025-08-07 12:45:49] 开始处理 Git Ref: d3ae9c19125c
+[2025-08-07 12:45:49] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c
+[2025-08-07 12:45:49] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c/compile.log
+保存工作目录和索引状态 WIP on (no branch): 0daf22787 Whitespace.
+[2025-08-07 12:45:49] 命令成功: git stash --include-untracked
+[2025-08-07 12:45:49] 正在检出 d3ae9c19125c...
+之前的 HEAD 位置是 0daf22787 Whitespace.
+HEAD 目前位于 d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+[2025-08-07 12:45:50] 命令成功: git checkout d3ae9c19125c
+[2025-08-07 12:45:50] 已成功检出 d3ae9c19125c
+[2025-08-07 12:46:13] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:47:35] 命令成功: make
+[2025-08-07 12:47:35] 编译子任务完成
+[2025-08-07 12:47:35] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:47:35] 所有函数都找到了: SVGEndElement in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:47:35] d3ae9c19125c 编译成功
+[2025-08-07 12:47:35] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10649-patch-d3ae9c19125c-magickcore
+[2025-08-07 12:47:35] 二进制文件复制成功
+[2025-08-07 12:47:35] 漏洞版本 (父提交): 842ec075de3b43a8de8010028dc69b834e2ca60f
+[2025-08-07 12:47:35] ==================================================
+[2025-08-07 12:47:35] 开始处理 Git Ref: 842ec075de3b43a8de8010028dc69b834e2ca60f
+[2025-08-07 12:47:35] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-842ec075de3b43a8de8010028dc69b834e2ca60f
+[2025-08-07 12:47:35] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-842ec075de3b43a8de8010028dc69b834e2ca60f/compile.log
+保存工作目录和索引状态 WIP on (no branch): d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+[2025-08-07 12:47:35] 命令成功: git stash --include-untracked
+[2025-08-07 12:47:35] 正在检出 842ec075de3b43a8de8010028dc69b834e2ca60f...
+之前的 HEAD 位置是 d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+HEAD 目前位于 842ec075d https://imagemagick.org/discourse-server/viewtopic.php?t=35741
+[2025-08-07 12:47:35] 命令成功: git checkout 842ec075de3b43a8de8010028dc69b834e2ca60f
+[2025-08-07 12:47:35] 已成功检出 842ec075de3b43a8de8010028dc69b834e2ca60f
+[2025-08-07 12:47:59] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:49:00] 命令成功: make
+[2025-08-07 12:49:00] 编译子任务完成
+[2025-08-07 12:49:00] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-842ec075de3b43a8de8010028dc69b834e2ca60f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:49:00] 所有函数都找到了: SVGEndElement in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:49:00] 842ec075de3b43a8de8010028dc69b834e2ca60f 编译成功
+[2025-08-07 12:49:00] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-842ec075de3b43a8de8010028dc69b834e2ca60f/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10649-vuln-842ec075de3b-magickcore
+[2025-08-07 12:49:00] 二进制文件复制成功
+[2025-08-07 12:49:00] 
+[2025-08-07 12:49:00] >>> 处理 CVE: CVE-2019-10650, 补丁 Commit: b0fe1aa7c2ed <<<
+[2025-08-07 12:49:00] 相关函数: WriteTIFFImage
+[2025-08-07 12:49:00] ==================================================
+[2025-08-07 12:49:00] 开始处理 Git Ref: b0fe1aa7c2ed
+[2025-08-07 12:49:00] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-b0fe1aa7c2ed
+[2025-08-07 12:49:00] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-b0fe1aa7c2ed/compile.log
+保存工作目录和索引状态 WIP on (no branch): 842ec075d https://imagemagick.org/discourse-server/viewtopic.php?t=35741
+[2025-08-07 12:49:01] 命令成功: git stash --include-untracked
+[2025-08-07 12:49:01] 正在检出 b0fe1aa7c2ed...
+之前的 HEAD 位置是 842ec075d https://imagemagick.org/discourse-server/viewtopic.php?t=35741
+HEAD 目前位于 b0fe1aa7c https://github.com/ImageMagick/ImageMagick/issues/1532
+[2025-08-07 12:49:01] 命令成功: git checkout b0fe1aa7c2ed
+[2025-08-07 12:49:01] 已成功检出 b0fe1aa7c2ed
+[2025-08-07 12:49:24] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:50:25] 命令成功: make
+[2025-08-07 12:50:25] 编译子任务完成
+[2025-08-07 12:50:25] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-b0fe1aa7c2ed/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:50:25] 所有函数都找到了: WriteTIFFImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:50:25] b0fe1aa7c2ed 编译成功
+[2025-08-07 12:50:25] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-b0fe1aa7c2ed/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10650-patch-b0fe1aa7c2ed-magickcore
+[2025-08-07 12:50:25] 二进制文件复制成功
+[2025-08-07 12:50:25] 漏洞版本 (父提交): d3ae9c19125c8704b4866381f7a064ca2cbdc006
+[2025-08-07 12:50:25] ==================================================
+[2025-08-07 12:50:25] 开始处理 Git Ref: d3ae9c19125c8704b4866381f7a064ca2cbdc006
+[2025-08-07 12:50:25] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c8704b4866381f7a064ca2cbdc006
+[2025-08-07 12:50:25] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c8704b4866381f7a064ca2cbdc006/compile.log
+保存工作目录和索引状态 WIP on (no branch): b0fe1aa7c https://github.com/ImageMagick/ImageMagick/issues/1532
+[2025-08-07 12:50:25] 命令成功: git stash --include-untracked
+[2025-08-07 12:50:25] 正在检出 d3ae9c19125c8704b4866381f7a064ca2cbdc006...
+之前的 HEAD 位置是 b0fe1aa7c https://github.com/ImageMagick/ImageMagick/issues/1532
+HEAD 目前位于 d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+[2025-08-07 12:50:25] 命令成功: git checkout d3ae9c19125c8704b4866381f7a064ca2cbdc006
+[2025-08-07 12:50:25] 已成功检出 d3ae9c19125c8704b4866381f7a064ca2cbdc006
+[2025-08-07 12:50:49] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:51:50] 命令成功: make
+[2025-08-07 12:51:50] 编译子任务完成
+[2025-08-07 12:51:50] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c8704b4866381f7a064ca2cbdc006/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:51:50] 所有函数都找到了: WriteTIFFImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:51:50] d3ae9c19125c8704b4866381f7a064ca2cbdc006 编译成功
+[2025-08-07 12:51:50] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-d3ae9c19125c8704b4866381f7a064ca2cbdc006/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10650-vuln-d3ae9c19125c-magickcore
+[2025-08-07 12:51:50] 二进制文件复制成功
+[2025-08-07 12:51:50] 
+[2025-08-07 12:51:50] >>> 处理 CVE: CVE-2019-10714, 补丁 Commit: 07eebcd72f45 <<<
+[2025-08-07 12:51:50] 相关函数: LocaleLowercase, LocaleUppercase
+[2025-08-07 12:51:50] ==================================================
+[2025-08-07 12:51:50] 开始处理 Git Ref: 07eebcd72f45
+[2025-08-07 12:51:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-07eebcd72f45
+[2025-08-07 12:51:50] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-07eebcd72f45/compile.log
+保存工作目录和索引状态 WIP on (no branch): d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+[2025-08-07 12:51:50] 命令成功: git stash --include-untracked
+[2025-08-07 12:51:50] 正在检出 07eebcd72f45...
+之前的 HEAD 位置是 d3ae9c191 https://github.com/ImageMagick/ImageMagick/issues/1533
+HEAD 目前位于 07eebcd72 ...
+[2025-08-07 12:51:51] 命令成功: git checkout 07eebcd72f45
+[2025-08-07 12:51:51] 已成功检出 07eebcd72f45
+[2025-08-07 12:52:15] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:53:37] 命令成功: make
+[2025-08-07 12:53:37] 编译子任务完成
+[2025-08-07 12:53:37] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-07eebcd72f45/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:53:37] 所有函数都找到了: LocaleLowercase, LocaleUppercase in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:53:37] 07eebcd72f45 编译成功
+[2025-08-07 12:53:37] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-07eebcd72f45/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10714-patch-07eebcd72f45-magickcore
+[2025-08-07 12:53:37] 二进制文件复制成功
+[2025-08-07 12:53:37] 漏洞版本 (父提交): 27cf421df4e0ef76d409bade05a72ae84ae85994
+[2025-08-07 12:53:37] ==================================================
+[2025-08-07 12:53:37] 开始处理 Git Ref: 27cf421df4e0ef76d409bade05a72ae84ae85994
+[2025-08-07 12:53:37] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-27cf421df4e0ef76d409bade05a72ae84ae85994
+[2025-08-07 12:53:37] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-27cf421df4e0ef76d409bade05a72ae84ae85994/compile.log
+保存工作目录和索引状态 WIP on (no branch): 07eebcd72 ...
+[2025-08-07 12:53:37] 命令成功: git stash --include-untracked
+[2025-08-07 12:53:37] 正在检出 27cf421df4e0ef76d409bade05a72ae84ae85994...
+之前的 HEAD 位置是 07eebcd72 ...
+HEAD 目前位于 27cf421df ...
+[2025-08-07 12:53:37] 命令成功: git checkout 27cf421df4e0ef76d409bade05a72ae84ae85994
+[2025-08-07 12:53:37] 已成功检出 27cf421df4e0ef76d409bade05a72ae84ae85994
+[2025-08-07 12:54:01] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:55:02] 命令成功: make
+[2025-08-07 12:55:02] 编译子任务完成
+[2025-08-07 12:55:02] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-27cf421df4e0ef76d409bade05a72ae84ae85994/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:55:02] 所有函数都找到了: LocaleLowercase, LocaleUppercase in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:55:02] 27cf421df4e0ef76d409bade05a72ae84ae85994 编译成功
+[2025-08-07 12:55:02] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-27cf421df4e0ef76d409bade05a72ae84ae85994/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-10714-vuln-27cf421df4e0-magickcore
+[2025-08-07 12:55:02] 二进制文件复制成功
+[2025-08-07 12:55:02] 
+[2025-08-07 12:55:02] >>> 处理 CVE: CVE-2019-11470, 补丁 Commit: e3cdce6fe121 <<<
+[2025-08-07 12:55:02] 相关函数: ReadCINImage
+[2025-08-07 12:55:02] ==================================================
+[2025-08-07 12:55:02] 开始处理 Git Ref: e3cdce6fe121
+[2025-08-07 12:55:02] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e3cdce6fe121
+[2025-08-07 12:55:02] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e3cdce6fe121/compile.log
+保存工作目录和索引状态 WIP on (no branch): 27cf421df ...
+[2025-08-07 12:55:02] 命令成功: git stash --include-untracked
+[2025-08-07 12:55:02] 正在检出 e3cdce6fe121...
+之前的 HEAD 位置是 27cf421df ...
+HEAD 目前位于 e3cdce6fe https://github.com/ImageMagick/ImageMagick/issues/1472
+[2025-08-07 12:55:02] 命令成功: git checkout e3cdce6fe121
+[2025-08-07 12:55:02] 已成功检出 e3cdce6fe121
+[2025-08-07 12:55:26] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:56:48] 命令成功: make
+[2025-08-07 12:56:48] 编译子任务完成
+[2025-08-07 12:56:48] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e3cdce6fe121/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:56:48] 所有函数都找到了: ReadCINImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:56:48] e3cdce6fe121 编译成功
+[2025-08-07 12:56:48] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-e3cdce6fe121/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-11470-patch-e3cdce6fe121-magickcore
+[2025-08-07 12:56:48] 二进制文件复制成功
+[2025-08-07 12:56:48] 漏洞版本 (父提交): 2b4fee3b265bd8333bea89a495e37a18a445da86
+[2025-08-07 12:56:48] ==================================================
+[2025-08-07 12:56:48] 开始处理 Git Ref: 2b4fee3b265bd8333bea89a495e37a18a445da86
+[2025-08-07 12:56:48] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2b4fee3b265bd8333bea89a495e37a18a445da86
+[2025-08-07 12:56:48] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2b4fee3b265bd8333bea89a495e37a18a445da86/compile.log
+保存工作目录和索引状态 WIP on (no branch): e3cdce6fe https://github.com/ImageMagick/ImageMagick/issues/1472
+[2025-08-07 12:56:48] 命令成功: git stash --include-untracked
+[2025-08-07 12:56:48] 正在检出 2b4fee3b265bd8333bea89a495e37a18a445da86...
+之前的 HEAD 位置是 e3cdce6fe https://github.com/ImageMagick/ImageMagick/issues/1472
+HEAD 目前位于 2b4fee3b2 ...
+[2025-08-07 12:56:48] 命令成功: git checkout 2b4fee3b265bd8333bea89a495e37a18a445da86
+[2025-08-07 12:56:48] 已成功检出 2b4fee3b265bd8333bea89a495e37a18a445da86
+[2025-08-07 12:57:11] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:58:13] 命令成功: make
+[2025-08-07 12:58:13] 编译子任务完成
+[2025-08-07 12:58:13] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2b4fee3b265bd8333bea89a495e37a18a445da86/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:58:13] 所有函数都找到了: ReadCINImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:58:13] 2b4fee3b265bd8333bea89a495e37a18a445da86 编译成功
+[2025-08-07 12:58:13] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-2b4fee3b265bd8333bea89a495e37a18a445da86/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-11470-vuln-2b4fee3b265b-magickcore
+[2025-08-07 12:58:13] 二进制文件复制成功
+[2025-08-07 12:58:13] 
+[2025-08-07 12:58:13] >>> 处理 CVE: CVE-2019-11472, 补丁 Commit: ab3e2be9b387 <<<
+[2025-08-07 12:58:13] 相关函数: ReadXWDImage
+[2025-08-07 12:58:13] ==================================================
+[2025-08-07 12:58:13] 开始处理 Git Ref: ab3e2be9b387
+[2025-08-07 12:58:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ab3e2be9b387
+[2025-08-07 12:58:13] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ab3e2be9b387/compile.log
+保存工作目录和索引状态 WIP on (no branch): 2b4fee3b2 ...
+[2025-08-07 12:58:13] 命令成功: git stash --include-untracked
+[2025-08-07 12:58:13] 正在检出 ab3e2be9b387...
+之前的 HEAD 位置是 2b4fee3b2 ...
+HEAD 目前位于 ab3e2be9b https://github.com/ImageMagick/ImageMagick/issues/1546
+[2025-08-07 12:58:13] 命令成功: git checkout ab3e2be9b387
+[2025-08-07 12:58:13] 已成功检出 ab3e2be9b387
+[2025-08-07 12:58:37] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 12:59:58] 命令成功: make
+[2025-08-07 12:59:58] 编译子任务完成
+[2025-08-07 12:59:58] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ab3e2be9b387/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:59:58] 所有函数都找到了: ReadXWDImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 12:59:58] ab3e2be9b387 编译成功
+[2025-08-07 12:59:58] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ab3e2be9b387/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-11472-patch-ab3e2be9b387-magickcore
+[2025-08-07 12:59:58] 二进制文件复制成功
+[2025-08-07 12:59:58] 漏洞版本 (父提交): 9177b7b3c2789c6196e7272e97893d9f7d3991f2
+[2025-08-07 12:59:58] ==================================================
+[2025-08-07 12:59:58] 开始处理 Git Ref: 9177b7b3c2789c6196e7272e97893d9f7d3991f2
+[2025-08-07 12:59:58] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9177b7b3c2789c6196e7272e97893d9f7d3991f2
+[2025-08-07 12:59:58] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9177b7b3c2789c6196e7272e97893d9f7d3991f2/compile.log
+保存工作目录和索引状态 WIP on (no branch): ab3e2be9b https://github.com/ImageMagick/ImageMagick/issues/1546
+[2025-08-07 12:59:59] 命令成功: git stash --include-untracked
+[2025-08-07 12:59:59] 正在检出 9177b7b3c2789c6196e7272e97893d9f7d3991f2...
+之前的 HEAD 位置是 ab3e2be9b https://github.com/ImageMagick/ImageMagick/issues/1546
+HEAD 目前位于 9177b7b3c https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=14240
+[2025-08-07 12:59:59] 命令成功: git checkout 9177b7b3c2789c6196e7272e97893d9f7d3991f2
+[2025-08-07 12:59:59] 已成功检出 9177b7b3c2789c6196e7272e97893d9f7d3991f2
+[2025-08-07 13:00:22] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:01:24] 命令成功: make
+[2025-08-07 13:01:24] 编译子任务完成
+[2025-08-07 13:01:24] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9177b7b3c2789c6196e7272e97893d9f7d3991f2/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:01:24] 所有函数都找到了: ReadXWDImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:01:24] 9177b7b3c2789c6196e7272e97893d9f7d3991f2 编译成功
+[2025-08-07 13:01:24] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-9177b7b3c2789c6196e7272e97893d9f7d3991f2/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-11472-vuln-9177b7b3c278-magickcore
+[2025-08-07 13:01:24] 二进制文件复制成功
+[2025-08-07 13:01:24] 
+[2025-08-07 13:01:24] >>> 处理 CVE: CVE-2019-11598, 补丁 Commit: 7dbf5b259e39 <<<
+[2025-08-07 13:01:24] 相关函数: SetGrayscaleImage, ReadEXRImage, GetImageQuantizeError
+[2025-08-07 13:01:24] ==================================================
+[2025-08-07 13:01:24] 开始处理 Git Ref: 7dbf5b259e39
+[2025-08-07 13:01:24] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7dbf5b259e39
+[2025-08-07 13:01:24] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7dbf5b259e39/compile.log
+保存工作目录和索引状态 WIP on (no branch): 9177b7b3c https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=14240
+[2025-08-07 13:01:24] 命令成功: git stash --include-untracked
+[2025-08-07 13:01:24] 正在检出 7dbf5b259e39...
+之前的 HEAD 位置是 9177b7b3c https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=14240
+HEAD 目前位于 7dbf5b259 https://github.com/ImageMagick/ImageMagick/issues/1540
+[2025-08-07 13:01:24] 命令成功: git checkout 7dbf5b259e39
+[2025-08-07 13:01:24] 已成功检出 7dbf5b259e39
+[2025-08-07 13:01:47] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:02:48] 命令成功: make
+[2025-08-07 13:02:48] 编译子任务完成
+[2025-08-07 13:02:48] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7dbf5b259e39/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:02:49] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-7dbf5b259e39/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:02:49] 漏洞版本 (父提交): c7e8637b8c1cc32dd40de083967fbb324d6bfca7
+[2025-08-07 13:02:49] ==================================================
+[2025-08-07 13:02:49] 开始处理 Git Ref: c7e8637b8c1cc32dd40de083967fbb324d6bfca7
+[2025-08-07 13:02:49] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7e8637b8c1cc32dd40de083967fbb324d6bfca7
+[2025-08-07 13:02:49] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7e8637b8c1cc32dd40de083967fbb324d6bfca7/compile.log
+保存工作目录和索引状态 WIP on (no branch): 7dbf5b259 https://github.com/ImageMagick/ImageMagick/issues/1540
+[2025-08-07 13:02:49] 命令成功: git stash --include-untracked
+[2025-08-07 13:02:49] 正在检出 c7e8637b8c1cc32dd40de083967fbb324d6bfca7...
+之前的 HEAD 位置是 7dbf5b259 https://github.com/ImageMagick/ImageMagick/issues/1540
+HEAD 目前位于 c7e8637b8 Generate the latest MagickCore API methods prefix mappings
+[2025-08-07 13:02:49] 命令成功: git checkout c7e8637b8c1cc32dd40de083967fbb324d6bfca7
+[2025-08-07 13:02:49] 已成功检出 c7e8637b8c1cc32dd40de083967fbb324d6bfca7
+[2025-08-07 13:03:11] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:04:13] 命令成功: make
+[2025-08-07 13:04:13] 编译子任务完成
+[2025-08-07 13:04:13] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7e8637b8c1cc32dd40de083967fbb324d6bfca7/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:04:13] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c7e8637b8c1cc32dd40de083967fbb324d6bfca7/MagickWand/.libs/libMagickWand-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:04:13] 
+[2025-08-07 13:04:13] >>> 处理 CVE: CVE-2019-12974, 补丁 Commit: 93a9ccc85bd6 <<<
+[2025-08-07 13:04:13] 相关函数: ReadLABELImage, ReadCAPTIONImage
+[2025-08-07 13:04:13] ==================================================
+[2025-08-07 13:04:13] 开始处理 Git Ref: 93a9ccc85bd6
+[2025-08-07 13:04:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-93a9ccc85bd6
+[2025-08-07 13:04:13] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-93a9ccc85bd6/compile.log
+保存工作目录和索引状态 WIP on (no branch): c7e8637b8 Generate the latest MagickCore API methods prefix mappings
+[2025-08-07 13:04:13] 命令成功: git stash --include-untracked
+[2025-08-07 13:04:13] 正在检出 93a9ccc85bd6...
+之前的 HEAD 位置是 c7e8637b8 Generate the latest MagickCore API methods prefix mappings
+HEAD 目前位于 93a9ccc85 https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+[2025-08-07 13:04:13] 命令成功: git checkout 93a9ccc85bd6
+[2025-08-07 13:04:13] 已成功检出 93a9ccc85bd6
+[2025-08-07 13:04:36] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:05:57] 命令成功: make
+[2025-08-07 13:05:57] 编译子任务完成
+[2025-08-07 13:05:57] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-93a9ccc85bd6/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 13:05:57] 所有函数都找到了: ReadLABELImage, ReadCAPTIONImage in libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 13:05:57] 93a9ccc85bd6 编译成功
+[2025-08-07 13:05:57] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-93a9ccc85bd6/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-12974-patch-93a9ccc85bd6-magickcore
+[2025-08-07 13:05:57] 二进制文件复制成功
+[2025-08-07 13:05:57] 漏洞版本 (父提交): bbd8334ccd62f7919db42930308063d1e551bced
+[2025-08-07 13:05:57] ==================================================
+[2025-08-07 13:05:57] 开始处理 Git Ref: bbd8334ccd62f7919db42930308063d1e551bced
+[2025-08-07 13:05:57] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bbd8334ccd62f7919db42930308063d1e551bced
+[2025-08-07 13:05:57] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bbd8334ccd62f7919db42930308063d1e551bced/compile.log
+保存工作目录和索引状态 WIP on (no branch): 93a9ccc85 https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+[2025-08-07 13:05:57] 命令成功: git stash --include-untracked
+[2025-08-07 13:05:57] 正在检出 bbd8334ccd62f7919db42930308063d1e551bced...
+之前的 HEAD 位置是 93a9ccc85 https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+HEAD 目前位于 bbd8334cc https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+[2025-08-07 13:05:57] 命令成功: git checkout bbd8334ccd62f7919db42930308063d1e551bced
+[2025-08-07 13:05:57] 已成功检出 bbd8334ccd62f7919db42930308063d1e551bced
+[2025-08-07 13:06:20] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:07:21] 命令成功: make
+[2025-08-07 13:07:21] 编译子任务完成
+[2025-08-07 13:07:21] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bbd8334ccd62f7919db42930308063d1e551bced/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 13:07:21] 所有函数都找到了: ReadLABELImage, ReadCAPTIONImage in libMagickCore-7.Q16HDRI.so.5.0.0
+[2025-08-07 13:07:21] bbd8334ccd62f7919db42930308063d1e551bced 编译成功
+[2025-08-07 13:07:21] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-bbd8334ccd62f7919db42930308063d1e551bced/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.5.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-12974-vuln-bbd8334ccd62-magickcore
+[2025-08-07 13:07:21] 二进制文件复制成功
+[2025-08-07 13:07:21] 
+[2025-08-07 13:07:21] >>> 处理 CVE: CVE-2019-12975, 补丁 Commit: ca720b5f0fdd <<<
+[2025-08-07 13:07:21] 相关函数: WriteDPXImage
+[2025-08-07 13:07:21] ==================================================
+[2025-08-07 13:07:21] 开始处理 Git Ref: ca720b5f0fdd
+[2025-08-07 13:07:21] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ca720b5f0fdd
+[2025-08-07 13:07:21] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ca720b5f0fdd/compile.log
+保存工作目录和索引状态 WIP on (no branch): bbd8334cc https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+[2025-08-07 13:07:21] 命令成功: git stash --include-untracked
+[2025-08-07 13:07:21] 正在检出 ca720b5f0fdd...
+之前的 HEAD 位置是 bbd8334cc https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6152
+HEAD 目前位于 ca720b5f0 https://github.com/ImageMagick/ImageMagick/issues/1517
+[2025-08-07 13:07:21] 命令成功: git checkout ca720b5f0fdd
+[2025-08-07 13:07:21] 已成功检出 ca720b5f0fdd
+[2025-08-07 13:07:44] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:09:04] 命令成功: make
+[2025-08-07 13:09:04] 编译子任务完成
+[2025-08-07 13:09:04] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ca720b5f0fdd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:09:04] 所有函数都找到了: WriteDPXImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:09:04] ca720b5f0fdd 编译成功
+[2025-08-07 13:09:04] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ca720b5f0fdd/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-12975-patch-ca720b5f0fdd-magickcore
+[2025-08-07 13:09:04] 二进制文件复制成功
+[2025-08-07 13:09:04] 漏洞版本 (父提交): ee60b346b8fce70eb3b239a78e2486fba9615069
+[2025-08-07 13:09:04] ==================================================
+[2025-08-07 13:09:04] 开始处理 Git Ref: ee60b346b8fce70eb3b239a78e2486fba9615069
+[2025-08-07 13:09:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee60b346b8fce70eb3b239a78e2486fba9615069
+[2025-08-07 13:09:04] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee60b346b8fce70eb3b239a78e2486fba9615069/compile.log
+保存工作目录和索引状态 WIP on (no branch): ca720b5f0 https://github.com/ImageMagick/ImageMagick/issues/1517
+[2025-08-07 13:09:04] 命令成功: git stash --include-untracked
+[2025-08-07 13:09:04] 正在检出 ee60b346b8fce70eb3b239a78e2486fba9615069...
+之前的 HEAD 位置是 ca720b5f0 https://github.com/ImageMagick/ImageMagick/issues/1517
+HEAD 目前位于 ee60b346b https://github.com/ImageMagick/ImageMagick/issues/1519
+[2025-08-07 13:09:04] 命令成功: git checkout ee60b346b8fce70eb3b239a78e2486fba9615069
+[2025-08-07 13:09:04] 已成功检出 ee60b346b8fce70eb3b239a78e2486fba9615069
+[2025-08-07 13:09:27] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:10:29] 命令成功: make
+[2025-08-07 13:10:29] 编译子任务完成
+[2025-08-07 13:10:29] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee60b346b8fce70eb3b239a78e2486fba9615069/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:10:29] 所有函数都找到了: WriteDPXImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:10:29] ee60b346b8fce70eb3b239a78e2486fba9615069 编译成功
+[2025-08-07 13:10:29] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee60b346b8fce70eb3b239a78e2486fba9615069/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-12975-vuln-ee60b346b8fc-magickcore
+[2025-08-07 13:10:29] 二进制文件复制成功
+[2025-08-07 13:10:29] 
+[2025-08-07 13:10:29] >>> 处理 CVE: CVE-2019-12976, 补丁 Commit: c0fe488e7052 <<<
+[2025-08-07 13:10:29] 相关函数: ReadPCLImage
+[2025-08-07 13:10:29] ==================================================
+[2025-08-07 13:10:29] 开始处理 Git Ref: c0fe488e7052
+[2025-08-07 13:10:29] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c0fe488e7052
+[2025-08-07 13:10:29] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c0fe488e7052/compile.log
+保存工作目录和索引状态 WIP on (no branch): ee60b346b https://github.com/ImageMagick/ImageMagick/issues/1519
+[2025-08-07 13:10:29] 命令成功: git stash --include-untracked
+[2025-08-07 13:10:29] 正在检出 c0fe488e7052...
+之前的 HEAD 位置是 ee60b346b https://github.com/ImageMagick/ImageMagick/issues/1519
+HEAD 目前位于 c0fe488e7 https://github.com/ImageMagick/ImageMagick/issues/1520
+[2025-08-07 13:10:29] 命令成功: git checkout c0fe488e7052
+[2025-08-07 13:10:29] 已成功检出 c0fe488e7052
+[2025-08-07 13:10:51] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install
+[2025-08-07 13:11:52] 命令成功: make
+[2025-08-07 13:11:52] 编译子任务完成
+[2025-08-07 13:11:52] 找到有效的 imagemagick 二进制文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c0fe488e7052/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:11:52] 所有函数都找到了: ReadPCLImage in libMagickCore-7.Q16HDRI.so.6.0.0
+[2025-08-07 13:11:52] c0fe488e7052 编译成功
+[2025-08-07 13:11:52] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-c0fe488e7052/MagickCore/.libs/libMagickCore-7.Q16HDRI.so.6.0.0 到 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/imagemagick/CVE-2019-12976-patch-c0fe488e7052-magickcore
+[2025-08-07 13:11:52] 二进制文件复制成功
+[2025-08-07 13:11:52] 漏洞版本 (父提交): ee3dae8624e69261760754442827aea4d0254a6f
+[2025-08-07 13:11:52] ==================================================
+[2025-08-07 13:11:52] 开始处理 Git Ref: ee3dae8624e69261760754442827aea4d0254a6f
+[2025-08-07 13:11:52] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee3dae8624e69261760754442827aea4d0254a6f
+[2025-08-07 13:11:52] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/build-ee3dae8624e69261760754442827aea4d0254a6f/compile.log
+保存工作目录和索引状态 WIP on (no branch): c0fe488e7 https://github.com/ImageMagick/ImageMagick/issues/1520
+[2025-08-07 13:11:53] 命令成功: git stash --include-untracked
+[2025-08-07 13:11:53] 正在检出 ee3dae8624e69261760754442827aea4d0254a6f...
+之前的 HEAD 位置是 c0fe488e7 https://github.com/ImageMagick/ImageMagick/issues/1520
+HEAD 目前位于 ee3dae862 https://github.com/ImageMagick/ImageMagick/issues/1522
+[2025-08-07 13:11:53] 命令成功: git checkout ee3dae8624e69261760754442827aea4d0254a6f
+[2025-08-07 13:11:53] 已成功检出 ee3dae8624e69261760754442827aea4d0254a6f
+[2025-08-07 13:12:15] 命令成功: /home/zhangxb/patch/related-works/CVE-Dataset/target/ImageMagick/configure CFLAGS=-g -O0 CXXFLAGS=-g -O0 --disable-werrors --enable-shared --disable-install

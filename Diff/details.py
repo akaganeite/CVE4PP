@@ -10,10 +10,13 @@ from typing import List, Tuple, Set, Optional, Dict
 REPO_MAP = {
     # "binutils": "api.github.com/repos/bminor/binutils-gdb",
     # "curl": "api.github.com/repos/curl/curl",
-    "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
+    # "ffmpeg": "api.github.com/repos/FFmpeg/FFmpeg",
     # "libxml2": "api.github.com/repos/GNOME/libxml2",
     # "sqlite": "api.github.com/repos/sqlite/sqlite",
     # "openssl": "api.github.com/repos/openssl/openssl",
+    # "tcpdump": "api.github.com/repos/the-tcpdump-group/tcpdump",
+    # "openjpeg": "api.github.com/repos/uclouvain/openjpeg",
+    "imagemagick": "api.github.com/repos/ImageMagick/ImageMagick",
 }
 
 def parse_diff_filename(filename):
@@ -212,7 +215,7 @@ def generate_report(project_dir, entries):
             func_list = ",".join(funcs) if funcs else "N/A"
             f.write(f"{cve_id} {date} {func_list}\n")
 
-PROJ = "ffmpeg"
+PROJ = "imagemagick"
 
 def main():
     for root, dirs, files in os.walk(f"./{PROJ}/diff_files"):

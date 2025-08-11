@@ -9,7 +9,7 @@ import re
 import urllib
 
 PROJECT="openssl"
-
+MODE = "append"
 
 
 def extract_git_hash(url: str) -> str | None:
@@ -135,7 +135,7 @@ def process_cve_data(json_path, target_cves):
 if __name__ == "__main__":
     # 配置参数
     JSON_FILE = f"../../cveinfo/{PROJECT}/{PROJECT}_filtered.json"
-    with open("../../testset/openssl/chosen.txt", "r", encoding="utf-8") as f:
+    with open(f"../../testset/openssl/{MODE}.txt", "r", encoding="utf-8") as f:
         cve_data = f.readlines()
     TARGET_CVES =[]
     for key in cve_data:

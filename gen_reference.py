@@ -61,7 +61,7 @@ if len(sys.argv) != 2:
     
 project_name = sys.argv[1]
 print(f"Processing project: {project_name}")
-project_path=f"../binaries/reference/{project_name}-new"
+project_path=f"../binaries/reference/{project_name}"
 # 步骤1: 收集项目下的所有CVE文件
 cve_files = defaultdict(dict)
 for filename in os.listdir(project_path):
@@ -72,7 +72,7 @@ for filename in os.listdir(project_path):
     if ".i64" in filename:
         continue
     # 记录文件路径 (/binaries/reference/...)
-    file_path = f"/binaries/reference/{project_name}-new/{filename}"
+    file_path = f"/binaries/reference/{project_name}/{filename}"
     if file_type == "vuln":
         cve_files[cve_id]["vuln"] = file_path
         cve_files[cve_id]["vuln_commit"] = commit_hash

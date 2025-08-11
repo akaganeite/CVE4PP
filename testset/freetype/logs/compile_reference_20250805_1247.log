@@ -1,0 +1,1307 @@
+[2025-08-05 12:47:27] ===== 开始处理 freetype CVE 参考二进制编译 =====
+[2025-08-05 12:47:27] 处理: CVE-2009-0946 (0545ec1ca36b)
+[2025-08-05 12:47:27] 相关函数: cff_charset_load
+[2025-08-05 12:47:27] 命令成功: rm -rf builds
+[2025-08-05 12:47:27] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): a4124bf08 Fix Savannah bug #30053.
+[2025-08-05 12:47:27] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a4124bf08 Fix Savannah bug #30053.
+HEAD 目前位于 0545ec1ca Protect against invalid SID values in CFFs.
+[2025-08-05 12:47:27] 命令成功: git checkout 0545ec1ca36b
+[2025-08-05 12:47:27] 处理 patch 版本 (0545ec1ca36b)
+[2025-08-05 12:47:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:27] 开始编译...
+[2025-08-05 12:47:30] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.3.20
+[2025-08-05 12:47:30] found all functions in freetype: cff_charset_load
+[2025-08-05 12:47:30] 找到有效二进制: libfreetype.so.6.3.20
+之前的 HEAD 位置是 0545ec1ca Protect against invalid SID values in CFFs.
+HEAD 目前位于 8b819254b Update WinCE Visual C project files.
+M	autogen.sh
+M	builds/unix/install-sh
+M	builds/unix/mkinstalldirs
+M	configure
+[2025-08-05 12:47:30] 命令成功: git checkout 8b819254b9fa
+[2025-08-05 12:47:30] 处理 vuln 版本 (8b819254b9fa)
+[2025-08-05 12:47:30] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:30] 开始编译...
+[2025-08-05 12:47:36] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.3.20
+[2025-08-05 12:47:36] found all functions in freetype: cff_charset_load
+[2025-08-05 12:47:36] 找到有效二进制: libfreetype.so.6.3.20
+[2025-08-05 12:47:36] 跳过已处理的CVE: CVE-2009-0946
+[2025-08-05 12:47:36] 跳过已处理的CVE: CVE-2009-0946
+[2025-08-05 12:47:36] 处理: CVE-2010-2497 (7d3d2cc4fef7)
+[2025-08-05 12:47:36] 相关函数: cff_decoder_parse_charstrings, gray_render_cubic
+[2025-08-05 12:47:36] 命令成功: make clean
+[2025-08-05 12:47:36] 命令成功: rm -rf builds
+[2025-08-05 12:47:36] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 8b819254b Update WinCE Visual C project files.
+[2025-08-05 12:47:36] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8b819254b Update WinCE Visual C project files.
+HEAD 目前位于 7d3d2cc4f Fix Savannah bug #30082.
+[2025-08-05 12:47:36] 命令成功: git checkout 7d3d2cc4fef7
+[2025-08-05 12:47:36] 处理 patch 版本 (7d3d2cc4fef7)
+[2025-08-05 12:47:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:36] 开始编译...
+[2025-08-05 12:47:40] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:47:40] found all functions in freetype: cff_decoder_parse_charstrings gray_render_cubic
+[2025-08-05 12:47:40] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 7d3d2cc4f Fix Savannah bug #30082.
+HEAD 目前位于 a4124bf08 Fix Savannah bug #30053.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:47:40] 命令成功: git checkout a4124bf088fb
+[2025-08-05 12:47:40] 处理 vuln 版本 (a4124bf088fb)
+[2025-08-05 12:47:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:40] 开始编译...
+[2025-08-05 12:47:45] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:47:45] found all functions in freetype: cff_decoder_parse_charstrings gray_render_cubic
+[2025-08-05 12:47:45] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:47:45] 处理: CVE-2010-2498 (8d22746c9e5a)
+[2025-08-05 12:47:45] 相关函数: psh_glyph_find_strong_points
+[2025-08-05 12:47:45] 命令成功: make clean
+[2025-08-05 12:47:45] 命令成功: rm -rf builds
+[2025-08-05 12:47:45] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): a4124bf08 Fix Savannah bug #30053.
+[2025-08-05 12:47:45] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a4124bf08 Fix Savannah bug #30053.
+HEAD 目前位于 8d22746c9 Fix Savannah bug #30106.
+[2025-08-05 12:47:45] 命令成功: git checkout 8d22746c9e5a
+[2025-08-05 12:47:45] 处理 patch 版本 (8d22746c9e5a)
+[2025-08-05 12:47:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:45] 开始编译...
+[2025-08-05 12:47:49] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:47:49] found all functions in freetype: psh_glyph_find_strong_points
+[2025-08-05 12:47:49] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 8d22746c9 Fix Savannah bug #30106.
+HEAD 目前位于 3624110cc [cff]: Improve debugging output.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:47:49] 命令成功: git checkout 3624110cc25c
+[2025-08-05 12:47:49] 处理 vuln 版本 (3624110cc25c)
+[2025-08-05 12:47:49] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:49] 开始编译...
+[2025-08-05 12:47:55] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:47:55] found all functions in freetype: psh_glyph_find_strong_points
+[2025-08-05 12:47:55] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:47:55] 处理: CVE-2010-2499 (c69891a13456)
+[2025-08-05 12:47:55] 相关函数: Mac_Read_POST_Resource
+[2025-08-05 12:47:55] 命令成功: make clean
+[2025-08-05 12:47:55] 命令成功: rm -rf builds
+[2025-08-05 12:47:55] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 3624110cc [cff]: Improve debugging output.
+[2025-08-05 12:47:55] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 3624110cc [cff]: Improve debugging output.
+HEAD 目前位于 c69891a13 Initial fix for Savannah bug #30248 and #30249.
+[2025-08-05 12:47:55] 命令成功: git checkout c69891a13456
+[2025-08-05 12:47:55] 处理 patch 版本 (c69891a13456)
+[2025-08-05 12:47:55] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:55] 开始编译...
+[2025-08-05 12:47:58] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:47:58] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:47:58] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 c69891a13 Initial fix for Savannah bug #30248 and #30249.
+HEAD 目前位于 6fc12943e Fix Savannah bug #30247.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:47:59] 命令成功: git checkout 6fc12943e99b
+[2025-08-05 12:47:59] 处理 vuln 版本 (6fc12943e99b)
+[2025-08-05 12:47:59] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:47:59] 开始编译...
+[2025-08-05 12:48:04] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:04] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:48:04] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:48:04] 跳过已处理的CVE: CVE-2010-2499
+[2025-08-05 12:48:04] 处理: CVE-2010-2500 (6305b869d86f)
+[2025-08-05 12:48:04] 相关函数: ft_smooth_render_generic, gray_render_span
+[2025-08-05 12:48:04] 命令成功: make clean
+[2025-08-05 12:48:04] 命令成功: rm -rf builds
+[2025-08-05 12:48:04] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 6fc12943e Fix Savannah bug #30247.
+[2025-08-05 12:48:04] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 6fc12943e Fix Savannah bug #30247.
+HEAD 目前位于 6305b869d Fix Savannah bug #30263.
+[2025-08-05 12:48:04] 命令成功: git checkout 6305b869d86f
+[2025-08-05 12:48:04] 处理 patch 版本 (6305b869d86f)
+[2025-08-05 12:48:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:04] 开始编译...
+[2025-08-05 12:48:08] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:08] found all functions in freetype: ft_smooth_render_generic gray_render_span
+[2025-08-05 12:48:08] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 6305b869d Fix Savannah bug #30263.
+HEAD 目前位于 0ae6cf214 Minor optimizations by avoiding divisions.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:08] 命令成功: git checkout 0ae6cf214ff1
+[2025-08-05 12:48:08] 处理 vuln 版本 (0ae6cf214ff1)
+[2025-08-05 12:48:08] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:08] 开始编译...
+[2025-08-05 12:48:13] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:13] found all functions in freetype: ft_smooth_render_generic gray_render_span
+[2025-08-05 12:48:13] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:48:13] 处理: CVE-2010-2519 (5ef20c8c1d4d)
+[2025-08-05 12:48:13] 相关函数: Mac_Read_POST_Resource
+[2025-08-05 12:48:13] 命令成功: make clean
+[2025-08-05 12:48:13] 命令成功: rm -rf builds
+[2025-08-05 12:48:13] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 0ae6cf214 Minor optimizations by avoiding divisions.
+[2025-08-05 12:48:13] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0ae6cf214 Minor optimizations by avoiding divisions.
+HEAD 目前位于 5ef20c8c1 Initial fix for Savannah bug #30306.
+[2025-08-05 12:48:13] 命令成功: git checkout 5ef20c8c1d4d
+[2025-08-05 12:48:13] 处理 patch 版本 (5ef20c8c1d4d)
+[2025-08-05 12:48:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:13] 开始编译...
+[2025-08-05 12:48:17] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:17] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:48:17] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 5ef20c8c1 Initial fix for Savannah bug #30306.
+HEAD 目前位于 f29f741ef Additional fix for Savannah bug #30248 and #30249.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:17] 命令成功: git checkout f29f741efbba
+[2025-08-05 12:48:17] 处理 vuln 版本 (f29f741efbba)
+[2025-08-05 12:48:17] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:17] 开始编译...
+[2025-08-05 12:48:22] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:22] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:48:22] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:48:22] 跳过已处理的CVE: CVE-2010-2519
+[2025-08-05 12:48:22] 处理: CVE-2010-2520 (888cd1843e93)
+[2025-08-05 12:48:22] 相关函数: Ins_IUP
+[2025-08-05 12:48:22] 命令成功: make clean
+[2025-08-05 12:48:22] 命令成功: rm -rf builds
+[2025-08-05 12:48:22] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): f29f741ef Additional fix for Savannah bug #30248 and #30249.
+[2025-08-05 12:48:22] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f29f741ef Additional fix for Savannah bug #30248 and #30249.
+HEAD 目前位于 888cd1843 Fix Savannah bug #30361.
+[2025-08-05 12:48:22] 命令成功: git checkout 888cd1843e93
+[2025-08-05 12:48:22] 处理 patch 版本 (888cd1843e93)
+[2025-08-05 12:48:22] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:22] 开始编译...
+[2025-08-05 12:48:26] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:26] found all functions in freetype: Ins_IUP
+[2025-08-05 12:48:26] 找到有效二进制: libfreetype.so.6.4.0
+之前的 HEAD 位置是 888cd1843 Fix Savannah bug #30361.
+HEAD 目前位于 c73e16051 Pacify compiler.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:26] 命令成功: git checkout c73e160517fa
+[2025-08-05 12:48:26] 处理 vuln 版本 (c73e160517fa)
+[2025-08-05 12:48:26] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:26] 开始编译...
+[2025-08-05 12:48:31] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.4.0
+[2025-08-05 12:48:31] found all functions in freetype: Ins_IUP
+[2025-08-05 12:48:31] 找到有效二进制: libfreetype.so.6.4.0
+[2025-08-05 12:48:31] 处理: CVE-2010-2805 (45a3c76b5475)
+[2025-08-05 12:48:31] 相关函数: FT_Stream_EnterFrame
+[2025-08-05 12:48:31] 命令成功: make clean
+[2025-08-05 12:48:31] 命令成功: rm -rf builds
+[2025-08-05 12:48:31] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): c73e16051 Pacify compiler.
+[2025-08-05 12:48:32] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c73e16051 Pacify compiler.
+HEAD 目前位于 45a3c76b5 Fix Savannah bug #30644.
+[2025-08-05 12:48:32] 命令成功: git checkout 45a3c76b5475
+[2025-08-05 12:48:32] 处理 patch 版本 (45a3c76b5475)
+[2025-08-05 12:48:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:32] 开始编译...
+[2025-08-05 12:48:35] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:35] found all functions in freetype: FT_Stream_EnterFrame
+[2025-08-05 12:48:35] 找到有效二进制: libfreetype.so.6.5.1
+之前的 HEAD 位置是 45a3c76b5 Fix Savannah bug #30644.
+HEAD 目前位于 32dc43a5c `make devel' fails if FT_CONFIG_OPTION_OLD_INTERNALS is set.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:36] 命令成功: git checkout 32dc43a5cc7b
+[2025-08-05 12:48:36] 处理 vuln 版本 (32dc43a5cc7b)
+[2025-08-05 12:48:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:36] 开始编译...
+[2025-08-05 12:48:41] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:41] found all functions in freetype: FT_Stream_EnterFrame
+[2025-08-05 12:48:41] 找到有效二进制: libfreetype.so.6.5.1
+[2025-08-05 12:48:41] 处理: CVE-2010-2806 (c06da1ad3466)
+[2025-08-05 12:48:41] 相关函数: t42_parse_sfnts
+[2025-08-05 12:48:41] 命令成功: make clean
+[2025-08-05 12:48:41] 命令成功: rm -rf builds
+[2025-08-05 12:48:41] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 32dc43a5c `make devel' fails if FT_CONFIG_OPTION_OLD_INTERNALS is set.
+[2025-08-05 12:48:41] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 32dc43a5c `make devel' fails if FT_CONFIG_OPTION_OLD_INTERNALS is set.
+HEAD 目前位于 c06da1ad3 Fix Savannah bug #30656.
+[2025-08-05 12:48:41] 命令成功: git checkout c06da1ad3466
+[2025-08-05 12:48:41] 处理 patch 版本 (c06da1ad3466)
+[2025-08-05 12:48:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:41] 开始编译...
+[2025-08-05 12:48:45] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:45] found all functions in freetype: t42_parse_sfnts
+[2025-08-05 12:48:45] 找到有效二进制: libfreetype.so.6.5.1
+之前的 HEAD 位置是 c06da1ad3 Fix Savannah bug #30656.
+HEAD 目前位于 d9b3e3948 [cff] Don't use any values in decoder after parsing error.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:45] 命令成功: git checkout d9b3e39484bb
+[2025-08-05 12:48:45] 处理 vuln 版本 (d9b3e39484bb)
+[2025-08-05 12:48:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:45] 开始编译...
+[2025-08-05 12:48:50] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:50] found all functions in freetype: t42_parse_sfnts
+[2025-08-05 12:48:50] 找到有效二进制: libfreetype.so.6.5.1
+[2025-08-05 12:48:50] 处理: CVE-2010-2807 (346f1867fd32)
+[2025-08-05 12:48:50] 相关函数: BOUNDSL, TT_ExecContextRec
+[2025-08-05 12:48:50] 命令成功: make clean
+[2025-08-05 12:48:50] 命令成功: rm -rf builds
+[2025-08-05 12:48:50] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): d9b3e3948 [cff] Don't use any values in decoder after parsing error.
+[2025-08-05 12:48:50] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 d9b3e3948 [cff] Don't use any values in decoder after parsing error.
+HEAD 目前位于 346f1867f Fix Savannah bug #30657.
+[2025-08-05 12:48:50] 命令成功: git checkout 346f1867fd32
+[2025-08-05 12:48:50] 处理 patch 版本 (346f1867fd32)
+[2025-08-05 12:48:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:50] 开始编译...
+[2025-08-05 12:48:53] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:53] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:48:53] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+之前的 HEAD 位置是 346f1867f Fix Savannah bug #30657.
+HEAD 目前位于 c06da1ad3 Fix Savannah bug #30656.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:48:53] 命令成功: git checkout c06da1ad3466
+[2025-08-05 12:48:53] 处理 vuln 版本 (c06da1ad3466)
+[2025-08-05 12:48:53] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:53] 开始编译...
+[2025-08-05 12:48:58] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:48:59] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:48:59] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+[2025-08-05 12:48:59] 处理: CVE-2010-2808 (81f3472c0ba7)
+[2025-08-05 12:48:59] 相关函数: Mac_Read_POST_Resource
+[2025-08-05 12:48:59] 命令成功: make clean
+[2025-08-05 12:48:59] 命令成功: rm -rf builds
+[2025-08-05 12:48:59] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): c06da1ad3 Fix Savannah bug #30656.
+[2025-08-05 12:48:59] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c06da1ad3 Fix Savannah bug #30656.
+HEAD 目前位于 81f3472c0 Fix Savannah bug #30658.
+[2025-08-05 12:48:59] 命令成功: git checkout 81f3472c0ba7
+[2025-08-05 12:48:59] 处理 patch 版本 (81f3472c0ba7)
+[2025-08-05 12:48:59] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:48:59] 开始编译...
+[2025-08-05 12:49:02] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:49:02] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:49:02] 找到有效二进制: libfreetype.so.6.5.1
+之前的 HEAD 位置是 81f3472c0 Fix Savannah bug #30658.
+HEAD 目前位于 223cb1b57 [cff] Add comment to clarify current implementation of `pop' operator.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:49:03] 命令成功: git checkout 223cb1b57c1c
+[2025-08-05 12:49:03] 处理 vuln 版本 (223cb1b57c1c)
+[2025-08-05 12:49:03] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:03] 开始编译...
+[2025-08-05 12:49:08] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.5.1
+[2025-08-05 12:49:08] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:49:08] 找到有效二进制: libfreetype.so.6.5.1
+[2025-08-05 12:49:08] 处理: CVE-2010-3814 (0edf0986f3be)
+[2025-08-05 12:49:08] 相关函数: Ins_SHZ
+[2025-08-05 12:49:08] 命令成功: make clean
+[2025-08-05 12:49:08] 命令成功: rm -rf builds
+[2025-08-05 12:49:08] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 223cb1b57 [cff] Add comment to clarify current implementation of `pop' operator.
+[2025-08-05 12:49:08] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 223cb1b57 [cff] Add comment to clarify current implementation of `pop' operator.
+HEAD 目前位于 0edf0986f [truetype] Improve error handling of `SHZ' bytecode instruction. Problem reported by Chris Evans <scarybeasts@gmail.com>.
+[2025-08-05 12:49:08] 命令成功: git checkout 0edf0986f3be
+[2025-08-05 12:49:08] 处理 patch 版本 (0edf0986f3be)
+[2025-08-05 12:49:08] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:08] 开始编译...
+[2025-08-05 12:49:12] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:49:12] found all functions in freetype: Ins_SHZ
+[2025-08-05 12:49:12] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 0edf0986f [truetype] Improve error handling of `SHZ' bytecode instruction. Problem reported by Chris Evans <scarybeasts@gmail.com>.
+HEAD 目前位于 94d540ef7 Fix Savannah bug #31253. Patch submitted by an anonymous reporter.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:49:12] 命令成功: git checkout 94d540ef7753
+[2025-08-05 12:49:12] 处理 vuln 版本 (94d540ef7753)
+[2025-08-05 12:49:12] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:12] 开始编译...
+[2025-08-05 12:49:17] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:49:17] found all functions in freetype: Ins_SHZ
+[2025-08-05 12:49:17] 找到有效二进制: libfreetype.so
+[2025-08-05 12:49:17] 处理: CVE-2010-3855 (59eb9f8cfe7d)
+[2025-08-05 12:49:17] 相关函数: ft_var_readpackedpoints
+[2025-08-05 12:49:17] 命令成功: make clean
+[2025-08-05 12:49:17] 命令成功: rm -rf builds
+[2025-08-05 12:49:17] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 94d540ef7 Fix Savannah bug #31253. Patch submitted by an anonymous reporter.
+[2025-08-05 12:49:17] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 94d540ef7 Fix Savannah bug #31253. Patch submitted by an anonymous reporter.
+HEAD 目前位于 59eb9f8cf Fix Savannah bug #31310.
+[2025-08-05 12:49:17] 命令成功: git checkout 59eb9f8cfe7d
+[2025-08-05 12:49:17] 处理 patch 版本 (59eb9f8cfe7d)
+[2025-08-05 12:49:17] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:17] 开始编译...
+[2025-08-05 12:49:21] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:49:21] found all functions in freetype: ft_var_readpackedpoints
+[2025-08-05 12:49:21] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 59eb9f8cf Fix Savannah bug #31310.
+HEAD 目前位于 bc4ed48e4 Fix Savannah bug #31275.
+M	autogen.sh
+M	builds/unix/install-sh
+[2025-08-05 12:49:21] 命令成功: git checkout bc4ed48e4133
+[2025-08-05 12:49:21] 处理 vuln 版本 (bc4ed48e4133)
+[2025-08-05 12:49:21] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:21] 开始编译...
+[2025-08-05 12:49:26] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:49:26] found all functions in freetype: ft_var_readpackedpoints
+[2025-08-05 12:49:26] 找到有效二进制: libfreetype.so
+[2025-08-05 12:49:26] 处理: CVE-2012-5668 (9b6b5754b57c)
+[2025-08-05 12:49:26] 相关函数: _bdf_parse_start
+[2025-08-05 12:49:26] 命令成功: make clean
+[2025-08-05 12:49:26] 命令成功: rm -rf builds
+[2025-08-05 12:49:26] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): bc4ed48e4 Fix Savannah bug #31275.
+[2025-08-05 12:49:26] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 bc4ed48e4 Fix Savannah bug #31275.
+HEAD 目前位于 9b6b5754b [bdf] Fix Savannah bug #37905.
+[2025-08-05 12:49:26] 命令成功: git checkout 9b6b5754b57c
+[2025-08-05 12:49:26] 处理 patch 版本 (9b6b5754b57c)
+[2025-08-05 12:49:26] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:26] 开始编译...
+[2025-08-05 12:49:30] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:30] found all functions in freetype: _bdf_parse_start
+[2025-08-05 12:49:30] 找到有效二进制: libfreetype.so.6.9.0
+之前的 HEAD 位置是 9b6b5754b [bdf] Fix Savannah bug #37905.
+HEAD 目前位于 65d657210 [truetype] Scale F_dot_P down.
+[2025-08-05 12:49:30] 命令成功: git checkout 65d6572105c0
+[2025-08-05 12:49:30] 处理 vuln 版本 (65d6572105c0)
+[2025-08-05 12:49:30] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:30] 开始编译...
+[2025-08-05 12:49:35] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:35] found all functions in freetype: _bdf_parse_start
+[2025-08-05 12:49:35] 找到有效二进制: libfreetype.so.6.9.0
+[2025-08-05 12:49:35] 处理: CVE-2012-5669 (07bdb6e289c7)
+[2025-08-05 12:49:35] 相关函数: _bdf_parse_glyphs
+[2025-08-05 12:49:35] 命令成功: make clean
+[2025-08-05 12:49:35] 命令成功: rm -rf builds
+[2025-08-05 12:49:35] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 65d657210 [truetype] Scale F_dot_P down.
+[2025-08-05 12:49:35] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 65d657210 [truetype] Scale F_dot_P down.
+HEAD 目前位于 07bdb6e28 [bdf] Fix Savannah bug #37906.
+[2025-08-05 12:49:35] 命令成功: git checkout 07bdb6e289c7
+[2025-08-05 12:49:35] 处理 patch 版本 (07bdb6e289c7)
+[2025-08-05 12:49:35] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:35] 开始编译...
+[2025-08-05 12:49:39] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:39] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:49:39] 找到有效二进制: libfreetype.so.6.9.0
+之前的 HEAD 位置是 07bdb6e28 [bdf] Fix Savannah bug #37906.
+HEAD 目前位于 9b6b5754b [bdf] Fix Savannah bug #37905.
+[2025-08-05 12:49:39] 命令成功: git checkout 9b6b5754b57c
+[2025-08-05 12:49:39] 处理 vuln 版本 (9b6b5754b57c)
+[2025-08-05 12:49:39] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:39] 开始编译...
+[2025-08-05 12:49:45] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:45] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:49:45] 找到有效二进制: libfreetype.so.6.9.0
+[2025-08-05 12:49:45] 处理: CVE-2012-5670 (7f2e4f4f553f)
+[2025-08-05 12:49:45] 相关函数: _bdf_parse_glyphs
+[2025-08-05 12:49:45] 命令成功: make clean
+[2025-08-05 12:49:45] 命令成功: rm -rf builds
+[2025-08-05 12:49:45] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 9b6b5754b [bdf] Fix Savannah bug #37905.
+[2025-08-05 12:49:45] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 9b6b5754b [bdf] Fix Savannah bug #37905.
+HEAD 目前位于 7f2e4f4f5 [bdf] Fix Savannah bug #37907.
+[2025-08-05 12:49:45] 命令成功: git checkout 7f2e4f4f553f
+[2025-08-05 12:49:45] 处理 patch 版本 (7f2e4f4f553f)
+[2025-08-05 12:49:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:45] 开始编译...
+[2025-08-05 12:49:49] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:49] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:49:49] 找到有效二进制: libfreetype.so.6.9.0
+之前的 HEAD 位置是 7f2e4f4f5 [bdf] Fix Savannah bug #37907.
+HEAD 目前位于 07bdb6e28 [bdf] Fix Savannah bug #37906.
+[2025-08-05 12:49:49] 命令成功: git checkout 07bdb6e289c7
+[2025-08-05 12:49:49] 处理 vuln 版本 (07bdb6e289c7)
+[2025-08-05 12:49:49] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:49] 开始编译...
+[2025-08-05 12:49:54] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.9.0
+[2025-08-05 12:49:54] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:49:54] 找到有效二进制: libfreetype.so.6.9.0
+[2025-08-05 12:49:54] 处理: CVE-2014-2241 (135c3faebb96)
+[2025-08-05 12:49:54] 相关函数: cf2_initLocalRegionBuffer, cf2_initGlobalRegionBuffer
+[2025-08-05 12:49:54] 命令成功: make clean
+[2025-08-05 12:49:54] 命令成功: rm -rf builds
+[2025-08-05 12:49:54] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 07bdb6e28 [bdf] Fix Savannah bug #37906.
+[2025-08-05 12:49:54] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 07bdb6e28 [bdf] Fix Savannah bug #37906.
+HEAD 目前位于 135c3faeb Fix Savannah bug #41697, part 2.
+[2025-08-05 12:49:54] 命令成功: git checkout 135c3faebb96
+[2025-08-05 12:49:54] 处理 patch 版本 (135c3faebb96)
+[2025-08-05 12:49:54] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:54] 开始编译...
+[2025-08-05 12:49:58] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:49:58] found all functions in freetype: cf2_initLocalRegionBuffer cf2_initGlobalRegionBuffer
+[2025-08-05 12:49:58] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 135c3faeb Fix Savannah bug #41697, part 2.
+HEAD 目前位于 0eae6eb06 Fix Savannah bug #41697, part 1.
+[2025-08-05 12:49:58] 命令成功: git checkout 0eae6eb06452
+[2025-08-05 12:49:58] 处理 vuln 版本 (0eae6eb06452)
+[2025-08-05 12:49:58] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:49:58] 开始编译...
+[2025-08-05 12:50:03] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:50:03] found all functions in freetype: cf2_initLocalRegionBuffer cf2_initGlobalRegionBuffer
+[2025-08-05 12:50:03] 找到有效二进制: libfreetype.so
+[2025-08-05 12:50:03] 处理: CVE-2014-9656 (f0292bb9920a)
+[2025-08-05 12:50:03] 相关函数: tt_sbit_decoder_load_image
+[2025-08-05 12:50:03] 命令成功: make clean
+[2025-08-05 12:50:03] 命令成功: rm -rf builds
+[2025-08-05 12:50:03] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 0eae6eb06 Fix Savannah bug #41697, part 1.
+[2025-08-05 12:50:03] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0eae6eb06 Fix Savannah bug #41697, part 1.
+HEAD 目前位于 f0292bb99 [sfnt] Fix Savannah bug #43680.
+[2025-08-05 12:50:04] 命令成功: git checkout f0292bb9920a
+[2025-08-05 12:50:04] 处理 patch 版本 (f0292bb9920a)
+[2025-08-05 12:50:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:04] 开始编译...
+[2025-08-05 12:50:07] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:07] found all functions in freetype: tt_sbit_decoder_load_image
+[2025-08-05 12:50:07] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 f0292bb99 [sfnt] Fix Savannah bug #43680.
+HEAD 目前位于 eca0f0670 [truetype] Fix Savannah bug #43679.
+[2025-08-05 12:50:07] 命令成功: git checkout eca0f0670680
+[2025-08-05 12:50:07] 处理 vuln 版本 (eca0f0670680)
+[2025-08-05 12:50:07] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:07] 开始编译...
+[2025-08-05 12:50:13] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:13] found all functions in freetype: tt_sbit_decoder_load_image
+[2025-08-05 12:50:13] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:13] 处理: CVE-2014-9657 (eca0f0670680)
+[2025-08-05 12:50:13] 相关函数: tt_face_load_hdmx
+[2025-08-05 12:50:13] 命令成功: make clean
+[2025-08-05 12:50:13] 命令成功: rm -rf builds
+[2025-08-05 12:50:13] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): eca0f0670 [truetype] Fix Savannah bug #43679.
+[2025-08-05 12:50:13] 命令成功: git stash --include-untracked
+HEAD 目前位于 eca0f0670 [truetype] Fix Savannah bug #43679.
+[2025-08-05 12:50:13] 命令成功: git checkout eca0f0670680
+[2025-08-05 12:50:13] 处理 patch 版本 (eca0f0670680)
+[2025-08-05 12:50:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:13] 开始编译...
+[2025-08-05 12:50:17] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:17] found all functions in freetype: tt_face_load_hdmx
+[2025-08-05 12:50:17] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 eca0f0670 [truetype] Fix Savannah bug #43679.
+HEAD 目前位于 96341dc37 [cff, pfr, psaux, winfonts] Fix Savannah bug #43676.
+[2025-08-05 12:50:17] 命令成功: git checkout 96341dc3785a
+[2025-08-05 12:50:17] 处理 vuln 版本 (96341dc3785a)
+[2025-08-05 12:50:17] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:17] 开始编译...
+[2025-08-05 12:50:22] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:22] found all functions in freetype: tt_face_load_hdmx
+[2025-08-05 12:50:22] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:22] 处理: CVE-2014-9658 (f70d9342e65c)
+[2025-08-05 12:50:22] 相关函数: tt_face_load_kern
+[2025-08-05 12:50:22] 命令成功: make clean
+[2025-08-05 12:50:22] 命令成功: rm -rf builds
+[2025-08-05 12:50:22] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 96341dc37 [cff, pfr, psaux, winfonts] Fix Savannah bug #43676.
+[2025-08-05 12:50:22] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 96341dc37 [cff, pfr, psaux, winfonts] Fix Savannah bug #43676.
+HEAD 目前位于 f70d9342e [sfnt] Fix Savannah bug #43672.
+[2025-08-05 12:50:22] 命令成功: git checkout f70d9342e65c
+[2025-08-05 12:50:22] 处理 patch 版本 (f70d9342e65c)
+[2025-08-05 12:50:22] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:22] 开始编译...
+[2025-08-05 12:50:26] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:26] found all functions in freetype: tt_face_load_kern
+[2025-08-05 12:50:26] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 f70d9342e [sfnt] Fix Savannah bug #43672.
+HEAD 目前位于 73be9f9ab [type1, type42] Another fix for Savannah bug #43655.
+[2025-08-05 12:50:26] 命令成功: git checkout 73be9f9ab678
+[2025-08-05 12:50:26] 处理 vuln 版本 (73be9f9ab678)
+[2025-08-05 12:50:26] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:26] 开始编译...
+[2025-08-05 12:50:32] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:32] found all functions in freetype: tt_face_load_kern
+[2025-08-05 12:50:32] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:32] 处理: CVE-2014-9659 (2cdc4562f873)
+[2025-08-05 12:50:32] 相关函数: cf2_hintmap_build
+[2025-08-05 12:50:32] 命令成功: make clean
+[2025-08-05 12:50:32] 命令成功: rm -rf builds
+[2025-08-05 12:50:32] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 73be9f9ab [type1, type42] Another fix for Savannah bug #43655.
+[2025-08-05 12:50:32] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 73be9f9ab [type1, type42] Another fix for Savannah bug #43655.
+HEAD 目前位于 2cdc4562f [cff] Fix Savannah bug #43661.
+[2025-08-05 12:50:32] 命令成功: git checkout 2cdc4562f873
+[2025-08-05 12:50:32] 处理 patch 版本 (2cdc4562f873)
+[2025-08-05 12:50:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:32] 开始编译...
+[2025-08-05 12:50:36] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:36] found all functions in freetype: cf2_hintmap_build
+[2025-08-05 12:50:36] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 2cdc4562f [cff] Fix Savannah bug #43661.
+HEAD 目前位于 8fa69a88d docs/CHANGES: Updated.
+[2025-08-05 12:50:36] 命令成功: git checkout 8fa69a88d75f
+[2025-08-05 12:50:36] 处理 vuln 版本 (8fa69a88d75f)
+[2025-08-05 12:50:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:36] 开始编译...
+[2025-08-05 12:50:41] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:41] found all functions in freetype: cf2_hintmap_build
+[2025-08-05 12:50:41] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:41] 处理: CVE-2014-9660 (af8346172a7b)
+[2025-08-05 12:50:41] 相关函数: _bdf_parse_glyphs
+[2025-08-05 12:50:41] 命令成功: make clean
+[2025-08-05 12:50:41] 命令成功: rm -rf builds
+[2025-08-05 12:50:41] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 8fa69a88d docs/CHANGES: Updated.
+[2025-08-05 12:50:41] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8fa69a88d docs/CHANGES: Updated.
+HEAD 目前位于 af8346172 [bdf] Fix Savannah bug #43660.
+[2025-08-05 12:50:41] 命令成功: git checkout af8346172a7b
+[2025-08-05 12:50:41] 处理 patch 版本 (af8346172a7b)
+[2025-08-05 12:50:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:41] 开始编译...
+[2025-08-05 12:50:45] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:45] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:50:45] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 af8346172 [bdf] Fix Savannah bug #43660.
+HEAD 目前位于 42fcd6693 [type42] Allow only embedded TrueType fonts.
+[2025-08-05 12:50:45] 命令成功: git checkout 42fcd6693ec7
+[2025-08-05 12:50:45] 处理 vuln 版本 (42fcd6693ec7)
+[2025-08-05 12:50:45] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:45] 开始编译...
+[2025-08-05 12:50:50] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:50] found all functions in freetype: _bdf_parse_glyphs
+[2025-08-05 12:50:50] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:50] 处理: CVE-2014-9661 (3788187e0c39)
+[2025-08-05 12:50:50] 相关函数: T42_Open_Face, t42_parse_sfnts
+[2025-08-05 12:50:50] 命令成功: make clean
+[2025-08-05 12:50:50] 命令成功: rm -rf builds
+[2025-08-05 12:50:50] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 42fcd6693 [type42] Allow only embedded TrueType fonts.
+[2025-08-05 12:50:50] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 42fcd6693 [type42] Allow only embedded TrueType fonts.
+HEAD 目前位于 3788187e0 [type42] Fix Savannah bug #43659.
+[2025-08-05 12:50:50] 命令成功: git checkout 3788187e0c39
+[2025-08-05 12:50:50] 处理 patch 版本 (3788187e0c39)
+[2025-08-05 12:50:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:50] 开始编译...
+[2025-08-05 12:50:54] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:54] found all functions in freetype: T42_Open_Face t42_parse_sfnts
+[2025-08-05 12:50:54] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 3788187e0 [type42] Fix Savannah bug #43659.
+HEAD 目前位于 5f201ab5c [cff] Fix Savannah bug #43658.
+[2025-08-05 12:50:54] 命令成功: git checkout 5f201ab5c24c
+[2025-08-05 12:50:54] 处理 vuln 版本 (5f201ab5c24c)
+[2025-08-05 12:50:54] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:50:54] 开始编译...
+[2025-08-05 12:50:59] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:50:59] found all functions in freetype: T42_Open_Face t42_parse_sfnts
+[2025-08-05 12:50:59] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:50:59] 跳过已处理的CVE: CVE-2014-9661
+[2025-08-05 12:50:59] 处理: CVE-2014-9662 (5f201ab5c24c)
+[2025-08-05 12:50:59] 相关函数: cf2_builder_cubeTo, cf2_builder_lineTo
+[2025-08-05 12:51:00] 命令成功: make clean
+[2025-08-05 12:51:00] 命令成功: rm -rf builds
+[2025-08-05 12:51:00] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 5f201ab5c [cff] Fix Savannah bug #43658.
+[2025-08-05 12:51:00] 命令成功: git stash --include-untracked
+HEAD 目前位于 5f201ab5c [cff] Fix Savannah bug #43658.
+[2025-08-05 12:51:00] 命令成功: git checkout 5f201ab5c24c
+[2025-08-05 12:51:00] 处理 patch 版本 (5f201ab5c24c)
+[2025-08-05 12:51:00] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:00] 开始编译...
+[2025-08-05 12:51:03] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:03] found all functions in freetype: cf2_builder_cubeTo cf2_builder_lineTo
+[2025-08-05 12:51:03] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 5f201ab5c [cff] Fix Savannah bug #43658.
+HEAD 目前位于 801b35fe8 Formatting.
+[2025-08-05 12:51:03] 命令成功: git checkout 801b35fe81ad
+[2025-08-05 12:51:03] 处理 vuln 版本 (801b35fe81ad)
+[2025-08-05 12:51:03] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:03] 开始编译...
+[2025-08-05 12:51:09] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:09] found all functions in freetype: cf2_builder_cubeTo cf2_builder_lineTo
+[2025-08-05 12:51:09] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:09] 处理: CVE-2014-9663 (9bd20b7304aa)
+[2025-08-05 12:51:09] 相关函数: tt_cmap4_validate
+[2025-08-05 12:51:09] 命令成功: make clean
+[2025-08-05 12:51:09] 命令成功: rm -rf builds
+[2025-08-05 12:51:09] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 801b35fe8 Formatting.
+[2025-08-05 12:51:09] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 801b35fe8 Formatting.
+HEAD 目前位于 9bd20b730 [sfnt] Fix Savannah bug #43656.
+[2025-08-05 12:51:09] 命令成功: git checkout 9bd20b7304aa
+[2025-08-05 12:51:09] 处理 patch 版本 (9bd20b7304aa)
+[2025-08-05 12:51:09] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:09] 开始编译...
+[2025-08-05 12:51:13] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:13] found all functions in freetype: tt_cmap4_validate
+[2025-08-05 12:51:13] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 9bd20b730 [sfnt] Fix Savannah bug #43656.
+HEAD 目前位于 dd89710f0 [type1, type42] Fix Savannah bug #43655.
+[2025-08-05 12:51:13] 命令成功: git checkout dd89710f0f64
+[2025-08-05 12:51:13] 处理 vuln 版本 (dd89710f0f64)
+[2025-08-05 12:51:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:13] 开始编译...
+[2025-08-05 12:51:18] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:18] found all functions in freetype: tt_cmap4_validate
+[2025-08-05 12:51:18] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:18] 处理: CVE-2014-9664 (73be9f9ab678)
+[2025-08-05 12:51:18] 相关函数: t42_parse_charstrings, parse_charstrings
+[2025-08-05 12:51:18] 命令成功: make clean
+[2025-08-05 12:51:18] 命令成功: rm -rf builds
+[2025-08-05 12:51:18] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): dd89710f0 [type1, type42] Fix Savannah bug #43655.
+[2025-08-05 12:51:18] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 dd89710f0 [type1, type42] Fix Savannah bug #43655.
+HEAD 目前位于 73be9f9ab [type1, type42] Another fix for Savannah bug #43655.
+[2025-08-05 12:51:18] 命令成功: git checkout 73be9f9ab678
+[2025-08-05 12:51:18] 处理 patch 版本 (73be9f9ab678)
+[2025-08-05 12:51:18] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:18] 开始编译...
+[2025-08-05 12:51:22] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:22] found all functions in freetype: t42_parse_charstrings parse_charstrings
+[2025-08-05 12:51:22] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 73be9f9ab [type1, type42] Another fix for Savannah bug #43655.
+HEAD 目前位于 a7a4207d1 [docmaker] Formatting, copyright, improved documentation.
+[2025-08-05 12:51:22] 命令成功: git checkout a7a4207d1087
+[2025-08-05 12:51:22] 处理 vuln 版本 (a7a4207d1087)
+[2025-08-05 12:51:22] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:22] 开始编译...
+[2025-08-05 12:51:28] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:28] found all functions in freetype: t42_parse_charstrings parse_charstrings
+[2025-08-05 12:51:28] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:28] 跳过已处理的CVE: CVE-2014-9664
+[2025-08-05 12:51:28] 处理: CVE-2014-9665 (54abd22891bd)
+[2025-08-05 12:51:28] 相关函数: Load_SBit_Png
+[2025-08-05 12:51:28] 命令成功: make clean
+[2025-08-05 12:51:28] 命令成功: rm -rf builds
+[2025-08-05 12:51:28] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): a7a4207d1 [docmaker] Formatting, copyright, improved documentation.
+[2025-08-05 12:51:28] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 a7a4207d1 [docmaker] Formatting, copyright, improved documentation.
+HEAD 目前位于 54abd2289 [sfnt] Fix Savannah bug #43597.
+[2025-08-05 12:51:28] 命令成功: git checkout 54abd22891bd
+[2025-08-05 12:51:28] 处理 patch 版本 (54abd22891bd)
+[2025-08-05 12:51:28] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:28] 开始编译...
+[2025-08-05 12:51:32] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:32] found all functions in freetype: Load_SBit_Png
+[2025-08-05 12:51:32] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 54abd2289 [sfnt] Fix Savannah bug #43597.
+HEAD 目前位于 257c270bd [sfnt] Fix Savannah bug #43591.
+[2025-08-05 12:51:32] 命令成功: git checkout 257c270bd25e
+[2025-08-05 12:51:32] 处理 vuln 版本 (257c270bd25e)
+[2025-08-05 12:51:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:32] 开始编译...
+[2025-08-05 12:51:37] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:37] found all functions in freetype: Load_SBit_Png
+[2025-08-05 12:51:37] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:37] 跳过已处理的CVE: CVE-2014-9665
+[2025-08-05 12:51:37] 处理: CVE-2014-9666 (257c270bd25e)
+[2025-08-05 12:51:37] 相关函数: tt_sbit_decoder_init
+[2025-08-05 12:51:37] 命令成功: make clean
+[2025-08-05 12:51:37] 命令成功: rm -rf builds
+[2025-08-05 12:51:37] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 257c270bd [sfnt] Fix Savannah bug #43591.
+[2025-08-05 12:51:37] 命令成功: git stash --include-untracked
+HEAD 目前位于 257c270bd [sfnt] Fix Savannah bug #43591.
+[2025-08-05 12:51:37] 命令成功: git checkout 257c270bd25e
+[2025-08-05 12:51:37] 处理 patch 版本 (257c270bd25e)
+[2025-08-05 12:51:37] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:37] 开始编译...
+[2025-08-05 12:51:41] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:41] found all functions in freetype: tt_sbit_decoder_init
+[2025-08-05 12:51:41] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 257c270bd [sfnt] Fix Savannah bug #43591.
+HEAD 目前位于 677ddf4f1 [sfnt] Fix Savannah bug #43590.
+[2025-08-05 12:51:41] 命令成功: git checkout 677ddf4f1dc1
+[2025-08-05 12:51:41] 处理 vuln 版本 (677ddf4f1dc1)
+[2025-08-05 12:51:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:41] 开始编译...
+[2025-08-05 12:51:47] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:47] found all functions in freetype: tt_sbit_decoder_init
+[2025-08-05 12:51:47] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:47] 处理: CVE-2014-9667 (677ddf4f1dc1)
+[2025-08-05 12:51:47] 相关函数: check_table_dir, tt_face_load_font_dir
+[2025-08-05 12:51:47] 命令成功: make clean
+[2025-08-05 12:51:47] 命令成功: rm -rf builds
+[2025-08-05 12:51:47] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 677ddf4f1 [sfnt] Fix Savannah bug #43590.
+[2025-08-05 12:51:47] 命令成功: git stash --include-untracked
+HEAD 目前位于 677ddf4f1 [sfnt] Fix Savannah bug #43590.
+[2025-08-05 12:51:47] 命令成功: git checkout 677ddf4f1dc1
+[2025-08-05 12:51:47] 处理 patch 版本 (677ddf4f1dc1)
+[2025-08-05 12:51:47] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:47] 开始编译...
+[2025-08-05 12:51:51] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:51] found all functions in freetype: check_table_dir tt_face_load_font_dir
+[2025-08-05 12:51:51] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 677ddf4f1 [sfnt] Fix Savannah bug #43590.
+HEAD 目前位于 f46add138 [sfnt] Fix Savannah bug #43589.
+[2025-08-05 12:51:51] 命令成功: git checkout f46add138953
+[2025-08-05 12:51:51] 处理 vuln 版本 (f46add138953)
+[2025-08-05 12:51:51] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:51] 开始编译...
+[2025-08-05 12:51:56] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:51:56] found all functions in freetype: check_table_dir tt_face_load_font_dir
+[2025-08-05 12:51:56] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:51:56] 处理: CVE-2014-9668 (f46add138953)
+[2025-08-05 12:51:56] 相关函数: woff_open_font
+[2025-08-05 12:51:56] 命令成功: make clean
+[2025-08-05 12:51:56] 命令成功: rm -rf builds
+[2025-08-05 12:51:56] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): f46add138 [sfnt] Fix Savannah bug #43589.
+[2025-08-05 12:51:56] 命令成功: git stash --include-untracked
+HEAD 目前位于 f46add138 [sfnt] Fix Savannah bug #43589.
+[2025-08-05 12:51:56] 命令成功: git checkout f46add138953
+[2025-08-05 12:51:56] 处理 patch 版本 (f46add138953)
+[2025-08-05 12:51:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:51:56] 开始编译...
+[2025-08-05 12:52:00] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:00] found all functions in freetype: woff_open_font
+[2025-08-05 12:52:00] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 f46add138 [sfnt] Fix Savannah bug #43589.
+HEAD 目前位于 602040b11 [sfnt] Fix Savannah bug #43588.
+[2025-08-05 12:52:00] 命令成功: git checkout 602040b1112c
+[2025-08-05 12:52:00] 处理 vuln 版本 (602040b1112c)
+[2025-08-05 12:52:00] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:00] 开始编译...
+[2025-08-05 12:52:06] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:06] found all functions in freetype: woff_open_font
+[2025-08-05 12:52:06] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:52:06] 处理: CVE-2014-9669 (602040b1112c)
+[2025-08-05 12:52:06] 相关函数: tt_cmap8_validate, tt_cmap10_validate, tt_cmap12_validate, tt_cmap13_validate, tt_cmap14_validate
+[2025-08-05 12:52:06] 命令成功: make clean
+[2025-08-05 12:52:06] 命令成功: rm -rf builds
+[2025-08-05 12:52:06] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 602040b11 [sfnt] Fix Savannah bug #43588.
+[2025-08-05 12:52:06] 命令成功: git stash --include-untracked
+HEAD 目前位于 602040b11 [sfnt] Fix Savannah bug #43588.
+[2025-08-05 12:52:06] 命令成功: git checkout 602040b1112c
+[2025-08-05 12:52:06] 处理 patch 版本 (602040b1112c)
+[2025-08-05 12:52:06] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:06] 开始编译...
+[2025-08-05 12:52:10] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:10] found all functions in freetype: tt_cmap8_validate tt_cmap10_validate tt_cmap12_validate tt_cmap13_validate tt_cmap14_validate
+[2025-08-05 12:52:10] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 602040b11 [sfnt] Fix Savannah bug #43588.
+HEAD 目前位于 2e73a1b4f [base] CORDIC improvements.
+[2025-08-05 12:52:10] 命令成功: git checkout 2e73a1b4fdc4
+[2025-08-05 12:52:10] 处理 vuln 版本 (2e73a1b4fdc4)
+[2025-08-05 12:52:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:10] 开始编译...
+[2025-08-05 12:52:15] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:15] found all functions in freetype: tt_cmap8_validate tt_cmap10_validate tt_cmap12_validate tt_cmap13_validate tt_cmap14_validate
+[2025-08-05 12:52:15] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:52:15] 处理: CVE-2014-9670 (ef1eba75187a)
+[2025-08-05 12:52:15] 相关函数: pcf_get_encodings
+[2025-08-05 12:52:15] 命令成功: make clean
+[2025-08-05 12:52:15] 命令成功: rm -rf builds
+[2025-08-05 12:52:15] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 2e73a1b4f [base] CORDIC improvements.
+[2025-08-05 12:52:15] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 2e73a1b4f [base] CORDIC improvements.
+HEAD 目前位于 ef1eba751 Fix Savannah bug #43548.
+[2025-08-05 12:52:15] 命令成功: git checkout ef1eba75187a
+[2025-08-05 12:52:15] 处理 patch 版本 (ef1eba75187a)
+[2025-08-05 12:52:15] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:15] 开始编译...
+[2025-08-05 12:52:19] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:19] found all functions in freetype: pcf_get_encodings
+[2025-08-05 12:52:19] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 ef1eba751 Fix Savannah bug #43548.
+HEAD 目前位于 0e2f5d518 Fix Savannah bug #43547.
+[2025-08-05 12:52:19] 命令成功: git checkout 0e2f5d518c60
+[2025-08-05 12:52:19] 处理 vuln 版本 (0e2f5d518c60)
+[2025-08-05 12:52:19] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:19] 开始编译...
+[2025-08-05 12:52:24] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:24] found all functions in freetype: pcf_get_encodings
+[2025-08-05 12:52:24] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:52:24] 处理: CVE-2014-9671 (0e2f5d518c60)
+[2025-08-05 12:52:24] 相关函数: pcf_read_TOC
+[2025-08-05 12:52:24] 命令成功: make clean
+[2025-08-05 12:52:24] 命令成功: rm -rf builds
+[2025-08-05 12:52:24] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 0e2f5d518 Fix Savannah bug #43547.
+[2025-08-05 12:52:24] 命令成功: git stash --include-untracked
+HEAD 目前位于 0e2f5d518 Fix Savannah bug #43547.
+[2025-08-05 12:52:24] 命令成功: git checkout 0e2f5d518c60
+[2025-08-05 12:52:24] 处理 patch 版本 (0e2f5d518c60)
+[2025-08-05 12:52:24] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:24] 开始编译...
+[2025-08-05 12:52:28] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:28] found all functions in freetype: pcf_read_TOC
+[2025-08-05 12:52:28] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 0e2f5d518 Fix Savannah bug #43547.
+HEAD 目前位于 f49a100a6 * src/pcf/pcfread.c (pcf_read_TOC): Avoid memory leak.
+[2025-08-05 12:52:28] 命令成功: git checkout f49a100a6c4b
+[2025-08-05 12:52:28] 处理 vuln 版本 (f49a100a6c4b)
+[2025-08-05 12:52:28] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:28] 开始编译...
+[2025-08-05 12:52:33] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:33] found all functions in freetype: pcf_read_TOC
+[2025-08-05 12:52:33] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:52:33] 处理: CVE-2014-9672 (18a8f0d99433)
+[2025-08-05 12:52:33] 相关函数: parse_fond
+[2025-08-05 12:52:33] 命令成功: make clean
+[2025-08-05 12:52:33] 命令成功: rm -rf builds
+[2025-08-05 12:52:33] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): f49a100a6 * src/pcf/pcfread.c (pcf_read_TOC): Avoid memory leak.
+[2025-08-05 12:52:33] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 f49a100a6 * src/pcf/pcfread.c (pcf_read_TOC): Avoid memory leak.
+HEAD 目前位于 18a8f0d99 Fix Savannah bug #43540.
+[2025-08-05 12:52:33] 命令成功: git checkout 18a8f0d99433
+[2025-08-05 12:52:33] 处理 patch 版本 (18a8f0d99433)
+[2025-08-05 12:52:33] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:33] 开始编译...
+[2025-08-05 12:52:37] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:37] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:52:37] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+之前的 HEAD 位置是 18a8f0d99 Fix Savannah bug #43540.
+HEAD 目前位于 453316792 * src/base/ftobjs.c (Mac_Read_POST_Resource): Use unsigned long variables to read the lengths in POST fragments.  Suggested by Mateusz Jurczyk <mjurczyk@google.com>.
+[2025-08-05 12:52:38] 命令成功: git checkout 453316792fee
+[2025-08-05 12:52:38] 处理 vuln 版本 (453316792fee)
+[2025-08-05 12:52:38] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:38] 开始编译...
+[2025-08-05 12:52:42] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:42] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:52:42] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+[2025-08-05 12:52:42] 处理: CVE-2014-9673 (35252ae9aa1d)
+[2025-08-05 12:52:42] 相关函数: Mac_Read_POST_Resource
+[2025-08-05 12:52:42] 命令成功: make clean
+[2025-08-05 12:52:42] 命令成功: rm -rf builds
+[2025-08-05 12:52:42] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 453316792 * src/base/ftobjs.c (Mac_Read_POST_Resource): Use unsigned long variables to read the lengths in POST fragments.  Suggested by Mateusz Jurczyk <mjurczyk@google.com>.
+[2025-08-05 12:52:42] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 453316792 * src/base/ftobjs.c (Mac_Read_POST_Resource): Use unsigned long variables to read the lengths in POST fragments.  Suggested by Mateusz Jurczyk <mjurczyk@google.com>.
+HEAD 目前位于 35252ae9a Fix Savannah bug #43539.
+[2025-08-05 12:52:42] 命令成功: git checkout 35252ae9aa1d
+[2025-08-05 12:52:42] 处理 patch 版本 (35252ae9aa1d)
+[2025-08-05 12:52:42] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:42] 开始编译...
+[2025-08-05 12:52:46] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:46] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:52:46] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 35252ae9a Fix Savannah bug #43539.
+HEAD 目前位于 240c94a18 Fix Savannah bug #43538.
+[2025-08-05 12:52:46] 命令成功: git checkout 240c94a185cd
+[2025-08-05 12:52:46] 处理 vuln 版本 (240c94a185cd)
+[2025-08-05 12:52:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:46] 开始编译...
+[2025-08-05 12:52:51] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:51] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:52:51] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:52:51] 处理: CVE-2014-9674 (240c94a185cd)
+[2025-08-05 12:52:51] 相关函数: Mac_Read_POST_Resource
+[2025-08-05 12:52:51] 命令成功: make clean
+[2025-08-05 12:52:51] 命令成功: rm -rf builds
+[2025-08-05 12:52:51] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 240c94a18 Fix Savannah bug #43538.
+[2025-08-05 12:52:51] 命令成功: git stash --include-untracked
+HEAD 目前位于 240c94a18 Fix Savannah bug #43538.
+[2025-08-05 12:52:51] 命令成功: git checkout 240c94a185cd
+[2025-08-05 12:52:51] 处理 patch 版本 (240c94a185cd)
+[2025-08-05 12:52:51] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:51] 开始编译...
+[2025-08-05 12:52:55] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:52:55] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:52:55] 找到有效二进制: libfreetype.so.6.11.2
+之前的 HEAD 位置是 240c94a18 Fix Savannah bug #43538.
+HEAD 目前位于 5aff85301 * src/base/ftobjs.c (Mac_Read_POST_Resource): Avoid memory leak by a broken POST table in resource-fork.  Return after freeing the buffered POST table when it is found to be broken.
+[2025-08-05 12:52:56] 命令成功: git checkout 5aff85301bdc
+[2025-08-05 12:52:56] 处理 vuln 版本 (5aff85301bdc)
+[2025-08-05 12:52:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:52:56] 开始编译...
+[2025-08-05 12:53:01] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:53:01] found all functions in freetype: Mac_Read_POST_Resource
+[2025-08-05 12:53:01] 找到有效二进制: libfreetype.so.6.11.2
+[2025-08-05 12:53:01] 跳过已处理的CVE: CVE-2014-9674
+[2025-08-05 12:53:01] 处理: CVE-2014-9675 (2c4832d30939)
+[2025-08-05 12:53:01] 相关函数: _bdf_strncmp
+[2025-08-05 12:53:01] 命令成功: make clean
+[2025-08-05 12:53:01] 命令成功: rm -rf builds
+[2025-08-05 12:53:01] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 5aff85301 * src/base/ftobjs.c (Mac_Read_POST_Resource): Avoid memory leak by a broken POST table in resource-fork.  Return after freeing the buffered POST table when it is found to be broken.
+[2025-08-05 12:53:01] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5aff85301 * src/base/ftobjs.c (Mac_Read_POST_Resource): Avoid memory leak by a broken POST table in resource-fork.  Return after freeing the buffered POST table when it is found to be broken.
+HEAD 目前位于 2c4832d30 Fix Savannah bug #43535.
+[2025-08-05 12:53:01] 命令成功: git checkout 2c4832d30939
+[2025-08-05 12:53:01] 处理 patch 版本 (2c4832d30939)
+[2025-08-05 12:53:01] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:01] 开始编译...
+[2025-08-05 12:53:05] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:53:05] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:05] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+之前的 HEAD 位置是 2c4832d30 Fix Savannah bug #43535.
+HEAD 目前位于 ef1eba751 Fix Savannah bug #43548.
+[2025-08-05 12:53:05] 命令成功: git checkout ef1eba75187a
+[2025-08-05 12:53:05] 处理 vuln 版本 (ef1eba75187a)
+[2025-08-05 12:53:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:05] 开始编译...
+[2025-08-05 12:53:10] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.11.2
+[2025-08-05 12:53:10] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:10] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6
+[2025-08-05 12:53:10] 处理: CVE-2014-9745 (df14e6c0b959)
+[2025-08-05 12:53:10] 相关函数: parse_encoding
+[2025-08-05 12:53:10] 命令成功: make clean
+[2025-08-05 12:53:10] 命令成功: rm -rf builds
+[2025-08-05 12:53:10] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): ef1eba751 Fix Savannah bug #43548.
+[2025-08-05 12:53:10] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ef1eba751 Fix Savannah bug #43548.
+HEAD 目前位于 df14e6c0b Fix Savannah bug #41590.
+[2025-08-05 12:53:10] 命令成功: git checkout df14e6c0b959
+[2025-08-05 12:53:10] 处理 patch 版本 (df14e6c0b959)
+[2025-08-05 12:53:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:10] 开始编译...
+[2025-08-05 12:53:14] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:14] found all functions in freetype: parse_encoding
+[2025-08-05 12:53:14] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 df14e6c0b Fix Savannah bug #41590.
+HEAD 目前位于 cc9a0c26a fix commit comment.
+[2025-08-05 12:53:14] 命令成功: git checkout cc9a0c26af5f
+[2025-08-05 12:53:14] 处理 vuln 版本 (cc9a0c26af5f)
+[2025-08-05 12:53:14] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:14] 开始编译...
+[2025-08-05 12:53:19] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:19] found all functions in freetype: parse_encoding
+[2025-08-05 12:53:19] 找到有效二进制: libfreetype.so
+[2025-08-05 12:53:19] 处理: CVE-2014-9746 (8b281f83e851)
+[2025-08-05 12:53:19] 相关函数: cid_parse_font_matrix, t1_parse_font_matrix, t42_parse_encoding, t42_parse_font_matrix
+[2025-08-05 12:53:19] 命令成功: make clean
+[2025-08-05 12:53:19] 命令成功: rm -rf builds
+[2025-08-05 12:53:19] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): cc9a0c26a fix commit comment.
+[2025-08-05 12:53:19] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 cc9a0c26a fix commit comment.
+HEAD 目前位于 8b281f83e Fix Savannah bug #41309.
+[2025-08-05 12:53:19] 命令成功: git checkout 8b281f83e851
+[2025-08-05 12:53:19] 处理 patch 版本 (8b281f83e851)
+[2025-08-05 12:53:19] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:19] 开始编译...
+[2025-08-05 12:53:23] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:23] found all functions in freetype: cid_parse_font_matrix t1_parse_font_matrix t42_parse_encoding t42_parse_font_matrix
+[2025-08-05 12:53:23] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 8b281f83e Fix Savannah bug #41309.
+HEAD 目前位于 039f04965 Formatting.
+[2025-08-05 12:53:23] 命令成功: git checkout 039f049656bf
+[2025-08-05 12:53:23] 处理 vuln 版本 (039f049656bf)
+[2025-08-05 12:53:23] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:23] 开始编译...
+[2025-08-05 12:53:28] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:28] found all functions in freetype: cid_parse_font_matrix t1_parse_font_matrix t42_parse_encoding t42_parse_font_matrix
+[2025-08-05 12:53:28] 找到有效二进制: libfreetype.so
+[2025-08-05 12:53:28] 处理: CVE-2015-9290 (e3058617f384)
+[2025-08-05 12:53:28] 相关函数: T1_Get_Private_Dict
+[2025-08-05 12:53:28] 命令成功: make clean
+[2025-08-05 12:53:28] 命令成功: rm -rf builds
+[2025-08-05 12:53:28] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 039f04965 Formatting.
+[2025-08-05 12:53:28] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 039f04965 Formatting.
+HEAD 目前位于 e3058617f [type1] Fix potential buffer overflow (#45923).
+[2025-08-05 12:53:28] 命令成功: git checkout e3058617f384
+[2025-08-05 12:53:28] 处理 patch 版本 (e3058617f384)
+[2025-08-05 12:53:28] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:28] 开始编译...
+[2025-08-05 12:53:32] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:32] found all functions in freetype: T1_Get_Private_Dict
+[2025-08-05 12:53:32] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 e3058617f [type1] Fix potential buffer overflow (#45923).
+HEAD 目前位于 e40e8b33a [gzip] Fix access of small compressed files (#45937).
+[2025-08-05 12:53:32] 命令成功: git checkout e40e8b33a1e9
+[2025-08-05 12:53:32] 处理 vuln 版本 (e40e8b33a1e9)
+[2025-08-05 12:53:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:32] 开始编译...
+[2025-08-05 12:53:37] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:37] found all functions in freetype: T1_Get_Private_Dict
+[2025-08-05 12:53:37] 找到有效二进制: libfreetype.so
+[2025-08-05 12:53:37] 处理: CVE-2015-9381 (7962a15d64c8)
+[2025-08-05 12:53:37] 相关函数: T1_Get_Private_Dict
+[2025-08-05 12:53:37] 命令成功: make clean
+[2025-08-05 12:53:37] 命令成功: rm -rf builds
+[2025-08-05 12:53:37] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): e40e8b33a [gzip] Fix access of small compressed files (#45937).
+[2025-08-05 12:53:38] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 e40e8b33a [gzip] Fix access of small compressed files (#45937).
+HEAD 目前位于 7962a15d6 [type1] Fix another potential buffer overflow (#45955).
+[2025-08-05 12:53:38] 命令成功: git checkout 7962a15d64c8
+[2025-08-05 12:53:38] 处理 patch 版本 (7962a15d64c8)
+[2025-08-05 12:53:38] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:38] 开始编译...
+[2025-08-05 12:53:42] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:42] found all functions in freetype: T1_Get_Private_Dict
+[2025-08-05 12:53:42] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 7962a15d6 [type1] Fix another potential buffer overflow (#45955).
+HEAD 目前位于 ff7d64040 Replace `mkinstalldirs' with AC_PROG_MKDIR_P.
+[2025-08-05 12:53:42] 命令成功: git checkout ff7d64040411
+[2025-08-05 12:53:42] 处理 vuln 版本 (ff7d64040411)
+[2025-08-05 12:53:42] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:42] 开始编译...
+[2025-08-05 12:53:47] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:47] found all functions in freetype: T1_Get_Private_Dict
+[2025-08-05 12:53:47] 找到有效二进制: libfreetype.so
+[2025-08-05 12:53:47] 处理: CVE-2015-9382 (db5a4a9ae7b0)
+[2025-08-05 12:53:47] 相关函数: ps_parser_skip_PS_token
+[2025-08-05 12:53:47] 命令成功: make clean
+[2025-08-05 12:53:47] 命令成功: rm -rf builds
+[2025-08-05 12:53:47] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): ff7d64040 Replace `mkinstalldirs' with AC_PROG_MKDIR_P.
+[2025-08-05 12:53:47] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ff7d64040 Replace `mkinstalldirs' with AC_PROG_MKDIR_P.
+HEAD 目前位于 db5a4a9ae [psaux] Fix potential buffer overflow (#45922).
+[2025-08-05 12:53:47] 命令成功: git checkout db5a4a9ae7b0
+[2025-08-05 12:53:47] 处理 patch 版本 (db5a4a9ae7b0)
+[2025-08-05 12:53:47] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:47] 开始编译...
+[2025-08-05 12:53:51] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:51] found all functions in freetype: ps_parser_skip_PS_token
+[2025-08-05 12:53:51] 找到有效二进制: libfreetype.so
+之前的 HEAD 位置是 db5a4a9ae [psaux] Fix potential buffer overflow (#45922).
+HEAD 目前位于 19b82cfbe [base] Avoid crash while tracing `load_mac_face'.
+[2025-08-05 12:53:51] 命令成功: git checkout 19b82cfbed2a
+[2025-08-05 12:53:51] 处理 vuln 版本 (19b82cfbed2a)
+[2025-08-05 12:53:51] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:51] 开始编译...
+[2025-08-05 12:53:56] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so
+[2025-08-05 12:53:56] found all functions in freetype: ps_parser_skip_PS_token
+[2025-08-05 12:53:56] 找到有效二进制: libfreetype.so
+[2025-08-05 12:53:56] 处理: CVE-2015-9383 (57cbb8c14899)
+[2025-08-05 12:53:56] 相关函数: tt_cmap14_validate
+[2025-08-05 12:53:56] 命令成功: make clean
+[2025-08-05 12:53:56] 命令成功: rm -rf builds
+[2025-08-05 12:53:56] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 19b82cfbe [base] Avoid crash while tracing `load_mac_face'.
+[2025-08-05 12:53:56] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 19b82cfbe [base] Avoid crash while tracing `load_mac_face'.
+HEAD 目前位于 57cbb8c14 [sfnt] Fix cmap 14 validation (#46346).
+[2025-08-05 12:53:56] 命令成功: git checkout 57cbb8c14899
+[2025-08-05 12:53:56] 处理 patch 版本 (57cbb8c14899)
+[2025-08-05 12:53:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:53:56] 开始编译...
+[2025-08-05 12:54:01] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1
+[2025-08-05 12:54:01] found all functions in freetype: tt_cmap14_validate
+[2025-08-05 12:54:01] 找到有效二进制: libfreetype.so.6.12.1
+之前的 HEAD 位置是 57cbb8c14 [sfnt] Fix cmap 14 validation (#46346).
+HEAD 目前位于 009cc1503 [sfnt] Handle infinite recursion in bitmap strikes (#46344).
+[2025-08-05 12:54:01] 命令成功: git checkout 009cc1503516
+[2025-08-05 12:54:01] 处理 vuln 版本 (009cc1503516)
+[2025-08-05 12:54:01] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:01] 开始编译...
+[2025-08-05 12:54:06] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.1
+[2025-08-05 12:54:06] found all functions in freetype: tt_cmap14_validate
+[2025-08-05 12:54:06] 找到有效二进制: libfreetype.so.6.12.1
+[2025-08-05 12:54:06] 处理: CVE-2016-10328 (beecf80a6dee)
+[2025-08-05 12:54:06] 相关函数: cff_parser_run
+[2025-08-05 12:54:06] 命令成功: make clean
+[2025-08-05 12:54:06] 命令成功: rm -rf builds
+[2025-08-05 12:54:06] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 009cc1503 [sfnt] Handle infinite recursion in bitmap strikes (#46344).
+[2025-08-05 12:54:06] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 009cc1503 [sfnt] Handle infinite recursion in bitmap strikes (#46344).
+HEAD 目前位于 beecf80a6 [cff] Fix heap buffer overflow (#49858).
+[2025-08-05 12:54:06] 命令成功: git checkout beecf80a6dee
+[2025-08-05 12:54:06] 处理 patch 版本 (beecf80a6dee)
+[2025-08-05 12:54:06] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:06] 开始编译...
+[2025-08-05 12:54:10] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6
+[2025-08-05 12:54:10] found all functions in freetype: cff_parser_run
+[2025-08-05 12:54:10] 找到有效二进制: libfreetype.so.6.12.6
+之前的 HEAD 位置是 beecf80a6 [cff] Fix heap buffer overflow (#49858).
+HEAD 目前位于 01658be6f Fix clang warnings.
+[2025-08-05 12:54:10] 命令成功: git checkout 01658be6fbda
+[2025-08-05 12:54:10] 处理 vuln 版本 (01658be6fbda)
+[2025-08-05 12:54:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:10] 开始编译...
+[2025-08-05 12:54:16] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.12.6
+[2025-08-05 12:54:16] found all functions in freetype: cff_parser_run
+[2025-08-05 12:54:16] 找到有效二进制: libfreetype.so.6.12.6
+[2025-08-05 12:54:16] 处理: CVE-2017-7857 (7bbb91fbf47f)
+[2025-08-05 12:54:16] 相关函数: sfnt_init_face
+[2025-08-05 12:54:16] 命令成功: make clean
+[2025-08-05 12:54:16] 命令成功: rm -rf builds
+[2025-08-05 12:54:16] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 01658be6f Fix clang warnings.
+[2025-08-05 12:54:16] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 01658be6f Fix clang warnings.
+HEAD 目前位于 7bbb91fbf [sfnt] Another fix for buggy variation fonts.
+[2025-08-05 12:54:16] 命令成功: git checkout 7bbb91fbf47f
+[2025-08-05 12:54:16] 处理 patch 版本 (7bbb91fbf47f)
+[2025-08-05 12:54:16] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:16] 开始编译...
+[2025-08-05 12:54:20] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:20] found all functions in freetype: sfnt_init_face
+[2025-08-05 12:54:20] 找到有效二进制: libfreetype.so.6.13.0
+之前的 HEAD 位置是 7bbb91fbf [sfnt] Another fix for buggy variation fonts.
+HEAD 目前位于 7d7aae1de Typos.
+[2025-08-05 12:54:20] 命令成功: git checkout 7d7aae1de3e2
+[2025-08-05 12:54:20] 处理 vuln 版本 (7d7aae1de3e2)
+[2025-08-05 12:54:20] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:20] 开始编译...
+[2025-08-05 12:54:26] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:26] found all functions in freetype: sfnt_init_face
+[2025-08-05 12:54:26] 找到有效二进制: libfreetype.so.6.13.0
+[2025-08-05 12:54:26] 处理: CVE-2017-7858 (779309744222)
+[2025-08-05 12:54:26] 相关函数: sfnt_init_face
+[2025-08-05 12:54:26] 命令成功: make clean
+[2025-08-05 12:54:26] 命令成功: rm -rf builds
+[2025-08-05 12:54:26] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 7d7aae1de Typos.
+[2025-08-05 12:54:26] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 7d7aae1de Typos.
+HEAD 目前位于 779309744 [sfnt] Improve handling for buggy variation fonts.
+[2025-08-05 12:54:26] 命令成功: git checkout 779309744222
+[2025-08-05 12:54:26] 处理 patch 版本 (779309744222)
+[2025-08-05 12:54:26] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:26] 开始编译...
+[2025-08-05 12:54:30] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:30] found all functions in freetype: sfnt_init_face
+[2025-08-05 12:54:30] 找到有效二进制: libfreetype.so.6.13.0
+之前的 HEAD 位置是 779309744 [sfnt] Improve handling for buggy variation fonts.
+HEAD 目前位于 27fee7f8c [sfnt, truetype] Always provide default instance.
+[2025-08-05 12:54:30] 命令成功: git checkout 27fee7f8c6ae
+[2025-08-05 12:54:30] 处理 vuln 版本 (27fee7f8c6ae)
+[2025-08-05 12:54:30] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:30] 开始编译...
+[2025-08-05 12:54:36] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:36] found all functions in freetype: sfnt_init_face
+[2025-08-05 12:54:36] 找到有效二进制: libfreetype.so.6.13.0
+[2025-08-05 12:54:36] 处理: CVE-2017-7864 (e6699596af5c)
+[2025-08-05 12:54:36] 相关函数: tt_size_reset
+[2025-08-05 12:54:36] 命令成功: make clean
+[2025-08-05 12:54:36] 命令成功: rm -rf builds
+[2025-08-05 12:54:36] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 27fee7f8c [sfnt, truetype] Always provide default instance.
+[2025-08-05 12:54:36] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 27fee7f8c [sfnt, truetype] Always provide default instance.
+HEAD 目前位于 e6699596a [truetype] Fix MVAR post-action handling.
+[2025-08-05 12:54:36] 命令成功: git checkout e6699596af5c
+[2025-08-05 12:54:36] 处理 patch 版本 (e6699596af5c)
+[2025-08-05 12:54:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:36] 开始编译...
+[2025-08-05 12:54:40] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:40] found all functions in freetype: tt_size_reset
+[2025-08-05 12:54:40] 找到有效二进制: libfreetype.so.6.13.0
+之前的 HEAD 位置是 e6699596a [truetype] Fix MVAR post-action handling.
+HEAD 目前位于 dadc50a46 Make compilation with FT_CONFIG_OPTION_PIC work again.
+[2025-08-05 12:54:40] 命令成功: git checkout dadc50a4679c
+[2025-08-05 12:54:40] 处理 vuln 版本 (dadc50a4679c)
+[2025-08-05 12:54:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:40] 开始编译...
+[2025-08-05 12:54:46] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:46] found all functions in freetype: tt_size_reset
+[2025-08-05 12:54:46] 找到有效二进制: libfreetype.so.6.13.0
+[2025-08-05 12:54:46] 处理: CVE-2017-8105 (f958c48ee431)
+[2025-08-05 12:54:46] 相关函数: t1_decoder_parse_charstrings
+[2025-08-05 12:54:46] 命令成功: make clean
+[2025-08-05 12:54:46] 命令成功: rm -rf builds
+[2025-08-05 12:54:46] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): dadc50a46 Make compilation with FT_CONFIG_OPTION_PIC work again.
+[2025-08-05 12:54:46] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 dadc50a46 Make compilation with FT_CONFIG_OPTION_PIC work again.
+HEAD 目前位于 f958c48ee [psaux] Better protect `flex' handling.
+[2025-08-05 12:54:46] 命令成功: git checkout f958c48ee431
+[2025-08-05 12:54:46] 处理 patch 版本 (f958c48ee431)
+[2025-08-05 12:54:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:46] 开始编译...
+[2025-08-05 12:54:50] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:50] found all functions in freetype: t1_decoder_parse_charstrings
+[2025-08-05 12:54:50] 找到有效二进制: libfreetype.so.6.13.0
+之前的 HEAD 位置是 f958c48ee [psaux] Better protect `flex' handling.
+HEAD 目前位于 913f436d1 [sfnt] Fix check for default named instance.
+[2025-08-05 12:54:50] 命令成功: git checkout 913f436d12df
+[2025-08-05 12:54:50] 处理 vuln 版本 (913f436d12df)
+[2025-08-05 12:54:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:50] 开始编译...
+[2025-08-05 12:54:56] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:54:56] found all functions in freetype: t1_decoder_parse_charstrings
+[2025-08-05 12:54:56] 找到有效二进制: libfreetype.so.6.13.0
+[2025-08-05 12:54:56] 处理: CVE-2017-8287 (3774fc08b502)
+[2025-08-05 12:54:56] 相关函数: t1_builder_close_contour
+[2025-08-05 12:54:56] 命令成功: make clean
+[2025-08-05 12:54:56] 命令成功: rm -rf builds
+[2025-08-05 12:54:56] 命令成功: rm -rf objs
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): 913f436d1 [sfnt] Fix check for default named instance.
+[2025-08-05 12:54:56] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 913f436d1 [sfnt] Fix check for default named instance.
+HEAD 目前位于 3774fc08b * src/psaux/psobjs.c (t1_builder_close_contour): Add safety guard.
+[2025-08-05 12:54:56] 命令成功: git checkout 3774fc08b502
+[2025-08-05 12:54:56] 处理 patch 版本 (3774fc08b502)
+[2025-08-05 12:54:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:54:56] 开始编译...
+[2025-08-05 12:55:00] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:55:00] found all functions in freetype: t1_builder_close_contour
+[2025-08-05 12:55:00] 找到有效二进制: libfreetype.so.6.13.0
+之前的 HEAD 位置是 3774fc08b * src/psaux/psobjs.c (t1_builder_close_contour): Add safety guard.
+HEAD 目前位于 f958c48ee [psaux] Better protect `flex' handling.
+[2025-08-05 12:55:00] 命令成功: git checkout f958c48ee431
+[2025-08-05 12:55:00] 处理 vuln 版本 (f958c48ee431)
+[2025-08-05 12:55:00] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype
+[2025-08-05 12:55:00] 开始编译...
+[2025-08-05 12:55:06] 找到 freetype 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/freetype/objs/.libs/libfreetype.so.6.13.0
+[2025-08-05 12:55:06] found all functions in freetype: t1_builder_close_contour
+[2025-08-05 12:55:06] 找到有效二进制: libfreetype.so.6.13.0
+Ignoring path subprojects/dlg/
+保存工作目录和索引状态 WIP on (no branch): f958c48ee [psaux] Better protect `flex' handling.
+[2025-08-05 12:55:06] 命令成功: git stash --include-untracked
+[2025-08-05 12:55:06] ===== 所有操作完成 =====
+[2025-08-05 12:55:06] 结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/freetype/

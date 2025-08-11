@@ -1,0 +1,476 @@
+[2025-08-04 18:16:31] ===== 开始处理 openjpeg CVE 参考二进制编译 =====
+[2025-08-04 18:16:31] 处理: CVE-2015-8871 (940100c28ae2)
+[2025-08-04 18:16:31] 相关函数: opj_j2k_write_mco
+没有要保存的本地修改
+[2025-08-04 18:16:31] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 8ee33522 convertbmp: detect invalid file dimensions early
+HEAD 目前位于 940100c2 Fix potential use-after-free in opj_j2k_write_mco function
+[2025-08-04 18:16:31] 命令成功: git checkout 940100c28ae2
+[2025-08-04 18:16:31] 处理 patch 版本 (940100c28ae2)
+[2025-08-04 18:16:31] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-940100c28ae2-patch
+[2025-08-04 18:16:31] 开始编译...
+[2025-08-04 18:16:32] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:32] found all functions in openjpeg: opj_j2k_write_mco
+[2025-08-04 18:16:32] 找到有效二进制: libopenjp2.so.2.1.0
+之前的 HEAD 位置是 940100c2 Fix potential use-after-free in opj_j2k_write_mco function
+HEAD 目前位于 c31fb68c fix resource leak in jpwl
+[2025-08-04 18:16:32] 命令成功: git checkout c31fb68ccc0e
+[2025-08-04 18:16:32] 处理 vuln 版本 (c31fb68ccc0e)
+[2025-08-04 18:16:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c31fb68ccc0e-vuln
+[2025-08-04 18:16:32] 开始编译...
+[2025-08-04 18:16:34] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:34] found all functions in openjpeg: opj_j2k_write_mco
+[2025-08-04 18:16:34] 找到有效二进制: libopenjp2.so.2.1.0
+[2025-08-04 18:16:34] 处理: CVE-2016-10504 (397f62c0a838)
+[2025-08-04 18:16:34] 相关函数: opj_tcd_code_block_enc_allocate_data
+保存工作目录和索引状态 WIP on (no branch): c31fb68c fix resource leak in jpwl
+[2025-08-04 18:16:34] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 c31fb68c fix resource leak in jpwl
+HEAD 目前位于 397f62c0 Fix write heap buffer overflow in opj_mqc_byteout(). Discovered by Ke Liu of Tencent's Xuanwu LAB (#835)
+[2025-08-04 18:16:34] 命令成功: git checkout 397f62c0a838
+[2025-08-04 18:16:34] 处理 patch 版本 (397f62c0a838)
+[2025-08-04 18:16:34] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-397f62c0a838-patch
+[2025-08-04 18:16:34] 开始编译...
+[2025-08-04 18:16:36] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:16:36] found all functions in openjpeg: opj_tcd_code_block_enc_allocate_data
+[2025-08-04 18:16:36] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 397f62c0 Fix write heap buffer overflow in opj_mqc_byteout(). Discovered by Ke Liu of Tencent's Xuanwu LAB (#835)
+HEAD 目前位于 11445edd opj_pi_update_decode_poc(): limit layno1 to the number of layers (CVE-2016-1626 and CVE-2016-1628, #850)
+[2025-08-04 18:16:36] 命令成功: git checkout 11445eddad7e
+[2025-08-04 18:16:36] 处理 vuln 版本 (11445eddad7e)
+[2025-08-04 18:16:36] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-11445eddad7e-vuln
+[2025-08-04 18:16:36] 开始编译...
+[2025-08-04 18:16:38] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:16:38] found all functions in openjpeg: opj_tcd_code_block_enc_allocate_data
+[2025-08-04 18:16:38] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:16:38] 处理: CVE-2016-10506 (d27ccf01c68a)
+[2025-08-04 18:16:38] 相关函数: opj_pi_next_pcrl, opj_pi_next_cprl, opj_pi_next_rpcl
+保存工作目录和索引状态 WIP on (no branch): 11445edd opj_pi_update_decode_poc(): limit layno1 to the number of layers (CVE-2016-1626 and CVE-2016-1628, #850)
+[2025-08-04 18:16:38] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 11445edd opj_pi_update_decode_poc(): limit layno1 to the number of layers (CVE-2016-1626 and CVE-2016-1628, #850)
+HEAD 目前位于 d27ccf01 Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl and opj_pi_next_cprl (#938)
+[2025-08-04 18:16:38] 命令成功: git checkout d27ccf01c68a
+[2025-08-04 18:16:38] 处理 patch 版本 (d27ccf01c68a)
+[2025-08-04 18:16:38] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-d27ccf01c68a-patch
+[2025-08-04 18:16:38] 开始编译...
+[2025-08-04 18:16:40] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:16:40] found all functions in openjpeg: opj_pi_next_pcrl opj_pi_next_cprl opj_pi_next_rpcl
+[2025-08-04 18:16:40] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 d27ccf01 Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl and opj_pi_next_cprl (#938)
+HEAD 目前位于 39e962a0 Merge pull request #969 from jeroen/staticlibs
+[2025-08-04 18:16:40] 命令成功: git checkout 39e962a0ca5e
+[2025-08-04 18:16:40] 处理 vuln 版本 (39e962a0ca5e)
+[2025-08-04 18:16:40] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-39e962a0ca5e-vuln
+[2025-08-04 18:16:40] 开始编译...
+[2025-08-04 18:16:42] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:16:42] found all functions in openjpeg: opj_pi_next_pcrl opj_pi_next_cprl opj_pi_next_rpcl
+[2025-08-04 18:16:42] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:16:42] 处理: CVE-2016-10507 (da940424816e)
+[2025-08-04 18:16:42] 相关函数: bmptoimage
+保存工作目录和索引状态 WIP on (no branch): 39e962a0 Merge pull request #969 from jeroen/staticlibs
+[2025-08-04 18:16:42] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 39e962a0 Merge pull request #969 from jeroen/staticlibs
+HEAD 目前位于 da940424 Merge pull request #834 from trylab/issue833
+[2025-08-04 18:16:42] 命令成功: git checkout da940424816e
+[2025-08-04 18:16:42] 处理 patch 版本 (da940424816e)
+[2025-08-04 18:16:42] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch
+[2025-08-04 18:16:42] 开始编译...
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so.2.1.1
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so.2.1.1
+[2025-08-04 18:16:44] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-da940424816e-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 da940424 Merge pull request #834 from trylab/issue833
+HEAD 目前位于 31d44f02 Disable automatic compilation of t1_generate_luts
+[2025-08-04 18:16:44] 命令成功: git checkout 31d44f02807a
+[2025-08-04 18:16:44] 处理 vuln 版本 (31d44f02807a)
+[2025-08-04 18:16:44] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln
+[2025-08-04 18:16:44] 开始编译...
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so.2.1.1
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so.2.1.1
+[2025-08-04 18:16:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-31d44f02807a-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:46] 处理: CVE-2016-3183 (15f081c89650)
+[2025-08-04 18:16:46] 相关函数: imagetobmp, sycc444_to_rgb, color_sycc_to_rgb, sycc420_to_rgb
+保存工作目录和索引状态 WIP on (no branch): 31d44f02 Disable automatic compilation of t1_generate_luts
+[2025-08-04 18:16:46] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 31d44f02 Disable automatic compilation of t1_generate_luts
+HEAD 目前位于 15f081c8 Fix Out-Of-Bounds Read in sycc42x_to_rgb function (#745)
+[2025-08-04 18:16:46] 命令成功: git checkout 15f081c89650
+[2025-08-04 18:16:46] 处理 patch 版本 (15f081c89650)
+[2025-08-04 18:16:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch
+[2025-08-04 18:16:46] 开始编译...
+[2025-08-04 18:16:47] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so
+[2025-08-04 18:16:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-15f081c89650-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 15f081c8 Fix Out-Of-Bounds Read in sycc42x_to_rgb function (#745)
+HEAD 目前位于 ad593c9e Fix heap-buffer-overflow in color_esycc_to_rgb (#748)
+[2025-08-04 18:16:48] 命令成功: git checkout ad593c9e0622
+[2025-08-04 18:16:48] 处理 vuln 版本 (ad593c9e0622)
+[2025-08-04 18:16:48] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln
+[2025-08-04 18:16:48] 开始编译...
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:49] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ad593c9e0622-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:49] 处理: CVE-2016-4796 (162f6199c0cd)
+[2025-08-04 18:16:49] 相关函数: color_cmyk_to_rgb
+保存工作目录和索引状态 WIP on (no branch): ad593c9e Fix heap-buffer-overflow in color_esycc_to_rgb (#748)
+[2025-08-04 18:16:50] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ad593c9e Fix heap-buffer-overflow in color_esycc_to_rgb (#748)
+HEAD 目前位于 162f6199 Fix Heap Buffer Overflow in function color_cmyk_to_rgb
+[2025-08-04 18:16:50] 命令成功: git checkout 162f6199c0cd
+[2025-08-04 18:16:50] 处理 patch 版本 (162f6199c0cd)
+[2025-08-04 18:16:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch
+[2025-08-04 18:16:50] 开始编译...
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so.7
+[2025-08-04 18:16:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-162f6199c0cd-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 162f6199 Fix Heap Buffer Overflow in function color_cmyk_to_rgb
+HEAD 目前位于 8f9cc62b Fix division by zero
+[2025-08-04 18:16:51] 命令成功: git checkout 8f9cc62b3f9a
+[2025-08-04 18:16:51] 处理 vuln 版本 (8f9cc62b3f9a)
+[2025-08-04 18:16:51] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln
+[2025-08-04 18:16:51] 开始编译...
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:16:54] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-vuln/bin/libopenjp2.so
+[2025-08-04 18:16:54] 处理: CVE-2016-4797 (8f9cc62b3f9a)
+[2025-08-04 18:16:54] 相关函数: opj_tcd_init_tile
+保存工作目录和索引状态 WIP on (no branch): 8f9cc62b Fix division by zero
+[2025-08-04 18:16:54] 命令成功: git stash --include-untracked
+HEAD 目前位于 8f9cc62b Fix division by zero
+[2025-08-04 18:16:54] 命令成功: git checkout 8f9cc62b3f9a
+[2025-08-04 18:16:54] 处理 patch 版本 (8f9cc62b3f9a)
+[2025-08-04 18:16:54] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-patch
+[2025-08-04 18:16:54] 开始编译...
+[2025-08-04 18:16:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:56] found all functions in openjpeg: opj_tcd_init_tile
+[2025-08-04 18:16:56] 找到有效二进制: libopenjp2.so.2.1.0
+之前的 HEAD 位置是 8f9cc62b Fix division by zero
+HEAD 目前位于 44a499f2 Update lcms2 (#773)
+[2025-08-04 18:16:56] 命令成功: git checkout 44a499f2acf1
+[2025-08-04 18:16:56] 处理 vuln 版本 (44a499f2acf1)
+[2025-08-04 18:16:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-44a499f2acf1-vuln
+[2025-08-04 18:16:56] 开始编译...
+[2025-08-04 18:16:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:16:58] found all functions in openjpeg: opj_tcd_init_tile
+[2025-08-04 18:16:58] 找到有效二进制: libopenjp2.so.2.1.0
+[2025-08-04 18:16:58] 处理: CVE-2016-7163 (c16bc057ba3f)
+[2025-08-04 18:16:58] 相关函数: opj_pi_create_decode
+保存工作目录和索引状态 WIP on (no branch): 44a499f2 Update lcms2 (#773)
+[2025-08-04 18:16:58] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 44a499f2 Update lcms2 (#773)
+HEAD 目前位于 c16bc057 Fix an integer overflow issue (#809)
+[2025-08-04 18:16:58] 命令成功: git checkout c16bc057ba3f
+[2025-08-04 18:16:58] 处理 patch 版本 (c16bc057ba3f)
+[2025-08-04 18:16:58] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c16bc057ba3f-patch
+[2025-08-04 18:16:58] 开始编译...
+[2025-08-04 18:17:00] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:01] found all functions in openjpeg: opj_pi_create_decode
+[2025-08-04 18:17:01] 找到有效二进制: libopenjp2.so.7
+之前的 HEAD 位置是 c16bc057 Fix an integer overflow issue (#809)
+HEAD 目前位于 ea320dab Add overflow check in opj_tcd_init_tile (#819)
+[2025-08-04 18:17:01] 命令成功: git checkout ea320dab8bc4
+[2025-08-04 18:17:01] 处理 vuln 版本 (ea320dab8bc4)
+[2025-08-04 18:17:01] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ea320dab8bc4-vuln
+[2025-08-04 18:17:01] 开始编译...
+[2025-08-04 18:17:02] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:02] found all functions in openjpeg: opj_pi_create_decode
+[2025-08-04 18:17:02] 找到有效二进制: libopenjp2.so.7
+[2025-08-04 18:17:02] 处理: CVE-2017-12982 (baf0c1ad4572)
+[2025-08-04 18:17:02] 相关函数: bmp_read_info_header
+保存工作目录和索引状态 WIP on (no branch): ea320dab Add overflow check in opj_tcd_init_tile (#819)
+[2025-08-04 18:17:02] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 ea320dab Add overflow check in opj_tcd_init_tile (#819)
+HEAD 目前位于 baf0c1ad bmp_read_info_header(): reject bmp files with biBitCount == 0 (#983)
+[2025-08-04 18:17:02] 命令成功: git checkout baf0c1ad4572
+[2025-08-04 18:17:02] 处理 patch 版本 (baf0c1ad4572)
+[2025-08-04 18:17:02] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch
+[2025-08-04 18:17:02] 开始编译...
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:05] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-baf0c1ad4572-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 baf0c1ad bmp_read_info_header(): reject bmp files with biBitCount == 0 (#983)
+HEAD 目前位于 afb308b9 Encoder: grow buffer size in opj_tcd_code_block_enc_allocate_data() to avoid write heap buffer overflow in opj_mqc_flush (#982)
+[2025-08-04 18:17:05] 命令成功: git checkout afb308b9ccbe
+[2025-08-04 18:17:05] 处理 vuln 版本 (afb308b9ccbe)
+[2025-08-04 18:17:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln
+[2025-08-04 18:17:05] 开始编译...
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:07] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:07] 处理: CVE-2017-14039 (c535531f0336)
+[2025-08-04 18:17:07] 相关函数: opj_j2k_write_sot, opj_j2k_write_sod, opj_t2_encode_packet
+保存工作目录和索引状态 WIP on (no branch): afb308b9 Encoder: grow buffer size in opj_tcd_code_block_enc_allocate_data() to avoid write heap buffer overflow in opj_mqc_flush (#982)
+[2025-08-04 18:17:08] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 afb308b9 Encoder: grow buffer size in opj_tcd_code_block_enc_allocate_data() to avoid write heap buffer overflow in opj_mqc_flush (#982)
+HEAD 目前位于 c535531f opj_t2_encode_packet(): fix potential write heap buffer overflow (#992)
+[2025-08-04 18:17:08] 命令成功: git checkout c535531f0336
+[2025-08-04 18:17:08] 处理 patch 版本 (c535531f0336)
+[2025-08-04 18:17:08] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c535531f0336-patch
+[2025-08-04 18:17:08] 开始编译...
+[2025-08-04 18:17:11] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:11] found all functions in openjpeg: opj_j2k_write_sot opj_j2k_write_sod opj_t2_encode_packet
+[2025-08-04 18:17:11] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 c535531f opj_t2_encode_packet(): fix potential write heap buffer overflow (#992)
+HEAD 目前位于 dcac91b8 opj_j2k_write_sot(): fix potential write heap buffer overflow (#991)
+[2025-08-04 18:17:11] 命令成功: git checkout dcac91b8c72f
+[2025-08-04 18:17:11] 处理 vuln 版本 (dcac91b8c72f)
+[2025-08-04 18:17:11] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-dcac91b8c72f-vuln
+[2025-08-04 18:17:11] 开始编译...
+[2025-08-04 18:17:13] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:13] found all functions in openjpeg: opj_j2k_write_sot opj_j2k_write_sod opj_t2_encode_packet
+[2025-08-04 18:17:13] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:17:13] 处理: CVE-2017-14040 (2cd30c2b06ce)
+[2025-08-04 18:17:13] 相关函数: tga_readheader, tgatoimage
+保存工作目录和索引状态 WIP on (no branch): dcac91b8 opj_j2k_write_sot(): fix potential write heap buffer overflow (#991)
+[2025-08-04 18:17:13] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 dcac91b8 opj_j2k_write_sot(): fix potential write heap buffer overflow (#991)
+HEAD 目前位于 2cd30c2b tgatoimage(): avoid excessive memory allocation attempt, and fixes unaligned load (#995)
+[2025-08-04 18:17:13] 命令成功: git checkout 2cd30c2b06ce
+[2025-08-04 18:17:13] 处理 patch 版本 (2cd30c2b06ce)
+[2025-08-04 18:17:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch
+[2025-08-04 18:17:13] 开始编译...
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:16] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2cd30c2b06ce-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 2cd30c2b tgatoimage(): avoid excessive memory allocation attempt, and fixes unaligned load (#995)
+HEAD 目前位于 09e83407 Avoid asserting on assert(i == pcol) in opj_jp2_apply_pclr() by adding new check in opj_jp2_check_color(). Fixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=3068. Credit to OSS Fuzz
+[2025-08-04 18:17:16] 命令成功: git checkout 09e83407fa2b
+[2025-08-04 18:17:16] 处理 vuln 版本 (09e83407fa2b)
+[2025-08-04 18:17:16] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln
+[2025-08-04 18:17:16] 开始编译...
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:18] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-09e83407fa2b-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:18] 处理: CVE-2017-14041 (e5285319229a)
+[2025-08-04 18:17:18] 相关函数: pgxtoimage
+保存工作目录和索引状态 WIP on (no branch): 09e83407 Avoid asserting on assert(i == pcol) in opj_jp2_apply_pclr() by adding new check in opj_jp2_check_color(). Fixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=3068. Credit to OSS Fuzz
+[2025-08-04 18:17:18] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 09e83407 Avoid asserting on assert(i == pcol) in opj_jp2_apply_pclr() by adding new check in opj_jp2_check_color(). Fixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=3068. Credit to OSS Fuzz
+HEAD 目前位于 e5285319 pgxtoimage(): fix write stack buffer overflow (#997)
+[2025-08-04 18:17:18] 命令成功: git checkout e5285319229a
+[2025-08-04 18:17:18] 处理 patch 版本 (e5285319229a)
+[2025-08-04 18:17:18] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch
+[2025-08-04 18:17:18] 开始编译...
+[2025-08-04 18:17:21] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:21] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:21] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so
+[2025-08-04 18:17:21] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:22] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:22] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e5285319229a-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 e5285319 pgxtoimage(): fix write stack buffer overflow (#997)
+HEAD 目前位于 5597522c bmp_read_rle8_data(): avoid potential infinite loop (#996)
+[2025-08-04 18:17:22] 命令成功: git checkout 5597522cac96
+[2025-08-04 18:17:22] 处理 vuln 版本 (5597522cac96)
+[2025-08-04 18:17:22] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln
+[2025-08-04 18:17:22] 开始编译...
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:24] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5597522cac96-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:24] 处理: CVE-2017-14151 (afb308b9ccbe)
+[2025-08-04 18:17:24] 相关函数: opj_tcd_code_block_enc_allocate_data
+保存工作目录和索引状态 WIP on (no branch): 5597522c bmp_read_rle8_data(): avoid potential infinite loop (#996)
+[2025-08-04 18:17:24] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 5597522c bmp_read_rle8_data(): avoid potential infinite loop (#996)
+HEAD 目前位于 afb308b9 Encoder: grow buffer size in opj_tcd_code_block_enc_allocate_data() to avoid write heap buffer overflow in opj_mqc_flush (#982)
+[2025-08-04 18:17:24] 命令成功: git checkout afb308b9ccbe
+[2025-08-04 18:17:24] 处理 patch 版本 (afb308b9ccbe)
+[2025-08-04 18:17:24] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-patch
+[2025-08-04 18:17:24] 开始编译...
+[2025-08-04 18:17:27] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:27] found all functions in openjpeg: opj_tcd_code_block_enc_allocate_data
+[2025-08-04 18:17:27] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 afb308b9 Encoder: grow buffer size in opj_tcd_code_block_enc_allocate_data() to avoid write heap buffer overflow in opj_mqc_flush (#982)
+HEAD 目前位于 0b4c3ce7 Merge pull request #980 from szukw000/changes-for-ppc64-converttif
+[2025-08-04 18:17:27] 命令成功: git checkout 0b4c3ce75d11
+[2025-08-04 18:17:27] 处理 vuln 版本 (0b4c3ce75d11)
+[2025-08-04 18:17:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-0b4c3ce75d11-vuln
+[2025-08-04 18:17:27] 开始编译...
+[2025-08-04 18:17:29] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:29] found all functions in openjpeg: opj_tcd_code_block_enc_allocate_data
+[2025-08-04 18:17:29] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:17:29] 处理: CVE-2017-14152 (4241ae6fbbf1)
+[2025-08-04 18:17:29] 相关函数: opj_j2k_set_cinema_parameters
+保存工作目录和索引状态 WIP on (no branch): 0b4c3ce7 Merge pull request #980 from szukw000/changes-for-ppc64-converttif
+[2025-08-04 18:17:29] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 0b4c3ce7 Merge pull request #980 from szukw000/changes-for-ppc64-converttif
+HEAD 目前位于 4241ae6f Fix assertion in debug mode / heap-based buffer overflow in opj_write_bytes_LE for Cinema profiles with numresolutions = 1 (#985)
+[2025-08-04 18:17:29] 命令成功: git checkout 4241ae6fbbf1
+[2025-08-04 18:17:29] 处理 patch 版本 (4241ae6fbbf1)
+[2025-08-04 18:17:29] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-4241ae6fbbf1-patch
+[2025-08-04 18:17:29] 开始编译...
+[2025-08-04 18:17:32] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:32] found all functions in openjpeg: opj_j2k_set_cinema_parameters
+[2025-08-04 18:17:32] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 4241ae6f Fix assertion in debug mode / heap-based buffer overflow in opj_write_bytes_LE for Cinema profiles with numresolutions = 1 (#985)
+HEAD 目前位于 52d5690a Merge pull request #984 from stweil/const
+[2025-08-04 18:17:32] 命令成功: git checkout 52d5690a6fcb
+[2025-08-04 18:17:32] 处理 vuln 版本 (52d5690a6fcb)
+[2025-08-04 18:17:32] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-52d5690a6fcb-vuln
+[2025-08-04 18:17:32] 开始编译...
+[2025-08-04 18:17:34] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:34] found all functions in openjpeg: opj_j2k_set_cinema_parameters
+[2025-08-04 18:17:34] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:17:34] 处理: CVE-2017-14164 (dcac91b8c72f)
+[2025-08-04 18:17:34] 相关函数: opj_j2k_write_sot, opj_j2k_write_first_tile_part, opj_j2k_write_tlm, opj_j2k_write_all_tile_parts
+保存工作目录和索引状态 WIP on (no branch): 52d5690a Merge pull request #984 from stweil/const
+[2025-08-04 18:17:34] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 52d5690a Merge pull request #984 from stweil/const
+HEAD 目前位于 dcac91b8 opj_j2k_write_sot(): fix potential write heap buffer overflow (#991)
+[2025-08-04 18:17:34] 命令成功: git checkout dcac91b8c72f
+[2025-08-04 18:17:34] 处理 patch 版本 (dcac91b8c72f)
+[2025-08-04 18:17:34] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-dcac91b8c72f-patch
+[2025-08-04 18:17:34] 开始编译...
+[2025-08-04 18:17:37] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:37] found all functions in openjpeg: opj_j2k_write_sot opj_j2k_write_first_tile_part opj_j2k_write_tlm opj_j2k_write_all_tile_parts
+[2025-08-04 18:17:37] 找到有效二进制: libopenjp2.so.2.2.0
+之前的 HEAD 位置是 dcac91b8 opj_j2k_write_sot(): fix potential write heap buffer overflow (#991)
+HEAD 目前位于 af760007 tiftoimage(): fix read heap buffer overflow (#988)
+[2025-08-04 18:17:37] 命令成功: git checkout af760007711b
+[2025-08-04 18:17:37] 处理 vuln 版本 (af760007711b)
+[2025-08-04 18:17:37] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-af760007711b-vuln
+[2025-08-04 18:17:37] 开始编译...
+[2025-08-04 18:17:39] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0
+[2025-08-04 18:17:39] found all functions in openjpeg: opj_j2k_write_sot opj_j2k_write_first_tile_part opj_j2k_write_tlm opj_j2k_write_all_tile_parts
+[2025-08-04 18:17:39] 找到有效二进制: libopenjp2.so.2.2.0
+[2025-08-04 18:17:39] 处理: CVE-2018-20847 (5d00b719f4b9)
+[2025-08-04 18:17:39] 相关函数: opj_get_all_encoding_parameters, opj_tcd_init_tile
+保存工作目录和索引状态 WIP on (no branch): af760007 tiftoimage(): fix read heap buffer overflow (#988)
+[2025-08-04 18:17:39] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 af760007 tiftoimage(): fix read heap buffer overflow (#988)
+HEAD 目前位于 5d00b719 [trunk] fixed a buffer overflow in opj_tcd_init_decode_tile
+[2025-08-04 18:17:39] 命令成功: git checkout 5d00b719f4b9
+[2025-08-04 18:17:39] 处理 patch 版本 (5d00b719f4b9)
+[2025-08-04 18:17:39] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5d00b719f4b9-patch
+[2025-08-04 18:17:39] 开始编译...
+[2025-08-04 18:17:41] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:17:41] found all functions in openjpeg: opj_get_all_encoding_parameters opj_tcd_init_tile
+[2025-08-04 18:17:41] 找到有效二进制: libopenjp2.so.2.1.0
+之前的 HEAD 位置是 5d00b719 [trunk] fixed a buffer overflow in opj_tcd_init_decode_tile
+HEAD 目前位于 42132ed6 [trunk] removed warning from convertbmp.c
+[2025-08-04 18:17:41] 命令成功: git checkout 42132ed6b561
+[2025-08-04 18:17:41] 处理 vuln 版本 (42132ed6b561)
+[2025-08-04 18:17:41] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-42132ed6b561-vuln
+[2025-08-04 18:17:41] 开始编译...
+[2025-08-04 18:17:43] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0
+[2025-08-04 18:17:43] found all functions in openjpeg: opj_get_all_encoding_parameters opj_tcd_init_tile
+[2025-08-04 18:17:43] 找到有效二进制: libopenjp2.so.2.1.0
+[2025-08-04 18:17:43] 处理: CVE-2018-21010 (2e5ab1d99878)
+[2025-08-04 18:17:43] 相关函数: color_apply_icc_profile
+保存工作目录和索引状态 WIP on (no branch): 42132ed6 [trunk] removed warning from convertbmp.c
+[2025-08-04 18:17:43] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 42132ed6 [trunk] removed warning from convertbmp.c
+HEAD 目前位于 2e5ab1d9 color_apply_icc_profile: avoid potential heap buffer overflow
+[2025-08-04 18:17:43] 命令成功: git checkout 2e5ab1d99878
+[2025-08-04 18:17:43] 处理 patch 版本 (2e5ab1d99878)
+[2025-08-04 18:17:43] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch
+[2025-08-04 18:17:43] 开始编译...
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:46] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-2e5ab1d99878-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 2e5ab1d9 color_apply_icc_profile: avoid potential heap buffer overflow
+HEAD 目前位于 92023cd6 Merge pull request #1160 from hlef/master
+[2025-08-04 18:17:46] 命令成功: git checkout 92023cd6c377
+[2025-08-04 18:17:46] 处理 vuln 版本 (92023cd6c377)
+[2025-08-04 18:17:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln
+[2025-08-04 18:17:46] 开始编译...
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:48] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-92023cd6c377-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:48] 处理: CVE-2018-7648 (cc3824767bde)
+[2025-08-04 18:17:48] 相关函数: main
+保存工作目录和索引状态 WIP on (no branch): 92023cd6 Merge pull request #1160 from hlef/master
+[2025-08-04 18:17:48] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 92023cd6 Merge pull request #1160 from hlef/master
+HEAD 目前位于 cc382476 opj_mj2_extract: Check provided output prefix for length
+[2025-08-04 18:17:48] 命令成功: git checkout cc3824767bde
+[2025-08-04 18:17:48] 处理 patch 版本 (cc3824767bde)
+[2025-08-04 18:17:48] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch
+[2025-08-04 18:17:48] 开始编译...
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:51] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-cc3824767bde-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 cc382476 opj_mj2_extract: Check provided output prefix for length
+HEAD 目前位于 564fbfb6 Merge pull request #1090 from stweil/utf8
+[2025-08-04 18:17:51] 命令成功: git checkout 564fbfb67830
+[2025-08-04 18:17:51] 处理 vuln 版本 (564fbfb67830)
+[2025-08-04 18:17:51] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln
+[2025-08-04 18:17:51] 开始编译...
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:53] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-564fbfb67830-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:53] 处理: CVE-2019-12973 (8ee335227bbc)
+[2025-08-04 18:17:53] 相关函数: bmp_read_raw_data, bmp_read_rle8_data
+保存工作目录和索引状态 WIP on (no branch): 564fbfb6 Merge pull request #1090 from stweil/utf8
+[2025-08-04 18:17:53] 命令成功: git stash --include-untracked
+之前的 HEAD 位置是 564fbfb6 Merge pull request #1090 from stweil/utf8
+HEAD 目前位于 8ee33522 convertbmp: detect invalid file dimensions early
+[2025-08-04 18:17:53] 命令成功: git checkout 8ee335227bbc
+[2025-08-04 18:17:53] 处理 patch 版本 (8ee335227bbc)
+[2025-08-04 18:17:53] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch
+[2025-08-04 18:17:53] 开始编译...
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so.7
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:56] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-8ee335227bbc-patch/bin/libopenjp2.so
+之前的 HEAD 位置是 8ee33522 convertbmp: detect invalid file dimensions early
+HEAD 目前位于 e7640f58 Merge pull request #1168 from Young-X/fix_dev
+[2025-08-04 18:17:56] 命令成功: git checkout e7640f58f122
+[2025-08-04 18:17:56] 处理 vuln 版本 (e7640f58f122)
+[2025-08-04 18:17:56] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln
+[2025-08-04 18:17:56] 开始编译...
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so.7
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so.2.3.0
+[2025-08-04 18:17:58] 找到 openjpeg 共享库: /home/zhangxb/patch/related-works/CVE-Dataset/target/openjpeg/build-e7640f58f122-vuln/bin/libopenjp2.so
+保存工作目录和索引状态 WIP on (no branch): e7640f58 Merge pull request #1168 from Young-X/fix_dev
+[2025-08-04 18:17:58] 命令成功: git stash --include-untracked
+[2025-08-04 18:17:58] ===== 所有操作完成 =====
+[2025-08-04 18:17:58] 结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/binaries/reference/openjpeg/

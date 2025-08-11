@@ -119,6 +119,10 @@ def find_cpe_vendor_product(project):
         "sqlite": ["sqlite", "sqlite"],
         "binutils": ["gnu", "binutils"],
         "curl": ["haxx", "curl"],
+        "tcpdump": ["tcpdump", "tcpdump"],
+        "openjpeg": ["uclouvain", "openjpeg"],
+        "freetype": ["freetype", "freetype"],
+        "imagemagick": ["imagemagick", "imagemagick"],
     }
     return vendor_map.get(project.lower(), [project, project])
 
@@ -154,6 +158,18 @@ def normalize_version(project, version):
             "default": "{}"
         },
         "libxml2": {
+            "default": "{}"
+        },
+        "tcpdump": {
+            "default": "{}"
+        },
+        "openjpeg": {
+            "default": "{}"
+        },
+        "freetype": {
+            "default": "{}"
+        },
+        "imagemagick": {
             "default": "{}"
         },
         # 其他项目的映射规则...
