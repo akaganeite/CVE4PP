@@ -1,0 +1,45 @@
+binutils_gcc_o1_result.csv:
+  succeed/targets = 24/609 = 0.0394
+  succeed/(targets-func_not_found) = 24/(609-171) = 0.0548
+  succeed/valid_targets = 24/59 = 0.4068 (只考虑FP/FN)
+
+binutils_gcc_o2_result.csv:
+  succeed/targets = 20/609 = 0.0328
+  succeed/(targets-func_not_found) = 20/(609-201) = 0.0490
+  succeed/valid_targets = 20/46 = 0.4348 (只考虑FP/FN)
+
+binutils_gcc_o3_result.csv:
+  succeed/targets = 14/609 = 0.0230
+  succeed/(targets-func_not_found) = 14/(609-235) = 0.0374
+  succeed/valid_targets = 14/39 = 0.3590 (只考虑FP/FN)
+
+curl_gcc_o1_result.csv:
+  succeed/targets = 18/340 = 0.0529
+  succeed/(targets-func_not_found) = 18/(340-106) = 0.0769
+  succeed/valid_targets = 18/30 = 0.6000 (只考虑FP/FN)
+
+curl_gcc_o2_result.csv:
+  succeed/targets = 17/340 = 0.0500
+  succeed/(targets-func_not_found) = 17/(340-119) = 0.0769
+  succeed/valid_targets = 17/35 = 0.4857 (只考虑FP/FN)
+
+curl_gcc_o3_result.csv:
+  succeed/targets = 18/340 = 0.0529
+  succeed/(targets-func_not_found) = 18/(340-122) = 0.0826
+  succeed/valid_targets = 18/35 = 0.5143 (只考虑FP/FN)
+
+
+libxml2_gcc_o1_result.csv:
+  succeed/targets = 17/510 = 0.0333
+  succeed/(targets-func_not_found) = 17/(510-105) = 0.0420
+  succeed/valid_targets = 17/29 = 0.5862 (只考虑FP/FN)
+
+libxml2_gcc_o2_result.csv:
+  succeed/targets = 36/510 = 0.0706
+  succeed/(targets-func_not_found) = 36/(510-86) = 0.0849
+  succeed/valid_targets = 36/48 = 0.7500 (只考虑FP/FN)
+
+libxml2_gcc_o3_result.csv:
+  succeed/targets = 27/510 = 0.0529
+  succeed/(targets-func_not_found) = 27/(510-80) = 0.0628
+  succeed/valid_targets = 27/42 = 0.6429 (只考虑FP/FN)

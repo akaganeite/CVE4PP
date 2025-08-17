@@ -1,25 +1,49 @@
 binutils_result.csv:
-  succeed/targets = 87/222 = 0.3919
-  succeed/(targets-func_not_found) = 87/(222-32) = 0.4579
-  succeed/valid_targets = 87/119 = 0.7311 (只考虑FP/FN)
+  succeed/targets = 94/347 = 0.2709
+  succeed/(targets-func_not_found) = 94/(347-121) = 0.4159
+  succeed/valid_targets = 94/133 = 0.7068 (只考虑FP/FN) 
 
 curl_result.csv:
   succeed/targets = 107/214 = 0.5000
   succeed/(targets-func_not_found) = 107/(214-3) = 0.5071
   succeed/valid_targets = 107/136 = 0.7868 (只考虑FP/FN)
 
+ffmpeg_result.csv:
+  succeed/targets = 52/150 = 0.3467
+  succeed/(targets-func_not_found) = 52/(150-5) = 0.3586
+  succeed/valid_targets = 52/110 = 0.4727 (只考虑FP/FN)
+
+freetype_result.csv:
+  succeed/targets = 97/263 = 0.3688
+  succeed/(targets-func_not_found) = 97/(263-1) = 0.3702
+  succeed/valid_targets = 97/159 = 0.6101 (只考虑FP/FN)
+
+imagemagick_result.csv:
+  succeed/targets = 105/522 = 0.2011
+  succeed/(targets-func_not_found) = 105/(522-0) = 0.2011
+  succeed/valid_targets = 105/160 = 0.6562 (只考虑FP/FN)
+
 libxml2_result.csv:
   succeed/targets = 76/215 = 0.3535
   succeed/(targets-func_not_found) = 76/(215-21) = 0.3918
   succeed/valid_targets = 76/135 = 0.5630 (只考虑FP/FN)
 
+openjpeg_result.csv:
+  succeed/targets = 31/56 = 0.5536
+  succeed/(targets-func_not_found) = 31/(56-4) = 0.5962
+  succeed/valid_targets = 31/40 = 0.7750 (只考虑FP/FN)
+
 openssl_result.csv:
-  succeed/targets = 48/89 = 0.5393
-  succeed/(targets-func_not_found) = 48/(89-16) = 0.6575
-  succeed/valid_targets = 48/49 = 0.9796 (只考虑FP/FN)
+  succeed/targets = 57/83 = 0.6867
+  succeed/(targets-func_not_found) = 57/(83-4) = 0.7215
+  succeed/valid_targets = 57/59 = 0.9661 (只考虑FP/FN)
 
 sqlite_result.csv:
   succeed/targets = 61/131 = 0.4656
   succeed/(targets-func_not_found) = 61/(131-0) = 0.4656
   succeed/valid_targets = 61/91 = 0.6703 (只考虑FP/FN)
 
+tcpdump_result.csv:
+  succeed/targets = 217/630 = 0.3444
+  succeed/(targets-func_not_found) = 217/(630-11) = 0.3506
+  succeed/valid_targets = 217/363 = 0.5978 (只考虑FP/FN)

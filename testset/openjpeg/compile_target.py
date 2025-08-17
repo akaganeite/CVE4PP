@@ -160,7 +160,7 @@ def compile_openjpeg_tag(git_checkout_ref: str, output_binary_name: str, destina
     config_cmd = [
         "cmake",
         "..",
-        "-DCMAKE_BUILD_TYPE=Release",
+        "-DCMAKE_BUILD_TYPE=Debug",
         f"-DCMAKE_C_COMPILER={compiler}",
         f"-DCMAKE_CXX_COMPILER={env['CXX']}"
     ]

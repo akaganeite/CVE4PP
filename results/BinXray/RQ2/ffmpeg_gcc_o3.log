@@ -1,0 +1,632 @@
+Detect o3 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2020-20446
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,psy_3gpp_analyze_channel,-1
+[*] /s; sim-cal:140.711928
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,psy_3gpp_analyze_channel,1
+[*] /s; sim-cal:136.964781
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,psy_3gpp_analyze_channel,1
+[*] /s; sim-cal:128.811756
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,psy_3gpp_analyze_channel,1
+[*] /s; sim-cal:140.182584
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-20448
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.3-o3-ffmpeg,encode_q_branch,-1
+[*] /s; sim-cal:136.36565
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.0.5-o3-ffmpeg,encode_q_branch,1
+[*] /s; sim-cal:127.809725
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.7-o3-ffmpeg,encode_q_branch,1
+[*] /s; sim-cal:123.814822
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.2-o3-ffmpeg,encode_q_branch,1
+[*] /s; sim-cal:139.958726
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.3-o3-ffmpeg,uninit,-1
+[*] /s; sim-cal:3.300338
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.0.5-o3-ffmpeg,uninit,1
+[*] /s; sim-cal:2.718094
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.7-o3-ffmpeg,uninit,1
+[*] /s; sim-cal:3.096229
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.2-o3-ffmpeg,uninit,1
+[*] /s; sim-cal:3.368948
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-20453
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,aac_encode_frame,-1
+[*] /s; sim-cal:3.648543
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,aac_encode_frame,1
+[*] /s; sim-cal:3.595067
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,aac_encode_frame,1
+[*] /s; sim-cal:3.498249
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,aac_encode_frame,1
+[*] /s; sim-cal:3.354559
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-20896
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,latm_write_packet,-1
+[*] /s; sim-cal:137.985183
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.9-o3-ffmpeg,latm_write_packet,1
+[*] /s; sim-cal:137.034233
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.6-o3-ffmpeg,latm_write_packet,1
+[*] /s; sim-cal:141.692722
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,latm_write_packet,1
+[*] /s; sim-cal:142.46095
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-20898
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter_prewitt,-1
+[*] /s; sim-cal:3.236648
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_prewitt,1
+[*] /s; sim-cal:2.760171
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter16_roberts,-1
+[*] /s; sim-cal:2.634301
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter16_roberts,1
+[*] /s; sim-cal:2.827978
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter_roberts,-1
+[*] /s; sim-cal:2.797339
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_roberts,1
+[*] /s; sim-cal:2.78625
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter_sobel,-1
+[*] /s; sim-cal:2.879933
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_sobel,1
+[*] /s; sim-cal:3.219092
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter16_sobel,-1
+[*] /s; sim-cal:3.413324
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter16_sobel,1
+[*] /s; sim-cal:3.277465
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.1-o3-ffmpeg,filter16_prewitt,-1
+[*] /s; sim-cal:3.306674
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter16_prewitt,1
+[*] /s; sim-cal:3.121282
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-21697
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,mpeg_mux_write_packet,-1
+[*] /s; sim-cal:2.86008
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.3-o3-ffmpeg,mpeg_mux_write_packet,1
+[*] /s; sim-cal:143.338802
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,mpeg_mux_write_packet,1
+[*] /s; sim-cal:149.0284
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,remove_decoded_packets,-1
+[*] /s; sim-cal:2.741612
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.3-o3-ffmpeg,remove_decoded_packets,1
+[*] /s; sim-cal:3.166096
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,remove_decoded_packets,1
+[*] /s; sim-cal:2.944544
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22015
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,mov_write_video_tag,-1
+[*] /s; sim-cal:3.213608
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,mov_write_video_tag,1
+target function: mov_write_video_tag not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,mov_write_video_tag,1
+target function: mov_write_video_tag not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,mov_write_video_tag,1
+[*] /s; sim-cal:2.865039
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22017
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,oscilloscope_filter_frame,-1
+[*] /s; sim-cal:2.942552
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,oscilloscope_filter_frame,1
+[*] /s; sim-cal:133.017994
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,oscilloscope_filter_frame,1
+[*] /s; sim-cal:3.34128
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22019
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ff_vmafmotion_init,-1
+[*] /s; sim-cal:2.952356
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,ff_vmafmotion_init,1
+[*] /s; sim-cal:2.633977
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,ff_vmafmotion_init,1
+[*] /s; sim-cal:2.989244
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,ff_vmafmotion_init,1
+[*] /s; sim-cal:3.137858
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22021
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_edges,-1
+[*] /s; sim-cal:2.945773
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,filter_edges,1
+[*] /s; sim-cal:2.723375
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,filter_edges,1
+[*] /s; sim-cal:2.607783
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,filter_edges,1
+[*] /s; sim-cal:3.242449
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_edges_16bit,-1
+[*] /s; sim-cal:2.744329
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,filter_edges_16bit,1
+[*] /s; sim-cal:2.661269
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,filter_edges_16bit,1
+[*] /s; sim-cal:2.791476
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,filter_edges_16bit,1
+[*] /s; sim-cal:2.897419
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22024
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,lagfun_frame16,-1
+[*] /s; sim-cal:2.785278
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,lagfun_frame16,1
+[*] /s; sim-cal:2.861326
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22029
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,slice_get_derivative,-1
+[*] /s; sim-cal:2.692748
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,slice_get_derivative,1
+[*] /s; sim-cal:2.608303
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,slice_get_derivative,1
+[*] /s; sim-cal:3.412784
+[*] Detection Result:P 0.23860727086533537/1.0 12/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22037
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ff_frame_thread_encoder_init,-1
+[*] /s; sim-cal:2.880068
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,ff_frame_thread_encoder_init,1
+[*] /s; sim-cal:3.430064
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,ff_frame_thread_encoder_init,1
+[*] /s; sim-cal:2.765656
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,ff_frame_thread_encoder_init,1
+[*] /s; sim-cal:3.03615
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22038
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,v4l2_m2m_destroy_context,-1
+[*] /s; sim-cal:3.32256
+[*] Detection Result:V 0.8571428571428571/0.75 1/1,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,v4l2_m2m_destroy_context,1
+[*] /s; sim-cal:3.134401
+[*] Detection Result:P 0.7777777777777778/0.8888888888888888 1/1,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ff_v4l2_m2m_codec_end,-1
+[*] /s; sim-cal:2.867004
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,ff_v4l2_m2m_codec_end,1
+[*] /s; sim-cal:2.884499
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,v4l2_decode_init,-1
+[*] /s; sim-cal:2.623566
+[*] Detection Result:V 0.5192307692307693/0.4230769230769231 6/6,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,v4l2_decode_init,1
+[*] /s; sim-cal:3.016868
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22039
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,avi_write_trailer,-1
+[*] /s; sim-cal:3.370462
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,avi_write_trailer,1
+[*] /s; sim-cal:3.497799
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22041
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,request_frame,-1
+[*] /s; sim-cal:2.664903
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o3-ffmpeg,request_frame,1
+[*] /s; sim-cal:134.764338
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,request_frame,1
+[*] /s; sim-cal:139.185325
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,request_frame,1
+[*] /s; sim-cal:2.832059
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22042
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ffmpeg_cleanup,-1
+[*] /s; sim-cal:2.931336
+[*] Detection Result:P 0.258130081300813/0.4832506203473945 31/30,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.3-o3-ffmpeg,ffmpeg_cleanup,1
+[*] /s; sim-cal:3.155809
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,ffmpeg_cleanup,1
+[*] /s; sim-cal:3.109714
+[*] Detection Result:V 0.3763440860215054/0.16666666666666666 13/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22043
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,mpeg_mux_end,-1
+[*] /s; sim-cal:2.809199
+[*] Detection Result:V 0.9555202821869488/0.6528924162257496 6/9,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,mpeg_mux_end,1
+[*] /s; sim-cal:3.057719
+[*] Detection Result:P 0.6528924162257496/0.9493474426807761 12/9,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,mpeg_mux_init,-1
+[*] /s; sim-cal:2.746971
+[*] Detection Result:V 0.9869281045751634/0.479530005458798 5/15,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,mpeg_mux_init,1
+[*] /s; sim-cal:2.924197
+[*] Detection Result:P 0.5662955561628444/0.9757882882882882 12/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22044
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,nut_write_trailer,-1
+[*] /s; sim-cal:2.975925
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o3-ffmpeg,nut_write_trailer,1
+[*] /s; sim-cal:2.688385
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,nut_write_trailer,1
+[*] /s; sim-cal:2.82496
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,nut_write_trailer,1
+[*] /s; sim-cal:2.801727
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22046
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ff_ac3_encode_init,-1
+[*] /s; sim-cal:3.010506
+[*] Detection Result:V 1.0/0.4638888888888889 3/5,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o3-ffmpeg,ff_ac3_encode_init,1
+[*] /s; sim-cal:2.773997
+[*] Detection Result:P 0.5187834224598931/1.0 6/4,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,ff_ac3_encode_init,1
+[*] /s; sim-cal:139.858408
+[*] Detection Result:P 0.5187834224598931/1.0 5/3,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,ff_ac3_encode_init,1
+[*] /s; sim-cal:3.333517
+[*] Detection Result:P 0.5187834224598931/1.0 8/6,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,ff_ac3_encode_close,-1
+[*] /s; sim-cal:2.495938
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o3-ffmpeg,ff_ac3_encode_close,1
+[*] /s; sim-cal:2.61621
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,ff_ac3_encode_close,1
+[*] /s; sim-cal:3.190118
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,ff_ac3_encode_close,1
+[*] /s; sim-cal:2.612751
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-24020
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_conv2d,-1
+target function: dnn_execute_layer_conv2d not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_conv2d,1
+target function: dnn_execute_layer_conv2d not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_math_binary,-1
+target function: dnn_execute_layer_math_binary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_math_binary,1
+target function: dnn_execute_layer_math_binary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_math_unary,-1
+target function: dnn_execute_layer_math_unary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_math_unary,1
+target function: dnn_execute_layer_math_unary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,calculate_operand_dims_count,-1
+target function: calculate_operand_dims_count not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,calculate_operand_dims_count,1
+target function: calculate_operand_dims_count not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,set_input_output_native,-1
+[*] /s; sim-cal:2.875906
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,set_input_output_native,1
+target function: set_input_output_native not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_maximum,-1
+target function: dnn_execute_layer_maximum not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_maximum,1
+target function: dnn_execute_layer_maximum not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_pad,-1
+target function: dnn_execute_layer_pad not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_pad,1
+target function: dnn_execute_layer_pad not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o3-ffmpeg,dnn_execute_layer_depth2space,-1
+target function: dnn_execute_layer_depth2space not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,dnn_execute_layer_depth2space,1
+target function: dnn_execute_layer_depth2space not found
+------------------------------------------
+[*] Detecting CVE: CVE-2021-38291
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.2-o3-ffmpeg,av_get_audio_frame_duration2,-1
+[*] /s; sim-cal:142.791147
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.1-o3-ffmpeg,av_get_audio_frame_duration2,-1
+[*] /s; sim-cal:143.521699
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.4-o3-ffmpeg,av_get_audio_frame_duration2,-1
+[*] /s; sim-cal:139.517785
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,av_get_audio_frame_duration2,1
+[*] /s; sim-cal:3.563363
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,av_get_audio_frame_duration2,1
+[*] /s; sim-cal:2.545348
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.2.16-o3-ffmpeg,av_get_audio_frame_duration2,1
+[*] /s; sim-cal:111.397973
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.2-o3-ffmpeg,av_get_audio_frame_duration,-1
+[*] /s; sim-cal:2.888564
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.1-o3-ffmpeg,av_get_audio_frame_duration,-1
+[*] /s; sim-cal:3.081011
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.4-o3-ffmpeg,av_get_audio_frame_duration,-1
+[*] /s; sim-cal:2.653092
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.7-o3-ffmpeg,av_get_audio_frame_duration,1
+[*] /s; sim-cal:3.089449
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.9-o3-ffmpeg,av_get_audio_frame_duration,1
+[*] /s; sim-cal:3.155753
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.2.16-o3-ffmpeg,av_get_audio_frame_duration,1
+[*] /s; sim-cal:2.64086
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-1475
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.6-o3-ffmpeg,g729_parse,-1
+[*] /s; sim-cal:3.100591
+[*] Detection Result:P 0.33945319450121375/0.8337835826966469 3/2,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.4-o3-ffmpeg,g729_parse,-1
+[*] /s; sim-cal:146.107143
+[*] Detection Result:P 0.2527333835200338/0.9893856160539309 6/1,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-5.0-o3-ffmpeg,g729_parse,-1
+[*] /s; sim-cal:149.757888
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4.2-o3-ffmpeg,g729_parse,1
+[*] /s; sim-cal:147.526507
+[*] Detection Result:P 0.2527333835200338/0.9893856160539309 6/1,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-5.0.1-o3-ffmpeg,g729_parse,1
+[*] /s; sim-cal:150.706678
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-5.1-o3-ffmpeg,g729_parse,1
+[*] /s; sim-cal:150.140606
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22020
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_input,-1
+[*] /s; sim-cal:2.710078
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:2.862386
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:2.883339
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:3.202044
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22022
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_frame,-1
+[*] /s; sim-cal:3.630958
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:3.282441
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:3.188416
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:3.481125
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22023
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_frame,-1
+[*] /s; sim-cal:0.01157
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.021289
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.008988
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.007126
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22026
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_frame,-1
+[*] /s; sim-cal:0.008961
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.019932
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.009471
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.010713
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_input,-1
+[*] /s; sim-cal:0.001449
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.00288
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001431
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001425
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22027
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_slice,-1
+[*] /s; sim-cal:2.872209
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_slice,1
+[*] /s; sim-cal:3.120353
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.6-o3-ffmpeg,filter_slice,1
+[*] /s; sim-cal:2.866687
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_slice,1
+[*] /s; sim-cal:2.778405
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22030
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,activate,-1
+[*] /s; sim-cal:2.673889
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,activate,1
+[*] /s; sim-cal:2.460885
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,activate,1
+[*] /s; sim-cal:2.62056
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22031
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_input,-1
+[*] /s; sim-cal:0.001679
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001403
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001259
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.002058
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22034
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_frame,-1
+[*] /s; sim-cal:0.007306
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.016896
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.006843
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_input,-1
+[*] /s; sim-cal:0.001012
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001072
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.000968
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22035
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_input,-1
+[*] /s; sim-cal:0.000943
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.001012
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_input,1
+[*] /s; sim-cal:0.000916
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_slice,-1
+[*] /s; sim-cal:0.002215
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,filter_slice,1
+[*] /s; sim-cal:0.001535
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,filter_slice,1
+[*] /s; sim-cal:0.003885
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22036
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,config_props,-1
+[*] /s; sim-cal:2.787681
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.8-o3-ffmpeg,config_props,1
+[*] /s; sim-cal:2.419161
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,config_props,1
+[*] /s; sim-cal:2.603791
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o3-ffmpeg,config_props,1
+[*] /s; sim-cal:2.622219
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-22048
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,filter_frame,-1
+[*] /s; sim-cal:0.013738
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-3.4.11-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:124.640984
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:2.621464
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o3-ffmpeg,filter_frame,1
+[*] /s; sim-cal:0.008571
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-23906
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o3-ffmpeg,read_packet,-1
+[*] /s; sim-cal:2.555596
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,read_packet,1
+[*] /s; sim-cal:2.582122
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.1-o3-ffmpeg,read_packet,1
+[*] /s; sim-cal:2.54065
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,read_packet,1
+[*] /s; sim-cal:2.798103
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35965
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.2-o3-ffmpeg,decode_frame,-1
+[*] /s; sim-cal:2.653557
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.1-o3-ffmpeg,decode_frame,-1
+[*] /s; sim-cal:2.605731
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.3-o3-ffmpeg,decode_frame,-1
+[*] /s; sim-cal:2.61563
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.5-o3-ffmpeg,decode_frame,1
+[*] /s; sim-cal:2.541572
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.2-o3-ffmpeg,decode_frame,1
+[*] /s; sim-cal:0.010453
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o3-ffmpeg,decode_frame,1
+[*] /s; sim-cal:2.813485
+[*] Detection Result:N VP no diff,1

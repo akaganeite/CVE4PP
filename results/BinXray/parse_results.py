@@ -197,12 +197,12 @@ def parse_binxray_results(input_file, output_file, project_name):
     
     # 写入CSV文件
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['CVE', 'funcname', 'succeed', 'false_positive', 'false_negative', 'failed_versions', 'too_much_diff', 'cant_tell', 'no_diff', 'func_not_found', 'targets']
+        fieldnames = ['cve', 'funcname', 'succeed', 'false_positive', 'false_negative', 'failed_versions', 'too_much_diff', 'cant_tell', 'no_diff', 'func_not_found', 'targets']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for (cve, funcname), stats in results.items():
             writer.writerow({
-                'CVE': cve,
+                'cve': cve,
                 'funcname': funcname,
                 'succeed': stats['succeed'],
                 'false_positive': ';'.join(stats['false_positive']) if stats['false_positive'] else '',
@@ -291,27 +291,38 @@ def main():
         required=True,
         type=str,
     )
-
-    parser.add_argument('input_file', help='输入文件名')
-    parser.add_argument('output_file', help='输出文件名（必须以.csv结尾）')
+    parser.add_argument(
+        "-opt", "--optimization",
+        type=str,
+        help="优化级别 (如 O0, O1, O2, O3)"
+    )
     
     args = parser.parse_args()
     PROJ = args.project
+    
+    # 根据是否指定opt参数来决定文件名
+    if args.optimization:
+        output_file = f"RQ2/{args.project}_gcc_{args.optimization}_result.csv"
+        input_file = f"RQ2/{args.project}_gcc_{args.optimization}.log"
+    else:
+        output_file = f"{args.project}_result.csv"
+        input_file = f"{args.project}-test.log"
+    
     # 检查输出文件扩展名
-    if not args.output_file.endswith('.csv'):
+    if not output_file.endswith('.csv'):
         print("错误：输出文件名必须以.csv结尾")
         sys.exit(1)
     
     # 检查输入文件是否存在
     try:
-        with open(args.input_file, 'r', encoding='utf-8') as f:
+        with open(input_file, 'r', encoding='utf-8') as f:
             pass
     except FileNotFoundError:
-        print(f"错误：输入文件 {args.input_file} 不存在")
+        print(f"错误：输入文件 {input_file} 不存在")
         sys.exit(1)
     
     # 解析结果
-    parse_binxray_results(args.input_file, args.output_file, PROJ)
+    parse_binxray_results(input_file, output_file, PROJ)
 
 if __name__ == "__main__":
             

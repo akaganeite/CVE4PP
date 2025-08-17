@@ -5,7 +5,7 @@
 # --- Configuration ---
 REPO_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/target/openssl"
 DETAILS_FILE="/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/openssl/details_llvm"
-REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/openssl-new"
+REFERENCE_DIR="/home/zhangxb/patch/related-works/CVE-Dataset/bitcode/reference/openssl"
 
 # --- Helper function to compile a specific git ref ---
 compile_and_copy_openssl() {

@@ -1,0 +1,17 @@
+project,CVE,func,succeed,target,false_positive,false_negative,failed_versions
+ffmpeg,CVE-2020-20896,latm_write_packet,4,4,0,0,
+ffmpeg,CVE-2020-21697,mpeg_mux_write_packet,3,3,0,0,
+ffmpeg,CVE-2020-22019,ff_vmafmotion_init,4,4,0,0,
+ffmpeg,CVE-2020-22021,filter_edges,4,4,0,0,
+ffmpeg,CVE-2020-22029,slice_get_derivative,1,3,0,2,
+ffmpeg,CVE-2020-22037,ff_frame_thread_encoder_init,3,4,0,1,
+ffmpeg,CVE-2020-22038,ff_v4l2_m2m_codec_end,2,2,0,0,
+ffmpeg,CVE-2020-22038,v4l2_decode_init,2,2,0,0,
+ffmpeg,CVE-2020-22039,avi_write_trailer,2,2,0,0,
+ffmpeg,CVE-2020-22046,ff_ac3_encode_close,4,4,0,0,
+ffmpeg,CVE-2020-24020,dnn_execute_layer_conv2d,0,2,0,0,/binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg;/binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg
+ffmpeg,CVE-2020-24020,dnn_execute_layer_math_binary,0,2,0,0,/binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg;/binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg
+ffmpeg,CVE-2020-24020,dnn_execute_layer_math_unary,0,2,0,0,/binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg;/binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg
+ffmpeg,CVE-2020-24020,dnn_execute_layer_maximum,0,2,0,0,/binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg;/binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg
+ffmpeg,CVE-2020-24020,dnn_execute_layer_pad,0,2,0,0,/binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg;/binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg
+ffmpeg,CVE-2022-1475,g729_parse,4,6,2,0,

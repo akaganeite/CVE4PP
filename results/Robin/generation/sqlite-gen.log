@@ -1,0 +1,175 @@
+2025-07-22 13:02:09,947 - INFO - processing CVE-2020-13434 ( 1)
+2025-07-22 13:02:09,948 - INFO - running: python main.py --mfi --cve_id CVE-2020-13434 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-13434-vuln-8e50d65-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-13434-patch-dd6c33d-sqlite3 --vul_func_name printfTempBuf
+2025-07-22 13:02:13,240 - ERROR - fail CVE-2020-13434 ,details0
+
+2025-07-22 13:02:13,240 - INFO - processing CVE-2020-13434 ( 2)
+2025-07-22 13:02:13,240 - INFO - running: python main.py --mfi --cve_id CVE-2020-13434 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-13434-vuln-8e50d65-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-13434-patch-dd6c33d-sqlite3 --vul_func_name sqlite3_str_vappendf
+2025-07-22 13:03:07,434 - ERROR - fail CVE-2020-13434 ,details0
+
+2025-07-22 13:03:07,434 - INFO - processing CVE-2020-35525 ( 3)
+2025-07-22 13:03:07,434 - INFO - running: python main.py --mfi --cve_id CVE-2020-35525 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-35525-vuln-1cfee74-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-35525-patch-5f69512-sqlite3 --vul_func_name multiSelect
+2025-07-22 13:03:33,922 - ERROR - fail CVE-2020-35525 ,details0
+
+2025-07-22 13:03:33,922 - INFO - processing CVE-2020-35527 ( 4)
+2025-07-22 13:03:33,922 - INFO - running: python main.py --mfi --cve_id CVE-2020-35527 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-35527-vuln-e8c4f03-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-35527-patch-0990c41-sqlite3 --vul_func_name selectExpander
+2025-07-22 13:04:42,782 - ERROR - fail CVE-2020-35527 ,details0
+
+2025-07-22 13:04:42,782 - INFO - processing CVE-2016-6153 ( 5)
+2025-07-22 13:04:42,783 - INFO - running: python main.py --mfi --cve_id CVE-2016-6153 --path_to_vul_bin /binaries/reference/sqlite/CVE-2016-6153-vuln-83b74f2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2016-6153-patch-7694e06-sqlite3 --vul_func_name unixGetTempname
+2025-07-22 13:04:53,923 - INFO - success CVE-2016-6153,details in sqlite-cve_logs/CVE-2016-6153.log
+
+2025-07-22 13:04:53,923 - INFO - processing CVE-2016-6153 ( 6)
+2025-07-22 13:04:53,923 - INFO - running: python main.py --mfi --cve_id CVE-2016-6153 --path_to_vul_bin /binaries/reference/sqlite/CVE-2016-6153-vuln-83b74f2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2016-6153-patch-7694e06-sqlite3 --vul_func_name unixTempFileDir
+2025-07-22 13:05:11,762 - ERROR - fail CVE-2016-6153 ,details0
+
+2025-07-22 13:05:11,762 - INFO - processing CVE-2019-19646 ( 7)
+2025-07-22 13:05:11,762 - INFO - running: python main.py --mfi --cve_id CVE-2019-19646 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19646-vuln-ebd70ee-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19646-patch-926f796-sqlite3 --vul_func_name sqlite3CreateColumnExpr
+2025-07-22 13:05:20,251 - INFO - success CVE-2019-19646,details in sqlite-cve_logs/CVE-2019-19646.log
+
+2025-07-22 13:05:20,251 - INFO - processing CVE-2019-19646 ( 8)
+2025-07-22 13:05:20,251 - INFO - running: python main.py --mfi --cve_id CVE-2019-19646 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19646-vuln-ebd70ee-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19646-patch-926f796-sqlite3 --vul_func_name sqlite3Pragma
+2025-07-22 13:05:23,119 - ERROR - fail CVE-2019-19646 ,details0
+
+2025-07-22 13:05:23,120 - INFO - processing CVE-2019-19959 ( 9)
+2025-07-22 13:05:23,120 - INFO - running: python main.py --mfi --cve_id CVE-2019-19959 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19959-vuln-5f0dfc0-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19959-patch-d8f2d46-sqlite3 --vul_func_name zipfileStep
+2025-07-22 13:06:36,251 - ERROR - fail CVE-2019-19959 ,details0
+
+2025-07-22 13:06:36,251 - INFO - processing CVE-2019-19959 ( 10)
+2025-07-22 13:06:36,252 - INFO - running: python main.py --mfi --cve_id CVE-2019-19959 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19959-vuln-5f0dfc0-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19959-patch-d8f2d46-sqlite3 --vul_func_name zipfileUpdate
+2025-07-22 13:07:40,144 - ERROR - fail CVE-2019-19959 ,details0
+
+2025-07-22 13:07:40,144 - INFO - processing CVE-2019-8457 ( 11)
+2025-07-22 13:07:40,144 - INFO - running: python main.py --mfi --cve_id CVE-2019-8457 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-8457-vuln-d0f820a-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-8457-patch-e41fd72-sqlite3 --vul_func_name rtreenode
+2025-07-22 13:07:49,900 - INFO - success CVE-2019-8457,details in sqlite-cve_logs/CVE-2019-8457.log
+
+2025-07-22 13:07:49,901 - INFO - processing CVE-2020-13632 ( 12)
+2025-07-22 13:07:49,901 - INFO - running: python main.py --mfi --cve_id CVE-2020-13632 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-13632-vuln-3d863b5-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-13632-patch-219b8e7-sqlite3 --vul_func_name fts3ExprLHits
+2025-07-22 13:08:17,166 - INFO - success CVE-2020-13632,details in sqlite-cve_logs/CVE-2020-13632.log
+
+2025-07-22 13:08:17,166 - INFO - processing CVE-2019-19242 ( 13)
+2025-07-22 13:08:17,166 - INFO - running: python main.py --mfi --cve_id CVE-2019-19242 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19242-vuln-9c9c709-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19242-patch-57f7ece-sqlite3 --vul_func_name sqlite3ExprCodeTarget
+2025-07-22 13:10:43,945 - ERROR - fail CVE-2019-19242 ,details0
+
+2025-07-22 13:10:43,945 - INFO - processing CVE-2019-19242 ( 14)
+2025-07-22 13:10:43,945 - INFO - running: python main.py --mfi --cve_id CVE-2019-19242 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19242-vuln-9c9c709-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19242-patch-57f7ece-sqlite3 --vul_func_name whereIndexExprTransColumn
+2025-07-22 13:11:03,463 - ERROR - fail CVE-2019-19242 ,details0
+
+2025-07-22 13:11:03,464 - INFO - processing CVE-2019-19926 ( 15)
+2025-07-22 13:11:03,464 - INFO - running: python main.py --mfi --cve_id CVE-2019-19926 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19926-vuln-6ad0e25-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19926-patch-8428b3b-sqlite3 --vul_func_name multiSelect
+2025-07-22 13:11:19,546 - ERROR - fail CVE-2019-19926 ,details0
+
+2025-07-22 13:11:19,547 - INFO - processing CVE-2020-13630 ( 16)
+2025-07-22 13:11:19,547 - INFO - running: python main.py --mfi --cve_id CVE-2020-13630 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-13630-vuln-c484288-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-13630-patch-becd68b-sqlite3 --vul_func_name fts3EvalNextRow
+2025-07-22 13:11:27,196 - ERROR - fail CVE-2020-13630 ,details0
+
+2025-07-22 13:11:27,196 - INFO - processing CVE-2019-19880 ( 17)
+2025-07-22 13:11:27,196 - INFO - running: python main.py --mfi --cve_id CVE-2019-19880 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19880-vuln-646975c-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19880-patch-75e95e1-sqlite3 --vul_func_name exprListAppendList
+2025-07-22 13:11:46,278 - ERROR - fail CVE-2019-19880 ,details0
+
+2025-07-22 13:11:46,279 - INFO - processing CVE-2019-19645 ( 18)
+2025-07-22 13:11:46,279 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name renameColumnFunc
+2025-07-22 13:12:05,057 - ERROR - fail CVE-2019-19645 ,details0
+
+2025-07-22 13:12:05,058 - INFO - processing CVE-2019-19645 ( 19)
+2025-07-22 13:12:05,058 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name renameColumnSelectCb
+2025-07-22 13:12:13,917 - INFO - success CVE-2019-19645,details in sqlite-cve_logs/CVE-2019-19645.log
+
+2025-07-22 13:12:13,917 - INFO - processing CVE-2019-19645 ( 20)
+2025-07-22 13:12:13,917 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name renameTableFunc
+2025-07-22 13:12:23,941 - INFO - success CVE-2019-19645,details in sqlite-cve_logs/CVE-2019-19645.log
+
+2025-07-22 13:12:23,942 - INFO - processing CVE-2019-19645 ( 21)
+2025-07-22 13:12:23,942 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name renameTableSelectCb
+2025-07-22 13:12:32,758 - INFO - success CVE-2019-19645,details in sqlite-cve_logs/CVE-2019-19645.log
+
+2025-07-22 13:12:32,758 - INFO - processing CVE-2019-19645 ( 22)
+2025-07-22 13:12:32,758 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name renameUnmapSelectCb
+2025-07-22 13:12:41,262 - INFO - success CVE-2019-19645,details in sqlite-cve_logs/CVE-2019-19645.log
+
+2025-07-22 13:12:41,262 - INFO - processing CVE-2019-19645 ( 23)
+2025-07-22 13:12:41,262 - INFO - running: python main.py --mfi --cve_id CVE-2019-19645 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19645-vuln-c19e22f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19645-patch-3809696-sqlite3 --vul_func_name sqlite3CreateView
+2025-07-22 13:12:55,317 - ERROR - fail CVE-2019-19645 ,details0
+
+2025-07-22 13:12:55,317 - INFO - processing CVE-2022-46908 ( 24)
+2025-07-22 13:12:55,317 - INFO - running: python main.py --mfi --cve_id CVE-2022-46908 --path_to_vul_bin /binaries/reference/sqlite/CVE-2022-46908-vuln-a81c5b3-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2022-46908-patch-8af6d71-sqlite3 --vul_func_name safeModeAuth
+2025-07-22 13:12:58,561 - ERROR - fail CVE-2022-46908 ,details0
+
+2025-07-22 13:12:58,562 - INFO - processing CVE-2023-7104 ( 25)
+2025-07-22 13:12:58,562 - INFO - running: python main.py --mfi --cve_id CVE-2023-7104 --path_to_vul_bin /binaries/reference/sqlite/CVE-2023-7104-vuln-0a4c31d-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2023-7104-patch-09f1652-sqlite3 --vul_func_name sessionReadRecord
+2025-07-22 13:13:35,285 - ERROR - fail CVE-2023-7104 ,details0
+
+2025-07-22 13:13:35,285 - INFO - processing CVE-2018-20346 ( 26)
+2025-07-22 13:13:35,285 - INFO - running: python main.py --mfi --cve_id CVE-2018-20346 --path_to_vul_bin /binaries/reference/sqlite/CVE-2018-20346-vuln-c6e519f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2018-20346-patch-29d77dc-sqlite3 --vul_func_name fts3ScanInteriorNode
+2025-07-22 13:13:43,467 - INFO - success CVE-2018-20346,details in sqlite-cve_logs/CVE-2018-20346.log
+
+2025-07-22 13:13:43,467 - INFO - processing CVE-2018-20346 ( 27)
+2025-07-22 13:13:43,467 - INFO - running: python main.py --mfi --cve_id CVE-2018-20346 --path_to_vul_bin /binaries/reference/sqlite/CVE-2018-20346-vuln-c6e519f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2018-20346-patch-29d77dc-sqlite3 --vul_func_name fts3SegReaderNext
+2025-07-22 13:13:52,523 - INFO - success CVE-2018-20346,details in sqlite-cve_logs/CVE-2018-20346.log
+
+2025-07-22 13:13:52,524 - INFO - processing CVE-2018-20346 ( 28)
+2025-07-22 13:13:52,524 - INFO - running: python main.py --mfi --cve_id CVE-2018-20346 --path_to_vul_bin /binaries/reference/sqlite/CVE-2018-20346-vuln-c6e519f-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2018-20346-patch-29d77dc-sqlite3 --vul_func_name nodeReaderNext
+2025-07-22 13:14:56,912 - ERROR - fail CVE-2018-20346 ,details0
+
+2025-07-22 13:14:56,912 - INFO - processing CVE-2020-15358 ( 29)
+2025-07-22 13:14:56,912 - INFO - running: python main.py --mfi --cve_id CVE-2020-15358 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-15358-vuln-86d2de2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-15358-patch-b7cbf5c-sqlite3 --vul_func_name flattenSubquery
+2025-07-22 13:15:13,163 - ERROR - fail CVE-2020-15358 ,details0
+
+2025-07-22 13:15:13,163 - INFO - processing CVE-2020-15358 ( 30)
+2025-07-22 13:15:13,163 - INFO - running: python main.py --mfi --cve_id CVE-2020-15358 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-15358-vuln-86d2de2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-15358-patch-b7cbf5c-sqlite3 --vul_func_name multiSelect
+2025-07-22 13:15:51,140 - ERROR - fail CVE-2020-15358 ,details0
+
+2025-07-22 13:15:51,140 - INFO - processing CVE-2020-15358 ( 31)
+2025-07-22 13:15:51,140 - INFO - running: python main.py --mfi --cve_id CVE-2020-15358 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-15358-vuln-86d2de2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-15358-patch-b7cbf5c-sqlite3 --vul_func_name sqlite3Select
+2025-07-22 13:16:07,361 - ERROR - fail CVE-2020-15358 ,details0
+
+2025-07-22 13:16:07,362 - INFO - processing CVE-2019-19924 ( 32)
+2025-07-22 13:16:07,362 - INFO - running: python main.py --mfi --cve_id CVE-2019-19924 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19924-vuln-34ab941-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19924-patch-8654186-sqlite3 --vul_func_name codeCompare
+2025-07-22 13:16:18,372 - INFO - success CVE-2019-19924,details in sqlite-cve_logs/CVE-2019-19924.log
+
+2025-07-22 13:16:18,372 - INFO - processing CVE-2019-19924 ( 33)
+2025-07-22 13:16:18,373 - INFO - running: python main.py --mfi --cve_id CVE-2019-19924 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19924-vuln-34ab941-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19924-patch-8654186-sqlite3 --vul_func_name sqlite3WindowRewrite
+2025-07-22 13:16:29,919 - INFO - success CVE-2019-19924,details in sqlite-cve_logs/CVE-2019-19924.log
+
+2025-07-22 13:16:29,919 - INFO - processing CVE-2019-19924 ( 34)
+2025-07-22 13:16:29,919 - INFO - running: python main.py --mfi --cve_id CVE-2019-19924 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19924-vuln-34ab941-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19924-patch-8654186-sqlite3 --vul_func_name vdbeVComment
+2025-07-22 13:16:43,322 - ERROR - fail CVE-2019-19924 ,details0
+
+2025-07-22 13:16:43,322 - INFO - processing CVE-2019-19923 ( 35)
+2025-07-22 13:16:43,322 - INFO - running: python main.py --mfi --cve_id CVE-2019-19923 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19923-vuln-6e1c45e-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19923-patch-396afe6-sqlite3 --vul_func_name flattenSubquery
+2025-07-22 13:17:04,362 - ERROR - fail CVE-2019-19923 ,details0
+
+2025-07-22 13:17:04,362 - INFO - processing CVE-2021-36690 ( 36)
+2025-07-22 13:17:04,362 - INFO - running: python main.py --mfi --cve_id CVE-2021-36690 --path_to_vul_bin /binaries/reference/sqlite/CVE-2021-36690-vuln-9d41caf-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2021-36690-patch-77ea223-sqlite3 --vul_func_name idxGetTableInfo
+2025-07-22 13:17:18,565 - INFO - success CVE-2021-36690,details in sqlite-cve_logs/CVE-2021-36690.log
+
+2025-07-22 13:17:18,565 - INFO - processing CVE-2019-19244 ( 37)
+2025-07-22 13:17:18,565 - INFO - running: python main.py --mfi --cve_id CVE-2019-19244 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19244-vuln-c398c65-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19244-patch-e59c562-sqlite3 --vul_func_name sqlite3Select
+2025-07-22 13:18:36,045 - ERROR - fail CVE-2019-19244 ,details0
+
+2025-07-22 13:18:36,045 - INFO - processing CVE-2019-19317 ( 38)
+2025-07-22 13:18:36,045 - INFO - running: python main.py --mfi --cve_id CVE-2019-19317 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19317-vuln-57f7ece-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19317-patch-522ebfa-sqlite3 --vul_func_name lookupName
+2025-07-22 13:21:25,199 - ERROR - fail CVE-2019-19317 ,details0
+
+2025-07-22 13:21:25,199 - INFO - processing CVE-2019-20218 ( 39)
+2025-07-22 13:21:25,200 - INFO - running: python main.py --mfi --cve_id CVE-2019-20218 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-20218-vuln-b4b3630-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-20218-patch-a6c1a71-sqlite3 --vul_func_name selectExpander
+2025-07-22 13:21:41,137 - ERROR - fail CVE-2019-20218 ,details0
+
+2025-07-22 13:21:41,137 - INFO - processing CVE-2021-31239 ( 40)
+2025-07-22 13:21:41,137 - INFO - running: python main.py --mfi --cve_id CVE-2021-31239 --path_to_vul_bin /binaries/reference/sqlite/CVE-2021-31239-vuln-204b634-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2021-31239-patch-6536c4f-sqlite3 --vul_func_name apndOpen
+2025-07-22 13:22:23,008 - ERROR - fail CVE-2021-31239 ,details0
+
+2025-07-22 13:22:23,009 - INFO - processing CVE-2019-19925 ( 41)
+2025-07-22 13:22:23,009 - INFO - running: python main.py --mfi --cve_id CVE-2019-19925 --path_to_vul_bin /binaries/reference/sqlite/CVE-2019-19925-vuln-59c5679-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2019-19925-patch-54d5010-sqlite3 --vul_func_name zipfileUpdate
+2025-07-22 13:23:10,343 - ERROR - fail CVE-2019-19925 ,details0
+
+2025-07-22 13:23:10,344 - INFO - processing CVE-2020-11655 ( 42)
+2025-07-22 13:23:10,344 - INFO - running: python main.py --mfi --cve_id CVE-2020-11655 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-11655-vuln-4db7ab5-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-11655-patch-c415d91-sqlite3 --vul_func_name resetAccumulator
+2025-07-22 13:23:30,184 - ERROR - fail CVE-2020-11655 ,details0
+
+2025-07-22 13:23:30,184 - INFO - processing CVE-2020-11656 ( 43)
+2025-07-22 13:23:30,184 - INFO - running: python main.py --mfi --cve_id CVE-2020-11656 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-11656-vuln-91654b2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-11656-patch-fb99e38-sqlite3 --vul_func_name renameUnmapSelectCb
+2025-07-22 13:23:43,293 - ERROR - fail CVE-2020-11656 ,details0
+
+2025-07-22 13:23:43,294 - INFO - processing CVE-2020-11656 ( 44)
+2025-07-22 13:23:43,294 - INFO - running: python main.py --mfi --cve_id CVE-2020-11656 --path_to_vul_bin /binaries/reference/sqlite/CVE-2020-11656-vuln-91654b2-sqlite3 --path_to_patch_bin /binaries/reference/sqlite/CVE-2020-11656-patch-fb99e38-sqlite3 --vul_func_name unmapColumnIdlistNames
+2025-07-22 13:23:46,850 - ERROR - fail CVE-2020-11656 ,details0

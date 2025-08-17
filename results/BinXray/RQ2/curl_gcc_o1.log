@@ -1,0 +1,966 @@
+=========2025-08-12 15:34:46.900606============
+Detect o1 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2017-2629
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,allocate_conn,-1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,allocate_conn,-1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,allocate_conn,-1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.53.0-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.53.1-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.54.0-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2013-1944
+[*] Detection for /binaries/target/curl/curl-7.29.0-o1-curl,tailmatch,-1
+[*] /s; sim-cal:0.025956
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.30.0-o1-curl,tailmatch,1
+[*] /s; sim-cal:0.015729
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.31.0-o1-curl,tailmatch,1
+[*] /s; sim-cal:0.016099
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.32.0-o1-curl,tailmatch,1
+[*] /s; sim-cal:0.01665
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16840
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,Curl_close,-1
+[*] /s; sim-cal:0.055491
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,Curl_close,-1
+[*] /s; sim-cal:0.029482
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_close,-1
+[*] /s; sim-cal:0.036745
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.62.0-o1-curl,Curl_close,1
+[*] /s; sim-cal:0.036657
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,Curl_close,1
+[*] /s; sim-cal:0.016843
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,Curl_close,1
+[*] /s; sim-cal:0.020812
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000301
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_http_readwrite_headers,-1
+[*] /s; sim-cal:0.113667
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_http_readwrite_headers,-1
+[*] /s; sim-cal:5.633973
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_http_readwrite_headers,-1
+[*] /s; sim-cal:5.093185
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_http_readwrite_headers,1
+[*] /s; sim-cal:0.959218
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,Curl_http_readwrite_headers,1
+[*] /s; sim-cal:2.245581
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,Curl_http_readwrite_headers,1
+[*] /s; sim-cal:1.44965
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-9586
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,dprintf_formatf,-1
+[*] /s; sim-cal:1.542867
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,dprintf_formatf,-1
+[*] /s; sim-cal:4.537078
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,dprintf_formatf,-1
+[*] /s; sim-cal:4.894697
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,dprintf_formatf,1
+[*] /s; sim-cal:0.893605
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,dprintf_formatf,1
+[*] /s; sim-cal:0.990384
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o1-curl,dprintf_formatf,1
+[*] /s; sim-cal:0.904845
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9502
+[*] Detection for /binaries/target/curl/curl-7.54.0-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.53.1-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.53.0-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.54.1-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.55.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.55.1-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7407
+[*] Detection for /binaries/target/curl/curl-7.53.1-o1-curl,ourWriteOut,-1
+[*] /s; sim-cal:0.797101
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.54.0-o1-curl,ourWriteOut,1
+[*] /s; sim-cal:0.753828
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.54.1-o1-curl,ourWriteOut,1
+[*] /s; sim-cal:0.819865
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.55.0-o1-curl,ourWriteOut,1
+[*] /s; sim-cal:0.803629
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16839
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,Curl_auth_create_plain_message,-1
+[*] /s; sim-cal:0.714225
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,Curl_auth_create_plain_message,-1
+[*] /s; sim-cal:0.654887
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_auth_create_plain_message,-1
+[*] /s; sim-cal:0.633888
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.62.0-o1-curl,Curl_auth_create_plain_message,1
+[*] /s; sim-cal:1.42121
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,Curl_auth_create_plain_message,1
+[*] /s; sim-cal:0.608283
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,Curl_auth_create_plain_message,1
+[*] /s; sim-cal:0.634921
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000300
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_pp_readresp,-1
+[*] /s; sim-cal:0.815272
+[*] Detection Result:P 0.11417429193899782/0.12019893321313199 34/34,-1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_pp_readresp,-1
+[*] /s; sim-cal:0.96311
+[*] Detection Result:P 0.1282483660130719/0.13860634062053942 34/34,-1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_pp_readresp,-1
+[*] /s; sim-cal:0.849987
+[*] Detection Result:P 0.1282483660130719/0.13860634062053942 34/34,-1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_pp_readresp,1
+[*] /s; sim-cal:0.802414
+[*] Detection Result:P 0.11880820408509196/0.16322285786931096 34/34,1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,Curl_pp_readresp,1
+[*] /s; sim-cal:0.853975
+[*] Detection Result:P 0.11880820408509196/0.14781545046190353 34/34,1
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,Curl_pp_readresp,1
+[*] /s; sim-cal:0.770034
+[*] Detection Result:P 0.12028532917465969/0.15000115167578026 34/34,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-46219
+[*] Detection for /binaries/target/curl/curl-8.4.0-o1-curl,Curl_fopen,-1
+[*] /s; sim-cal:6.418931
+[*] Detection Result:V 0.13518601432962324/0.1341605054013721 18/18,-1
+[*] Detection for /binaries/target/curl/curl-8.2.1-o1-curl,Curl_fopen,-1
+[*] /s; sim-cal:6.313699
+[*] Detection Result:V 0.1345362417500261/0.1336429070576868 18/18,-1
+[*] Detection for /binaries/target/curl/curl-8.2.0-o1-curl,Curl_fopen,-1
+[*] /s; sim-cal:6.484446
+[*] Detection Result:V 0.1345362417500261/0.1336429070576868 18/18,-1
+[*] Detection for /binaries/target/curl/curl-8.5.0-o1-curl,Curl_fopen,1
+[*] /s; sim-cal:8.21232
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-8.6.0-o1-curl,Curl_fopen,1
+[*] /s; sim-cal:7.306076
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-8.7.1-o1-curl,Curl_fopen,1
+[*] /s; sim-cal:7.338485
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8621
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,parsedate,-1
+target function: parsedate not found
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,parsedate,-1
+target function: parsedate not found
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,parsedate,-1
+target function: parsedate not found
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,parsedate,1
+target function: parsedate not found
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,parsedate,1
+target function: parsedate not found
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,parsedate,1
+target function: parsedate not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-0500
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_smtp_escape_eob,-1
+[*] /s; sim-cal:1.008895
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_smtp_escape_eob,-1
+[*] /s; sim-cal:0.960048
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_smtp_escape_eob,-1
+[*] /s; sim-cal:0.699546
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,Curl_smtp_escape_eob,1
+[*] /s; sim-cal:0.754072
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,Curl_smtp_escape_eob,1
+[*] /s; sim-cal:0.700117
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.62.0-o1-curl,Curl_smtp_escape_eob,1
+[*] /s; sim-cal:0.685476
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2013-0249
+[*] Detection for /binaries/target/curl/curl-7.30.0-o1-curl,Curl_sasl_create_digest_md5_message,1
+[*] /s; sim-cal:0.827063
+[*] Detection Result:V 0.062104523084134056/0.05179282868525897 28/28,1
+[*] Detection for /binaries/target/curl/curl-7.31.0-o1-curl,Curl_sasl_create_digest_md5_message,1
+[*] /s; sim-cal:0.598378
+[*] Detection Result:V 0.062104523084134056/0.05179282868525897 28/28,1
+[*] Detection for /binaries/target/curl/curl-7.32.0-o1-curl,Curl_sasl_create_digest_md5_message,1
+[*] /s; sim-cal:0.847341
+[*] Detection Result:V 0.061615990731199666/0.05138339920948617 28/28,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-0015
+[*] Detection for /binaries/target/curl/curl-7.34.0-o1-curl,ConnectionExists,-1
+target function: ConnectionExists not found
+[*] Detection for /binaries/target/curl/curl-7.33.0-o1-curl,ConnectionExists,-1
+target function: ConnectionExists not found
+[*] Detection for /binaries/target/curl/curl-7.32.0-o1-curl,ConnectionExists,-1
+target function: ConnectionExists not found
+[*] Detection for /binaries/target/curl/curl-7.35.0-o1-curl,ConnectionExists,1
+target function: ConnectionExists not found
+[*] Detection for /binaries/target/curl/curl-7.36.0-o1-curl,ConnectionExists,1
+target function: ConnectionExists not found
+[*] Detection for /binaries/target/curl/curl-7.37.0-o1-curl,ConnectionExists,1
+target function: ConnectionExists not found
+------------------------------------------
+[*] Detecting CVE: CVE-2020-8169
+[*] Detection for /binaries/target/curl/curl-7.70.0-o1-curl,override_login,-1
+target function: override_login not found
+[*] Detection for /binaries/target/curl/curl-7.69.1-o1-curl,override_login,-1
+target function: override_login not found
+[*] Detection for /binaries/target/curl/curl-7.69.0-o1-curl,override_login,-1
+target function: override_login not found
+[*] Detection for /binaries/target/curl/curl-7.71.0-o1-curl,override_login,1
+target function: override_login not found
+[*] Detection for /binaries/target/curl/curl-7.71.1-o1-curl,override_login,1
+target function: override_login not found
+[*] Detection for /binaries/target/curl/curl-7.72.0-o1-curl,override_login,1
+target function: override_login not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8817
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,setcharset,-1
+target function: setcharset not found
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,setcharset,-1
+target function: setcharset not found
+[*] Detection for /binaries/target/curl/curl-7.55.1-o1-curl,setcharset,-1
+target function: setcharset not found
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,setcharset,1
+target function: setcharset not found
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,setcharset,1
+target function: setcharset not found
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,setcharset,1
+target function: setcharset not found
+------------------------------------------
+[*] Detecting CVE: CVE-2021-22898
+[*] Detection for /binaries/target/curl/curl-7.76.1-o1-curl,suboption,-1
+[*] /s; sim-cal:6.643579
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.76.0-o1-curl,suboption,-1
+[*] /s; sim-cal:7.37476
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.75.0-o1-curl,suboption,-1
+[*] /s; sim-cal:6.515384
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.77.0-o1-curl,suboption,1
+[*] /s; sim-cal:6.72194
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.78.0-o1-curl,suboption,1
+[*] /s; sim-cal:6.626661
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.79.0-o1-curl,suboption,1
+[*] /s; sim-cal:8.883326
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-5482
+[*] Detection for /binaries/target/curl/curl-7.65.3-o1-curl,tftp_connect,-1
+[*] /s; sim-cal:5.532969
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o1-curl,tftp_connect,-1
+[*] /s; sim-cal:5.709209
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o1-curl,tftp_connect,-1
+[*] /s; sim-cal:5.366462
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.66.0-o1-curl,tftp_connect,1
+[*] /s; sim-cal:5.991093
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.67.0-o1-curl,tftp_connect,1
+[*] /s; sim-cal:5.415483
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.68.0-o1-curl,tftp_connect,1
+[*] /s; sim-cal:5.799864
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8624
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8618
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,alloc_addbyter,-1
+[*] /s; sim-cal:0.679801
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,alloc_addbyter,-1
+[*] /s; sim-cal:0.570622
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,alloc_addbyter,-1
+[*] /s; sim-cal:0.915225
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,alloc_addbyter,1
+[*] /s; sim-cal:0.720285
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,alloc_addbyter,1
+[*] /s; sim-cal:0.66592
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,alloc_addbyter,1
+[*] /s; sim-cal:0.766348
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-46218
+[*] Detection for /binaries/target/curl/curl-8.4.0-o1-curl,Curl_cookie_add,-1
+[*] /s; sim-cal:0.956492
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-8.2.1-o1-curl,Curl_cookie_add,-1
+[*] /s; sim-cal:1.326393
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-8.2.0-o1-curl,Curl_cookie_add,-1
+[*] /s; sim-cal:0.887459
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-8.5.0-o1-curl,Curl_cookie_add,1
+[*] /s; sim-cal:1.011173
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-8.6.0-o1-curl,Curl_cookie_add,1
+[*] /s; sim-cal:0.924532
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-8.7.1-o1-curl,Curl_cookie_add,1
+[*] /s; sim-cal:0.90428
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8617
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,base64_encode,-1
+[*] /s; sim-cal:0.665943
+[*] Detection Result:V 0.14656578298630865/0.13446239617703948 19/19,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,base64_encode,-1
+[*] /s; sim-cal:0.682783
+[*] Detection Result:V 0.14656578298630865/0.13446239617703948 19/19,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,base64_encode,-1
+[*] /s; sim-cal:0.606308
+[*] Detection Result:V 0.14656578298630865/0.13446239617703948 19/19,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,base64_encode,1
+[*] /s; sim-cal:0.666713
+[*] Detection Result:P 0.13446239617703948/0.14656578298630865 19/19,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,base64_encode,1
+[*] /s; sim-cal:0.65536
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,base64_encode,1
+[*] /s; sim-cal:0.627597
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-1000101
+[*] Detection for /binaries/target/curl/curl-7.55.0-o1-curl,glob_range,-1
+target function: glob_range not found
+[*] Detection for /binaries/target/curl/curl-7.54.1-o1-curl,glob_range,-1
+target function: glob_range not found
+[*] Detection for /binaries/target/curl/curl-7.54.0-o1-curl,glob_range,-1
+target function: glob_range not found
+[*] Detection for /binaries/target/curl/curl-7.55.1-o1-curl,glob_range,1
+target function: glob_range not found
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,glob_range,1
+target function: glob_range not found
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,glob_range,1
+target function: glob_range not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-9594
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,randit,-1
+target function: randit not found
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,randit,-1
+target function: randit not found
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,randit,-1
+target function: randit not found
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,randit,1
+target function: randit not found
+[*] Detection for /binaries/target/curl/curl-7.53.0-o1-curl,randit,1
+target function: randit not found
+[*] Detection for /binaries/target/curl/curl-7.53.1-o1-curl,randit,1
+target function: randit not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000122
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,readwrite_data,-1
+target function: readwrite_data not found
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,readwrite_data,-1
+target function: readwrite_data not found
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,readwrite_data,-1
+target function: readwrite_data not found
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,readwrite_data,1
+target function: readwrite_data not found
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,readwrite_data,1
+target function: readwrite_data not found
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,readwrite_data,1
+target function: readwrite_data not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16842
+[*] Detection for /binaries/target/curl/curl-7.61.1-o1-curl,voutf,-1
+[*] /s; sim-cal:0.63981
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,voutf,-1
+[*] /s; sim-cal:0.666039
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,voutf,-1
+[*] /s; sim-cal:0.770055
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.62.0-o1-curl,voutf,1
+[*] /s; sim-cal:0.637971
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,voutf,1
+[*] /s; sim-cal:0.656109
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,voutf,1
+[*] /s; sim-cal:0.698719
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-42916
+[*] Detection for /binaries/target/curl/curl-7.85.0-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.84.0-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.83.1-o1-curl,parseurlandfillconn,-1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.86.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.87.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.88.0-o1-curl,parseurlandfillconn,1
+target function: parseurlandfillconn not found
+[*] Detection for /binaries/target/curl/curl-7.85.0-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.84.0-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.83.1-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.86.0-o1-curl,create_conn,1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.87.0-o1-curl,create_conn,1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.88.0-o1-curl,create_conn,1
+target function: create_conn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2022-42915
+[*] Detection for /binaries/target/curl/curl-7.85.0-o1-curl,Curl_connect_done,-1
+[*] /s; sim-cal:0.694588
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.84.0-o1-curl,Curl_connect_done,-1
+[*] /s; sim-cal:0.687086
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.83.1-o1-curl,Curl_connect_done,-1
+[*] /s; sim-cal:0.724804
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.86.0-o1-curl,Curl_connect_done,1
+[*] /s; sim-cal:0.826915
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.87.0-o1-curl,Curl_connect_done,1
+target function: Curl_connect_done not found
+[*] Detection for /binaries/target/curl/curl-7.88.0-o1-curl,Curl_connect_done,1
+target function: Curl_connect_done not found
+[*] Detection for /binaries/target/curl/curl-7.85.0-o1-curl,conn_shutdown,-1
+target function: conn_shutdown not found
+[*] Detection for /binaries/target/curl/curl-7.84.0-o1-curl,conn_shutdown,-1
+target function: conn_shutdown not found
+[*] Detection for /binaries/target/curl/curl-7.83.1-o1-curl,conn_shutdown,-1
+target function: conn_shutdown not found
+[*] Detection for /binaries/target/curl/curl-7.86.0-o1-curl,conn_shutdown,1
+target function: conn_shutdown not found
+[*] Detection for /binaries/target/curl/curl-7.87.0-o1-curl,conn_shutdown,1
+target function: conn_shutdown not found
+[*] Detection for /binaries/target/curl/curl-7.88.0-o1-curl,conn_shutdown,1
+target function: conn_shutdown not found
+------------------------------------------
+[*] Detecting CVE: CVE-2020-8284
+[*] Detection for /binaries/target/curl/curl-7.73.0-o1-curl,config_init,-1
+[*] /s; sim-cal:6.582902
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.72.0-o1-curl,config_init,-1
+[*] /s; sim-cal:0.693218
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.71.1-o1-curl,config_init,-1
+[*] /s; sim-cal:0.767748
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.74.0-o1-curl,config_init,1
+[*] /s; sim-cal:7.489766
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.75.0-o1-curl,config_init,1
+[*] /s; sim-cal:1.78969
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.76.0-o1-curl,config_init,1
+[*] /s; sim-cal:1.234833
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.73.0-o1-curl,Curl_init_userdefined,-1
+[*] /s; sim-cal:0.875208
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.72.0-o1-curl,Curl_init_userdefined,-1
+[*] /s; sim-cal:0.839474
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.71.1-o1-curl,Curl_init_userdefined,-1
+[*] /s; sim-cal:1.376734
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.74.0-o1-curl,Curl_init_userdefined,1
+[*] /s; sim-cal:0.706133
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.75.0-o1-curl,Curl_init_userdefined,1
+[*] /s; sim-cal:0.759868
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.76.0-o1-curl,Curl_init_userdefined,1
+[*] /s; sim-cal:0.665659
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-8177
+[*] Detection for /binaries/target/curl/curl-7.70.0-o1-curl,tool_header_cb,-1
+[*] /s; sim-cal:1.403351
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.69.1-o1-curl,tool_header_cb,-1
+[*] /s; sim-cal:1.18554
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.69.0-o1-curl,tool_header_cb,-1
+[*] /s; sim-cal:1.55446
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.71.0-o1-curl,tool_header_cb,1
+[*] /s; sim-cal:1.345844
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.71.1-o1-curl,tool_header_cb,1
+[*] /s; sim-cal:1.151675
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.72.0-o1-curl,tool_header_cb,1
+[*] /s; sim-cal:1.133501
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.70.0-o1-curl,getparameter,-1
+[*] /s; sim-cal:1.594471
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.69.1-o1-curl,getparameter,-1
+[*] /s; sim-cal:1.565016
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.69.0-o1-curl,getparameter,-1
+[*] /s; sim-cal:1.565291
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.71.0-o1-curl,getparameter,1
+[*] /s; sim-cal:1.465649
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.71.1-o1-curl,getparameter,1
+[*] /s; sim-cal:1.559604
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.72.0-o1-curl,getparameter,1
+[*] /s; sim-cal:1.497447
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-5435
+[*] Detection for /binaries/target/curl/curl-7.64.1-o1-curl,seturl,-1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,seturl,-1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,seturl,-1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.65.0-o1-curl,seturl,1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.65.1-o1-curl,seturl,1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.65.2-o1-curl,seturl,1
+target function: seturl not found
+[*] Detection for /binaries/target/curl/curl-7.64.1-o1-curl,Curl_setstropt,-1
+[*] /s; sim-cal:0.585702
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,Curl_setstropt,-1
+[*] /s; sim-cal:0.875498
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,Curl_setstropt,-1
+[*] /s; sim-cal:0.786226
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o1-curl,Curl_setstropt,1
+[*] /s; sim-cal:1.030065
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o1-curl,Curl_setstropt,1
+[*] /s; sim-cal:1.42327
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o1-curl,Curl_setstropt,1
+[*] /s; sim-cal:1.570843
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.64.1-o1-curl,curl_url_set,-1
+[*] /s; sim-cal:1.56373
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o1-curl,curl_url_set,-1
+[*] /s; sim-cal:1.489195
+[*] Detection Result:V 0.09277394349588734/0.09221687897415419 104/104,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o1-curl,curl_url_set,-1
+[*] /s; sim-cal:1.487194
+[*] Detection Result:V 0.09337024641777165/0.09221687897415419 104/104,-1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o1-curl,curl_url_set,1
+[*] /s; sim-cal:0.857518
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o1-curl,curl_url_set,1
+[*] /s; sim-cal:0.792012
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o1-curl,curl_url_set,1
+[*] /s; sim-cal:1.231602
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000007
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_vsetopt,-1
+target function: Curl_vsetopt not found
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,Curl_vsetopt,-1
+target function: Curl_vsetopt not found
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,Curl_vsetopt,-1
+target function: Curl_vsetopt not found
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_vsetopt,1
+[*] /s; sim-cal:1.721807
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_vsetopt,1
+[*] /s; sim-cal:1.711464
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_vsetopt,1
+[*] /s; sim-cal:1.775572
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_add_custom_headers,-1
+[*] /s; sim-cal:1.239956
+[*] Detection Result:V 0.5014211383371917/0.0 47/47,-1
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,Curl_add_custom_headers,-1
+[*] /s; sim-cal:1.226609
+[*] Detection Result:V 0.5014211383371917/0.0 47/47,-1
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,Curl_add_custom_headers,-1
+[*] /s; sim-cal:1.253723
+[*] Detection Result:V 0.5014211383371917/0.0 47/47,-1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_add_custom_headers,1
+[*] /s; sim-cal:1.235844
+[*] Detection Result:V 0.5014211383371917/0.0 53/53,1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_add_custom_headers,1
+[*] /s; sim-cal:1.440456
+[*] Detection Result:V 0.5014211383371917/0.0 56/56,1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_add_custom_headers,1
+[*] /s; sim-cal:1.523982
+[*] Detection Result:V 0.5014211383371917/0.0 56/56,1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_http_output_auth,-1
+[*] /s; sim-cal:0.691213
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,Curl_http_output_auth,-1
+[*] /s; sim-cal:0.670367
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,Curl_http_output_auth,-1
+[*] /s; sim-cal:0.635151
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_http_output_auth,1
+[*] /s; sim-cal:0.628305
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_http_output_auth,1
+[*] /s; sim-cal:0.725323
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,Curl_http_output_auth,1
+[*] /s; sim-cal:0.660751
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000120
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,ftp_done,-1
+[*] /s; sim-cal:0.87301
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,ftp_done,-1
+[*] /s; sim-cal:1.468811
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,ftp_done,-1
+[*] /s; sim-cal:1.224966
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,ftp_done,1
+[*] /s; sim-cal:0.960313
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,ftp_done,1
+[*] /s; sim-cal:0.916008
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,ftp_done,1
+[*] /s; sim-cal:0.813767
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,ftp_parse_url_path,-1
+[*] /s; sim-cal:0.746004
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,ftp_parse_url_path,-1
+[*] /s; sim-cal:0.750356
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,ftp_parse_url_path,-1
+[*] /s; sim-cal:0.656152
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,ftp_parse_url_path,1
+[*] /s; sim-cal:0.695212
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,ftp_parse_url_path,1
+[*] /s; sim-cal:0.69066
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,ftp_parse_url_path,1
+[*] /s; sim-cal:0.957537
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,ftp_state_list,-1
+target function: ftp_state_list not found
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,ftp_state_list,-1
+target function: ftp_state_list not found
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,ftp_state_list,-1
+target function: ftp_state_list not found
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,ftp_state_list,1
+target function: ftp_state_list not found
+[*] Detection for /binaries/target/curl/curl-7.60.0-o1-curl,ftp_state_list,1
+target function: ftp_state_list not found
+[*] Detection for /binaries/target/curl/curl-7.61.0-o1-curl,ftp_state_list,1
+target function: ftp_state_list not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8818
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,allocate_conn,-1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,allocate_conn,-1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,allocate_conn,1
+target function: allocate_conn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8816
+[*] Detection for /binaries/target/curl/curl-7.56.1-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,-1
+[*] /s; sim-cal:0.870101
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.56.0-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,-1
+[*] /s; sim-cal:0.725027
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.55.1-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,-1
+[*] /s; sim-cal:0.65679
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.57.0-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,1
+[*] /s; sim-cal:0.667228
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.58.0-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,1
+[*] /s; sim-cal:0.722036
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.59.0-o1-curl,Curl_ntlm_core_mk_ntlmv2_hash,1
+[*] /s; sim-cal:0.656881
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8625
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,curl_version,-1
+[*] /s; sim-cal:0.662914
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,curl_version,-1
+[*] /s; sim-cal:0.733594
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,curl_version,-1
+[*] /s; sim-cal:0.602119
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,curl_version,1
+[*] /s; sim-cal:0.708702
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,curl_version,1
+[*] /s; sim-cal:0.69087
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,curl_version,1
+[*] /s; sim-cal:0.763368
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,create_conn,-1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,create_conn,1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,create_conn,1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,create_conn,1
+target function: create_conn not found
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,curl_version_info,-1
+[*] /s; sim-cal:0.730654
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,curl_version_info,-1
+[*] /s; sim-cal:0.629866
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,curl_version_info,-1
+[*] /s; sim-cal:0.659899
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,curl_version_info,1
+[*] /s; sim-cal:0.714864
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,curl_version_info,1
+[*] /s; sim-cal:0.642143
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,curl_version_info,1
+[*] /s; sim-cal:0.718349
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,fix_hostname,-1
+[*] /s; sim-cal:0.875944
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,fix_hostname,-1
+[*] /s; sim-cal:1.600729
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,fix_hostname,-1
+[*] /s; sim-cal:1.11243
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,fix_hostname,1
+[*] /s; sim-cal:1.183516
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,fix_hostname,1
+[*] /s; sim-cal:0.698056
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,fix_hostname,1
+[*] /s; sim-cal:0.723927
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,global_init,-1
+[*] /s; sim-cal:0.578081
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,global_init,-1
+[*] /s; sim-cal:0.669426
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,global_init,-1
+[*] /s; sim-cal:0.563897
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,global_init,1
+[*] /s; sim-cal:0.760946
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,global_init,1
+[*] /s; sim-cal:0.667027
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,global_init,1
+[*] /s; sim-cal:0.606419
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,Curl_idn_strerror,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,Curl_idn_strerror,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,Curl_idn_strerror,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,Curl_idn_strerror,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,Curl_idn_strerror,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,Curl_idn_strerror,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,idna_init,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,idna_init,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,idna_init,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,idna_init,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,idna_init,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,idna_init,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,tld_check_name,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,tld_check_name,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,tld_check_name,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,tld_check_name,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,tld_check_name,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,tld_check_name,1
+[*] Detection Result:Sig file not found,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-8623
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,Curl_cookie_clearall,-1
+[*] /s; sim-cal:0.569133
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,Curl_cookie_clearall,-1
+[*] /s; sim-cal:0.668065
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,Curl_cookie_clearall,-1
+[*] /s; sim-cal:0.559335
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,Curl_cookie_clearall,1
+[*] /s; sim-cal:0.663676
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,Curl_cookie_clearall,1
+[*] /s; sim-cal:0.668379
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,Curl_cookie_clearall,1
+[*] /s; sim-cal:2.246075
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,Curl_cookie_getlist,-1
+[*] /s; sim-cal:3.189603
+[*] Detection Result:V 0.11324084281443361/0.10681683369985445 46/46,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,Curl_cookie_getlist,-1
+[*] /s; sim-cal:2.28176
+[*] Detection Result:V 0.11324084281443361/0.10681683369985445 46/46,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,Curl_cookie_getlist,-1
+[*] /s; sim-cal:2.093651
+[*] Detection Result:V 0.11324084281443361/0.10681683369985445 46/46,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,Curl_cookie_getlist,1
+[*] /s; sim-cal:11.158783
+[*] Detection Result:V 0.12028447742733456/0.11885598234804583 58/58,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,Curl_cookie_getlist,1
+[*] /s; sim-cal:12.718516
+[*] Detection Result:V 0.12028447742733456/0.11885598234804583 58/58,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,Curl_cookie_getlist,1
+[*] /s; sim-cal:14.597795
+[*] Detection Result:V 0.12028447742733456/0.11885598234804583 58/58,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,Curl_cookie_cleanup,-1
+[*] /s; sim-cal:0.871684
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,Curl_cookie_cleanup,-1
+[*] /s; sim-cal:0.797981
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,Curl_cookie_cleanup,-1
+[*] /s; sim-cal:0.669857
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,Curl_cookie_cleanup,1
+[*] /s; sim-cal:0.757135
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,Curl_cookie_cleanup,1
+[*] /s; sim-cal:0.655002
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,Curl_cookie_cleanup,1
+[*] /s; sim-cal:0.871611
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,Curl_http,-1
+[*] /s; sim-cal:0.985175
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,Curl_http,-1
+[*] /s; sim-cal:0.803199
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,Curl_http,-1
+[*] /s; sim-cal:1.192935
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,Curl_http,1
+[*] /s; sim-cal:1.078783
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,Curl_http,1
+[*] /s; sim-cal:0.947089
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,Curl_http,1
+[*] /s; sim-cal:1.015783
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o1-curl,dup_cookie,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o1-curl,dup_cookie,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o1-curl,dup_cookie,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o1-curl,dup_cookie,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o1-curl,dup_cookie,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o1-curl,dup_cookie,1
+[*] Detection Result:Sig file not found,1

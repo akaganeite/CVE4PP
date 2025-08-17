@@ -1,9 +1,67 @@
-binutils:
-    Func-ACC:
-        gcc_o1: succeed/valid_targets = 132/232 = 0.5690
-        gcc_o2: succeed/valid_targets = 269/311 = 0.5644
-        gcc_o3: succeed/valid_targets = 108/199 = 0.5427
-    
-curl:
-    Func-ACC:
-        gcc_o1:succeed/valid_targets = 116/210 = 0.5524
+binutils_gcc_o1.csv:
+  succeed/targets = 132/306 = 0.4314
+  succeed/(targets-func_not_found) = 132/(306-74) = 0.5690
+  succeed/valid_targets = 132/232 = 0.5690 (只考虑FP/FN)
+
+binutils_gcc_o2.csv:
+  succeed/targets = 127/285 = 0.4456
+  succeed/(targets-func_not_found) = 127/(285-35) = 0.5080
+  succeed/valid_targets = 127/225 = 0.5644 (只考虑FP/FN)
+
+binutils_gcc_o3.csv:
+  succeed/targets = 108/252 = 0.4286
+  succeed/(targets-func_not_found) = 108/(252-53) = 0.5427
+  succeed/valid_targets = 108/199 = 0.5427 (只考虑FP/FN)
+
+curl_gcc_o1.csv:
+  succeed/targets = 116/309 = 0.3754
+  succeed/(targets-func_not_found) = 116/(309-99) = 0.5524
+  succeed/valid_targets = 116/210 = 0.5524 (只考虑FP/FN)
+
+curl_gcc_o2_result.csv:
+  succeed/targets = 67/196 = 0.3418
+  succeed/(targets-func_not_found) = 67/(196-69) = 0.5276
+  succeed/valid_targets = 67/127 = 0.5276 (只考虑FP/FN)
+
+curl_gcc_o3_result.csv:
+  succeed/targets = 104/309 = 0.3366
+  succeed/(targets-func_not_found) = 104/(309-115) = 0.5361
+  succeed/valid_targets = 104/194 = 0.5361 (只考虑FP/FN)
+
+libxml2_gcc_o1_result.csv:
+  succeed/targets = 237/522 = 0.4540
+  succeed/(targets-func_not_found) = 237/(522-54) = 0.5064
+  succeed/valid_targets = 237/438 = 0.5411 (只考虑FP/FN)
+
+libxml2_gcc_o2_result.csv:
+  succeed/targets = 234/468 = 0.5000
+  succeed/(targets-func_not_found) = 234/(468-0) = 0.5000
+  succeed/valid_targets = 234/438 = 0.5342 (只考虑FP/FN)
+
+libxml2_gcc_o3_result.csv:
+  succeed/targets = 221/468 = 0.4722
+  succeed/(targets-func_not_found) = 221/(468-24) = 0.4977
+  succeed/valid_targets = 221/414 = 0.5338 (只考虑FP/FN)
+
+sqlite_gcc_o1_result.csv:
+  succeed/targets = 193/227 = 0.8502
+  succeed/(targets-func_not_found) = 193/(227-3) = 0.8616
+  succeed/valid_targets = 193/218 = 0.8853 (只考虑FP/FN)
+
+sqlite_gcc_o2_result.csv:
+  succeed/targets = 193/227 = 0.8502
+  succeed/(targets-func_not_found) = 193/(227-3) = 0.8616
+  succeed/valid_targets = 193/218 = 0.8853 (只考虑FP/FN)
+
+sqlite_gcc_o3_result.csv:
+  succeed/targets = 193/227 = 0.8502
+  succeed/(targets-func_not_found) = 193/(227-3) = 0.8616
+  succeed/valid_targets = 193/218 = 0.8853 (只考虑FP/FN)
+
+
+
+
+tcpdump_evo.csv:
+  succeed/targets = 284/600 = 0.4733
+  succeed/(targets-func_not_found) = 284/(600-59) = 0.5250
+  succeed/valid_targets = 284/541 = 0.5250 (只考虑FP/FN)

@@ -1,6 +1,20 @@
+import argparse
 import csv
 import re
 from collections import defaultdict
+
+TESTCASES={
+    "binutils":613-20,
+    "curl":340-7,
+    "ffmpeg":192-17,
+    "freetype":353-1,
+    "imagemagick": 1027-6,
+    "libxml2":510,
+    "openssl":696-45,
+    "sqlite":228-3,
+    "tcpdump":1176-48,
+    "openjpeg":104-7,
+}
 
 def parse_test_file(file_path):
     truth_dict = defaultdict(list)
@@ -135,7 +149,7 @@ def generate_report(truth_dict, result_dict, failed_versions_set, output_path):
             }
             writer.writerow(row)
 
-def generate_accuracy_report(report_csv, accuracy_output):
+def generate_accuracy_report(report_csv, accuracy_output,project):
     project_stats = defaultdict(lambda: {
         'total_succeed': 0,
         'total_target': 0,
@@ -155,45 +169,48 @@ def generate_accuracy_report(report_csv, accuracy_output):
             stats['total_target'] += int(row['target'])
             stats['total_fp'] += int(row['false_positive'])
             stats['total_fn'] += int(row['false_negative'])
-    
-    # 计算准确率并生成报告
-    with open(accuracy_output, 'w', newline='') as f:
-        fieldnames = ['project', 'accuracy_simple', 'accuracy_effective']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
+ 
+    for project, stats in project_stats.items():
+        total_succeed = stats['total_succeed']
+        total_target = stats['total_target']
+        total_errors = stats['total_fp'] + stats['total_fn']
         
-        for project, stats in project_stats.items():
-            total_succeed = stats['total_succeed']
-            total_target = stats['total_target']
-            total_errors = stats['total_fp'] + stats['total_fn']
-            
-            # 第一个准确率：成功检测数/总检测目标数
-            accuracy_simple = total_succeed / total_target if total_target > 0 else 0
-            
-            # 第二个准确率：成功检测数/(成功数+假阳性+假阴性)
-            accuracy_effective = 0
-            denominator = total_succeed + total_errors
-            if denominator > 0:
-                accuracy_effective = total_succeed / denominator
-            
-            # 转换为百分比格式并保留两位小数
-            accuracy_simple = f"{accuracy_simple:.2%}"
-            accuracy_effective = f"{accuracy_effective:.2%}"
-            
-            writer.writerow({
-                'project': project,
-                'accuracy_simple': accuracy_simple,
-                'accuracy_effective': accuracy_effective
-            })
+        # 第一个准确率：成功检测数/总检测目标数
+        accuracy_simple = total_succeed / total_target if total_target > 0 else 0
+        
+        # 第二个准确率：成功检测数/(成功数+假阳性+假阴性)
+        accuracy_effective = 0
+        denominator = total_succeed + total_errors
+        if denominator > 0:
+            accuracy_effective = total_succeed / denominator
+        
+        # 转换为百分比格式并保留两位小数
+        accuracy_simple = f"{accuracy_simple:.2%}"
+        accuracy_effective = f"{accuracy_effective:.2%}"
+        # print("total_succeed:", total_succeed)
+        ability = total_succeed/TESTCASES[project]
+        print(project,":")
+        print("ability:",f"{ability:.2%}"," ",total_succeed,"/",TESTCASES[project])
+        print("accuracy:", accuracy_effective)
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='解析BinXray检测结果')
+    parser.add_argument(
+        "-proj", "--project",
+        required=True,
+        type=str,
+    )
+    args = parser.parse_args()
+    project = args.project
     # 输入文件（根据实际情况修改路径）
-    test_file = "../../../binaries/Robin/test"
-    result_file = "patch_detection_full.log"
-    log_file = "detectdetails.log"
-    output_csv = "report.csv"
-    accuracy_csv = "acc.csv"  # 新增准确率报告
-    
+    test_file = f"../../../binaries/Robin/test-{project}"
+    # result_file = "patch_detection_full.log"
+    # log_file = "detectdetails.log"
+    result_file = f"{project}-result.log"
+    log_file = f"{project}-details.log"
+    output_csv = f"{project}_result.csv"
+    accuracy_csv = f"{project}_acc.csv"  # 新增准确率报告
+
     # 解析文件
     truth_data = parse_test_file(test_file)
     result_data = parse_result_file(result_file)
@@ -206,5 +223,4 @@ if __name__ == "__main__":
     print(f"主报告已生成至: {output_csv}")
     
     # 生成准确率统计报告
-    generate_accuracy_report(output_csv, accuracy_csv)
-    print(f"准确率报告已生成至: {accuracy_csv}")
+    generate_accuracy_report(output_csv, accuracy_csv,args.project)

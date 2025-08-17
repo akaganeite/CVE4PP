@@ -1,0 +1,495 @@
+============================================
+Patch Detection Log
+Time: 2025-08-17 10:51:07
+============================================
+2025-08-17 10:51:07,133 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:51:07,134 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:51:18,491 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:51:18,492 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:51:18,492 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:51:29,484 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:51:29,485 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:51:29,485 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:51:40,398 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:51:40,399 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:51:40,400 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.53.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:51:51,490 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:51:51,492 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:51:51,492 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.53.1-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:52:02,661 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:52:02,662 - INFO - detecting CVE-2017-2629 allocate_conn
+2025-08-17 10:52:02,663 - INFO - cmd: python main.py --detect --cve_id CVE-2017-2629 --target_bin /binaries/target/curl/curl-7.54.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 10:52:12,250 - INFO - success CVE-2017-2629,details in cve_test/CVE-2017-2629.log
+
+2025-08-17 10:52:12,251 - INFO - detecting CVE-2013-1944 tailmatch
+2025-08-17 10:52:12,251 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1944 --target_bin /binaries/target/curl/curl-7.29.0-o0-curl --vul_func_name tailmatch
+2025-08-17 10:52:18,935 - INFO - success CVE-2013-1944,details in cve_test/CVE-2013-1944.log
+
+2025-08-17 10:52:18,936 - INFO - detecting CVE-2013-1944 tailmatch
+2025-08-17 10:52:18,936 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1944 --target_bin /binaries/target/curl/curl-7.30.0-o0-curl --vul_func_name tailmatch
+2025-08-17 10:52:25,530 - INFO - success CVE-2013-1944,details in cve_test/CVE-2013-1944.log
+
+2025-08-17 10:52:25,531 - INFO - detecting CVE-2013-1944 tailmatch
+2025-08-17 10:52:25,531 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1944 --target_bin /binaries/target/curl/curl-7.31.0-o0-curl --vul_func_name tailmatch
+2025-08-17 10:52:32,614 - INFO - success CVE-2013-1944,details in cve_test/CVE-2013-1944.log
+
+2025-08-17 10:52:32,615 - INFO - detecting CVE-2013-1944 tailmatch
+2025-08-17 10:52:32,616 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1944 --target_bin /binaries/target/curl/curl-7.32.0-o0-curl --vul_func_name tailmatch
+2025-08-17 10:52:39,968 - INFO - success CVE-2013-1944,details in cve_test/CVE-2013-1944.log
+
+2025-08-17 10:52:39,969 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:52:39,970 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.59.0-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:52:52,746 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:52:52,747 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:52:52,747 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.58.0-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:53:03,992 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:53:03,993 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:53:03,994 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.57.0-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:53:15,283 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:53:15,284 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:53:15,285 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.60.0-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:53:26,594 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:53:26,595 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:53:26,595 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.61.0-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:53:37,624 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:53:37,625 - INFO - detecting CVE-2018-1000301 Curl_http_readwrite_headers
+2025-08-17 10:53:37,626 - INFO - cmd: python main.py --detect --cve_id CVE-2018-1000301 --target_bin /binaries/target/curl/curl-7.61.1-o0-curl --vul_func_name Curl_http_readwrite_headers
+2025-08-17 10:53:50,734 - INFO - success CVE-2018-1000301,details in cve_test/CVE-2018-1000301.log
+
+2025-08-17 10:53:50,735 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:53:50,735 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.54.0-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:00,498 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:00,498 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:54:00,499 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.53.1-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:10,096 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:10,097 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:54:10,097 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.53.0-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:19,877 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:19,878 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:54:19,879 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.54.1-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:29,874 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:29,875 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:54:29,875 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.55.0-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:39,669 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:39,670 - INFO - detecting CVE-2017-9502 parseurlandfillconn
+2025-08-17 10:54:39,671 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9502 --target_bin /binaries/target/curl/curl-7.55.1-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 10:54:49,531 - INFO - success CVE-2017-9502,details in cve_test/CVE-2017-9502.log
+
+2025-08-17 10:54:49,532 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:54:49,532 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.61.1-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:55:09,827 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:55:09,828 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:55:09,829 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.61.0-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:55:29,955 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:55:29,956 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:55:29,956 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.60.0-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:55:50,176 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:55:50,177 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:55:50,178 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.62.0-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:56:10,740 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:56:10,741 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:56:10,742 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.63.0-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:56:31,011 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:56:31,012 - INFO - detecting CVE-2018-16839 Curl_auth_create_plain_message
+2025-08-17 10:56:31,012 - INFO - cmd: python main.py --detect --cve_id CVE-2018-16839 --target_bin /binaries/target/curl/curl-7.64.0-o0-curl --vul_func_name Curl_auth_create_plain_message
+2025-08-17 10:56:51,453 - INFO - success CVE-2018-16839,details in cve_test/CVE-2018-16839.log
+
+2025-08-17 10:56:51,454 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:56:51,454 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.4.0-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:56:58,030 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:56:58,031 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:56:58,031 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.2.1-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:57:04,414 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:57:04,415 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:57:04,415 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.2.0-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:57:10,990 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:57:10,991 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:57:10,991 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.5.0-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:57:17,610 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:57:17,611 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:57:17,611 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.6.0-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:57:24,311 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:57:24,311 - INFO - detecting CVE-2023-46219 Curl_fopen
+2025-08-17 10:57:24,312 - INFO - cmd: python main.py --detect --cve_id CVE-2023-46219 --target_bin /binaries/target/curl/curl-8.7.1-o0-curl --vul_func_name Curl_fopen
+2025-08-17 10:57:30,829 - INFO - success CVE-2023-46219,details in cve_test/CVE-2023-46219.log
+
+2025-08-17 10:57:30,830 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:57:30,830 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name parsedate
+2025-08-17 10:57:36,831 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:57:36,832 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:57:36,832 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name parsedate
+2025-08-17 10:57:42,897 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:57:42,898 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:57:42,898 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name parsedate
+2025-08-17 10:57:49,150 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:57:49,151 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:57:49,151 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name parsedate
+2025-08-17 10:57:55,190 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:57:55,191 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:57:55,192 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name parsedate
+2025-08-17 10:58:01,096 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:58:01,097 - INFO - detecting CVE-2016-8621 parsedate
+2025-08-17 10:58:01,098 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8621 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name parsedate
+2025-08-17 10:58:07,143 - INFO - success CVE-2016-8621,details in cve_test/CVE-2016-8621.log
+
+2025-08-17 10:58:07,144 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:07,145 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.60.0-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:13,466 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:13,467 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:13,468 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.59.0-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:19,865 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:19,866 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:19,866 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.58.0-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:26,130 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:26,131 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:26,132 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.61.0-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:32,677 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:32,678 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:32,678 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.61.1-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:39,189 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:39,190 - INFO - detecting CVE-2018-0500 Curl_smtp_escape_eob
+2025-08-17 10:58:39,191 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0500 --target_bin /binaries/target/curl/curl-7.62.0-o0-curl --vul_func_name Curl_smtp_escape_eob
+2025-08-17 10:58:45,466 - INFO - success CVE-2018-0500,details in cve_test/CVE-2018-0500.log
+
+2025-08-17 10:58:45,467 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:58:45,484 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.34.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:58:53,400 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:58:53,401 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:58:53,401 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.33.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:59:01,521 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:59:01,522 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:59:01,523 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.32.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:59:09,429 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:59:09,430 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:59:09,430 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.35.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:59:17,621 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:59:17,622 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:59:17,622 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.36.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:59:25,439 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:59:25,440 - INFO - detecting CVE-2014-0015 ConnectionExists
+2025-08-17 10:59:25,440 - INFO - cmd: python main.py --detect --cve_id CVE-2014-0015 --target_bin /binaries/target/curl/curl-7.37.0-o0-curl --vul_func_name ConnectionExists
+2025-08-17 10:59:33,299 - INFO - success CVE-2014-0015,details in cve_test/CVE-2014-0015.log
+
+2025-08-17 10:59:33,300 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 10:59:33,300 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.56.1-o0-curl --vul_func_name setcharset
+2025-08-17 10:59:40,173 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 10:59:40,174 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 10:59:40,175 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.56.0-o0-curl --vul_func_name setcharset
+2025-08-17 10:59:46,721 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 10:59:46,721 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 10:59:46,722 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.55.1-o0-curl --vul_func_name setcharset
+2025-08-17 10:59:52,993 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 10:59:52,994 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 10:59:52,994 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.57.0-o0-curl --vul_func_name setcharset
+2025-08-17 10:59:58,399 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 10:59:58,400 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 10:59:58,400 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.58.0-o0-curl --vul_func_name setcharset
+2025-08-17 11:00:04,071 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 11:00:04,072 - INFO - detecting CVE-2017-8817 setcharset
+2025-08-17 11:00:04,072 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8817 --target_bin /binaries/target/curl/curl-7.59.0-o0-curl --vul_func_name setcharset
+2025-08-17 11:00:10,635 - INFO - success CVE-2017-8817,details in cve_test/CVE-2017-8817.log
+
+2025-08-17 11:00:10,636 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:10,637 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.65.3-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:16,520 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:16,521 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:16,522 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.65.2-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:22,261 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:22,262 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:22,263 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.65.1-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:28,094 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:28,095 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:28,096 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.66.0-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:34,027 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:34,028 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:34,028 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.67.0-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:39,908 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:39,909 - INFO - detecting CVE-2019-5482 tftp_connect
+2025-08-17 11:00:39,909 - INFO - cmd: python main.py --detect --cve_id CVE-2019-5482 --target_bin /binaries/target/curl/curl-7.68.0-o0-curl --vul_func_name tftp_connect
+2025-08-17 11:00:46,008 - INFO - success CVE-2019-5482,details in cve_test/CVE-2019-5482.log
+
+2025-08-17 11:00:46,009 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:00:46,009 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:00:55,671 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:00:55,671 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:00:55,672 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:01:05,223 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:01:05,223 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:01:05,224 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:01:14,863 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:01:14,864 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:01:14,865 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:01:24,191 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:01:24,192 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:01:24,192 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:01:35,641 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:01:35,641 - INFO - detecting CVE-2016-8624 parseurlandfillconn
+2025-08-17 11:01:35,642 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8624 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name parseurlandfillconn
+2025-08-17 11:01:47,134 - INFO - success CVE-2016-8624,details in cve_test/CVE-2016-8624.log
+
+2025-08-17 11:01:47,135 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:01:47,135 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:01:57,207 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:01:57,208 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:01:57,208 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:02:07,686 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:02:07,687 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:02:07,688 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:02:17,913 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:02:17,914 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:02:17,914 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:02:28,079 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:02:28,080 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:02:28,081 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:02:38,072 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:02:38,073 - INFO - detecting CVE-2016-8618 alloc_addbyter
+2025-08-17 11:02:38,073 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8618 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name alloc_addbyter
+2025-08-17 11:02:48,721 - INFO - success CVE-2016-8618,details in cve_test/CVE-2016-8618.log
+
+2025-08-17 11:02:48,722 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:02:48,722 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name randit
+2025-08-17 11:02:53,841 - INFO - success CVE-2016-9594,details in cve_test/CVE-2016-9594.log
+
+2025-08-17 11:02:53,841 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:02:53,842 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name randit
+2025-08-17 11:02:58,032 - ERROR - fail CVE-2016-9594 ,details1
+
+2025-08-17 11:02:58,033 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:02:58,034 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name randit
+2025-08-17 11:03:02,297 - ERROR - fail CVE-2016-9594 ,details1
+
+2025-08-17 11:03:02,298 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:03:02,298 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name randit
+2025-08-17 11:03:07,284 - INFO - success CVE-2016-9594,details in cve_test/CVE-2016-9594.log
+
+2025-08-17 11:03:07,292 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:03:07,292 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.53.0-o0-curl --vul_func_name randit
+2025-08-17 11:03:12,416 - INFO - success CVE-2016-9594,details in cve_test/CVE-2016-9594.log
+
+2025-08-17 11:03:12,417 - INFO - detecting CVE-2016-9594 randit
+2025-08-17 11:03:12,417 - INFO - cmd: python main.py --detect --cve_id CVE-2016-9594 --target_bin /binaries/target/curl/curl-7.53.1-o0-curl --vul_func_name randit
+2025-08-17 11:03:17,422 - INFO - success CVE-2016-9594,details in cve_test/CVE-2016-9594.log
+
+2025-08-17 11:03:17,423 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:03:17,424 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.73.0-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:03:41,978 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:03:41,978 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:03:41,979 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.72.0-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:04:04,096 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:04:04,097 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:04:04,097 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.71.1-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:04:28,237 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:04:28,238 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:04:28,239 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.74.0-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:04:52,200 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:04:52,200 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:04:52,201 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.75.0-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:05:16,825 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:05:16,826 - INFO - detecting CVE-2020-8284 Curl_init_userdefined
+2025-08-17 11:05:16,826 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8284 --target_bin /binaries/target/curl/curl-7.76.0-o0-curl --vul_func_name Curl_init_userdefined
+2025-08-17 11:05:40,476 - INFO - success CVE-2020-8284,details in cve_test/CVE-2020-8284.log
+
+2025-08-17 11:05:40,477 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:05:40,477 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.70.0-o0-curl --vul_func_name getparameter
+2025-08-17 11:06:02,218 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:06:02,219 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:06:02,219 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.69.1-o0-curl --vul_func_name getparameter
+2025-08-17 11:06:24,029 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:06:24,030 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:06:24,031 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.69.0-o0-curl --vul_func_name getparameter
+2025-08-17 11:06:45,841 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:06:45,841 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:06:45,842 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.71.0-o0-curl --vul_func_name getparameter
+2025-08-17 11:07:07,302 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:07:07,307 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:07:07,308 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.71.1-o0-curl --vul_func_name getparameter
+2025-08-17 11:07:27,071 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:07:27,072 - INFO - detecting CVE-2020-8177 getparameter
+2025-08-17 11:07:27,072 - INFO - cmd: python main.py --detect --cve_id CVE-2020-8177 --target_bin /binaries/target/curl/curl-7.72.0-o0-curl --vul_func_name getparameter
+2025-08-17 11:07:48,251 - INFO - success CVE-2020-8177,details in cve_test/CVE-2020-8177.log
+
+2025-08-17 11:07:48,252 - INFO - detecting CVE-2017-8818 allocate_conn
+2025-08-17 11:07:48,252 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8818 --target_bin /binaries/target/curl/curl-7.56.1-o0-curl --vul_func_name allocate_conn
+2025-08-17 11:07:58,309 - INFO - success CVE-2017-8818,details in cve_test/CVE-2017-8818.log
+
+2025-08-17 11:07:58,310 - INFO - detecting CVE-2017-8818 allocate_conn
+2025-08-17 11:07:58,311 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8818 --target_bin /binaries/target/curl/curl-7.56.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 11:08:08,245 - INFO - success CVE-2017-8818,details in cve_test/CVE-2017-8818.log
+
+2025-08-17 11:08:08,246 - INFO - detecting CVE-2017-8818 allocate_conn
+2025-08-17 11:08:08,247 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8818 --target_bin /binaries/target/curl/curl-7.57.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 11:08:17,827 - INFO - success CVE-2017-8818,details in cve_test/CVE-2017-8818.log
+
+2025-08-17 11:08:17,828 - INFO - detecting CVE-2017-8818 allocate_conn
+2025-08-17 11:08:17,829 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8818 --target_bin /binaries/target/curl/curl-7.58.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 11:08:23,411 - INFO - success CVE-2017-8818,details in cve_test/CVE-2017-8818.log
+
+2025-08-17 11:08:23,412 - INFO - detecting CVE-2017-8818 allocate_conn
+2025-08-17 11:08:23,413 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8818 --target_bin /binaries/target/curl/curl-7.59.0-o0-curl --vul_func_name allocate_conn
+2025-08-17 11:08:28,365 - INFO - success CVE-2017-8818,details in cve_test/CVE-2017-8818.log
+
+2025-08-17 11:08:28,366 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:28,367 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.56.1-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:33,576 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:33,577 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:33,578 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.56.0-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:38,621 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:38,622 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:38,623 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.55.1-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:43,667 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:43,668 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:43,668 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.57.0-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:48,495 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:48,496 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:48,497 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.58.0-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:53,301 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:53,302 - INFO - detecting CVE-2017-8816 Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:53,302 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8816 --target_bin /binaries/target/curl/curl-7.59.0-o0-curl --vul_func_name Curl_ntlm_core_mk_ntlmv2_hash
+2025-08-17 11:08:58,136 - INFO - success CVE-2017-8816,details in cve_test/CVE-2017-8816.log
+
+2025-08-17 11:08:58,141 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:08:58,141 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name curl_version
+2025-08-17 11:09:17,867 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:09:17,868 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:09:17,868 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name curl_version
+2025-08-17 11:09:38,891 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:09:38,892 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:09:38,893 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name curl_version
+2025-08-17 11:09:59,530 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:09:59,531 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:09:59,532 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name curl_version
+2025-08-17 11:10:12,947 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:12,948 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:10:12,948 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name curl_version
+2025-08-17 11:10:26,412 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:26,413 - INFO - detecting CVE-2016-8625 curl_version
+2025-08-17 11:10:26,414 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name curl_version
+2025-08-17 11:10:39,933 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:39,934 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:10:39,935 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:10:45,112 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:45,113 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:10:45,113 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:10:49,843 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:49,844 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:10:49,845 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:10:55,001 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:10:55,002 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:10:55,002 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:11:00,192 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:00,193 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:11:00,193 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:11:05,277 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:05,278 - INFO - detecting CVE-2016-8625 curl_version_info
+2025-08-17 11:11:05,279 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name curl_version_info
+2025-08-17 11:11:10,239 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:10,240 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:10,241 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.3-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:17,207 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:17,209 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:17,209 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.2-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:24,066 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:24,067 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:24,068 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.50.1-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:31,045 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:31,046 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:31,046 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.51.0-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:38,763 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:38,764 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:38,765 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.0-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:46,570 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log
+
+2025-08-17 11:11:46,571 - INFO - detecting CVE-2016-8625 fix_hostname
+2025-08-17 11:11:46,572 - INFO - cmd: python main.py --detect --cve_id CVE-2016-8625 --target_bin /binaries/target/curl/curl-7.52.1-o0-curl --vul_func_name fix_hostname
+2025-08-17 11:11:54,388 - INFO - success CVE-2016-8625,details in cve_test/CVE-2016-8625.log

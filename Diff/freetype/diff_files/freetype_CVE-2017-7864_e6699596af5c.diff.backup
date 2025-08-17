@@ -1,0 +1,41 @@
+diff --git a/ChangeLog b/ChangeLog
+index 0b9c42b2f..bec432e5f 100644
+--- a/ChangeLog
++++ b/ChangeLog
+@@ -1,3 +1,15 @@
++2017-02-02  Werner Lemberg  <wl@gnu.org>
++
++	[truetype] Fix MVAR post-action handling.
++
++	Reported as
++
++	  https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=509
++
++	* src/truetype/ttobjs.c (tt_size_reset): Do nothing for CFF2.  This
++	is important to make `tt_size_reset_iterator' (called in
++	`tt_apply_mvar') always work.
++
+ 2017-02-02  Werner Lemberg  <wl@gnu.org>
+ 
+ 	Make compilation with FT_CONFIG_OPTION_PIC work again.
+diff --git a/src/truetype/ttobjs.c b/src/truetype/ttobjs.c
+index 18aa48a93..00207bb46 100644
+--- a/src/truetype/ttobjs.c
++++ b/src/truetype/ttobjs.c
+@@ -1212,10 +1212,14 @@
+     FT_Size_Metrics*  metrics;
+ 
+ 
+-    size->ttmetrics.valid = FALSE;
+-
+     face = (TT_Face)size->root.face;
+ 
++    /* nothing to do for CFF2 */
++    if ( face->isCFF2 )
++      return FT_Err_Ok;
++
++    size->ttmetrics.valid = FALSE;
++
+     metrics = &size->metrics;
+ 
+     /* copy the result from base layer */

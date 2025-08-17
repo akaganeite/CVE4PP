@@ -1,0 +1,1071 @@
+[2025-08-14 14:56:58] 开始openjpeg LLVM编译流程
+[2025-08-14 14:56:58] ===== 开始处理 CVE 条目 =====
+[2025-08-14 14:56:58] 
+>>> 处理 CVE: CVE-2018-20847, 补丁 Commit: 5d00b719f4b9 <<<
+[2025-08-14 14:56:58] 
+--- [开始] 处理 Git Ref: 5d00b719f4b9 ---
+[2025-08-14 14:56:58] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch
+[2025-08-14 14:56:58] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/compile.log
+[2025-08-14 14:56:58] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2018-20847_patch.bc
+[2025-08-14 14:56:58] 开始清理仓库状态...
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/libopenjp2.so.2.5.3.0.5.precodegen.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/libopenjp2.so.2.5.3.0.0.preopt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/libopenjp2.so.2.5.3.0.4.opt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/libopenjp2.so.2.5.3.0.2.internalize.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:56:58] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:56:58] 命令成功: git reset --hard origin/master
+[2025-08-14 14:56:58] 命令成功: git stash --include-untracked
+[2025-08-14 14:56:58] 仓库状态清理完成
+[2025-08-14 14:56:58] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:56:58] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:56:58] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:56:58] 仓库清洁状态检查: 干净
+[2025-08-14 14:56:58] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:56:58] 正在检出 5d00b719f4b9...
+[2025-08-14 14:56:58] 命令成功: git checkout 5d00b719f4b9
+[2025-08-14 14:56:58] 已成功检出 5d00b719f4b9
+[2025-08-14 14:56:58] === 开始配置 ===
+[2025-08-14 14:57:00] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:00] === 开始编译 ===
+[2025-08-14 14:57:01] 命令成功: make -j20
+[2025-08-14 14:57:01] 5d00b719f4b9 (patch) 编译成功
+[2025-08-14 14:57:01] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:01] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_get_all_encoding_parameters, opj_tcd_init_tile
+[2025-08-14 14:57:01] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:01] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2018-20847_patch.bc
+[2025-08-14 14:57:01] 二进制文件复制成功
+[2025-08-14 14:57:01] --- [结束] 处理 Git Ref: 5d00b719f4b9 (patch) ---
+[2025-08-14 14:57:01] 开始清理仓库状态...
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:01] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-5d00b719f4b9-patch
+[2025-08-14 14:57:01] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:01] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:01] 仓库状态清理完成
+[2025-08-14 14:57:01] 命令成功: git rev-parse 5d00b719f4b9~1
+[2025-08-14 14:57:01] 漏洞版本 (父提交): 42132ed6b56120e45356a7c8cfdea7b6e39cd058
+[2025-08-14 14:57:01] 
+--- [开始] 处理 Git Ref: 42132ed6b56120e45356a7c8cfdea7b6e39cd058 ---
+[2025-08-14 14:57:01] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln
+[2025-08-14 14:57:01] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/compile.log
+[2025-08-14 14:57:01] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2018-20847_vuln.bc
+[2025-08-14 14:57:01] 开始清理仓库状态...
+[2025-08-14 14:57:01] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:01] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:01] 仓库状态清理完成
+[2025-08-14 14:57:01] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:01] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:01] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:01] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:01] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:01] 正在检出 42132ed6b56120e45356a7c8cfdea7b6e39cd058...
+[2025-08-14 14:57:01] 命令成功: git checkout 42132ed6b56120e45356a7c8cfdea7b6e39cd058
+[2025-08-14 14:57:01] 已成功检出 42132ed6b56120e45356a7c8cfdea7b6e39cd058
+[2025-08-14 14:57:01] === 开始配置 ===
+[2025-08-14 14:57:03] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:03] === 开始编译 ===
+[2025-08-14 14:57:04] 命令成功: make -j20
+[2025-08-14 14:57:04] 42132ed6b56120e45356a7c8cfdea7b6e39cd058 (vuln) 编译成功
+[2025-08-14 14:57:04] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:04] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_get_all_encoding_parameters, opj_tcd_init_tile
+[2025-08-14 14:57:04] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:04] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2018-20847_vuln.bc
+[2025-08-14 14:57:04] 二进制文件复制成功
+[2025-08-14 14:57:04] --- [结束] 处理 Git Ref: 42132ed6b56120e45356a7c8cfdea7b6e39cd058 (vuln) ---
+[2025-08-14 14:57:04] 开始清理仓库状态...
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:04] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:04] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-42132ed6b561-vuln
+[2025-08-14 14:57:04] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:04] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:04] 仓库状态清理完成
+[2025-08-14 14:57:04] 
+>>> 处理 CVE: CVE-2015-8871, 补丁 Commit: 940100c28ae2 <<<
+[2025-08-14 14:57:04] 
+--- [开始] 处理 Git Ref: 940100c28ae2 ---
+[2025-08-14 14:57:04] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch
+[2025-08-14 14:57:04] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/compile.log
+[2025-08-14 14:57:04] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2015-8871_patch.bc
+[2025-08-14 14:57:04] 开始清理仓库状态...
+[2025-08-14 14:57:04] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:04] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:04] 仓库状态清理完成
+[2025-08-14 14:57:04] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:04] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:04] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:04] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:04] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:04] 正在检出 940100c28ae2...
+[2025-08-14 14:57:04] 命令成功: git checkout 940100c28ae2
+[2025-08-14 14:57:04] 已成功检出 940100c28ae2
+[2025-08-14 14:57:04] === 开始配置 ===
+[2025-08-14 14:57:06] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:06] === 开始编译 ===
+[2025-08-14 14:57:07] 命令成功: make -j20
+[2025-08-14 14:57:07] 940100c28ae2 (patch) 编译成功
+[2025-08-14 14:57:07] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:07] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_mco
+[2025-08-14 14:57:07] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:07] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2015-8871_patch.bc
+[2025-08-14 14:57:07] 二进制文件复制成功
+[2025-08-14 14:57:07] --- [结束] 处理 Git Ref: 940100c28ae2 (patch) ---
+[2025-08-14 14:57:07] 开始清理仓库状态...
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:07] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:07] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-940100c28ae2-patch
+[2025-08-14 14:57:07] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:07] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:07] 仓库状态清理完成
+[2025-08-14 14:57:07] 命令成功: git rev-parse 940100c28ae2~1
+[2025-08-14 14:57:07] 漏洞版本 (父提交): c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f
+[2025-08-14 14:57:07] 
+--- [开始] 处理 Git Ref: c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f ---
+[2025-08-14 14:57:07] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln
+[2025-08-14 14:57:07] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/compile.log
+[2025-08-14 14:57:07] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2015-8871_vuln.bc
+[2025-08-14 14:57:07] 开始清理仓库状态...
+[2025-08-14 14:57:07] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:07] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:07] 仓库状态清理完成
+[2025-08-14 14:57:07] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:07] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:07] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:07] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:07] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:07] 正在检出 c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f...
+[2025-08-14 14:57:07] 命令成功: git checkout c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f
+[2025-08-14 14:57:07] 已成功检出 c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f
+[2025-08-14 14:57:07] === 开始配置 ===
+[2025-08-14 14:57:09] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:09] === 开始编译 ===
+[2025-08-14 14:57:10] 命令成功: make -j20
+[2025-08-14 14:57:10] c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f (vuln) 编译成功
+[2025-08-14 14:57:10] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:10] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_mco
+[2025-08-14 14:57:10] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:10] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2015-8871_vuln.bc
+[2025-08-14 14:57:10] 二进制文件复制成功
+[2025-08-14 14:57:10] --- [结束] 处理 Git Ref: c31fb68ccc0e53d70b21fd068b04b2c1ca4d933f (vuln) ---
+[2025-08-14 14:57:10] 开始清理仓库状态...
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:10] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:10] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c31fb68ccc0e-vuln
+[2025-08-14 14:57:10] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:10] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:10] 仓库状态清理完成
+[2025-08-14 14:57:10] 
+>>> 处理 CVE: CVE-2016-4797, 补丁 Commit: 8f9cc62b3f9a <<<
+[2025-08-14 14:57:10] 
+--- [开始] 处理 Git Ref: 8f9cc62b3f9a ---
+[2025-08-14 14:57:10] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch
+[2025-08-14 14:57:10] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/compile.log
+[2025-08-14 14:57:10] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-4797_patch.bc
+[2025-08-14 14:57:10] 开始清理仓库状态...
+[2025-08-14 14:57:10] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:10] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:10] 仓库状态清理完成
+[2025-08-14 14:57:10] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:10] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:10] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:10] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:10] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:10] 正在检出 8f9cc62b3f9a...
+[2025-08-14 14:57:10] 命令成功: git checkout 8f9cc62b3f9a
+[2025-08-14 14:57:10] 已成功检出 8f9cc62b3f9a
+[2025-08-14 14:57:10] === 开始配置 ===
+[2025-08-14 14:57:12] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:12] === 开始编译 ===
+[2025-08-14 14:57:13] 命令成功: make -j20
+[2025-08-14 14:57:13] 8f9cc62b3f9a (patch) 编译成功
+[2025-08-14 14:57:13] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:13] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_init_tile
+[2025-08-14 14:57:13] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:13] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-4797_patch.bc
+[2025-08-14 14:57:13] 二进制文件复制成功
+[2025-08-14 14:57:13] --- [结束] 处理 Git Ref: 8f9cc62b3f9a (patch) ---
+[2025-08-14 14:57:13] 开始清理仓库状态...
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:13] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:13] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-8f9cc62b3f9a-patch
+[2025-08-14 14:57:13] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:13] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:13] 仓库状态清理完成
+[2025-08-14 14:57:13] 命令成功: git rev-parse 8f9cc62b3f9a~1
+[2025-08-14 14:57:13] 漏洞版本 (父提交): 44a499f2acf10b55172d07abf387e5a579a585f7
+[2025-08-14 14:57:13] 
+--- [开始] 处理 Git Ref: 44a499f2acf10b55172d07abf387e5a579a585f7 ---
+[2025-08-14 14:57:13] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln
+[2025-08-14 14:57:13] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/compile.log
+[2025-08-14 14:57:13] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-4797_vuln.bc
+[2025-08-14 14:57:13] 开始清理仓库状态...
+[2025-08-14 14:57:13] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:13] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:13] 仓库状态清理完成
+[2025-08-14 14:57:13] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:13] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:13] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:13] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:13] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:13] 正在检出 44a499f2acf10b55172d07abf387e5a579a585f7...
+[2025-08-14 14:57:13] 命令成功: git checkout 44a499f2acf10b55172d07abf387e5a579a585f7
+[2025-08-14 14:57:13] 已成功检出 44a499f2acf10b55172d07abf387e5a579a585f7
+[2025-08-14 14:57:13] === 开始配置 ===
+[2025-08-14 14:57:16] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:16] === 开始编译 ===
+[2025-08-14 14:57:17] 命令成功: make -j20
+[2025-08-14 14:57:17] 44a499f2acf10b55172d07abf387e5a579a585f7 (vuln) 编译成功
+[2025-08-14 14:57:17] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:17] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_init_tile
+[2025-08-14 14:57:17] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:17] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-4797_vuln.bc
+[2025-08-14 14:57:17] 二进制文件复制成功
+[2025-08-14 14:57:17] --- [结束] 处理 Git Ref: 44a499f2acf10b55172d07abf387e5a579a585f7 (vuln) ---
+[2025-08-14 14:57:17] 开始清理仓库状态...
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.2.internalize.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.4.opt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.0.preopt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/libopenjp2.so.2.1.0.0.5.precodegen.bc
+[2025-08-14 14:57:17] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:17] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-44a499f2acf1-vuln
+[2025-08-14 14:57:17] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:17] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:17] 仓库状态清理完成
+[2025-08-14 14:57:17] 
+>>> 处理 CVE: CVE-2016-7163, 补丁 Commit: c16bc057ba3f <<<
+[2025-08-14 14:57:17] 
+--- [开始] 处理 Git Ref: c16bc057ba3f ---
+[2025-08-14 14:57:17] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch
+[2025-08-14 14:57:17] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/compile.log
+[2025-08-14 14:57:17] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-7163_patch.bc
+[2025-08-14 14:57:17] 开始清理仓库状态...
+[2025-08-14 14:57:17] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:17] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:17] 仓库状态清理完成
+[2025-08-14 14:57:17] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:17] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:17] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:17] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:17] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:17] 正在检出 c16bc057ba3f...
+[2025-08-14 14:57:17] 命令成功: git checkout c16bc057ba3f
+[2025-08-14 14:57:17] 已成功检出 c16bc057ba3f
+[2025-08-14 14:57:17] === 开始配置 ===
+[2025-08-14 14:57:19] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:19] === 开始编译 ===
+[2025-08-14 14:57:20] 命令成功: make -j20
+[2025-08-14 14:57:20] c16bc057ba3f (patch) 编译成功
+[2025-08-14 14:57:20] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:20] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc 包含所有必需符号: opj_pi_create_decode
+[2025-08-14 14:57:20] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:20] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-7163_patch.bc
+[2025-08-14 14:57:20] 二进制文件复制成功
+[2025-08-14 14:57:20] --- [结束] 处理 Git Ref: c16bc057ba3f (patch) ---
+[2025-08-14 14:57:20] 开始清理仓库状态...
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.2.internalize.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.4.opt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/libopenjp2.so.2.1.1.0.0.preopt.bc
+[2025-08-14 14:57:20] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:20] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c16bc057ba3f-patch
+[2025-08-14 14:57:20] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:20] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:20] 仓库状态清理完成
+[2025-08-14 14:57:20] 命令成功: git rev-parse c16bc057ba3f~1
+[2025-08-14 14:57:20] 漏洞版本 (父提交): ea320dab8bc491c10b1584a6617378cecea9f4fa
+[2025-08-14 14:57:20] 
+--- [开始] 处理 Git Ref: ea320dab8bc491c10b1584a6617378cecea9f4fa ---
+[2025-08-14 14:57:20] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln
+[2025-08-14 14:57:20] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/compile.log
+[2025-08-14 14:57:20] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-7163_vuln.bc
+[2025-08-14 14:57:20] 开始清理仓库状态...
+[2025-08-14 14:57:20] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:20] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:20] 仓库状态清理完成
+[2025-08-14 14:57:20] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:20] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:20] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:20] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:20] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:20] 正在检出 ea320dab8bc491c10b1584a6617378cecea9f4fa...
+[2025-08-14 14:57:20] 命令成功: git checkout ea320dab8bc491c10b1584a6617378cecea9f4fa
+[2025-08-14 14:57:20] 已成功检出 ea320dab8bc491c10b1584a6617378cecea9f4fa
+[2025-08-14 14:57:20] === 开始配置 ===
+[2025-08-14 14:57:22] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:22] === 开始编译 ===
+[2025-08-14 14:57:23] 命令成功: make -j20
+[2025-08-14 14:57:23] ea320dab8bc491c10b1584a6617378cecea9f4fa (vuln) 编译成功
+[2025-08-14 14:57:23] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:23] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc 包含所有必需符号: opj_pi_create_decode
+[2025-08-14 14:57:23] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:23] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-7163_vuln.bc
+[2025-08-14 14:57:23] 二进制文件复制成功
+[2025-08-14 14:57:23] --- [结束] 处理 Git Ref: ea320dab8bc491c10b1584a6617378cecea9f4fa (vuln) ---
+[2025-08-14 14:57:23] 开始清理仓库状态...
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/t1_generate_luts.0.4.opt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/t1_generate_luts.0.5.precodegen.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/t1_generate_luts.0.2.internalize.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.5.precodegen.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/t1_generate_luts.0.0.preopt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.2.internalize.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.4.opt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/libopenjp2.so.2.1.1.0.0.preopt.bc
+[2025-08-14 14:57:23] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:23] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-ea320dab8bc4-vuln
+[2025-08-14 14:57:23] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:23] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:23] 仓库状态清理完成
+[2025-08-14 14:57:23] 
+>>> 处理 CVE: CVE-2016-10506, 补丁 Commit: d27ccf01c68a <<<
+[2025-08-14 14:57:23] 
+--- [开始] 处理 Git Ref: d27ccf01c68a ---
+[2025-08-14 14:57:23] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch
+[2025-08-14 14:57:23] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/compile.log
+[2025-08-14 14:57:23] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10506_patch.bc
+[2025-08-14 14:57:23] 开始清理仓库状态...
+[2025-08-14 14:57:23] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:23] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:23] 仓库状态清理完成
+[2025-08-14 14:57:23] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:23] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:23] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:23] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:23] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:23] 正在检出 d27ccf01c68a...
+[2025-08-14 14:57:23] 命令成功: git checkout d27ccf01c68a
+[2025-08-14 14:57:23] 已成功检出 d27ccf01c68a
+[2025-08-14 14:57:23] === 开始配置 ===
+[2025-08-14 14:57:26] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:26] === 开始编译 ===
+[2025-08-14 14:57:27] 命令成功: make -j20
+[2025-08-14 14:57:27] d27ccf01c68a (patch) 编译成功
+[2025-08-14 14:57:27] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:27] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_pi_next_pcrl, opj_pi_next_cprl, opj_pi_next_rpcl
+[2025-08-14 14:57:27] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:27] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10506_patch.bc
+[2025-08-14 14:57:27] 二进制文件复制成功
+[2025-08-14 14:57:27] --- [结束] 处理 Git Ref: d27ccf01c68a (patch) ---
+[2025-08-14 14:57:27] 开始清理仓库状态...
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:27] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:27] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-d27ccf01c68a-patch
+[2025-08-14 14:57:27] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:27] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:27] 仓库状态清理完成
+[2025-08-14 14:57:27] 命令成功: git rev-parse d27ccf01c68a~1
+[2025-08-14 14:57:27] 漏洞版本 (父提交): 39e962a0ca5e53722f6badda8e93681aad412cf1
+[2025-08-14 14:57:27] 
+--- [开始] 处理 Git Ref: 39e962a0ca5e53722f6badda8e93681aad412cf1 ---
+[2025-08-14 14:57:27] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln
+[2025-08-14 14:57:27] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/compile.log
+[2025-08-14 14:57:27] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10506_vuln.bc
+[2025-08-14 14:57:27] 开始清理仓库状态...
+[2025-08-14 14:57:27] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:27] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:27] 仓库状态清理完成
+[2025-08-14 14:57:27] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:27] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:27] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:27] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:27] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:27] 正在检出 39e962a0ca5e53722f6badda8e93681aad412cf1...
+[2025-08-14 14:57:27] 命令成功: git checkout 39e962a0ca5e53722f6badda8e93681aad412cf1
+[2025-08-14 14:57:27] 已成功检出 39e962a0ca5e53722f6badda8e93681aad412cf1
+[2025-08-14 14:57:27] === 开始配置 ===
+[2025-08-14 14:57:30] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:30] === 开始编译 ===
+[2025-08-14 14:57:31] 命令成功: make -j20
+[2025-08-14 14:57:31] 39e962a0ca5e53722f6badda8e93681aad412cf1 (vuln) 编译成功
+[2025-08-14 14:57:31] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:31] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_pi_next_pcrl, opj_pi_next_cprl, opj_pi_next_rpcl
+[2025-08-14 14:57:31] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:31] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10506_vuln.bc
+[2025-08-14 14:57:31] 二进制文件复制成功
+[2025-08-14 14:57:31] --- [结束] 处理 Git Ref: 39e962a0ca5e53722f6badda8e93681aad412cf1 (vuln) ---
+[2025-08-14 14:57:31] 开始清理仓库状态...
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:31] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:31] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-39e962a0ca5e-vuln
+[2025-08-14 14:57:31] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:31] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:31] 仓库状态清理完成
+[2025-08-14 14:57:31] 
+>>> 处理 CVE: CVE-2016-10504, 补丁 Commit: 397f62c0a838 <<<
+[2025-08-14 14:57:31] 
+--- [开始] 处理 Git Ref: 397f62c0a838 ---
+[2025-08-14 14:57:31] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch
+[2025-08-14 14:57:31] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/compile.log
+[2025-08-14 14:57:31] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10504_patch.bc
+[2025-08-14 14:57:31] 开始清理仓库状态...
+[2025-08-14 14:57:31] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:31] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:31] 仓库状态清理完成
+[2025-08-14 14:57:31] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:31] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:31] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:31] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:31] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:31] 正在检出 397f62c0a838...
+[2025-08-14 14:57:31] 命令成功: git checkout 397f62c0a838
+[2025-08-14 14:57:31] 已成功检出 397f62c0a838
+[2025-08-14 14:57:31] === 开始配置 ===
+[2025-08-14 14:57:33] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:33] === 开始编译 ===
+[2025-08-14 14:57:34] 命令成功: make -j20
+[2025-08-14 14:57:34] 397f62c0a838 (patch) 编译成功
+[2025-08-14 14:57:34] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:34] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_code_block_enc_allocate_data
+[2025-08-14 14:57:34] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:34] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10504_patch.bc
+[2025-08-14 14:57:34] 二进制文件复制成功
+[2025-08-14 14:57:34] --- [结束] 处理 Git Ref: 397f62c0a838 (patch) ---
+[2025-08-14 14:57:34] 开始清理仓库状态...
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:34] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:34] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-397f62c0a838-patch
+[2025-08-14 14:57:34] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:34] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:34] 仓库状态清理完成
+[2025-08-14 14:57:34] 命令成功: git rev-parse 397f62c0a838~1
+[2025-08-14 14:57:34] 漏洞版本 (父提交): 11445eddad7e7fa5b273d1c83c91011c44e5d586
+[2025-08-14 14:57:34] 
+--- [开始] 处理 Git Ref: 11445eddad7e7fa5b273d1c83c91011c44e5d586 ---
+[2025-08-14 14:57:34] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln
+[2025-08-14 14:57:34] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/compile.log
+[2025-08-14 14:57:34] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10504_vuln.bc
+[2025-08-14 14:57:34] 开始清理仓库状态...
+[2025-08-14 14:57:34] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:34] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:34] 仓库状态清理完成
+[2025-08-14 14:57:34] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:34] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:34] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:34] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:34] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:34] 正在检出 11445eddad7e7fa5b273d1c83c91011c44e5d586...
+[2025-08-14 14:57:35] 命令成功: git checkout 11445eddad7e7fa5b273d1c83c91011c44e5d586
+[2025-08-14 14:57:35] 已成功检出 11445eddad7e7fa5b273d1c83c91011c44e5d586
+[2025-08-14 14:57:35] === 开始配置 ===
+[2025-08-14 14:57:37] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:37] === 开始编译 ===
+[2025-08-14 14:57:38] 命令成功: make -j20
+[2025-08-14 14:57:38] 11445eddad7e7fa5b273d1c83c91011c44e5d586 (vuln) 编译成功
+[2025-08-14 14:57:38] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:38] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_code_block_enc_allocate_data
+[2025-08-14 14:57:38] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:38] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2016-10504_vuln.bc
+[2025-08-14 14:57:38] 二进制文件复制成功
+[2025-08-14 14:57:38] --- [结束] 处理 Git Ref: 11445eddad7e7fa5b273d1c83c91011c44e5d586 (vuln) ---
+[2025-08-14 14:57:38] 开始清理仓库状态...
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:38] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:38] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-11445eddad7e-vuln
+[2025-08-14 14:57:38] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:38] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:38] 仓库状态清理完成
+[2025-08-14 14:57:38] 
+>>> 处理 CVE: CVE-2017-14151, 补丁 Commit: afb308b9ccbe <<<
+[2025-08-14 14:57:38] 
+--- [开始] 处理 Git Ref: afb308b9ccbe ---
+[2025-08-14 14:57:38] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch
+[2025-08-14 14:57:38] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/compile.log
+[2025-08-14 14:57:38] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14151_patch.bc
+[2025-08-14 14:57:38] 开始清理仓库状态...
+[2025-08-14 14:57:38] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:38] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:38] 仓库状态清理完成
+[2025-08-14 14:57:38] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:38] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:38] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:38] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:38] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:38] 正在检出 afb308b9ccbe...
+[2025-08-14 14:57:38] 命令成功: git checkout afb308b9ccbe
+[2025-08-14 14:57:38] 已成功检出 afb308b9ccbe
+[2025-08-14 14:57:38] === 开始配置 ===
+[2025-08-14 14:57:41] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:41] === 开始编译 ===
+[2025-08-14 14:57:42] 命令成功: make -j20
+[2025-08-14 14:57:42] afb308b9ccbe (patch) 编译成功
+[2025-08-14 14:57:42] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:42] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_code_block_enc_allocate_data
+[2025-08-14 14:57:42] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:42] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14151_patch.bc
+[2025-08-14 14:57:42] 二进制文件复制成功
+[2025-08-14 14:57:42] --- [结束] 处理 Git Ref: afb308b9ccbe (patch) ---
+[2025-08-14 14:57:42] 开始清理仓库状态...
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:42] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:42] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-afb308b9ccbe-patch
+[2025-08-14 14:57:42] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:42] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:42] 仓库状态清理完成
+[2025-08-14 14:57:42] 命令成功: git rev-parse afb308b9ccbe~1
+[2025-08-14 14:57:42] 漏洞版本 (父提交): 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60
+[2025-08-14 14:57:42] 
+--- [开始] 处理 Git Ref: 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60 ---
+[2025-08-14 14:57:42] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln
+[2025-08-14 14:57:42] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/compile.log
+[2025-08-14 14:57:42] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14151_vuln.bc
+[2025-08-14 14:57:42] 开始清理仓库状态...
+[2025-08-14 14:57:42] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:42] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:42] 仓库状态清理完成
+[2025-08-14 14:57:42] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:42] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:42] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:42] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:42] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:42] 正在检出 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60...
+[2025-08-14 14:57:42] 命令成功: git checkout 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60
+[2025-08-14 14:57:42] 已成功检出 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60
+[2025-08-14 14:57:42] === 开始配置 ===
+[2025-08-14 14:57:45] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:45] === 开始编译 ===
+[2025-08-14 14:57:46] 命令成功: make -j20
+[2025-08-14 14:57:46] 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60 (vuln) 编译成功
+[2025-08-14 14:57:46] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:46] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_tcd_code_block_enc_allocate_data
+[2025-08-14 14:57:46] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:46] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14151_vuln.bc
+[2025-08-14 14:57:46] 二进制文件复制成功
+[2025-08-14 14:57:46] --- [结束] 处理 Git Ref: 0b4c3ce75d11600ebc6675bd871f78ca3c95bc60 (vuln) ---
+[2025-08-14 14:57:46] 开始清理仓库状态...
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:46] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:46] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-0b4c3ce75d11-vuln
+[2025-08-14 14:57:46] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:46] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:46] 仓库状态清理完成
+[2025-08-14 14:57:46] 
+>>> 处理 CVE: CVE-2017-14152, 补丁 Commit: 4241ae6fbbf1 <<<
+[2025-08-14 14:57:46] 
+--- [开始] 处理 Git Ref: 4241ae6fbbf1 ---
+[2025-08-14 14:57:46] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch
+[2025-08-14 14:57:46] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/compile.log
+[2025-08-14 14:57:46] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14152_patch.bc
+[2025-08-14 14:57:46] 开始清理仓库状态...
+[2025-08-14 14:57:46] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:46] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:46] 仓库状态清理完成
+[2025-08-14 14:57:46] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:46] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:46] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:46] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:46] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:46] 正在检出 4241ae6fbbf1...
+[2025-08-14 14:57:46] 命令成功: git checkout 4241ae6fbbf1
+[2025-08-14 14:57:46] 已成功检出 4241ae6fbbf1
+[2025-08-14 14:57:46] === 开始配置 ===
+[2025-08-14 14:57:48] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:48] === 开始编译 ===
+[2025-08-14 14:57:50] 命令成功: make -j20
+[2025-08-14 14:57:50] 4241ae6fbbf1 (patch) 编译成功
+[2025-08-14 14:57:50] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:50] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_set_cinema_parameters
+[2025-08-14 14:57:50] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:50] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14152_patch.bc
+[2025-08-14 14:57:50] 二进制文件复制成功
+[2025-08-14 14:57:50] --- [结束] 处理 Git Ref: 4241ae6fbbf1 (patch) ---
+[2025-08-14 14:57:50] 开始清理仓库状态...
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:50] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:50] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-4241ae6fbbf1-patch
+[2025-08-14 14:57:50] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:50] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:50] 仓库状态清理完成
+[2025-08-14 14:57:50] 命令成功: git rev-parse 4241ae6fbbf1~1
+[2025-08-14 14:57:50] 漏洞版本 (父提交): 52d5690a6fcba86b5f117eeac8aca1971cac3688
+[2025-08-14 14:57:50] 
+--- [开始] 处理 Git Ref: 52d5690a6fcba86b5f117eeac8aca1971cac3688 ---
+[2025-08-14 14:57:50] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln
+[2025-08-14 14:57:50] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/compile.log
+[2025-08-14 14:57:50] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14152_vuln.bc
+[2025-08-14 14:57:50] 开始清理仓库状态...
+[2025-08-14 14:57:50] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:50] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:50] 仓库状态清理完成
+[2025-08-14 14:57:50] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:50] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:50] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:50] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:50] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:50] 正在检出 52d5690a6fcba86b5f117eeac8aca1971cac3688...
+[2025-08-14 14:57:50] 命令成功: git checkout 52d5690a6fcba86b5f117eeac8aca1971cac3688
+[2025-08-14 14:57:50] 已成功检出 52d5690a6fcba86b5f117eeac8aca1971cac3688
+[2025-08-14 14:57:50] === 开始配置 ===
+[2025-08-14 14:57:52] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:52] === 开始编译 ===
+[2025-08-14 14:57:53] 命令成功: make -j20
+[2025-08-14 14:57:53] 52d5690a6fcba86b5f117eeac8aca1971cac3688 (vuln) 编译成功
+[2025-08-14 14:57:53] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:53] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_set_cinema_parameters
+[2025-08-14 14:57:53] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:53] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14152_vuln.bc
+[2025-08-14 14:57:53] 二进制文件复制成功
+[2025-08-14 14:57:53] --- [结束] 处理 Git Ref: 52d5690a6fcba86b5f117eeac8aca1971cac3688 (vuln) ---
+[2025-08-14 14:57:53] 开始清理仓库状态...
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:53] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:53] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-52d5690a6fcb-vuln
+[2025-08-14 14:57:53] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:53] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:53] 仓库状态清理完成
+[2025-08-14 14:57:53] 
+>>> 处理 CVE: CVE-2017-14039, 补丁 Commit: c535531f0336 <<<
+[2025-08-14 14:57:53] 
+--- [开始] 处理 Git Ref: c535531f0336 ---
+[2025-08-14 14:57:53] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch
+[2025-08-14 14:57:53] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/compile.log
+[2025-08-14 14:57:53] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14039_patch.bc
+[2025-08-14 14:57:53] 开始清理仓库状态...
+[2025-08-14 14:57:53] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:53] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:53] 仓库状态清理完成
+[2025-08-14 14:57:53] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:53] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:53] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:53] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:53] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:53] 正在检出 c535531f0336...
+[2025-08-14 14:57:53] 命令成功: git checkout c535531f0336
+[2025-08-14 14:57:53] 已成功检出 c535531f0336
+[2025-08-14 14:57:53] === 开始配置 ===
+[2025-08-14 14:57:56] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:57:56] === 开始编译 ===
+[2025-08-14 14:57:57] 命令成功: make -j20
+[2025-08-14 14:57:57] c535531f0336 (patch) 编译成功
+[2025-08-14 14:57:57] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:57] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_sot, opj_j2k_write_sod, opj_t2_encode_packet
+[2025-08-14 14:57:57] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:57] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14039_patch.bc
+[2025-08-14 14:57:57] 二进制文件复制成功
+[2025-08-14 14:57:57] --- [结束] 处理 Git Ref: c535531f0336 (patch) ---
+[2025-08-14 14:57:57] 开始清理仓库状态...
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:57:57] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:57:57] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-c535531f0336-patch
+[2025-08-14 14:57:57] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:57] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:57] 仓库状态清理完成
+[2025-08-14 14:57:57] 命令成功: git rev-parse c535531f0336~1
+[2025-08-14 14:57:57] 漏洞版本 (父提交): dcac91b8c72f743bda7dbfa9032356bc8110098a
+[2025-08-14 14:57:57] 
+--- [开始] 处理 Git Ref: dcac91b8c72f743bda7dbfa9032356bc8110098a ---
+[2025-08-14 14:57:57] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln
+[2025-08-14 14:57:57] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/compile.log
+[2025-08-14 14:57:57] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14039_vuln.bc
+[2025-08-14 14:57:57] 开始清理仓库状态...
+[2025-08-14 14:57:57] 命令成功: git reset --hard origin/master
+[2025-08-14 14:57:57] 命令成功: git stash --include-untracked
+[2025-08-14 14:57:57] 仓库状态清理完成
+[2025-08-14 14:57:57] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:57:57] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:57:57] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:57:57] 仓库清洁状态检查: 干净
+[2025-08-14 14:57:57] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:57:57] 正在检出 dcac91b8c72f743bda7dbfa9032356bc8110098a...
+[2025-08-14 14:57:57] 命令成功: git checkout dcac91b8c72f743bda7dbfa9032356bc8110098a
+[2025-08-14 14:57:57] 已成功检出 dcac91b8c72f743bda7dbfa9032356bc8110098a
+[2025-08-14 14:57:57] === 开始配置 ===
+[2025-08-14 14:58:00] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:58:00] === 开始编译 ===
+[2025-08-14 14:58:01] 命令成功: make -j20
+[2025-08-14 14:58:01] dcac91b8c72f743bda7dbfa9032356bc8110098a (vuln) 编译成功
+[2025-08-14 14:58:01] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:01] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_sot, opj_j2k_write_sod, opj_t2_encode_packet
+[2025-08-14 14:58:01] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:01] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14039_vuln.bc
+[2025-08-14 14:58:01] 二进制文件复制成功
+[2025-08-14 14:58:01] --- [结束] 处理 Git Ref: dcac91b8c72f743bda7dbfa9032356bc8110098a (vuln) ---
+[2025-08-14 14:58:01] 开始清理仓库状态...
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:58:01] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:58:01] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-vuln
+[2025-08-14 14:58:01] 命令成功: git reset --hard origin/master
+[2025-08-14 14:58:01] 命令成功: git stash --include-untracked
+[2025-08-14 14:58:01] 仓库状态清理完成
+[2025-08-14 14:58:01] 
+>>> 处理 CVE: CVE-2017-14164, 补丁 Commit: dcac91b8c72f <<<
+[2025-08-14 14:58:01] 
+--- [开始] 处理 Git Ref: dcac91b8c72f ---
+[2025-08-14 14:58:01] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch
+[2025-08-14 14:58:01] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/compile.log
+[2025-08-14 14:58:01] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14164_patch.bc
+[2025-08-14 14:58:01] 开始清理仓库状态...
+[2025-08-14 14:58:01] 命令成功: git reset --hard origin/master
+[2025-08-14 14:58:01] 命令成功: git stash --include-untracked
+[2025-08-14 14:58:01] 仓库状态清理完成
+[2025-08-14 14:58:01] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:58:01] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:58:01] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:58:01] 仓库清洁状态检查: 干净
+[2025-08-14 14:58:01] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:58:01] 正在检出 dcac91b8c72f...
+[2025-08-14 14:58:01] 命令成功: git checkout dcac91b8c72f
+[2025-08-14 14:58:01] 已成功检出 dcac91b8c72f
+[2025-08-14 14:58:01] === 开始配置 ===
+[2025-08-14 14:58:04] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:58:04] === 开始编译 ===
+[2025-08-14 14:58:05] 命令成功: make -j20
+[2025-08-14 14:58:05] dcac91b8c72f (patch) 编译成功
+[2025-08-14 14:58:05] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:05] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_sot, opj_j2k_write_first_tile_part, opj_j2k_write_tlm, opj_j2k_write_all_tile_parts
+[2025-08-14 14:58:05] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:05] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14164_patch.bc
+[2025-08-14 14:58:05] 二进制文件复制成功
+[2025-08-14 14:58:05] --- [结束] 处理 Git Ref: dcac91b8c72f (patch) ---
+[2025-08-14 14:58:05] 开始清理仓库状态...
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:58:05] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:58:05] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-dcac91b8c72f-patch
+[2025-08-14 14:58:05] 命令成功: git reset --hard origin/master
+[2025-08-14 14:58:05] 命令成功: git stash --include-untracked
+[2025-08-14 14:58:05] 仓库状态清理完成
+[2025-08-14 14:58:05] 命令成功: git rev-parse dcac91b8c72f~1
+[2025-08-14 14:58:05] 漏洞版本 (父提交): af760007711bf93041d3eba3a41b9a48d365f303
+[2025-08-14 14:58:05] 
+--- [开始] 处理 Git Ref: af760007711bf93041d3eba3a41b9a48d365f303 ---
+[2025-08-14 14:58:05] 构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln
+[2025-08-14 14:58:05] 日志文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/compile.log
+[2025-08-14 14:58:05] 输出目标: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14164_vuln.bc
+[2025-08-14 14:58:05] 开始清理仓库状态...
+[2025-08-14 14:58:05] 命令成功: git reset --hard origin/master
+[2025-08-14 14:58:05] 命令成功: git stash --include-untracked
+[2025-08-14 14:58:05] 仓库状态清理完成
+[2025-08-14 14:58:05] 命令成功: git diff --quiet --exit-code
+[2025-08-14 14:58:05] 命令成功: git diff --cached --quiet --exit-code
+[2025-08-14 14:58:05] 命令成功: git ls-files --others --exclude-standard
+[2025-08-14 14:58:05] 仓库清洁状态检查: 干净
+[2025-08-14 14:58:05] 仓库已处于干净状态，无需 stash
+[2025-08-14 14:58:05] 正在检出 af760007711bf93041d3eba3a41b9a48d365f303...
+[2025-08-14 14:58:05] 命令成功: git checkout af760007711bf93041d3eba3a41b9a48d365f303
+[2025-08-14 14:58:05] 已成功检出 af760007711bf93041d3eba3a41b9a48d365f303
+[2025-08-14 14:58:05] === 开始配置 ===
+[2025-08-14 14:58:07] 命令成功: cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+[2025-08-14 14:58:07] === 开始编译 ===
+[2025-08-14 14:58:09] 命令成功: make -j20
+[2025-08-14 14:58:09] af760007711bf93041d3eba3a41b9a48d365f303 (vuln) 编译成功
+[2025-08-14 14:58:09] 检查BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:09] BC文件 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 包含所有必需符号: opj_j2k_write_sot, opj_j2k_write_first_tile_part, opj_j2k_write_tlm, opj_j2k_write_all_tile_parts
+[2025-08-14 14:58:09] 找到包含所有符号的BC文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:09] 复制 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc 到 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/CVE-2017-14164_vuln.bc
+[2025-08-14 14:58:09] 二进制文件复制成功
+[2025-08-14 14:58:09] --- [结束] 处理 Git Ref: af760007711bf93041d3eba3a41b9a48d365f303 (vuln) ---
+[2025-08-14 14:58:09] 开始清理仓库状态...
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_decompress.0.2.internalize.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_compress.0.0.preopt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_compress.0.4.opt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.5.precodegen.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.0.preopt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_decompress.0.4.opt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_decompress.0.5.precodegen.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.4.opt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_compress.0.5.precodegen.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_dump.0.2.internalize.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_dump.0.4.opt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_decompress.0.0.preopt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_dump.0.0.preopt.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_dump.0.5.precodegen.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/libopenjp2.so.2.2.0.0.2.internalize.bc
+[2025-08-14 14:58:09] 删除文件: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln/bin/opj_compress.0.2.internalize.bc
+[2025-08-14 14:58:09] 删除构建目录: /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../target/openjpeg/build-af760007711b-vuln
+[2025-08-14 14:58:09] 命令成功: git reset --hard origin/master
+[2025-08-14 14:58:09] 命令成功: git stash --include-untracked
+[2025-08-14 14:58:09] 仓库状态清理完成
+[2025-08-14 14:58:09] 所有操作完成，结果保存在 /home/zhangxb/patch/related-works/CVE-Dataset/New/testset/openjpeg/../../../bitcode/reference/openjpeg/

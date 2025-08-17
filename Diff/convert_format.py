@@ -63,13 +63,13 @@ def convert_valid_to_details(valid_file_path, output_file_path):
         print(f"错误：转换过程中出现异常: {e}")
         sys.exit(1)
 
-PROJECT = "freetype"
+PROJECT = "openjpeg"
 def main():
     """主函数"""
     # 设置文件路径
     script_dir = os.path.dirname(os.path.abspath(__file__))
     valid_file = os.path.join(script_dir, f"../testset/{PROJECT}/valid")
-    output_file = f"{PROJECT}/diff_files/details_llvm"
+    output_file = f"{PROJECT}/details_llvm"
     
     # 检查输入文件是否存在
     if not os.path.exists(valid_file):

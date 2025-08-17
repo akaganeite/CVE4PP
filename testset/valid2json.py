@@ -8,15 +8,34 @@ parser.add_argument('-o', '--output', default=None, help='输出文件名，默�
 parser.add_argument('-target', required=True, help='target文件路径')
 args = parser.parse_args()
 
-valid_cves=[]
-with open(f"../Diff/{args.proj}/details_llvm", "r") as f:
-    for line in f:
-        line = line.strip()
-        if not line or line.startswith('#'):
-            continue
-        parts = line.split()
-        cve = parts[0].split('_')[0]
-        valid_cves.append(cve)
+valid_cves = []
+# 从bitcode目录读取CVE信息
+bitcode_dir = f"../../bitcode/reference/{args.proj}"
+if os.path.exists(bitcode_dir):
+    bc_files = [f for f in os.listdir(bitcode_dir) if f.endswith('.bc')]
+    cve_files = {}
+    
+    # 收集所有CVE的patch和vuln文件
+    for bc_file in bc_files:
+        if '_patch.bc' in bc_file:
+            cve = bc_file.replace('_patch.bc', '')
+            if cve not in cve_files:
+                cve_files[cve] = {}
+            cve_files[cve]['patch'] = True
+        elif '_vuln.bc' in bc_file:
+            cve = bc_file.replace('_vuln.bc', '')
+            if cve not in cve_files:
+                cve_files[cve] = {}
+            cve_files[cve]['vuln'] = True
+    
+    # 只有同时存在patch和vuln文件的CVE才加入valid_cves
+    for cve, files in cve_files.items():
+        if files.get('patch', False) and files.get('vuln', False):
+            valid_cves.append(cve)
+    
+    print(f"从{bitcode_dir}找到{len(valid_cves)}个有效CVE")
+else:
+    print(f"警告：bitcode目录不存在: {bitcode_dir}")
 
 results = []
 input_file = os.path.join(args.proj, "valid")
@@ -104,4 +123,4 @@ with open(args.target, 'r') as tf:
             write_target_json(item)
 
 if fout:
-    fout.close() 
+    fout.close()

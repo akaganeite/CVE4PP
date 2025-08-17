@@ -1,4 +1,227 @@
 [*] ------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zc-o0-openssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0p-o0-libssl,ssl3_get_key_exchange,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zd-o0-openssl,ssl3_get_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1k-o0-libssl,ssl3_get_key_exchange,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-0205
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,ssl3_get_cert_verify,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,ssl3_get_cert_verify,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,ssl3_get_cert_verify,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-0206
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,dtls1_read_bytes,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,dtls1_read_bytes,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,dtls1_read_bytes,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,dtls1_buffer_record,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,dtls1_buffer_record,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,dtls1_buffer_record,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,dtls1_process_buffered_records,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,dtls1_process_buffered_records,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,dtls1_process_buffered_records,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1j-o0-libssl,dtls1_get_record,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0o-o0-libssl,dtls1_get_record,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,dtls1_get_record,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-0209
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2-o0-libssl,d2i_ECPrivateKey,-1
+[*] target function: d2i_ECPrivateKey not found
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,d2i_ECPrivateKey,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto,d2i_ECPrivateKey,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,d2i_ECPrivateKey,1
+[*] Detection Result:P Patch_True
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-0288
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2-o0-libssl,X509_to_X509_REQ,-1
+[*] target function: X509_to_X509_REQ not found
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl,X509_to_X509_REQ,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto,X509_to_X509_REQ,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,X509_to_X509_REQ,1
+[*] Detection Result:P Patch_True
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-1791
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,ssl3_get_new_session_ticket,-1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0s-o0-libssl,ssl3_get_new_session_ticket,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2b-o0-libcrypto,ssl3_get_new_session_ticket,1
+[*] target function: ssl3_get_new_session_ticket not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1n-o0-libssl,ssl3_get_new_session_ticket,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,SSL_SESSION_new,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0s-o0-libssl,SSL_SESSION_new,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2b-o0-libcrypto,SSL_SESSION_new,1
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-1788
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto,BN_GF2m_mod_inv,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,BN_GF2m_mod_inv,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,BN_GF2m_mod_inv,1
+[*] target function: BN_GF2m_mod_inv not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,BN_GF2m_mod_inv,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-1789
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto,X509_cmp_time,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,X509_cmp_time,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,X509_cmp_time,1
+[*] target function: X509_cmp_time not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,X509_cmp_time,1
+[*] Detection Result:P Patch_True
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto,PKCS7_dataDecode,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl,PKCS7_dataDecode,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,PKCS7_dataDecode,1
+[*] target function: PKCS7_dataDecode not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,PKCS7_dataDecode,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-3196
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0s-o0-libssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1n-o0-libssl,ssl3_get_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,ssl3_get_key_exchange,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,ssl3_get_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,ssl3_get_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,ssl3_get_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0s-o0-libssl,ssl3_get_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1n-o0-libssl,ssl3_get_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,ssl3_get_client_key_exchange,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,ssl3_get_client_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,ssl3_get_client_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,ssl3_send_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_0s-o0-libssl,ssl3_send_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1n-o0-libssl,ssl3_send_client_key_exchange,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,ssl3_send_client_key_exchange,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,ssl3_send_client_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,ssl3_send_client_key_exchange,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-1793
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,X509_verify_cert,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1n-o0-libssl,X509_verify_cert,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,X509_verify_cert,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,X509_verify_cert,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,X509_verify_cert,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-3194
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,rsa_pss_decode,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,rsa_pss_decode,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,rsa_pss_decode,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,rsa_pss_decode,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl,rsa_pss_decode,1
+[*] Detection Result:V Vulnerability_True
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-3195
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,asn1_template_noexp_d2i,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,asn1_template_noexp_d2i,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,asn1_template_noexp_d2i,-1
+[*] target function: asn1_template_noexp_d2i not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,asn1_template_noexp_d2i,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,asn1_template_noexp_d2i,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl,asn1_template_noexp_d2i,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2d-o0-openssl,ASN1_item_ex_d2i,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,ASN1_item_ex_d2i,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1o-o0-libssl,ASN1_item_ex_d2i,-1
+[*] target function: ASN1_item_ex_d2i not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,ASN1_item_ex_d2i,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,ASN1_item_ex_d2i,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl,ASN1_item_ex_d2i,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2015-3197
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,get_client_hello,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,get_client_hello,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,get_client_hello,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl,get_client_hello,1
+[*] target function: get_client_hello not found
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_10-o0-openssl,get_client_hello,1
+[*] target function: get_client_hello not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,get_client_master_key,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2e-o0-openssl,get_client_master_key,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1p-o0-openssl,get_client_master_key,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl,get_client_master_key,1
+[*] target function: get_client_master_key not found
+[*] Detection for target/openssl/openssl-OpenSSL-fips-2_0_10-o0-openssl,get_client_master_key,1
+[*] target function: get_client_master_key not found
+[*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-0705
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,dsa_priv_decode,-1
 [*] Detection Result:V Vulnerability
@@ -26,6 +249,18 @@
 [*] Detection Result:V Vulnerability
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,init_ssl_connection,1
 [*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,SRP_user_pwd_set_sv_BN,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,SRP_user_pwd_set_sv_BN,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,SRP_user_pwd_set_sv_BN,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,sv_body,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,sv_body,-1
@@ -38,6 +273,18 @@
 [*] Detection Result:V Vulnerability
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,sv_body,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,t_tob64,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,t_tob64,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,t_tob64,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,t_tob64,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,t_tob64,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,t_tob64,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,rev_body,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,rev_body,-1
@@ -86,54 +333,6 @@
 [*] Detection Result:P Patch_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,ssl_srp_server_param_cb,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,SRP_VBASE_get_by_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,SRP_VBASE_get_by_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,SRP_VBASE_get_by_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,SRP_VBASE_get_by_user,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,SRP_VBASE_get_by_user,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,SRP_VBASE_get_by_user,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,SRP_user_pwd_free,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,SRP_user_pwd_free,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,SRP_user_pwd_free,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,SRP_user_pwd_free,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,SRP_user_pwd_free,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,SRP_user_pwd_free,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,srp_user_pwd_dup,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,srp_user_pwd_dup,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,srp_user_pwd_dup,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,srp_user_pwd_dup,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,srp_user_pwd_dup,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,srp_user_pwd_dup,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,find_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,find_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,find_user,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,find_user,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,find_user,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,find_user,1
-[*] Detection Result: fail to decide, VF do not exist
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-0799
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,fmtint,-1
@@ -160,6 +359,18 @@
 [*] Detection Result:P Patch_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,BIO_vsnprintf,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,BIO_vprintf,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,BIO_vprintf,-1
@@ -234,6 +445,18 @@
 [*] Detection Result:P Patch_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,BIO_vsnprintf,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,roundv,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,roundv,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,BIO_vprintf,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,BIO_vprintf,-1
@@ -309,6 +532,44 @@
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,BN_hex2bn,1
 [*] Detection Result:P Patch_True
 [*] ------------------------------------------
+[*] Detecting CVE: CVE-2016-0702
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,BN_mod_exp_mont_consttime,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,BN_mod_exp_mont_consttime,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,BN_mod_exp_mont_consttime,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,BN_mod_exp_mont_consttime,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl,BN_mod_exp_mont_consttime,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl,BN_mod_exp_mont_consttime,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-openssl,bn_get_bits,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1r-o0-openssl,bn_get_bits,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1q-o0-openssl,bn_get_bits,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-openssl,bn_get_bits,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1t-o0-openssl,bn_get_bits,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2i-o0-openssl,bn_get_bits,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-2109
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-libcrypto,asn1_d2i_read_bio,-1
 [*] Detection Result:V Vulnerability
@@ -322,6 +583,18 @@
 [*] Detection Result:P Patch
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2i-o0-libcrypto,asn1_d2i_read_bio,1
 [*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-libcrypto,ASN1_item_d2i_fp,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1s-o0-libcrypto,ASN1_item_d2i_fp,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2f-o0-libcrypto,ASN1_item_d2i_fp,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2h-o0-libcrypto,ASN1_item_d2i_fp,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1t-o0-libcrypto,ASN1_item_d2i_fp,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2i-o0-libcrypto,ASN1_item_d2i_fp,1
+[*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-2105
 [*] Detection for target/openssl/openssl-OpenSSL_1_0_2g-o0-openssl,EVP_EncodeUpdate,-1
@@ -653,6 +926,44 @@
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,chacha20_poly1305_ctrl,1
 [*] Detection Result:V Vulnerability
 [*] ------------------------------------------
+[*] Detecting CVE: CVE-2019-1547
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1d-o0-libcrypto,ec_guess_cofactor,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2t-o0-libcrypto,ec_guess_cofactor,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0l-o0-libcrypto,ec_guess_cofactor,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1d-o0-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2t-o0-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0l-o0-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1d-o0-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2t-o0-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0l-o0-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] ------------------------------------------
 [*] Detecting CVE: CVE-2019-1563
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,pkcs7_decrypt_rinfo,-1
 [*] Detection Result:V Vulnerability_True
@@ -690,6 +1001,18 @@
 [*] Detection Result:P Patch_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_1f-o0-libcrypto,cms_RecipientInfo_ktri_decrypt,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,pkcs7_encode_rinfo,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,pkcs7_encode_rinfo,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto,pkcs7_encode_rinfo,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_2u-o0-libcrypto,pkcs7_encode_rinfo,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1e-o0-libcrypto,pkcs7_encode_rinfo,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1f-o0-libcrypto,pkcs7_encode_rinfo,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto,PKCS7_dataDecode,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto,PKCS7_dataDecode,-1
@@ -768,6 +1091,18 @@
 [*] Detection Result:P Patch_True
 [*] Detection for target/openssl/openssl-openssl-3.0.3-o0-libssl,ssl_verify_cert_chain,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-openssl-3.0.0-o0-libssl,ssl_cert_set_cert_cb,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1u-o0-libssl,ssl_cert_set_cert_cb,-1
+[*] target function: ssl_cert_set_cert_cb not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_0_1t-o0-libssl,ssl_cert_set_cert_cb,-1
+[*] target function: ssl_cert_set_cert_cb not found
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1n-o0-libssl,ssl_cert_set_cert_cb,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.2-o0-libssl,ssl_cert_set_cert_cb,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.3-o0-libssl,ssl_cert_set_cert_cb,1
+[*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2022-1473
 [*] Detection for target/openssl/openssl-openssl-3.0.2-o0-libcrypto,OPENSSL_LH_flush,-1
@@ -900,8 +1235,32 @@
 [*] Detection Result:V Vulnerability
 [*] Detection for target/openssl/openssl-openssl-3.1.0-o0-libcrypto,nc_match,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-openssl-3.0.7-o0-libcrypto,do_i2r_name_constraints,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.6-o0-libcrypto,do_i2r_name_constraints,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.5-o0-libcrypto,do_i2r_name_constraints,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.8-o0-libcrypto,do_i2r_name_constraints,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto,do_i2r_name_constraints,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.1.0-o0-libcrypto,do_i2r_name_constraints,1
+[*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2023-0215
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto,ndef_suffix,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.7-o0-libcrypto,ndef_suffix,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1r-o0-libcrypto,ndef_suffix,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.8-o0-libcrypto,ndef_suffix,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto,ndef_suffix,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.1.0-o0-libcrypto,ndef_suffix,1
+[*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto,BIO_new_NDEF,-1
 [*] Detection Result:V Vulnerability_True
 [*] Detection for target/openssl/openssl-openssl-3.0.7-o0-libcrypto,BIO_new_NDEF,-1
@@ -940,6 +1299,18 @@
 [*] target function: pkcs7_get_signer_certs not found
 [*] Detection for target/openssl/openssl-openssl-3.1.0-o0-libcrypto,pkcs7_get_signer_certs,1
 [*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-openssl-3.0.7-o0-libcrypto,PKCS7_add_signature,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.6-o0-libcrypto,PKCS7_add_signature,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.5-o0-libcrypto,PKCS7_add_signature,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-openssl-3.0.8-o0-libcrypto,PKCS7_add_signature,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for target/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto,PKCS7_add_signature,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.1.0-o0-libcrypto,PKCS7_add_signature,1
+[*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2023-0401
 [*] Detection for target/openssl/openssl-openssl-3.0.7-o0-libcrypto,PKCS7_dataDecode,-1
@@ -993,6 +1364,32 @@
 [*] Detection for target/openssl/openssl-OpenSSL_1_1_1v-o0-libcrypto,siv_cipher,1
 [*] target function: siv_cipher not found
 [*] Detection for target/openssl/openssl-openssl-3.1.2-o0-libcrypto,siv_cipher,1
+[*] Detection Result:P Patch_True
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2023-5363
+[*] Detection for target/openssl/openssl-openssl-3.1.3-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.11-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.10-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.2.0-beta1-o0-libcrypto,evp_cipher_init_internal,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-openssl-3.2.0-o0-libcrypto,evp_cipher_init_internal,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-openssl-3.0.13-o0-libcrypto,evp_cipher_init_internal,1
+[*] Detection Result:P Patch_True
+[*] Detection for target/openssl/openssl-openssl-3.1.3-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.11-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.0.10-o0-libcrypto,evp_cipher_init_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target/openssl/openssl-openssl-3.2.0-beta1-o0-libcrypto,evp_cipher_init_internal,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-openssl-3.2.0-o0-libcrypto,evp_cipher_init_internal,1
+[*] Detection Result:P Patch
+[*] Detection for target/openssl/openssl-openssl-3.0.13-o0-libcrypto,evp_cipher_init_internal,1
 [*] Detection Result:P Patch_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2023-5678

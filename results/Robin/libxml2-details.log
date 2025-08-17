@@ -1,0 +1,780 @@
+============================================
+Patch Detection Log
+Time: 2025-08-17 13:18:57
+============================================
+2025-08-17 13:18:57,541 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:18:57,541 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:02,077 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:02,078 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:19:02,078 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.8.0-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:06,243 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:06,243 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:19:06,244 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.8.0-rc2-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:10,768 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:10,769 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:19:10,769 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:15,209 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:15,210 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:19:15,211 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc1-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:19,538 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:19,539 - INFO - detecting CVE-2013-0338 xmlParserEntityCheck
+2025-08-17 13:19:19,540 - INFO - cmd: python main.py --detect --cve_id CVE-2013-0338 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2 --vul_func_name xmlParserEntityCheck
+2025-08-17 13:19:23,791 - INFO - success CVE-2013-0338,details in cve_test/CVE-2013-0338.log
+
+2025-08-17 13:19:23,792 - INFO - detecting CVE-2013-1969 htmlParseChunk__internal_alias
+2025-08-17 13:19:23,793 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1969 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name htmlParseChunk__internal_alias
+2025-08-17 13:19:28,654 - INFO - success CVE-2013-1969,details in cve_test/CVE-2013-1969.log
+
+2025-08-17 13:19:28,655 - INFO - detecting CVE-2013-1969 htmlParseChunk__internal_alias
+2025-08-17 13:19:28,656 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1969 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name htmlParseChunk__internal_alias
+2025-08-17 13:19:33,185 - INFO - success CVE-2013-1969,details in cve_test/CVE-2013-1969.log
+
+2025-08-17 13:19:33,186 - INFO - detecting CVE-2013-1969 htmlParseChunk__internal_alias
+2025-08-17 13:19:33,186 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1969 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc1-o0-libxml2 --vul_func_name htmlParseChunk__internal_alias
+2025-08-17 13:19:37,892 - INFO - success CVE-2013-1969,details in cve_test/CVE-2013-1969.log
+
+2025-08-17 13:19:37,893 - INFO - detecting CVE-2013-1969 htmlParseChunk__internal_alias
+2025-08-17 13:19:37,893 - INFO - cmd: python main.py --detect --cve_id CVE-2013-1969 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2 --vul_func_name htmlParseChunk__internal_alias
+2025-08-17 13:19:42,279 - INFO - success CVE-2013-1969,details in cve_test/CVE-2013-1969.log
+
+2025-08-17 13:19:42,280 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:19:42,281 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:20:12,399 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:20:12,400 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:20:12,401 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:20:42,526 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:20:42,527 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:20:42,528 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:21:12,168 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:21:12,169 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:21:12,170 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:21:45,368 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:21:45,369 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:21:45,370 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:22:15,515 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:22:15,516 - INFO - detecting CVE-2015-7498 xmlParseXMLDecl__internal_alias
+2025-08-17 13:22:15,516 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseXMLDecl__internal_alias
+2025-08-17 13:22:44,841 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:22:44,842 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:44,842 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:49,539 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:22:49,540 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:49,540 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:53,679 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:22:53,680 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:53,681 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:57,750 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:22:57,751 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:22:57,751 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:23:01,790 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:23:01,791 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:23:01,792 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:23:06,316 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:23:06,317 - INFO - detecting CVE-2015-7498 xmlSwitchEncoding__internal_alias
+2025-08-17 13:23:06,318 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7498 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlSwitchEncoding__internal_alias
+2025-08-17 13:23:10,875 - INFO - success CVE-2015-7498,details in cve_test/CVE-2015-7498.log
+
+2025-08-17 13:23:10,876 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:10,877 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:17,576 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:17,577 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:17,577 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:23,667 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:23,668 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:23,669 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:29,647 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:29,648 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:29,649 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:36,542 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:36,543 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:36,544 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:43,178 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:43,179 - INFO - detecting CVE-2015-7500 xmlParseStartTag2
+2025-08-17 13:23:43,180 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7500 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlParseStartTag2
+2025-08-17 13:23:49,203 - INFO - success CVE-2015-7500,details in cve_test/CVE-2015-7500.log
+
+2025-08-17 13:23:49,204 - INFO - detecting CVE-2015-7941 xmlParseConditionalSections
+2025-08-17 13:23:49,205 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7941 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseConditionalSections
+2025-08-17 13:24:09,516 - INFO - success CVE-2015-7941,details in cve_test/CVE-2015-7941.log
+
+2025-08-17 13:24:09,517 - INFO - detecting CVE-2015-7941 xmlParseConditionalSections
+2025-08-17 13:24:09,518 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7941 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseConditionalSections
+2025-08-17 13:24:17,301 - INFO - success CVE-2015-7941,details in cve_test/CVE-2015-7941.log
+
+2025-08-17 13:24:17,302 - INFO - detecting CVE-2015-7941 xmlParseConditionalSections
+2025-08-17 13:24:17,307 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7941 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseConditionalSections
+2025-08-17 13:24:24,382 - INFO - success CVE-2015-7941,details in cve_test/CVE-2015-7941.log
+
+2025-08-17 13:24:24,382 - INFO - detecting CVE-2015-7941 xmlParseConditionalSections
+2025-08-17 13:24:24,383 - INFO - cmd: python main.py --detect --cve_id CVE-2015-7941 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseConditionalSections
+2025-08-17 13:24:31,973 - INFO - success CVE-2015-7941,details in cve_test/CVE-2015-7941.log
+
+2025-08-17 13:24:31,974 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:31,975 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:40,248 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:24:40,249 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:40,249 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.1-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:48,159 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:24:48,160 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:48,160 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.0-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:55,595 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:24:55,596 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:24:55,596 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:25:03,470 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:25:03,471 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:25:03,471 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:25:12,001 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:25:12,002 - INFO - detecting CVE-2015-8241 xmlParseMarkupDecl__internal_alias
+2025-08-17 13:25:12,003 - INFO - cmd: python main.py --detect --cve_id CVE-2015-8241 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseMarkupDecl__internal_alias
+2025-08-17 13:25:20,619 - INFO - success CVE-2015-8241,details in cve_test/CVE-2015-8241.log
+
+2025-08-17 13:25:20,619 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:20,620 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:25:27,603 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:25:27,604 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:27,605 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:25:34,937 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:25:34,938 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:34,939 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:25:42,185 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:25:42,186 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:42,186 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:25:49,201 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:25:49,202 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:49,203 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:25:56,237 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:25:56,238 - INFO - detecting CVE-2016-1762 xmlParseInternalSubset
+2025-08-17 13:25:56,238 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1762 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlParseInternalSubset
+2025-08-17 13:26:02,966 - INFO - success CVE-2016-1762,details in cve_test/CVE-2016-1762.log
+
+2025-08-17 13:26:02,967 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:26:02,968 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:26:16,930 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:26:16,931 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:26:16,932 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:26:28,652 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:26:28,653 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:26:28,653 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:26:42,322 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:26:42,323 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:26:42,323 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:26:56,154 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:26:56,155 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:26:56,155 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:27:09,299 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:27:09,300 - INFO - detecting CVE-2016-1836 xmlParseNCNameComplex
+2025-08-17 13:27:09,300 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1836 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:27:22,349 - INFO - success CVE-2016-1836,details in cve_test/CVE-2016-1836.log
+
+2025-08-17 13:27:22,349 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:22,350 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:27:28,976 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:27:28,976 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:28,977 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:27:34,660 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:27:34,661 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:34,662 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.2-rc2-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:27:41,801 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:27:41,802 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:41,802 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:27:47,985 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:27:47,986 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:47,987 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:27:53,916 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:27:53,917 - INFO - detecting CVE-2016-1837 htmlParseSystemLiteral
+2025-08-17 13:27:53,918 - INFO - cmd: python main.py --detect --cve_id CVE-2016-1837 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name htmlParseSystemLiteral
+2025-08-17 13:28:00,073 - INFO - success CVE-2016-1837,details in cve_test/CVE-2016-1837.log
+
+2025-08-17 13:28:00,074 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:00,074 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:04,346 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:04,347 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:04,347 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:08,373 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:08,374 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:08,375 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:12,386 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:12,387 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:12,388 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:16,436 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:16,437 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:16,438 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:20,449 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:20,450 - INFO - detecting CVE-2016-4658 xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:20,450 - INFO - cmd: python main.py --detect --cve_id CVE-2016-4658 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name xmlXPtrNewRangeNodeObject__internal_alias
+2025-08-17 13:28:24,480 - INFO - success CVE-2016-4658,details in cve_test/CVE-2016-4658.log
+
+2025-08-17 13:28:24,481 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:28:24,481 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:28:33,662 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:28:33,663 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:28:33,664 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:28:42,668 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:28:42,668 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:28:42,669 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:28:51,533 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:28:51,534 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:28:51,535 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:29:00,466 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:29:00,467 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:29:00,467 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:29:09,359 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:29:09,359 - INFO - detecting CVE-2017-16931 xmlParseNameComplex
+2025-08-17 13:29:09,360 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16931 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:29:18,325 - INFO - success CVE-2017-16931,details in cve_test/CVE-2017-16931.log
+
+2025-08-17 13:29:18,326 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:18,327 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:23,565 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:23,566 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:23,566 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:28,741 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:28,742 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:28,743 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:33,940 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:33,941 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:33,941 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:38,140 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:38,141 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:38,142 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:42,376 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:42,377 - INFO - detecting CVE-2017-5130 xmlMallocLoc__internal_alias
+2025-08-17 13:29:42,377 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name xmlMallocLoc__internal_alias
+2025-08-17 13:29:46,581 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:46,582 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:29:46,582 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.4-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:29:53,389 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:29:53,390 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:29:53,390 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.3-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:00,084 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:30:00,085 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:00,086 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.2-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:06,784 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:30:06,785 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:06,785 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc1-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:13,576 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:30:13,577 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:13,577 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-rc2-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:20,383 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:30:20,384 - INFO - detecting CVE-2017-5130 xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:20,385 - INFO - cmd: python main.py --detect --cve_id CVE-2017-5130 --target_bin /binaries/target/libxml2/libxml2-2.9.5-o0-libxml2 --vul_func_name xmlMemStrdupLoc__internal_alias
+2025-08-17 13:30:27,125 - INFO - success CVE-2017-5130,details in cve_test/CVE-2017-5130.log
+
+2025-08-17 13:30:27,126 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:27,127 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.11-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:31,509 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:31,510 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:31,511 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.12-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:35,848 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:35,849 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:35,850 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.10-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:40,137 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:40,138 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:40,139 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.13-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:44,397 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:44,398 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:44,398 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.14-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:48,684 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:48,685 - INFO - detecting CVE-2022-23308 xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:48,685 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlValidCtxtNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:53,110 - ERROR - fail CVE-2022-23308 ,details1
+
+2025-08-17 13:30:53,111 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:53,111 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.11-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:57,252 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:30:57,253 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:30:57,254 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.12-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:01,267 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:31:01,268 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:01,268 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.10-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:05,356 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:31:05,357 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:05,358 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.13-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:09,403 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:31:09,404 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:09,404 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.9.14-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:13,485 - INFO - success CVE-2022-23308,details in cve_test/CVE-2022-23308.log
+
+2025-08-17 13:31:13,486 - INFO - detecting CVE-2022-23308 xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:13,486 - INFO - cmd: python main.py --detect --cve_id CVE-2022-23308 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlValidNormalizeAttributeValue__internal_alias
+2025-08-17 13:31:17,706 - ERROR - fail CVE-2022-23308 ,details1
+
+2025-08-17 13:31:17,712 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:17,713 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.13-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:23,340 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:31:23,341 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:23,342 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.11-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:28,108 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:31:28,109 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:28,110 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.12-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:32,885 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:31:32,886 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:32,886 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:37,127 - ERROR - fail CVE-2022-29824 ,details1
+
+2025-08-17 13:31:37,128 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:37,128 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:41,611 - ERROR - fail CVE-2022-29824 ,details1
+
+2025-08-17 13:31:41,612 - INFO - detecting CVE-2022-29824 xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:41,613 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlBufferCreateSize__internal_alias
+2025-08-17 13:31:46,161 - ERROR - fail CVE-2022-29824 ,details1
+
+2025-08-17 13:31:46,162 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:31:46,163 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.13-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:31:51,053 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:31:51,054 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:31:51,054 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.11-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:31:55,905 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:31:55,906 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:31:55,906 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.9.12-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:32:00,998 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:32:01,000 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:32:01,000 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:32:05,640 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:32:05,641 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:32:05,642 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:32:10,328 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:32:10,329 - INFO - detecting CVE-2022-29824 xmlBufCreateSize
+2025-08-17 13:32:10,330 - INFO - cmd: python main.py --detect --cve_id CVE-2022-29824 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlBufCreateSize
+2025-08-17 13:32:14,979 - INFO - success CVE-2022-29824,details in cve_test/CVE-2022-29824.log
+
+2025-08-17 13:32:14,980 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:14,980 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:21,295 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:21,296 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:21,296 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:27,302 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:27,303 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:27,303 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:33,564 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:33,565 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:33,565 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:40,140 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:40,141 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:40,142 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:46,581 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:46,582 - INFO - detecting CVE-2022-40303 xmlParseCDSect
+2025-08-17 13:32:46,582 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseCDSect
+2025-08-17 13:32:54,111 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:32:54,112 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:32:54,112 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:02,619 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:02,620 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:33:02,620 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:10,836 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:10,837 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:33:10,837 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:19,399 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:19,400 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:33:19,400 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:27,982 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:27,983 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:33:27,984 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:36,439 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:36,440 - INFO - detecting CVE-2022-40303 xmlParseStringName
+2025-08-17 13:33:36,441 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseStringName
+2025-08-17 13:33:44,972 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:44,973 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:33:44,974 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:33:51,617 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:51,618 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:33:51,619 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:33:58,165 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:33:58,166 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:33:58,167 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:34:04,703 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:04,704 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:34:04,705 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:34:11,303 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:11,304 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:34:11,305 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:34:18,057 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:18,058 - INFO - detecting CVE-2022-40303 xmlParseEntityValue
+2025-08-17 13:34:18,058 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseEntityValue
+2025-08-17 13:34:24,802 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:24,803 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:34:24,803 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:34:33,797 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:33,798 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:34:33,798 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:34:42,611 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:42,612 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:34:42,612 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:34:51,510 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:34:51,511 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:34:51,512 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:35:01,436 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:01,437 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:35:01,441 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:35:09,532 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:09,533 - INFO - detecting CVE-2022-40303 xmlParseNCNameComplex
+2025-08-17 13:35:09,534 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseNCNameComplex
+2025-08-17 13:35:17,748 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:17,749 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:17,750 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:35:25,212 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:25,212 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:25,213 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:35:33,308 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:33,309 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:33,309 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:35:40,137 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:40,138 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:40,138 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:35:47,185 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:47,186 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:47,186 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:35:55,089 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:35:55,090 - INFO - detecting CVE-2022-40303 xmlParseNameComplex
+2025-08-17 13:35:55,091 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseNameComplex
+2025-08-17 13:36:03,001 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:36:03,002 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:36:03,002 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:36:23,191 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:36:23,192 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:36:23,193 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:36:43,284 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:36:43,285 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:36:43,285 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:37:02,170 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:37:02,171 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:37:02,172 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:37:22,411 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:37:22,412 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:37:22,412 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:37:31,268 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:37:31,269 - INFO - detecting CVE-2022-40303 xmlParseSystemLiteral
+2025-08-17 13:37:31,270 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseSystemLiteral
+2025-08-17 13:37:41,219 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:37:41,220 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:37:41,221 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:38:00,293 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:38:00,294 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:38:00,294 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:38:18,165 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:38:18,166 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:38:18,166 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:38:35,560 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:38:35,561 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:38:35,562 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:38:53,456 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:38:53,457 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:38:53,457 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:39:03,018 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:39:03,019 - INFO - detecting CVE-2022-40303 xmlParseAttValueInternal
+2025-08-17 13:39:03,019 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseAttValueInternal
+2025-08-17 13:39:13,709 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:39:13,710 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:39:13,710 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:39:33,967 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:39:33,968 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:39:33,969 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:39:55,070 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:39:55,071 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:39:55,072 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:40:15,093 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:40:15,094 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:40:15,094 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:40:32,867 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:40:32,868 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:40:32,868 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:40:42,649 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:40:42,650 - INFO - detecting CVE-2022-40303 xmlParseAttValueComplex
+2025-08-17 13:40:42,650 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseAttValueComplex
+2025-08-17 13:40:53,218 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:40:53,219 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:40:53,220 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:03,573 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:03,573 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:41:03,574 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:12,699 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:12,700 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:41:12,700 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:21,829 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:21,830 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:41:21,830 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:32,364 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:32,365 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:41:32,365 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:41,918 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:41,919 - INFO - detecting CVE-2022-40303 xmlParseNCName
+2025-08-17 13:41:41,919 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseNCName
+2025-08-17 13:41:50,466 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:41:50,467 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:41:50,468 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:01,388 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:01,389 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:42:01,389 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:10,950 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:10,950 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:42:10,951 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:20,527 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:20,528 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:42:20,529 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:30,292 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:30,293 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:42:30,293 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:40,165 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:40,167 - INFO - detecting CVE-2022-40303 xmlParseName
+2025-08-17 13:42:40,168 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseName
+2025-08-17 13:42:48,882 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:48,883 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:42:48,884 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:42:55,874 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:42:55,875 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:42:55,876 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:43:02,107 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:02,108 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:43:02,109 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:43:09,107 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:09,108 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:43:09,108 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:43:15,400 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:15,401 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:43:15,401 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:43:22,241 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:22,242 - INFO - detecting CVE-2022-40303 xmlParsePI
+2025-08-17 13:43:22,243 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParsePI
+2025-08-17 13:43:28,494 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:28,495 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:43:28,496 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:43:38,677 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:38,678 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:43:38,678 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:43:47,636 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:47,637 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:43:47,637 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:43:56,602 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:43:56,603 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:43:56,604 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:44:05,598 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:44:05,599 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:44:05,599 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:44:14,950 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:44:14,951 - INFO - detecting CVE-2022-40303 xmlParseNmtoken
+2025-08-17 13:44:14,951 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseNmtoken
+2025-08-17 13:44:23,070 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:44:23,071 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:44:23,072 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:44:43,165 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:44:43,166 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:44:43,166 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:45:02,109 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:45:02,110 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:45:02,111 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:45:19,574 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:45:19,575 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:45:19,575 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:45:39,353 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:45:39,354 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:45:39,354 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:45:48,140 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:45:48,141 - INFO - detecting CVE-2022-40303 xmlParsePubidLiteral
+2025-08-17 13:45:48,141 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParsePubidLiteral
+2025-08-17 13:45:56,771 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:45:56,772 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:45:56,772 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:02,850 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:02,851 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:46:02,852 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:08,902 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:08,904 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:46:08,904 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:14,883 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:14,884 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:46:14,884 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:21,130 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:21,131 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:46:21,132 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:27,452 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:27,453 - INFO - detecting CVE-2022-40303 xmlParseComment
+2025-08-17 13:46:27,454 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseComment
+2025-08-17 13:46:33,729 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:33,730 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:46:33,731 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.2-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:46:39,848 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:39,849 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:46:39,849 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.1-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:46:45,889 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:45,890 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:46:45,891 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.0-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:46:52,019 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:52,020 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:46:52,021 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.10.4-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:46:58,495 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:46:58,496 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:46:58,497 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.0-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:47:04,859 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+
+2025-08-17 13:47:04,860 - INFO - detecting CVE-2022-40303 xmlParseCommentComplex
+2025-08-17 13:47:04,861 - INFO - cmd: python main.py --detect --cve_id CVE-2022-40303 --target_bin /binaries/target/libxml2/libxml2-2.11.1-o0-libxml2 --vul_func_name xmlParseCommentComplex
+2025-08-17 13:47:11,275 - INFO - success CVE-2022-40303,details in cve_test/CVE-2022-40303.log
+

@@ -1,0 +1,196 @@
+============================================
+Patch Detection Log
+Time: 2025-08-17 12:27:08
+============================================
+2025-08-17 12:27:08,728 - INFO - detecting CVE-2020-20896 latm_write_packet
+2025-08-17 12:27:08,729 - INFO - cmd: python main.py --detect --cve_id CVE-2020-20896 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.1-o0-ffmpeg --vul_func_name latm_write_packet
+2025-08-17 12:27:19,938 - INFO - success CVE-2020-20896,details in cve_test/CVE-2020-20896.log
+
+2025-08-17 12:27:19,938 - INFO - detecting CVE-2020-20896 latm_write_packet
+2025-08-17 12:27:19,938 - INFO - cmd: python main.py --detect --cve_id CVE-2020-20896 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.9-o0-ffmpeg --vul_func_name latm_write_packet
+2025-08-17 12:27:28,188 - INFO - success CVE-2020-20896,details in cve_test/CVE-2020-20896.log
+
+2025-08-17 12:27:28,188 - INFO - detecting CVE-2020-20896 latm_write_packet
+2025-08-17 12:27:28,189 - INFO - cmd: python main.py --detect --cve_id CVE-2020-20896 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.6-o0-ffmpeg --vul_func_name latm_write_packet
+2025-08-17 12:27:36,528 - INFO - success CVE-2020-20896,details in cve_test/CVE-2020-20896.log
+
+2025-08-17 12:27:36,529 - INFO - detecting CVE-2020-20896 latm_write_packet
+2025-08-17 12:27:36,530 - INFO - cmd: python main.py --detect --cve_id CVE-2020-20896 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg --vul_func_name latm_write_packet
+2025-08-17 12:27:45,040 - INFO - success CVE-2020-20896,details in cve_test/CVE-2020-20896.log
+
+2025-08-17 12:27:45,041 - INFO - detecting CVE-2020-21697 mpeg_mux_write_packet
+2025-08-17 12:27:45,041 - INFO - cmd: python main.py --detect --cve_id CVE-2020-21697 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name mpeg_mux_write_packet
+2025-08-17 12:27:55,362 - INFO - success CVE-2020-21697,details in cve_test/CVE-2020-21697.log
+
+2025-08-17 12:27:55,363 - INFO - detecting CVE-2020-21697 mpeg_mux_write_packet
+2025-08-17 12:27:55,364 - INFO - cmd: python main.py --detect --cve_id CVE-2020-21697 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3.3-o0-ffmpeg --vul_func_name mpeg_mux_write_packet
+2025-08-17 12:28:07,051 - INFO - success CVE-2020-21697,details in cve_test/CVE-2020-21697.log
+
+2025-08-17 12:28:07,052 - INFO - detecting CVE-2020-21697 mpeg_mux_write_packet
+2025-08-17 12:28:07,052 - INFO - cmd: python main.py --detect --cve_id CVE-2020-21697 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name mpeg_mux_write_packet
+2025-08-17 12:28:17,391 - INFO - success CVE-2020-21697,details in cve_test/CVE-2020-21697.log
+
+2025-08-17 12:28:17,392 - INFO - detecting CVE-2020-22019 ff_vmafmotion_init
+2025-08-17 12:28:17,392 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22019 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name ff_vmafmotion_init
+2025-08-17 12:29:11,697 - INFO - success CVE-2020-22019,details in cve_test/CVE-2020-22019.log
+
+2025-08-17 12:29:11,698 - INFO - detecting CVE-2020-22019 ff_vmafmotion_init
+2025-08-17 12:29:11,698 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22019 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.7-o0-ffmpeg --vul_func_name ff_vmafmotion_init
+2025-08-17 12:29:17,127 - INFO - success CVE-2020-22019,details in cve_test/CVE-2020-22019.log
+
+2025-08-17 12:29:17,128 - INFO - detecting CVE-2020-22019 ff_vmafmotion_init
+2025-08-17 12:29:17,128 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22019 --target_bin /binaries/target/ffmpeg/ffmpeg-3.4.9-o0-ffmpeg --vul_func_name ff_vmafmotion_init
+2025-08-17 12:29:22,391 - INFO - success CVE-2020-22019,details in cve_test/CVE-2020-22019.log
+
+2025-08-17 12:29:22,392 - INFO - detecting CVE-2020-22019 ff_vmafmotion_init
+2025-08-17 12:29:22,392 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22019 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.5-o0-ffmpeg --vul_func_name ff_vmafmotion_init
+2025-08-17 12:29:28,037 - INFO - success CVE-2020-22019,details in cve_test/CVE-2020-22019.log
+
+2025-08-17 12:29:28,038 - INFO - detecting CVE-2020-22021 filter_edges
+2025-08-17 12:29:28,039 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22021 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name filter_edges
+2025-08-17 12:29:40,443 - INFO - success CVE-2020-22021,details in cve_test/CVE-2020-22021.log
+
+2025-08-17 12:29:40,444 - INFO - detecting CVE-2020-22021 filter_edges
+2025-08-17 12:29:40,445 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22021 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.7-o0-ffmpeg --vul_func_name filter_edges
+2025-08-17 12:29:52,072 - INFO - success CVE-2020-22021,details in cve_test/CVE-2020-22021.log
+
+2025-08-17 12:29:52,073 - INFO - detecting CVE-2020-22021 filter_edges
+2025-08-17 12:29:52,073 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22021 --target_bin /binaries/target/ffmpeg/ffmpeg-3.4.9-o0-ffmpeg --vul_func_name filter_edges
+2025-08-17 12:30:03,867 - INFO - success CVE-2020-22021,details in cve_test/CVE-2020-22021.log
+
+2025-08-17 12:30:03,868 - INFO - detecting CVE-2020-22021 filter_edges
+2025-08-17 12:30:03,868 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22021 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.5-o0-ffmpeg --vul_func_name filter_edges
+2025-08-17 12:30:15,768 - INFO - success CVE-2020-22021,details in cve_test/CVE-2020-22021.log
+
+2025-08-17 12:30:15,769 - INFO - detecting CVE-2020-22029 slice_get_derivative
+2025-08-17 12:30:15,769 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22029 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name slice_get_derivative
+2025-08-17 12:30:25,772 - INFO - success CVE-2020-22029,details in cve_test/CVE-2020-22029.log
+
+2025-08-17 12:30:25,773 - INFO - detecting CVE-2020-22029 slice_get_derivative
+2025-08-17 12:30:25,773 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22029 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.8-o0-ffmpeg --vul_func_name slice_get_derivative
+2025-08-17 12:30:36,395 - INFO - success CVE-2020-22029,details in cve_test/CVE-2020-22029.log
+
+2025-08-17 12:30:36,396 - INFO - detecting CVE-2020-22029 slice_get_derivative
+2025-08-17 12:30:36,396 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22029 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg --vul_func_name slice_get_derivative
+2025-08-17 12:30:46,526 - INFO - success CVE-2020-22029,details in cve_test/CVE-2020-22029.log
+
+2025-08-17 12:30:46,527 - INFO - detecting CVE-2020-22037 ff_frame_thread_encoder_init
+2025-08-17 12:30:46,527 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22037 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name ff_frame_thread_encoder_init
+2025-08-17 12:30:53,302 - INFO - success CVE-2020-22037,details in cve_test/CVE-2020-22037.log
+
+2025-08-17 12:30:53,303 - INFO - detecting CVE-2020-22037 ff_frame_thread_encoder_init
+2025-08-17 12:30:53,303 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22037 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.7-o0-ffmpeg --vul_func_name ff_frame_thread_encoder_init
+2025-08-17 12:31:00,506 - INFO - success CVE-2020-22037,details in cve_test/CVE-2020-22037.log
+
+2025-08-17 12:31:00,507 - INFO - detecting CVE-2020-22037 ff_frame_thread_encoder_init
+2025-08-17 12:31:00,508 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22037 --target_bin /binaries/target/ffmpeg/ffmpeg-3.4.9-o0-ffmpeg --vul_func_name ff_frame_thread_encoder_init
+2025-08-17 12:31:07,609 - INFO - success CVE-2020-22037,details in cve_test/CVE-2020-22037.log
+
+2025-08-17 12:31:07,610 - INFO - detecting CVE-2020-22037 ff_frame_thread_encoder_init
+2025-08-17 12:31:07,611 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22037 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.5-o0-ffmpeg --vul_func_name ff_frame_thread_encoder_init
+2025-08-17 12:31:14,870 - INFO - success CVE-2020-22037,details in cve_test/CVE-2020-22037.log
+
+2025-08-17 12:31:14,871 - INFO - detecting CVE-2020-22038 ff_v4l2_m2m_codec_end
+2025-08-17 12:31:14,871 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22038 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name ff_v4l2_m2m_codec_end
+2025-08-17 12:31:22,401 - INFO - success CVE-2020-22038,details in cve_test/CVE-2020-22038.log
+
+2025-08-17 12:31:22,402 - INFO - detecting CVE-2020-22038 ff_v4l2_m2m_codec_end
+2025-08-17 12:31:22,402 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22038 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name ff_v4l2_m2m_codec_end
+2025-08-17 12:31:28,716 - INFO - success CVE-2020-22038,details in cve_test/CVE-2020-22038.log
+
+2025-08-17 12:31:28,717 - INFO - detecting CVE-2020-22038 v4l2_decode_init
+2025-08-17 12:31:28,717 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22038 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name v4l2_decode_init
+2025-08-17 12:31:36,367 - INFO - success CVE-2020-22038,details in cve_test/CVE-2020-22038.log
+
+2025-08-17 12:31:36,368 - INFO - detecting CVE-2020-22038 v4l2_decode_init
+2025-08-17 12:31:36,369 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22038 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name v4l2_decode_init
+2025-08-17 12:31:43,458 - INFO - success CVE-2020-22038,details in cve_test/CVE-2020-22038.log
+
+2025-08-17 12:31:43,459 - INFO - detecting CVE-2020-22039 avi_write_trailer
+2025-08-17 12:31:43,460 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22039 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name avi_write_trailer
+2025-08-17 12:31:53,649 - INFO - success CVE-2020-22039,details in cve_test/CVE-2020-22039.log
+
+2025-08-17 12:31:53,650 - INFO - detecting CVE-2020-22039 avi_write_trailer
+2025-08-17 12:31:53,651 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22039 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg --vul_func_name avi_write_trailer
+2025-08-17 12:32:05,977 - INFO - success CVE-2020-22039,details in cve_test/CVE-2020-22039.log
+
+2025-08-17 12:32:05,978 - INFO - detecting CVE-2020-22046 ff_ac3_encode_close
+2025-08-17 12:32:05,979 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22046 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg --vul_func_name ff_ac3_encode_close
+2025-08-17 12:32:12,984 - INFO - success CVE-2020-22046,details in cve_test/CVE-2020-22046.log
+
+2025-08-17 12:32:12,985 - INFO - detecting CVE-2020-22046 ff_ac3_encode_close
+2025-08-17 12:32:12,985 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22046 --target_bin /binaries/target/ffmpeg/ffmpeg-4.1.10-o0-ffmpeg --vul_func_name ff_ac3_encode_close
+2025-08-17 12:32:20,268 - INFO - success CVE-2020-22046,details in cve_test/CVE-2020-22046.log
+
+2025-08-17 12:32:20,269 - INFO - detecting CVE-2020-22046 ff_ac3_encode_close
+2025-08-17 12:32:20,277 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22046 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name ff_ac3_encode_close
+2025-08-17 12:32:26,872 - INFO - success CVE-2020-22046,details in cve_test/CVE-2020-22046.log
+
+2025-08-17 12:32:26,873 - INFO - detecting CVE-2020-22046 ff_ac3_encode_close
+2025-08-17 12:32:26,873 - INFO - cmd: python main.py --detect --cve_id CVE-2020-22046 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg --vul_func_name ff_ac3_encode_close
+2025-08-17 12:32:34,090 - INFO - success CVE-2020-22046,details in cve_test/CVE-2020-22046.log
+
+2025-08-17 12:32:34,091 - INFO - detecting CVE-2020-24020 dnn_execute_layer_conv2d
+2025-08-17 12:32:34,092 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name dnn_execute_layer_conv2d
+2025-08-17 12:32:39,216 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:32:39,217 - INFO - detecting CVE-2020-24020 dnn_execute_layer_conv2d
+2025-08-17 12:32:39,217 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name dnn_execute_layer_conv2d
+2025-08-17 12:32:44,458 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:32:44,459 - INFO - detecting CVE-2020-24020 dnn_execute_layer_math_binary
+2025-08-17 12:32:44,460 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name dnn_execute_layer_math_binary
+2025-08-17 12:32:49,453 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:32:49,454 - INFO - detecting CVE-2020-24020 dnn_execute_layer_math_binary
+2025-08-17 12:32:49,455 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name dnn_execute_layer_math_binary
+2025-08-17 12:32:54,648 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:32:54,649 - INFO - detecting CVE-2020-24020 dnn_execute_layer_math_unary
+2025-08-17 12:32:54,649 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name dnn_execute_layer_math_unary
+2025-08-17 12:32:59,277 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:32:59,277 - INFO - detecting CVE-2020-24020 dnn_execute_layer_math_unary
+2025-08-17 12:32:59,278 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name dnn_execute_layer_math_unary
+2025-08-17 12:33:04,501 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:33:04,502 - INFO - detecting CVE-2020-24020 dnn_execute_layer_maximum
+2025-08-17 12:33:04,502 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name dnn_execute_layer_maximum
+2025-08-17 12:33:09,639 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:33:09,640 - INFO - detecting CVE-2020-24020 dnn_execute_layer_maximum
+2025-08-17 12:33:09,640 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name dnn_execute_layer_maximum
+2025-08-17 12:33:14,531 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:33:14,532 - INFO - detecting CVE-2020-24020 dnn_execute_layer_pad
+2025-08-17 12:33:14,532 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg --vul_func_name dnn_execute_layer_pad
+2025-08-17 12:33:19,207 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:33:19,208 - INFO - detecting CVE-2020-24020 dnn_execute_layer_pad
+2025-08-17 12:33:19,209 - INFO - cmd: python main.py --detect --cve_id CVE-2020-24020 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg --vul_func_name dnn_execute_layer_pad
+2025-08-17 12:33:24,747 - ERROR - fail CVE-2020-24020 ,details1
+
+2025-08-17 12:33:24,747 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:33:24,748 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-4.2.6-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:33:33,466 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+
+2025-08-17 12:33:33,467 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:33:33,467 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-4.3.4-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:33:42,805 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+
+2025-08-17 12:33:42,806 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:33:42,806 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-5.0-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:33:51,828 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+
+2025-08-17 12:33:51,829 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:33:51,829 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-4.4.2-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:34:00,898 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+
+2025-08-17 12:34:00,898 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:34:00,899 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-5.0.1-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:34:09,992 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+
+2025-08-17 12:34:09,992 - INFO - detecting CVE-2022-1475 g729_parse
+2025-08-17 12:34:09,993 - INFO - cmd: python main.py --detect --cve_id CVE-2022-1475 --target_bin /binaries/target/ffmpeg/ffmpeg-5.1-o0-ffmpeg --vul_func_name g729_parse
+2025-08-17 12:34:19,542 - INFO - success CVE-2022-1475,details in cve_test/CVE-2022-1475.log
+

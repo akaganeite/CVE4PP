@@ -1,3 +1,1975 @@
 [2025-08-04 18:28:31] Tag: v2.0.0 | Type: CHECKOUT_ERROR | Binary: openjpeg-2.0.0-o0-openjpeg | Details: Failed to checkout tag
 [2025-08-04 18:28:31] Tag: v2.0.1 | Type: CHECKOUT_ERROR | Binary: openjpeg-2.0.1-o0-openjpeg | Details: Failed to checkout tag
 [2025-08-04 18:28:31] Tag: v2.1.0 | Type: CHECKOUT_ERROR | Binary: openjpeg-2.1.0-o0-openjpeg | Details: Failed to checkout tag
+[2025-08-14 11:43:55] Tag: v2.5.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.5.0-o0-openjpeg | Details: Make failed: /usr/bin/ld: 找不到 -lwebp: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lzstd: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lwebp: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lzstd: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/bin/jp2/CMakeFiles/opj_compress.dir/build.make:215：bin/opj_compress] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:302：src/bin/jp2/CMakeFiles/opj_compress.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/bin/jp2/CMakeFiles/opj_dump.dir/build.make:215：bin/opj_dump] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:328：src/bin/jp2/CMakeFiles/opj_dump.dir/all] 错误 2
+/usr/bin/ld: 找不到 -lwebp: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lzstd: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+make[2]: *** [src/bin/jp2/CMakeFiles/opj_decompress.dir/build.make:215：bin/opj_decompress] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:276：src/bin/jp2/CMakeFiles/opj_decompress.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:10] Tag: version.2.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+make[2]: *** 正在等待未完成的任务....
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[1]: *** [CMakeFiles/Makefile2:265：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:239：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:12] Tag: version.2.0.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[1]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:13] Tag: version.2.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:16] Tag: v2.1.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:18] Tag: v2.1.2 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1.2-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_malloc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:342：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_malloc.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:222：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:20] Tag: v2.2.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.2.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_clock.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:21] Tag: v2.3.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.3.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:23] Tag: v2.3.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.3.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:25] Tag: v2.4.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.4.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:28] Tag: v2.5.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.5.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/ht_dec.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/ht_dec.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/ht_dec.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/ht_dec.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:54] Tag: version.2.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0-o2-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:265：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+compilation terminated.
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:239：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:46:55] Tag: version.2.0.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0.1-o2-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:44] Tag: version.2.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[1]: *** [CMakeFiles/Makefile2:265：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:239：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:46] Tag: version.2.0.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.0.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:48] Tag: version.2.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:50] Tag: v2.1.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/build.make:76：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/t1_generate_luts.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/t1_generate_luts.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:53] Tag: v2.1.2 | Type: COMPILATION_ERROR | Binary: openjpeg-2.1.2-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/raw.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/t1.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/t2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/tcd.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/raw.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/function_list.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2.dir/t1.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_malloc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:286：src/lib/openjp2/CMakeFiles/openjp2.dir/t2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:300：src/lib/openjp2/CMakeFiles/openjp2.dir/tcd.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:328：src/lib/openjp2/CMakeFiles/openjp2.dir/function_list.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/tgt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:342：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_malloc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:314：src/lib/openjp2/CMakeFiles/openjp2.dir/tgt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:222：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:54] Tag: v2.2.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.2.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:56] Tag: v2.3.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.3.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2.dir/mct.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2.dir/pi.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2.dir/mqc.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2.dir/openjpeg.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2.dir/opj_clock.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:48:58] Tag: v2.3.1 | Type: COMPILATION_ERROR | Binary: openjpeg-2.3.1-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:49:00] Tag: v2.4.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.4.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
+[2025-08-14 11:49:02] Tag: v2.5.0 | Type: COMPILATION_ERROR | Binary: openjpeg-2.5.0-o1-openjpeg | Details: Make failed: cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/cio.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/thread.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2_static.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2_static.dir/cio.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2_static.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2_static.dir/thread.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/thread.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2.dir/bio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/ht_dec.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2_static.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mct.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/cio.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/image.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/jp2.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/mqc.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/dwt.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:76：src/lib/openjp2/CMakeFiles/openjp2.dir/thread.c.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:90：src/lib/openjp2/CMakeFiles/openjp2.dir/bio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2_static.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2_static.dir/ht_dec.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2_static.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:216：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mct.c.o] 错误 1
+cc1: fatal error: CMakeFiles/openjp2_static.dir/openjpeg.c.d: 没有那个文件或目录
+compilation terminated.
+cc1: fatal error: CMakeFiles/openjp2_static.dir/opj_clock.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2_static.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:104：src/lib/openjp2/CMakeFiles/openjp2.dir/cio.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:202：src/lib/openjp2/CMakeFiles/openjp2_static.dir/jp2.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2_static.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:118：src/lib/openjp2/CMakeFiles/openjp2.dir/dwt.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:230：src/lib/openjp2/CMakeFiles/openjp2_static.dir/mqc.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2_static.dir/pi.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:244：src/lib/openjp2/CMakeFiles/openjp2_static.dir/openjpeg.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:258：src/lib/openjp2/CMakeFiles/openjp2_static.dir/opj_clock.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2_static.dir/build.make:272：src/lib/openjp2/CMakeFiles/openjp2_static.dir/pi.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：src/lib/openjp2/CMakeFiles/openjp2_static.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/event.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:132：src/lib/openjp2/CMakeFiles/openjp2.dir/event.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/image.c.d: 没有那个文件或目录
+cc1: fatal error: CMakeFiles/openjp2.dir/invert.c.d: 没有那个文件或目录
+compilation terminated.
+compilation terminated.
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/j2k.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:160：src/lib/openjp2/CMakeFiles/openjp2.dir/image.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:174：src/lib/openjp2/CMakeFiles/openjp2.dir/invert.c.o] 错误 1
+cc1: error: too many filenames given; type ‘cc1 --help’ for usage
+cc1: fatal error: CMakeFiles/openjp2.dir/ht_dec.c.d: 没有那个文件或目录
+compilation terminated.
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:188：src/lib/openjp2/CMakeFiles/openjp2.dir/j2k.c.o] 错误 1
+make[2]: *** [src/lib/openjp2/CMakeFiles/openjp2.dir/build.make:146：src/lib/openjp2/CMakeFiles/openjp2.dir/ht_dec.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:224：src/lib/openjp2/CMakeFiles/openjp2.dir/all] 错误 2
+make: *** [Makefile:156：all] 错误 2
+
