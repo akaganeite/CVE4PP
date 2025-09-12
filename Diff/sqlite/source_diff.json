@@ -1,0 +1,307 @@
+{
+    "sqlite": {
+        "CVE-2016-6153": {
+            "commit": "7694e0646120",
+            "analysis": [
+                {
+                    "function": "unixGetTempname",
+                    "type": "modified"
+                },
+                {
+                    "function": "unixTempFileDir",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-20346": {
+            "commit": "29d77dc450fc",
+            "analysis": [
+                {
+                    "function": "fts3ScanInteriorNode",
+                    "type": "modified"
+                },
+                {
+                    "function": "fts3SegReaderNext",
+                    "type": "modified"
+                },
+                {
+                    "function": "nodeReaderNext",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19242": {
+            "commit": "57f7ece78410",
+            "analysis": [
+                {
+                    "function": "sqlite3ExprCodeTarget",
+                    "type": "modified"
+                },
+                {
+                    "function": "whereIndexExprTransColumn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19244": {
+            "commit": "e59c562b3f68",
+            "analysis": [
+                {
+                    "function": "sqlite3Select",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19317": {
+            "commit": "522ebfa7cee9",
+            "analysis": [
+                {
+                    "function": "lookupName",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19645": {
+            "commit": "38096961c7cd",
+            "analysis": [
+                {
+                    "function": "renameColumnFunc",
+                    "type": "modified"
+                },
+                {
+                    "function": "renameColumnSelectCb",
+                    "type": "modified"
+                },
+                {
+                    "function": "renameTableFunc",
+                    "type": "modified"
+                },
+                {
+                    "function": "renameTableSelectCb",
+                    "type": "modified"
+                },
+                {
+                    "function": "renameUnmapSelectCb",
+                    "type": "modified"
+                },
+                {
+                    "function": "sqlite3CreateView",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19646": {
+            "commit": "ebd70eedd5d6",
+            "analysis": [
+                {
+                    "function": "sqlite3Pragma",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19880": {
+            "commit": "75e95e1fcd52",
+            "analysis": [
+                {
+                    "function": "exprListAppendList",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19923": {
+            "commit": "396afe6f6aa9",
+            "analysis": [
+                {
+                    "function": "flattenSubquery",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19924": {
+            "commit": "8654186b0236",
+            "analysis": [
+                {
+                    "function": "codeCompare",
+                    "type": "modified"
+                },
+                {
+                    "function": "sqlite3WindowRewrite",
+                    "type": "modified"
+                },
+                {
+                    "function": "vdbeVComment",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19925": {
+            "commit": "54d501092d88",
+            "analysis": [
+                {
+                    "function": "zipfileUpdate",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19926": {
+            "commit": "8428b3b43756",
+            "analysis": [
+                {
+                    "function": "multiSelect",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19959": {
+            "commit": "d8f2d46cbc99",
+            "analysis": [
+                {
+                    "function": "zipfileStep",
+                    "type": "modified"
+                },
+                {
+                    "function": "zipfileUpdate",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-20218": {
+            "commit": "a6c1a71cde08",
+            "analysis": [
+                {
+                    "function": "selectExpander",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-8457": {
+            "commit": "e41fd72acc7a",
+            "analysis": [
+                {
+                    "function": "rtreenode",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-11655": {
+            "commit": "c415d91007e1",
+            "analysis": [
+                {
+                    "function": "resetAccumulator",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-11656": {
+            "commit": "fb99e388ec7f",
+            "analysis": [
+                {
+                    "function": "unmapColumnIdlistNames",
+                    "type": "added"
+                },
+                {
+                    "function": "renameUnmapSelectCb",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-13434": {
+            "commit": "dd6c33d372f3",
+            "analysis": [
+                {
+                    "function": "sqlite3_str_vappendf",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-13630": {
+            "commit": "becd68ba0dac",
+            "analysis": [
+                {
+                    "function": "fts3EvalNextRow",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-13632": {
+            "commit": "219b8e7e7587",
+            "analysis": [
+                {
+                    "function": "fts3ExprLHits",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-15358": {
+            "commit": "b7cbf5c1b2a9",
+            "analysis": [
+                {
+                    "function": "flattenSubquery",
+                    "type": "modified"
+                },
+                {
+                    "function": "multiSelect",
+                    "type": "modified"
+                },
+                {
+                    "function": "sqlite3Select",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-35525": {
+            "commit": "5f69512404cd",
+            "analysis": [
+                {
+                    "function": "multiSelect",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-35527": {
+            "commit": "0990c415f65d",
+            "analysis": [
+                {
+                    "function": "selectExpander",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-31239": {
+            "commit": "6536c4f18e3d",
+            "analysis": [
+                {
+                    "function": "apndOpen",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-36690": {
+            "commit": "77ea22300b5b",
+            "analysis": [
+                {
+                    "function": "idxGetTableInfo",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-46908": {
+            "commit": "8af6d712daa7",
+            "analysis": [
+                {
+                    "function": "safeModeAuth",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-7104": {
+            "commit": "09f1652f36c5",
+            "analysis": [
+                {
+                    "function": "sessionReadRecord",
+                    "type": "modified"
+                }
+            ]
+        }
+    }
+}

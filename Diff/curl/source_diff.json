@@ -1,0 +1,640 @@
+{
+    "curl": {
+        "CVE-2013-0249": {
+            "commit": "f206d6c055d1",
+            "analysis": [
+                {
+                    "function": "Curl_sasl_create_digest_md5_message",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2013-1944": {
+            "commit": "2eb8dcf26cb3",
+            "analysis": [
+                {
+                    "function": "tailmatch",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2014-0015": {
+            "commit": "8ae35102c43d",
+            "analysis": [
+                {
+                    "function": "ConnectionExists",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2014-2522": {
+            "commit": "63fc8ee7be2b",
+            "analysis": [
+                {
+                    "function": "schannel_connect_step1",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2014-3613": {
+            "commit": "8a75dbeb2305",
+            "analysis": [
+                {
+                    "function": "isip",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_cookie_add",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_cookie_getlist",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2014-3620": {
+            "commit": "a76825a5efa6",
+            "analysis": [
+                {
+                    "function": "Curl_cookie_add",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-3144": {
+            "commit": "0583e87ada7a",
+            "analysis": [
+                {
+                    "function": "fix_hostname",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-3145": {
+            "commit": "b5f947b8ac0e",
+            "analysis": [
+                {
+                    "function": "sanitize_cookie_path",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-3153": {
+            "commit": "6ba2e88a6424",
+            "analysis": [
+                {
+                    "function": "Curl_init_userdefined",
+                    "type": "modified"
+                },
+                {
+                    "function": "test",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-3237": {
+            "commit": "50c7f17e503f",
+            "analysis": [
+                {
+                    "function": "smb_request_state",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-3739": {
+            "commit": "6efd2fa529a1",
+            "analysis": [
+                {
+                    "function": "mbed_connect_step1",
+                    "type": "modified"
+                },
+                {
+                    "function": "polarssl_connect_step1",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8617": {
+            "commit": "efd24d57426b",
+            "analysis": [
+                {
+                    "function": "base64_encode",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8618": {
+            "commit": "8732ec40db65",
+            "analysis": [
+                {
+                    "function": "alloc_addbyter",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8619": {
+            "commit": "3d6460edeee2",
+            "analysis": [
+                {
+                    "function": "read_data",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8621": {
+            "commit": "96a80b5a262f",
+            "analysis": [
+                {
+                    "function": "parsedate",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8623": {
+            "commit": "c5be3d7267c7",
+            "analysis": [
+                {
+                    "function": "dup_cookie",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_cookie_cleanup",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_cookie_clearall",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_cookie_freelist",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_cookie_getlist",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_http",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8624": {
+            "commit": "3bb273db7e40",
+            "analysis": [
+                {
+                    "function": "parseurlandfillconn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-8625": {
+            "commit": "9c91ec778104",
+            "analysis": [
+                {
+                    "function": "Curl_idn_strerror",
+                    "type": "deleted"
+                },
+                {
+                    "function": "idna_init",
+                    "type": "deleted"
+                },
+                {
+                    "function": "tld_check_name",
+                    "type": "deleted"
+                },
+                {
+                    "function": "create_conn",
+                    "type": "modified"
+                },
+                {
+                    "function": "curl_version",
+                    "type": "modified"
+                },
+                {
+                    "function": "curl_version_info",
+                    "type": "modified"
+                },
+                {
+                    "function": "fix_hostname",
+                    "type": "modified"
+                },
+                {
+                    "function": "free_fixed_hostname",
+                    "type": "modified"
+                },
+                {
+                    "function": "global_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-9586": {
+            "commit": "3ab3c16db6a5",
+            "analysis": [
+                {
+                    "function": "_string_check",
+                    "type": "added"
+                },
+                {
+                    "function": "_strlen_check",
+                    "type": "added"
+                },
+                {
+                    "function": "test_float_formatting",
+                    "type": "added"
+                },
+                {
+                    "function": "string_check",
+                    "type": "deleted"
+                },
+                {
+                    "function": "dprintf_formatf",
+                    "type": "modified"
+                },
+                {
+                    "function": "test",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-9594": {
+            "commit": "f81b2277a8e7",
+            "analysis": [
+                {
+                    "function": "randit",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-9952": {
+            "commit": "0354eed41085",
+            "analysis": [
+                {
+                    "function": "verify_certificate",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-9953": {
+            "commit": "0354eed41085",
+            "analysis": [
+                {
+                    "function": "verify_certificate",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-1000101": {
+            "commit": "453e7a7a03a2",
+            "analysis": [
+                {
+                    "function": "glob_range",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-2629": {
+            "commit": "ca6ea6d9be51",
+            "analysis": [
+                {
+                    "function": "allocate_conn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-7407": {
+            "commit": "8e65877870c1",
+            "analysis": [
+                {
+                    "function": "ourWriteOut",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-8816": {
+            "commit": "7f2a1df6f5fc",
+            "analysis": [
+                {
+                    "function": "Curl_ntlm_core_mk_ntlmv2_hash",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-8817": {
+            "commit": "0b664ba96843",
+            "analysis": [
+                {
+                    "function": "setcharset",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-8818": {
+            "commit": "9b5e12a5491d",
+            "analysis": [
+                {
+                    "function": "allocate_conn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-9502": {
+            "commit": "5d7952f52e41",
+            "analysis": [
+                {
+                    "function": "parseurlandfillconn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-0500": {
+            "commit": "ba1dbd78e5f1",
+            "analysis": [
+                {
+                    "function": "Curl_smtp_escape_eob",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000007": {
+            "commit": "af32cd385933",
+            "analysis": [
+                {
+                    "function": "Curl_add_custom_headers",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_http_output_auth",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_vsetopt",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000120": {
+            "commit": "535432c0adb6",
+            "analysis": [
+                {
+                    "function": "ftp_done",
+                    "type": "modified"
+                },
+                {
+                    "function": "ftp_parse_url_path",
+                    "type": "modified"
+                },
+                {
+                    "function": "ftp_state_list",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000121": {
+            "commit": "9889db043393",
+            "analysis": [
+                {
+                    "function": "ldap_recv",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000122": {
+            "commit": "d52dc4760f6d",
+            "analysis": [
+                {
+                    "function": "readwrite_data",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000300": {
+            "commit": "583b42cb3b80",
+            "analysis": [
+                {
+                    "function": "Curl_pp_readresp",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-1000301": {
+            "commit": "8c7b3737d29e",
+            "analysis": [
+                {
+                    "function": "Curl_http_readwrite_headers",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-16839": {
+            "commit": "f3a24d7916b9",
+            "analysis": [
+                {
+                    "function": "Curl_auth_create_plain_message",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-16840": {
+            "commit": "81d135d67155",
+            "analysis": [
+                {
+                    "function": "Curl_close",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-16842": {
+            "commit": "d530e92f59ae",
+            "analysis": [
+                {
+                    "function": "voutf",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-5435": {
+            "commit": "5fc28510a466",
+            "analysis": [
+                {
+                    "function": "test",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_setstropt",
+                    "type": "modified"
+                },
+                {
+                    "function": "curl_url_set",
+                    "type": "modified"
+                },
+                {
+                    "function": "seturl",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-5481": {
+            "commit": "9069838b30fb",
+            "analysis": [
+                {
+                    "function": "read_data",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-5482": {
+            "commit": "facb0e466241",
+            "analysis": [
+                {
+                    "function": "tftp_connect",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-8169": {
+            "commit": "600a8cded447",
+            "analysis": [
+                {
+                    "function": "override_login",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-8177": {
+            "commit": "8236aba58542",
+            "analysis": [
+                {
+                    "function": "getparameter",
+                    "type": "modified"
+                },
+                {
+                    "function": "tool_header_cb",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-8284": {
+            "commit": "ec9cc725d598",
+            "analysis": [
+                {
+                    "function": "Curl_init_userdefined",
+                    "type": "modified"
+                },
+                {
+                    "function": "config_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-22897": {
+            "commit": "bbb71507b7ba",
+            "analysis": [
+                {
+                    "function": "schannel_connect_step1",
+                    "type": "modified"
+                },
+                {
+                    "function": "set_ssl_ciphers",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-22898": {
+            "commit": "39ce47f219b0",
+            "analysis": [
+                {
+                    "function": "suboption",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-22901": {
+            "commit": "7f4a9a9b2a49",
+            "analysis": [
+                {
+                    "function": "Curl_ssl_associate_conn",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_ssl_detach_conn",
+                    "type": "added"
+                },
+                {
+                    "function": "ossl_associate_connection",
+                    "type": "added"
+                },
+                {
+                    "function": "ossl_disassociate_connection",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_attach_connnection",
+                    "type": "modified"
+                },
+                {
+                    "function": "Curl_detach_connnection",
+                    "type": "modified"
+                },
+                {
+                    "function": "ossl_connect_step1",
+                    "type": "modified"
+                },
+                {
+                    "function": "set_ssl_ciphers",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-42915": {
+            "commit": "55e1875729f9",
+            "analysis": [
+                {
+                    "function": "Curl_connect_done",
+                    "type": "modified"
+                },
+                {
+                    "function": "conn_shutdown",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-42916": {
+            "commit": "53bcf55b4538",
+            "analysis": [
+                {
+                    "function": "create_conn",
+                    "type": "modified"
+                },
+                {
+                    "function": "parseurlandfillconn",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-46218": {
+            "commit": "2b0994c29a72",
+            "analysis": [
+                {
+                    "function": "Curl_cookie_add",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-46219": {
+            "commit": "73b65e94f353",
+            "analysis": [
+                {
+                    "function": "dirslash",
+                    "type": "added"
+                },
+                {
+                    "function": "Curl_fopen",
+                    "type": "modified"
+                }
+            ]
+        }
+    }
+}

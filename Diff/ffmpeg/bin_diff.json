@@ -1,0 +1,720 @@
+{
+    "CVE-2017-11665": [
+        {
+            "function": "FUN_00c8abf0",
+            "type": "added"
+        },
+        {
+            "function": "FUN_00c8ac90",
+            "type": "added"
+        },
+        {
+            "function": "ff_amf_get_field_value",
+            "type": "modified"
+        },
+        {
+            "function": "entropy_decode_stereo_3860",
+            "type": "modified"
+        },
+        {
+            "function": "on2avc_decode_subframe",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_00506a60",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-12458": [
+        {
+            "function": "ff_mpeg4_encode_picture_header",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-12459": [
+        {
+            "function": "ff_mpeg4_decode_picture_header",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-20446": [
+        {
+            "function": "psy_3gpp_analyze_channel",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-20453": [
+        {
+            "function": "aac_encode_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-20891": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "config_input",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-20896": [
+        {
+            "function": "latm_write_packet",
+            "type": "modified"
+        },
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "ff_aac_search_for_is",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-20898": [
+        {
+            "function": "filter_sobel",
+            "type": "modified"
+        },
+        {
+            "function": "filter16_roberts",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "filter_roberts",
+            "type": "modified"
+        },
+        {
+            "function": "filter16_sobel",
+            "type": "modified"
+        },
+        {
+            "function": "filter_prewitt",
+            "type": "modified"
+        },
+        {
+            "function": "filter16_prewitt",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_0078d5fd",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-21697": [
+        {
+            "function": "mpeg_mux_write_packet",
+            "type": "modified"
+        },
+        {
+            "function": "remove_decoded_packets",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22015": [
+        {
+            "function": "mov_write_video_tag",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22017": [
+        {
+            "function": "oscilloscope_filter_frame",
+            "type": "modified"
+        },
+        {
+            "function": "on2avc_decode_subframe",
+            "type": "modified"
+        },
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "dss_read_packet",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22019": [
+        {
+            "function": "ff_vmafmotion_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22020": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "config_input",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22021": [
+        {
+            "function": "filter_edges",
+            "type": "modified"
+        },
+        {
+            "function": "filter_edges_16bit",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22022": [
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_0078d61d",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22023": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_00789fad",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22026": [
+        {
+            "function": "put_hevc_epel_bi_hv_8",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        },
+        {
+            "function": "config_input",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22027": [
+        {
+            "function": "decode_array_0000",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_005cc0e0",
+            "type": "modified"
+        },
+        {
+            "function": "filter_slice",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22029": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "slice_get_derivative",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22030": [
+        {
+            "function": "activate",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22031": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_00789fdd",
+            "type": "modified"
+        },
+        {
+            "function": "config_input",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22034": [
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "config_input",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22035": [
+        {
+            "function": "config_input",
+            "type": "modified"
+        },
+        {
+            "function": "filter_slice",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22036": [
+        {
+            "function": "FUN_0078cddd",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22037": [
+        {
+            "function": "ff_frame_thread_encoder_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22038": [
+        {
+            "function": "v4l2_decode_init",
+            "type": "modified"
+        },
+        {
+            "function": "v4l2_decode_close",
+            "type": "modified"
+        },
+        {
+            "function": "v4l2_m2m_destroy_context",
+            "type": "modified"
+        },
+        {
+            "function": "ff_v4l2_m2m_codec_end",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22039": [
+        {
+            "function": "avi_deinit",
+            "type": "added"
+        },
+        {
+            "function": "avi_write_trailer",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_00794fcd",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22041": [
+        {
+            "function": "uninit",
+            "type": "added"
+        }
+    ],
+    "CVE-2020-22042": [
+        {
+            "function": "ffmpeg_cleanup",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22043": [
+        {
+            "function": "mpeg_mux_deinit",
+            "type": "added"
+        },
+        {
+            "function": "mpeg_mux_init",
+            "type": "modified"
+        },
+        {
+            "function": "mpeg_mux_end",
+            "type": "modified"
+        },
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_00792f9d",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22046": [
+        {
+            "function": "ff_ac3_encode_close",
+            "type": "modified"
+        },
+        {
+            "function": "ff_ac3_encode_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-22048": [
+        {
+            "function": "filter_frame",
+            "type": "deleted"
+        },
+        {
+            "function": "huff_build12",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-23906": [
+        {
+            "function": "FUN_00e4d5d0",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4d710",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4db50",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4dc40",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4e100",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4e140",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_00e4e180",
+            "type": "deleted"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_007e49ad",
+            "type": "modified"
+        },
+        {
+            "function": "read_packet",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-24020": [
+        {
+            "function": "FUN_00494583",
+            "type": "deleted"
+        },
+        {
+            "function": "caseD_0",
+            "type": "deleted"
+        },
+        {
+            "function": "FUN_004949e3",
+            "type": "deleted"
+        },
+        {
+            "function": "dnn_execute_layer_depth2space",
+            "type": "modified"
+        },
+        {
+            "function": "set_input_output_native",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_pad",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_math_unary",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_conv2d",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_math_binary.cold",
+            "type": "modified"
+        },
+        {
+            "function": "calculate_operand_data_length",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_maximum",
+            "type": "modified"
+        },
+        {
+            "function": "ff_mjpeg_decode_sos",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_math_unary.cold",
+            "type": "modified"
+        },
+        {
+            "function": "dnn_execute_layer_math_binary",
+            "type": "modified"
+        },
+        {
+            "function": "FUN_007e363d",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-35965": [
+        {
+            "function": "decode_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2021-38291": [
+        {
+            "function": "av_get_audio_frame_duration",
+            "type": "modified"
+        },
+        {
+            "function": "av_get_audio_frame_duration2",
+            "type": "modified"
+        }
+    ],
+    "CVE-2022-1475": [
+        {
+            "function": "g729_parse",
+            "type": "modified"
+        }
+    ],
+    "CVE-2022-3109": [
+        {
+            "function": "vp3_decode_frame",
+            "type": "modified"
+        },
+        {
+            "function": "ff_add_gradient_pred_ssse3",
+            "type": "modified"
+        },
+        {
+            "function": "adpcm_encode_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-46407": [
+        {
+            "function": "read_distribution_bundle",
+            "type": "modified"
+        },
+        {
+            "function": "ff_pred8x8l_top_dc_10_sse2",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-47343": [
+        {
+            "function": "mov_probe",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-47470": [
+        {
+            "function": "vui_parameters",
+            "type": "added"
+        },
+        {
+            "function": "parse_frame",
+            "type": "modified"
+        },
+        {
+            "function": "ff_evc_parse_sps",
+            "type": "modified"
+        },
+        {
+            "function": "ref_pic_list_struct",
+            "type": "modified"
+        },
+        {
+            "function": "ff_h264_idct_add8_422_10_avx",
+            "type": "modified"
+        },
+        {
+            "function": "avg_8tap_smooth_16h_c",
+            "type": "modified"
+        },
+        {
+            "function": "avg_8tap_regular_16h_c",
+            "type": "modified"
+        },
+        {
+            "function": "avg_8tap_sharp_16h_c",
+            "type": "modified"
+        },
+        {
+            "function": "avg_8tap_regular_16h_c",
+            "type": "modified"
+        },
+        {
+            "function": "avg_8tap_sharp_16h_c",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-49501": [
+        {
+            "function": "ff_pred8x8l_vertical_left_8_ssse3",
+            "type": "modified"
+        },
+        {
+            "function": "config_eq_output",
+            "type": "modified"
+        },
+        {
+            "function": "put_scaled_8tap_c",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-50007": [
+        {
+            "function": "ff_h264_decode_mb_cabac",
+            "type": "modified"
+        },
+        {
+            "function": "ff_h264_idct_add16intra_10_avx",
+            "type": "modified"
+        },
+        {
+            "function": "filter_frame",
+            "type": "modified"
+        },
+        {
+            "function": "filter_channel",
+            "type": "modified"
+        },
+        {
+            "function": "activate",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-50008": [
+        {
+            "function": "ff_spatial_idwt_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2024-22860": [
+        {
+            "function": "jpegxl_anim_read_packet",
+            "type": "modified"
+        },
+        {
+            "function": "ff_h264_idct_add8_422_10_avx",
+            "type": "modified"
+        },
+        {
+            "function": "ff_h264_idct_add8_422_8_mmx",
+            "type": "modified"
+        }
+    ],
+    "CVE-2024-22862": [
+        {
+            "function": "jpegxl_parse",
+            "type": "modified"
+        }
+    ],
+    "CVE-2024-31578": [
+        {
+            "function": "av_hwframe_ctx_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2024-7055": [
+        {
+            "function": "pnm_decode_frame",
+            "type": "modified"
+        }
+    ],
+    "CVE-2025-1373": [
+        {
+            "function": "mov_read_trak",
+            "type": "modified"
+        }
+    ],
+    "CVE-2025-22919": [
+        {
+            "function": "ff_avg_h264_qpel4_mc31_10_mmxext",
+            "type": "modified"
+        },
+        {
+            "function": "mc",
+            "type": "modified"
+        },
+        {
+            "function": "ff_put_h264_qpel8_mc31_10_sse2",
+            "type": "modified"
+        },
+        {
+            "function": "process_command",
+            "type": "modified"
+        },
+        {
+            "function": "init_audio",
+            "type": "modified"
+        }
+    ],
+    "CVE-2025-22920": [
+        {
+            "function": "ff_put_h264_qpel8_mc32_10_sse2",
+            "type": "modified"
+        },
+        {
+            "function": "ff_avg_h264_qpel8_mc12_10_sse2",
+            "type": "modified"
+        },
+        {
+            "function": "ff_avg_h264_qpel4_mc32_10_mmxext",
+            "type": "modified"
+        },
+        {
+            "function": "dump_stream_group",
+            "type": "modified"
+        }
+    ]
+}

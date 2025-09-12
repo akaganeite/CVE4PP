@@ -1,0 +1,545 @@
+{
+    "libxml2": {
+        "CVE-2012-5134": {
+            "commit": "6a36fbe3b3e0",
+            "analysis": [
+                {
+                    "function": "xmlParseAttValueComplex",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2013-0338": {
+            "commit": "23f05e0c3398",
+            "analysis": [
+                {
+                    "function": "xmlCtxtReset",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlInitParserCtxt",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseReference",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParserEntityCheck",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlStringLenDecodeEntities",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2013-0339": {
+            "commit": "4629ee02ac64",
+            "analysis": [
+                {
+                    "function": "xmlParseReference",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2013-1969": {
+            "commit": "de0cc20c29cb",
+            "analysis": [
+                {
+                    "function": "htmlParseChunk",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseChunk",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2014-3660": {
+            "commit": "72a46a519ce7",
+            "analysis": [
+                {
+                    "function": "xmlParseReference",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-5312": {
+            "commit": "69030714cde6",
+            "analysis": [
+                {
+                    "function": "xmlStringLenDecodeEntities",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-7497": {
+            "commit": "6360a31a84ef",
+            "analysis": [
+                {
+                    "function": "xmlDictComputeFastQKey",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-7498": {
+            "commit": "afd27c21f6b3",
+            "analysis": [
+                {
+                    "function": "xmlParseDocument",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseXMLDecl",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlSwitchEncoding",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-7499": {
+            "commit": "28cd9cb747a9",
+            "analysis": [
+                {
+                    "function": "xmlHaltParser",
+                    "type": "added"
+                },
+                {
+                    "function": "xmlStopParser",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-7500": {
+            "commit": "f1063fdbe7fa",
+            "analysis": [
+                {
+                    "function": "xmlParseStartTag2",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-7941": {
+            "commit": "9b8512337d14",
+            "analysis": [
+                {
+                    "function": "xmlParseConditionalSections",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-8241": {
+            "commit": "ab2b9a93ff19",
+            "analysis": [
+                {
+                    "function": "xmlParseMarkupDecl",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-8242": {
+            "commit": "8fb4a7700756",
+            "analysis": [
+                {
+                    "function": "htmlParseTryOrFinish",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-8317": {
+            "commit": "709a952110e9",
+            "analysis": [
+                {
+                    "function": "xmlParseEncodingDecl",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-8710": {
+            "commit": "e724879d964d",
+            "analysis": [
+                {
+                    "function": "htmlParseComment",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1762": {
+            "commit": "a7a94612aa3b",
+            "analysis": [
+                {
+                    "function": "xmlParseInternalSubset",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1833": {
+            "commit": "0bcd05c5cd83",
+            "analysis": [
+                {
+                    "function": "xmlNextChar",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1834": {
+            "commit": "8fbbf5513d60",
+            "analysis": [
+                {
+                    "function": "xmlStrncat",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlStrncatNew",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1836": {
+            "commit": "45752d2c334b",
+            "analysis": [
+                {
+                    "function": "xmlParseNCNameComplex",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1837": {
+            "commit": "11ed4a7a90d5",
+            "analysis": [
+                {
+                    "function": "htmlParsePubidLiteral",
+                    "type": "modified"
+                },
+                {
+                    "function": "htmlParseSystemLiteral",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1838": {
+            "commit": "db07dd613e46",
+            "analysis": [
+                {
+                    "function": "xmlParseEndTag2",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-1840": {
+            "commit": "cbb271655cad",
+            "analysis": [
+                {
+                    "function": "xmlFAParseCharRange",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-4449": {
+            "commit": "b1d34de46a11",
+            "analysis": [
+                {
+                    "function": "xmlStringLenDecodeEntities",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-4483": {
+            "commit": "c97750d11bb8",
+            "analysis": [
+                {
+                    "function": "xmlBufAttrSerializeTxtContent",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-4658": {
+            "commit": "c1d1f7121194",
+            "analysis": [
+                {
+                    "function": "xmlXPtrNewRangeInternal",
+                    "type": "added"
+                },
+                {
+                    "function": "xmlXPtrNewCollapsedRange",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRange",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRangeNodeObject",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRangeNodePoint",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRangeNodes",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRangePointNode",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlXPtrNewRangePoints",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-16931": {
+            "commit": "e26630548e7d",
+            "analysis": [
+                {
+                    "function": "xmlParseNameComplex",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-16932": {
+            "commit": "899a5d9f0ed1",
+            "analysis": [
+                {
+                    "function": "xmlParsePEReference",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlPushInput",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-5130": {
+            "commit": "897dffbae322",
+            "analysis": [
+                {
+                    "function": "xmlMallocLoc",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlMemStrdupLoc",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlReallocLoc",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-7375": {
+            "commit": "90ccb5824286",
+            "analysis": [
+                {
+                    "function": "xmlParsePEReference",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2018-14404": {
+            "commit": "a436374994c4",
+            "analysis": [
+                {
+                    "function": "xmlXPathCompOpEval",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2019-19956": {
+            "commit": "5a02583c7e68",
+            "analysis": [
+                {
+                    "function": "xmlParseBalancedChunkMemoryRecover",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-7595": {
+            "commit": "0e1a49c89076",
+            "analysis": [
+                {
+                    "function": "xmlStringLenDecodeEntities",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-23308": {
+            "commit": "652dd12a8589",
+            "analysis": [
+                {
+                    "function": "xmlIsStreaming",
+                    "type": "added"
+                },
+                {
+                    "function": "xmlValidNormalizeString",
+                    "type": "added"
+                },
+                {
+                    "function": "xmlAddID",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlAddRef",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlRemoveID",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlValidCtxtNormalizeAttributeValue",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlValidNormalizeAttributeValue",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-29824": {
+            "commit": "2554a2408e09",
+            "analysis": [
+                {
+                    "function": "xmlBufAdd",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufCCat",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufCreateSize",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufGrowInternal",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufResize",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferAdd",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferCCat",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferCreateSize",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferCreateStatic",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferGrow",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlBufferResize",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-40303": {
+            "commit": "c846986356fc",
+            "analysis": [
+                {
+                    "function": "xmlFatalErr",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseAttValueComplex",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseAttValueInternal",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseCDSect",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseComment",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseCommentComplex",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseEntityValue",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseNCName",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseNCNameComplex",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseName",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseNameComplex",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseNmtoken",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParsePI",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParsePubidLiteral",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseStringName",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlParseSystemLiteral",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-40304": {
+            "commit": "1b41ec4e9433",
+            "analysis": [
+                {
+                    "function": "xmlCreateEntity",
+                    "type": "modified"
+                },
+                {
+                    "function": "xmlFreeEntity",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-28484": {
+            "commit": "e4f85f1bd2eb",
+            "analysis": [
+                {
+                    "function": "xmlSchemaFixupComplexType",
+                    "type": "modified"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,34 @@
+binutils_result.csv:
+  succeed/targets = 376/612 = 0.6144
+  succeed/(targets-func_not_found) = 376/(612-9) = 0.6235
+  succeed/valid_targets = 376/595 = 0.6319 (只考虑FP/FN)
+
+libxml2_result.csv:
+  succeed/targets = 237/522 = 0.4540
+  succeed/(targets-func_not_found) = 237/(522-54) = 0.5064
+  succeed/valid_targets = 237/438 = 0.5411 (只考虑FP/FN)
+
+sqlite_result.csv:
+  succeed/targets = 193/227 = 0.8502
+  succeed/(targets-func_not_found) = 193/(227-3) = 0.8616
+  succeed/valid_targets = 193/218 = 0.8853 (只考虑FP/FN)
+
+ffmpeg_result.csv:
+  succeed/targets = 108/192 = 0.5625
+  succeed/(targets-func_not_found) = 108/(192-17) = 0.6171
+  succeed/valid_targets = 108/175 = 0.6171 (只考虑FP/FN)
+
+freetype_result.csv:
+  succeed/targets = 131/353 = 0.3711
+  succeed/(targets-func_not_found) = 131/(353-121) = 0.5647
+  succeed/valid_targets = 131/232 = 0.5647 (只考虑FP/FN)
+
+curl_result.csv:
+  succeed/targets = 117/309 = 0.3786
+  succeed/(targets-func_not_found) = 117/(309-99) = 0.5571
+  succeed/valid_targets = 117/210 = 0.5571 (只考虑FP/FN)
+
+所有项目的总体准确率:
+  succeed/targets = 0.5385
+  succeed/(targets-func_not_found) = 0.6218
+  succeed/valid_targets = 0.6329 (只考虑FP/FN)

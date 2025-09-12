@@ -1,0 +1,771 @@
+{
+    "ffmpeg": {
+        "CVE-2020-12284": {
+            "commit": "1812352d767c",
+            "analysis": [
+                {
+                    "function": "cbs_jpeg_split_fragment",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20446": {
+            "commit": "223b5e8ac9f6",
+            "analysis": [
+                {
+                    "function": "psy_3gpp_analyze_channel",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20450": {
+            "commit": "5400e4a50c61",
+            "analysis": [
+                {
+                    "function": "mxf_parse_dnxhd_frame",
+                    "type": "modified"
+                },
+                {
+                    "function": "mxf_parse_h264_frame",
+                    "type": "modified"
+                },
+                {
+                    "function": "mxf_parse_mpeg2_frame",
+                    "type": "modified"
+                },
+                {
+                    "function": "mxf_parse_prores_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20451": {
+            "commit": "21265f42ecb2",
+            "analysis": [
+                {
+                    "function": "open_files",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20453": {
+            "commit": "a7a7f32c8ad0",
+            "analysis": [
+                {
+                    "function": "aac_encode_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20891": {
+            "commit": "64a805883d72",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20896": {
+            "commit": "dd01947397b9",
+            "analysis": [
+                {
+                    "function": "latm_write_packet",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-20898": {
+            "commit": "99f8d32129dd",
+            "analysis": [
+                {
+                    "function": "filter16_prewitt",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter16_roberts",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter16_sobel",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_prewitt",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_roberts",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_sobel",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-21688": {
+            "commit": "22c3cd176079",
+            "analysis": [
+                {
+                    "function": "mov_get_codec_tag",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-21697": {
+            "commit": "cfce16449cb8",
+            "analysis": [
+                {
+                    "function": "mpeg_mux_write_packet",
+                    "type": "modified"
+                },
+                {
+                    "function": "remove_decoded_packets",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22016": {
+            "commit": "58aa0ed8f107",
+            "analysis": [
+                {
+                    "function": "ff_mov_write_packet",
+                    "type": "modified"
+                },
+                {
+                    "function": "mov_create_dvd_sub_decoder_specific_info",
+                    "type": "modified"
+                },
+                {
+                    "function": "mov_write_header",
+                    "type": "modified"
+                },
+                {
+                    "function": "mov_write_trailer",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22017": {
+            "commit": "d4d6b7b0355f",
+            "analysis": [
+                {
+                    "function": "oscilloscope_filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22019": {
+            "commit": "82ad1b76751b",
+            "analysis": [
+                {
+                    "function": "ff_vmafmotion_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22020": {
+            "commit": "ce5274c1385d",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22021": {
+            "commit": "7971f62120a5",
+            "analysis": [
+                {
+                    "function": "filter_edges",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_edges_16bit",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22022": {
+            "commit": "07050d7bdc32",
+            "analysis": [
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22023": {
+            "commit": "0b5672387418",
+            "analysis": [
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22024": {
+            "commit": "723d69f99cd2",
+            "analysis": [
+                {
+                    "function": "lagfun_frame16",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22025": {
+            "commit": "ccf4ab8c9aca",
+            "analysis": [
+                {
+                    "function": "gaussian_blur",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22026": {
+            "commit": "58bb9d3a3a6e",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22027": {
+            "commit": "e787f8fd7ee9",
+            "analysis": [
+                {
+                    "function": "filter_slice",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22029": {
+            "commit": "a7fd12797036",
+            "analysis": [
+                {
+                    "function": "slice_get_derivative",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22030": {
+            "commit": "e1b89c76f663",
+            "analysis": [
+                {
+                    "function": "CROSSFADE_PLANAR",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22031": {
+            "commit": "0e68e8c93f90",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22032": {
+            "commit": "de598f82f8c3",
+            "analysis": [
+                {
+                    "function": "gaussian_blur",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22034": {
+            "commit": "1331e001796c",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22035": {
+            "commit": "0749082eb93e",
+            "analysis": [
+                {
+                    "function": "config_input",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_slice",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22036": {
+            "commit": "8c3166e1c302",
+            "analysis": [
+                {
+                    "function": "config_props",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22037": {
+            "commit": "7bba0dd6382e",
+            "analysis": [
+                {
+                    "function": "ff_frame_thread_encoder_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22038": {
+            "commit": "7c32e9cf93b7",
+            "analysis": [
+                {
+                    "function": "ff_v4l2_m2m_codec_end",
+                    "type": "modified"
+                },
+                {
+                    "function": "v4l2_decode_close",
+                    "type": "modified"
+                },
+                {
+                    "function": "v4l2_decode_init",
+                    "type": "modified"
+                },
+                {
+                    "function": "v4l2_m2m_destroy_context",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22039": {
+            "commit": "a581bb66ea5e",
+            "analysis": [
+                {
+                    "function": "avi_deinit",
+                    "type": "added"
+                },
+                {
+                    "function": "avi_write_trailer",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22041": {
+            "commit": "3488e0977c67",
+            "analysis": [
+                {
+                    "function": "uninit",
+                    "type": "added"
+                }
+            ]
+        },
+        "CVE-2020-22042": {
+            "commit": "426c16d61a9b",
+            "analysis": [
+                {
+                    "function": "ffmpeg_cleanup",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22043": {
+            "commit": "b288a7eb3d96",
+            "analysis": [
+                {
+                    "function": "mpeg_mux_deinit",
+                    "type": "added"
+                },
+                {
+                    "function": "mpeg_mux_end",
+                    "type": "modified"
+                },
+                {
+                    "function": "mpeg_mux_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22044": {
+            "commit": "1d479300cbe0",
+            "analysis": [
+                {
+                    "function": "nut_write_trailer",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22046": {
+            "commit": "097c917c1476",
+            "analysis": [
+                {
+                    "function": "ff_ac3_encode_close",
+                    "type": "modified"
+                },
+                {
+                    "function": "ff_ac3_encode_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-22048": {
+            "commit": "fddef964e8aa",
+            "analysis": [
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-23906": {
+            "commit": "ec59dc73f0cc",
+            "analysis": [
+                {
+                    "function": "read_packet",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-24020": {
+            "commit": "584f396132aa",
+            "analysis": [
+                {
+                    "function": "calculate_operand_data_length",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_conv2d",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_depth2space",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_math_binary",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_math_unary",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_maximum",
+                    "type": "modified"
+                },
+                {
+                    "function": "dnn_execute_layer_pad",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2020-35965": {
+            "commit": "b0a8b40294ea",
+            "analysis": [
+                {
+                    "function": "decode_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-30123": {
+            "commit": "d6f293353c94",
+            "analysis": [
+                {
+                    "function": "sniff_channel_order",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-33815": {
+            "commit": "26d3c81bc5ef",
+            "analysis": [
+                {
+                    "function": "dwa_uncompress",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-38114": {
+            "commit": "7150f9575671",
+            "analysis": [
+                {
+                    "function": "dnxhd_init_vlc",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2021-38291": {
+            "commit": "e01d306c647b",
+            "analysis": [
+                {
+                    "function": "av_get_audio_frame_duration",
+                    "type": "modified"
+                },
+                {
+                    "function": "av_get_audio_frame_duration2",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-1475": {
+            "commit": "757da974b218",
+            "analysis": [
+                {
+                    "function": "g729_parse",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-2566": {
+            "commit": "c953baa08460",
+            "analysis": [
+                {
+                    "function": "build_open_gop_key_points",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-3341": {
+            "commit": "9cf652cef49d",
+            "analysis": [
+                {
+                    "function": "decode_main_header",
+                    "type": "modified"
+                },
+                {
+                    "function": "nut_read_header",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-3964": {
+            "commit": "92f9b28ed84a",
+            "analysis": [
+                {
+                    "function": "calc_lsq_max_fit_error",
+                    "type": "modified"
+                },
+                {
+                    "function": "get_max_component_diff",
+                    "type": "modified"
+                },
+                {
+                    "function": "leastsquares",
+                    "type": "modified"
+                },
+                {
+                    "function": "rpza_encode_stream",
+                    "type": "modified"
+                },
+                {
+                    "function": "update_block_in_prev_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-3965": {
+            "commit": "13c131097590",
+            "analysis": [
+                {
+                    "function": "smc_encode_stream",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2022-48434": {
+            "commit": "cc867f2c09d2",
+            "analysis": [
+                {
+                    "function": "ff_frame_thread_free",
+                    "type": "modified"
+                },
+                {
+                    "function": "ff_thread_finish_setup",
+                    "type": "modified"
+                },
+                {
+                    "function": "frame_worker_thread",
+                    "type": "modified"
+                },
+                {
+                    "function": "submit_packet",
+                    "type": "modified"
+                },
+                {
+                    "function": "update_context_from_thread",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-47342": {
+            "commit": "e4d5ac8d7d2a",
+            "analysis": [
+                {
+                    "function": "parse_fmtp",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-47343": {
+            "commit": "0f6a3405e898",
+            "analysis": [
+                {
+                    "function": "mov_probe",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-47344": {
+            "commit": "f7ac3512f5b5",
+            "analysis": [
+                {
+                    "function": "read_distribution_bundle",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-49501": {
+            "commit": "4adb93dff05d",
+            "analysis": [
+                {
+                    "function": "config_eq_output",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-49502": {
+            "commit": "737ede405b11",
+            "analysis": [
+                {
+                    "function": "config_output",
+                    "type": "modified"
+                },
+                {
+                    "function": "config_props",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-50007": {
+            "commit": "b1942734c7cb",
+            "analysis": [
+                {
+                    "function": "activate",
+                    "type": "modified"
+                },
+                {
+                    "function": "filter_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2023-50008": {
+            "commit": "5f87a68cf70d",
+            "analysis": [
+                {
+                    "function": "uninit",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2024-28661": {
+            "commit": "66b50445cb36",
+            "analysis": [
+                {
+                    "function": "parse_speex_extradata",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2024-31578": {
+            "commit": "3bb00c0a420c",
+            "analysis": [
+                {
+                    "function": "av_hwframe_ctx_init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2024-36617": {
+            "commit": "d973fcbcc2f9",
+            "analysis": [
+                {
+                    "function": "read_pakt_chunk",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2024-7055": {
+            "commit": "3faadbe2a27e",
+            "analysis": [
+                {
+                    "function": "pnm_decode_frame",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-0518": {
+            "commit": "b5b6391d6480",
+            "analysis": [
+                {
+                    "function": "init",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-1373": {
+            "commit": "43be8d07281c",
+            "analysis": [
+                {
+                    "function": "mov_read_trak",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-1816": {
+            "commit": "0526535cd584",
+            "analysis": [
+                {
+                    "function": "audio_element_obu",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-22919": {
+            "commit": "1446e37d3d03",
+            "analysis": [
+                {
+                    "function": "init_audio",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-22920": {
+            "commit": "4bf784c0e561",
+            "analysis": [
+                {
+                    "function": "dump_stream_group",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2025-25471": {
+            "commit": "fd1772b7475d",
+            "analysis": [
+                {
+                    "function": "mov_read_trak",
+                    "type": "modified"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2107 @@
+Detect o2 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,ssl3_get_key_exchange,-1
+[*] /s; sim-cal:3.377409
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zc-o2-openssl,ssl3_get_key_exchange,-1
+[*] /s; sim-cal:13.899876
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,ssl3_get_key_exchange,-1
+[*] /s; sim-cal:3.538275
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0p-o2-libssl,ssl3_get_key_exchange,1
+target function: ssl3_get_key_exchange not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zd-o2-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:13.912516
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1k-o2-libssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:3.809796
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0205
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,ssl3_get_cert_verify,-1
+[*] /s; sim-cal:0.649376
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,ssl3_get_cert_verify,-1
+[*] /s; sim-cal:0.65535
+[*] Detection Result:V 0.5925925925925926/0.3947368421052631 22/23,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,ssl3_get_cert_verify,1
+[*] /s; sim-cal:13.396098
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0206
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,dtls1_read_bytes,-1
+[*] /s; sim-cal:0.91606
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,dtls1_read_bytes,-1
+[*] /s; sim-cal:0.814969
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:1.174321
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,dtls1_buffer_record,-1
+[*] /s; sim-cal:0.61772
+[*] Detection Result:V 0.9522868435911914/0.8549296218648891 8/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,dtls1_buffer_record,-1
+[*] /s; sim-cal:0.740041
+[*] Detection Result:V 0.9385469602860907/0.8482582110838893 8/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,dtls1_buffer_record,1
+[*] /s; sim-cal:0.982495
+[*] Detection Result:V 0.8051948051948052/0.7201963613728319 6/6,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,dtls1_process_buffered_records,-1
+[*] /s; sim-cal:0.587534
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,dtls1_process_buffered_records,-1
+[*] /s; sim-cal:0.589398
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,dtls1_process_buffered_records,1
+[*] /s; sim-cal:0.864117
+[*] Detection Result:V,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1j-o2-libssl,dtls1_get_record,-1
+[*] /s; sim-cal:0.65988
+[*] Detection Result:V 0.9073684210526316/0.3504371146451892 5/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0o-o2-libssl,dtls1_get_record,-1
+[*] /s; sim-cal:0.69924
+[*] Detection Result:V 0.9073684210526316/0.3504371146451892 5/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,dtls1_get_record,1
+[*] /s; sim-cal:1.161214
+[*] Detection Result:V 0.8930094466936571/0.6241006017791733 8/10,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0209
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2-o2-libssl,d2i_ECPrivateKey,-1
+target function: d2i_ECPrivateKey not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,d2i_ECPrivateKey,-1
+[*] /s; sim-cal:1.034806
+[*] Detection Result:V 0.6990754396848284/0.6651682454680025 8/9,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0r-o2-libcrypto,d2i_ECPrivateKey,1
+target function: d2i_ECPrivateKey not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,d2i_ECPrivateKey,1
+[*] /s; sim-cal:13.536974
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0288
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2-o2-libssl,X509_to_X509_REQ,-1
+target function: X509_to_X509_REQ not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0q-o2-openssl,X509_to_X509_REQ,-1
+target function: X509_to_X509_REQ not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8ze-o2-openssl,X509_to_X509_REQ,-1
+[*] /s; sim-cal:0.974971
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0r-o2-libcrypto,X509_to_X509_REQ,1
+target function: X509_to_X509_REQ not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,X509_to_X509_REQ,1
+[*] /s; sim-cal:0.913852
+[*] Detection Result:P 0.24242424242424243/0.6243691493691493 5/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1791
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,ssl3_get_new_session_ticket,-1
+[*] /s; sim-cal:0.943952
+[*] Detection Result:V 0.6994537815126051/0.6610166270422413 13/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl,ssl3_get_new_session_ticket,1
+[*] /s; sim-cal:3.559733
+[*] Detection Result:P 0.5567927536740924/0.8124645082085147 23/15,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto,ssl3_get_new_session_ticket,1
+target function: ssl3_get_new_session_ticket not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,ssl3_get_new_session_ticket,1
+[*] /s; sim-cal:3.488592
+[*] Detection Result:P 0.40712847835058785/0.8916912741809501 18/9,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,SSL_SESSION_new,-1
+[*] /s; sim-cal:0.822211
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl,SSL_SESSION_new,1
+[*] /s; sim-cal:0.585895
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto,SSL_SESSION_new,1
+target function: SSL_SESSION_new not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,SSL_SESSION_new,1
+[*] /s; sim-cal:0.677965
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1788
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0r-o2-libcrypto,BN_GF2m_mod_inv,-1
+target function: BN_GF2m_mod_inv not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,BN_GF2m_mod_inv,-1
+[*] /s; sim-cal:0.913706
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,BN_GF2m_mod_inv,1
+target function: BN_GF2m_mod_inv not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,BN_GF2m_mod_inv,1
+[*] /s; sim-cal:19.627861
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1789
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0r-o2-libcrypto,X509_cmp_time,-1
+target function: X509_cmp_time not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,X509_cmp_time,-1
+[*] /s; sim-cal:0.941204
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,X509_cmp_time,1
+target function: X509_cmp_time not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,X509_cmp_time,1
+[*] /s; sim-cal:1.049175
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0r-o2-libcrypto,PKCS7_dataDecode,-1
+target function: PKCS7_dataDecode not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zf-o2-openssl,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.038121
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,PKCS7_dataDecode,1
+target function: PKCS7_dataDecode not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.173319
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-3196
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,ssl3_get_key_exchange,-1
+target function: ssl3_get_key_exchange not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl,ssl3_get_key_exchange,-1
+[*] /s; sim-cal:0.879507
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,ssl3_get_key_exchange,-1
+[*] /s; sim-cal:1.064497
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:1.177557
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:17.981357
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:20.655377
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,ssl3_get_client_key_exchange,-1
+target function: ssl3_get_client_key_exchange not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl,ssl3_get_client_key_exchange,-1
+[*] /s; sim-cal:0.814252
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,ssl3_get_client_key_exchange,-1
+[*] /s; sim-cal:0.849778
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,ssl3_get_client_key_exchange,1
+[*] /s; sim-cal:1.156968
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,ssl3_get_client_key_exchange,1
+[*] /s; sim-cal:1.162115
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,ssl3_get_client_key_exchange,1
+[*] /s; sim-cal:1.173059
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,ssl3_send_client_key_exchange,-1
+target function: ssl3_send_client_key_exchange not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libssl,ssl3_send_client_key_exchange,-1
+[*] /s; sim-cal:0.867182
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,ssl3_send_client_key_exchange,-1
+[*] /s; sim-cal:0.773803
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,ssl3_send_client_key_exchange,1
+[*] /s; sim-cal:1.160451
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,ssl3_send_client_key_exchange,1
+[*] /s; sim-cal:1.09603
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,ssl3_send_client_key_exchange,1
+[*] /s; sim-cal:1.303775
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1793
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,X509_verify_cert,-1
+target function: X509_verify_cert not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1n-o2-libssl,X509_verify_cert,-1
+[*] /s; sim-cal:0.662472
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,X509_verify_cert,1
+[*] /s; sim-cal:1.102954
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,X509_verify_cert,1
+[*] /s; sim-cal:1.01765
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,X509_verify_cert,1
+[*] /s; sim-cal:1.167868
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-3194
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,rsa_pss_decode,-1
+[*] /s; sim-cal:1.046078
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,rsa_pss_decode,-1
+[*] /s; sim-cal:1.031474
+[*] Detection Result:V 0.781986531986532/0.0 2/2,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,rsa_pss_decode,1
+[*] /s; sim-cal:17.053175
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,rsa_pss_decode,1
+[*] /s; sim-cal:19.792403
+[*] Detection Result:V 0.781986531986532/0.0 2/2,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o2-openssl,rsa_pss_decode,1
+target function: rsa_pss_decode not found
+------------------------------------------
+[*] Detecting CVE: CVE-2015-3195
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,asn1_template_noexp_d2i,-1
+[*] /s; sim-cal:1.063049
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,asn1_template_noexp_d2i,-1
+[*] /s; sim-cal:1.017814
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,asn1_template_noexp_d2i,-1
+target function: asn1_template_noexp_d2i not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,asn1_template_noexp_d2i,1
+[*] /s; sim-cal:1.051485
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,asn1_template_noexp_d2i,1
+[*] /s; sim-cal:1.072961
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o2-openssl,asn1_template_noexp_d2i,1
+target function: asn1_template_noexp_d2i not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2d-o2-openssl,ASN1_item_ex_d2i,-1
+[*] /s; sim-cal:1.161334
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,ASN1_item_ex_d2i,-1
+[*] /s; sim-cal:1.104242
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/ openssl-OpenSSL_1_0_1o-o2-libssl,ASN1_item_ex_d2i,-1
+target function: ASN1_item_ex_d2i not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,ASN1_item_ex_d2i,1
+[*] /s; sim-cal:1.137693
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,ASN1_item_ex_d2i,1
+[*] /s; sim-cal:1.18251
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o2-openssl,ASN1_item_ex_d2i,1
+target function: ASN1_item_ex_d2i not found
+------------------------------------------
+[*] Detecting CVE: CVE-2015-3197
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,get_client_hello,-1
+[*] /s; sim-cal:17.598853
+[*] Detection Result:V 0.9584848484848484/0.7316494779730074 7/9,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,get_client_hello,-1
+[*] /s; sim-cal:1.206684
+[*] Detection Result:V 0.9584848484848484/0.7316494779730074 7/9,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,get_client_hello,-1
+[*] /s; sim-cal:0.921077
+[*] Detection Result:V 0.9584848484848484/0.7316494779730074 7/9,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o2-openssl,get_client_hello,1
+target function: get_client_hello not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_10-o2-openssl,get_client_hello,1
+target function: get_client_hello not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_11-o2-openssl,get_client_hello,1
+target function: get_client_hello not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,get_client_master_key,-1
+[*] /s; sim-cal:1.167233
+[*] Detection Result:V 0.8444444444444444/0.6838357588357588 1/1,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2e-o2-openssl,get_client_master_key,-1
+[*] /s; sim-cal:1.082179
+[*] Detection Result:V 0.8444444444444444/0.6838357588357588 1/1,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1p-o2-openssl,get_client_master_key,-1
+[*] /s; sim-cal:1.297809
+[*] Detection Result:V 0.8444444444444444/0.6838357588357588 1/1,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_12-o2-openssl,get_client_master_key,1
+target function: get_client_master_key not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_10-o2-openssl,get_client_master_key,1
+target function: get_client_master_key not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_11-o2-openssl,get_client_master_key,1
+target function: get_client_master_key not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-0705
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,dsa_priv_decode,-1
+[*] /s; sim-cal:1.186517
+[*] Detection Result:V 0.9790598440967895/0.5290097494595056 1/10,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,dsa_priv_decode,-1
+[*] /s; sim-cal:1.231635
+[*] Detection Result:V 0.9790598440967895/0.5290097494595056 1/10,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,dsa_priv_decode,-1
+[*] /s; sim-cal:0.938255
+[*] Detection Result:V 0.9790598440967895/0.5290097494595056 1/10,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,dsa_priv_decode,1
+[*] /s; sim-cal:19.924203
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,dsa_priv_decode,1
+[*] /s; sim-cal:17.467978
+[*] Detection Result:P 0.40911393508190413/0.9773976526693914 9/1,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,dsa_priv_decode,1
+[*] /s; sim-cal:19.946276
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-0798
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,init_ssl_connection,-1
+[*] /s; sim-cal:1.064677
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,init_ssl_connection,-1
+[*] /s; sim-cal:1.143312
+[*] Detection Result:V 0.9914912280701754/0.6866697994987468 5/6,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,init_ssl_connection,-1
+[*] /s; sim-cal:1.114326
+[*] Detection Result:V 0.9914912280701754/0.6866697994987468 5/6,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,init_ssl_connection,1
+[*] /s; sim-cal:1.390499
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,init_ssl_connection,1
+[*] /s; sim-cal:0.983569
+[*] Detection Result:P 0.6960170901391409/0.9914912280701754 6/5,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,init_ssl_connection,1
+[*] /s; sim-cal:1.098936
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] /s; sim-cal:1.194755
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] /s; sim-cal:1.037949
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,SRP_user_pwd_set_sv_BN,-1
+[*] /s; sim-cal:0.94954
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,SRP_user_pwd_set_sv_BN,1
+[*] /s; sim-cal:0.993922
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,SRP_user_pwd_set_sv_BN,1
+[*] /s; sim-cal:1.099082
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,SRP_user_pwd_set_sv_BN,1
+[*] /s; sim-cal:1.117072
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,sv_body,-1
+[*] /s; sim-cal:1.15734
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,sv_body,-1
+[*] /s; sim-cal:1.279381
+[*] Detection Result:V 0.7136355878291362/0.40261144699000484 6/7,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,sv_body,-1
+[*] /s; sim-cal:1.235356
+[*] Detection Result:V 0.7136355878291362/0.40261144699000484 7/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,sv_body,1
+[*] /s; sim-cal:1.07177
+[*] Detection Result:P 0.24946382022994928/0.7334675023479577 7/2,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,sv_body,1
+[*] /s; sim-cal:1.047778
+[*] Detection Result:P 0.4136803906965198/0.7112636713205973 8/5,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,sv_body,1
+[*] /s; sim-cal:1.226676
+[*] Detection Result:P 0.24946382022994928/0.7334675023479577 6/2,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,t_tob64,-1
+[*] /s; sim-cal:1.009352
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,t_tob64,-1
+[*] /s; sim-cal:0.981499
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,t_tob64,-1
+[*] /s; sim-cal:1.002647
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,t_tob64,1
+[*] /s; sim-cal:1.038353
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,t_tob64,1
+[*] /s; sim-cal:1.022536
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,t_tob64,1
+[*] /s; sim-cal:0.984934
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,rev_body,-1
+[*] /s; sim-cal:1.063472
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,rev_body,-1
+target function: rev_body not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,rev_body,-1
+target function: rev_body not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,rev_body,1
+[*] /s; sim-cal:1.068594
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,rev_body,1
+target function: rev_body not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,rev_body,1
+[*] /s; sim-cal:1.163605
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,SRP_VBASE_init,-1
+[*] /s; sim-cal:1.143477
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,SRP_VBASE_init,-1
+[*] /s; sim-cal:1.00432
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,SRP_VBASE_init,-1
+[*] /s; sim-cal:1.004297
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,SRP_VBASE_init,1
+[*] /s; sim-cal:1.096704
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,SRP_VBASE_init,1
+[*] /s; sim-cal:1.19132
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,SRP_VBASE_init,1
+[*] /s; sim-cal:1.311378
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,www_body,-1
+[*] /s; sim-cal:1.238713
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,www_body,-1
+[*] /s; sim-cal:1.175626
+[*] Detection Result:V 0.9388068181818182/0.7403941197691197 4/5,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,www_body,-1
+[*] /s; sim-cal:1.141276
+[*] Detection Result:V 0.9388068181818182/0.7403941197691197 4/5,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,www_body,1
+[*] /s; sim-cal:1.171544
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,www_body,1
+[*] /s; sim-cal:1.252809
+[*] Detection Result:P 0.48022071771353375/0.9410389610389611 5/3,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,www_body,1
+[*] /s; sim-cal:1.170678
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,ssl_srp_server_param_cb,-1
+[*] /s; sim-cal:1.122314
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,ssl_srp_server_param_cb,-1
+[*] /s; sim-cal:1.207091
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,ssl_srp_server_param_cb,-1
+[*] /s; sim-cal:1.383006
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_srp_server_param_cb,1
+[*] /s; sim-cal:1.037649
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,ssl_srp_server_param_cb,1
+[*] /s; sim-cal:0.927423
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_srp_server_param_cb,1
+[*] /s; sim-cal:1.104456
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-0799
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,fmtint,-1
+[*] /s; sim-cal:1.076623
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,fmtint,-1
+[*] /s; sim-cal:1.537773
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,fmtint,-1
+[*] /s; sim-cal:1.086029
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,fmtint,1
+[*] /s; sim-cal:1.079027
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,fmtint,1
+[*] /s; sim-cal:1.030081
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,fmtint,1
+[*] /s; sim-cal:1.103492
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:1.054405
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:1.145622
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:1.146934
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:1.006068
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:0.928302
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:1.01475
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,roundv,-1
+[*] /s; sim-cal:1.364338
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,roundv,-1
+[*] /s; sim-cal:0.982268
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,roundv,-1
+[*] /s; sim-cal:0.886621
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,roundv,1
+[*] /s; sim-cal:1.011041
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,roundv,1
+[*] /s; sim-cal:0.983237
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,roundv,1
+[*] /s; sim-cal:1.118366
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:1.082503
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:1.085858
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:0.898069
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:1.333491
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:0.910821
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:1.070431
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:1.082529
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:0.937192
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:1.088788
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,fmtfp,1
+[*] /s; sim-cal:1.072755
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,fmtfp,1
+[*] /s; sim-cal:1.068259
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,fmtfp,1
+[*] /s; sim-cal:1.293948
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:1.147447
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:0.993477
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:1.226741
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:1.316312
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:1.11576
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:1.077843
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,_dopr,-1
+[*] /s; sim-cal:1.477829
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,_dopr,-1
+[*] /s; sim-cal:1.190909
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,_dopr,-1
+[*] /s; sim-cal:1.1679
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,_dopr,1
+[*] /s; sim-cal:1.249767
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,_dopr,1
+[*] /s; sim-cal:1.358499
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,_dopr,1
+[*] /s; sim-cal:1.286528
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2842
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,fmtint,-1
+[*] /s; sim-cal:0.004508
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,fmtint,-1
+[*] /s; sim-cal:0.006974
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,fmtint,-1
+[*] /s; sim-cal:0.008428
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,fmtint,1
+[*] /s; sim-cal:0.005619
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,fmtint,1
+[*] /s; sim-cal:0.007394
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,fmtint,1
+[*] /s; sim-cal:0.006201
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:0.001177
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:0.001116
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BIO_vsnprintf,-1
+[*] /s; sim-cal:0.001106
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:0.001935
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:0.001139
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BIO_vsnprintf,1
+[*] /s; sim-cal:0.001166
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,roundv,-1
+[*] /s; sim-cal:0.000592
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,roundv,-1
+[*] /s; sim-cal:0.000589
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,roundv,-1
+[*] /s; sim-cal:0.000578
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,roundv,1
+[*] /s; sim-cal:0.007375
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,roundv,1
+[*] /s; sim-cal:0.000591
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,roundv,1
+[*] /s; sim-cal:0.00058
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:0.001152
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:0.001134
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BIO_vprintf,-1
+[*] /s; sim-cal:0.001126
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:0.001286
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:0.001271
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BIO_vprintf,1
+[*] /s; sim-cal:0.001253
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:0.006592
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:0.004724
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,fmtfp,-1
+[*] /s; sim-cal:0.006618
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,fmtfp,1
+[*] /s; sim-cal:0.005354
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,fmtfp,1
+[*] /s; sim-cal:0.007255
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,fmtfp,1
+[*] /s; sim-cal:0.007054
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:0.001926
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:0.002726
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,doapr_outch,-1
+[*] /s; sim-cal:0.001838
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:0.002662
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:0.001927
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,doapr_outch,1
+[*] /s; sim-cal:0.00193
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,_dopr,-1
+[*] /s; sim-cal:0.018848
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,_dopr,-1
+[*] /s; sim-cal:0.034464
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,_dopr,-1
+[*] /s; sim-cal:0.020454
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,_dopr,1
+[*] /s; sim-cal:0.019719
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,_dopr,1
+[*] /s; sim-cal:0.019292
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,_dopr,1
+[*] /s; sim-cal:0.019003
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-0797
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BN_dec2bn,-1
+[*] /s; sim-cal:1.118939
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BN_dec2bn,-1
+[*] /s; sim-cal:1.125
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BN_dec2bn,-1
+[*] /s; sim-cal:1.116011
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BN_dec2bn,1
+[*] /s; sim-cal:1.22234
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BN_dec2bn,1
+[*] /s; sim-cal:0.97104
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BN_dec2bn,1
+[*] /s; sim-cal:1.160206
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BN_hex2bn,-1
+[*] /s; sim-cal:1.164473
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BN_hex2bn,-1
+[*] /s; sim-cal:1.265465
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BN_hex2bn,-1
+[*] /s; sim-cal:1.286978
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,BN_hex2bn,1
+[*] /s; sim-cal:1.131401
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,BN_hex2bn,1
+[*] /s; sim-cal:1.120751
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BN_hex2bn,1
+[*] /s; sim-cal:1.21703
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-0702
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,BN_mod_exp_mont_consttime,-1
+[*] /s; sim-cal:1.424415
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,BN_mod_exp_mont_consttime,-1
+[*] /s; sim-cal:1.184138
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,BN_mod_exp_mont_consttime,-1
+[*] /s; sim-cal:1.095362
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,BN_mod_exp_mont_consttime,1
+[*] /s; sim-cal:1.178382
+[*] Detection Result:P 0.5033818814437445/0.9082428292954609 8/3,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,BN_mod_exp_mont_consttime,1
+[*] /s; sim-cal:17.070552
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,BN_mod_exp_mont_consttime,1
+[*] /s; sim-cal:19.921028
+[*] Detection Result:P 0.5033818814437445/0.9082428292954609 14/9,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] /s; sim-cal:1.073949
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] /s; sim-cal:0.980144
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,-1
+[*] /s; sim-cal:1.020891
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] /s; sim-cal:1.135026
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] /s; sim-cal:1.021861
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,MOD_EXP_CTIME_COPY_TO_PREBUF,1
+[*] /s; sim-cal:1.111289
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,bn_get_bits,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1r-o2-openssl,bn_get_bits,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1q-o2-openssl,bn_get_bits,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,bn_get_bits,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,bn_get_bits,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,bn_get_bits,1
+[*] Detection Result:Sig file not found,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2109
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-libcrypto,asn1_d2i_read_bio,-1
+[*] /s; sim-cal:14.167491
+[*] Detection Result:V 0.8479030335330675/0.7363837290394183 17/18,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-libcrypto,asn1_d2i_read_bio,-1
+[*] /s; sim-cal:12.212989
+[*] Detection Result:V 0.8479030335330675/0.7363837290394183 17/18,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-libcrypto,asn1_d2i_read_bio,-1
+[*] /s; sim-cal:14.361285
+[*] Detection Result:V 0.8479030335330675/0.7363837290394183 17/18,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:14.451475
+[*] Detection Result:P 0.7308421347241184/0.8307039478879655 22/17,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:12.486451
+[*] Detection Result:P 0.7308421347241184/0.8307039478879655 22/17,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:15.103978
+[*] Detection Result:P 0.7308421347241184/0.8307039478879655 22/17,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-libcrypto,ASN1_item_d2i_fp,-1
+[*] /s; sim-cal:0.94259
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-libcrypto,ASN1_item_d2i_fp,-1
+[*] /s; sim-cal:1.17921
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-libcrypto,ASN1_item_d2i_fp,-1
+[*] /s; sim-cal:0.835601
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:0.938676
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:0.77113
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:0.91371
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2105
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,EVP_EncodeUpdate,-1
+[*] /s; sim-cal:1.086589
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,EVP_EncodeUpdate,-1
+[*] /s; sim-cal:1.074841
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,EVP_EncodeUpdate,-1
+[*] /s; sim-cal:1.121124
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,EVP_EncodeUpdate,1
+[*] /s; sim-cal:1.146131
+[*] Detection Result:P 0.4627016129032258/0.8076923076923077 9/8,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,EVP_EncodeUpdate,1
+[*] /s; sim-cal:17.122696
+[*] Detection Result:P 0.4627016129032258/0.8076923076923077 9/8,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,EVP_EncodeUpdate,1
+[*] /s; sim-cal:19.231578
+[*] Detection Result:P 0.4627016129032258/0.8076923076923077 9/8,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2106
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,EVP_EncryptUpdate,-1
+[*] /s; sim-cal:1.000944
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,EVP_EncryptUpdate,-1
+[*] /s; sim-cal:1.085945
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,EVP_EncryptUpdate,-1
+[*] /s; sim-cal:1.081196
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,EVP_EncryptUpdate,1
+[*] /s; sim-cal:1.009079
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,EVP_EncryptUpdate,1
+[*] /s; sim-cal:0.944631
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,EVP_EncryptUpdate,1
+[*] /s; sim-cal:0.98346
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2107
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,aesni_cbc_hmac_sha256_cipher,-1
+[*] /s; sim-cal:1.132962
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,aesni_cbc_hmac_sha256_cipher,-1
+target function: aesni_cbc_hmac_sha256_cipher not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,aesni_cbc_hmac_sha256_cipher,-1
+[*] /s; sim-cal:1.192888
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,aesni_cbc_hmac_sha256_cipher,1
+[*] /s; sim-cal:1.097238
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,aesni_cbc_hmac_sha256_cipher,1
+target function: aesni_cbc_hmac_sha256_cipher not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,aesni_cbc_hmac_sha256_cipher,1
+[*] /s; sim-cal:1.176524
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,aesni_cbc_hmac_sha1_cipher,-1
+[*] /s; sim-cal:1.079241
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,aesni_cbc_hmac_sha1_cipher,-1
+[*] /s; sim-cal:1.182482
+[*] Detection Result:V 0.8964283883325272/0.8458923083421455 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,aesni_cbc_hmac_sha1_cipher,-1
+[*] /s; sim-cal:1.367699
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,aesni_cbc_hmac_sha1_cipher,1
+[*] /s; sim-cal:1.299932
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,aesni_cbc_hmac_sha1_cipher,1
+[*] /s; sim-cal:1.096979
+[*] Detection Result:P 0.8392698249055016/0.9022581718766842 5/5,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,aesni_cbc_hmac_sha1_cipher,1
+[*] /s; sim-cal:1.096676
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2108
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zh-o2-openssl,ASN1_TYPE_cmp,-1
+[*] /s; sim-cal:13.229423
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libcrypto,ASN1_TYPE_cmp,-1
+[*] /s; sim-cal:10.85714
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto,ASN1_TYPE_cmp,-1
+[*] /s; sim-cal:0.993442
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ASN1_TYPE_cmp,1
+[*] /s; sim-cal:1.012208
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ASN1_TYPE_cmp,1
+[*] /s; sim-cal:0.923532
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ASN1_TYPE_cmp,1
+[*] /s; sim-cal:1.012006
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zh-o2-openssl,asn1_ex_c2i,-1
+[*] /s; sim-cal:0.893052
+[*] Detection Result:P 0.882693653557246/0.9642857142857143 6/10,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libcrypto,asn1_ex_c2i,-1
+[*] /s; sim-cal:0.849337
+[*] Detection Result:V 0.9691547977931159/0.9377911490683231 6/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto,asn1_ex_c2i,-1
+[*] /s; sim-cal:0.974594
+[*] Detection Result:V 0.9691547977931159/0.9377911490683231 6/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,asn1_ex_c2i,1
+[*] /s; sim-cal:1.025993
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,asn1_ex_c2i,1
+[*] /s; sim-cal:0.887301
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,asn1_ex_c2i,1
+[*] /s; sim-cal:1.205229
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_0_9_8zh-o2-openssl,asn1_ex_i2c,-1
+[*] /s; sim-cal:0.907522
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_0s-o2-libcrypto,asn1_ex_i2c,-1
+[*] /s; sim-cal:0.891978
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2b-o2-libcrypto,asn1_ex_i2c,-1
+[*] /s; sim-cal:1.026108
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,asn1_ex_i2c,1
+[*] /s; sim-cal:0.973485
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,asn1_ex_i2c,1
+[*] /s; sim-cal:0.957962
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,asn1_ex_i2c,1
+[*] /s; sim-cal:1.103155
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2176
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,X509_NAME_oneline,-1
+[*] /s; sim-cal:1.130652
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,X509_NAME_oneline,-1
+[*] /s; sim-cal:1.041509
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2f-o2-openssl,X509_NAME_oneline,-1
+[*] /s; sim-cal:1.098693
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,X509_NAME_oneline,1
+[*] /s; sim-cal:1.126175
+[*] Detection Result:P 0.2847985347985348/0.9880952380952381 4/2,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,X509_NAME_oneline,1
+[*] /s; sim-cal:1.015127
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,X509_NAME_oneline,1
+[*] /s; sim-cal:1.224306
+[*] Detection Result:P 0.2847985347985348/0.9880952380952381 4/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2177
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,tls1_process_ticket,-1
+[*] /s; sim-cal:1.012519
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,tls1_process_ticket,-1
+[*] /s; sim-cal:1.18341
+[*] Detection Result:V 0.7872879510503492/0.24669507400674123 2/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,tls1_process_ticket,-1
+[*] /s; sim-cal:0.976832
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,tls1_process_ticket,1
+[*] /s; sim-cal:1.287766
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,tls1_process_ticket,1
+[*] /s; sim-cal:1.00869
+[*] Detection Result:P 0.2719940183068533/0.7854733677971274 9/2,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,tls1_process_ticket,1
+[*] /s; sim-cal:0.961638
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_scan_clienthello_tlsext,-1
+[*] /s; sim-cal:1.174293
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_scan_clienthello_tlsext,-1
+target function: ssl_scan_clienthello_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_scan_clienthello_tlsext,-1
+[*] /s; sim-cal:1.120979
+[*] Detection Result:V 0.689488706462734/0.17949745850225093 9/13,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_scan_clienthello_tlsext,1
+[*] /s; sim-cal:1.214331
+[*] Detection Result:P 0.17861216973601343/0.7450428548595235 8/4,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_scan_clienthello_tlsext,1
+target function: ssl_scan_clienthello_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_scan_clienthello_tlsext,1
+[*] /s; sim-cal:1.398706
+[*] Detection Result:P 0.17861216973601343/0.7450428548595235 8/4,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_scan_clienthello_custom_tlsext,-1
+[*] /s; sim-cal:1.02155
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_scan_clienthello_custom_tlsext,-1
+target function: ssl_scan_clienthello_custom_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_scan_clienthello_custom_tlsext,-1
+[*] /s; sim-cal:1.056776
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_scan_clienthello_custom_tlsext,1
+[*] /s; sim-cal:1.07376
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_scan_clienthello_custom_tlsext,1
+target function: ssl_scan_clienthello_custom_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_scan_clienthello_custom_tlsext,1
+[*] /s; sim-cal:1.014393
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl3_get_client_hello,-1
+[*] /s; sim-cal:1.181614
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl3_get_client_hello,-1
+[*] /s; sim-cal:1.134528
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl3_get_client_hello,-1
+[*] /s; sim-cal:1.426265
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl3_get_client_hello,1
+[*] /s; sim-cal:1.238779
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl3_get_client_hello,1
+[*] /s; sim-cal:1.117932
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl3_get_client_hello,1
+[*] /s; sim-cal:1.214401
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_get_prev_session,-1
+[*] /s; sim-cal:1.267008
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_get_prev_session,-1
+[*] /s; sim-cal:1.028183
+[*] Detection Result:V 0.9565217391304348/0.08333333333333333 7/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_get_prev_session,-1
+[*] /s; sim-cal:1.212845
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_get_prev_session,1
+[*] /s; sim-cal:1.364033
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_get_prev_session,1
+[*] /s; sim-cal:1.105648
+[*] Detection Result:P 0.08695652173913043/0.9583333333333333 8/7,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_get_prev_session,1
+[*] /s; sim-cal:1.071355
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_check_for_safari,-1
+[*] /s; sim-cal:1.114971
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_check_for_safari,-1
+[*] /s; sim-cal:1.09901
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_check_for_safari,-1
+[*] /s; sim-cal:1.163106
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_check_for_safari,1
+[*] /s; sim-cal:1.071499
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_check_for_safari,1
+[*] /s; sim-cal:0.925961
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_check_for_safari,1
+[*] /s; sim-cal:1.088472
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_scan_serverhello_tlsext,-1
+[*] /s; sim-cal:1.193887
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_scan_serverhello_tlsext,-1
+target function: ssl_scan_serverhello_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2g-o2-openssl,ssl_scan_serverhello_tlsext,-1
+[*] /s; sim-cal:1.080479
+[*] Detection Result:V 0.964280122819462/0.3986396117236591 5/9,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_scan_serverhello_tlsext,1
+[*] /s; sim-cal:1.084818
+[*] Detection Result:P 0.40210076129198763/0.964280122819462 8/4,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_scan_serverhello_tlsext,1
+target function: ssl_scan_serverhello_tlsext not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_scan_serverhello_tlsext,1
+[*] /s; sim-cal:1.128543
+[*] Detection Result:P 0.40210076129198763/0.964280122819462 8/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-6304
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl_parse_clienthello_tlsext,-1
+[*] /s; sim-cal:1.334823
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl_parse_clienthello_tlsext,-1
+[*] /s; sim-cal:1.184912
+[*] Detection Result:V 1.0/0.4301957872738272 4/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,ssl_parse_clienthello_tlsext,-1
+[*] /s; sim-cal:1.145007
+[*] Detection Result:V 1.0/0.4301957872738272 4/8,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl_parse_clienthello_tlsext,1
+[*] /s; sim-cal:1.15935
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl_parse_clienthello_tlsext,1
+[*] /s; sim-cal:1.097978
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl_parse_clienthello_tlsext,1
+[*] /s; sim-cal:1.062141
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-6306
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl3_get_server_certificate,-1
+[*] /s; sim-cal:1.167111
+[*] Detection Result:V 0.8924030023095154/0.8512537131410565 17/17,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl3_get_server_certificate,-1
+[*] /s; sim-cal:1.085155
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,ssl3_get_server_certificate,-1
+[*] /s; sim-cal:0.958761
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl3_get_server_certificate,1
+[*] /s; sim-cal:1.297592
+[*] Detection Result:P 0.8924030023095154/0.8982254195955213 19/18,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl3_get_server_certificate,1
+[*] /s; sim-cal:1.067298
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl3_get_server_certificate,1
+[*] /s; sim-cal:1.313668
+[*] Detection Result:P 0.8924030023095154/0.8982254195955213 19/18,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl3_get_certificate_request,-1
+[*] /s; sim-cal:1.09432
+[*] Detection Result:V 0.861247656836758/0.8104915115206514 24/24,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl3_get_certificate_request,-1
+[*] /s; sim-cal:1.012015
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,ssl3_get_certificate_request,-1
+[*] /s; sim-cal:1.087805
+[*] Detection Result:V 0.9200182446072187/0.4026434663854804 2/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl3_get_certificate_request,1
+[*] /s; sim-cal:1.115236
+[*] Detection Result:V 0.861247656836758/0.8427982748056754 28/27,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl3_get_certificate_request,1
+[*] /s; sim-cal:1.018743
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl3_get_certificate_request,1
+[*] /s; sim-cal:1.170295
+[*] Detection Result:V 0.861247656836758/0.8427982748056754 28/27,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2h-o2-openssl,ssl3_get_client_certificate,-1
+[*] /s; sim-cal:1.166912
+[*] Detection Result:V 0.9623227019884987/0.8931061513922481 13/13,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-openssl,ssl3_get_client_certificate,-1
+[*] /s; sim-cal:1.047946
+[*] Detection Result:V 0.9667869877027844/0.897074405360502 13/13,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1s-o2-openssl,ssl3_get_client_certificate,-1
+[*] /s; sim-cal:1.020069
+[*] Detection Result:V 0.9667869877027844/0.897074405360502 13/13,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,ssl3_get_client_certificate,1
+[*] /s; sim-cal:1.077654
+[*] Detection Result:P 0.9623227019884987/0.9627811469784121 15/14,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-openssl,ssl3_get_client_certificate,1
+[*] /s; sim-cal:0.949555
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2j-o2-openssl,ssl3_get_client_certificate,1
+[*] /s; sim-cal:1.148385
+[*] Detection Result:P 0.9623227019884987/0.9627811469784121 15/14,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-7052
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2i-o2-openssl,get_crl_sk,-1
+[*] /s; sim-cal:1.118479
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL-fips-2_0_13-o2-libcrypto,get_crl_sk,1
+[*] /s; sim-cal:12.127073
+[*] Detection Result:V 0.9904761904761905/0.0 3/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-0737
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0h-o2-libcrypto,rsa_builtin_keygen,-1
+[*] /s; sim-cal:16.179022
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-libcrypto,rsa_builtin_keygen,-1
+[*] /s; sim-cal:14.656369
+[*] Detection Result:V 0.2717766866703037/0.22275707882716644 29/29,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2n-o2-libcrypto,rsa_builtin_keygen,-1
+[*] /s; sim-cal:14.215787
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2p-o2-libcrypto,rsa_builtin_keygen,1
+[*] /s; sim-cal:14.247988
+[*] Detection Result:V 0.2717766866703037/0.22275707882716644 29/29,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0i-o2-libcrypto,rsa_builtin_keygen,1
+[*] /s; sim-cal:15.642705
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1-o2-libcrypto,rsa_builtin_keygen,1
+[*] /s; sim-cal:18.444293
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-0732
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0h-o2-openssl,generate_key,-1
+target function: generate_key not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-openssl,generate_key,-1
+[*] /s; sim-cal:19.948328
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2n-o2-openssl,generate_key,-1
+[*] /s; sim-cal:20.531876
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2p-o2-openssl,generate_key,1
+[*] /s; sim-cal:19.575021
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0i-o2-openssl,generate_key,1
+target function: generate_key not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1-o2-openssl,generate_key,1
+target function: generate_key not found
+------------------------------------------
+[*] Detecting CVE: CVE-2019-1559
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2q-o2-openssl,ssl3_read_bytes,-1
+[*] /s; sim-cal:19.971474
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2p-o2-openssl,ssl3_read_bytes,-1
+[*] /s; sim-cal:1.206816
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-openssl,ssl3_read_bytes,-1
+[*] /s; sim-cal:1.173364
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-openssl,ssl3_read_bytes,1
+[*] /s; sim-cal:19.695988
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-openssl,ssl3_read_bytes,1
+target function: ssl3_read_bytes not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-openssl,ssl3_read_bytes,1
+target function: ssl3_read_bytes not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2q-o2-openssl,ssl3_send_alert,-1
+[*] /s; sim-cal:1.071826
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2p-o2-openssl,ssl3_send_alert,-1
+[*] /s; sim-cal:1.081512
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-openssl,ssl3_send_alert,-1
+[*] /s; sim-cal:1.042553
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-openssl,ssl3_send_alert,1
+[*] /s; sim-cal:1.057317
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-openssl,ssl3_send_alert,1
+target function: ssl3_send_alert not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-openssl,ssl3_send_alert,1
+target function: ssl3_send_alert not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2q-o2-openssl,dtls1_read_bytes,-1
+[*] /s; sim-cal:1.085305
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2p-o2-openssl,dtls1_read_bytes,-1
+[*] /s; sim-cal:1.322775
+[*] Detection Result:V 0.9022661833612163/0.8993667750771925 15/15,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2o-o2-openssl,dtls1_read_bytes,-1
+[*] /s; sim-cal:1.196529
+[*] Detection Result:V 0.9022661833612163/0.8993667750771925 15/15,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:1.232311
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-openssl,dtls1_read_bytes,1
+target function: dtls1_read_bytes not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-openssl,dtls1_read_bytes,1
+target function: dtls1_read_bytes not found
+------------------------------------------
+[*] Detecting CVE: CVE-2019-1543
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1b-o2-libcrypto,chacha20_poly1305_ctrl,-1
+[*] /s; sim-cal:17.405247
+[*] Detection Result:V 0.41392824961977887/0.3930949162864455 10/11,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0j-o2-libcrypto,chacha20_poly1305_ctrl,-1
+[*] /s; sim-cal:16.008571
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1a-o2-libcrypto,chacha20_poly1305_ctrl,-1
+[*] /s; sim-cal:18.140178
+[*] Detection Result:V 0.41392824961977887/0.3930949162864455 10/11,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,chacha20_poly1305_ctrl,1
+target function: chacha20_poly1305_ctrl not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,chacha20_poly1305_ctrl,1
+[*] /s; sim-cal:16.433881
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,chacha20_poly1305_ctrl,1
+[*] /s; sim-cal:18.056958
+[*] Detection Result:P 0.3930949162864455/0.41392824961977887 11/10,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-1547
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,ec_guess_cofactor,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1d-o2-libcrypto,ec_guess_cofactor,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2t-o2-libcrypto,ec_guess_cofactor,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0l-o2-libcrypto,ec_guess_cofactor,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,EC_GROUP_set_generator,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1d-o2-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2t-o2-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0l-o2-libcrypto,EC_GROUP_set_generator,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,EC_METHOD_get_field_type,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1d-o2-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2t-o2-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0l-o2-libcrypto,EC_METHOD_get_field_type,1
+[*] Detection Result:Sig file not found,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-1563
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,pkcs7_decrypt_rinfo,-1
+[*] /s; sim-cal:0.923992
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,pkcs7_decrypt_rinfo,-1
+[*] /s; sim-cal:0.970956
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,pkcs7_decrypt_rinfo,-1
+[*] /s; sim-cal:1.041988
+[*] Detection Result:V 0.8271637177099757/0.4432107641763574 12/13,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2u-o2-libcrypto,pkcs7_decrypt_rinfo,1
+[*] /s; sim-cal:14.319975
+[*] Detection Result:P 0.4587328459779177/0.8862239137665063 17/12,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libcrypto,pkcs7_decrypt_rinfo,1
+[*] /s; sim-cal:18.630194
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libcrypto,pkcs7_decrypt_rinfo,1
+[*] /s; sim-cal:18.7412
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,CMS_decrypt,-1
+[*] /s; sim-cal:0.931497
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,CMS_decrypt,-1
+[*] /s; sim-cal:0.954902
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,CMS_decrypt,-1
+[*] /s; sim-cal:0.907459
+[*] Detection Result:V 1.0/0.3649267399267399 1/1,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2u-o2-libcrypto,CMS_decrypt,1
+[*] /s; sim-cal:0.868323
+[*] Detection Result:P 0.3649267399267399/0.5 4/1,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libcrypto,CMS_decrypt,1
+[*] /s; sim-cal:0.968753
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libcrypto,CMS_decrypt,1
+[*] /s; sim-cal:1.096584
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,-1
+[*] /s; sim-cal:0.920676
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,-1
+[*] /s; sim-cal:0.985523
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,-1
+[*] /s; sim-cal:1.039284
+[*] Detection Result:V 0.8235707526858607/0.5384784115571334 13/14,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2u-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,1
+[*] /s; sim-cal:1.091392
+[*] Detection Result:P 0.6075115935963943/0.8649439692973248 23/14,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,1
+[*] /s; sim-cal:0.927612
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libcrypto,cms_RecipientInfo_ktri_decrypt,1
+[*] /s; sim-cal:0.940781
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,pkcs7_encode_rinfo,-1
+[*] /s; sim-cal:0.872182
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,pkcs7_encode_rinfo,-1
+[*] /s; sim-cal:1.151684
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,pkcs7_encode_rinfo,-1
+[*] /s; sim-cal:0.877415
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2u-o2-libcrypto,pkcs7_encode_rinfo,1
+[*] /s; sim-cal:0.865255
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libcrypto,pkcs7_encode_rinfo,1
+[*] /s; sim-cal:0.972676
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libcrypto,pkcs7_encode_rinfo,1
+[*] /s; sim-cal:0.98774
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_0k-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.138573
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1c-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.171815
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2s-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.056939
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_2u-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.005275
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.274395
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.14964
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-1967
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1f-o2-libssl,tls1_check_sig_alg,-1
+[*] /s; sim-cal:4.615598
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1e-o2-libssl,tls1_check_sig_alg,-1
+[*] /s; sim-cal:4.641434
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1d-o2-libssl,tls1_check_sig_alg,-1
+[*] /s; sim-cal:4.613139
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha2-o2-libssl,tls1_check_sig_alg,1
+[*] /s; sim-cal:4.772362
+[*] Detection Result:P 0.3833584715937657/0.9717836257309941 5/3,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha3-o2-libssl,tls1_check_sig_alg,1
+[*] /s; sim-cal:4.966263
+[*] Detection Result:P 0.3833584715937657/0.9717836257309941 5/3,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha4-o2-libssl,tls1_check_sig_alg,1
+[*] /s; sim-cal:4.643235
+[*] Detection Result:P 0.3833584715937657/0.8665674603174603 5/3,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-23840
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1i-o2-libcrypto,evp_EncryptDecryptUpdate,-1
+[*] /s; sim-cal:18.940895
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1h-o2-libcrypto,evp_EncryptDecryptUpdate,-1
+[*] /s; sim-cal:18.250764
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1g-o2-libcrypto,evp_EncryptDecryptUpdate,-1
+[*] /s; sim-cal:17.781422
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha12-o2-libcrypto,evp_EncryptDecryptUpdate,1
+[*] /s; sim-cal:27.353465
+[*] Detection Result:P 0.4332959524466096/0.7580808080808081 8/6,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha13-o2-libcrypto,evp_EncryptDecryptUpdate,1
+[*] /s; sim-cal:27.787284
+[*] Detection Result:P 0.4332959524466096/0.7580808080808081 8/6,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1k-o2-libcrypto,evp_EncryptDecryptUpdate,1
+[*] /s; sim-cal:17.701666
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1i-o2-libcrypto,EVP_DecryptUpdate,-1
+[*] /s; sim-cal:1.115281
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1h-o2-libcrypto,EVP_DecryptUpdate,-1
+[*] /s; sim-cal:0.989542
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1g-o2-libcrypto,EVP_DecryptUpdate,-1
+[*] /s; sim-cal:1.018731
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha12-o2-libcrypto,EVP_DecryptUpdate,1
+[*] /s; sim-cal:1.277966
+[*] Detection Result:P 0.5386462298804514/0.6240330213431796 28/27,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-alpha13-o2-libcrypto,EVP_DecryptUpdate,1
+[*] /s; sim-cal:1.461555
+[*] Detection Result:P 0.5386462298804514/0.6240330213431796 28/27,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1k-o2-libcrypto,EVP_DecryptUpdate,1
+[*] /s; sim-cal:1.12388
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-4044
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-o2-libssl,tls_post_process_server_certificate,-1
+[*] /s; sim-cal:5.572618
+[*] Detection Result:V 1.0/0.8927738927738927 2/3,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-libssl,tls_post_process_server_certificate,-1
+target function: tls_post_process_server_certificate not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libssl,tls_post_process_server_certificate,-1
+target function: tls_post_process_server_certificate not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1n-o2-libssl,tls_post_process_server_certificate,1
+target function: tls_post_process_server_certificate not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.2-o2-libssl,tls_post_process_server_certificate,1
+[*] /s; sim-cal:5.2517
+[*] Detection Result:V 0.3960573476702509/0.2888888888888889 9/10,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libssl,tls_post_process_server_certificate,1
+[*] /s; sim-cal:5.388381
+[*] Detection Result:V 0.3960573476702509/0.2888888888888889 9/10,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-o2-libssl,ssl_verify_cert_chain,-1
+[*] /s; sim-cal:0.919399
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-libssl,ssl_verify_cert_chain,-1
+[*] /s; sim-cal:0.680885
+[*] Detection Result:V 0.24538404093244998/0.24026497136879565 12/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libssl,ssl_verify_cert_chain,-1
+[*] /s; sim-cal:0.584923
+[*] Detection Result:V 0.24538404093244998/0.24026497136879565 12/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1n-o2-libssl,ssl_verify_cert_chain,1
+[*] /s; sim-cal:0.714373
+[*] Detection Result:V 0.6206144663230695/0.5473280595182912 10/11,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.2-o2-libssl,ssl_verify_cert_chain,1
+[*] /s; sim-cal:0.683967
+[*] Detection Result:P 0.7679188141491564/0.9973404255319149 5/1,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libssl,ssl_verify_cert_chain,1
+[*] /s; sim-cal:0.91025
+[*] Detection Result:P 0.7679188141491564/0.9973404255319149 5/1,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-o2-libssl,ssl_cert_set_cert_cb,-1
+[*] /s; sim-cal:0.680664
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1u-o2-libssl,ssl_cert_set_cert_cb,-1
+target function: ssl_cert_set_cert_cb not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_0_1t-o2-libssl,ssl_cert_set_cert_cb,-1
+target function: ssl_cert_set_cert_cb not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1n-o2-libssl,ssl_cert_set_cert_cb,1
+[*] /s; sim-cal:0.664404
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.2-o2-libssl,ssl_cert_set_cert_cb,1
+[*] /s; sim-cal:0.666561
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libssl,ssl_cert_set_cert_cb,1
+[*] /s; sim-cal:0.725827
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-1473
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.2-o2-libcrypto,OPENSSL_LH_flush,-1
+[*] /s; sim-cal:28.618038
+[*] Detection Result:V 1.0/0.4444444444444444 1/2,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.1-o2-libcrypto,OPENSSL_LH_flush,-1
+[*] /s; sim-cal:28.900717
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-o2-libcrypto,OPENSSL_LH_flush,-1
+[*] /s; sim-cal:29.585459
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libcrypto,OPENSSL_LH_flush,1
+[*] /s; sim-cal:29.15857
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1o-o2-libcrypto,OPENSSL_LH_flush,1
+target function: OPENSSL_LH_flush not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,OPENSSL_LH_flush,1
+[*] /s; sim-cal:28.978103
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-1343
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.2-o2-libcrypto,ocsp_verify_signer,-1
+[*] /s; sim-cal:1.217748
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.1-o2-libcrypto,ocsp_verify_signer,-1
+[*] /s; sim-cal:1.424464
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.0-o2-libcrypto,ocsp_verify_signer,-1
+[*] /s; sim-cal:1.296912
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,ocsp_verify_signer,1
+[*] /s; sim-cal:1.41056
+[*] Detection Result:P 0.32558139534883723/1.0 2/1,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1p-o2-libcrypto,ocsp_verify_signer,1
+target function: ocsp_verify_signer not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ocsp_verify_signer,1
+[*] /s; sim-cal:29.070519
+[*] Detection Result:P 0.32558139534883723/1.0 2/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-2274
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,ossl_rsaz_mod_exp_avx512_x2,-1
+[*] /s; sim-cal:1.410143
+[*] Detection Result:V 0.7282054579893833/0.7145254074784276 4/4,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_rsaz_mod_exp_avx512_x2,1
+[*] /s; sim-cal:1.370799
+[*] Detection Result:P 0.71837805238843/0.7318734211783983 4/4,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1q-o2-libcrypto,ossl_rsaz_mod_exp_avx512_x2,1
+target function: ossl_rsaz_mod_exp_avx512_x2 not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1r-o2-libcrypto,ossl_rsaz_mod_exp_avx512_x2,1
+target function: ossl_rsaz_mod_exp_avx512_x2 not found
+------------------------------------------
+[*] Detecting CVE: CVE-2022-3358
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,evp_md_init_internal,-1
+[*] /s; sim-cal:1.416659
+[*] Detection Result:V 0.9655717724144447/0.6447644743817362 10/12,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,evp_md_init_internal,-1
+[*] /s; sim-cal:1.88438
+[*] Detection Result:V 0.9655717724144447/0.6447644743817362 10/12,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libcrypto,evp_md_init_internal,-1
+[*] /s; sim-cal:1.583337
+[*] Detection Result:V 0.9655717724144447/0.6447644743817362 10/12,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1r-o2-libcrypto,evp_md_init_internal,1
+target function: evp_md_init_internal not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,evp_md_init_internal,1
+[*] /s; sim-cal:29.078609
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,evp_md_init_internal,1
+[*] /s; sim-cal:29.6134
+[*] Detection Result:P 0.8018593619641442/0.9782558562617546 16/10,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:1.637976
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:1.399689
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.3-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:1.69143
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1r-o2-libcrypto,evp_cipher_init_internal,1
+target function: evp_cipher_init_internal not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:1.645769
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:1.565007
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-3602
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:1.298997
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:1.405005
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:1.418369
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:30.49611
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-beta1-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:30.128226
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:28.591617
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-3786
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:0.013887
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:0.009289
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,ossl_punycode_decode,-1
+[*] /s; sim-cal:0.00553
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:0.005019
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-beta1-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:0.005016
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ossl_punycode_decode,1
+[*] /s; sim-cal:0.005045
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,ossl_a2ulabel,-1
+[*] /s; sim-cal:1.394542
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_a2ulabel,-1
+[*] /s; sim-cal:1.400538
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.4-o2-libcrypto,ossl_a2ulabel,-1
+[*] /s; sim-cal:1.28731
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-alpha1-o2-libcrypto,ossl_a2ulabel,1
+[*] /s; sim-cal:1.324017
+[*] Detection Result:P 0.44204098753868404/0.48648648648648646 12/10,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-beta1-o2-libcrypto,ossl_a2ulabel,1
+[*] /s; sim-cal:1.278992
+[*] Detection Result:P 0.44204098753868404/0.48648648648648646 12/10,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ossl_a2ulabel,1
+[*] /s; sim-cal:1.684461
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-3996
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,ossl_policy_cache_set_mapping,-1
+[*] /s; sim-cal:1.337962
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,ossl_policy_cache_set_mapping,-1
+[*] /s; sim-cal:1.387743
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_policy_cache_set_mapping,-1
+[*] /s; sim-cal:1.342765
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-beta1-o2-libcrypto,ossl_policy_cache_set_mapping,1
+[*] /s; sim-cal:1.356634
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ossl_policy_cache_set_mapping,1
+[*] /s; sim-cal:1.420651
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,ossl_policy_cache_set_mapping,1
+target function: ossl_policy_cache_set_mapping not found
+------------------------------------------
+[*] Detecting CVE: CVE-2022-4203
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,nc_match,-1
+[*] /s; sim-cal:2.079517
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,nc_match,-1
+[*] /s; sim-cal:1.301336
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,nc_match,-1
+[*] /s; sim-cal:1.425124
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,nc_match,1
+[*] /s; sim-cal:1.335741
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,nc_match,1
+[*] /s; sim-cal:1.08982
+[*] Detection Result:V 0.613044363044363/0.3376300470451057 9/11,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,nc_match,1
+[*] /s; sim-cal:30.23951
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,do_i2r_name_constraints,-1
+[*] /s; sim-cal:1.222042
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,do_i2r_name_constraints,-1
+[*] /s; sim-cal:1.270709
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,do_i2r_name_constraints,-1
+[*] /s; sim-cal:1.258894
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,do_i2r_name_constraints,1
+[*] /s; sim-cal:1.559845
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,do_i2r_name_constraints,1
+[*] /s; sim-cal:1.184507
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,do_i2r_name_constraints,1
+[*] /s; sim-cal:1.406713
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-0215
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1s-o2-libcrypto,ndef_suffix,-1
+[*] /s; sim-cal:17.835852
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,ndef_suffix,-1
+[*] /s; sim-cal:1.303366
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1r-o2-libcrypto,ndef_suffix,-1
+[*] /s; sim-cal:0.995323
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ndef_suffix,1
+[*] /s; sim-cal:1.363262
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,ndef_suffix,1
+[*] /s; sim-cal:1.025645
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,ndef_suffix,1
+[*] /s; sim-cal:1.38902
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1s-o2-libcrypto,BIO_new_NDEF,-1
+[*] /s; sim-cal:1.028638
+[*] Detection Result:V 0.8563454717924605/0.41855261440708713 3/6,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,BIO_new_NDEF,-1
+[*] /s; sim-cal:1.423765
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1r-o2-libcrypto,BIO_new_NDEF,-1
+[*] /s; sim-cal:1.044451
+[*] Detection Result:V 0.8563454717924605/0.41855261440708713 3/6,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,BIO_new_NDEF,1
+[*] /s; sim-cal:1.327789
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,BIO_new_NDEF,1
+[*] /s; sim-cal:1.007362
+[*] Detection Result:P 0.1965270817289809/0.9167552877230296 10/1,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,BIO_new_NDEF,1
+[*] /s; sim-cal:1.428262
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-0216
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,ossl_pkcs7_resolve_libctx,-1
+[*] /s; sim-cal:1.484085
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,ossl_pkcs7_resolve_libctx,-1
+[*] /s; sim-cal:1.406349
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,ossl_pkcs7_resolve_libctx,-1
+[*] /s; sim-cal:1.472398
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,ossl_pkcs7_resolve_libctx,1
+[*] /s; sim-cal:1.314744
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,ossl_pkcs7_resolve_libctx,1
+target function: ossl_pkcs7_resolve_libctx not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,ossl_pkcs7_resolve_libctx,1
+[*] /s; sim-cal:1.375856
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,pkcs7_get_signer_certs,-1
+[*] /s; sim-cal:1.261929
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,pkcs7_get_signer_certs,-1
+[*] /s; sim-cal:1.453321
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,pkcs7_get_signer_certs,-1
+[*] /s; sim-cal:1.468206
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,pkcs7_get_signer_certs,1
+[*] /s; sim-cal:1.486927
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,pkcs7_get_signer_certs,1
+target function: pkcs7_get_signer_certs not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,pkcs7_get_signer_certs,1
+[*] /s; sim-cal:1.408294
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,PKCS7_add_signature,-1
+[*] /s; sim-cal:1.430199
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,PKCS7_add_signature,-1
+[*] /s; sim-cal:1.364221
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,PKCS7_add_signature,-1
+[*] /s; sim-cal:1.552637
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,PKCS7_add_signature,1
+[*] /s; sim-cal:1.431652
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,PKCS7_add_signature,1
+[*] /s; sim-cal:0.977353
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,PKCS7_add_signature,1
+[*] /s; sim-cal:1.371912
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-0401
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.478114
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.75424
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,PKCS7_dataDecode,-1
+[*] /s; sim-cal:1.730609
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.484943
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.212852
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,PKCS7_dataDecode,1
+[*] /s; sim-cal:1.541315
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.7-o2-libcrypto,pkcs7_bio_add_digest,-1
+[*] /s; sim-cal:1.597322
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.6-o2-libcrypto,pkcs7_bio_add_digest,-1
+[*] /s; sim-cal:1.483868
+[*] Detection Result:V 0.9880952380952381/0.4197134387351779 3/4,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.5-o2-libcrypto,pkcs7_bio_add_digest,-1
+[*] /s; sim-cal:1.417059
+[*] Detection Result:V 0.9880952380952381/0.4197134387351779 3/4,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-libcrypto,pkcs7_bio_add_digest,1
+[*] /s; sim-cal:1.441674
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-libcrypto,pkcs7_bio_add_digest,1
+target function: pkcs7_bio_add_digest not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,pkcs7_bio_add_digest,1
+[*] /s; sim-cal:1.530952
+[*] Detection Result:P 0.35714285714285715/0.9640151515151515 6/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-2650
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-openssl,OBJ_obj2txt,-1
+[*] /s; sim-cal:6.500513
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.8-o2-openssl,OBJ_obj2txt,-1
+[*] /s; sim-cal:6.320498
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1t-o2-openssl,OBJ_obj2txt,-1
+target function: OBJ_obj2txt not found
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1u-o2-openssl,OBJ_obj2txt,1
+target function: OBJ_obj2txt not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.9-o2-openssl,OBJ_obj2txt,1
+[*] /s; sim-cal:6.470783
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.1-o2-openssl,OBJ_obj2txt,1
+[*] /s; sim-cal:6.866295
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-2975
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.1-o2-libcrypto,siv_cipher,-1
+[*] /s; sim-cal:29.61368
+[*] Detection Result:V 0.9761904761904762/0.753922930493389 1/2,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.9-o2-libcrypto,siv_cipher,-1
+[*] /s; sim-cal:29.127913
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.0-o2-libcrypto,siv_cipher,-1
+[*] /s; sim-cal:1.419532
+[*] Detection Result:V 0.9761904761904762/0.753922930493389 1/2,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.10-o2-libcrypto,siv_cipher,1
+[*] /s; sim-cal:28.640212
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-OpenSSL_1_1_1v-o2-libcrypto,siv_cipher,1
+target function: siv_cipher not found
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.2-o2-libcrypto,siv_cipher,1
+[*] /s; sim-cal:30.053356
+[*] Detection Result:P 0.5714285714285714/0.9947368421052631 5/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-5363
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.3-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:31.752698
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.11-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:29.207684
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.10-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:1.397375
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-beta1-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:32.157415
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:32.089858
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:30.455651
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.3-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:0.036281
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.11-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:0.030344
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.10-o2-libcrypto,evp_cipher_init_internal,-1
+[*] /s; sim-cal:0.022558
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-beta1-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:0.025829
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:0.055709
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,evp_cipher_init_internal,1
+[*] /s; sim-cal:0.025577
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-5678
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,DH_check_pub_key_ex,-1
+[*] /s; sim-cal:29.274956
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,DH_check_pub_key_ex,-1
+[*] /s; sim-cal:31.140817
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.3-o2-libcrypto,DH_check_pub_key_ex,-1
+[*] /s; sim-cal:1.351807
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,DH_check_pub_key_ex,1
+[*] /s; sim-cal:1.479841
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,DH_check_pub_key_ex,1
+[*] /s; sim-cal:30.216088
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,DH_check_pub_key_ex,1
+[*] /s; sim-cal:31.730092
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,generate_key,-1
+[*] /s; sim-cal:1.49765
+[*] Detection Result:V 0.8336192810457516/0.7822667855020797 3/3,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,generate_key,-1
+[*] /s; sim-cal:1.329256
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.3-o2-libcrypto,generate_key,-1
+[*] /s; sim-cal:1.335772
+[*] Detection Result:V 0.8336192810457516/0.8073370964547436 3/3,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,generate_key,1
+[*] /s; sim-cal:1.403333
+[*] Detection Result:P 0.7623774509803921/0.8572667855020796 6/4,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,generate_key,1
+[*] /s; sim-cal:1.571637
+[*] Detection Result:P 0.7623774509803921/0.8823370964547436 6/4,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,generate_key,1
+[*] /s; sim-cal:1.560647
+[*] Detection Result:P 0.7623774509803921/0.8572667855020796 6/4,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,ossl_dh_compute_key,-1
+[*] /s; sim-cal:1.465227
+[*] Detection Result:V 0.9762263585691466/0.9026272519969489 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,ossl_dh_compute_key,-1
+[*] /s; sim-cal:1.410264
+[*] Detection Result:V 0.9762263585691466/0.9026272519969489 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.3-o2-libcrypto,ossl_dh_compute_key,-1
+[*] /s; sim-cal:1.509661
+[*] Detection Result:V 0.9762263585691466/0.9026272519969489 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,ossl_dh_compute_key,1
+[*] /s; sim-cal:1.355403
+[*] Detection Result:P 0.9524527171382932/0.9795715898876673 8/6,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,ossl_dh_compute_key,1
+[*] /s; sim-cal:1.372169
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,ossl_dh_compute_key,1
+[*] /s; sim-cal:1.402421
+[*] Detection Result:P 0.9524527171382932/0.9795715898876673 8/6,1
+------------------------------------------
+[*] Detecting CVE: CVE-2024-0727
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,newpass_p12,-1
+[*] /s; sim-cal:1.412636
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,newpass_p12,-1
+[*] /s; sim-cal:1.403648
+[*] Detection Result:V 0.8333333333333334/0.6595238095238095 4/4,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,newpass_p12,-1
+[*] /s; sim-cal:1.439045
+[*] Detection Result:V 0.8333333333333334/0.6595238095238095 4/4,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,newpass_p12,1
+[*] /s; sim-cal:1.362501
+[*] Detection Result:P 0.08333333333333333/0.751984126984127 5/4,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,newpass_p12,1
+[*] /s; sim-cal:1.333928
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,newpass_p12,1
+[*] /s; sim-cal:1.668749
+[*] Detection Result:P 0.08333333333333333/0.751984126984127 5/4,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,SMIME_write_PKCS7,-1
+[*] /s; sim-cal:1.460156
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,SMIME_write_PKCS7,-1
+[*] /s; sim-cal:1.295519
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,SMIME_write_PKCS7,-1
+[*] /s; sim-cal:1.409579
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,SMIME_write_PKCS7,1
+[*] /s; sim-cal:1.553515
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,SMIME_write_PKCS7,1
+[*] /s; sim-cal:1.620156
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,SMIME_write_PKCS7,1
+[*] /s; sim-cal:1.42322
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,pkcs12_gen_mac,-1
+[*] /s; sim-cal:1.442418
+[*] Detection Result:V 0.971305144131231/0.9127307175841048 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,pkcs12_gen_mac,-1
+[*] /s; sim-cal:1.373568
+[*] Detection Result:V 0.971305144131231/0.9127307175841048 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,pkcs12_gen_mac,-1
+[*] /s; sim-cal:1.358398
+[*] Detection Result:V 0.9426102882624623/0.8898971099678886 5/5,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,pkcs12_gen_mac,1
+[*] /s; sim-cal:1.402187
+[*] Detection Result:P 0.9139154323936933/0.9543327847675673 7/6,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,pkcs12_gen_mac,1
+[*] /s; sim-cal:1.35064
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,pkcs12_gen_mac,1
+[*] /s; sim-cal:1.402938
+[*] Detection Result:P 0.9139154323936933/0.9543327847675673 7/6,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,PKCS12_unpack_p7encdata,-1
+[*] /s; sim-cal:1.374729
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,PKCS12_unpack_p7encdata,-1
+[*] /s; sim-cal:1.428294
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,PKCS12_unpack_p7encdata,-1
+[*] /s; sim-cal:1.348084
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,PKCS12_unpack_p7encdata,1
+[*] /s; sim-cal:1.486748
+[*] Detection Result:P 0.5459183673469388/0.975 2/1,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,PKCS12_unpack_p7encdata,1
+[*] /s; sim-cal:1.461476
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,PKCS12_unpack_p7encdata,1
+[*] /s; sim-cal:1.513696
+[*] Detection Result:P 0.5459183673469388/0.975 2/1,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.0-o2-libcrypto,PKCS12_unpack_authsafes,-1
+[*] /s; sim-cal:1.342551
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.12-o2-libcrypto,PKCS12_unpack_authsafes,-1
+[*] /s; sim-cal:1.571826
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.4-o2-libcrypto,PKCS12_unpack_authsafes,-1
+[*] /s; sim-cal:1.343856
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.1.5-o2-libcrypto,PKCS12_unpack_authsafes,1
+[*] /s; sim-cal:1.472163
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.2.1-o2-libcrypto,PKCS12_unpack_authsafes,1
+[*] /s; sim-cal:1.579495
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openssl/openssl-openssl-3.0.13-o2-libcrypto,PKCS12_unpack_authsafes,1
+[*] /s; sim-cal:1.506337
+[*] Detection Result:C can't tell,1

@@ -1,0 +1,20 @@
+--- tags.before	2025-09-04 17:34:27.168252326 +0800
++++ tags.after	2025-09-04 17:34:34.307193895 +0800
+@@ -6939,0 +6940,7 @@
++bs_addr0	addrtoname.c	/^	u_short bs_addr0;$/;"	m	struct:bsnamemem	typeref:typename:u_short	file:
++bs_addr1	addrtoname.c	/^	u_short bs_addr1;$/;"	m	struct:bsnamemem	typeref:typename:u_short	file:
++bs_addr2	addrtoname.c	/^	u_short bs_addr2;$/;"	m	struct:bsnamemem	typeref:typename:u_short	file:
++bs_bytes	addrtoname.c	/^	u_char *bs_bytes;$/;"	m	struct:bsnamemem	typeref:typename:u_char *	file:
++bs_name	addrtoname.c	/^	const char *bs_name;$/;"	m	struct:bsnamemem	typeref:typename:const char *	file:
++bs_nbytes	addrtoname.c	/^	unsigned int bs_nbytes;$/;"	m	struct:bsnamemem	typeref:typename:unsigned int	file:
++bs_nxt	addrtoname.c	/^	struct bsnamemem *bs_nxt;$/;"	m	struct:bsnamemem	typeref:struct:bsnamemem *	file:
+@@ -6944,0 +6952 @@
++bsnamemem	addrtoname.c	/^struct bsnamemem {$/;"	s	file:
+@@ -6958 +6966 @@
+-bytestringtable	addrtoname.c	/^static struct enamemem bytestringtable[HASHNAMESIZE];$/;"	v	typeref:struct:enamemem[]	file:
++bytestringtable	addrtoname.c	/^static struct bsnamemem bytestringtable[HASHNAMESIZE];$/;"	v	typeref:struct:bsnamemem[]	file:
+@@ -7524,0 +7533 @@
++e_namelen	addrtoname.c	/^	size_t e_namelen;		\/* for bytestringtable *\/$/;"	m	struct:enamemem	typeref:typename:size_t	file:
+@@ -9026 +9035 @@
+-lookup_bytestring	addrtoname.c	/^lookup_bytestring(netdissect_options *ndo, register const u_char *bs,$/;"	f	typeref:struct:enamemem *	file:
++lookup_bytestring	addrtoname.c	/^lookup_bytestring(netdissect_options *ndo, register const u_char *bs,$/;"	f	typeref:struct:bsnamemem *	file:

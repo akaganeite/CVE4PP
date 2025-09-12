@@ -1,0 +1,185 @@
+=========2025-08-18 18:10:56.065185============
+Detect evo Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0206
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-9e9858d1cf28-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:18.914728
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-9e9858d1cf28-openssl,dtls1_buffer_record,1
+[*] /s; sim-cal:0.961776
+[*] Detection Result:P 0.8218401316992866/0.9873009929953255 8/3,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-9e9858d1cf28-openssl,dtls1_process_buffered_records,1
+[*] /s; sim-cal:1.165244
+[*] Detection Result:P,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-9e9858d1cf28-openssl,dtls1_get_record,1
+[*] /s; sim-cal:1.072844
+[*] Detection Result:P,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-17dd65e6e1f8-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:18.519169
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-17dd65e6e1f8-openssl,dtls1_buffer_record,1
+[*] /s; sim-cal:0.950998
+[*] Detection Result:P 0.8218401316992866/0.9873009929953255 8/3,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-17dd65e6e1f8-openssl,dtls1_process_buffered_records,1
+[*] /s; sim-cal:0.957014
+[*] Detection Result:P,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-17dd65e6e1f8-openssl,dtls1_get_record,1
+[*] /s; sim-cal:1.051288
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1790-8d9fec178175-openssl,PKCS7_dataDecode,1
+target function: PKCS7_dataDecode not found
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0206
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-c103c7e26614-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:18.541885
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-c103c7e26614-openssl,dtls1_buffer_record,1
+[*] /s; sim-cal:0.973038
+[*] Detection Result:P 0.7359307359307359/0.9111069509672787 9/5,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-c103c7e26614-openssl,dtls1_process_buffered_records,1
+[*] /s; sim-cal:0.971552
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-c103c7e26614-openssl,dtls1_get_record,1
+[*] /s; sim-cal:0.968255
+[*] Detection Result:P 0.4006207827260459/0.9124010306463722 8/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0205
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0205-124037fdc057-openssl,ssl3_get_cert_verify,1
+[*] /s; sim-cal:18.209128
+[*] Detection Result:P 0.0784313725490196/0.17011304108078304 17/17,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0205-cf9b0b6fb253-openssl,ssl3_get_cert_verify,1
+[*] /s; sim-cal:18.013768
+[*] Detection Result:P 0.1627906976744186/0.4536558788275035 17/17,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2109
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-3e73111d133d-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:28.486838
+[*] Detection Result:P 0.5322912394390211/0.6156585418676392 28/22,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-3e73111d133d-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:1.290291
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2106
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2106-30af356df487-openssl,EVP_EncryptUpdate,1
+[*] /s; sim-cal:5.971947
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0205
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0205-ade44dcb1614-openssl,ssl3_get_cert_verify,1
+[*] /s; sim-cal:17.770156
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2106
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2106-1832bb0f02e5-openssl,EVP_EncryptUpdate,1
+[*] /s; sim-cal:6.689611
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2014-3572-75ebbd9aa411-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:17.573257
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1788
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1788-5cbd2ea3f94a-openssl,BN_GF2m_mod_inv,1
+target function: BN_GF2m_mod_inv not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2109
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-9311d0c471ca-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:26.648203
+[*] Detection Result:P 0.5137921358177489/0.6528114596816269 22/15,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-9311d0c471ca-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:1.415373
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1789
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1789-5811387bac39-openssl,X509_cmp_time,1
+[*] /s; sim-cal:6.172269
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1790-038f4dc68edd-openssl,PKCS7_dataDecode,1
+target function: PKCS7_dataDecode not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2109
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-e077455e9e57-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:31.368472
+[*] Detection Result:P 0.5164608772802051/0.6000717509066483 31/25,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-e077455e9e57-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:1.215986
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0205
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0205-25aaa98aa249-openssl,ssl3_get_cert_verify,1
+[*] /s; sim-cal:17.870389
+[*] Detection Result:P 0.5264550264550264/0.6413255360623782 16/16,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-0206
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-258f8721a5d2-openssl,dtls1_read_bytes,1
+[*] /s; sim-cal:18.369383
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-258f8721a5d2-openssl,dtls1_buffer_record,1
+[*] /s; sim-cal:0.975452
+[*] Detection Result:P 0.7406255716114871/0.9111069509672787 9/5,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-258f8721a5d2-openssl,dtls1_process_buffered_records,1
+[*] /s; sim-cal:0.954452
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-0206-258f8721a5d2-openssl,dtls1_get_record,1
+[*] /s; sim-cal:1.068012
+[*] Detection Result:P 0.4006207827260459/0.9135410566445048 8/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-2109
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-afecd85db135-libcrypto,asn1_d2i_read_bio,1
+[*] /s; sim-cal:29.739432
+[*] Detection Result:P 0.5164608772802051/0.6000717509066483 31/25,1
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2016-2109-afecd85db135-libcrypto,ASN1_item_d2i_fp,1
+[*] /s; sim-cal:1.330119
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1791
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1791-8ad369171fc2-openssl,ssl3_get_new_session_ticket,1
+target function: ssl3_get_new_session_ticket not found
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1791-8ad369171fc2-openssl,SSL_SESSION_new,1
+[*] /s; sim-cal:0.807371
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1790-9311d0c471ca-openssl,PKCS7_dataDecode,1
+target function: PKCS7_dataDecode not found
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1789
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1789-fecb3aae22ae-openssl,X509_cmp_time,1
+[*] /s; sim-cal:6.34696
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2014-3572-61e72d761c94-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:18.196237
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1789
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1789-cccf532fef10-openssl,X509_cmp_time,1
+[*] /s; sim-cal:6.234351
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2014-3572-0f113f3ee4d6-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:18.959033
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1791
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1791-3c95ef22df55-openssl,ssl3_get_new_session_ticket,1
+target function: ssl3_get_new_session_ticket not found
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1791-3c95ef22df55-openssl,SSL_SESSION_new,1
+[*] /s; sim-cal:0.708691
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-1790
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2015-1790-681618cfc18b-openssl,PKCS7_dataDecode,1
+target function: PKCS7_dataDecode not found
+------------------------------------------
+[*] Detecting CVE: CVE-2014-3572
+[*] Detection for /binaries/PatchEvolution/openssl/CVE-2014-3572-7689082b7199-openssl,ssl3_get_key_exchange,1
+[*] /s; sim-cal:18.386582
+[*] Detection Result:NA too much diff,1

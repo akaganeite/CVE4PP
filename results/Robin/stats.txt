@@ -26,9 +26,17 @@ openjpeg :
     ability: 21.65%   21 / 97
     accuracy: 100.00%
 
+openssl :
+    ability: 23.04%   150 / 651
+    accuracy: 81.97%
+
 sqlite :
     ability: 27.19%   62 / 228
     accuracy: 87.32%
+
+tcpdump :
+    ability: 8.60%   97 / 1128
+    accuracy: 84.35%
 -------------------------------------------------
 binutils-cve：
     71/405 = 17.53%
@@ -58,6 +66,14 @@ openjpeg-cve:
     9/52=17.31%
     9/22=40.91%
 
+openssl-cve:
+    36/305=11.80%
+    36/149=24.16%
+
 sqlite-cve:
     16/134=11.94%
     16/44=36.36%
+
+tcpdump-cve:
+    65/618=10.52%
+    65/120=54.17%

@@ -55,7 +55,7 @@ def load_rawdata_json(project_name):
     """
     加载对应项目的rawdata JSON文件
     """
-    rawdata_path = f"rawdata/{project_name}_raw.json"
+    rawdata_path = f"../../rawdata/{project_name}_raw.json"
     try:
         with open(rawdata_path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -67,7 +67,7 @@ def collect_cve_cwe_mapping():
     """
     收集CVE到CWE的映射关系
     """
-    testset_dir = "testset"
+    testset_dir = "../../testset"
     cwe_to_cve_mapping = defaultdict(list)
     
     if not os.path.exists(testset_dir):

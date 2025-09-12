@@ -1,0 +1,260 @@
+============================================
+Patch Detection Log
+Time: 2025-09-02 11:39:20
+============================================
+2025-09-02 11:39:20,939 - INFO - detecting CVE-2016-10065 ImportGrayQuantum
+2025-09-02 11:39:20,939 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10065 --target_bin /binaries/target/imagemagick/imagemagick-7.0.1-1-o1-magickcore --vul_func_name ImportGrayQuantum
+2025-09-02 11:39:26,289 - INFO - success CVE-2016-10065,details in cve_test/CVE-2016-10065.log
+
+2025-09-02 11:39:26,290 - INFO - detecting CVE-2016-10065 ImportGrayQuantum
+2025-09-02 11:39:26,290 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10065 --target_bin /binaries/target/imagemagick/imagemagick-7.0.1-2-o1-magickcore --vul_func_name ImportGrayQuantum
+2025-09-02 11:39:31,664 - INFO - success CVE-2016-10065,details in cve_test/CVE-2016-10065.log
+
+2025-09-02 11:39:31,664 - INFO - detecting CVE-2016-10065 ImportGrayQuantum
+2025-09-02 11:39:31,664 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10065 --target_bin /binaries/target/imagemagick/imagemagick-7.0.1-3-o1-magickcore --vul_func_name ImportGrayQuantum
+2025-09-02 11:39:37,088 - INFO - success CVE-2016-10065,details in cve_test/CVE-2016-10065.log
+
+2025-09-02 11:39:37,089 - INFO - detecting CVE-2017-14174 ReadPSDLayersInternal
+2025-09-02 11:39:37,089 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14174 --target_bin /binaries/target/imagemagick/imagemagick-7.0.7-0-o1-magickcore --vul_func_name ReadPSDLayersInternal
+2025-09-02 11:39:44,415 - INFO - success CVE-2017-14174,details in cve_test/CVE-2017-14174.log
+
+2025-09-02 11:39:44,416 - INFO - detecting CVE-2017-14174 ReadPSDLayersInternal
+2025-09-02 11:39:44,417 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14174 --target_bin /binaries/target/imagemagick/imagemagick-7.0.7-1-o1-magickcore --vul_func_name ReadPSDLayersInternal
+2025-09-02 11:39:52,428 - INFO - success CVE-2017-14174,details in cve_test/CVE-2017-14174.log
+
+2025-09-02 11:39:52,429 - INFO - detecting CVE-2017-14174 ReadPSDLayersInternal
+2025-09-02 11:39:52,430 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14174 --target_bin /binaries/target/imagemagick/imagemagick-7.0.7-2-o1-magickcore --vul_func_name ReadPSDLayersInternal
+2025-09-02 11:40:01,303 - INFO - success CVE-2017-14174,details in cve_test/CVE-2017-14174.log
+
+2025-09-02 11:40:01,304 - INFO - detecting CVE-2017-14174 ReadPSDLayersInternal
+2025-09-02 11:40:01,304 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14174 --target_bin /binaries/target/imagemagick/imagemagick-7.0.7-3-o1-magickcore --vul_func_name ReadPSDLayersInternal
+2025-09-02 11:40:09,779 - INFO - success CVE-2017-14174,details in cve_test/CVE-2017-14174.log
+
+2025-09-02 11:40:09,781 - INFO - detecting CVE-2019-10649 SVGEndElement
+2025-09-02 11:40:09,781 - INFO - cmd: python main.py --detect --cve_id CVE-2019-10649 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-36-o1-magickcore --vul_func_name SVGEndElement
+2025-09-02 11:40:19,032 - INFO - success CVE-2019-10649,details in cve_test/CVE-2019-10649.log
+
+2025-09-02 11:40:19,033 - INFO - detecting CVE-2019-10649 SVGEndElement
+2025-09-02 11:40:19,033 - INFO - cmd: python main.py --detect --cve_id CVE-2019-10649 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-37-o1-magickcore --vul_func_name SVGEndElement
+2025-09-02 11:40:28,988 - INFO - success CVE-2019-10649,details in cve_test/CVE-2019-10649.log
+
+2025-09-02 11:40:28,990 - INFO - detecting CVE-2019-10649 SVGEndElement
+2025-09-02 11:40:28,990 - INFO - cmd: python main.py --detect --cve_id CVE-2019-10649 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-38-o1-magickcore --vul_func_name SVGEndElement
+2025-09-02 11:40:40,009 - INFO - success CVE-2019-10649,details in cve_test/CVE-2019-10649.log
+
+2025-09-02 11:40:40,010 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:40:40,011 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-42-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:40:45,081 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:40:45,082 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:40:45,083 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-41-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:40:50,130 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:40:50,131 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:40:50,132 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-40-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:40:55,067 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:40:55,068 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:40:55,069 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-43-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:41:00,120 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:41:00,121 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:41:00,121 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-44-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:41:05,084 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:41:05,085 - INFO - detecting CVE-2019-19949 Magick_png_write_raw_profile
+2025-09-02 11:41:05,086 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19949 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-45-o1-magickcore --vul_func_name Magick_png_write_raw_profile
+2025-09-02 11:41:09,995 - ERROR - fail CVE-2019-19949 ,details1
+
+2025-09-02 11:41:09,996 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:09,997 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-68-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:16,562 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:16,563 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:16,563 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-67-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:23,068 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:23,069 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:23,069 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-66-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:29,653 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:29,654 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:29,655 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-0-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:36,289 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:36,290 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:36,291 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-1-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:43,172 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:43,173 - INFO - detecting CVE-2020-27774 ApplyEvaluateOperator
+2025-09-02 11:41:43,174 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27774 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-2-o1-magickcore --vul_func_name ApplyEvaluateOperator
+2025-09-02 11:41:49,773 - INFO - success CVE-2020-27774,details in cve_test/CVE-2020-27774.log
+
+2025-09-02 11:41:49,774 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:41:49,775 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-68-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:41:54,718 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:41:54,719 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:41:54,719 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-67-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:41:59,670 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:41:59,671 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:41:59,672 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-66-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:42:04,594 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:42:04,595 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:42:04,596 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-0-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:42:09,483 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:42:09,484 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:42:09,485 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-1-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:42:14,489 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:42:14,490 - INFO - detecting CVE-2020-25667 TIFFGetProfiles
+2025-09-02 11:42:14,490 - INFO - cmd: python main.py --detect --cve_id CVE-2020-25667 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-2-o1-magickcore --vul_func_name TIFFGetProfiles
+2025-09-02 11:42:19,439 - ERROR - fail CVE-2020-25667 ,details1
+
+2025-09-02 11:42:19,440 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:42:19,440 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-68-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:42:30,577 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:42:30,578 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:42:30,578 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-67-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:42:39,599 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:42:39,600 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:42:39,600 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-66-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:42:48,707 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:42:48,708 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:42:48,709 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-0-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:42:58,563 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:42:58,564 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:42:58,565 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-1-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:43:08,427 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:43:08,428 - INFO - detecting CVE-2020-27753 PopRunlengthPacket
+2025-09-02 11:43:08,428 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-2-o1-magickcore --vul_func_name PopRunlengthPacket
+2025-09-02 11:43:18,227 - INFO - success CVE-2020-27753,details in cve_test/CVE-2020-27753.log
+
+2025-09-02 11:43:18,227 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:18,228 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-68-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:23,822 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:23,822 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:23,822 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-67-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:28,823 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:28,824 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:28,825 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.0.8-66-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:33,703 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:33,704 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:33,704 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-0-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:38,665 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:38,665 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:38,666 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-1-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:43,633 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:43,633 - INFO - detecting CVE-2020-27753 PushRunlengthPacket
+2025-09-02 11:43:43,634 - INFO - cmd: python main.py --detect --cve_id CVE-2020-27753 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-2-o1-magickcore --vul_func_name PushRunlengthPacket
+2025-09-02 11:43:48,572 - ERROR - fail CVE-2020-27753 ,details1
+
+2025-09-02 11:43:48,573 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:43:48,574 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-62-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:43:53,963 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:43:53,964 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:43:53,964 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-61-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:43:59,315 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:43:59,316 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:43:59,317 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-60-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:04,911 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:44:04,912 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:44:04,913 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-2-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:10,347 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:44:10,348 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:44:10,348 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-3-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:16,039 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:44:16,040 - INFO - detecting CVE-2021-20311 WriteTHUMBNAILImage
+2025-09-02 11:44:16,040 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20311 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-4-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:21,473 - INFO - success CVE-2021-20311,details in cve_test/CVE-2021-20311.log
+
+2025-09-02 11:44:21,474 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:21,474 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-62-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:27,176 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:27,177 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:27,177 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-61-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:33,356 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:33,357 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:33,357 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.10-60-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:38,735 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:38,736 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:38,736 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-2-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:44,108 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:44,109 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:44,110 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-3-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:49,797 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:49,798 - INFO - detecting CVE-2021-20313 WriteTHUMBNAILImage
+2025-09-02 11:44:49,799 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20313 --target_bin /binaries/target/imagemagick/imagemagick-7.0.11-4-o1-magickcore --vul_func_name WriteTHUMBNAILImage
+2025-09-02 11:44:55,144 - INFO - success CVE-2021-20313,details in cve_test/CVE-2021-20313.log
+
+2025-09-02 11:44:55,145 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:44:55,145 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-1-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:00,553 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:00,553 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:45:00,554 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-2-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:05,948 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:05,949 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:45:05,949 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.0-0-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:11,233 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:11,234 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:45:11,234 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-11-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:16,554 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:16,555 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:45:16,556 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-12-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:21,897 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:21,897 - INFO - detecting CVE-2023-34153 ReadVIDEOImage
+2025-09-02 11:45:21,898 - INFO - cmd: python main.py --detect --cve_id CVE-2023-34153 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-13-o1-magickcore --vul_func_name ReadVIDEOImage
+2025-09-02 11:45:27,179 - INFO - success CVE-2023-34153,details in cve_test/CVE-2023-34153.log
+
+2025-09-02 11:45:27,180 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:27,180 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-19-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:32,531 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+
+2025-09-02 11:45:32,532 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:32,532 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-11-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:37,845 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+
+2025-09-02 11:45:37,846 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:37,846 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-10-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:43,085 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+
+2025-09-02 11:45:43,086 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:43,087 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-20-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:48,689 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+
+2025-09-02 11:45:48,690 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:48,690 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-21-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:54,310 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+
+2025-09-02 11:45:54,311 - INFO - detecting CVE-2023-5341 ReadBMPImage
+2025-09-02 11:45:54,311 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5341 --target_bin /binaries/target/imagemagick/imagemagick-7.1.1-22-o1-magickcore --vul_func_name ReadBMPImage
+2025-09-02 11:45:59,548 - INFO - success CVE-2023-5341,details in cve_test/CVE-2023-5341.log
+

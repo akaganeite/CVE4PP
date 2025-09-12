@@ -1,0 +1,3294 @@
+Detect o2 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12893
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,name_len,-1
+target function: name_len not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,name_len,-1
+target function: name_len not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,name_len,-1
+target function: name_len not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,name_len,1
+target function: name_len not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,name_len,1
+target function: name_len not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,name_len,1
+target function: name_len not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12894
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lookup_bytestring,-1
+target function: lookup_bytestring not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lookup_bytestring,-1
+target function: lookup_bytestring not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lookup_bytestring,-1
+target function: lookup_bytestring not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lookup_bytestring,1
+target function: lookup_bytestring not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lookup_bytestring,1
+[*] /s; sim-cal:0.762344
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lookup_bytestring,1
+[*] /s; sim-cal:0.688959
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,le64addr_string,-1
+[*] /s; sim-cal:0.597741
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,le64addr_string,-1
+[*] /s; sim-cal:0.691868
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,le64addr_string,-1
+[*] /s; sim-cal:0.803247
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,le64addr_string,1
+[*] /s; sim-cal:0.664464
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,le64addr_string,1
+[*] /s; sim-cal:0.626999
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,le64addr_string,1
+[*] /s; sim-cal:0.665709
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,linkaddr_string,-1
+[*] /s; sim-cal:0.726577
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,linkaddr_string,-1
+[*] /s; sim-cal:0.629647
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,linkaddr_string,-1
+[*] /s; sim-cal:0.916763
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,linkaddr_string,1
+[*] /s; sim-cal:0.681159
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,linkaddr_string,1
+[*] /s; sim-cal:0.63462
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,linkaddr_string,1
+[*] /s; sim-cal:0.699573
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lookup_emem,-1
+target function: lookup_emem not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lookup_emem,-1
+target function: lookup_emem not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lookup_emem,-1
+target function: lookup_emem not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lookup_emem,1
+target function: lookup_emem not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lookup_emem,1
+[*] /s; sim-cal:0.885773
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lookup_emem,1
+[*] /s; sim-cal:0.820092
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12895
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.731945
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.764543
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.730632
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.740064
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.858097
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.871626
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12896
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.59126
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.68983
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.719103
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:1.049115
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:0.765065
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:1.094222
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12897
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,fr_print,-1
+[*] /s; sim-cal:1.039902
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,fr_print,-1
+[*] /s; sim-cal:1.018326
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,fr_print,-1
+[*] /s; sim-cal:0.814574
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,fr_print,1
+[*] /s; sim-cal:1.175
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,fr_print,1
+[*] /s; sim-cal:0.965914
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,fr_print,1
+[*] /s; sim-cal:1.049473
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,handle_ppp,-1
+[*] /s; sim-cal:0.970788
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,handle_ppp,-1
+[*] /s; sim-cal:0.779774
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,handle_ppp,-1
+[*] /s; sim-cal:0.843634
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,handle_ppp,1
+[*] /s; sim-cal:0.819373
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,handle_ppp,1
+[*] /s; sim-cal:0.950392
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,handle_ppp,1
+[*] /s; sim-cal:0.912784
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ethertype_print,-1
+[*] /s; sim-cal:0.633578
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ethertype_print,-1
+[*] /s; sim-cal:0.607622
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ethertype_print,-1
+[*] /s; sim-cal:0.660586
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ethertype_print,1
+[*] /s; sim-cal:0.667737
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ethertype_print,1
+[*] /s; sim-cal:0.661799
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ethertype_print,1
+[*] /s; sim-cal:0.698587
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.624673
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.727604
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.628919
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_atm1_print,1
+[*] /s; sim-cal:0.632014
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_atm1_print,1
+target function: juniper_atm1_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_atm1_print,1
+target function: juniper_atm1_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,gre_print_0,-1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,gre_print_0,-1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,gre_print_0,-1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,gre_print_0,1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,gre_print_0,1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,gre_print_0,1
+target function: gre_print_0 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,atm_if_print,-1
+[*] /s; sim-cal:0.642335
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,atm_if_print,-1
+[*] /s; sim-cal:0.702436
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,atm_if_print,-1
+[*] /s; sim-cal:0.657435
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,atm_if_print,1
+[*] /s; sim-cal:0.688054
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,atm_if_print,1
+[*] /s; sim-cal:0.639997
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,atm_if_print,1
+[*] /s; sim-cal:0.886986
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.669537
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.884326
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.671483
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_atm2_print,1
+[*] /s; sim-cal:0.721757
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_atm2_print,1
+target function: juniper_atm2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_atm2_print,1
+target function: juniper_atm2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,null_if_print,-1
+[*] /s; sim-cal:0.668145
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,null_if_print,-1
+[*] /s; sim-cal:0.612071
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,null_if_print,-1
+[*] /s; sim-cal:0.911106
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,null_if_print,1
+[*] /s; sim-cal:0.66011
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,null_if_print,1
+[*] /s; sim-cal:0.667521
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,null_if_print,1
+[*] /s; sim-cal:0.940659
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,llc_print,-1
+[*] /s; sim-cal:0.712078
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,llc_print,-1
+[*] /s; sim-cal:0.719449
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,llc_print,-1
+[*] /s; sim-cal:0.720017
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,llc_print,1
+[*] /s; sim-cal:0.701766
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,llc_print,1
+[*] /s; sim-cal:0.693192
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,llc_print,1
+[*] /s; sim-cal:0.70635
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.646508
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.676265
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.734007
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.758498
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.692471
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.670503
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_mfr_print,-1
+[*] /s; sim-cal:0.615668
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_mfr_print,-1
+[*] /s; sim-cal:0.688835
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_mfr_print,-1
+[*] /s; sim-cal:0.630919
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_mfr_print,1
+[*] /s; sim-cal:0.668777
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_mfr_print,1
+target function: juniper_mfr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_mfr_print,1
+target function: juniper_mfr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_mlppp_print,-1
+[*] /s; sim-cal:0.705028
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_mlppp_print,-1
+[*] /s; sim-cal:0.6388
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_mlppp_print,-1
+[*] /s; sim-cal:0.645279
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_mlppp_print,1
+[*] /s; sim-cal:0.631686
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_mlppp_print,1
+target function: juniper_mlppp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_mlppp_print,1
+target function: juniper_mlppp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_mlfr_print,-1
+[*] /s; sim-cal:0.726934
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_mlfr_print,-1
+[*] /s; sim-cal:0.686495
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_mlfr_print,-1
+[*] /s; sim-cal:0.68346
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_mlfr_print,1
+[*] /s; sim-cal:0.814511
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_mlfr_print,1
+target function: juniper_mlfr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_mlfr_print,1
+target function: juniper_mlfr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isoclns_print,-1
+[*] /s; sim-cal:0.946898
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isoclns_print,-1
+[*] /s; sim-cal:0.932287
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isoclns_print,-1
+[*] /s; sim-cal:0.869286
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isoclns_print,1
+[*] /s; sim-cal:0.858235
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isoclns_print,1
+[*] /s; sim-cal:0.723145
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isoclns_print,1
+[*] /s; sim-cal:1.059632
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mpls_print,-1
+[*] /s; sim-cal:0.809775
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mpls_print,-1
+[*] /s; sim-cal:0.600189
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mpls_print,-1
+[*] /s; sim-cal:0.64433
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mpls_print,1
+[*] /s; sim-cal:0.678854
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mpls_print,1
+[*] /s; sim-cal:0.723267
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mpls_print,1
+[*] /s; sim-cal:0.893213
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12898
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,parserep,-1
+[*] /s; sim-cal:0.606444
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,parserep,-1
+[*] /s; sim-cal:0.599092
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,parserep,-1
+[*] /s; sim-cal:0.60321
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,parserep,1
+[*] /s; sim-cal:0.588624
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,parserep,1
+[*] /s; sim-cal:0.856291
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,parserep,1
+[*] /s; sim-cal:0.643977
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,nfsreq_print_noaddr,-1
+[*] /s; sim-cal:0.796726
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,nfsreq_print_noaddr,-1
+[*] /s; sim-cal:0.751502
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,nfsreq_print_noaddr,-1
+[*] /s; sim-cal:0.728816
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,nfsreq_print_noaddr,1
+[*] /s; sim-cal:0.772965
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,nfsreq_print_noaddr,1
+target function: nfsreq_print_noaddr not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,nfsreq_print_noaddr,1
+target function: nfsreq_print_noaddr not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,interp_reply,-1
+target function: interp_reply not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,interp_reply,-1
+target function: interp_reply not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,interp_reply,-1
+target function: interp_reply not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,interp_reply,1
+target function: interp_reply not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,interp_reply,1
+target function: interp_reply not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,interp_reply,1
+target function: interp_reply not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12899
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_decnet_ctlmsg,-1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_decnet_ctlmsg,-1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_decnet_ctlmsg,-1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_decnet_ctlmsg,1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_decnet_ctlmsg,1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_decnet_ctlmsg,1
+target function: print_decnet_ctlmsg not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,decnet_print,-1
+[*] /s; sim-cal:0.857966
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,decnet_print,-1
+[*] /s; sim-cal:0.758667
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,decnet_print,-1
+[*] /s; sim-cal:0.776978
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,decnet_print,1
+[*] /s; sim-cal:0.818407
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,decnet_print,1
+[*] /s; sim-cal:1.162251
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,decnet_print,1
+[*] /s; sim-cal:0.862257
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12901
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,eigrp_print,-1
+[*] /s; sim-cal:0.63279
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,eigrp_print,-1
+[*] /s; sim-cal:0.747083
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,eigrp_print,-1
+[*] /s; sim-cal:0.833125
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,eigrp_print,1
+[*] /s; sim-cal:0.670259
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,eigrp_print,1
+[*] /s; sim-cal:0.828726
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,eigrp_print,1
+[*] /s; sim-cal:0.744631
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12902
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,zephyr_print,-1
+[*] /s; sim-cal:0.916459
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,zephyr_print,-1
+[*] /s; sim-cal:0.769558
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,zephyr_print,-1
+[*] /s; sim-cal:0.764613
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,zephyr_print,1
+[*] /s; sim-cal:1.080104
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,zephyr_print,1
+[*] /s; sim-cal:1.543149
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,zephyr_print,1
+[*] /s; sim-cal:1.006174
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12985
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ip6_print,-1
+[*] /s; sim-cal:0.695282
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ip6_print,-1
+[*] /s; sim-cal:0.698308
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ip6_print,-1
+[*] /s; sim-cal:0.783472
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ip6_print,1
+[*] /s; sim-cal:0.747646
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ip6_print,1
+[*] /s; sim-cal:0.706625
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ip6_print,1
+[*] /s; sim-cal:0.777843
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.971192
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.7894
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.700129
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.714536
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.699566
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.737767
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12987
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.662361
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.785407
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.719016
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.652638
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.679033
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.71286
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12988
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,telnet_parse,-1
+[*] /s; sim-cal:0.694388
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,telnet_parse,-1
+[*] /s; sim-cal:0.696279
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,telnet_parse,-1
+[*] /s; sim-cal:0.707175
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,telnet_parse,1
+[*] /s; sim-cal:0.648711
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,telnet_parse,1
+[*] /s; sim-cal:0.700161
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,telnet_parse,1
+[*] /s; sim-cal:0.903838
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12989
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,resp_get_length,-1
+[*] /s; sim-cal:0.609296
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,resp_get_length,-1
+[*] /s; sim-cal:0.626256
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,resp_get_length,-1
+target function: resp_get_length not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,resp_get_length,1
+[*] /s; sim-cal:0.689418
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,resp_get_length,1
+[*] /s; sim-cal:0.674866
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,resp_get_length,1
+[*] /s; sim-cal:0.987908
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12990
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.698511
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.692029
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.748162
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.669131
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.674032
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:1.010433
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.003545
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.003344
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isakmp_rfc3948_print,-1
+[*] /s; sim-cal:0.004075
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:0.003051
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:0.002644
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isakmp_rfc3948_print,1
+[*] /s; sim-cal:0.002634
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_n_print,-1
+[*] /s; sim-cal:0.731274
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_n_print,-1
+[*] /s; sim-cal:0.720706
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_n_print,-1
+[*] /s; sim-cal:0.73887
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_n_print,1
+[*] /s; sim-cal:0.99525
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_n_print,1
+[*] /s; sim-cal:0.77176
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_n_print,1
+[*] /s; sim-cal:0.697003
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_nonce_print,-1
+[*] /s; sim-cal:0.730806
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_nonce_print,-1
+[*] /s; sim-cal:0.691264
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_nonce_print,-1
+[*] /s; sim-cal:0.577826
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_nonce_print,1
+[*] /s; sim-cal:0.941887
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_nonce_print,1
+[*] /s; sim-cal:0.727409
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_nonce_print,1
+[*] /s; sim-cal:0.733647
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:1.356224
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:0.758869
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:0.627171
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.936811
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.697288
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.796463
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12991
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.984425
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.954175
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.963814
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.94859
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.981489
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.971249
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12992
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ripng_print,-1
+[*] /s; sim-cal:0.68194
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ripng_print,-1
+[*] /s; sim-cal:0.731728
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ripng_print,-1
+[*] /s; sim-cal:0.66468
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ripng_print,1
+[*] /s; sim-cal:1.601268
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ripng_print,1
+[*] /s; sim-cal:1.119088
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ripng_print,1
+[*] /s; sim-cal:0.681521
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12993
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_es_print,-1
+[*] /s; sim-cal:1.008333
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_es_print,-1
+[*] /s; sim-cal:1.019915
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_es_print,-1
+[*] /s; sim-cal:0.770823
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_es_print,1
+[*] /s; sim-cal:0.669156
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_es_print,1
+target function: juniper_es_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_es_print,1
+target function: juniper_es_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.010499
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.011613
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_atm1_print,-1
+[*] /s; sim-cal:0.005954
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_atm1_print,1
+[*] /s; sim-cal:0.004969
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_atm1_print,1
+target function: juniper_atm1_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_atm1_print,1
+target function: juniper_atm1_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_monitor_print,-1
+[*] /s; sim-cal:0.629166
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_monitor_print,-1
+[*] /s; sim-cal:0.644271
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_monitor_print,-1
+[*] /s; sim-cal:0.651188
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_monitor_print,1
+[*] /s; sim-cal:0.650587
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_monitor_print,1
+target function: juniper_monitor_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_monitor_print,1
+target function: juniper_monitor_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_services_print,-1
+[*] /s; sim-cal:0.649154
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_services_print,-1
+[*] /s; sim-cal:0.601845
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_services_print,-1
+[*] /s; sim-cal:0.806018
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_services_print,1
+[*] /s; sim-cal:1.16791
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_services_print,1
+target function: juniper_services_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_services_print,1
+target function: juniper_services_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.762265
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.873624
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.872195
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_parse_header,1
+[*] /s; sim-cal:0.845839
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_parse_header,1
+target function: juniper_parse_header not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_parse_header,1
+target function: juniper_parse_header not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_ggsn_print,-1
+[*] /s; sim-cal:0.743104
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_ggsn_print,-1
+[*] /s; sim-cal:0.724177
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_ggsn_print,-1
+[*] /s; sim-cal:0.699778
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_ggsn_print,1
+[*] /s; sim-cal:0.717618
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_ggsn_print,1
+target function: juniper_ggsn_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_ggsn_print,1
+target function: juniper_ggsn_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.020577
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.011848
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_atm2_print,-1
+[*] /s; sim-cal:0.010002
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_atm2_print,1
+[*] /s; sim-cal:0.005438
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_atm2_print,1
+target function: juniper_atm2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_atm2_print,1
+target function: juniper_atm2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_pppoe_atm_print,-1
+[*] /s; sim-cal:0.676469
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_pppoe_atm_print,-1
+[*] /s; sim-cal:0.935136
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_pppoe_atm_print,-1
+[*] /s; sim-cal:0.649355
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_pppoe_atm_print,1
+[*] /s; sim-cal:0.665747
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_pppoe_atm_print,1
+target function: juniper_pppoe_atm_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_pppoe_atm_print,1
+target function: juniper_pppoe_atm_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12994
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.148898
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.115836
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.095963
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.09015
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.090467
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.086287
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12995
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ns_nprint,-1
+[*] /s; sim-cal:0.73951
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ns_nprint,-1
+[*] /s; sim-cal:0.690969
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ns_nprint,-1
+[*] /s; sim-cal:0.640968
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ns_nprint,1
+[*] /s; sim-cal:0.710746
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ns_nprint,1
+target function: ns_nprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ns_nprint,1
+target function: ns_nprint not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12996
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12997
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lldp_private_8021_print,-1
+target function: lldp_private_8021_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lldp_private_8021_print,-1
+target function: lldp_private_8021_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lldp_private_8021_print,-1
+target function: lldp_private_8021_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lldp_private_8021_print,1
+target function: lldp_private_8021_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lldp_private_8021_print,1
+target function: lldp_private_8021_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lldp_private_8021_print,1
+target function: lldp_private_8021_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12998
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print_extd_ip_reach,-1
+target function: isis_print_extd_ip_reach not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print_extd_ip_reach,-1
+target function: isis_print_extd_ip_reach not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print_extd_ip_reach,-1
+target function: isis_print_extd_ip_reach not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print_extd_ip_reach,1
+target function: isis_print_extd_ip_reach not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print_extd_ip_reach,1
+target function: isis_print_extd_ip_reach not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print_extd_ip_reach,1
+target function: isis_print_extd_ip_reach not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12999
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print,-1
+target function: isis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print,-1
+target function: isis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print,-1
+target function: isis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print,1
+target function: isis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print,1
+target function: isis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print,1
+target function: isis_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13000
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ieee802_15_4_if_print,-1
+[*] /s; sim-cal:0.808814
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ieee802_15_4_if_print,-1
+[*] /s; sim-cal:0.783021
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ieee802_15_4_if_print,-1
+[*] /s; sim-cal:0.700403
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ieee802_15_4_if_print,1
+[*] /s; sim-cal:0.867376
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ieee802_15_4_if_print,1
+[*] /s; sim-cal:0.665216
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ieee802_15_4_if_print,1
+[*] /s; sim-cal:0.633181
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13001
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,nfs_printfh,-1
+[*] /s; sim-cal:0.670701
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,nfs_printfh,-1
+[*] /s; sim-cal:0.706465
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,nfs_printfh,-1
+[*] /s; sim-cal:0.648874
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,nfs_printfh,1
+[*] /s; sim-cal:0.653271
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,nfs_printfh,1
+[*] /s; sim-cal:0.635864
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,nfs_printfh,1
+[*] /s; sim-cal:0.638113
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13002
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,aodv_extension,-1
+[*] /s; sim-cal:0.633148
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,aodv_extension,-1
+[*] /s; sim-cal:0.716693
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,aodv_extension,-1
+[*] /s; sim-cal:1.056784
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,aodv_extension,1
+[*] /s; sim-cal:1.667078
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,aodv_extension,1
+[*] /s; sim-cal:1.219739
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,aodv_extension,1
+[*] /s; sim-cal:0.95011
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13003
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.910257
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.793428
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.881522
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:1.001401
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:1.10866
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:1.08794
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13004
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.014041
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.015343
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,juniper_parse_header,-1
+[*] /s; sim-cal:0.014155
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,juniper_parse_header,1
+[*] /s; sim-cal:0.015192
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,juniper_parse_header,1
+target function: juniper_parse_header not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,juniper_parse_header,1
+target function: juniper_parse_header not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13005
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,xid_map_enter,-1
+target function: xid_map_enter not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,xid_map_enter,-1
+target function: xid_map_enter not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,xid_map_enter,-1
+target function: xid_map_enter not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,xid_map_enter,1
+target function: xid_map_enter not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,xid_map_enter,1
+target function: xid_map_enter not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,xid_map_enter,1
+target function: xid_map_enter not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13006
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_result_code_print,-1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_result_code_print,-1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_result_code_print,-1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_result_code_print,1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_result_code_print,1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_result_code_print,1
+target function: l2tp_result_code_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_32bits_val,-1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_32bits_val,-1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_32bits_val,-1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_32bits_val,1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_32bits_val,1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_32bits_val,1
+target function: print_32bits_val not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_framing_cap_print,-1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_framing_cap_print,-1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_framing_cap_print,-1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_framing_cap_print,1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_framing_cap_print,1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_framing_cap_print,1
+target function: l2tp_framing_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_packet_proc_delay_print,-1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_packet_proc_delay_print,-1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_packet_proc_delay_print,-1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_packet_proc_delay_print,1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_packet_proc_delay_print,1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_packet_proc_delay_print,1
+target function: l2tp_packet_proc_delay_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_ppp_discon_cc_print,-1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_ppp_discon_cc_print,-1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_ppp_discon_cc_print,-1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_ppp_discon_cc_print,1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_ppp_discon_cc_print,1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_ppp_discon_cc_print,1
+target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_avp_print,-1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_avp_print,-1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_avp_print,-1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_avp_print,1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_avp_print,1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_avp_print,1
+target function: l2tp_avp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_bearer_type_print,-1
+[*] /s; sim-cal:0.629852
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_bearer_type_print,-1
+[*] /s; sim-cal:0.774796
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_bearer_type_print,-1
+[*] /s; sim-cal:0.577891
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_bearer_type_print,1
+[*] /s; sim-cal:0.743005
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_bearer_type_print,1
+[*] /s; sim-cal:0.884258
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_bearer_type_print,1
+[*] /s; sim-cal:1.464868
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,l2tp_bearer_cap_print,-1
+target function: l2tp_bearer_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,l2tp_bearer_cap_print,-1
+target function: l2tp_bearer_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,l2tp_bearer_cap_print,-1
+target function: l2tp_bearer_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,l2tp_bearer_cap_print,1
+target function: l2tp_bearer_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,l2tp_bearer_cap_print,1
+target function: l2tp_bearer_cap_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,l2tp_bearer_cap_print,1
+target function: l2tp_bearer_cap_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13007
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pktap_if_print,-1
+[*] /s; sim-cal:0.749938
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pktap_if_print,-1
+[*] /s; sim-cal:0.776165
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pktap_if_print,-1
+[*] /s; sim-cal:0.978532
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pktap_if_print,1
+[*] /s; sim-cal:1.020209
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pktap_if_print,1
+[*] /s; sim-cal:1.507035
+[*] Detection Result:P 0.07222222222222223/0.09526356997599487 31/30,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pktap_if_print,1
+[*] /s; sim-cal:1.048745
+[*] Detection Result:P 0.07222222222222223/0.09526356997599487 31/30,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13008
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.012102
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.011984
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,parse_elements,-1
+[*] /s; sim-cal:0.012025
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.01709
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.019403
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,parse_elements,1
+[*] /s; sim-cal:0.009547
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13009
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.016816
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.017006
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mobility_print,-1
+[*] /s; sim-cal:0.016682
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.017602
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.014688
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mobility_print,1
+[*] /s; sim-cal:0.012226
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13011
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bittok2str_internal,-1
+[*] /s; sim-cal:0.79816
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bittok2str_internal,-1
+[*] /s; sim-cal:0.935184
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,bittok2str_internal,-1
+[*] /s; sim-cal:1.439839
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bittok2str_internal,1
+[*] /s; sim-cal:1.633888
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bittok2str_internal,1
+[*] /s; sim-cal:1.3286
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bittok2str_internal,1
+[*] /s; sim-cal:2.013185
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13012
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.026782
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.025186
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.026999
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.038321
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.042029
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.044188
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13013
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,atmarp_print,-1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,atmarp_print,-1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,atmarp_print,-1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,atmarp_print,1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,atmarp_print,1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,atmarp_print,1
+target function: atmarp_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isnonzero,-1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isnonzero,-1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isnonzero,-1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isnonzero,1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isnonzero,1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isnonzero,1
+target function: isnonzero not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,arp_print,-1
+[*] /s; sim-cal:0.791815
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,arp_print,-1
+[*] /s; sim-cal:1.398107
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,arp_print,-1
+[*] /s; sim-cal:0.77964
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,arp_print,1
+[*] /s; sim-cal:0.708104
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,arp_print,1
+[*] /s; sim-cal:0.803174
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,arp_print,1
+[*] /s; sim-cal:0.933593
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,atmarp_addr_print,-1
+[*] /s; sim-cal:0.72456
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,atmarp_addr_print,-1
+[*] /s; sim-cal:0.654648
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,atmarp_addr_print,-1
+[*] /s; sim-cal:0.782478
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,atmarp_addr_print,1
+[*] /s; sim-cal:0.704011
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,atmarp_addr_print,1
+[*] /s; sim-cal:0.772939
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,atmarp_addr_print,1
+[*] /s; sim-cal:0.964943
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13014
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,wb_prep,-1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,wb_prep,-1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,wb_prep,-1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,wb_prep,1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,wb_prep,1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,wb_prep,1
+target function: wb_prep not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,wb_print,-1
+[*] /s; sim-cal:0.761577
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,wb_print,-1
+[*] /s; sim-cal:0.705836
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,wb_print,-1
+[*] /s; sim-cal:0.727492
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,wb_print,1
+[*] /s; sim-cal:0.759806
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,wb_print,1
+[*] /s; sim-cal:1.03607
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,wb_print,1
+[*] /s; sim-cal:0.822307
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13015
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,eap_print,-1
+[*] /s; sim-cal:0.682255
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,eap_print,-1
+[*] /s; sim-cal:0.652766
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,eap_print,-1
+[*] /s; sim-cal:0.639358
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,eap_print,1
+[*] /s; sim-cal:0.657016
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,eap_print,1
+[*] /s; sim-cal:0.646569
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,eap_print,1
+[*] /s; sim-cal:0.700846
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13016
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,esis_print,1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,esis_print,1
+[*] /s; sim-cal:0.779677
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,esis_print,1
+[*] /s; sim-cal:0.811182
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13017
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,dhcp6opt_print,-1
+target function: dhcp6opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,dhcp6opt_print,-1
+target function: dhcp6opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,dhcp6opt_print,-1
+target function: dhcp6opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,dhcp6opt_print,1
+target function: dhcp6opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,dhcp6opt_print,1
+target function: dhcp6opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,dhcp6opt_print,1
+target function: dhcp6opt_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13018
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.784039
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.983247
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:1.099022
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:1.797092
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.845881
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:1.067332
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13019
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.084742
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.026939
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.026735
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.028238
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.030668
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.029908
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13020
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.747642
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.994157
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.768615
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:0.680319
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:0.686339
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:1.077795
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13021
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.938546
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.874425
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.903406
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:0.870613
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:0.954715
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:1.035849
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13022
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ip_printroute,-1
+target function: ip_printroute not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ip_printroute,-1
+target function: ip_printroute not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ip_printroute,-1
+target function: ip_printroute not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ip_printroute,1
+target function: ip_printroute not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ip_printroute,1
+target function: ip_printroute not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ip_printroute,1
+target function: ip_printroute not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13023
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13024
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13025
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mobility_opt_print,-1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mobility_opt_print,1
+target function: mobility_opt_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13026
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print_mt_capability_subtlv,-1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print_mt_capability_subtlv,-1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print_mt_capability_subtlv,-1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print_mt_capability_subtlv,1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print_mt_capability_subtlv,1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print_mt_capability_subtlv,1
+target function: isis_print_mt_capability_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print_mt_port_cap_subtlv,-1
+target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print_mt_port_cap_subtlv,-1
+target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print_mt_port_cap_subtlv,-1
+target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print_mt_port_cap_subtlv,1
+target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print_mt_port_cap_subtlv,1
+target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print_mt_port_cap_subtlv,1
+target function: isis_print_mt_port_cap_subtlv not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13027
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lldp_mgmt_addr_tlv_print,-1
+target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lldp_mgmt_addr_tlv_print,-1
+target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lldp_mgmt_addr_tlv_print,-1
+target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lldp_mgmt_addr_tlv_print,1
+target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lldp_mgmt_addr_tlv_print,1
+target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lldp_mgmt_addr_tlv_print,1
+target function: lldp_mgmt_addr_tlv_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13028
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bootp_print,-1
+[*] /s; sim-cal:1.309264
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bootp_print,-1
+[*] /s; sim-cal:1.047188
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,bootp_print,-1
+[*] /s; sim-cal:0.878609
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bootp_print,1
+[*] /s; sim-cal:1.412515
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bootp_print,1
+[*] /s; sim-cal:1.850966
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bootp_print,1
+[*] /s; sim-cal:1.012481
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13029
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_ipcp_config_options,-1
+[*] /s; sim-cal:0.91951
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_ipcp_config_options,-1
+[*] /s; sim-cal:1.110042
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_ipcp_config_options,-1
+[*] /s; sim-cal:0.997382
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_ipcp_config_options,1
+[*] /s; sim-cal:1.684893
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_ipcp_config_options,1
+[*] /s; sim-cal:1.038955
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_ipcp_config_options,1
+[*] /s; sim-cal:1.472513
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_bacp_config_options,-1
+[*] /s; sim-cal:0.60874
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_bacp_config_options,-1
+[*] /s; sim-cal:0.705384
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_bacp_config_options,-1
+[*] /s; sim-cal:0.785087
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_bacp_config_options,1
+[*] /s; sim-cal:0.858248
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_bacp_config_options,1
+[*] /s; sim-cal:1.144434
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_bacp_config_options,1
+[*] /s; sim-cal:0.747365
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_ccp_config_options,-1
+[*] /s; sim-cal:0.677538
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_ccp_config_options,-1
+[*] /s; sim-cal:0.663378
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_ccp_config_options,-1
+[*] /s; sim-cal:0.650437
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_ccp_config_options,1
+[*] /s; sim-cal:0.602906
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_ccp_config_options,1
+[*] /s; sim-cal:0.715178
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_ccp_config_options,1
+[*] /s; sim-cal:0.725278
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_lcp_config_options,-1
+[*] /s; sim-cal:1.031885
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_lcp_config_options,-1
+[*] /s; sim-cal:0.962121
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_lcp_config_options,-1
+[*] /s; sim-cal:0.698161
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_lcp_config_options,1
+[*] /s; sim-cal:0.708616
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_lcp_config_options,1
+[*] /s; sim-cal:0.809757
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_lcp_config_options,1
+[*] /s; sim-cal:0.920134
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13030
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pimv2_addr_print,-1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pimv2_addr_print,-1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pimv2_addr_print,-1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pimv2_addr_print,1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pimv2_addr_print,1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pimv2_addr_print,1
+target function: pimv2_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pim_print,-1
+[*] /s; sim-cal:0.884906
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pim_print,-1
+[*] /s; sim-cal:0.860342
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pim_print,-1
+[*] /s; sim-cal:1.11187
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pim_print,1
+[*] /s; sim-cal:1.065442
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pim_print,1
+[*] /s; sim-cal:1.592684
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pim_print,1
+[*] /s; sim-cal:0.949403
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pimv1_print,-1
+[*] /s; sim-cal:0.672244
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pimv1_print,-1
+[*] /s; sim-cal:1.522396
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pimv1_print,-1
+[*] /s; sim-cal:0.960241
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pimv1_print,1
+[*] /s; sim-cal:0.711731
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pimv1_print,1
+[*] /s; sim-cal:0.771854
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pimv1_print,1
+[*] /s; sim-cal:0.762813
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pimv1_join_prune_print,-1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pimv1_join_prune_print,-1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pimv1_join_prune_print,-1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pimv1_join_prune_print,1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pimv1_join_prune_print,1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pimv1_join_prune_print,1
+target function: pimv1_join_prune_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pimv2_print,-1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pimv2_print,1
+target function: pimv2_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,cisco_autorp_print,-1
+[*] /s; sim-cal:0.654065
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,cisco_autorp_print,-1
+[*] /s; sim-cal:0.987863
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,cisco_autorp_print,-1
+[*] /s; sim-cal:0.697812
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,cisco_autorp_print,1
+[*] /s; sim-cal:0.940046
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,cisco_autorp_print,1
+[*] /s; sim-cal:0.756343
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,cisco_autorp_print,1
+[*] /s; sim-cal:0.996723
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13031
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,frag6_print,-1
+[*] /s; sim-cal:0.952221
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,frag6_print,-1
+[*] /s; sim-cal:0.923803
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,frag6_print,-1
+[*] /s; sim-cal:0.971635
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,frag6_print,1
+[*] /s; sim-cal:0.743293
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,frag6_print,1
+[*] /s; sim-cal:1.000045
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,frag6_print,1
+[*] /s; sim-cal:0.634937
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13032
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_attr_string,-1
+[*] /s; sim-cal:0.906417
+[*] Detection Result:V 0.09999999999999998/0.03349282296650718 12/12,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_attr_string,-1
+[*] /s; sim-cal:0.653011
+[*] Detection Result:V 0.09999999999999998/0.03349282296650718 12/12,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,print_attr_string,-1
+[*] /s; sim-cal:0.966899
+[*] Detection Result:V 0.09999999999999998/0.03349282296650718 12/12,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_attr_string,1
+[*] /s; sim-cal:0.953579
+[*] Detection Result:V 0.2526393086879021/0.1316507319181116 17/17,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_attr_string,1
+[*] /s; sim-cal:0.736609
+[*] Detection Result:V 0.23017543859649123/0.12124488297149573 37/37,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_attr_string,1
+[*] /s; sim-cal:1.567987
+[*] Detection Result:V 0.23017543859649123/0.12124488297149573 37/37,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13033
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.011483
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.012739
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,vtp_print,-1
+[*] /s; sim-cal:0.006648
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:0.008779
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:0.009594
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,vtp_print,1
+[*] /s; sim-cal:0.010826
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13034
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.027187
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.026788
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,pgm_print,-1
+[*] /s; sim-cal:0.028693
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.039719
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.032109
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,pgm_print,1
+[*] /s; sim-cal:0.031271
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13035
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print_id,-1
+[*] /s; sim-cal:0.929987
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print_id,-1
+[*] /s; sim-cal:0.723467
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print_id,-1
+[*] /s; sim-cal:0.682248
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print_id,1
+[*] /s; sim-cal:0.883215
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print_id,1
+[*] /s; sim-cal:0.691648
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print_id,1
+[*] /s; sim-cal:0.858668
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13036
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ospf6_decode_v3,-1
+target function: ospf6_decode_v3 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ospf6_decode_v3,-1
+target function: ospf6_decode_v3 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ospf6_decode_v3,-1
+target function: ospf6_decode_v3 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ospf6_decode_v3,1
+target function: ospf6_decode_v3 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ospf6_decode_v3,1
+target function: ospf6_decode_v3 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ospf6_decode_v3,1
+target function: ospf6_decode_v3 not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13037
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ip_optprint,-1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ip_optprint,1
+target function: ip_optprint not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,nextproto4_cksum,-1
+[*] /s; sim-cal:0.623146
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,nextproto4_cksum,-1
+[*] /s; sim-cal:0.696044
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,nextproto4_cksum,-1
+[*] /s; sim-cal:0.679061
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,nextproto4_cksum,1
+[*] /s; sim-cal:0.646757
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,nextproto4_cksum,1
+[*] /s; sim-cal:0.716692
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,nextproto4_cksum,1
+[*] /s; sim-cal:1.558913
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ip_printts,-1
+target function: ip_printts not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ip_printts,-1
+target function: ip_printts not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ip_printts,-1
+target function: ip_printts not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ip_printts,1
+target function: ip_printts not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ip_printts,1
+target function: ip_printts not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ip_printts,1
+target function: ip_printts not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13038
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,handle_mlppp,-1
+target function: handle_mlppp not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,handle_mlppp,-1
+target function: handle_mlppp not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,handle_mlppp,-1
+target function: handle_mlppp not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,handle_mlppp,1
+target function: handle_mlppp not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,handle_mlppp,1
+target function: handle_mlppp not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,handle_mlppp,1
+target function: handle_mlppp not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13039
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_t_print,-1
+[*] /s; sim-cal:0.631375
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_t_print,-1
+[*] /s; sim-cal:0.787222
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_t_print,-1
+[*] /s; sim-cal:0.740599
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_t_print,1
+[*] /s; sim-cal:0.926777
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_t_print,1
+[*] /s; sim-cal:0.97551
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_t_print,1
+[*] /s; sim-cal:0.751862
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.020792
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.013541
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.011349
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.01372
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.014626
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.012828
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_t_print,-1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_t_print,-1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_t_print,-1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_t_print,1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_t_print,1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_t_print,1
+target function: ikev2_t_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_attrmap_print,-1
+[*] /s; sim-cal:1.122331
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_attrmap_print,-1
+[*] /s; sim-cal:0.78875
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_attrmap_print,-1
+[*] /s; sim-cal:1.090973
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_attrmap_print,1
+[*] /s; sim-cal:0.759106
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_attrmap_print,1
+[*] /s; sim-cal:0.833264
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_attrmap_print,1
+[*] /s; sim-cal:0.679836
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13040
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mp_capable_print,-1
+[*] /s; sim-cal:0.895248
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mp_capable_print,-1
+[*] /s; sim-cal:0.585665
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mp_capable_print,-1
+[*] /s; sim-cal:0.736551
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mp_capable_print,1
+[*] /s; sim-cal:0.699339
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mp_capable_print,1
+[*] /s; sim-cal:0.655791
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mp_capable_print,1
+[*] /s; sim-cal:0.64109
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mp_join_print,-1
+[*] /s; sim-cal:0.642845
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mp_join_print,-1
+[*] /s; sim-cal:0.915676
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,mp_join_print,-1
+[*] /s; sim-cal:0.934158
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mp_join_print,1
+[*] /s; sim-cal:0.695725
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mp_join_print,1
+[*] /s; sim-cal:0.749795
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mp_join_print,1
+[*] /s; sim-cal:0.741503
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13041
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13042
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,dhcpv6_print,-1
+target function: dhcpv6_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,dhcpv6_print,-1
+target function: dhcpv6_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,dhcpv6_print,-1
+target function: dhcpv6_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,dhcpv6_print,1
+target function: dhcpv6_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,dhcpv6_print,1
+target function: dhcpv6_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,dhcpv6_print,1
+target function: dhcpv6_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13043
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,decode_multicast_vpn,-1
+target function: decode_multicast_vpn not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,decode_multicast_vpn,-1
+target function: decode_multicast_vpn not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,decode_multicast_vpn,-1
+target function: decode_multicast_vpn not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,decode_multicast_vpn,1
+target function: decode_multicast_vpn not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,decode_multicast_vpn,1
+target function: decode_multicast_vpn not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,decode_multicast_vpn,1
+target function: decode_multicast_vpn not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13044
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,dhcpv4_print,-1
+target function: dhcpv4_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,dhcpv4_print,-1
+target function: dhcpv4_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,dhcpv4_print,-1
+target function: dhcpv4_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,dhcpv4_print,1
+target function: dhcpv4_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,dhcpv4_print,1
+target function: dhcpv4_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,dhcpv4_print,1
+target function: dhcpv4_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13045
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,vqp_print,-1
+[*] /s; sim-cal:0.652712
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,vqp_print,-1
+[*] /s; sim-cal:1.352646
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,vqp_print,-1
+[*] /s; sim-cal:0.788744
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,vqp_print,1
+[*] /s; sim-cal:0.824939
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,vqp_print,1
+[*] /s; sim-cal:0.711107
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,vqp_print,1
+[*] /s; sim-cal:0.75498
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13046
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.18468
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.107845
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.087712
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.090305
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.083271
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.092199
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13047
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,esis_print,-1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,esis_print,1
+target function: esis_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,esis_print,1
+[*] /s; sim-cal:0.025949
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,esis_print,1
+[*] /s; sim-cal:0.01769
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13048
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.90707
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.96059
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.932693
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.898579
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:1.348277
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:1.40826
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13049
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ubik_print,-1
+[*] /s; sim-cal:0.728075
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ubik_print,-1
+[*] /s; sim-cal:0.95764
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ubik_print,-1
+[*] /s; sim-cal:0.709996
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ubik_print,1
+[*] /s; sim-cal:0.857852
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ubik_print,1
+[*] /s; sim-cal:1.409663
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ubik_print,1
+[*] /s; sim-cal:0.764299
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13050
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,indent_string,-1
+[*] /s; sim-cal:0.783052
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,indent_string,-1
+[*] /s; sim-cal:0.894802
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,indent_string,-1
+[*] /s; sim-cal:1.101378
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,indent_string,1
+[*] /s; sim-cal:1.211031
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,indent_string,1
+[*] /s; sim-cal:1.820723
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,indent_string,1
+[*] /s; sim-cal:1.016821
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpki_rtr_pdu_print,-1
+[*] /s; sim-cal:0.725455
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpki_rtr_pdu_print,-1
+[*] /s; sim-cal:0.682695
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,rpki_rtr_pdu_print,-1
+[*] /s; sim-cal:0.802396
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpki_rtr_pdu_print,1
+[*] /s; sim-cal:0.676524
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpki_rtr_pdu_print,1
+[*] /s; sim-cal:0.891637
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpki_rtr_pdu_print,1
+[*] /s; sim-cal:1.3225
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13051
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.116352
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.115902
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.07109
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.071927
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.132956
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.120395
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13052
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,cfm_network_addr_print,-1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,cfm_network_addr_print,-1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,cfm_network_addr_print,-1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,cfm_network_addr_print,1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,cfm_network_addr_print,1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,cfm_network_addr_print,1
+target function: cfm_network_addr_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,cfm_print,-1
+[*] /s; sim-cal:0.833096
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,cfm_print,-1
+[*] /s; sim-cal:0.919989
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,cfm_print,-1
+[*] /s; sim-cal:0.715499
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,cfm_print,1
+[*] /s; sim-cal:0.769384
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,cfm_print,1
+[*] /s; sim-cal:0.843374
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,cfm_print,1
+[*] /s; sim-cal:0.771998
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13053
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,decode_rt_routing_info,-1
+target function: decode_rt_routing_info not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,decode_rt_routing_info,-1
+target function: decode_rt_routing_info not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,decode_rt_routing_info,-1
+target function: decode_rt_routing_info not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,decode_rt_routing_info,1
+target function: decode_rt_routing_info not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,decode_rt_routing_info,1
+target function: decode_rt_routing_info not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,decode_rt_routing_info,1
+target function: decode_rt_routing_info not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13054
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lldp_private_8023_print,-1
+target function: lldp_private_8023_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lldp_private_8023_print,-1
+target function: lldp_private_8023_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,lldp_private_8023_print,-1
+target function: lldp_private_8023_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lldp_private_8023_print,1
+target function: lldp_private_8023_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lldp_private_8023_print,1
+target function: lldp_private_8023_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lldp_private_8023_print,1
+target function: lldp_private_8023_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13055
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,isis_print_is_reach_subtlv,-1
+target function: isis_print_is_reach_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,isis_print_is_reach_subtlv,-1
+target function: isis_print_is_reach_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,isis_print_is_reach_subtlv,-1
+target function: isis_print_is_reach_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,isis_print_is_reach_subtlv,1
+target function: isis_print_is_reach_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,isis_print_is_reach_subtlv,1
+target function: isis_print_is_reach_subtlv not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,isis_print_is_reach_subtlv,1
+target function: isis_print_is_reach_subtlv not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13687
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.021563
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.014481
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,chdlc_print,-1
+[*] /s; sim-cal:0.010972
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.010938
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.011868
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,chdlc_print,1
+[*] /s; sim-cal:0.010433
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13688
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,olsr_print,-1
+[*] /s; sim-cal:1.653979
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,olsr_print,-1
+[*] /s; sim-cal:1.92305
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,olsr_print,-1
+[*] /s; sim-cal:0.985494
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,olsr_print,1
+[*] /s; sim-cal:0.779155
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,olsr_print,1
+[*] /s; sim-cal:0.887294
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,olsr_print,1
+[*] /s; sim-cal:0.845715
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13689
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_id_print,-1
+[*] /s; sim-cal:0.872948
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_id_print,-1
+[*] /s; sim-cal:1.388908
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_id_print,-1
+[*] /s; sim-cal:1.105621
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_id_print,1
+[*] /s; sim-cal:1.197907
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_id_print,1
+[*] /s; sim-cal:0.823943
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_id_print,1
+[*] /s; sim-cal:1.1245
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13690
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_sub_print,-1
+[*] /s; sim-cal:0.716864
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_sub_print,-1
+[*] /s; sim-cal:0.665168
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_sub_print,-1
+[*] /s; sim-cal:0.640857
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_sub_print,1
+[*] /s; sim-cal:0.686386
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_sub_print,1
+[*] /s; sim-cal:1.061684
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_sub_print,1
+[*] /s; sim-cal:0.715991
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_cr_print,-1
+[*] /s; sim-cal:0.65597
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_cr_print,-1
+[*] /s; sim-cal:0.635172
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_cr_print,-1
+[*] /s; sim-cal:0.640101
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_cr_print,1
+[*] /s; sim-cal:0.654417
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_cr_print,1
+[*] /s; sim-cal:0.931377
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_cr_print,1
+[*] /s; sim-cal:0.613142
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_sig_print,-1
+[*] /s; sim-cal:0.86058
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_sig_print,-1
+[*] /s; sim-cal:0.737128
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_sig_print,-1
+[*] /s; sim-cal:1.053123
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_sig_print,1
+[*] /s; sim-cal:0.638635
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_sig_print,1
+[*] /s; sim-cal:1.318214
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_sig_print,1
+[*] /s; sim-cal:0.608641
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_cert_print,-1
+[*] /s; sim-cal:0.767614
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_cert_print,-1
+[*] /s; sim-cal:0.777113
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_cert_print,-1
+[*] /s; sim-cal:0.80144
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_cert_print,1
+[*] /s; sim-cal:0.727108
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_cert_print,1
+[*] /s; sim-cal:0.695479
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_cert_print,1
+[*] /s; sim-cal:0.878107
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_ID_print,-1
+[*] /s; sim-cal:0.837786
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_ID_print,-1
+[*] /s; sim-cal:0.747043
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_ID_print,-1
+[*] /s; sim-cal:0.750925
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_ID_print,1
+[*] /s; sim-cal:0.966185
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_ID_print,1
+[*] /s; sim-cal:1.354397
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_ID_print,1
+[*] /s; sim-cal:0.723735
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_vid_print,-1
+[*] /s; sim-cal:0.634825
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_vid_print,-1
+[*] /s; sim-cal:1.120449
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_vid_print,-1
+[*] /s; sim-cal:0.736437
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_vid_print,1
+[*] /s; sim-cal:1.324922
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_vid_print,1
+[*] /s; sim-cal:0.698901
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_vid_print,1
+[*] /s; sim-cal:1.016888
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_gen_print,-1
+[*] /s; sim-cal:0.846428
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_gen_print,-1
+[*] /s; sim-cal:1.197611
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_gen_print,-1
+[*] /s; sim-cal:0.640827
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_gen_print,1
+[*] /s; sim-cal:1.438894
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_gen_print,1
+[*] /s; sim-cal:0.978021
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_gen_print,1
+[*] /s; sim-cal:0.992199
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_hash_print,-1
+[*] /s; sim-cal:1.257353
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_hash_print,-1
+[*] /s; sim-cal:0.610939
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_hash_print,-1
+[*] /s; sim-cal:0.705967
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_hash_print,1
+[*] /s; sim-cal:0.659853
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_hash_print,1
+[*] /s; sim-cal:0.629279
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_hash_print,1
+[*] /s; sim-cal:0.72591
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_sa_print,-1
+[*] /s; sim-cal:0.785219
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_sa_print,-1
+[*] /s; sim-cal:0.674904
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_sa_print,-1
+[*] /s; sim-cal:0.714276
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_sa_print,1
+[*] /s; sim-cal:0.808653
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_sa_print,1
+[*] /s; sim-cal:0.755993
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_sa_print,1
+[*] /s; sim-cal:1.00778
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_sub_print,-1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_sub_print,-1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_sub_print,-1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_sub_print,1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_sub_print,1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_sub_print,1
+target function: ikev2_sub_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_vid_print,-1
+[*] /s; sim-cal:0.820378
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_vid_print,-1
+[*] /s; sim-cal:0.757212
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_vid_print,-1
+[*] /s; sim-cal:0.909113
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_vid_print,1
+[*] /s; sim-cal:0.657544
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_vid_print,1
+[*] /s; sim-cal:1.178106
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_vid_print,1
+[*] /s; sim-cal:1.548756
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:0.025833
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:0.014454
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_auth_print,-1
+[*] /s; sim-cal:0.009208
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.010064
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.011767
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_auth_print,1
+[*] /s; sim-cal:0.011714
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_p_print,-1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_p_print,-1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_p_print,-1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_p_print,1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_p_print,1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_p_print,1
+target function: ikev2_p_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev2_ke_print,-1
+[*] /s; sim-cal:2.152619
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev2_ke_print,-1
+[*] /s; sim-cal:1.245499
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev2_ke_print,-1
+[*] /s; sim-cal:1.277464
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev2_ke_print,1
+[*] /s; sim-cal:0.743202
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev2_ke_print,1
+[*] /s; sim-cal:0.943663
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev2_ke_print,1
+[*] /s; sim-cal:1.00977
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_ke_print,-1
+[*] /s; sim-cal:1.63287
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_ke_print,-1
+[*] /s; sim-cal:0.673129
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,ikev1_ke_print,-1
+[*] /s; sim-cal:0.677368
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_ke_print,1
+[*] /s; sim-cal:1.019578
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_ke_print,1
+[*] /s; sim-cal:0.811668
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_ke_print,1
+[*] /s; sim-cal:0.852975
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13725
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rt6_print,-1
+[*] /s; sim-cal:0.811609
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rt6_print,-1
+[*] /s; sim-cal:0.698383
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.8.1-o2-tcpdump,rt6_print,-1
+[*] /s; sim-cal:2.011246
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rt6_print,1
+[*] /s; sim-cal:0.713596
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rt6_print,1
+[*] /s; sim-cal:0.672379
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rt6_print,1
+[*] /s; sim-cal:0.684535
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14461
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,ldp_tlv_print,-1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ldp_tlv_print,-1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ldp_tlv_print,-1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ldp_tlv_print,1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ldp_tlv_print,1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ldp_tlv_print,1
+target function: ldp_tlv_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,ldp_pdu_print,-1
+target function: ldp_pdu_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ldp_pdu_print,-1
+target function: ldp_pdu_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ldp_pdu_print,-1
+target function: ldp_pdu_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ldp_pdu_print,1
+target function: ldp_pdu_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ldp_pdu_print,1
+target function: ldp_pdu_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ldp_pdu_print,1
+target function: ldp_pdu_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14462
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.753806
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.026957
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp_print,-1
+[*] /s; sim-cal:0.030066
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.027485
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.042306
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp_print,1
+[*] /s; sim-cal:0.042097
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14463
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.981759
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.683808
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.646001
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.684634
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.77545
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.70484
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14464
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.828764
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.029963
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.028913
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.045688
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.063407
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.072716
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,lmp_print_data_link_subobjs,-1
+[*] /s; sim-cal:0.698167
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lmp_print_data_link_subobjs,-1
+target function: lmp_print_data_link_subobjs not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lmp_print_data_link_subobjs,-1
+target function: lmp_print_data_link_subobjs not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.58797
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.858792
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.721712
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14465
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:1.016272
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.069892
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rsvp_obj_print,-1
+[*] /s; sim-cal:0.071077
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.06864
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.131038
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rsvp_obj_print,1
+[*] /s; sim-cal:0.123123
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14466
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rx_cache_insert,-1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rx_cache_insert,-1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rx_cache_insert,-1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rx_cache_insert,1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rx_cache_insert,1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rx_cache_insert,1
+target function: rx_cache_insert not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rx_cache_find,-1
+target function: rx_cache_find not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rx_cache_find,-1
+target function: rx_cache_find not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rx_cache_find,-1
+target function: rx_cache_find not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rx_cache_find,1
+target function: rx_cache_find not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rx_cache_find,1
+target function: rx_cache_find not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rx_cache_find,1
+target function: rx_cache_find not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14467
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14468
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,mfr_print,-1
+[*] /s; sim-cal:0.803642
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mfr_print,-1
+[*] /s; sim-cal:0.663965
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mfr_print,-1
+[*] /s; sim-cal:0.634687
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mfr_print,1
+[*] /s; sim-cal:0.705292
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mfr_print,1
+[*] /s; sim-cal:0.711632
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mfr_print,1
+[*] /s; sim-cal:0.613843
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14469
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.790378
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.012016
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ikev1_n_print,-1
+[*] /s; sim-cal:0.022178
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.013871
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.014143
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ikev1_n_print,1
+[*] /s; sim-cal:0.015069
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14470
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,babel_print_v2,-1
+target function: babel_print_v2 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,babel_print_v2,-1
+target function: babel_print_v2 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,babel_print_v2,-1
+target function: babel_print_v2 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,babel_print_v2,1
+target function: babel_print_v2 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,babel_print_v2,1
+target function: babel_print_v2 not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,babel_print_v2,1
+target function: babel_print_v2 not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14881
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_capabilities_print,-1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_capabilities_print,1
+target function: bgp_capabilities_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2019-15166
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.073779
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.048107
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lmp_print,-1
+[*] /s; sim-cal:0.053462
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.068782
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.0679
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lmp_print,1
+[*] /s; sim-cal:0.066335
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,lmp_print_data_link_subobjs,-1
+[*] /s; sim-cal:0.003528
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,lmp_print_data_link_subobjs,-1
+target function: lmp_print_data_link_subobjs not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,lmp_print_data_link_subobjs,-1
+target function: lmp_print_data_link_subobjs not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.008221
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.0052
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,lmp_print_data_link_subobjs,1
+[*] /s; sim-cal:0.006279
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-15167
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.005868
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.007066
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,vrrp_print,-1
+[*] /s; sim-cal:0.006423
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.004985
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.006426
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,vrrp_print,1
+[*] /s; sim-cal:0.006292
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14880
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,ospf6_print_lshdr,-1
+[*] /s; sim-cal:0.709043
+[*] Detection Result:P 0.0/0.4088384315381282 9/9,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ospf6_print_lshdr,-1
+[*] /s; sim-cal:0.727799
+[*] Detection Result:P 0.0/0.4088384315381282 9/9,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ospf6_print_lshdr,-1
+[*] /s; sim-cal:0.606986
+[*] Detection Result:P 0.0/0.4088384315381282 9/9,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ospf6_print_lshdr,1
+[*] /s; sim-cal:0.717618
+[*] Detection Result:P 0.0/0.4088384315381282 6/6,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ospf6_print_lshdr,1
+target function: ospf6_print_lshdr not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ospf6_print_lshdr,1
+target function: ospf6_print_lshdr not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-14882
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,mldv2_query_print,-1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mldv2_query_print,-1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mldv2_query_print,-1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mldv2_query_print,1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mldv2_query_print,1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mldv2_query_print,1
+target function: mldv2_query_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,icmp6_rrenum_print,-1
+[*] /s; sim-cal:0.761379
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_rrenum_print,-1
+[*] /s; sim-cal:0.712528
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_rrenum_print,-1
+[*] /s; sim-cal:0.62252
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_rrenum_print,1
+[*] /s; sim-cal:0.693323
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_rrenum_print,1
+[*] /s; sim-cal:0.763656
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_rrenum_print,1
+[*] /s; sim-cal:0.749776
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rpl_dio_printopt,-1
+[*] /s; sim-cal:0.629451
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpl_dio_printopt,-1
+[*] /s; sim-cal:0.635917
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpl_dio_printopt,-1
+[*] /s; sim-cal:0.634667
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpl_dio_printopt,1
+[*] /s; sim-cal:0.897811
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpl_dio_printopt,1
+target function: rpl_dio_printopt not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpl_dio_printopt,1
+target function: rpl_dio_printopt not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rpl_print,-1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpl_print,-1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpl_print,-1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpl_print,1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpl_print,1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpl_print,1
+target function: rpl_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,icmp6_opt_print,-1
+[*] /s; sim-cal:0.731504
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_opt_print,-1
+[*] /s; sim-cal:0.789195
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_opt_print,-1
+[*] /s; sim-cal:0.731409
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_opt_print,1
+[*] /s; sim-cal:0.711879
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_opt_print,1
+[*] /s; sim-cal:0.709866
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_opt_print,1
+[*] /s; sim-cal:0.668837
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rpl_daoack_print,-1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpl_daoack_print,-1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpl_daoack_print,-1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpl_daoack_print,1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpl_daoack_print,1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpl_daoack_print,1
+target function: rpl_daoack_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,mldv2_report_print,-1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,mldv2_report_print,-1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,mldv2_report_print,-1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,mldv2_report_print,1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,mldv2_report_print,1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,mldv2_report_print,1
+target function: mldv2_report_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_nodeinfo_print,-1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_nodeinfo_print,1
+target function: icmp6_nodeinfo_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rpl_dao_print,-1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpl_dao_print,-1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpl_dao_print,-1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpl_dao_print,1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpl_dao_print,1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpl_dao_print,1
+target function: rpl_dao_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.917127
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.043732
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,icmp6_print,-1
+[*] /s; sim-cal:0.057452
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:0.04475
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:0.056923
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,icmp6_print,1
+[*] /s; sim-cal:0.056786
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,rpl_dio_print,-1
+target function: rpl_dio_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,rpl_dio_print,-1
+target function: rpl_dio_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,rpl_dio_print,-1
+target function: rpl_dio_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,rpl_dio_print,1
+target function: rpl_dio_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,rpl_dio_print,1
+target function: rpl_dio_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,rpl_dio_print,1
+target function: rpl_dio_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16227
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,ieee802_11_print,-1
+target function: ieee802_11_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,ieee802_11_print,-1
+target function: ieee802_11_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,ieee802_11_print,-1
+target function: ieee802_11_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,ieee802_11_print,1
+target function: ieee802_11_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,ieee802_11_print,1
+[*] /s; sim-cal:0.962229
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,ieee802_11_print,1
+[*] /s; sim-cal:0.84339
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16228
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,print_prefix,-1
+[*] /s; sim-cal:0.619731
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_prefix,-1
+[*] /s; sim-cal:0.64272
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_prefix,-1
+[*] /s; sim-cal:0.715594
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_prefix,1
+[*] /s; sim-cal:0.635767
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_prefix,1
+[*] /s; sim-cal:0.65887
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_prefix,1
+[*] /s; sim-cal:0.941996
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16229
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,dccp_print_option,-1
+target function: dccp_print_option not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,dccp_print_option,-1
+target function: dccp_print_option not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,dccp_print_option,-1
+target function: dccp_print_option not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,dccp_print_option,1
+target function: dccp_print_option not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,dccp_print_option,1
+target function: dccp_print_option not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,dccp_print_option,1
+target function: dccp_print_option not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16230
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:1.012215
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.100989
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.092763
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.089965
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.083051
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.083074
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16300
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_attr_get_as_size,-1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_get_as_size,-1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_get_as_size,-1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_get_as_size,1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_get_as_size,1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_get_as_size,1
+target function: bgp_attr_get_as_size not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.163573
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.115672
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_attr_print,-1
+[*] /s; sim-cal:0.092774
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.0912
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.082751
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_attr_print,1
+[*] /s; sim-cal:0.092638
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,bgp_update_print,-1
+target function: bgp_update_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,bgp_update_print,-1
+target function: bgp_update_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,bgp_update_print,-1
+target function: bgp_update_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,bgp_update_print,1
+target function: bgp_update_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,bgp_update_print,1
+target function: bgp_update_print not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,bgp_update_print,1
+target function: bgp_update_print not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16451
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,print_trans,-1
+[*] /s; sim-cal:0.715219
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,print_trans,-1
+[*] /s; sim-cal:0.66564
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,print_trans,-1
+[*] /s; sim-cal:0.67493
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,print_trans,1
+target function: print_trans not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,print_trans,1
+target function: print_trans not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,print_trans,1
+target function: print_trans not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-16452
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.2-o2-tcpdump,smb_fdata,-1
+[*] /s; sim-cal:0.938321
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.1-o2-tcpdump,smb_fdata,-1
+[*] /s; sim-cal:0.870879
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.0-o2-tcpdump,smb_fdata,-1
+[*] /s; sim-cal:0.746345
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.9.3-o2-tcpdump,smb_fdata,1
+target function: smb_fdata not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99.0-bp-o2-tcpdump,smb_fdata,1
+target function: smb_fdata not found
+[*] Detection for /binaries/target/tcpdump/tcpdump-4.99-bp-o2-tcpdump,smb_fdata,1
+target function: smb_fdata not found

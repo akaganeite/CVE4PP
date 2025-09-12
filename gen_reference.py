@@ -7,7 +7,7 @@ import sys
 
 # 基础路径设置
 BASE_DIR = os.getcwd()
-VALID_BASE = os.path.expanduser("/home/zhangxb/patch/related-works/CVE-Dataset/New/testset/")
+VALID_BASE = os.path.expanduser("/home/zhangxb/patch/related-works/CVE-Dataset/New/Diff/")
 
 def extract_cve_info(filename):
     """从文件名中提取CVE编号和文件类型"""
@@ -81,7 +81,7 @@ for filename in os.listdir(project_path):
         cve_files[cve_id]["patch_commit"] = commit_hash
 
 # 步骤2: 处理details文件获取函数名
-valid_file = os.path.join(VALID_BASE, project_name, "valid")
+valid_file = os.path.join(VALID_BASE, project_name, "valid2")
 for cve_id in list(cve_files.keys()):
     # 尝试两种commit格式匹配details文件
     commit_candidates = [
@@ -99,7 +99,7 @@ for cve_id in list(cve_files.keys()):
         cve_files[cve_id]["functions"] = ""
 
 # 步骤3: 生成项目文件
-output_path = os.path.join(project_path, project_name)
+output_path = os.path.join("../revision", project_name)
 with open(output_path, 'w') as out_file:
     for cve_id, files in cve_files.items():
         vuln_path = files.get("vuln", "")

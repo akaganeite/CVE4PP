@@ -190,7 +190,7 @@ def compile_openssl_tag(git_checkout_ref: str, output_binary_name: str, destinat
             run_command(["make", "depend"], cwd=REPO_DIR, redirect_to_devnull=True)
             
             # Make
-            return_code, stdout, stderr = run_command(["make", "-j", "15"], cwd=REPO_DIR)
+            return_code, stdout, stderr = run_command(["make", "-j", "$(nproc)"], cwd=REPO_DIR)
             
             logger.info("Build ended")
             compilation_success = True

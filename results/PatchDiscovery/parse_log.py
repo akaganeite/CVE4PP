@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import csv
 from collections import defaultdict
@@ -82,77 +83,108 @@ def parse_log_file(log_file_path):
     return cve_results
 
 def analyze_cve_results(cve_results):
-    """分析CVE结果并生成CSV数据（以CVE+version为单位统计）"""
-    
+    """分析CVE结果并生成CSV数据（以CVE为单位统计）"""
     csv_data = []
-    
+    total_tp_project, total_tn_project, total_fp_project, total_fn_project = 0, 0, 0, 0
+
     for cve, data in cve_results.items():
-        # 1. 收集所有出现过的version
-        version_set = set()
-        for function_name, results in data['functions'].items():
-            for result in results:
-                version_set.add(result['version'])
+        # 1. 按版本重新组织数据
+        results_by_version = defaultdict(list)
+        for func_name, results_list in data['functions'].items():
+            for result in results_list:
+                result['function_name'] = func_name
+                results_by_version[result['version']].append(result)
 
-        total_versions = len(version_set)
+        # 2. 分析每个版本的结果
         succeed_versions = 0
-        failed_versions = []
-        false_positive = []
-        false_negative = []
+        failed_versions_details = {
+            'failed': [],
+            'additional_error': [],
+            'false_positive': [],
+            'false_negative': []
+        }
+        tp_cve, tn_cve, fp_cve, fn_cve = 0, 0, 0, 0
 
-        for version in version_set:
-            all_correct = True
-            version_false_positive = False
-            version_false_negative = False
-            for function_name, results in data['functions'].items():
-                found = False
-                for result in results:
-                    if result['version'] == version:
-                        found = True
-                        expected_vulnerable = result['expected_vulnerable']
-                        expected_patched = result['expected_patched']
-                        is_vulnerable = result['is_vulnerable']
-                        is_patched = result['is_patched']
-                        # 判断是否正确
-                        if not ((expected_vulnerable and is_vulnerable) or (expected_patched and is_patched)):
-                            all_correct = False
-                        # 判断假阳性
-                        if expected_vulnerable and is_patched:
-                            version_false_positive = True
-                        # 判断假阴性
-                        if expected_patched and is_vulnerable:
-                            version_false_negative = True
-                        break
-                if not found:
-                    all_correct = False
-            if all_correct:
+        for version, version_results in results_by_version.items():
+            is_version_correct = True
+            has_fp = False
+            has_fn = False
+            has_error = False
+            
+            # 确定此版本的预期状态（易受攻击或已修补）
+            # 假设同一版本的所有函数具有相同的预期状态
+            expected_patched = any(r['expected_patched'] for r in version_results)
+            expected_vulnerable = any(r['expected_vulnerable'] for r in version_results)
+
+            for result in version_results:
+                # 检查无法判定的情况
+                if 'fail to decide' in result['result']:
+                    has_error = True
+                    is_version_correct = False
+                    continue
+
+                # 检查 FP 和 FN
+                if result['expected_patched'] and result['is_vulnerable']:
+                    has_fn = True # 预期已修补但检测为易受攻击 -> FN
+                    is_version_correct = False
+                if result['expected_vulnerable'] and result['is_patched']:
+                    has_fp = True # 预期易受攻击但检测为已修补 -> FP
+                    is_version_correct = False
+
+            # 3. 更新统计信息
+            if is_version_correct:
                 succeed_versions += 1
+                if expected_patched:
+                    tp_cve += 1
+                elif expected_vulnerable:
+                    tn_cve += 1
             else:
-                # 只在不是假阳性也不是假阴性的情况下，才加入 failed_versions
-                if not version_false_positive and not version_false_negative:
-                    failed_versions.append(version)
-            if version_false_positive:
-                false_positive.append(version)
-            if version_false_negative:
-                false_negative.append(version)
+                # 版本失败，确定原因
+                if has_error:
+                    failed_versions_details['additional_error'].append(version)
+                if has_fp:
+                    failed_versions_details['false_positive'].append(version)
+                    fp_cve += 1
+                if has_fn:
+                    failed_versions_details['false_negative'].append(version)
+                    fn_cve += 1
+                
+                # 如果既没有FP/FN也没有错误，但仍然不正确，则归入通用失败类别
+                if not has_error and not has_fp and not has_fn:
+                    failed_versions_details['failed'].append(version)
 
-        accuracy = (succeed_versions / total_versions * 100) if total_versions > 0 else 0
+
+        total_versions = len(results_by_version)
+        
+        # 累加到项目总数
+        total_tp_project += tp_cve
+        total_tn_project += tn_cve
+        total_fp_project += fp_cve
+        total_fn_project += fn_cve
 
         csv_data.append({
             'cve': cve,
             'succeed': succeed_versions,
             'target': total_versions,
-            'accuracy': f"{accuracy:.2f}%",
-            'failed_versions': ';'.join(failed_versions) if failed_versions else '',
-            'false_positive': ';'.join(false_positive) if false_positive else '',
-            'false_negative': ';'.join(false_negative) if false_negative else ''
+            'tp': tp_cve,
+            'tn': tn_cve,
+            'fp': fp_cve,
+            'fn': fn_cve,
+            'failed_versions': ';'.join(sorted(list(set(failed_versions_details['failed'])))),
+            'additional_error': ';'.join(sorted(list(set(failed_versions_details['additional_error'])))),
+            'false_positive': ';'.join(sorted(list(set(failed_versions_details['false_positive'])))),
+            'false_negative': ';'.join(sorted(list(set(failed_versions_details['false_negative']))))
         })
-    
-    return csv_data
+        
+    return csv_data, total_tp_project, total_tn_project, total_fp_project, total_fn_project
 
 def write_csv(csv_data, output_file):
     """写入CSV文件"""
     
-    fieldnames = ['cve', 'succeed', 'target', 'accuracy', 'failed_versions', 'false_positive', 'false_negative']
+    fieldnames = [
+        'cve', 'succeed', 'target', 'tp', 'tn', 'fp', 'fn', 
+        'failed_versions', 'additional_error', 'false_positive', 'false_negative'
+    ]
     
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -179,37 +211,99 @@ def calculate_overall_statistics(csv_data):
     }
 
 def main():
-    parser = argparse.ArgumentParser(description='解析BinXray检测结果')
+    parser = argparse.ArgumentParser(description='解析PatchDiscovery检测结果')
     parser.add_argument(
-        "-proj", "--project",
-        required=True,
-        type=str,
+        "--projects",
+        default=["binutils","curl","freetype","ffmpeg","imagemagick","libxml2","openssl","openjpeg","sqlite","tcpdump"],
+        nargs="*"
     )
+    parser.add_argument(
+        "-opt", "--optimization",
+        type=str,
+        help="优化级别 (如 o0, o1, o2, o3)"
+    )
+    parser.add_argument(
+        "-compiler", "--compiler",
+        type=str,
+        help="编译器 (如 gcc, clang)"
+    )
+    
     args = parser.parse_args()
-    project  = args.project
+    projects = args.projects
 
-    log_file = f"{project}-test.log"
-    output_file = f"{project}-cve.csv"
-    
-    print(f"正在解析日志文件: {log_file}")
-    cve_results = parse_log_file(log_file)
-    
-    print(f"正在分析CVE结果...")
-    csv_data = analyze_cve_results(cve_results)
-    
-    print(f"正在写入CSV文件: {output_file}")
-    write_csv(csv_data, output_file)
-    
-    print(f"完成！共处理了 {len(csv_data)} 个CVE")
-    
-    # 计算整体统计信息
-    stats = calculate_overall_statistics(csv_data)
-    
-    print(f"\n=== 整体统计信息 ===")
-    print(f"总检测数量: {stats['total_detections']}")
-    print(f"成功检测数量: {stats['total_successful']}")
-    print(f"整体准确率: {stats['overall_accuracy']:.2f}%")
-    print(f"排除failed的准确率: {stats['filtered']:.2f}%")
+    # 初始化所有项目的总计数器
+    all_projects_tp = 0
+    all_projects_tn = 0
+    all_projects_fp = 0
+    all_projects_fn = 0
+    all_projects_target = 0
+    processed_projects_count = 0
+
+    for project in projects:
+        # 根据是否指定opt和compiler参数来决定文件名
+        if args.optimization and args.compiler:
+            dir_path = f"{args.compiler}-{args.optimization}"
+            if not os.path.exists(dir_path):
+                os.makedirs(dir_path)
+            log_file = os.path.join(dir_path, f"{project}-test.log")
+            output_file = os.path.join(dir_path, f"{project}-cve.csv")
+        else:
+            log_file = f"{project}-test.log"
+            output_file = f"{project}-cve.csv"
+
+        if not os.path.exists(log_file):
+            print(f"警告：输入文件 {log_file} 不存在，跳过项目 {project}")
+            continue
+
+        print(f"======== 处理项目: {project} ========")
+        print(f"正在解析日志文件: {log_file}")
+        cve_results = parse_log_file(log_file)
+        
+        print(f"正在分析CVE结果...")
+        csv_data, total_tp, total_tn, total_fp, total_fn = analyze_cve_results(cve_results)
+        
+        print(f"正在写入CSV文件: {output_file}")
+        write_csv(csv_data, output_file)
+        
+        print(f"完成！共处理了 {len(csv_data)} 个CVE")
+        
+        # 计算并打印当前项目的整体统计信息
+        stats = calculate_overall_statistics(csv_data)
+        
+        print(f"\n--- {project} 整体统计信息 ---")
+        print(f"总检测版本数量: {stats['total_detections']}")
+        print(f"成功检测版本数量: {stats['total_successful']}")
+        print(f"整体准确率: {stats['overall_accuracy']:.2f}%")
+        print(f"排除failed的准确率: {stats['filtered']:.2f}%\n")
+
+                # 累加到总计数器
+        all_projects_tp += total_tp
+        all_projects_tn += total_tn
+        all_projects_fp += total_fp
+        all_projects_fn += total_fn
+        all_projects_target += stats['total_detections']
+        processed_projects_count += 1
+
+    # 在所有项目处理完毕后，打印聚合结果
+    if processed_projects_count > 0:
+        print("========================================")
+        print("======== 所有项目聚合结果 (Macro) ========")
+        print("========================================")
+        
+        # 计算宏观平均指标
+        total_classified = all_projects_tp + all_projects_tn + all_projects_fp + all_projects_fn
+        macro_accuracy = (all_projects_tp + all_projects_tn) / total_classified if total_classified > 0 else 0
+        macro_precision = all_projects_tp / (all_projects_tp + all_projects_fp) if (all_projects_tp + all_projects_fp) > 0 else 0
+        macro_recall = all_projects_tp / (all_projects_tp + all_projects_fn) if (all_projects_tp + all_projects_fn) > 0 else 0
+        macro_f1 = 2 * (macro_precision * macro_recall) / (macro_precision + macro_recall) if (macro_precision + macro_recall) > 0 else 0
+        effectiveness = (all_projects_tp + all_projects_tn) / all_projects_target if all_projects_target > 0 else 0
+        print(f"effectiveness:{all_projects_tp + all_projects_tn}/{all_projects_target}={effectiveness:.4f}")
+        print(f"TP: {all_projects_tp}, TN: {all_projects_tn}, FP: {all_projects_fp}, FN: {all_projects_fn}")
+        print(f"整体准确率 (Accuracy): {macro_accuracy:.4f}")
+        print(f"整体精确率 (Precision): {macro_precision:.4f}")
+        print(f"整体召回率 (Recall): {macro_recall:.4f}")
+        print(f"整体F1分数 (F1-Score): {macro_f1:.4f}")
+
 
 if __name__ == "__main__":
-    main() 
+    main()

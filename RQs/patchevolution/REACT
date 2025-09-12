@@ -1,0 +1,43 @@
+libxml2_evo.csv:
+  succeed/targets = 0/45 = 0.0000
+  succeed/(targets-func_not_found) = 0/(45-0) = 0.0000
+  succeed/valid_targets = 0/34 = 0.0000 (只考虑FP/FN)
+
+imagemagick_evo.csv:
+  succeed/targets = 6/102 = 0.0588
+  succeed/(targets-func_not_found) = 6/(102-0) = 0.0588
+  succeed/valid_targets = 6/22 = 0.2727 (只考虑FP/FN)
+
+tcpdump_evo.csv:
+  succeed/targets = 44/292 = 0.1507
+  succeed/(targets-func_not_found) = 44/(292-0) = 0.1507
+  succeed/valid_targets = 44/185 = 0.2378 (只考虑FP/FN)
+
+openjpeg_evo.csv:
+  succeed/targets = 15/17 = 0.8824
+  succeed/(targets-func_not_found) = 15/(17-0) = 0.8824
+  succeed/valid_targets = 15/17 = 0.8824 (只考虑FP/FN)
+
+------------------------------------------------------------
+ALL PROJECTS (REACT)
+------------------------------------------------------------
+EVO1:
+  Total functions tested: 68
+  Functions detected as patch: 17
+  Functions detected as vulnerability: 51
+  Overall accuracy: 0.2500
+EVO2:
+  Total functions tested: 66
+  Functions detected as patch: 18
+  Functions detected as vulnerability: 48
+  Overall accuracy: 0.2727
+EVO3:
+  Total functions tested: 62
+  Functions detected as patch: 14
+  Functions detected as vulnerability: 48
+  Overall accuracy: 0.2258
+EVO4:
+  Total functions tested: 62
+  Functions detected as patch: 16
+  Functions detected as vulnerability: 46
+  Overall accuracy: 0.2581

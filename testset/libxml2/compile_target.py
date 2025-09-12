@@ -10,7 +10,7 @@ from datetime import datetime
 
 REPO_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/target/libxml2"
 VERSIONS_FILE = "versions"
-TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target/libxml2"
+TARGET_DIR = "/home/zhangxb/patch/related-works/CVE-Dataset/binaries/target_clang/libxml2"
 BUILD_DIR_PREFIX = f"{REPO_DIR}/build"
 LOGS_DIR = "logs"
 

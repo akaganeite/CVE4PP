@@ -1,0 +1,726 @@
+
+Detect o3 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2016-6153
+[*] Detection for /binaries/target/sqlite/sqlite-3.12.2-o3-sqlite3,unixGetTempname,-1
+[*] /s; sim-cal:26.905733
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.12.1-o3-sqlite3,unixGetTempname,-1
+[*] /s; sim-cal:21.948089
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.9.3-o3-sqlite3,unixGetTempname,-1
+target function: unixGetTempname not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.13.0-o3-sqlite3,unixGetTempname,1
+[*] /s; sim-cal:27.434338
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.14.1-o3-sqlite3,unixGetTempname,1
+[*] /s; sim-cal:22.517055
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.14.2-o3-sqlite3,unixGetTempname,1
+[*] /s; sim-cal:16.45942
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.12.2-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.12.1-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.9.3-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.13.0-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.14.1-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.14.2-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20346
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.2-o3-sqlite3,nodeReaderNext,-1
+[*] /s; sim-cal:12.353861
+[*] Detection Result:V 0.9919457875344251/0.3664858877929667 2/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.1-o3-sqlite3,nodeReaderNext,-1
+[*] /s; sim-cal:12.284997
+[*] Detection Result:V 0.9981851179673321/0.36038386556026797 1/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.0-o3-sqlite3,nodeReaderNext,-1
+[*] /s; sim-cal:13.313801
+[*] Detection Result:V 0.9919457875344251/0.3664858877929667 2/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.3-o3-sqlite3,nodeReaderNext,1
+[*] /s; sim-cal:12.550134
+[*] Detection Result:P 0.42247451000307296/0.9957905470926475 11/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.26.0-o3-sqlite3,nodeReaderNext,1
+[*] /s; sim-cal:12.364117
+[*] Detection Result:P 0.41458880350652333/0.991581094185295 11/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.0-o3-sqlite3,nodeReaderNext,1
+[*] /s; sim-cal:12.524585
+[*] Detection Result:P 0.41458880350652333/0.979267982009788 11/4,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.2-o3-sqlite3,fts3SegReaderNext,-1
+[*] /s; sim-cal:1.087445
+[*] Detection Result:V 0.7686706601989167/0.2745656844744008 6/13,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.1-o3-sqlite3,fts3SegReaderNext,-1
+[*] /s; sim-cal:0.801748
+[*] Detection Result:V 0.784547676327949/0.2158958736817452 3/10,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.0-o3-sqlite3,fts3SegReaderNext,-1
+[*] /s; sim-cal:0.93626
+[*] Detection Result:V 0.784547676327949/0.2158958736817452 4/11,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.3-o3-sqlite3,fts3SegReaderNext,1
+[*] /s; sim-cal:0.910856
+[*] Detection Result:P 0.24098919614768968/0.8115867265835168 10/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.26.0-o3-sqlite3,fts3SegReaderNext,1
+[*] /s; sim-cal:0.807261
+[*] Detection Result:P 0.24098919614768968/0.8115867265835168 11/4,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.0-o3-sqlite3,fts3SegReaderNext,1
+[*] /s; sim-cal:0.810234
+[*] Detection Result:P 0.42730264134948454/0.7159446428942825 11/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.2-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] /s; sim-cal:0.883561
+[*] Detection Result:V 0.8744959677419355/0.14835834896810504 2/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.1-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] /s; sim-cal:0.855098
+[*] Detection Result:V 0.8744959677419355/0.14835834896810504 2/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.0-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] /s; sim-cal:0.84394
+[*] Detection Result:V 0.8744959677419355/0.14835834896810504 2/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.25.3-o3-sqlite3,fts3ScanInteriorNode,1
+[*] /s; sim-cal:0.910416
+[*] Detection Result:P 0.17611582313681867/0.9152439024390244 6/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.26.0-o3-sqlite3,fts3ScanInteriorNode,1
+[*] /s; sim-cal:0.853397
+[*] Detection Result:P 0.17611582313681867/0.9152439024390244 6/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.0-o3-sqlite3,fts3ScanInteriorNode,1
+[*] /s; sim-cal:1.166473
+[*] Detection Result:P 0.17611582313681867/0.9152439024390244 6/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19242
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3ExprCodeTarget,-1
+[*] /s; sim-cal:13.095481
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] /s; sim-cal:16.07303
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] /s; sim-cal:15.689367
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] /s; sim-cal:15.547258
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,whereIndexExprTransColumn,-1
+target function: whereIndexExprTransColumn not found
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,whereIndexExprTransColumn,1
+[*] /s; sim-cal:1.113531
+[*] Detection Result:P 0.43833943833943834/0.9656556645851918 5/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,whereIndexExprTransColumn,1
+[*] /s; sim-cal:1.260828
+[*] Detection Result:P 0.43833943833943834/0.9656556645851918 5/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,whereIndexExprTransColumn,1
+[*] /s; sim-cal:0.924692
+[*] Detection Result:P 0.43833943833943834/0.9656556645851918 5/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19244
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3Select,-1
+[*] /s; sim-cal:1.206417
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.496599
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.295572
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.396463
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19317
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,lookupName,-1
+[*] /s; sim-cal:0.968968
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,lookupName,1
+[*] /s; sim-cal:1.222652
+[*] Detection Result:P 0.6739130434782608/0.6950447888592547 34/34,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,lookupName,1
+[*] /s; sim-cal:1.088976
+[*] Detection Result:P 0.6739130434782608/0.7022911656708488 34/34,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,lookupName,1
+[*] /s; sim-cal:1.047899
+[*] Detection Result:V 0.6190476190476191/0.241017866458346 33/33,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19645
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3CreateView,-1
+[*] /s; sim-cal:0.829219
+[*] Detection Result:V 0.9251336898395722/0.7400983005574691 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3CreateView,-1
+[*] /s; sim-cal:12.860447
+[*] Detection Result:V 0.9251336898395722/0.7628255732847418 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3CreateView,-1
+[*] /s; sim-cal:12.550494
+[*] Detection Result:V 0.9251336898395722/0.7400983005574691 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3CreateView,1
+[*] /s; sim-cal:0.896329
+[*] Detection Result:P 0.7893228790287614/0.9251336898395722 3/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3CreateView,1
+[*] /s; sim-cal:0.97366
+[*] Detection Result:P 0.7893228790287614/0.9251336898395722 3/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3CreateView,1
+[*] /s; sim-cal:0.947096
+[*] Detection Result:P 0.7893228790287614/0.9251336898395722 3/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameTableFunc,-1
+[*] /s; sim-cal:0.944107
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,renameTableFunc,-1
+[*] /s; sim-cal:0.914831
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,renameTableFunc,-1
+[*] /s; sim-cal:0.891573
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameTableFunc,1
+[*] /s; sim-cal:0.990567
+[*] Detection Result:P 0.17697078831532614/0.7991744066047471 6/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameTableFunc,1
+[*] /s; sim-cal:1.117156
+[*] Detection Result:P 0.17697078831532614/0.7991744066047471 6/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameTableFunc,1
+[*] /s; sim-cal:0.922889
+[*] Detection Result:P 0.17697078831532614/0.7991744066047471 6/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameColumnFunc,-1
+[*] /s; sim-cal:0.923167
+[*] Detection Result:V 0.8020833333333333/0.4270833333333333 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,renameColumnFunc,-1
+[*] /s; sim-cal:0.909648
+[*] Detection Result:V 0.8020833333333333/0.4270833333333333 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,renameColumnFunc,-1
+[*] /s; sim-cal:0.913574
+[*] Detection Result:V 0.8020833333333333/0.4270833333333333 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameColumnFunc,1
+[*] /s; sim-cal:1.18205
+[*] Detection Result:P 0.4270833333333333/0.8020833333333333 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameColumnFunc,1
+[*] /s; sim-cal:1.097249
+[*] Detection Result:P 0.43749999999999994/0.8229166666666667 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameColumnFunc,1
+[*] /s; sim-cal:1.106815
+[*] Detection Result:P 0.4270833333333333/0.8020833333333333 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.857593
+[*] Detection Result:V 0.8333333333333334/0.41919191919191917 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.967398
+[*] Detection Result:V 0.8333333333333334/0.41919191919191917 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.937138
+[*] Detection Result:V 0.75/0.3803030303030303 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:0.92319
+[*] Detection Result:P 0.8333333333333334/0.8377777777777778 12/10,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:0.980672
+[*] Detection Result:P 0.8333333333333334/0.8377777777777778 12/10,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:1.076994
+[*] Detection Result:P 0.8333333333333334/0.8377777777777778 12/10,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameColumnSelectCb,-1
+[*] /s; sim-cal:0.940949
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,renameColumnSelectCb,-1
+[*] /s; sim-cal:0.898087
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,renameColumnSelectCb,-1
+[*] /s; sim-cal:0.90911
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameColumnSelectCb,1
+[*] /s; sim-cal:1.067894
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameColumnSelectCb,1
+[*] /s; sim-cal:1.032507
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameColumnSelectCb,1
+[*] /s; sim-cal:0.884032
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameTableSelectCb,-1
+[*] /s; sim-cal:0.824854
+[*] Detection Result:V 0.9642857142857143/0.21645021645021645 1/2,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,renameTableSelectCb,-1
+[*] /s; sim-cal:0.880545
+[*] Detection Result:V 0.9642857142857143/0.21645021645021645 1/2,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,renameTableSelectCb,-1
+[*] /s; sim-cal:0.854828
+[*] Detection Result:V 0.9642857142857143/0.21645021645021645 1/2,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameTableSelectCb,1
+[*] /s; sim-cal:0.938457
+[*] Detection Result:P 0.2767857142857143/0.9797979797979798 4/1,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameTableSelectCb,1
+[*] /s; sim-cal:1.224141
+[*] Detection Result:P 0.2767857142857143/0.9797979797979798 4/1,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameTableSelectCb,1
+[*] /s; sim-cal:0.944873
+[*] Detection Result:P 0.2767857142857143/0.9797979797979798 4/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19646
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] /s; sim-cal:0.921252
+[*] Detection Result:V 0.9708647906657516/0.37152337365152005 1/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] /s; sim-cal:0.838055
+[*] Detection Result:V 0.9708647906657516/0.37152337365152005 1/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] /s; sim-cal:0.81953
+[*] Detection Result:V 0.9708647906657516/0.37152337365152005 1/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] /s; sim-cal:0.968659
+[*] Detection Result:P 0.2182338137725921/0.9588763575605682 9/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] /s; sim-cal:0.971982
+[*] Detection Result:P 0.2182338137725921/0.9588763575605682 9/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] /s; sim-cal:0.9693
+[*] Detection Result:P 0.2182338137725921/0.9588763575605682 9/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3Pragma,-1
+[*] /s; sim-cal:1.556776
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3Pragma,-1
+[*] /s; sim-cal:1.481989
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3Pragma,-1
+[*] /s; sim-cal:1.40414
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3Pragma,1
+[*] /s; sim-cal:1.54621
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3Pragma,1
+[*] /s; sim-cal:1.627758
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Pragma,1
+[*] /s; sim-cal:1.528763
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19880
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,exprListAppendList,-1
+[*] /s; sim-cal:0.927469
+[*] Detection Result:V 0.913919413919414/0.8278321456291464 2/2,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,exprListAppendList,1
+[*] /s; sim-cal:1.099363
+[*] Detection Result:V 0.19736842105263158/0.1688870755700621 11/8,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,exprListAppendList,1
+[*] /s; sim-cal:1.293072
+[*] Detection Result:V 0.19736842105263158/0.1688870755700621 11/8,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,exprListAppendList,1
+[*] /s; sim-cal:1.028608
+[*] Detection Result:V 0.2391304347826087/0.21101858771336726 16/13,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19923
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,flattenSubquery,-1
+[*] /s; sim-cal:1.020164
+[*] Detection Result:V 0.7630396605073648/0.7403517841225739 18/19,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.050647
+[*] Detection Result:V 0.7472501868231544/0.7403517841225739 21/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.108683
+[*] Detection Result:V 0.7472501868231544/0.7403517841225739 21/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.203485
+[*] Detection Result:P 0.7302223230460646/0.7353106480280862 24/22,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19924
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,codeCompare,-1
+[*] /s; sim-cal:0.859445
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,codeCompare,1
+[*] /s; sim-cal:0.982949
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,codeCompare,1
+[*] /s; sim-cal:0.871479
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,codeCompare,1
+[*] /s; sim-cal:0.958646
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,vdbeVComment,-1
+[*] /s; sim-cal:0.916508
+[*] Detection Result:V 0.782051282051282/0.6982600732600732 3/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,vdbeVComment,1
+[*] /s; sim-cal:1.039957
+[*] Detection Result:P 0.7051282051282052/0.7916819291819291 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,vdbeVComment,1
+[*] /s; sim-cal:1.011876
+[*] Detection Result:P 0.7051282051282052/0.7916819291819291 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,vdbeVComment,1
+[*] /s; sim-cal:1.014815
+[*] Detection Result:P 0.7051282051282052/0.7916819291819291 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3WindowRewrite,-1
+[*] /s; sim-cal:0.89961
+[*] Detection Result:V 1.0/0.6255532861434062 4/5,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3WindowRewrite,1
+[*] /s; sim-cal:1.018849
+[*] Detection Result:P 0.4714285714285714/0.9091335609461464 10/6,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3WindowRewrite,1
+[*] /s; sim-cal:0.973511
+[*] Detection Result:P 0.4714285714285714/0.9091335609461464 10/6,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3WindowRewrite,1
+[*] /s; sim-cal:0.982629
+[*] Detection Result:P 0.08108108108108109/0.9064597641547026 12/8,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19925
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileUpdate,-1
+[*] /s; sim-cal:0.936569
+[*] Detection Result:V 0.27244483007414044/0.1113900530585749 18/19,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:1.00547
+[*] Detection Result:V 0.11753688361446982/0.09601526740899126 21/18,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:1.03947
+[*] Detection Result:P 0.19263689854207094/0.22395045898996474 27/23,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:1.175661
+[*] Detection Result:V 0.21017427974324526/0.19308822149353094 21/18,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19926
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,multiSelect,-1
+[*] /s; sim-cal:1.10049
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:1.052634
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:1.135736
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:1.075309
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19959
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileStep,-1
+[*] /s; sim-cal:0.91346
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileStep,1
+[*] /s; sim-cal:0.965107
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileStep,1
+[*] /s; sim-cal:0.967441
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileStep,1
+[*] /s; sim-cal:1.028485
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileUpdate,-1
+[*] /s; sim-cal:0.028035
+[*] Detection Result:V 0.6752742093587164/0.4506405097250167 16/19,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:0.019795
+[*] Detection Result:V 0.5252742093587164/0.4123071763916834 16/17,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:0.029105
+[*] Detection Result:P 0.4049136926824103/0.4240364996999541 20/22,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileUpdate,1
+[*] /s; sim-cal:0.017702
+[*] Detection Result:P 0.3870706017481407/0.41451269017614456 15/16,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-20218
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,selectExpander,-1
+[*] /s; sim-cal:1.052097
+[*] Detection Result:V 1.0/0.25223214285714285 30/30,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:0.996189
+[*] Detection Result:P 0.41428571428571426/0.5142857142857142 31/30,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:1.034185
+[*] Detection Result:P 0.41428571428571426/0.5142857142857142 31/30,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:1.163927
+[*] Detection Result:P 0.41428571428571426/0.5142857142857142 32/31,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-8457
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.2-o3-sqlite3,rtreenode,-1
+[*] /s; sim-cal:12.944549
+[*] Detection Result:V 1.0/0.05958500830796336 1/8,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.1-o3-sqlite3,rtreenode,-1
+[*] /s; sim-cal:12.771384
+[*] Detection Result:V 1.0/0.05958500830796336 1/8,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.27.0-o3-sqlite3,rtreenode,-1
+[*] /s; sim-cal:0.894386
+[*] Detection Result:V 1.0/0.05958500830796336 1/8,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.28.0-o3-sqlite3,rtreenode,1
+[*] /s; sim-cal:12.574323
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.29.0-o3-sqlite3,rtreenode,1
+[*] /s; sim-cal:0.8463
+[*] Detection Result:P 0.10084745762711865/1.0 15/1,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.0-o3-sqlite3,rtreenode,1
+[*] /s; sim-cal:0.836769
+[*] Detection Result:P 0.10084745762711865/1.0 15/1,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-11655
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,resetAccumulator,-1
+[*] /s; sim-cal:1.028726
+[*] Detection Result:V 0.9208205637385204/0.8902406347307663 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,resetAccumulator,-1
+[*] /s; sim-cal:0.950959
+[*] Detection Result:V 0.9180857204657514/0.8902406347307663 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,resetAccumulator,-1
+[*] /s; sim-cal:0.811906
+[*] Detection Result:V 0.9058803332603643/0.8902406347307663 6/6,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,resetAccumulator,1
+[*] /s; sim-cal:1.064361
+[*] Detection Result:P 0.9064930783584035/0.9379967437533228 6/4,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,resetAccumulator,1
+[*] /s; sim-cal:15.381565
+[*] Detection Result:P 0.9064930783584035/0.9379967437533228 6/4,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,resetAccumulator,1
+[*] /s; sim-cal:16.926789
+[*] Detection Result:P 0.9169097450250702/0.9379967437533228 6/4,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-11656
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.006318
+[*] Detection Result:V 0.8461538461538461/0.8333333333333334 3/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.00591
+[*] Detection Result:P 0.8461538461538461/0.9166666666666666 3/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] /s; sim-cal:0.006445
+[*] Detection Result:P 0.0/0.8333333333333334 7/7,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:0.00766
+[*] Detection Result:V 0.8461538461538461/0.8333333333333334 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:0.901896
+[*] Detection Result:V 0.8461538461538461/0.8333333333333334 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,renameUnmapSelectCb,1
+[*] /s; sim-cal:0.89286
+[*] Detection Result:V 0.8461538461538461/0.8333333333333334 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13434
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,printfTempBuf,-1
+[*] /s; sim-cal:1.040057
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,printfTempBuf,-1
+[*] /s; sim-cal:0.933844
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,printfTempBuf,-1
+[*] /s; sim-cal:0.995596
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,printfTempBuf,1
+[*] /s; sim-cal:0.938714
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,printfTempBuf,1
+[*] /s; sim-cal:0.988095
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.3-o3-sqlite3,printfTempBuf,1
+[*] /s; sim-cal:15.150143
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] /s; sim-cal:1.341471
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] /s; sim-cal:1.270826
+[*] Detection Result:V 0.8498556998556999/0.7576701076701078 9/9,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] /s; sim-cal:1.26312
+[*] Detection Result:V 0.8498556998556999/0.7576701076701078 9/9,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,sqlite3_str_vappendf,1
+[*] /s; sim-cal:1.219696
+[*] Detection Result:V 0.920959595959596/0.8834304584304585 14/12,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,sqlite3_str_vappendf,1
+[*] /s; sim-cal:1.418471
+[*] Detection Result:V 0.920959595959596/0.8834304584304585 14/12,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.3-o3-sqlite3,sqlite3_str_vappendf,1
+[*] /s; sim-cal:1.21823
+[*] Detection Result:V 0.8498556998556999/0.8342046842046842 15/13,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13630
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,fts3EvalNextRow,-1
+[*] /s; sim-cal:1.104034
+[*] Detection Result:V 0.7023809523809523/0.6074179671868748 6/7,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,fts3EvalNextRow,-1
+[*] /s; sim-cal:1.118307
+[*] Detection Result:V 0.7023809523809523/0.6074179671868748 6/7,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,fts3EvalNextRow,-1
+[*] /s; sim-cal:0.972374
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,fts3EvalNextRow,1
+[*] /s; sim-cal:1.134645
+[*] Detection Result:V 0.7559523809523809/0.649234693877551 6/6,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,fts3EvalNextRow,1
+[*] /s; sim-cal:1.078831
+[*] Detection Result:V 0.7559523809523809/0.649234693877551 4/3,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,fts3EvalNextRow,1
+[*] /s; sim-cal:1.073211
+[*] Detection Result:P 0.7559523809523809/0.8176020408163265 6/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13632
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,fts3ExprLHits,-1
+[*] /s; sim-cal:0.911304
+[*] Detection Result:V 1.0/0.6210037348272642 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.0-o3-sqlite3,fts3ExprLHits,-1
+[*] /s; sim-cal:0.854763
+[*] Detection Result:V 1.0/0.6210037348272642 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.30.1-o3-sqlite3,fts3ExprLHits,-1
+[*] /s; sim-cal:0.86359
+[*] Detection Result:V 1.0/0.6210037348272642 2/3,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,fts3ExprLHits,1
+[*] /s; sim-cal:1.002959
+[*] Detection Result:P 0.4444444444444444/1.0 5/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,fts3ExprLHits,1
+[*] /s; sim-cal:0.961048
+[*] Detection Result:P 0.4444444444444444/1.0 5/2,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,fts3ExprLHits,1
+[*] /s; sim-cal:1.032471
+[*] Detection Result:P 0.4444444444444444/1.0 5/2,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-15358
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,multiSelect,-1
+[*] /s; sim-cal:1.079682
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,multiSelect,-1
+[*] /s; sim-cal:1.109826
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,-1
+[*] /s; sim-cal:0.029808
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.3-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:1.095453
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.33.0-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:15.734051
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.34.0-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:16.410413
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,flattenSubquery,-1
+[*] /s; sim-cal:1.138491
+[*] Detection Result:V 0.8139900842103811/0.7523720749362622 17/16,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,flattenSubquery,-1
+[*] /s; sim-cal:1.126435
+[*] Detection Result:P 0.7749720180387909/0.7901361529634983 18/16,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,flattenSubquery,-1
+[*] /s; sim-cal:0.051231
+[*] Detection Result:P 0.7827026925514725/0.7923156401429854 18/15,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.3-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.031571
+[*] Detection Result:V 0.8770482486526285/0.8435134879706773 14/13,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.33.0-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.165507
+[*] Detection Result:P 0.8233156447068852/0.8460536144085828 20/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.34.0-o3-sqlite3,flattenSubquery,1
+[*] /s; sim-cal:1.120929
+[*] Detection Result:P 0.820514524258706/0.8443869477419161 20/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,sqlite3Select,-1
+[*] /s; sim-cal:1.328194
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,sqlite3Select,-1
+[*] /s; sim-cal:1.339746
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Select,-1
+[*] /s; sim-cal:0.074401
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.3-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.630675
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.33.0-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.400757
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.34.0-o3-sqlite3,sqlite3Select,1
+[*] /s; sim-cal:1.336986
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35525
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,multiSelect,-1
+[*] /s; sim-cal:0.030706
+[*] Detection Result:V 0.9395155569068612/0.7248396018431875 25/26,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:0.028389
+[*] Detection Result:P 0.760077432838871/0.9455080261595065 28/25,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:0.029007
+[*] Detection Result:P 0.7481726709341089/0.9379322685837487 28/25,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,multiSelect,1
+[*] /s; sim-cal:0.047977
+[*] Detection Result:P 0.7481726709341089/0.9455080261595065 28/25,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35527
+[*] Detection for /binaries/target/sqlite/sqlite-3.31.1-o3-sqlite3,selectExpander,-1
+[*] /s; sim-cal:0.018997
+[*] Detection Result:V 1.0/0.8651340996168582 14/14,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.0-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:0.01855
+[*] Detection Result:P 0.8076628352490421/1.0 15/14,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.1-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:1.11699
+[*] Detection Result:P 0.8076628352490421/1.0 15/14,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.32.2-o3-sqlite3,selectExpander,1
+[*] /s; sim-cal:1.131692
+[*] Detection Result:P 0.8076628352490421/1.0 15/14,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-31239
+[*] Detection for /binaries/target/sqlite/sqlite-3.35.4-o3-sqlite3,apndOpen,-1
+[*] /s; sim-cal:15.957472
+[*] Detection Result:V 0.676640657419702/0.5851208285385501 12/14,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.35.5-o3-sqlite3,apndOpen,1
+[*] /s; sim-cal:16.237224
+[*] Detection Result:V 0.6510990020126856/0.6341845555092538 11/10,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.36.0-o3-sqlite3,apndOpen,1
+[*] /s; sim-cal:16.089363
+[*] Detection Result:P 0.5754832376925401/0.6252664354413515 12/12,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.37.0-o3-sqlite3,apndOpen,1
+[*] /s; sim-cal:17.564347
+[*] Detection Result:P 0.5754832376925401/0.6245114482559069 13/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-36690
+[*] Detection for /binaries/target/sqlite/sqlite-3.36.0-o3-sqlite3,idxGetTableInfo,-1
+[*] /s; sim-cal:0.946248
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.37.0-o3-sqlite3,idxGetTableInfo,1
+[*] /s; sim-cal:1.330905
+[*] Detection Result:V 0.42784965153069815/0.0 26/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.37.1-o3-sqlite3,idxGetTableInfo,1
+[*] /s; sim-cal:17.199338
+[*] Detection Result:V 0.33353834942236643/0.0 25/19,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.37.2-o3-sqlite3,idxGetTableInfo,1
+[*] /s; sim-cal:17.15447
+[*] Detection Result:V 0.42784965153069815/0.0 26/19,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-46908
+[*] Detection for /binaries/target/sqlite/sqlite-3.40.0-o3-sqlite3,safeModeAuth,-1
+[*] /s; sim-cal:18.128644
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.39.4-o3-sqlite3,safeModeAuth,-1
+[*] /s; sim-cal:17.321961
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.39.3-o3-sqlite3,safeModeAuth,-1
+[*] /s; sim-cal:17.447809
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.40.1-o3-sqlite3,safeModeAuth,1
+[*] /s; sim-cal:18.570394
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.41.0-o3-sqlite3,safeModeAuth,1
+[*] /s; sim-cal:18.05442
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.41.1-o3-sqlite3,safeModeAuth,1
+[*] /s; sim-cal:17.829437
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-7104
+[*] Detection for /binaries/target/sqlite/sqlite-3.43.0-o3-sqlite3,sessionReadRecord,-1
+[*] /s; sim-cal:18.684978
+[*] Detection Result:V 0.7545469734943419/0.27787581699346403 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.42.0-o3-sqlite3,sessionReadRecord,-1
+[*] /s; sim-cal:18.716049
+[*] Detection Result:V 0.7545469734943419/0.27787581699346403 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.41.2-o3-sqlite3,sessionReadRecord,-1
+[*] /s; sim-cal:18.999636
+[*] Detection Result:V 0.7545469734943419/0.27787581699346403 4/4,-1
+[*] Detection for /binaries/target/sqlite/sqlite-3.43.1-o3-sqlite3,sessionReadRecord,1
+[*] /s; sim-cal:19.062923
+[*] Detection Result:P 0.37826797385620914/0.7344968481810588 6/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.43.2-o3-sqlite3,sessionReadRecord,1
+[*] /s; sim-cal:19.113188
+[*] Detection Result:P 0.37826797385620914/0.7344968481810588 6/5,1
+[*] Detection for /binaries/target/sqlite/sqlite-3.44.0-o3-sqlite3,sessionReadRecord,1
+[*] /s; sim-cal:18.736401
+[*] Detection Result:P 0.37826797385620914/0.7344968481810588 6/5,1

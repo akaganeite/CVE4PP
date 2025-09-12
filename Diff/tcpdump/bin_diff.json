@@ -1,0 +1,900 @@
+{
+    "CVE-2017-12893": [
+        {
+            "function": "name_len",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12894": [
+        {
+            "function": "lookup_nsap",
+            "type": "modified"
+        },
+        {
+            "function": "lookup_emem",
+            "type": "modified"
+        },
+        {
+            "function": "lookup_bytestring",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12895": [
+        {
+            "function": "icmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12896": [
+        {
+            "function": "isakmp_rfc3948_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12897": [
+        {
+            "function": "juniper_mfr_print",
+            "type": "modified"
+        },
+        {
+            "function": "isoclns_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_atm2_print",
+            "type": "modified"
+        },
+        {
+            "function": "chdlc_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_mlppp_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_atm1_print",
+            "type": "modified"
+        },
+        {
+            "function": "fr_print",
+            "type": "modified"
+        },
+        {
+            "function": "gre_print_0",
+            "type": "modified"
+        },
+        {
+            "function": "ethertype_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_mlfr_print",
+            "type": "modified"
+        },
+        {
+            "function": "atm_if_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12898": [
+        {
+            "function": "interp_reply",
+            "type": "modified"
+        },
+        {
+            "function": "nfsreq_print_noaddr",
+            "type": "modified"
+        },
+        {
+            "function": "parserep",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12899": [
+        {
+            "function": "decnet_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12901": [
+        {
+            "function": "eigrp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12902": [
+        {
+            "function": "parse_field",
+            "type": "modified"
+        },
+        {
+            "function": "zephyr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12985": [
+        {
+            "function": "ip6_print",
+            "type": "modified"
+        },
+        {
+            "function": "mobility_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12987": [
+        {
+            "function": "parse_elements",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12988": [
+        {
+            "function": "telnet_parse",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12989": [
+        {
+            "function": "resp_get_length",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12990": [
+        {
+            "function": "ikev1_nonce_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev2_n_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev2_auth_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev1_n_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12991": [
+        {
+            "function": "bgp_attr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12992": [
+        {
+            "function": "ripng_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12993": [
+        {
+            "function": "juniper_es_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_pppoe_atm_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_atm2_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_ggsn_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_monitor_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_atm1_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_services_print",
+            "type": "modified"
+        },
+        {
+            "function": "juniper_parse_header",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12994": [
+        {
+            "function": "bgp_attr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12995": [
+        {
+            "function": "ns_nprint",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12996": [
+        {
+            "function": "pimv2_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12997": [
+        {
+            "function": "lldp_private_8021_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12998": [
+        {
+            "function": "isis_print_extd_ip_reach",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-12999": [
+        {
+            "function": "isis_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13000": [
+        {
+            "function": "ieee802_15_4_if_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13001": [
+        {
+            "function": "nfs_printfh",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13002": [
+        {
+            "function": "aodv_extension",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13003": [
+        {
+            "function": "lmp_print_data_link_subobjs",
+            "type": "added"
+        },
+        {
+            "function": "lmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13004": [
+        {
+            "function": "juniper_parse_header",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13005": [
+        {
+            "function": "xid_map_enter",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13006": [
+        {
+            "function": "l2tp_proxy_auth_type_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_bearer_cap_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_q931_cc_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_avp_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_msgtype_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_framing_cap_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_result_code_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_call_errors_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_framing_type_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_bearer_type_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_accm_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_ppp_discon_cc_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_proxy_auth_id_print",
+            "type": "modified"
+        },
+        {
+            "function": "l2tp_proto_ver_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13007": [
+        {
+            "function": "pktap_if_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13008": [
+        {
+            "function": "parse_elements",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13009": [
+        {
+            "function": "mobility_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13011": [
+        {
+            "function": "bittok2str_internal",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13012": [
+        {
+            "function": "icmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13013": [
+        {
+            "function": "tpaddr_print_ip",
+            "type": "added"
+        },
+        {
+            "function": "atmarp_tpaddr_print",
+            "type": "added"
+        },
+        {
+            "function": "atmarp_print",
+            "type": "modified"
+        },
+        {
+            "function": "arp_print",
+            "type": "modified"
+        },
+        {
+            "function": "atmarp_spaddr_print",
+            "type": "modified"
+        },
+        {
+            "function": "spaddr_print_ip",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13014": [
+        {
+            "function": "wb_print",
+            "type": "modified"
+        },
+        {
+            "function": "wb_prep",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13015": [
+        {
+            "function": "eap_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13016": [
+        {
+            "function": "esis_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13017": [
+        {
+            "function": "dhcp6opt_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13018": [
+        {
+            "function": "pgm_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13019": [
+        {
+            "function": "pgm_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13020": [
+        {
+            "function": "vtp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13021": [
+        {
+            "function": "icmp6_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13022": [
+        {
+            "function": "ip_printroute",
+            "type": "modified"
+        },
+        {
+            "function": "ip_optprint",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13023": [
+        {
+            "function": "mobility_opt_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13024": [
+        {
+            "function": "mobility_opt_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13025": [
+        {
+            "function": "mobility_opt_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13026": [
+        {
+            "function": "isis_print_mt_capability_subtlv",
+            "type": "modified"
+        },
+        {
+            "function": "isis_print_mt_port_cap_subtlv",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13027": [
+        {
+            "function": "lldp_mgmt_addr_tlv_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13028": [
+        {
+            "function": "bootp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13030": [
+        {
+            "function": "pim_print",
+            "type": "modified"
+        },
+        {
+            "function": "cisco_autorp_print",
+            "type": "modified"
+        },
+        {
+            "function": "pimv2_print",
+            "type": "modified"
+        },
+        {
+            "function": "pimv2_addr_print",
+            "type": "modified"
+        },
+        {
+            "function": "pimv1_print",
+            "type": "modified"
+        },
+        {
+            "function": "pimv1_join_prune_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13031": [
+        {
+            "function": "frag6_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13032": [
+        {
+            "function": "print_attr_string",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13033": [
+        {
+            "function": "vtp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13034": [
+        {
+            "function": "pgm_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13035": [
+        {
+            "function": "isis_print_id",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13036": [
+        {
+            "function": "ospf6_decode_v3",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13037": [
+        {
+            "function": "ip_printts",
+            "type": "modified"
+        },
+        {
+            "function": "ip_optprint",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13038": [
+        {
+            "function": "handle_mlppp",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13039": [
+        {
+            "function": "ikev1_t_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev2_t_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev1_attr_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev1_n_print",
+            "type": "modified"
+        },
+        {
+            "function": "ikev1_attrmap_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13040": [
+        {
+            "function": "mp_dss_len",
+            "type": "deleted"
+        },
+        {
+            "function": "mp_dss_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13041": [
+        {
+            "function": "icmp6_nodeinfo_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13042": [
+        {
+            "function": "dhcpv6_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13044": [
+        {
+            "function": "dhcpv4_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13045": [
+        {
+            "function": "vqp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13047": [
+        {
+            "function": "esis_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13048": [
+        {
+            "function": "rsvp_obj_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13049": [
+        {
+            "function": "ubik_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13050": [
+        {
+            "function": "rpki_rtr_pdu_print",
+            "type": "modified"
+        },
+        {
+            "function": "rpki_rtr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13051": [
+        {
+            "function": "rsvp_obj_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13052": [
+        {
+            "function": "cfm_print",
+            "type": "modified"
+        },
+        {
+            "function": "cfm_network_addr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13053": [
+        {
+            "function": "decode_rt_routing_info",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13054": [
+        {
+            "function": "lldp_private_8023_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13055": [
+        {
+            "function": "isis_print_is_reach_subtlv",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13687": [
+        {
+            "function": "chdlc_print",
+            "type": "modified"
+        },
+        {
+            "function": "chdlc_if_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13688": [
+        {
+            "function": "olsr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-13690": [
+        {
+            "function": "ikev2_ID_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14461": [
+        {
+            "function": "ldp_pdu_print",
+            "type": "modified"
+        },
+        {
+            "function": "ldp_tlv_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14462": [
+        {
+            "function": "icmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14463": [
+        {
+            "function": "vrrp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14464": [
+        {
+            "function": "lmp_print_data_link_subobjs",
+            "type": "modified"
+        },
+        {
+            "function": "lmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14465": [
+        {
+            "function": "rsvp_obj_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14466": [
+        {
+            "function": "rx_cache_insert",
+            "type": "modified"
+        },
+        {
+            "function": "rx_cache_find",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14467": [
+        {
+            "function": "bgp_capabilities_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14468": [
+        {
+            "function": "mfr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14469": [
+        {
+            "function": "ikev1_n_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14880": [
+        {
+            "function": "ospf6_print_lshdr",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14881": [
+        {
+            "function": "bgp_capabilities_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-14882": [
+        {
+            "function": "rpl_daoack_print",
+            "type": "modified"
+        },
+        {
+            "function": "icmp6_nodeinfo_print",
+            "type": "modified"
+        },
+        {
+            "function": "rpl_dao_print",
+            "type": "modified"
+        },
+        {
+            "function": "icmp6_print",
+            "type": "modified"
+        },
+        {
+            "function": "rpl_dio_print",
+            "type": "modified"
+        },
+        {
+            "function": "rpl_dio_printopt",
+            "type": "modified"
+        },
+        {
+            "function": "icmp6_opt_print",
+            "type": "modified"
+        },
+        {
+            "function": "icmp6_rrenum_print",
+            "type": "modified"
+        },
+        {
+            "function": "mldv2_report_print",
+            "type": "modified"
+        },
+        {
+            "function": "mldv2_query_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16227": [
+        {
+            "function": "ieee802_11_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16228": [
+        {
+            "function": "print_prefix",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16229": [
+        {
+            "function": "dccp_print_option",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16230": [
+        {
+            "function": "bgp_attr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16300": [
+        {
+            "function": "bgp_update_print",
+            "type": "modified"
+        },
+        {
+            "function": "bgp_attr_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16451": [
+        {
+            "function": "print_trans",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16452": [
+        {
+            "function": "smb_fdata",
+            "type": "modified"
+        }
+    ],
+    "CVE-2019-15166": [
+        {
+            "function": "lmp_print_data_link_subobjs",
+            "type": "modified"
+        },
+        {
+            "function": "lmp_print",
+            "type": "modified"
+        }
+    ],
+    "CVE-2019-15167": [
+        {
+            "function": "vrrp_print",
+            "type": "modified"
+        }
+    ]
+}

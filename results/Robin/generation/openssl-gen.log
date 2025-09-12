@@ -1,0 +1,471 @@
+2025-08-15 10:18:29,256 - INFO - processing CVE-2021-23840 ( 1)
+2025-08-15 10:18:29,257 - INFO - running: python main.py --mfi --cve_id CVE-2021-23840 --path_to_vul_bin /binaries/reference/openssl/CVE-2021-23840-vuln-481a88f13c44-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2021-23840-patch-6a51b9e1d0cf-libcrypto --vul_func_name EVP_DecryptUpdate
+2025-08-15 10:19:25,611 - ERROR - fail CVE-2021-23840 ,details0
+
+2025-08-15 10:19:25,612 - INFO - processing CVE-2021-23840 ( 2)
+2025-08-15 10:19:25,612 - INFO - running: python main.py --mfi --cve_id CVE-2021-23840 --path_to_vul_bin /binaries/reference/openssl/CVE-2021-23840-vuln-481a88f13c44-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2021-23840-patch-6a51b9e1d0cf-libcrypto --vul_func_name evp_EncryptDecryptUpdate
+2025-08-15 10:22:01,071 - ERROR - fail CVE-2021-23840 ,details0
+
+2025-08-15 10:22:01,073 - INFO - processing CVE-2023-5678 ( 3)
+2025-08-15 10:22:01,073 - INFO - running: python main.py --mfi --cve_id CVE-2023-5678 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-5678-vuln-b37871cd0a42-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-5678-patch-db925ae2e65d-libcrypto --vul_func_name DH_check_pub_key_ex
+2025-08-15 10:22:14,907 - ERROR - fail CVE-2023-5678 ,details0
+
+2025-08-15 10:22:14,908 - INFO - processing CVE-2023-5678 ( 4)
+2025-08-15 10:22:14,909 - INFO - running: python main.py --mfi --cve_id CVE-2023-5678 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-5678-vuln-b37871cd0a42-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-5678-patch-db925ae2e65d-libcrypto --vul_func_name generate_key
+2025-08-15 10:22:47,896 - INFO - success CVE-2023-5678,details in openssl-cve_logs/CVE-2023-5678.log
+
+2025-08-15 10:22:47,897 - INFO - processing CVE-2023-5678 ( 5)
+2025-08-15 10:22:47,897 - INFO - running: python main.py --mfi --cve_id CVE-2023-5678 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-5678-vuln-b37871cd0a42-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-5678-patch-db925ae2e65d-libcrypto --vul_func_name ossl_dh_compute_key
+2025-08-15 10:23:13,556 - INFO - success CVE-2023-5678,details in openssl-cve_logs/CVE-2023-5678.log
+
+2025-08-15 10:23:13,557 - INFO - processing CVE-2015-1788 ( 6)
+2025-08-15 10:23:13,557 - INFO - running: python main.py --mfi --cve_id CVE-2015-1788 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1788-vuln-59302b600e8d-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1788-patch-4924b37ee01f-openssl --vul_func_name BN_GF2m_mod_inv
+2025-08-15 10:23:52,986 - ERROR - fail CVE-2015-1788 ,details0
+
+2025-08-15 10:23:52,987 - INFO - processing CVE-2019-1559 ( 7)
+2025-08-15 10:23:52,987 - INFO - running: python main.py --mfi --cve_id CVE-2019-1559 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1559-vuln-c81f16952bca-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1559-patch-e9bbefbf0f24-openssl --vul_func_name dtls1_read_bytes
+2025-08-15 10:24:19,676 - ERROR - fail CVE-2019-1559 ,details0
+
+2025-08-15 10:24:19,676 - INFO - processing CVE-2019-1559 ( 8)
+2025-08-15 10:24:19,676 - INFO - running: python main.py --mfi --cve_id CVE-2019-1559 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1559-vuln-c81f16952bca-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1559-patch-e9bbefbf0f24-openssl --vul_func_name ssl3_read_bytes
+2025-08-15 10:24:29,431 - ERROR - fail CVE-2019-1559 ,details0
+
+2025-08-15 10:24:29,432 - INFO - processing CVE-2019-1559 ( 9)
+2025-08-15 10:24:29,433 - INFO - running: python main.py --mfi --cve_id CVE-2019-1559 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1559-vuln-c81f16952bca-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1559-patch-e9bbefbf0f24-openssl --vul_func_name ssl3_send_alert
+2025-08-15 10:24:40,091 - ERROR - fail CVE-2019-1559 ,details0
+
+2025-08-15 10:24:40,092 - INFO - processing CVE-2016-2106 ( 10)
+2025-08-15 10:24:40,093 - INFO - running: python main.py --mfi --cve_id CVE-2016-2106 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2106-vuln-05aef4bbdbc1-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2106-patch-3f3582139fbb-openssl --vul_func_name EVP_EncryptUpdate
+2025-08-15 10:24:48,811 - ERROR - fail CVE-2016-2106 ,details0
+
+2025-08-15 10:24:48,812 - INFO - processing CVE-2016-0797 ( 11)
+2025-08-15 10:24:48,812 - INFO - running: python main.py --mfi --cve_id CVE-2016-0797 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0797-vuln-29305f4edc88-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0797-patch-c17530840785-openssl --vul_func_name BN_dec2bn
+2025-08-15 10:25:27,993 - ERROR - fail CVE-2016-0797 ,details0
+
+2025-08-15 10:25:27,994 - INFO - processing CVE-2016-0797 ( 12)
+2025-08-15 10:25:27,994 - INFO - running: python main.py --mfi --cve_id CVE-2016-0797 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0797-vuln-29305f4edc88-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0797-patch-c17530840785-openssl --vul_func_name BN_hex2bn
+2025-08-15 10:26:44,869 - ERROR - fail CVE-2016-0797 ,details0
+
+2025-08-15 10:26:44,870 - INFO - processing CVE-2019-1543 ( 13)
+2025-08-15 10:26:44,870 - INFO - running: python main.py --mfi --cve_id CVE-2019-1543 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1543-vuln-c62896c2c0cb-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1543-patch-ee22257b1418-libcrypto --vul_func_name chacha20_poly1305_ctrl
+2025-08-15 10:30:11,220 - ERROR - fail CVE-2019-1543 ,details0
+
+2025-08-15 10:30:11,221 - INFO - processing CVE-2022-1343 ( 14)
+2025-08-15 10:30:11,222 - INFO - running: python main.py --mfi --cve_id CVE-2022-1343 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-1343-vuln-ae3ece03a61e-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-1343-patch-2eda98790c5c-libcrypto --vul_func_name ocsp_verify_signer
+2025-08-15 10:30:22,275 - ERROR - fail CVE-2022-1343 ,details0
+
+2025-08-15 10:30:22,276 - INFO - processing CVE-2015-3196 ( 15)
+2025-08-15 10:30:22,276 - INFO - running: python main.py --mfi --cve_id CVE-2015-3196 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3196-vuln-f8f75a7e4a77-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3196-patch-3c66a669dfc7-openssl --vul_func_name ssl3_get_client_key_exchange
+2025-08-15 10:30:47,963 - ERROR - fail CVE-2015-3196 ,details1
+
+2025-08-15 10:30:47,964 - INFO - processing CVE-2015-3196 ( 16)
+2025-08-15 10:30:47,965 - INFO - running: python main.py --mfi --cve_id CVE-2015-3196 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3196-vuln-f8f75a7e4a77-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3196-patch-3c66a669dfc7-openssl --vul_func_name ssl3_get_key_exchange
+2025-08-15 10:31:00,506 - ERROR - fail CVE-2015-3196 ,details0
+
+2025-08-15 10:31:00,507 - INFO - processing CVE-2015-3196 ( 17)
+2025-08-15 10:31:00,507 - INFO - running: python main.py --mfi --cve_id CVE-2015-3196 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3196-vuln-f8f75a7e4a77-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3196-patch-3c66a669dfc7-openssl --vul_func_name ssl3_send_client_key_exchange
+2025-08-15 10:31:07,883 - ERROR - fail CVE-2015-3196 ,details0
+
+2025-08-15 10:31:07,884 - INFO - processing CVE-2014-3572 ( 18)
+2025-08-15 10:31:07,884 - INFO - running: python main.py --mfi --cve_id CVE-2014-3572 --path_to_vul_bin /binaries/reference/openssl/CVE-2014-3572-vuln-b5526482ef81-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2014-3572-patch-b15f8769644b-openssl --vul_func_name ssl3_get_key_exchange
+2025-08-15 10:31:32,624 - INFO - success CVE-2014-3572,details in openssl-cve_logs/CVE-2014-3572.log
+
+2025-08-15 10:31:32,625 - INFO - processing CVE-2015-0209 ( 19)
+2025-08-15 10:31:32,625 - INFO - running: python main.py --mfi --cve_id CVE-2015-0209 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0209-vuln-6d4655c27e4b-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0209-patch-1b4a8df38fc9-openssl --vul_func_name d2i_ECPrivateKey
+2025-08-15 10:32:30,922 - ERROR - fail CVE-2015-0209 ,details0
+
+2025-08-15 10:32:30,923 - INFO - processing CVE-2015-0288 ( 20)
+2025-08-15 10:32:30,924 - INFO - running: python main.py --mfi --cve_id CVE-2015-0288 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0288-vuln-437b14b533fe-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0288-patch-28a00bcd8e31-openssl --vul_func_name X509_to_X509_REQ
+2025-08-15 10:33:15,169 - ERROR - fail CVE-2015-0288 ,details0
+
+2025-08-15 10:33:15,170 - INFO - processing CVE-2016-0702 ( 21)
+2025-08-15 10:33:15,171 - INFO - running: python main.py --mfi --cve_id CVE-2016-0702 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0702-vuln-bc38a7d2d3c6-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0702-patch-708dc2f1291e-openssl --vul_func_name BN_mod_exp_mont_consttime
+2025-08-15 10:33:25,376 - ERROR - fail CVE-2016-0702 ,details0
+
+2025-08-15 10:33:25,377 - INFO - processing CVE-2016-0702 ( 22)
+2025-08-15 10:33:25,377 - INFO - running: python main.py --mfi --cve_id CVE-2016-0702 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0702-vuln-bc38a7d2d3c6-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0702-patch-708dc2f1291e-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-08-15 10:33:47,834 - INFO - success CVE-2016-0702,details in openssl-cve_logs/CVE-2016-0702.log
+
+2025-08-15 10:33:47,835 - INFO - processing CVE-2016-0702 ( 23)
+2025-08-15 10:33:47,836 - INFO - running: python main.py --mfi --cve_id CVE-2016-0702 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0702-vuln-bc38a7d2d3c6-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0702-patch-708dc2f1291e-openssl --vul_func_name bn_get_bits
+2025-08-15 10:33:54,250 - ERROR - fail CVE-2016-0702 ,details0
+
+2025-08-15 10:33:54,251 - INFO - processing CVE-2015-3195 ( 24)
+2025-08-15 10:33:54,251 - INFO - running: python main.py --mfi --cve_id CVE-2015-3195 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3195-vuln-fb4f46763fed-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3195-patch-cc598f321fba-openssl --vul_func_name ASN1_item_ex_d2i
+2025-08-15 10:34:53,343 - INFO - success CVE-2015-3195,details in openssl-cve_logs/CVE-2015-3195.log
+
+2025-08-15 10:34:53,344 - INFO - processing CVE-2015-3195 ( 25)
+2025-08-15 10:34:53,344 - INFO - running: python main.py --mfi --cve_id CVE-2015-3195 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3195-vuln-fb4f46763fed-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3195-patch-cc598f321fba-openssl --vul_func_name asn1_template_noexp_d2i
+2025-08-15 10:35:06,870 - ERROR - fail CVE-2015-3195 ,details0
+
+2025-08-15 10:35:06,871 - INFO - processing CVE-2024-0727 ( 26)
+2025-08-15 10:35:06,872 - INFO - running: python main.py --mfi --cve_id CVE-2024-0727 --path_to_vul_bin /binaries/reference/openssl/CVE-2024-0727-vuln-8c30857e8fe9-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2024-0727-patch-775acfdbd0c6-libcrypto --vul_func_name PKCS12_unpack_authsafes
+2025-08-15 10:35:25,809 - INFO - success CVE-2024-0727,details in openssl-cve_logs/CVE-2024-0727.log
+
+2025-08-15 10:35:25,810 - INFO - processing CVE-2024-0727 ( 27)
+2025-08-15 10:35:25,810 - INFO - running: python main.py --mfi --cve_id CVE-2024-0727 --path_to_vul_bin /binaries/reference/openssl/CVE-2024-0727-vuln-8c30857e8fe9-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2024-0727-patch-775acfdbd0c6-libcrypto --vul_func_name PKCS12_unpack_p7encdata
+2025-08-15 10:35:41,660 - INFO - success CVE-2024-0727,details in openssl-cve_logs/CVE-2024-0727.log
+
+2025-08-15 10:35:41,661 - INFO - processing CVE-2024-0727 ( 28)
+2025-08-15 10:35:41,662 - INFO - running: python main.py --mfi --cve_id CVE-2024-0727 --path_to_vul_bin /binaries/reference/openssl/CVE-2024-0727-vuln-8c30857e8fe9-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2024-0727-patch-775acfdbd0c6-libcrypto --vul_func_name SMIME_write_PKCS7
+2025-08-15 10:36:01,290 - INFO - success CVE-2024-0727,details in openssl-cve_logs/CVE-2024-0727.log
+
+2025-08-15 10:36:01,290 - INFO - processing CVE-2024-0727 ( 29)
+2025-08-15 10:36:01,291 - INFO - running: python main.py --mfi --cve_id CVE-2024-0727 --path_to_vul_bin /binaries/reference/openssl/CVE-2024-0727-vuln-8c30857e8fe9-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2024-0727-patch-775acfdbd0c6-libcrypto --vul_func_name newpass_p12
+2025-08-15 10:36:23,729 - INFO - success CVE-2024-0727,details in openssl-cve_logs/CVE-2024-0727.log
+
+2025-08-15 10:36:23,730 - INFO - processing CVE-2024-0727 ( 30)
+2025-08-15 10:36:23,734 - INFO - running: python main.py --mfi --cve_id CVE-2024-0727 --path_to_vul_bin /binaries/reference/openssl/CVE-2024-0727-vuln-8c30857e8fe9-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2024-0727-patch-775acfdbd0c6-libcrypto --vul_func_name pkcs12_gen_mac
+2025-08-15 10:36:46,093 - INFO - success CVE-2024-0727,details in openssl-cve_logs/CVE-2024-0727.log
+
+2025-08-15 10:36:46,094 - INFO - processing CVE-2015-0206 ( 31)
+2025-08-15 10:36:46,094 - INFO - running: python main.py --mfi --cve_id CVE-2015-0206 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0206-vuln-1421e0c584ae-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0206-patch-103b171d8fc2-openssl --vul_func_name dtls1_buffer_record
+2025-08-15 10:37:12,984 - INFO - success CVE-2015-0206,details in openssl-cve_logs/CVE-2015-0206.log
+
+2025-08-15 10:37:12,985 - INFO - processing CVE-2015-0206 ( 32)
+2025-08-15 10:37:12,985 - INFO - running: python main.py --mfi --cve_id CVE-2015-0206 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0206-vuln-1421e0c584ae-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0206-patch-103b171d8fc2-openssl --vul_func_name dtls1_get_record
+2025-08-15 10:37:41,897 - ERROR - fail CVE-2015-0206 ,details0
+
+2025-08-15 10:37:41,898 - INFO - processing CVE-2015-0206 ( 33)
+2025-08-15 10:37:41,898 - INFO - running: python main.py --mfi --cve_id CVE-2015-0206 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0206-vuln-1421e0c584ae-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0206-patch-103b171d8fc2-openssl --vul_func_name dtls1_process_buffered_records
+2025-08-15 10:37:56,365 - ERROR - fail CVE-2015-0206 ,details0
+
+2025-08-15 10:37:56,366 - INFO - processing CVE-2015-0206 ( 34)
+2025-08-15 10:37:56,366 - INFO - running: python main.py --mfi --cve_id CVE-2015-0206 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0206-vuln-1421e0c584ae-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0206-patch-103b171d8fc2-openssl --vul_func_name dtls1_read_bytes
+2025-08-15 10:38:12,556 - ERROR - fail CVE-2015-0206 ,details0
+
+2025-08-15 10:38:12,556 - INFO - processing CVE-2016-0705 ( 35)
+2025-08-15 10:38:12,557 - INFO - running: python main.py --mfi --cve_id CVE-2016-0705 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0705-vuln-c575ceffdbc3-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0705-patch-6c88c71b4e48-openssl --vul_func_name dsa_priv_decode
+2025-08-15 10:38:41,260 - INFO - success CVE-2016-0705,details in openssl-cve_logs/CVE-2016-0705.log
+
+2025-08-15 10:38:41,261 - INFO - processing CVE-2015-0205 ( 36)
+2025-08-15 10:38:41,261 - INFO - running: python main.py --mfi --cve_id CVE-2015-0205 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-0205-vuln-a7a44ba55cb4-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-0205-patch-1421e0c584ae-openssl --vul_func_name ssl3_get_cert_verify
+2025-08-15 10:38:48,738 - ERROR - fail CVE-2015-0205 ,details0
+
+2025-08-15 10:38:48,739 - INFO - processing CVE-2016-2177 ( 37)
+2025-08-15 10:38:48,739 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl3_get_client_hello
+2025-08-15 10:45:27,247 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:45:27,248 - INFO - processing CVE-2016-2177 ( 38)
+2025-08-15 10:45:27,249 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl_check_for_safari
+2025-08-15 10:45:56,007 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:45:56,007 - INFO - processing CVE-2016-2177 ( 39)
+2025-08-15 10:45:56,007 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl_get_prev_session
+2025-08-15 10:46:09,997 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:46:09,997 - INFO - processing CVE-2016-2177 ( 40)
+2025-08-15 10:46:09,997 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl_scan_clienthello_custom_tlsext
+2025-08-15 10:46:37,131 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:46:37,131 - INFO - processing CVE-2016-2177 ( 41)
+2025-08-15 10:46:37,132 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl_scan_clienthello_tlsext
+2025-08-15 10:47:02,696 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:47:02,696 - INFO - processing CVE-2016-2177 ( 42)
+2025-08-15 10:47:02,697 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name ssl_scan_serverhello_tlsext
+2025-08-15 10:47:25,323 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:47:25,325 - INFO - processing CVE-2016-2177 ( 43)
+2025-08-15 10:47:25,325 - INFO - running: python main.py --mfi --cve_id CVE-2016-2177 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2177-vuln-f792c663048f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2177-patch-a004e72b9583-openssl --vul_func_name tls1_process_ticket
+2025-08-15 10:48:00,136 - ERROR - fail CVE-2016-2177 ,details0
+
+2025-08-15 10:48:00,137 - INFO - processing CVE-2016-2176 ( 44)
+2025-08-15 10:48:00,137 - INFO - running: python main.py --mfi --cve_id CVE-2016-2176 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2176-vuln-56ea22458f3f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2176-patch-2919516136a4-openssl --vul_func_name X509_NAME_oneline
+2025-08-15 10:48:10,380 - ERROR - fail CVE-2016-2176 ,details0
+
+2025-08-15 10:48:10,381 - INFO - processing CVE-2015-1791 ( 45)
+2025-08-15 10:48:10,382 - INFO - running: python main.py --mfi --cve_id CVE-2015-1791 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1791-vuln-8c2b1d872b25-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1791-patch-98ece4eebfb6-openssl --vul_func_name SSL_SESSION_new
+2025-08-15 10:48:18,434 - ERROR - fail CVE-2015-1791 ,details0
+
+2025-08-15 10:48:18,435 - INFO - processing CVE-2015-1791 ( 46)
+2025-08-15 10:48:18,436 - INFO - running: python main.py --mfi --cve_id CVE-2015-1791 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1791-vuln-8c2b1d872b25-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1791-patch-98ece4eebfb6-openssl --vul_func_name ssl3_get_new_session_ticket
+2025-08-15 10:48:44,362 - INFO - success CVE-2015-1791,details in openssl-cve_logs/CVE-2015-1791.log
+
+2025-08-15 10:48:44,363 - INFO - processing CVE-2022-3602 ( 47)
+2025-08-15 10:48:44,363 - INFO - running: python main.py --mfi --cve_id CVE-2022-3602 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3602-vuln-4bae06d47ae2-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3602-patch-fe3b639dc19b-libcrypto --vul_func_name ossl_punycode_decode
+2025-08-15 10:49:18,163 - ERROR - fail CVE-2022-3602 ,details0
+
+2025-08-15 10:49:18,164 - INFO - processing CVE-2016-6306 ( 48)
+2025-08-15 10:49:18,164 - INFO - running: python main.py --mfi --cve_id CVE-2016-6306 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-6306-vuln-515a0105652a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-6306-patch-52e623c4cb06-openssl --vul_func_name ssl3_get_certificate_request
+2025-08-15 10:50:10,664 - INFO - success CVE-2016-6306,details in openssl-cve_logs/CVE-2016-6306.log
+
+2025-08-15 10:50:10,665 - INFO - processing CVE-2016-6306 ( 49)
+2025-08-15 10:50:10,665 - INFO - running: python main.py --mfi --cve_id CVE-2016-6306 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-6306-vuln-515a0105652a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-6306-patch-52e623c4cb06-openssl --vul_func_name ssl3_get_client_certificate
+2025-08-15 10:50:25,840 - ERROR - fail CVE-2016-6306 ,details0
+
+2025-08-15 10:50:25,841 - INFO - processing CVE-2016-6306 ( 50)
+2025-08-15 10:50:25,842 - INFO - running: python main.py --mfi --cve_id CVE-2016-6306 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-6306-vuln-515a0105652a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-6306-patch-52e623c4cb06-openssl --vul_func_name ssl3_get_server_certificate
+2025-08-15 10:50:40,283 - ERROR - fail CVE-2016-6306 ,details0
+
+2025-08-15 10:50:40,284 - INFO - processing CVE-2015-3197 ( 51)
+2025-08-15 10:50:40,284 - INFO - running: python main.py --mfi --cve_id CVE-2015-3197 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3197-vuln-3665fa25436f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3197-patch-d81a1600588b-openssl --vul_func_name get_client_hello
+2025-08-15 10:51:07,926 - INFO - success CVE-2015-3197,details in openssl-cve_logs/CVE-2015-3197.log
+
+2025-08-15 10:51:07,927 - INFO - processing CVE-2015-3197 ( 52)
+2025-08-15 10:51:07,927 - INFO - running: python main.py --mfi --cve_id CVE-2015-3197 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3197-vuln-3665fa25436f-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3197-patch-d81a1600588b-openssl --vul_func_name get_client_master_key
+2025-08-15 10:51:27,716 - ERROR - fail CVE-2015-3197 ,details0
+
+2025-08-15 10:51:27,717 - INFO - processing CVE-2016-7052 ( 53)
+2025-08-15 10:51:27,717 - INFO - running: python main.py --mfi --cve_id CVE-2016-7052 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-7052-vuln-f15a7e39a1f7-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-7052-patch-6e629b5be45f-openssl --vul_func_name get_crl_sk
+2025-08-15 10:52:21,784 - ERROR - fail CVE-2016-7052 ,details0
+
+2025-08-15 10:52:21,785 - INFO - processing CVE-2022-3358 ( 54)
+2025-08-15 10:52:21,786 - INFO - running: python main.py --mfi --cve_id CVE-2022-3358 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3358-vuln-9f0867da4cbf-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3358-patch-5485c56679d7-libcrypto --vul_func_name evp_cipher_init_internal
+2025-08-15 10:54:30,038 - INFO - success CVE-2022-3358,details in openssl-cve_logs/CVE-2022-3358.log
+
+2025-08-15 10:54:30,039 - INFO - processing CVE-2022-3358 ( 55)
+2025-08-15 10:54:30,040 - INFO - running: python main.py --mfi --cve_id CVE-2022-3358 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3358-vuln-9f0867da4cbf-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3358-patch-5485c56679d7-libcrypto --vul_func_name evp_md_init_internal
+2025-08-15 10:55:08,098 - ERROR - fail CVE-2022-3358 ,details0
+
+2025-08-15 10:55:08,100 - INFO - processing CVE-2016-0798 ( 56)
+2025-08-15 10:55:08,101 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name SRP_VBASE_init
+2025-08-15 10:55:16,511 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:55:16,512 - INFO - processing CVE-2016-0798 ( 57)
+2025-08-15 10:55:16,513 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name SRP_user_pwd_set_sv_BN
+2025-08-15 10:55:24,761 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:55:24,762 - INFO - processing CVE-2016-0798 ( 58)
+2025-08-15 10:55:24,762 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name init_ssl_connection
+2025-08-15 10:56:02,762 - INFO - success CVE-2016-0798,details in openssl-cve_logs/CVE-2016-0798.log
+
+2025-08-15 10:56:02,763 - INFO - processing CVE-2016-0798 ( 59)
+2025-08-15 10:56:02,764 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name rev_body
+2025-08-15 10:56:21,516 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:56:21,517 - INFO - processing CVE-2016-0798 ( 60)
+2025-08-15 10:56:21,517 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name ssl_srp_server_param_cb
+2025-08-15 10:56:41,991 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:56:41,992 - INFO - processing CVE-2016-0798 ( 61)
+2025-08-15 10:56:41,993 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name sv_body
+2025-08-15 10:57:01,617 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:57:01,618 - INFO - processing CVE-2016-0798 ( 62)
+2025-08-15 10:57:01,619 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name t_tob64
+2025-08-15 10:57:12,002 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:57:12,004 - INFO - processing CVE-2016-0798 ( 63)
+2025-08-15 10:57:12,004 - INFO - running: python main.py --mfi --cve_id CVE-2016-0798 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0798-vuln-64333004a41a-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0798-patch-259b664f950c-openssl --vul_func_name www_body
+2025-08-15 10:57:36,219 - ERROR - fail CVE-2016-0798 ,details0
+
+2025-08-15 10:57:36,220 - INFO - processing CVE-2023-0216 ( 64)
+2025-08-15 10:57:36,220 - INFO - running: python main.py --mfi --cve_id CVE-2023-0216 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0216-vuln-f596ec8a6f9f-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0216-patch-934a04f0e775-libcrypto --vul_func_name PKCS7_add_signature
+2025-08-15 10:57:46,125 - ERROR - fail CVE-2023-0216 ,details0
+
+2025-08-15 10:57:46,126 - INFO - processing CVE-2023-0216 ( 65)
+2025-08-15 10:57:46,127 - INFO - running: python main.py --mfi --cve_id CVE-2023-0216 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0216-vuln-f596ec8a6f9f-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0216-patch-934a04f0e775-libcrypto --vul_func_name ossl_pkcs7_resolve_libctx
+2025-08-15 10:58:28,495 - ERROR - fail CVE-2023-0216 ,details0
+
+2025-08-15 10:58:28,496 - INFO - processing CVE-2023-0216 ( 66)
+2025-08-15 10:58:28,496 - INFO - running: python main.py --mfi --cve_id CVE-2023-0216 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0216-vuln-f596ec8a6f9f-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0216-patch-934a04f0e775-libcrypto --vul_func_name pkcs7_get_signer_certs
+2025-08-15 10:58:52,733 - ERROR - fail CVE-2023-0216 ,details0
+
+2025-08-15 10:58:52,733 - INFO - processing CVE-2022-4203 ( 67)
+2025-08-15 10:58:52,734 - INFO - running: python main.py --mfi --cve_id CVE-2022-4203 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-4203-vuln-36d85b02cef2-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-4203-patch-c927a3492698-libcrypto --vul_func_name do_i2r_name_constraints
+2025-08-15 10:59:03,037 - ERROR - fail CVE-2022-4203 ,details0
+
+2025-08-15 10:59:03,038 - INFO - processing CVE-2022-4203 ( 68)
+2025-08-15 10:59:03,039 - INFO - running: python main.py --mfi --cve_id CVE-2022-4203 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-4203-vuln-36d85b02cef2-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-4203-patch-c927a3492698-libcrypto --vul_func_name nc_match
+2025-08-15 10:59:59,028 - INFO - success CVE-2022-4203,details in openssl-cve_logs/CVE-2022-4203.log
+
+2025-08-15 10:59:59,029 - INFO - processing CVE-2015-1789 ( 69)
+2025-08-15 10:59:59,029 - INFO - running: python main.py --mfi --cve_id CVE-2015-1789 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1789-vuln-708cf593587e-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1789-patch-f48b83b4fb7d-openssl --vul_func_name X509_cmp_time
+2025-08-15 11:00:34,258 - INFO - success CVE-2015-1789,details in openssl-cve_logs/CVE-2015-1789.log
+
+2025-08-15 11:00:34,259 - INFO - processing CVE-2016-2105 ( 70)
+2025-08-15 11:00:34,259 - INFO - running: python main.py --mfi --cve_id CVE-2016-2105 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2105-vuln-2919516136a4-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2105-patch-5b814481f357-openssl --vul_func_name EVP_EncodeUpdate
+2025-08-15 11:01:01,632 - ERROR - fail CVE-2016-2105 ,details0
+
+2025-08-15 11:01:01,633 - INFO - processing CVE-2021-4044 ( 71)
+2025-08-15 11:01:01,633 - INFO - running: python main.py --mfi --cve_id CVE-2021-4044 --path_to_vul_bin /binaries/reference/openssl/CVE-2021-4044-vuln-8e78289c4e6f-libssl --path_to_patch_bin /binaries/reference/openssl/CVE-2021-4044-patch-758754966791-libssl --vul_func_name ssl_cert_set_cert_cb
+2025-08-15 11:01:09,468 - ERROR - fail CVE-2021-4044 ,details0
+
+2025-08-15 11:01:09,469 - INFO - processing CVE-2021-4044 ( 72)
+2025-08-15 11:01:09,470 - INFO - running: python main.py --mfi --cve_id CVE-2021-4044 --path_to_vul_bin /binaries/reference/openssl/CVE-2021-4044-vuln-8e78289c4e6f-libssl --path_to_patch_bin /binaries/reference/openssl/CVE-2021-4044-patch-758754966791-libssl --vul_func_name ssl_verify_cert_chain
+2025-08-15 11:01:25,502 - ERROR - fail CVE-2021-4044 ,details0
+
+2025-08-15 11:01:25,503 - INFO - processing CVE-2021-4044 ( 73)
+2025-08-15 11:01:25,504 - INFO - running: python main.py --mfi --cve_id CVE-2021-4044 --path_to_vul_bin /binaries/reference/openssl/CVE-2021-4044-vuln-8e78289c4e6f-libssl --path_to_patch_bin /binaries/reference/openssl/CVE-2021-4044-patch-758754966791-libssl --vul_func_name tls_post_process_server_certificate
+2025-08-15 11:01:51,128 - ERROR - fail CVE-2021-4044 ,details0
+
+2025-08-15 11:01:51,129 - INFO - processing CVE-2016-2109 ( 74)
+2025-08-15 11:01:51,129 - INFO - running: python main.py --mfi --cve_id CVE-2016-2109 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2109-vuln-ddc606c914e7-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2109-patch-c62981390d6c-libcrypto --vul_func_name ASN1_item_d2i_fp
+2025-08-15 11:01:59,544 - ERROR - fail CVE-2016-2109 ,details0
+
+2025-08-15 11:01:59,545 - INFO - processing CVE-2016-2109 ( 75)
+2025-08-15 11:01:59,546 - INFO - running: python main.py --mfi --cve_id CVE-2016-2109 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2109-vuln-ddc606c914e7-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2109-patch-c62981390d6c-libcrypto --vul_func_name asn1_d2i_read_bio
+2025-08-15 11:02:23,651 - INFO - success CVE-2016-2109,details in openssl-cve_logs/CVE-2016-2109.log
+
+2025-08-15 11:02:23,653 - INFO - processing CVE-2018-0732 ( 76)
+2025-08-15 11:02:23,653 - INFO - running: python main.py --mfi --cve_id CVE-2018-0732 --path_to_vul_bin /binaries/reference/openssl/CVE-2018-0732-vuln-bd45a8d1ef33-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2018-0732-patch-3984ef0b7283-openssl --vul_func_name generate_key
+2025-08-15 11:03:12,447 - INFO - success CVE-2018-0732,details in openssl-cve_logs/CVE-2018-0732.log
+
+2025-08-15 11:03:12,448 - INFO - processing CVE-2015-1790 ( 77)
+2025-08-15 11:03:12,449 - INFO - running: python main.py --mfi --cve_id CVE-2015-1790 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1790-vuln-f48b83b4fb7d-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1790-patch-59302b600e8d-openssl --vul_func_name PKCS7_dataDecode
+2025-08-15 11:04:09,762 - ERROR - fail CVE-2015-1790 ,details0
+
+2025-08-15 11:04:09,763 - INFO - processing CVE-2023-2975 ( 78)
+2025-08-15 11:04:09,764 - INFO - running: python main.py --mfi --cve_id CVE-2023-2975 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-2975-vuln-175fa8469fc7-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-2975-patch-00e2f5eea299-libcrypto --vul_func_name siv_cipher
+2025-08-15 11:04:39,169 - INFO - success CVE-2023-2975,details in openssl-cve_logs/CVE-2023-2975.log
+
+2025-08-15 11:04:39,170 - INFO - processing CVE-2023-0215 ( 79)
+2025-08-15 11:04:39,171 - INFO - running: python main.py --mfi --cve_id CVE-2023-0215 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0215-vuln-cbafa34b5a05-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0215-patch-8818064ce3c3-libcrypto --vul_func_name BIO_new_NDEF
+2025-08-15 11:05:01,340 - INFO - success CVE-2023-0215,details in openssl-cve_logs/CVE-2023-0215.log
+
+2025-08-15 11:05:01,341 - INFO - processing CVE-2023-0215 ( 80)
+2025-08-15 11:05:01,341 - INFO - running: python main.py --mfi --cve_id CVE-2023-0215 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0215-vuln-cbafa34b5a05-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0215-patch-8818064ce3c3-libcrypto --vul_func_name ndef_suffix
+2025-08-15 11:05:11,027 - ERROR - fail CVE-2023-0215 ,details0
+
+2025-08-15 11:05:11,028 - INFO - processing CVE-2018-0737 ( 81)
+2025-08-15 11:05:11,029 - INFO - running: python main.py --mfi --cve_id CVE-2018-0737 --path_to_vul_bin /binaries/reference/openssl/CVE-2018-0737-vuln-e4fa7cc3fb99-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2018-0737-patch-6939eab03a6e-libcrypto --vul_func_name rsa_builtin_keygen
+2025-08-15 11:05:33,753 - ERROR - fail CVE-2018-0737 ,details0
+
+2025-08-15 11:05:33,754 - INFO - processing CVE-2022-1473 ( 82)
+2025-08-15 11:05:33,755 - INFO - running: python main.py --mfi --cve_id CVE-2022-1473 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-1473-vuln-af5b3af7bd48-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-1473-patch-64c85430f952-libcrypto --vul_func_name OPENSSL_LH_flush
+2025-08-15 11:06:01,685 - ERROR - fail CVE-2022-1473 ,details0
+
+2025-08-15 11:06:01,686 - INFO - processing CVE-2016-0799 ( 83)
+2025-08-15 11:06:01,686 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name BIO_vprintf
+2025-08-15 11:06:23,677 - INFO - success CVE-2016-0799,details in openssl-cve_logs/CVE-2016-0799.log
+
+2025-08-15 11:06:23,678 - INFO - processing CVE-2016-0799 ( 84)
+2025-08-15 11:06:23,679 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name BIO_vsnprintf
+2025-08-15 11:06:43,087 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:06:43,088 - INFO - processing CVE-2016-0799 ( 85)
+2025-08-15 11:06:43,089 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name _dopr
+2025-08-15 11:07:51,411 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:07:51,412 - INFO - processing CVE-2016-0799 ( 86)
+2025-08-15 11:07:51,412 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name doapr_outch
+2025-08-15 11:08:21,161 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:08:21,163 - INFO - processing CVE-2016-0799 ( 87)
+2025-08-15 11:08:21,163 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name fmtfp
+2025-08-15 11:09:36,427 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:09:36,428 - INFO - processing CVE-2016-0799 ( 88)
+2025-08-15 11:09:36,429 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name fmtint
+2025-08-15 11:10:28,145 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:10:28,146 - INFO - processing CVE-2016-0799 ( 89)
+2025-08-15 11:10:28,147 - INFO - running: python main.py --mfi --cve_id CVE-2016-0799 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-0799-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-0799-patch-578b956fe741-openssl --vul_func_name roundv
+2025-08-15 11:10:36,068 - ERROR - fail CVE-2016-0799 ,details0
+
+2025-08-15 11:10:36,070 - INFO - processing CVE-2023-5363 ( 90)
+2025-08-15 11:10:36,070 - INFO - running: python main.py --mfi --cve_id CVE-2023-5363 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-5363-vuln-742e766f0e19-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-5363-patch-5f69f5c65e48-libcrypto --vul_func_name evp_cipher_init_internal
+2025-08-15 11:12:39,241 - INFO - success CVE-2023-5363,details in openssl-cve_logs/CVE-2023-5363.log
+
+2025-08-15 11:12:39,242 - INFO - processing CVE-2023-2650 ( 91)
+2025-08-15 11:12:39,243 - INFO - running: python main.py --mfi --cve_id CVE-2023-2650 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-2650-vuln-3ecfc9e6b611-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2023-2650-patch-423a2bc737a9-openssl --vul_func_name OBJ_obj2txt
+2025-08-15 11:12:49,892 - ERROR - fail CVE-2023-2650 ,details0
+
+2025-08-15 11:12:49,893 - INFO - processing CVE-2023-0401 ( 92)
+2025-08-15 11:12:49,894 - INFO - running: python main.py --mfi --cve_id CVE-2023-0401 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0401-vuln-2f7530077e0e-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0401-patch-d3b6dfd70db8-libcrypto --vul_func_name PKCS7_dataDecode
+2025-08-15 11:14:16,774 - ERROR - fail CVE-2023-0401 ,details0
+
+2025-08-15 11:14:16,775 - INFO - processing CVE-2023-0401 ( 93)
+2025-08-15 11:14:16,775 - INFO - running: python main.py --mfi --cve_id CVE-2023-0401 --path_to_vul_bin /binaries/reference/openssl/CVE-2023-0401-vuln-2f7530077e0e-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2023-0401-patch-d3b6dfd70db8-libcrypto --vul_func_name pkcs7_bio_add_digest
+2025-08-15 11:14:41,780 - INFO - success CVE-2023-0401,details in openssl-cve_logs/CVE-2023-0401.log
+
+2025-08-15 11:14:41,781 - INFO - processing CVE-2016-6304 ( 94)
+2025-08-15 11:14:41,782 - INFO - running: python main.py --mfi --cve_id CVE-2016-6304 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-6304-vuln-151adf2e5cc2-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-6304-patch-2c0d295e2630-openssl --vul_func_name ssl_parse_clienthello_tlsext
+2025-08-15 11:15:37,078 - ERROR - fail CVE-2016-6304 ,details0
+
+2025-08-15 11:15:37,079 - INFO - processing CVE-2016-2842 ( 95)
+2025-08-15 11:15:37,085 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name BIO_vprintf
+2025-08-15 11:15:59,120 - INFO - success CVE-2016-2842,details in openssl-cve_logs/CVE-2016-2842.log
+
+2025-08-15 11:15:59,121 - INFO - processing CVE-2016-2842 ( 96)
+2025-08-15 11:15:59,122 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name BIO_vsnprintf
+2025-08-15 11:16:16,752 - INFO - success CVE-2016-2842,details in openssl-cve_logs/CVE-2016-2842.log
+
+2025-08-15 11:16:16,753 - INFO - processing CVE-2016-2842 ( 97)
+2025-08-15 11:16:16,754 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name _dopr
+2025-08-15 11:17:33,934 - ERROR - fail CVE-2016-2842 ,details0
+
+2025-08-15 11:17:33,935 - INFO - processing CVE-2016-2842 ( 98)
+2025-08-15 11:17:33,935 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name doapr_outch
+2025-08-15 11:18:06,911 - INFO - success CVE-2016-2842,details in openssl-cve_logs/CVE-2016-2842.log
+
+2025-08-17 22:49:41,403 - INFO - processing CVE-2016-2842 ( 20)
+2025-08-17 22:49:41,403 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name fmtfp
+2025-08-17 22:43:39,987 - ERROR - fail CVE-2016-2842 ,details0
+
+2025-08-17 22:42:48,376 - INFO - processing CVE-2016-2842 ( 1)
+2025-08-17 22:42:48,376 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name fmtint
+2025-08-17 22:43:39,987 - ERROR - fail CVE-2016-2842 ,details0
+
+2025-08-17 22:43:39,988 - INFO - processing CVE-2016-2842 ( 2)
+2025-08-17 22:43:39,988 - INFO - running: python main.py --mfi --cve_id CVE-2016-2842 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2842-vuln-259b664f950c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2842-patch-578b956fe741-openssl --vul_func_name roundv
+2025-08-17 22:43:47,608 - ERROR - fail CVE-2016-2842 ,details0
+
+2025-08-17 22:43:47,609 - INFO - processing CVE-2022-3996 ( 3)
+2025-08-17 22:43:47,609 - INFO - running: python main.py --mfi --cve_id CVE-2022-3996 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3996-vuln-9a5c884999a5-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3996-patch-7725e7bfe6f2-libcrypto --vul_func_name ossl_policy_cache_set_mapping
+2025-08-17 22:43:55,718 - INFO - success CVE-2022-3996,details in openssl-cve_logs/CVE-2022-3996.log
+
+2025-08-17 22:43:55,719 - INFO - processing CVE-2016-2108 ( 4)
+2025-08-17 22:43:55,719 - INFO - running: python main.py --mfi --cve_id CVE-2016-2108 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2108-vuln-4159f311671c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2108-patch-f5da52e308a6-openssl --vul_func_name ASN1_TYPE_cmp
+2025-08-17 22:44:03,539 - ERROR - fail CVE-2016-2108 ,details0
+
+2025-08-17 22:44:03,540 - INFO - processing CVE-2016-2108 ( 5)
+2025-08-17 22:44:03,541 - INFO - running: python main.py --mfi --cve_id CVE-2016-2108 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2108-vuln-4159f311671c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2108-patch-f5da52e308a6-openssl --vul_func_name asn1_ex_c2i
+2025-08-17 22:44:11,087 - ERROR - fail CVE-2016-2108 ,details0
+
+2025-08-17 22:44:11,088 - INFO - processing CVE-2016-2108 ( 6)
+2025-08-17 22:44:11,089 - INFO - running: python main.py --mfi --cve_id CVE-2016-2108 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2108-vuln-4159f311671c-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2108-patch-f5da52e308a6-openssl --vul_func_name asn1_ex_i2c
+2025-08-17 22:44:18,048 - ERROR - fail CVE-2016-2108 ,details0
+
+2025-08-17 22:44:18,049 - INFO - processing CVE-2019-1563 ( 7)
+2025-08-17 22:44:18,049 - INFO - running: python main.py --mfi --cve_id CVE-2019-1563 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1563-vuln-7ff84d880362-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1563-patch-08229ad838c5-libcrypto --vul_func_name CMS_decrypt
+2025-08-17 22:44:36,933 - ERROR - fail CVE-2019-1563 ,details0
+
+2025-08-17 22:44:36,934 - INFO - processing CVE-2019-1563 ( 8)
+2025-08-17 22:44:36,934 - INFO - running: python main.py --mfi --cve_id CVE-2019-1563 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1563-vuln-7ff84d880362-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1563-patch-08229ad838c5-libcrypto --vul_func_name PKCS7_dataDecode
+2025-08-17 22:44:54,067 - ERROR - fail CVE-2019-1563 ,details0
+
+2025-08-17 22:44:54,068 - INFO - processing CVE-2019-1563 ( 9)
+2025-08-17 22:44:54,068 - INFO - running: python main.py --mfi --cve_id CVE-2019-1563 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1563-vuln-7ff84d880362-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1563-patch-08229ad838c5-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt
+2025-08-17 22:45:34,128 - INFO - success CVE-2019-1563,details in openssl-cve_logs/CVE-2019-1563.log
+
+2025-08-17 22:45:34,129 - INFO - processing CVE-2019-1563 ( 10)
+2025-08-17 22:45:34,130 - INFO - running: python main.py --mfi --cve_id CVE-2019-1563 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1563-vuln-7ff84d880362-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1563-patch-08229ad838c5-libcrypto --vul_func_name pkcs7_decrypt_rinfo
+2025-08-17 22:45:49,886 - INFO - success CVE-2019-1563,details in openssl-cve_logs/CVE-2019-1563.log
+
+2025-08-17 22:45:49,887 - INFO - processing CVE-2019-1563 ( 11)
+2025-08-17 22:45:49,887 - INFO - running: python main.py --mfi --cve_id CVE-2019-1563 --path_to_vul_bin /binaries/reference/openssl/CVE-2019-1563-vuln-7ff84d880362-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2019-1563-patch-08229ad838c5-libcrypto --vul_func_name pkcs7_encode_rinfo
+2025-08-17 22:45:57,901 - ERROR - fail CVE-2019-1563 ,details0
+
+2025-08-17 22:45:57,902 - INFO - processing CVE-2020-1967 ( 12)
+2025-08-17 22:45:57,903 - INFO - running: python main.py --mfi --cve_id CVE-2020-1967 --path_to_vul_bin /binaries/reference/openssl/CVE-2020-1967-vuln-64eef86733fd-libssl --path_to_patch_bin /binaries/reference/openssl/CVE-2020-1967-patch-eb563247aef3-libssl --vul_func_name tls1_check_sig_alg
+2025-08-17 22:46:27,999 - ERROR - fail CVE-2020-1967 ,details0
+
+2025-08-17 22:46:28,000 - INFO - processing CVE-2015-3194 ( 13)
+2025-08-17 22:46:28,001 - INFO - running: python main.py --mfi --cve_id CVE-2015-3194 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-3194-vuln-b29ffa392e83-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-3194-patch-d8541d7e9e63-openssl --vul_func_name rsa_pss_decode
+2025-08-17 22:46:57,932 - ERROR - fail CVE-2015-3194 ,details0
+
+2025-08-17 22:46:57,933 - INFO - processing CVE-2022-3786 ( 14)
+2025-08-17 22:46:57,934 - INFO - running: python main.py --mfi --cve_id CVE-2022-3786 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3786-vuln-fe3b639dc19b-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3786-patch-c42165b5706e-libcrypto --vul_func_name ossl_a2ulabel
+2025-08-17 22:47:15,972 - INFO - success CVE-2022-3786,details in openssl-cve_logs/CVE-2022-3786.log
+
+2025-08-17 22:47:15,973 - INFO - processing CVE-2022-3786 ( 15)
+2025-08-17 22:47:15,974 - INFO - running: python main.py --mfi --cve_id CVE-2022-3786 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-3786-vuln-fe3b639dc19b-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-3786-patch-c42165b5706e-libcrypto --vul_func_name ossl_punycode_decode
+2025-08-17 22:47:21,343 - ERROR - fail CVE-2022-3786 ,details0
+
+2025-08-17 22:47:21,344 - INFO - processing CVE-2015-1793 ( 16)
+2025-08-17 22:47:21,344 - INFO - running: python main.py --mfi --cve_id CVE-2015-1793 --path_to_vul_bin /binaries/reference/openssl/CVE-2015-1793-vuln-cb6e0ed17a61-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2015-1793-patch-9a0db453ba01-openssl --vul_func_name X509_verify_cert
+2025-08-17 22:48:23,227 - ERROR - fail CVE-2015-1793 ,details0
+
+2025-08-17 22:48:23,228 - INFO - processing CVE-2022-2274 ( 17)
+2025-08-17 22:48:23,228 - INFO - running: python main.py --mfi --cve_id CVE-2022-2274 --path_to_vul_bin /binaries/reference/openssl/CVE-2022-2274-vuln-eea820f3e239-libcrypto --path_to_patch_bin /binaries/reference/openssl/CVE-2022-2274-patch-4d8a88c134df-libcrypto --vul_func_name ossl_rsaz_mod_exp_avx512_x2
+2025-08-17 22:48:57,396 - ERROR - fail CVE-2022-2274 ,details0
+
+2025-08-17 22:48:57,397 - INFO - processing CVE-2016-2107 ( 18)
+2025-08-17 22:48:57,398 - INFO - running: python main.py --mfi --cve_id CVE-2016-2107 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2107-vuln-643e8e972e54-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2107-patch-68595c0c2886-openssl --vul_func_name aesni_cbc_hmac_sha1_cipher
+2025-08-17 22:49:29,843 - ERROR - fail CVE-2016-2107 ,details0
+
+2025-08-17 22:49:29,844 - INFO - processing CVE-2016-2107 ( 19)
+2025-08-17 22:49:29,844 - INFO - running: python main.py --mfi --cve_id CVE-2016-2107 --path_to_vul_bin /binaries/reference/openssl/CVE-2016-2107-vuln-643e8e972e54-openssl --path_to_patch_bin /binaries/reference/openssl/CVE-2016-2107-patch-68595c0c2886-openssl --vul_func_name aesni_cbc_hmac_sha256_cipher
+2025-08-17 22:49:41,402 - ERROR - fail CVE-2016-2107 ,details0

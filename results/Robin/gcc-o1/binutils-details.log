@@ -1,0 +1,576 @@
+============================================
+Patch Detection Log
+Time: 2025-09-02 11:54:01
+============================================
+2025-09-02 11:54:01,687 - INFO - detecting CVE-2017-8395 bfd_init_section_compress_status
+2025-09-02 11:54:01,687 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8395 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name bfd_init_section_compress_status
+2025-09-02 11:54:08,327 - INFO - success CVE-2017-8395,details in cve_test/CVE-2017-8395.log
+
+2025-09-02 11:54:08,327 - INFO - detecting CVE-2017-8395 bfd_init_section_compress_status
+2025-09-02 11:54:08,327 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8395 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name bfd_init_section_compress_status
+2025-09-02 11:54:15,193 - INFO - success CVE-2017-8395,details in cve_test/CVE-2017-8395.log
+
+2025-09-02 11:54:15,193 - INFO - detecting CVE-2017-8395 bfd_init_section_compress_status
+2025-09-02 11:54:15,193 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8395 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name bfd_init_section_compress_status
+2025-09-02 11:54:23,001 - INFO - success CVE-2017-8395,details in cve_test/CVE-2017-8395.log
+
+2025-09-02 11:54:23,002 - INFO - detecting CVE-2017-8395 bfd_init_section_compress_status
+2025-09-02 11:54:23,002 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8395 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name bfd_init_section_compress_status
+2025-09-02 11:54:30,415 - INFO - success CVE-2017-8395,details in cve_test/CVE-2017-8395.log
+
+2025-09-02 11:54:30,416 - INFO - detecting CVE-2017-8396 _bfd_final_link_relocate
+2025-09-02 11:54:30,417 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name _bfd_final_link_relocate
+2025-09-02 11:54:38,778 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:54:38,779 - INFO - detecting CVE-2017-8396 _bfd_final_link_relocate
+2025-09-02 11:54:38,780 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name _bfd_final_link_relocate
+2025-09-02 11:54:45,028 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:54:45,029 - INFO - detecting CVE-2017-8396 _bfd_final_link_relocate
+2025-09-02 11:54:45,030 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name _bfd_final_link_relocate
+2025-09-02 11:54:51,691 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:54:51,692 - INFO - detecting CVE-2017-8396 _bfd_final_link_relocate
+2025-09-02 11:54:51,692 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name _bfd_final_link_relocate
+2025-09-02 11:54:57,495 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:54:57,496 - INFO - detecting CVE-2017-8396 bfd_install_relocation
+2025-09-02 11:54:57,496 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name bfd_install_relocation
+2025-09-02 11:55:07,071 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:55:07,072 - INFO - detecting CVE-2017-8396 bfd_install_relocation
+2025-09-02 11:55:07,072 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name bfd_install_relocation
+2025-09-02 11:55:14,403 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:55:14,404 - INFO - detecting CVE-2017-8396 bfd_install_relocation
+2025-09-02 11:55:14,404 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name bfd_install_relocation
+2025-09-02 11:55:21,898 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:55:21,899 - INFO - detecting CVE-2017-8396 bfd_install_relocation
+2025-09-02 11:55:21,900 - INFO - cmd: python main.py --detect --cve_id CVE-2017-8396 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name bfd_install_relocation
+2025-09-02 11:55:29,686 - INFO - success CVE-2017-8396,details in cve_test/CVE-2017-8396.log
+
+2025-09-02 11:55:29,687 - INFO - detecting CVE-2017-9954 pass_over
+2025-09-02 11:55:29,687 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name pass_over
+2025-09-02 11:55:36,365 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:55:36,366 - INFO - detecting CVE-2017-9954 pass_over
+2025-09-02 11:55:36,367 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name pass_over
+2025-09-02 11:55:42,766 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:55:42,767 - INFO - detecting CVE-2017-9954 pass_over
+2025-09-02 11:55:42,767 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name pass_over
+2025-09-02 11:55:48,700 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:55:48,701 - INFO - detecting CVE-2017-9954 pass_over
+2025-09-02 11:55:48,702 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name pass_over
+2025-09-02 11:55:54,569 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:55:54,570 - INFO - detecting CVE-2017-9954 getvalue
+2025-09-02 11:55:54,571 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name getvalue
+2025-09-02 11:56:00,977 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:56:00,978 - INFO - detecting CVE-2017-9954 getvalue
+2025-09-02 11:56:00,978 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name getvalue
+2025-09-02 11:56:06,972 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:56:06,973 - INFO - detecting CVE-2017-9954 getvalue
+2025-09-02 11:56:06,973 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name getvalue
+2025-09-02 11:56:13,608 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:56:13,609 - INFO - detecting CVE-2017-9954 getvalue
+2025-09-02 11:56:13,609 - INFO - cmd: python main.py --detect --cve_id CVE-2017-9954 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name getvalue
+2025-09-02 11:56:19,327 - INFO - success CVE-2017-9954,details in cve_test/CVE-2017-9954.log
+
+2025-09-02 11:56:19,328 - INFO - detecting CVE-2017-13710 setup_group
+2025-09-02 11:56:19,329 - INFO - cmd: python main.py --detect --cve_id CVE-2017-13710 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name setup_group
+2025-09-02 11:56:23,684 - ERROR - fail CVE-2017-13710 ,details1
+
+2025-09-02 11:56:23,686 - INFO - detecting CVE-2017-13710 setup_group
+2025-09-02 11:56:23,686 - INFO - cmd: python main.py --detect --cve_id CVE-2017-13710 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name setup_group
+2025-09-02 11:56:27,943 - ERROR - fail CVE-2017-13710 ,details1
+
+2025-09-02 11:56:27,944 - INFO - detecting CVE-2017-13710 setup_group
+2025-09-02 11:56:27,945 - INFO - cmd: python main.py --detect --cve_id CVE-2017-13710 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name setup_group
+2025-09-02 11:56:32,291 - ERROR - fail CVE-2017-13710 ,details1
+
+2025-09-02 11:56:32,292 - INFO - detecting CVE-2017-13710 setup_group
+2025-09-02 11:56:32,293 - INFO - cmd: python main.py --detect --cve_id CVE-2017-13710 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name setup_group
+2025-09-02 11:56:36,528 - ERROR - fail CVE-2017-13710 ,details1
+
+2025-09-02 11:56:36,529 - INFO - detecting CVE-2017-14129 read_section
+2025-09-02 11:56:36,530 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14129 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name read_section
+2025-09-02 11:56:45,905 - INFO - success CVE-2017-14129,details in cve_test/CVE-2017-14129.log
+
+2025-09-02 11:56:45,906 - INFO - detecting CVE-2017-14129 read_section
+2025-09-02 11:56:45,906 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14129 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name read_section
+2025-09-02 11:56:55,003 - INFO - success CVE-2017-14129,details in cve_test/CVE-2017-14129.log
+
+2025-09-02 11:56:55,004 - INFO - detecting CVE-2017-14129 read_section
+2025-09-02 11:56:55,004 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14129 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name read_section
+2025-09-02 11:57:04,298 - INFO - success CVE-2017-14129,details in cve_test/CVE-2017-14129.log
+
+2025-09-02 11:57:04,299 - INFO - detecting CVE-2017-14129 read_section
+2025-09-02 11:57:04,300 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14129 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name read_section
+2025-09-02 11:57:13,172 - INFO - success CVE-2017-14129,details in cve_test/CVE-2017-14129.log
+
+2025-09-02 11:57:13,173 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:13,173 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:21,007 - INFO - success CVE-2017-12448,details in cve_test/CVE-2017-12448.log
+
+2025-09-02 11:57:21,008 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:21,008 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.28-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:28,616 - INFO - success CVE-2017-12448,details in cve_test/CVE-2017-12448.log
+
+2025-09-02 11:57:28,617 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:28,617 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.27-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:32,010 - ERROR - fail CVE-2017-12448 ,details1
+
+2025-09-02 11:57:32,011 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:32,012 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:39,372 - INFO - success CVE-2017-12448,details in cve_test/CVE-2017-12448.log
+
+2025-09-02 11:57:39,373 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:39,373 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:46,839 - INFO - success CVE-2017-12448,details in cve_test/CVE-2017-12448.log
+
+2025-09-02 11:57:46,840 - INFO - detecting CVE-2017-12448 bfd_generic_archive_p
+2025-09-02 11:57:46,841 - INFO - cmd: python main.py --detect --cve_id CVE-2017-12448 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name bfd_generic_archive_p
+2025-09-02 11:57:54,248 - INFO - success CVE-2017-12448,details in cve_test/CVE-2017-12448.log
+
+2025-09-02 11:57:54,249 - INFO - detecting CVE-2017-15024 scan_unit_for_symbols
+2025-09-02 11:57:54,249 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name scan_unit_for_symbols
+2025-09-02 11:58:01,186 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:58:01,187 - INFO - detecting CVE-2017-15024 scan_unit_for_symbols
+2025-09-02 11:58:01,187 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name scan_unit_for_symbols
+2025-09-02 11:58:07,848 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:58:07,849 - INFO - detecting CVE-2017-15024 scan_unit_for_symbols
+2025-09-02 11:58:07,849 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name scan_unit_for_symbols
+2025-09-02 11:58:14,410 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:58:14,411 - INFO - detecting CVE-2017-15024 scan_unit_for_symbols
+2025-09-02 11:58:14,411 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name scan_unit_for_symbols
+2025-09-02 11:58:21,197 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:58:21,198 - INFO - detecting CVE-2017-15024 find_abstract_instance_name
+2025-09-02 11:58:21,198 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 11:58:51,280 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:58:51,281 - INFO - detecting CVE-2017-15024 find_abstract_instance_name
+2025-09-02 11:58:51,281 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 11:59:23,077 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:59:23,078 - INFO - detecting CVE-2017-15024 find_abstract_instance_name
+2025-09-02 11:59:23,079 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 11:59:31,968 - INFO - success CVE-2017-15024,details in cve_test/CVE-2017-15024.log
+
+2025-09-02 11:59:31,969 - INFO - detecting CVE-2017-15024 find_abstract_instance_name
+2025-09-02 11:59:31,969 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15024 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 11:59:36,155 - ERROR - fail CVE-2017-15024 ,details1
+
+2025-09-02 11:59:36,156 - INFO - detecting CVE-2017-15020 parse_line_table
+2025-09-02 11:59:36,157 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name parse_line_table
+2025-09-02 11:59:40,515 - ERROR - fail CVE-2017-15020 ,details1
+
+2025-09-02 11:59:40,516 - INFO - detecting CVE-2017-15020 parse_line_table
+2025-09-02 11:59:40,516 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name parse_line_table
+2025-09-02 11:59:45,242 - ERROR - fail CVE-2017-15020 ,details1
+
+2025-09-02 11:59:45,243 - INFO - detecting CVE-2017-15020 parse_line_table
+2025-09-02 11:59:45,243 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name parse_line_table
+2025-09-02 11:59:50,116 - ERROR - fail CVE-2017-15020 ,details1
+
+2025-09-02 11:59:50,117 - INFO - detecting CVE-2017-15020 parse_line_table
+2025-09-02 11:59:50,118 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name parse_line_table
+2025-09-02 11:59:54,395 - ERROR - fail CVE-2017-15020 ,details1
+
+2025-09-02 11:59:54,396 - INFO - detecting CVE-2017-15020 parse_die
+2025-09-02 11:59:54,397 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name parse_die
+2025-09-02 12:00:02,144 - INFO - success CVE-2017-15020,details in cve_test/CVE-2017-15020.log
+
+2025-09-02 12:00:02,145 - INFO - detecting CVE-2017-15020 parse_die
+2025-09-02 12:00:02,146 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name parse_die
+2025-09-02 12:00:08,961 - INFO - success CVE-2017-15020,details in cve_test/CVE-2017-15020.log
+
+2025-09-02 12:00:08,962 - INFO - detecting CVE-2017-15020 parse_die
+2025-09-02 12:00:08,962 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name parse_die
+2025-09-02 12:00:16,740 - INFO - success CVE-2017-15020,details in cve_test/CVE-2017-15020.log
+
+2025-09-02 12:00:16,741 - INFO - detecting CVE-2017-15020 parse_die
+2025-09-02 12:00:16,741 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15020 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name parse_die
+2025-09-02 12:00:23,513 - INFO - success CVE-2017-15020,details in cve_test/CVE-2017-15020.log
+
+2025-09-02 12:00:23,514 - INFO - detecting CVE-2017-15023 read_formatted_entries
+2025-09-02 12:00:23,514 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15023 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:00:31,560 - INFO - success CVE-2017-15023,details in cve_test/CVE-2017-15023.log
+
+2025-09-02 12:00:31,561 - INFO - detecting CVE-2017-15023 read_formatted_entries
+2025-09-02 12:00:31,562 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15023 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:00:38,698 - INFO - success CVE-2017-15023,details in cve_test/CVE-2017-15023.log
+
+2025-09-02 12:00:38,699 - INFO - detecting CVE-2017-15023 read_formatted_entries
+2025-09-02 12:00:38,700 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15023 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:00:45,738 - INFO - success CVE-2017-15023,details in cve_test/CVE-2017-15023.log
+
+2025-09-02 12:00:45,739 - INFO - detecting CVE-2017-15023 read_formatted_entries
+2025-09-02 12:00:45,739 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15023 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:00:52,834 - INFO - success CVE-2017-15023,details in cve_test/CVE-2017-15023.log
+
+2025-09-02 12:00:52,835 - INFO - detecting CVE-2017-14933 read_formatted_entries
+2025-09-02 12:00:52,835 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14933 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:01:00,045 - INFO - success CVE-2017-14933,details in cve_test/CVE-2017-14933.log
+
+2025-09-02 12:01:00,046 - INFO - detecting CVE-2017-14933 read_formatted_entries
+2025-09-02 12:01:00,046 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14933 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:01:07,468 - INFO - success CVE-2017-14933,details in cve_test/CVE-2017-14933.log
+
+2025-09-02 12:01:07,469 - INFO - detecting CVE-2017-14933 read_formatted_entries
+2025-09-02 12:01:07,470 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14933 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:01:15,072 - INFO - success CVE-2017-14933,details in cve_test/CVE-2017-14933.log
+
+2025-09-02 12:01:15,073 - INFO - detecting CVE-2017-14933 read_formatted_entries
+2025-09-02 12:01:15,073 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14933 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name read_formatted_entries
+2025-09-02 12:01:22,370 - INFO - success CVE-2017-14933,details in cve_test/CVE-2017-14933.log
+
+2025-09-02 12:01:22,371 - INFO - detecting CVE-2017-15938 find_abstract_instance_name
+2025-09-02 12:01:22,371 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15938 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 12:01:30,933 - INFO - success CVE-2017-15938,details in cve_test/CVE-2017-15938.log
+
+2025-09-02 12:01:30,934 - INFO - detecting CVE-2017-15938 find_abstract_instance_name
+2025-09-02 12:01:30,935 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15938 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 12:01:40,349 - INFO - success CVE-2017-15938,details in cve_test/CVE-2017-15938.log
+
+2025-09-02 12:01:40,350 - INFO - detecting CVE-2017-15938 find_abstract_instance_name
+2025-09-02 12:01:40,351 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15938 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 12:01:44,659 - ERROR - fail CVE-2017-15938 ,details1
+
+2025-09-02 12:01:44,659 - INFO - detecting CVE-2017-15938 find_abstract_instance_name
+2025-09-02 12:01:44,660 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15938 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name find_abstract_instance_name
+2025-09-02 12:01:48,913 - ERROR - fail CVE-2017-15938 ,details1
+
+2025-09-02 12:01:48,914 - INFO - detecting CVE-2017-15939 decode_line_info
+2025-09-02 12:01:48,915 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15939 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name decode_line_info
+2025-09-02 12:01:56,514 - INFO - success CVE-2017-15939,details in cve_test/CVE-2017-15939.log
+
+2025-09-02 12:01:56,515 - INFO - detecting CVE-2017-15939 decode_line_info
+2025-09-02 12:01:56,516 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15939 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name decode_line_info
+2025-09-02 12:02:03,321 - INFO - success CVE-2017-15939,details in cve_test/CVE-2017-15939.log
+
+2025-09-02 12:02:03,322 - INFO - detecting CVE-2017-15939 decode_line_info
+2025-09-02 12:02:03,322 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15939 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name decode_line_info
+2025-09-02 12:02:10,608 - INFO - success CVE-2017-15939,details in cve_test/CVE-2017-15939.log
+
+2025-09-02 12:02:10,609 - INFO - detecting CVE-2017-15939 decode_line_info
+2025-09-02 12:02:10,609 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15939 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name decode_line_info
+2025-09-02 12:02:18,053 - INFO - success CVE-2017-15939,details in cve_test/CVE-2017-15939.log
+
+2025-09-02 12:02:18,054 - INFO - detecting CVE-2017-15996 process_archive_index_and_symbols
+2025-09-02 12:02:18,055 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15996 --target_bin /binaries/target/binutils/binutils-2.29-o1-objdump --vul_func_name process_archive_index_and_symbols
+2025-09-02 12:02:25,116 - INFO - success CVE-2017-15996,details in cve_test/CVE-2017-15996.log
+
+2025-09-02 12:02:25,117 - INFO - detecting CVE-2017-15996 process_archive_index_and_symbols
+2025-09-02 12:02:25,117 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15996 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name process_archive_index_and_symbols
+2025-09-02 12:02:32,434 - INFO - success CVE-2017-15996,details in cve_test/CVE-2017-15996.log
+
+2025-09-02 12:02:32,435 - INFO - detecting CVE-2017-15996 process_archive_index_and_symbols
+2025-09-02 12:02:32,435 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15996 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name process_archive_index_and_symbols
+2025-09-02 12:02:39,708 - INFO - success CVE-2017-15996,details in cve_test/CVE-2017-15996.log
+
+2025-09-02 12:02:39,709 - INFO - detecting CVE-2017-15996 process_archive_index_and_symbols
+2025-09-02 12:02:39,710 - INFO - cmd: python main.py --detect --cve_id CVE-2017-15996 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name process_archive_index_and_symbols
+2025-09-02 12:02:46,899 - INFO - success CVE-2017-15996,details in cve_test/CVE-2017-15996.log
+
+2025-09-02 12:02:46,900 - INFO - detecting CVE-2017-16831 coff_get_normalized_symtab
+2025-09-02 12:02:46,900 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name coff_get_normalized_symtab
+2025-09-02 12:02:55,852 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:02:55,853 - INFO - detecting CVE-2017-16831 coff_get_normalized_symtab
+2025-09-02 12:02:55,853 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name coff_get_normalized_symtab
+2025-09-02 12:03:04,370 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:04,371 - INFO - detecting CVE-2017-16831 coff_get_normalized_symtab
+2025-09-02 12:03:04,371 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name coff_get_normalized_symtab
+2025-09-02 12:03:13,242 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:13,243 - INFO - detecting CVE-2017-16831 coff_get_normalized_symtab
+2025-09-02 12:03:13,244 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name coff_get_normalized_symtab
+2025-09-02 12:03:21,998 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:21,999 - INFO - detecting CVE-2017-16831 _bfd_coff_get_external_symbols
+2025-09-02 12:03:22,000 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name _bfd_coff_get_external_symbols
+2025-09-02 12:03:28,152 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:28,153 - INFO - detecting CVE-2017-16831 _bfd_coff_get_external_symbols
+2025-09-02 12:03:28,153 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name _bfd_coff_get_external_symbols
+2025-09-02 12:03:34,516 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:34,517 - INFO - detecting CVE-2017-16831 _bfd_coff_get_external_symbols
+2025-09-02 12:03:34,517 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name _bfd_coff_get_external_symbols
+2025-09-02 12:03:40,768 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:40,769 - INFO - detecting CVE-2017-16831 _bfd_coff_get_external_symbols
+2025-09-02 12:03:40,770 - INFO - cmd: python main.py --detect --cve_id CVE-2017-16831 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name _bfd_coff_get_external_symbols
+2025-09-02 12:03:47,130 - INFO - success CVE-2017-16831,details in cve_test/CVE-2017-16831.log
+
+2025-09-02 12:03:47,131 - INFO - detecting CVE-2017-17080 elfcore_grok_nto_status
+2025-09-02 12:03:47,131 - INFO - cmd: python main.py --detect --cve_id CVE-2017-17080 --target_bin /binaries/target/binutils/binutils-2.29.1-o1-objdump --vul_func_name elfcore_grok_nto_status
+2025-09-02 12:03:51,172 - ERROR - fail CVE-2017-17080 ,details1
+
+2025-09-02 12:03:51,173 - INFO - detecting CVE-2017-17080 elfcore_grok_nto_status
+2025-09-02 12:03:51,174 - INFO - cmd: python main.py --detect --cve_id CVE-2017-17080 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name elfcore_grok_nto_status
+2025-09-02 12:03:55,214 - ERROR - fail CVE-2017-17080 ,details1
+
+2025-09-02 12:03:55,215 - INFO - detecting CVE-2017-17080 elfcore_grok_nto_status
+2025-09-02 12:03:55,215 - INFO - cmd: python main.py --detect --cve_id CVE-2017-17080 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name elfcore_grok_nto_status
+2025-09-02 12:03:59,275 - ERROR - fail CVE-2017-17080 ,details1
+
+2025-09-02 12:03:59,276 - INFO - detecting CVE-2017-17080 elfcore_grok_nto_status
+2025-09-02 12:03:59,277 - INFO - cmd: python main.py --detect --cve_id CVE-2017-17080 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name elfcore_grok_nto_status
+2025-09-02 12:04:03,640 - ERROR - fail CVE-2017-17080 ,details1
+
+2025-09-02 12:04:03,641 - INFO - detecting CVE-2018-7208 coff_pointerize_aux
+2025-09-02 12:04:03,641 - INFO - cmd: python main.py --detect --cve_id CVE-2018-7208 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name coff_pointerize_aux
+2025-09-02 12:04:07,691 - ERROR - fail CVE-2018-7208 ,details1
+
+2025-09-02 12:04:07,691 - INFO - detecting CVE-2018-7208 coff_pointerize_aux
+2025-09-02 12:04:07,692 - INFO - cmd: python main.py --detect --cve_id CVE-2018-7208 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name coff_pointerize_aux
+2025-09-02 12:04:11,807 - ERROR - fail CVE-2018-7208 ,details1
+
+2025-09-02 12:04:11,808 - INFO - detecting CVE-2018-7208 coff_pointerize_aux
+2025-09-02 12:04:11,809 - INFO - cmd: python main.py --detect --cve_id CVE-2018-7208 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name coff_pointerize_aux
+2025-09-02 12:04:15,791 - ERROR - fail CVE-2018-7208 ,details1
+
+2025-09-02 12:04:15,792 - INFO - detecting CVE-2018-7208 coff_pointerize_aux
+2025-09-02 12:04:15,792 - INFO - cmd: python main.py --detect --cve_id CVE-2018-7208 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name coff_pointerize_aux
+2025-09-02 12:04:19,812 - ERROR - fail CVE-2018-7208 ,details1
+
+2025-09-02 12:04:19,813 - INFO - detecting CVE-2018-6543 load_specific_debug_section
+2025-09-02 12:04:19,813 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6543 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:04:31,861 - INFO - success CVE-2018-6543,details in cve_test/CVE-2018-6543.log
+
+2025-09-02 12:04:31,862 - INFO - detecting CVE-2018-6543 load_specific_debug_section
+2025-09-02 12:04:31,863 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6543 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:04:42,267 - INFO - success CVE-2018-6543,details in cve_test/CVE-2018-6543.log
+
+2025-09-02 12:04:42,268 - INFO - detecting CVE-2018-6543 load_specific_debug_section
+2025-09-02 12:04:42,268 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6543 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:04:52,679 - INFO - success CVE-2018-6543,details in cve_test/CVE-2018-6543.log
+
+2025-09-02 12:04:52,680 - INFO - detecting CVE-2018-6543 load_specific_debug_section
+2025-09-02 12:04:52,681 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6543 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:05:03,763 - INFO - success CVE-2018-6543,details in cve_test/CVE-2018-6543.log
+
+2025-09-02 12:05:03,764 - INFO - detecting CVE-2018-6759 bfd_get_debug_link_info_1
+2025-09-02 12:05:03,764 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6759 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name bfd_get_debug_link_info_1
+2025-09-02 12:05:08,407 - INFO - success CVE-2018-6759,details in cve_test/CVE-2018-6759.log
+
+2025-09-02 12:05:08,407 - INFO - detecting CVE-2018-6759 bfd_get_debug_link_info_1
+2025-09-02 12:05:08,408 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6759 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name bfd_get_debug_link_info_1
+2025-09-02 12:05:13,077 - INFO - success CVE-2018-6759,details in cve_test/CVE-2018-6759.log
+
+2025-09-02 12:05:13,078 - INFO - detecting CVE-2018-6759 bfd_get_debug_link_info_1
+2025-09-02 12:05:13,079 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6759 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name bfd_get_debug_link_info_1
+2025-09-02 12:05:17,859 - INFO - success CVE-2018-6759,details in cve_test/CVE-2018-6759.log
+
+2025-09-02 12:05:17,860 - INFO - detecting CVE-2018-6759 bfd_get_debug_link_info_1
+2025-09-02 12:05:17,861 - INFO - cmd: python main.py --detect --cve_id CVE-2018-6759 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name bfd_get_debug_link_info_1
+2025-09-02 12:05:22,151 - INFO - success CVE-2018-6759,details in cve_test/CVE-2018-6759.log
+
+2025-09-02 12:05:22,152 - INFO - detecting CVE-2018-10372 process_cu_tu_index
+2025-09-02 12:05:22,153 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10372 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name process_cu_tu_index
+2025-09-02 12:05:28,333 - INFO - success CVE-2018-10372,details in cve_test/CVE-2018-10372.log
+
+2025-09-02 12:05:28,334 - INFO - detecting CVE-2018-10372 process_cu_tu_index
+2025-09-02 12:05:28,335 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10372 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name process_cu_tu_index
+2025-09-02 12:05:35,092 - INFO - success CVE-2018-10372,details in cve_test/CVE-2018-10372.log
+
+2025-09-02 12:05:35,093 - INFO - detecting CVE-2018-10372 process_cu_tu_index
+2025-09-02 12:05:35,093 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10372 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name process_cu_tu_index
+2025-09-02 12:05:41,640 - INFO - success CVE-2018-10372,details in cve_test/CVE-2018-10372.log
+
+2025-09-02 12:05:41,641 - INFO - detecting CVE-2018-10372 process_cu_tu_index
+2025-09-02 12:05:41,642 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10372 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name process_cu_tu_index
+2025-09-02 12:05:48,224 - INFO - success CVE-2018-10372,details in cve_test/CVE-2018-10372.log
+
+2025-09-02 12:05:48,225 - INFO - detecting CVE-2018-10373 concat_filename
+2025-09-02 12:05:48,225 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10373 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name concat_filename
+2025-09-02 12:05:54,454 - INFO - success CVE-2018-10373,details in cve_test/CVE-2018-10373.log
+
+2025-09-02 12:05:54,455 - INFO - detecting CVE-2018-10373 concat_filename
+2025-09-02 12:05:54,455 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10373 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name concat_filename
+2025-09-02 12:05:58,942 - INFO - success CVE-2018-10373,details in cve_test/CVE-2018-10373.log
+
+2025-09-02 12:05:58,942 - INFO - detecting CVE-2018-10373 concat_filename
+2025-09-02 12:05:58,943 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10373 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name concat_filename
+2025-09-02 12:06:03,703 - INFO - success CVE-2018-10373,details in cve_test/CVE-2018-10373.log
+
+2025-09-02 12:06:03,704 - INFO - detecting CVE-2018-10373 concat_filename
+2025-09-02 12:06:03,705 - INFO - cmd: python main.py --detect --cve_id CVE-2018-10373 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name concat_filename
+2025-09-02 12:06:12,453 - INFO - success CVE-2018-10373,details in cve_test/CVE-2018-10373.log
+
+2025-09-02 12:06:12,453 - INFO - detecting CVE-2018-8945 _bfd_elf_parse_attributes
+2025-09-02 12:06:12,454 - INFO - cmd: python main.py --detect --cve_id CVE-2018-8945 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name _bfd_elf_parse_attributes
+2025-09-02 12:06:27,407 - INFO - success CVE-2018-8945,details in cve_test/CVE-2018-8945.log
+
+2025-09-02 12:06:27,408 - INFO - detecting CVE-2018-8945 _bfd_elf_parse_attributes
+2025-09-02 12:06:27,408 - INFO - cmd: python main.py --detect --cve_id CVE-2018-8945 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name _bfd_elf_parse_attributes
+2025-09-02 12:06:33,495 - INFO - success CVE-2018-8945,details in cve_test/CVE-2018-8945.log
+
+2025-09-02 12:06:33,496 - INFO - detecting CVE-2018-8945 _bfd_elf_parse_attributes
+2025-09-02 12:06:33,496 - INFO - cmd: python main.py --detect --cve_id CVE-2018-8945 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name _bfd_elf_parse_attributes
+2025-09-02 12:06:39,535 - INFO - success CVE-2018-8945,details in cve_test/CVE-2018-8945.log
+
+2025-09-02 12:06:39,536 - INFO - detecting CVE-2018-8945 _bfd_elf_parse_attributes
+2025-09-02 12:06:39,537 - INFO - cmd: python main.py --detect --cve_id CVE-2018-8945 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name _bfd_elf_parse_attributes
+2025-09-02 12:06:45,553 - INFO - success CVE-2018-8945,details in cve_test/CVE-2018-8945.log
+
+2025-09-02 12:06:45,554 - INFO - detecting CVE-2018-18607 elf_link_input_bfd
+2025-09-02 12:06:45,555 - INFO - cmd: python main.py --detect --cve_id CVE-2018-18607 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name elf_link_input_bfd
+2025-09-02 12:06:50,077 - ERROR - fail CVE-2018-18607 ,details1
+
+2025-09-02 12:06:50,078 - INFO - detecting CVE-2018-18607 elf_link_input_bfd
+2025-09-02 12:06:50,079 - INFO - cmd: python main.py --detect --cve_id CVE-2018-18607 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name elf_link_input_bfd
+2025-09-02 12:06:54,378 - ERROR - fail CVE-2018-18607 ,details1
+
+2025-09-02 12:06:54,379 - INFO - detecting CVE-2018-18607 elf_link_input_bfd
+2025-09-02 12:06:54,380 - INFO - cmd: python main.py --detect --cve_id CVE-2018-18607 --target_bin /binaries/target/binutils/binutils-2.33.1-o1-objdump --vul_func_name elf_link_input_bfd
+2025-09-02 12:06:58,646 - ERROR - fail CVE-2018-18607 ,details1
+
+2025-09-02 12:06:58,647 - INFO - detecting CVE-2018-18607 elf_link_input_bfd
+2025-09-02 12:06:58,648 - INFO - cmd: python main.py --detect --cve_id CVE-2018-18607 --target_bin /binaries/target/binutils/binutils-2.34-o1-objdump --vul_func_name elf_link_input_bfd
+2025-09-02 12:07:02,860 - ERROR - fail CVE-2018-18607 ,details1
+
+2025-09-02 12:07:02,861 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:02,861 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.31.1-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:07:13,527 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:07:13,528 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:13,529 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.31-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:07:24,607 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:07:24,608 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:24,608 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.30-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:07:35,868 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:07:35,869 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:35,870 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.32-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:07:48,049 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:07:48,050 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:48,051 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.33.1-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:07:59,430 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:07:59,431 - INFO - detecting CVE-2018-20671 load_specific_debug_section
+2025-09-02 12:07:59,432 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20671 --target_bin /binaries/target/binutils/binutils-2.34-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:08:10,666 - INFO - success CVE-2018-20671,details in cve_test/CVE-2018-20671.log
+
+2025-09-02 12:08:10,667 - INFO - detecting CVE-2021-20294 print_dynamic_symbol
+2025-09-02 12:08:10,668 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20294 --target_bin /binaries/target/binutils/binutils-2.35.1-o1-readelf --vul_func_name print_dynamic_symbol
+2025-09-02 12:08:20,463 - INFO - success CVE-2021-20294,details in cve_test/CVE-2021-20294.log
+
+2025-09-02 12:08:20,464 - INFO - detecting CVE-2021-20294 print_dynamic_symbol
+2025-09-02 12:08:20,465 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20294 --target_bin /binaries/target/binutils/binutils-2.35-o1-readelf --vul_func_name print_dynamic_symbol
+2025-09-02 12:08:30,095 - INFO - success CVE-2021-20294,details in cve_test/CVE-2021-20294.log
+
+2025-09-02 12:08:30,096 - INFO - detecting CVE-2021-20294 print_dynamic_symbol
+2025-09-02 12:08:30,097 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20294 --target_bin /binaries/target/binutils/binutils-2.35.2-o1-readelf --vul_func_name print_dynamic_symbol
+2025-09-02 12:08:39,735 - INFO - success CVE-2021-20294,details in cve_test/CVE-2021-20294.log
+
+2025-09-02 12:08:39,736 - INFO - detecting CVE-2021-20294 print_dynamic_symbol
+2025-09-02 12:08:39,737 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20294 --target_bin /binaries/target/binutils/binutils-2.36.1-o1-readelf --vul_func_name print_dynamic_symbol
+2025-09-02 12:08:49,442 - INFO - success CVE-2021-20294,details in cve_test/CVE-2021-20294.log
+
+2025-09-02 12:08:49,443 - INFO - detecting CVE-2021-20294 print_dynamic_symbol
+2025-09-02 12:08:49,443 - INFO - cmd: python main.py --detect --cve_id CVE-2021-20294 --target_bin /binaries/target/binutils/binutils-2.37-o1-readelf --vul_func_name print_dynamic_symbol
+2025-09-02 12:08:59,959 - INFO - success CVE-2021-20294,details in cve_test/CVE-2021-20294.log
+
+2025-09-02 12:08:59,960 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:08:59,960 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.37-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:04,355 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:04,356 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:09:04,357 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.36.1-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:08,870 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:08,871 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:09:08,871 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.35.2-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:13,211 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:13,213 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:09:13,213 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.38-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:17,500 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:17,501 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:09:17,502 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.39-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:22,044 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:22,045 - INFO - detecting CVE-2021-45078 stab_xcoff_builtin_type
+2025-09-02 12:09:22,045 - INFO - cmd: python main.py --detect --cve_id CVE-2021-45078 --target_bin /binaries/target/binutils/binutils-2.40-o1-objdump --vul_func_name stab_xcoff_builtin_type
+2025-09-02 12:09:25,354 - ERROR - fail CVE-2021-45078 ,details1
+
+2025-09-02 12:09:25,355 - INFO - detecting CVE-2023-25586 bfd_init_section_decompress_status
+2025-09-02 12:09:25,359 - INFO - cmd: python main.py --detect --cve_id CVE-2023-25586 --target_bin /binaries/target/binutils/binutils-2.40-o1-objdump --vul_func_name bfd_init_section_decompress_status
+2025-09-02 12:09:28,675 - ERROR - fail CVE-2023-25586 ,details1
+
+2025-09-02 12:09:28,676 - INFO - detecting CVE-2023-25586 bfd_init_section_decompress_status
+2025-09-02 12:09:28,676 - INFO - cmd: python main.py --detect --cve_id CVE-2023-25586 --target_bin /binaries/target/binutils/binutils-2.41-o1-objdump --vul_func_name bfd_init_section_decompress_status
+2025-09-02 12:09:36,496 - INFO - success CVE-2023-25586,details in cve_test/CVE-2023-25586.log
+
+2025-09-02 12:09:36,497 - INFO - detecting CVE-2023-25586 bfd_init_section_decompress_status
+2025-09-02 12:09:36,497 - INFO - cmd: python main.py --detect --cve_id CVE-2023-25586 --target_bin /binaries/target/binutils/binutils-2.42-o1-objdump --vul_func_name bfd_init_section_decompress_status
+2025-09-02 12:09:44,202 - INFO - success CVE-2023-25586,details in cve_test/CVE-2023-25586.log
+
+2025-09-02 12:09:44,203 - INFO - detecting CVE-2023-25586 bfd_init_section_decompress_status
+2025-09-02 12:09:44,204 - INFO - cmd: python main.py --detect --cve_id CVE-2023-25586 --target_bin /binaries/target/binutils/binutils-2.43-o1-objdump --vul_func_name bfd_init_section_decompress_status
+2025-09-02 12:09:51,980 - INFO - success CVE-2023-25586,details in cve_test/CVE-2023-25586.log
+
+2025-09-02 12:09:51,981 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:09:51,981 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.39-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:02,985 - INFO - success CVE-2022-48063,details in cve_test/CVE-2022-48063.log
+
+2025-09-02 12:10:02,986 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:10:02,987 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.38-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:14,253 - INFO - success CVE-2022-48063,details in cve_test/CVE-2022-48063.log
+
+2025-09-02 12:10:14,254 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:10:14,254 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.37-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:24,920 - INFO - success CVE-2022-48063,details in cve_test/CVE-2022-48063.log
+
+2025-09-02 12:10:24,921 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:10:24,922 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.40-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:28,252 - ERROR - fail CVE-2022-48063 ,details1
+
+2025-09-02 12:10:28,252 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:10:28,253 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.41-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:40,502 - INFO - success CVE-2022-48063,details in cve_test/CVE-2022-48063.log
+
+2025-09-02 12:10:40,503 - INFO - detecting CVE-2022-48063 load_specific_debug_section
+2025-09-02 12:10:40,503 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48063 --target_bin /binaries/target/binutils/binutils-2.42-o1-objdump --vul_func_name load_specific_debug_section
+2025-09-02 12:10:52,783 - INFO - success CVE-2022-48063,details in cve_test/CVE-2022-48063.log
+
+2025-09-02 12:10:52,784 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:10:52,784 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.39-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:10:59,250 - INFO - success CVE-2022-48065,details in cve_test/CVE-2022-48065.log
+
+2025-09-02 12:10:59,251 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:10:59,251 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.38-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:11:06,553 - INFO - success CVE-2022-48065,details in cve_test/CVE-2022-48065.log
+
+2025-09-02 12:11:06,554 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:11:06,555 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.37-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:11:13,481 - INFO - success CVE-2022-48065,details in cve_test/CVE-2022-48065.log
+
+2025-09-02 12:11:13,481 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:11:13,482 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.40-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:11:16,736 - ERROR - fail CVE-2022-48065 ,details1
+
+2025-09-02 12:11:16,737 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:11:16,738 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.41-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:11:24,308 - INFO - success CVE-2022-48065,details in cve_test/CVE-2022-48065.log
+
+2025-09-02 12:11:24,309 - INFO - detecting CVE-2022-48065 find_abstract_instance
+2025-09-02 12:11:24,310 - INFO - cmd: python main.py --detect --cve_id CVE-2022-48065 --target_bin /binaries/target/binutils/binutils-2.42-o1-objdump --vul_func_name find_abstract_instance
+2025-09-02 12:11:31,424 - INFO - success CVE-2022-48065,details in cve_test/CVE-2022-48065.log
+

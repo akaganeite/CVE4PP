@@ -14,9 +14,9 @@ REPO_MAP = {
     # "libxml2": "api.github.com/repos/GNOME/libxml2",
     # "sqlite": "api.github.com/repos/sqlite/sqlite",
     # "openssl": "api.github.com/repos/openssl/openssl",
-    # "tcpdump": "api.github.com/repos/the-tcpdump-group/tcpdump",
+    "tcpdump": "api.github.com/repos/the-tcpdump-group/tcpdump",
     # "openjpeg": "api.github.com/repos/uclouvain/openjpeg",
-    "imagemagick": "api.github.com/repos/ImageMagick/ImageMagick",
+    # "imagemagick": "api.github.com/repos/ImageMagick/ImageMagick",
 }
 
 def parse_diff_filename(filename):
@@ -87,12 +87,50 @@ C_FUNC_REGEX = re.compile(
     r'\s+'                           # 至少一个空格
     r'([a-zA-Z_]\w*)'                # 函数名 (捕获组 1)
     r'\s*'                           # 可选空格
-    r'\('                            # 左括号
-    r'[^)]*'                         # 参数 (简单匹配)
-    r'\)'                            # 右括号
+    r'\([^)]*\)'                     # 参数 (简单匹配)
     r'\s*'                           # 可选空格
     r'\{',                           # 左大括号 (必须)
     re.MULTILINE 
+)
+
+# 新增：用于匹配多行函数签名的正则表达式
+C_MULTILINE_FUNC_REGEX = re.compile(
+    r'(?:(?:static|inline|extern|const|volatile|struct|enum|union)\s+)*'  # 可选关键字/类型前缀
+    r'[\w\s\*&<>_:]+?'  # 返回类型 (非贪婪匹配)
+    r'\s+'  # 至少一个空格或换行符
+    r'([a-zA-Z_]\w*)'  # 函数名 (捕获组 1)
+    r'\s*'  # 可选空格
+    r'\('  # 左括号
+    r'[^)]*?'  # 参数列表 (非贪婪，不跨越括号)
+    r'\)'  # 右括号
+    r'\s*'  # 可选空格
+    r'\{'  # 函数体开始的左大括号
+    r'(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*?'  # 非贪婪地匹配整个函数体，支持嵌套括号
+    r'\}',  # 函数体结束的右大括号
+    re.DOTALL  # 允许多行匹配
+)
+
+# C_FUNC_SIGNATURE_REGEX = re.compile(
+#     r'^(?:(?:static|inline|extern|const|volatile|struct|enum|union)\s+)*'  # 可选关键字/类型前缀
+#     r'[\w\s\*&<>_:]+?'               # 返回类型 (非贪婪匹配)
+#     r'\s+'                           # 至少一个空格或换行符
+#     r'([a-zA-Z_]\w*)'                 # 函数名 (捕获组 1)
+#     r'\s*'                           # 可选空格
+#     r'\([^)]*?\)'                    # 参数列表和括号
+#     r'\s*[^;\n]*$',                  # 匹配到行尾，且该行从签名结束后不包含分号
+#     re.MULTILINE | re.DOTALL
+# )
+
+# 新增：仅用于匹配函数签名的正则表达式 (不要求有函数体)
+C_FUNC_SIGNATURE_REGEX = re.compile(
+    r'^\s*'                          # 从行首开始，允许缩进
+    r'(?:[\w\s\*&<>_:]+?\s+)?'        # 可选的返回类型 (非贪婪)
+    r'([a-zA-Z_]\w*)'                 # 函数名 (捕获组 1)
+    r'\s*'                           # 可选空格
+    r'\([^)]*?\)'                    # 参数列表和括号
+    r'(?!.*\([^)]*\()'               # 负向前瞻，确保后面不再有其他左括号
+    r'\s*[^;]*?$',                   # 匹配到行尾，允许后面有 {
+    re.MULTILINE
 )
 
 # C 语言 Hunk 头识别 (更宽松，不需要 { )
@@ -150,18 +188,15 @@ def parse_diff_functions_inclusive(
     all_deleted: Set[str] = set()
     all_modified: Set[str] = set()
 
-    line_regex = LANG_LINE_REGEX_MAP.get(language)
-    hunk_regex = LANG_HUNK_REGEX_MAP.get(language) # <--- 获取 Hunk 正则
+    hunk_regex = LANG_HUNK_REGEX_MAP.get(language)
 
-    if not line_regex or not hunk_regex:
+    if not C_MULTILINE_FUNC_REGEX or not hunk_regex:
         raise ValueError(f"不支持的语言或未配置正则表达式: {language}")
 
     try:
         with open(diff_filepath, 'r', encoding='utf-8', errors='ignore') as f:
             diff_content = f.read()
-            
         patch = PatchSet.from_string(diff_content)
-
     except FileNotFoundError:
         print(f"错误: 文件未找到 '{diff_filepath}'")
         return []
@@ -170,52 +205,77 @@ def parse_diff_functions_inclusive(
         return []
 
     for patched_file in patch:
-        # 只处理 .c 文件
         is_c_file = patched_file.source_file.endswith('.c') or patched_file.target_file.endswith('.c')
-        
-        # 如果文件类型不匹配或者不是修改过的文件，则跳过
-        if patched_file.is_modified_file and is_c_file:
-            for hunk in patched_file:
-                hunk_added: Set[str] = set()
-                hunk_deleted: Set[str] = set()
-                has_changes_in_hunk = False
+        if not (patched_file.is_modified_file and is_c_file):
+            continue
 
-                for line in hunk:
-                    if line.is_added:
-                        has_changes_in_hunk = True
-                        name = extract_name(line.value.lstrip('+').rstrip(), line_regex)
-                        if name: hunk_added.add(name)
-                    elif line.is_removed:
-                        has_changes_in_hunk = True
-                        name = extract_name(line.value.lstrip('-').rstrip(), line_regex)
-                        if name: hunk_deleted.add(name)
+        for hunk in patched_file:
+            # 使用 "\n".join 保留换行符，这对多行正则表达式的正确匹配至关重要
+            hunk_added_text = "\n".join(line.value.lstrip('+') for line in hunk if line.is_added)
+            hunk_deleted_text = "\n".join(line.value.lstrip('-') for line in hunk if line.is_removed)
+            
+            # 1. 优先查找完整的函数体增/删
+            hunk_added_funcs = {match.group(1) for match in C_MULTILINE_FUNC_REGEX.finditer(hunk_added_text)}
+            hunk_deleted_funcs = {match.group(1) for match in C_MULTILINE_FUNC_REGEX.finditer(hunk_deleted_text)}
+            
+            # 过滤掉关键字
+            keywords_to_ignore = {"if", "while", "for", "switch"}
+            if hunk_added_funcs and hunk_added_funcs.issubset(keywords_to_ignore):
+                hunk_added_funcs = set()
+            if hunk_deleted_funcs and hunk_deleted_funcs.issubset(keywords_to_ignore):
+                hunk_deleted_funcs = set()
+            # print(hunk_deleted_funcs)
+            # print(hunk_added_funcs)
+            all_added.update(hunk_added_funcs)
+            all_deleted.update(hunk_deleted_funcs)
+
+            # 2. 如果没有完整函数体变更，则检查函数签名变更
+            signature_modified_found = False
+            if not hunk_added_funcs and not hunk_deleted_funcs:
+            # 使用签名正则来查找
+                added_signatures = {m.group(1) for m in C_FUNC_SIGNATURE_REGEX.finditer(hunk_added_text)}
+                deleted_signatures = {m.group(1) for m in C_FUNC_SIGNATURE_REGEX.finditer(hunk_deleted_text)}
                 
-                all_added.update(hunk_added)
-                all_deleted.update(hunk_deleted)
+                # 同样地，过滤掉关键字
+                if added_signatures and added_signatures.issubset(keywords_to_ignore):
+                    added_signatures = set()
+                if deleted_signatures and deleted_signatures.issubset(keywords_to_ignore):
+                    deleted_signatures = set()
 
-                signature_changed = hunk_added & hunk_deleted
-                all_modified.update(signature_changed)
+                # 找到同时出现在新增和删除中的函数签名，这表明是修改
+                modified_signatures = added_signatures & deleted_signatures
+                # print(modified_signatures)
+                if modified_signatures:
+                    all_modified.update(modified_signatures)
+                    signature_modified_found = True
 
-                # 使用 Hunk 正则解析 Hunk 头
-                if has_changes_in_hunk:
+            # 3. 最后，如果以上两种情况都未发生，才回退到使用 hunk 头部
+            if not hunk_added_funcs and not hunk_deleted_funcs and not signature_modified_found:
+                if hunk_added_text or hunk_deleted_text: # 确保 hunk 内有实际的代码改动
                     hunk_func_name = extract_name_from_hunk_header(hunk.section_header, hunk_regex)
                     if hunk_func_name:
-                         all_modified.add(hunk_func_name)
+                        all_modified.add(hunk_func_name)
 
-    return list(all_added | all_deleted | all_modified)
+    # 从“已修改”集合中移除那些实际上是“新增”或“删除”的函数
+    # 这可以处理一个函数被完全重写（删除后新增）的情况
+    final_modified = all_modified - all_added - all_deleted
+    
+    return list(all_added | all_deleted | final_modified)
+
 
 def generate_report(project_dir, entries):
-    """生成项目目录的details文件"""
-    with open(os.path.join(project_dir, "../details"), "w") as f:
+    """根据解析结果生成报告文件"""
+    with open(os.path.join(project_dir, "../details_refined"), "w") as f:
         # 在迭代前对 entries 进行排序
         # key=lambda entry: entry[0] 表示按每个条目(entry)的第一个元素(cve_id)排序
         for cve_id, date, funcs in sorted(entries, key=lambda entry: entry[0]):
-            # funcs 去掉 while for if
-            funcs = [func for func in funcs if func not in ("while", "for", "if","switch")]
-            func_list = ",".join(funcs) if funcs else "N/A"
-            f.write(f"{cve_id} {date} {func_list}\n")
+            # funcs 去掉关键字和全大写的宏
+            funcs = [func for func in funcs if func not in ("while", "for", "if", "switch") and not func.isupper()]
+            func_list = ",".join(sorted(funcs)) if funcs else "N/A"
+            if func_list != "N/A":  # 只写入有函数修改的条目
+                f.write(f"{cve_id} {date} {func_list}\n")
 
-PROJ = "imagemagick"
+PROJ = "tcpdump"
 
 def main():
     for root, dirs, files in os.walk(f"./{PROJ}/diff_files"):
@@ -249,4 +309,7 @@ def main():
             generate_report(root, report_entries)
 
 if __name__ == "__main__":
+    # diff_path = "./tcpdump/diff_files/tcpdump_CVE-2017-12894_730fc35968c5.diff"
+    # functions = parse_diff_functions_inclusive(diff_path)
+    # print(functions)
     main()

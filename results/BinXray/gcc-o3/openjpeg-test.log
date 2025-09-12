@@ -1,0 +1,325 @@
+
+Detect o3 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20847
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_get_all_encoding_parameters,-1
+[*] /s; sim-cal:2.382793
+[*] Detection Result:V 1.0/0.06666666666666667 4/5,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1-o3-openjpeg,opj_get_all_encoding_parameters,-1
+[*] /s; sim-cal:2.654986
+[*] Detection Result:V 1.0/0.06666666666666667 3/4,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0.1-o3-openjpeg,opj_get_all_encoding_parameters,-1
+[*] /s; sim-cal:2.642212
+[*] Detection Result:V 1.0/0.06666666666666667 4/5,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_get_all_encoding_parameters,1
+[*] /s; sim-cal:3.324651
+[*] Detection Result:P 0.4909090909090909/0.5272727272727272 16/16,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_get_all_encoding_parameters,1
+[*] /s; sim-cal:3.704562
+[*] Detection Result:V 0.5660377358490566/0.44339622641509435 26/26,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.5.0-o3-openjpeg,opj_get_all_encoding_parameters,1
+target function: opj_get_all_encoding_parameters not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0.1-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_tcd_init_tile,1
+[*] /s; sim-cal:0.710994
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_tcd_init_tile,1
+[*] /s; sim-cal:0.714611
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.5.0-o3-openjpeg,opj_tcd_init_tile,1
+target function: opj_tcd_init_tile not found
+------------------------------------------
+[*] Detecting CVE: CVE-2015-8871
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_j2k_write_mco,-1
+[*] /s; sim-cal:0.532195
+[*] Detection Result:V 0.9829219288174511/0.4428817451205511 5/6,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1-o3-openjpeg,opj_j2k_write_mco,-1
+[*] /s; sim-cal:0.546131
+[*] Detection Result:V 0.9829219288174511/0.4428817451205511 5/6,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0.1-o3-openjpeg,opj_j2k_write_mco,-1
+[*] /s; sim-cal:0.530872
+[*] Detection Result:V 0.9829219288174511/0.4428817451205511 5/6,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_mco,1
+[*] /s; sim-cal:2.519753
+[*] Detection Result:P 0.15255453501722158/0.9925373134328358 7/5,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_mco,1
+[*] /s; sim-cal:2.770572
+[*] Detection Result:P 0.15255453501722158/0.9925373134328358 7/5,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_mco,1
+[*] /s; sim-cal:3.026535
+[*] Detection Result:P 0.15255453501722158/0.9925373134328358 7/5,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-4797
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0.1-o3-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_tcd_init_tile,1
+[*] /s; sim-cal:0.717757
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_tcd_init_tile,1
+[*] /s; sim-cal:0.716065
+[*] Detection Result:P 0.16794871794871796/0.8952004219409283 18/16,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_tcd_init_tile,1
+[*] /s; sim-cal:0.76894
+[*] Detection Result:P 0.16794871794871796/0.8952004219409283 23/21,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-7163
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_pi_create_decode,-1
+[*] /s; sim-cal:0.579116
+[*] Detection Result:P 0.2711722287439209/0.7599706806767549 3/1,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_pi_create_decode,-1
+[*] /s; sim-cal:0.595263
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_pi_create_decode,-1
+[*] /s; sim-cal:0.603204
+[*] Detection Result:P 0.2562468556095925/0.2607302186488871 13/13,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_pi_create_decode,1
+[*] /s; sim-cal:0.627444
+[*] Detection Result:P 0.20937447593493208/0.6552513403411009 13/12,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_pi_create_decode,1
+[*] /s; sim-cal:3.327618
+[*] Detection Result:P 0.20937447593493208/0.6552513403411009 13/12,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_pi_create_decode,1
+[*] /s; sim-cal:0.684976
+[*] Detection Result:P 0.20937447593493208/0.6552513403411009 13/12,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-10506
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_pi_next_pcrl,-1
+[*] /s; sim-cal:0.57475
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_pi_next_pcrl,-1
+[*] /s; sim-cal:0.743099
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_pi_next_pcrl,-1
+[*] /s; sim-cal:0.646359
+[*] Detection Result:V 0.784/-1 9/9,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_pi_next_pcrl,1
+[*] /s; sim-cal:0.631292
+[*] Detection Result:V 0.5639097744360902/-1 28/23,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_pi_next_pcrl,1
+[*] /s; sim-cal:0.793359
+[*] Detection Result:V 0.16011918764212343/-1 31/26,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_pi_next_pcrl,1
+[*] /s; sim-cal:0.712794
+[*] Detection Result:V 0.16011918764212343/-1 31/26,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_pi_next_cprl,-1
+[*] /s; sim-cal:0.568681
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_pi_next_cprl,-1
+[*] /s; sim-cal:0.655319
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_pi_next_cprl,-1
+[*] /s; sim-cal:0.608072
+[*] Detection Result:V 0.784/-1 9/9,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_pi_next_cprl,1
+[*] /s; sim-cal:0.685607
+[*] Detection Result:V 0.5639097744360902/-1 28/23,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_pi_next_cprl,1
+[*] /s; sim-cal:0.62439
+[*] Detection Result:V 0.16011918764212343/-1 31/26,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_pi_next_cprl,1
+[*] /s; sim-cal:0.739127
+[*] Detection Result:V 0.16011918764212343/-1 31/26,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_pi_next_rpcl,-1
+[*] /s; sim-cal:0.566829
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_pi_next_rpcl,-1
+[*] /s; sim-cal:0.632168
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_pi_next_rpcl,-1
+[*] /s; sim-cal:0.590942
+[*] Detection Result:V 0.8015267175572519/0.7464751853306527 8/8,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_pi_next_rpcl,1
+[*] /s; sim-cal:0.702159
+[*] Detection Result:P 0.5827338129496402/0.7087001877760429 28/23,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_pi_next_rpcl,1
+[*] /s; sim-cal:0.71638
+[*] Detection Result:P 0.5827338129496402/0.7087001877760429 30/25,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_pi_next_rpcl,1
+[*] /s; sim-cal:0.77375
+[*] Detection Result:P 0.5827338129496402/0.7087001877760429 30/25,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-10504
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+[*] /s; sim-cal:0.554106
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+[*] /s; sim-cal:0.572714
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.638464
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.598571
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.592341
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14151
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+[*] /s; sim-cal:0.00503
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.00503
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.004935
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+[*] /s; sim-cal:0.621318
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14152
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_set_cinema_parameters,-1
+[*] /s; sim-cal:0.585714
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] /s; sim-cal:0.74792
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] /s; sim-cal:0.577473
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] /s; sim-cal:0.656954
+[*] Detection Result:P,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14039
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.767927
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.590285
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.540844
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.632944
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.642768
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.571935
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_sod,-1
+[*] /s; sim-cal:0.59419
+[*] Detection Result:V 0.8461559696342306/0.6673487541943315 4/4,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_sod,-1
+[*] /s; sim-cal:0.546883
+[*] Detection Result:V 0.7587577639751553/0.6149098307988863 4/4,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_sod,-1
+[*] /s; sim-cal:0.564646
+[*] Detection Result:V 0.7587577639751553/0.6149098307988863 4/4,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_sod,1
+[*] /s; sim-cal:0.59536
+[*] Detection Result:V 0.8157902001380263/0.6830258442207467 6/4,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_sod,1
+[*] /s; sim-cal:0.586812
+[*] Detection Result:V 0.8024568668046929/0.6830258442207467 6/4,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_sod,1
+[*] /s; sim-cal:0.590052
+[*] Detection Result:V 0.275527950310559/0.2531422452039286 26/25,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_t2_encode_packet,-1
+[*] /s; sim-cal:0.652514
+[*] Detection Result:V 0.9090909090909091/0.7505989513132371 1/1,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_t2_encode_packet,-1
+[*] /s; sim-cal:0.66933
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_t2_encode_packet,-1
+[*] /s; sim-cal:0.687365
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_t2_encode_packet,1
+[*] /s; sim-cal:0.730532
+[*] Detection Result:P 0.9090909090909091/0.927828809107348 10/2,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_t2_encode_packet,1
+[*] /s; sim-cal:0.63528
+[*] Detection Result:V 0.9090909090909091/0.8277285324904373 13/5,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_t2_encode_packet,1
+[*] /s; sim-cal:0.637785
+[*] Detection Result:V 0.8181818181818182/0.8147415195034243 17/9,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14164
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.002185
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.003853
+[*] Detection Result:V 0.4612376351506786/0.1792478354978355 3/5,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_sot,-1
+[*] /s; sim-cal:0.003614
+[*] Detection Result:V 0.4612376351506786/0.1792478354978355 3/5,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.00352
+[*] Detection Result:P 0.2429261559696342/0.4848484848484848 8/3,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.00339
+[*] Detection Result:P 0.2429261559696342/0.4848484848484848 8/3,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_sot,1
+[*] /s; sim-cal:0.004083
+[*] Detection Result:P 0.21256038647342992/0.4630681818181818 8/3,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_first_tile_part,-1
+[*] /s; sim-cal:0.552054
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_first_tile_part,-1
+[*] /s; sim-cal:0.633985
+[*] Detection Result:V 0.8725490196078431/0.7959674435812061 1/1,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_first_tile_part,-1
+[*] /s; sim-cal:0.552176
+[*] Detection Result:V 0.8725490196078431/0.7959674435812061 1/1,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_first_tile_part,1
+[*] /s; sim-cal:0.577206
+[*] Detection Result:P 0.8018867924528301/0.8773584905660378 1/1,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_first_tile_part,1
+[*] /s; sim-cal:0.597509
+[*] Detection Result:P 0.8018867924528301/0.8773584905660378 1/1,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_first_tile_part,1
+[*] /s; sim-cal:0.568722
+[*] Detection Result:P 0.6640625/0.7265625 5/5,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_tlm,-1
+[*] /s; sim-cal:0.559126
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_tlm,-1
+[*] /s; sim-cal:0.57051
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_tlm,-1
+[*] /s; sim-cal:0.559992
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_tlm,1
+[*] /s; sim-cal:0.583655
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_tlm,1
+[*] /s; sim-cal:0.613356
+[*] Detection Result:P 0.7735690235690235/0.7887205387205386 3/3,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_tlm,1
+[*] /s; sim-cal:0.601341
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.2.0-o3-openjpeg,opj_j2k_write_all_tile_parts,-1
+[*] /s; sim-cal:0.551866
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.2-o3-openjpeg,opj_j2k_write_all_tile_parts,-1
+[*] /s; sim-cal:0.744416
+[*] Detection Result:V 0.7127659574468086/0.44838455476753347 1/3,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.1.1-o3-openjpeg,opj_j2k_write_all_tile_parts,-1
+[*] /s; sim-cal:0.567152
+[*] Detection Result:V 0.7127659574468086/0.44838455476753347 1/3,-1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.0-o3-openjpeg,opj_j2k_write_all_tile_parts,1
+[*] /s; sim-cal:0.615904
+[*] Detection Result:P 0.4037037037037037/0.7244897959183674 3/1,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.3.1-o3-openjpeg,opj_j2k_write_all_tile_parts,1
+[*] /s; sim-cal:0.588768
+[*] Detection Result:P 0.4037037037037037/0.7244897959183674 3/1,1
+[*] Detection for /binaries/target/openjpeg/openjpeg-2.4.0-o3-openjpeg,opj_j2k_write_all_tile_parts,1
+[*] /s; sim-cal:0.525291
+[*] Detection Result:P 0.4037037037037037/0.7244897959183674 9/7,1

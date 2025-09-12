@@ -1,6 +1,7 @@
 import argparse
 import csv
 import re
+import os
 from collections import defaultdict
 
 TESTCASES={
@@ -87,10 +88,11 @@ def parse_log_file(file_path):
 
 def generate_report(truth_dict, result_dict, failed_versions_set, output_path):
     report_dict = defaultdict(lambda: {
-        'succeed': 0,
+        'tp': 0,
+        'tn': 0,
+        'fp': 0,
+        'fn': 0,
         'target': 0,
-        'false_positive': 0,
-        'false_negative': 0,
         'failed_versions': []
     })
     
@@ -112,7 +114,11 @@ def generate_report(truth_dict, result_dict, failed_versions_set, output_path):
             
             # 检查是否是失败版本
             if triple in failed_versions_set:
-                report['failed_versions'].append(binary)
+                s = binary
+                first_dash = s.find('-')
+                last_dash = s.rfind('-', 0, s.rfind('-'))
+                current_version = s[first_dash + 1:last_dash]
+                report['failed_versions'].append(current_version)
                 continue  # 跳过统计，因为是失败版本
             
             # 检查是否有测试结果
@@ -120,107 +126,149 @@ def generate_report(truth_dict, result_dict, failed_versions_set, output_path):
             if result_key in result_dict:
                 score = result_dict[result_key]
                 
-                # 检查是否匹配
-                if (score > 0 and truth == 1) or (score <= 0 and truth == -1):
-                    report['succeed'] += 1
-                else:
-                    if score > 0 and truth == -1:
-                        report['false_positive'] += 1
-                    elif score <= 0 and truth == 1:
-                        report['false_negative'] += 1
+                # 根据truth和score判断tp, tn, fp, fn
+                if truth == 1:  # Ground truth is vulnerable
+                    if score > 0:
+                        report['tp'] += 1
+                    else:
+                        report['fn'] += 1
+                elif truth == -1:  # Ground truth is patched
+                    if score > 0:
+                        report['fp'] += 1
+                    else:
+                        report['tn'] += 1
     
     # 写入CSV
     with open(output_path, 'w', newline='') as f:
-        fieldnames = ['project', 'CVE', 'func', 'succeed', 'target', 
-                     'false_positive', 'false_negative', 'failed_versions']
+        fieldnames = [
+            'project', 'cve', 'funcname', 'succeed', 'tp', 'tn', 'fp', 'fn', 'target',
+            'failed_versions', 'false_positive', 'false_negative'
+        ]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         
         for (cve, func), report in report_dict.items():
+            false_positive_versions = []
+            false_negative_versions = []
+            for binary, truth, _ in truth_dict[(cve, func)]:
+                s = binary
+                first_dash = s.find('-')
+                last_dash = s.rfind('-', 0, s.rfind('-'))
+                current_version = s[first_dash + 1:last_dash]
+                triple = (cve, func, binary)
+                if triple in failed_versions_set:
+                    continue
+                if triple in result_dict:
+                    score = result_dict[triple]
+                    if truth == 1 and score <= 0:
+                        false_negative_versions.append(current_version)
+                    elif truth == -1 and score > 0:
+                        false_positive_versions.append(current_version)
+            
             row = {
                 'project': project_map[(cve, func)],
-                'CVE': cve,
-                'func': func,
-                'succeed': report['succeed'],
+                'cve': cve,
+                'funcname': func,
+                'succeed': report['tp'] + report['tn'],
+                'tp': report['tp'],
+                'tn': report['tn'],
+                'fp': report['fp'],
+                'fn': report['fn'],
                 'target': report['target'],
-                'false_positive': report['false_positive'],
-                'false_negative': report['false_negative'],
-                'failed_versions': ";".join(report['failed_versions'])
+                'failed_versions': ";".join(report['failed_versions']),
+                'false_positive': ";".join(false_positive_versions),
+                'false_negative': ";".join(false_negative_versions)
             }
             writer.writerow(row)
 
-def generate_accuracy_report(report_csv, accuracy_output,project):
-    project_stats = defaultdict(lambda: {
-        'total_succeed': 0,
-        'total_target': 0,
-        'total_fp': 0,
-        'total_fn': 0
-    })
+def aggregate_all_projects(projects, config):
+    """
+    聚合所有指定项目的统计数据并打印最终报告。
+    """
+    total_succeed_all = 0
+    total_target_all = 0
+    total_tp_all = 0
+    total_tn_all = 0
+    total_fp_all = 0
+    total_fn_all = 0
     
-    # 读取主报告CSV
-    with open(report_csv, 'r') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            project = row['project']
-            stats = project_stats[project]
-            
-            # 累加各项指标
-            stats['total_succeed'] += int(row['succeed'])
-            stats['total_target'] += int(row['target'])
-            stats['total_fp'] += int(row['false_positive'])
-            stats['total_fn'] += int(row['false_negative'])
- 
-    for project, stats in project_stats.items():
-        total_succeed = stats['total_succeed']
-        total_target = stats['total_target']
-        total_errors = stats['total_fp'] + stats['total_fn']
-        
-        # 第一个准确率：成功检测数/总检测目标数
-        accuracy_simple = total_succeed / total_target if total_target > 0 else 0
-        
-        # 第二个准确率：成功检测数/(成功数+假阳性+假阴性)
-        accuracy_effective = 0
-        denominator = total_succeed + total_errors
-        if denominator > 0:
-            accuracy_effective = total_succeed / denominator
-        
-        # 转换为百分比格式并保留两位小数
-        accuracy_simple = f"{accuracy_simple:.2%}"
-        accuracy_effective = f"{accuracy_effective:.2%}"
-        # print("total_succeed:", total_succeed)
-        ability = total_succeed/TESTCASES[project]
-        print(project,":")
-        print("ability:",f"{ability:.2%}"," ",total_succeed,"/",TESTCASES[project])
-        print("accuracy:", accuracy_effective)
+    print("\n" + "="*20 + " 聚合所有项目统计 " + "="*20)
 
+    for project in projects:
+        report_csv = f"{config}/{project}_result.csv"
+        if not os.path.exists(report_csv):
+            print(f"警告: 未找到报告文件 {report_csv}，跳过聚合。")
+            continue
+
+        with open(report_csv, 'r') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                total_succeed_all += int(row['succeed'])
+                total_target_all += int(row['target'])
+                total_tp_all += int(row['tp'])
+                total_tn_all += int(row['tn'])
+                total_fp_all += int(row['fp'])
+                total_fn_all += int(row['fn'])
+
+    if total_target_all == 0:
+        print("没有可供聚合的数据。")
+        return
+
+    # 聚合准确率 (succeed/alltargets)
+    accuracy_simple_all = total_succeed_all / total_target_all
+
+    # 聚合有效准确率
+    denominator_effective = total_tp_all + total_tn_all + total_fp_all + total_fn_all
+    accuracy_effective_all = (total_tp_all + total_tn_all) / denominator_effective if denominator_effective > 0 else 0
+    
+    # 聚合 Precision, Recall, F1
+    precision_all = total_tp_all / (total_tp_all + total_fp_all) if (total_tp_all + total_fp_all) > 0 else 0
+    recall_all = total_tp_all / (total_tp_all + total_fn_all) if (total_tp_all + total_fn_all) > 0 else 0
+    f1_score_all = 2 * (precision_all * recall_all) / (precision_all + recall_all) if (precision_all + recall_all) > 0 else 0
+
+    print("--- 总体聚合报告 ---")
+    print(f"Succeed/All Targets: {accuracy_simple_all:.2%} ({total_succeed_all}/{total_target_all})")
+    print(f"Accuracy (effective): {accuracy_effective_all:.2%}")
+    print(f"Precision: {precision_all:.2%}")
+    print(f"Recall: {recall_all:.2%}")
+    print(f"F1-Score: {f1_score_all:.2%}")
+    print(f"TP: {total_tp_all}, TN: {total_tn_all}, FP: {total_fp_all}, FN: {total_fn_all}")
+
+
+CONFIG = "gcc-o3"
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='解析BinXray检测结果')
+    parser = argparse.ArgumentParser(description='解析Robin检测结果')
     parser.add_argument(
-        "-proj", "--project",
-        required=True,
-        type=str,
+        "-p", "--projects",
+        nargs="*",
+        default=["binutils","curl","ffmpeg","freetype","imagemagick","libxml2","openssl","openjpeg","sqlite","tcpdump"],
+        help="要解析结果的项目名称列表。默认为10个标准项目。"
     )
     args = parser.parse_args()
-    project = args.project
-    # 输入文件（根据实际情况修改路径）
-    test_file = f"../../../binaries/Robin/test-{project}"
-    # result_file = "patch_detection_full.log"
-    # log_file = "detectdetails.log"
-    result_file = f"{project}-result.log"
-    log_file = f"{project}-details.log"
-    output_csv = f"{project}_result.csv"
-    accuracy_csv = f"{project}_acc.csv"  # 新增准确率报告
+    
+    for project in args.projects:
+        print(f"\n{'='*20} 正在处理项目: {project} {'='*20}")
+        # 输入文件（根据实际情况修改路径）
+        test_file = f"../../../binaries/Robin/{project}/test-{project}-{CONFIG}"
+        result_file = f"{CONFIG}/{project}-result.log"
+        log_file = f"{CONFIG}/{project}-details.log"
+        output_csv = f"{CONFIG}/{project}_result.csv"
+        # 检查文件是否存在
+        if not all(os.path.exists(f) for f in [test_file, result_file, log_file]):
+            print(f"错误：项目 {project} 的一个或多个输入文件不存在，跳过。")
+            continue
 
-    # 解析文件
-    truth_data = parse_test_file(test_file)
-    result_data = parse_result_file(result_file)
-    
-    # 解析日志并获取失败版本集合
-    failed_versions_set = parse_log_file(log_file)
-    
-    # 生成主报告
-    generate_report(truth_data, result_data, failed_versions_set, output_csv)
-    print(f"主报告已生成至: {output_csv}")
-    
-    # 生成准确率统计报告
-    generate_accuracy_report(output_csv, accuracy_csv,args.project)
+        # 解析文件
+        truth_data = parse_test_file(test_file)
+        result_data = parse_result_file(result_file)
+        
+        # 解析日志并获取失败版本集合
+        failed_versions_set = parse_log_file(log_file)
+        
+        # 生成主报告
+        generate_report(truth_data, result_data, failed_versions_set, output_csv)
+        print(f"主报告已生成至: {output_csv}")
+        
+        # 生成准确率统计报
+    # 在所有项目处理完毕后，进行聚合
+    aggregate_all_projects(args.projects, CONFIG)

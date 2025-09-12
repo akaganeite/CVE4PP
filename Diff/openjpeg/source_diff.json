@@ -1,0 +1,109 @@
+{
+    "openjpeg": {
+        "CVE-2018-20847": {
+            "commit": "5d00b719f4b9",
+            "analysis": [
+                {
+                    "function": "opj_get_all_encoding_parameters",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2015-8871": {
+            "commit": "940100c28ae2",
+            "analysis": [
+                {
+                    "function": "opj_j2k_write_mco",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-7163": {
+            "commit": "c16bc057ba3f",
+            "analysis": [
+                {
+                    "function": "opj_pi_create_decode",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-10506": {
+            "commit": "d27ccf01c68a",
+            "analysis": [
+                {
+                    "function": "opj_pi_next_cprl",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_pi_next_pcrl",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_pi_next_rpcl",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2016-10504": {
+            "commit": "397f62c0a838",
+            "analysis": [
+                {
+                    "function": "opj_tcd_code_block_enc_allocate_data",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-14151": {
+            "commit": "afb308b9ccbe",
+            "analysis": [
+                {
+                    "function": "opj_tcd_code_block_enc_allocate_data",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-14152": {
+            "commit": "4241ae6fbbf1",
+            "analysis": [
+                {
+                    "function": "opj_j2k_set_cinema_parameters",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-14039": {
+            "commit": "c535531f0336",
+            "analysis": [
+                {
+                    "function": "opj_j2k_write_sod",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_j2k_write_sot",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_t2_encode_packet",
+                    "type": "modified"
+                }
+            ]
+        },
+        "CVE-2017-14164": {
+            "commit": "dcac91b8c72f",
+            "analysis": [
+                {
+                    "function": "opj_j2k_write_all_tile_parts",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_j2k_write_first_tile_part",
+                    "type": "modified"
+                },
+                {
+                    "function": "opj_j2k_write_sot",
+                    "type": "modified"
+                }
+            ]
+        }
+    }
+}

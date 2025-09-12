@@ -1,0 +1,61 @@
+Work,Pattern_Category,Pattern_Name,Matched_CVEs,Total_Succeed,Total_Target,Total_FP_FN,Accuracy_Succeed_Target,Accuracy_Succeed_FP_FN
+PS3,Pattern_1,add input sanitization checks,324,917,1714,314,0.5350,0.7449
+PS3,Pattern_2,change input sanitization checks,126,293,648,86,0.4522,0.7731
+PS3,Pattern_3,add data structures,15,25,75,10,0.3333,0.7143
+PS3,Pattern_4,change data structure definitions,12,29,67,11,0.4328,0.7250
+PS3,Pattern_5,change data structure references,100,215,517,71,0.4159,0.7517
+PS3,Pattern_6,change function parameters,47,121,256,26,0.4727,0.8231
+PS3,Pattern_7,add or change function calls,260,649,1360,201,0.4772,0.7635
+PS3,Pattern_8,add functions,27,65,135,19,0.4815,0.7738
+PS3,Pattern_9,change functions,55,155,308,39,0.5032,0.7990
+PS3,Input_Sanitization,聚合类别: Input_Sanitization,404,1096,2124,350,0.5160,0.7580
+PS3,Data_Structure,聚合类别: Data_Structure,106,233,551,75,0.4229,0.7565
+PS3,Function_Changes,聚合类别: Function_Changes,290,724,1521,221,0.4760,0.7661
+BinXray,Pattern_1,add input sanitization checks,335,1302,1719,333,0.7574,0.7963
+BinXray,Pattern_2,change input sanitization checks,129,491,650,112,0.7554,0.8143
+BinXray,Pattern_3,add data structures,15,50,72,20,0.6944,0.7143
+BinXray,Pattern_4,change data structure definitions,13,54,73,17,0.7397,0.7606
+BinXray,Pattern_5,change data structure references,104,342,514,125,0.6654,0.7323
+BinXray,Pattern_6,change function parameters,47,146,246,65,0.5935,0.6919
+BinXray,Pattern_7,add or change function calls,268,977,1373,273,0.7116,0.7816
+BinXray,Pattern_8,add functions,28,95,135,37,0.7037,0.7197
+BinXray,Pattern_9,change functions,56,233,311,60,0.7492,0.7952
+BinXray,Input_Sanitization,聚合类别: Input_Sanitization,416,1613,2129,403,0.7576,0.8001
+BinXray,Data_Structure,聚合类别: Data_Structure,110,370,548,131,0.6752,0.7385
+BinXray,Function_Changes,聚合类别: Function_Changes,298,1096,1529,307,0.7168,0.7812
+PatchDiscovery,Pattern_1,add input sanitization checks,336,1339,1747,395,0.7665,0.7722
+PatchDiscovery,Pattern_2,change input sanitization checks,129,505,660,152,0.7652,0.7686
+PatchDiscovery,Pattern_3,add data structures,15,42,75,30,0.5600,0.5833
+PatchDiscovery,Pattern_4,change data structure definitions,13,38,73,32,0.5205,0.5429
+PatchDiscovery,Pattern_5,change data structure references,104,335,533,182,0.6285,0.6480
+PatchDiscovery,Pattern_6,change function parameters,48,142,255,99,0.5569,0.5892
+PatchDiscovery,Pattern_7,add or change function calls,269,926,1396,445,0.6633,0.6754
+PatchDiscovery,Pattern_8,add functions,28,54,139,62,0.3885,0.4655
+PatchDiscovery,Pattern_9,change functions,56,202,313,105,0.6454,0.6580
+PatchDiscovery,Input_Sanitization,聚合类别: Input_Sanitization,417,1641,2164,510,0.7583,0.7629
+PatchDiscovery,Data_Structure,聚合类别: Data_Structure,110,357,567,194,0.6296,0.6479
+PatchDiscovery,Function_Changes,聚合类别: Function_Changes,299,1029,1555,496,0.6617,0.6748
+React,Pattern_1,add input sanitization checks,291,567,1590,329,0.3566,0.6328
+React,Pattern_2,change input sanitization checks,113,183,610,79,0.3000,0.6985
+React,Pattern_3,add data structures,10,25,53,13,0.4717,0.6579
+React,Pattern_4,change data structure definitions,12,40,69,9,0.5797,0.8163
+React,Pattern_5,change data structure references,85,155,457,70,0.3392,0.6889
+React,Pattern_6,change function parameters,40,108,222,39,0.4865,0.7347
+React,Pattern_7,add or change function calls,234,464,1270,214,0.3654,0.6844
+React,Pattern_8,add functions,24,75,131,24,0.5725,0.7576
+React,Pattern_9,change functions,48,104,269,27,0.3866,0.7939
+React,Input_Sanitization,聚合类别: Input_Sanitization,363,678,1973,386,0.3436,0.6372
+React,Data_Structure,聚合类别: Data_Structure,89,168,479,73,0.3507,0.6971
+React,Function_Changes,聚合类别: Function_Changes,258,510,1401,237,0.3640,0.6827
+Robin,Pattern_1,add input sanitization checks,99,429,533,84,0.8049,0.8363
+Robin,Pattern_2,change input sanitization checks,32,117,168,40,0.6964,0.7452
+Robin,Pattern_3,add data structures,6,25,34,7,0.7353,0.7812
+Robin,Pattern_4,change data structure definitions,8,32,43,7,0.7442,0.8205
+Robin,Pattern_5,change data structure references,42,178,223,32,0.7982,0.8476
+Robin,Pattern_6,change function parameters,25,120,142,17,0.8451,0.8759
+Robin,Pattern_7,add or change function calls,97,409,505,76,0.8099,0.8433
+Robin,Pattern_8,add functions,12,49,57,6,0.8596,0.8909
+Robin,Pattern_9,change functions,17,81,96,15,0.8438,0.8438
+Robin,Input_Sanitization,聚合类别: Input_Sanitization,113,478,605,103,0.7901,0.8227
+Robin,Data_Structure,聚合类别: Data_Structure,46,193,247,41,0.7814,0.8248
+Robin,Function_Changes,聚合类别: Function_Changes,105,446,551,85,0.8094,0.8399

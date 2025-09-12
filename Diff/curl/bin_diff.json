@@ -1,0 +1,254 @@
+{
+    "CVE-2013-0249": [
+        {
+            "function": "Curl_sasl_create_digest_md5_message",
+            "type": "modified"
+        }
+    ],
+    "CVE-2013-1944": [
+        {
+            "function": "tailmatch",
+            "type": "modified"
+        }
+    ],
+    "CVE-2014-0015": [
+        {
+            "function": "ConnectionExists",
+            "type": "modified"
+        }
+    ],
+    "CVE-2016-8618": [
+        {
+            "function": "alloc_addbyter",
+            "type": "modified"
+        }
+    ],
+    "CVE-2016-8621": [
+        {
+            "function": "parsedate",
+            "type": "modified"
+        }
+    ],
+    "CVE-2016-8625": [
+        {
+            "function": "idn2_strerror",
+            "type": "added"
+        },
+        {
+            "function": "idn2_check_version",
+            "type": "added"
+        },
+        {
+            "function": "idn2_lookup_ul",
+            "type": "added"
+        },
+        {
+            "function": "idn2_free",
+            "type": "added"
+        },
+        {
+            "function": "free_fixed_hostname",
+            "type": "modified"
+        },
+        {
+            "function": "curl_version",
+            "type": "modified"
+        },
+        {
+            "function": "fix_hostname",
+            "type": "modified"
+        },
+        {
+            "function": "create_conn",
+            "type": "modified"
+        },
+        {
+            "function": "curl_version_info",
+            "type": "modified"
+        }
+    ],
+    "CVE-2016-9586": [
+        {
+            "function": "dprintf_formatf",
+            "type": "modified"
+        }
+    ],
+    "CVE-2016-9594": [
+        {
+            "function": "randit",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-1000101": [
+        {
+            "function": "glob_range",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-2629": [
+        {
+            "function": "allocate_conn",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-7407": [
+        {
+            "function": "ourWriteOut",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-8816": [
+        {
+            "function": "Curl_ntlm_core_mk_ntlmv2_hash",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-8817": [
+        {
+            "function": "setcharset",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-8818": [
+        {
+            "function": "allocate_conn",
+            "type": "modified"
+        }
+    ],
+    "CVE-2017-9502": [
+        {
+            "function": "parseurlandfillconn",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-0500": [
+        {
+            "function": "Curl_smtp_escape_eob",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-1000007": [
+        {
+            "function": "Curl_add_custom_headers",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-1000122": [
+        {
+            "function": "readwrite_data",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-1000300": [
+        {
+            "function": "Curl_pp_readresp",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-1000301": [
+        {
+            "function": "Curl_http_readwrite_headers",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16839": [
+        {
+            "function": "Curl_auth_create_plain_message",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16840": [
+        {
+            "function": "Curl_close",
+            "type": "modified"
+        }
+    ],
+    "CVE-2018-16842": [
+        {
+            "function": "voutf",
+            "type": "modified"
+        }
+    ],
+    "CVE-2019-5435": [
+        {
+            "function": "curl_url_set",
+            "type": "modified"
+        },
+        {
+            "function": "seturl",
+            "type": "modified"
+        },
+        {
+            "function": "Curl_setstropt",
+            "type": "modified"
+        }
+    ],
+    "CVE-2019-5482": [
+        {
+            "function": "tftp_connect",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-8177": [
+        {
+            "function": "tool_header_cb",
+            "type": "modified"
+        },
+        {
+            "function": "getparameter",
+            "type": "modified"
+        }
+    ],
+    "CVE-2020-8284": [
+        {
+            "function": "Curl_init_userdefined",
+            "type": "modified"
+        },
+        {
+            "function": "config_init",
+            "type": "modified"
+        }
+    ],
+    "CVE-2021-22898": [
+        {
+            "function": "suboption",
+            "type": "modified"
+        }
+    ],
+    "CVE-2022-42915": [
+        {
+            "function": "conn_shutdown",
+            "type": "modified"
+        },
+        {
+            "function": "Curl_connect_done",
+            "type": "modified"
+        }
+    ],
+    "CVE-2022-42916": [
+        {
+            "function": "parseurlandfillconn",
+            "type": "modified"
+        },
+        {
+            "function": "create_conn",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-46218": [
+        {
+            "function": "Curl_cookie_add",
+            "type": "modified"
+        }
+    ],
+    "CVE-2023-46219": [
+        {
+            "function": "Curl_fopen",
+            "type": "modified"
+        },
+        {
+            "function": "dirslash",
+            "type": "modified"
+        }
+    ]
+}

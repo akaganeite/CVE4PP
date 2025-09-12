@@ -1,0 +1,1816 @@
+Detect o3 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2014-8484
+[*] Detection for /binaries/target_clang/binutils/binutils-2.24-o3-objdump,srec_scan,-1
+target function: srec_scan not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25-o3-objdump,srec_scan,1
+target function: srec_scan not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25.1-o3-objdump,srec_scan,1
+target function: srec_scan not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.26-o3-objdump,srec_scan,1
+target function: srec_scan not found
+------------------------------------------
+[*] Detecting CVE: CVE-2014-8485
+[*] Detection for /binaries/target_clang/binutils/binutils-2.24-o3-objdump,setup_group,-1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25-o3-objdump,setup_group,1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25.1-o3-objdump,setup_group,1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.26-o3-objdump,setup_group,1
+target function: setup_group not found
+------------------------------------------
+[*] Detecting CVE: CVE-2014-8738
+[*] Detection for /binaries/target_clang/binutils/binutils-2.24-o3-objdump,_bfd_slurp_extended_name_table,-1
+target function: _bfd_slurp_extended_name_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25-o3-objdump,_bfd_slurp_extended_name_table,1
+target function: _bfd_slurp_extended_name_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.25.1-o3-objdump,_bfd_slurp_extended_name_table,1
+target function: _bfd_slurp_extended_name_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.26-o3-objdump,_bfd_slurp_extended_name_table,1
+target function: _bfd_slurp_extended_name_table not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7299
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_elf_final_link,-1
+[*] /s; sim-cal:12.063668
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:12.908017
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:13.170031
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_elf_final_link,1
+[*] /s; sim-cal:12.618185
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7303
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,find_link,-1
+[*] /s; sim-cal:0.798666
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,find_link,1
+[*] /s; sim-cal:0.77428
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,find_link,1
+[*] /s; sim-cal:0.89963
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,find_link,1
+[*] /s; sim-cal:0.874772
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7304
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,copy_special_section_fields,-1
+[*] /s; sim-cal:0.897929
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.818662
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.806102
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,copy_special_section_fields,1
+[*] /s; sim-cal:0.834602
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-6965
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_syminfo,-1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,apply_relocations,-1
+[*] /s; sim-cal:0.814829
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.803135
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.821993
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.732091
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,target_specific_reloc_handling,-1
+target function: target_specific_reloc_handling not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.648673
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.631256
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.764981
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-6966
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_syminfo,-1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,apply_relocations,-1
+[*] /s; sim-cal:0.069155
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.052403
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.057937
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,apply_relocations,1
+[*] /s; sim-cal:0.06067
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,target_specific_reloc_handling,-1
+target function: target_specific_reloc_handling not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.015797
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.014774
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.009763
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-7209
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,dump_section_as_bytes,-1
+[*] /s; sim-cal:0.667868
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.639122
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.66169
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,dump_section_as_bytes,1
+[*] /s; sim-cal:0.688493
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-6969
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_syminfo,-1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_syminfo,1
+target function: process_syminfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,target_specific_reloc_handling,-1
+target function: target_specific_reloc_handling not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.025129
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.014708
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,target_specific_reloc_handling,1
+[*] /s; sim-cal:0.013785
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9038
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,get_unwind_section_word,-1
+[*] /s; sim-cal:0.597063
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.67604
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.732854
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,get_unwind_section_word,1
+[*] /s; sim-cal:0.63663
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9039
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,get_program_headers,-1
+[*] /s; sim-cal:0.574608
+[*] Detection Result:V 0.8394817073170732/0.0 26/26,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,get_program_headers,1
+[*] /s; sim-cal:0.623766
+[*] Detection Result:V 0.8394817073170732/0.0 29/29,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,get_program_headers,1
+[*] /s; sim-cal:0.610064
+[*] Detection Result:V 0.8394817073170732/0.0 29/29,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,get_program_headers,1
+[*] /s; sim-cal:0.581959
+[*] Detection Result:V 0.8394817073170732/0.0 29/29,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_mips_specific,-1
+[*] /s; sim-cal:0.888804
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.933819
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.923686
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.967914
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9040
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,print_symbol_for_build_attribute,-1
+target function: print_symbol_for_build_attribute not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,print_symbol_for_build_attribute,1
+[*] /s; sim-cal:0.644257
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,print_symbol_for_build_attribute,1
+[*] /s; sim-cal:0.632203
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,print_symbol_for_build_attribute,1
+target function: print_symbol_for_build_attribute not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_dynamic_section,-1
+target function: process_dynamic_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_dynamic_section,1
+target function: process_dynamic_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_dynamic_section,1
+target function: process_dynamic_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_dynamic_section,1
+target function: process_dynamic_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,print_gnu_build_attribute_name,-1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_mips_specific,-1
+[*] /s; sim-cal:0.080064
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.092897
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.141402
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_mips_specific,1
+[*] /s; sim-cal:0.056372
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,process_arch_specific,-1
+target function: process_arch_specific not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,process_arch_specific,1
+target function: process_arch_specific not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,process_arch_specific,1
+target function: process_arch_specific not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,process_arch_specific,1
+target function: process_arch_specific not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9043
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-readelf,print_gnu_build_attribute_name,-1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,print_gnu_build_attribute_name,1
+target function: print_gnu_build_attribute_name not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8392
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,_bfd_dwarf2_find_nearest_line,-1
+[*] /s; sim-cal:1.008562
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:1.079882
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:0.965934
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_dwarf2_find_nearest_line,1
+[*] /s; sim-cal:1.19654
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8394
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,_bfd_elf_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.812276
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.863697
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.86813
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.870616
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8395
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_init_section_compress_status,-1
+[*] /s; sim-cal:0.810015
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.819387
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.859714
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_init_section_compress_status,1
+[*] /s; sim-cal:0.81936
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8397
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_perform_relocation,-1
+[*] /s; sim-cal:0.910203
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.81811
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.937753
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.894131
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8398
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,process_extended_line_op,-1
+target function: process_extended_line_op not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,process_extended_line_op,1
+target function: process_extended_line_op not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,process_extended_line_op,1
+target function: process_extended_line_op not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,process_extended_line_op,1
+target function: process_extended_line_op not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,fetch_indexed_string,-1
+[*] /s; sim-cal:0.869808
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.834957
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.781048
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,fetch_indexed_string,1
+[*] /s; sim-cal:0.83106
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8396
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,_bfd_final_link_relocate,-1
+[*] /s; sim-cal:0.950258
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.83017
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.775982
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_final_link_relocate,1
+[*] /s; sim-cal:0.841401
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_check_overflow,-1
+[*] /s; sim-cal:0.800538
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:0.869574
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:1.014708
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_check_overflow,1
+[*] /s; sim-cal:0.798927
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_perform_relocation,-1
+[*] /s; sim-cal:0.024605
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.014573
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.014178
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_perform_relocation,1
+[*] /s; sim-cal:0.013616
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_install_relocation,-1
+[*] /s; sim-cal:0.969903
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.945462
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.814455
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_install_relocation,1
+[*] /s; sim-cal:0.870898
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-8421
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,dump_relocs_in_section,-1
+[*] /s; sim-cal:0.816275
+[*] Detection Result:V 0.4240013328029322/0.0 23/23,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.795171
+[*] Detection Result:V 0.4240013328029322/0.0 26/26,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.874188
+[*] Detection Result:V 0.4240013328029322/0.0 26/26,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.782175
+[*] Detection Result:V 0.4240013328029322/0.0 27/27,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9954
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,pass_over,-1
+target function: pass_over not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,pass_over,1
+target function: pass_over not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,pass_over,1
+target function: pass_over not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,pass_over,1
+target function: pass_over not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,getvalue,-1
+target function: getvalue not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,getvalue,1
+target function: getvalue not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,getvalue,1
+target function: getvalue not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,getvalue,1
+target function: getvalue not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-9955
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,_bfd_generic_get_section_contents,-1
+[*] /s; sim-cal:0.813364
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.803388
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.846104
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_generic_get_section_contents,1
+[*] /s; sim-cal:0.776225
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_get_full_section_contents,-1
+[*] /s; sim-cal:0.82219
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.857792
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.778525
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_get_full_section_contents,1
+[*] /s; sim-cal:0.842184
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13710
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,setup_group,-1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,setup_group,1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,setup_group,1
+target function: setup_group not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,setup_group,1
+target function: setup_group not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12967
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,getsym,-1
+target function: getsym not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,getsym,1
+target function: getsym not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,getsym,1
+target function: getsym not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,getsym,1
+target function: getsym not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-13757
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.89384
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:1.16742
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.840363
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.854443
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.923887
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.914734
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.841101
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.837462
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14129
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,read_section,-1
+[*] /s; sim-cal:0.870272
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,read_section,1
+[*] /s; sim-cal:0.857508
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_section,1
+[*] /s; sim-cal:0.847876
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_section,1
+[*] /s; sim-cal:0.864996
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12799
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_read_notes,-1
+target function: elf_read_notes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_read_notes,1
+target function: elf_read_notes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_read_notes,1
+target function: elf_read_notes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_read_notes,1
+target function: elf_read_notes not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14128
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:1.039989
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.971648
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:1.361847
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.941233
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14130
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_elf_parse_attributes,-1
+[*] /s; sim-cal:0.837638
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.884528
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.82736
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.869938
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-12448
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_generic_archive_p,-1
+[*] /s; sim-cal:0.925068
+[*] Detection Result:V 0.2530657748049052/0.0 22/22,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.28-o3-objdump,bfd_generic_archive_p,-1
+[*] /s; sim-cal:0.94125
+[*] Detection Result:V 0.2530657748049052/0.0 22/22,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.27-o3-objdump,bfd_generic_archive_p,-1
+target function: bfd_generic_archive_p not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.802844
+[*] Detection Result:V 0.2530657748049052/0.0 24/24,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.81745
+[*] Detection Result:V 0.2530657748049052/0.0 23/23,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,bfd_generic_archive_p,1
+[*] /s; sim-cal:0.808312
+[*] Detection Result:V 0.2530657748049052/0.0 22/22,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14529
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,pe_print_idata,-1
+target function: pe_print_idata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,pe_print_idata,1
+target function: pe_print_idata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,pe_print_idata,1
+target function: pe_print_idata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,pe_print_idata,1
+target function: pe_print_idata not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14745
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_x86_elf_get_synthetic_symtab,-1
+target function: _bfd_x86_elf_get_synthetic_symtab not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+target function: _bfd_x86_elf_get_synthetic_symtab not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.983137
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_x86_elf_get_synthetic_symtab,1
+[*] /s; sim-cal:0.860647
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14729
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.026833
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.025928
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.011938
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.01367
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.021953
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.022917
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.015859
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.013553
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14974
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_x86_64_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.021435
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.022339
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.008938
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_x86_64_get_synthetic_symtab,1
+[*] /s; sim-cal:0.006861
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,elf_i386_get_synthetic_symtab,-1
+[*] /s; sim-cal:0.013069
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.013479
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.008277
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_i386_get_synthetic_symtab,1
+[*] /s; sim-cal:0.008245
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14930
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.023141
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.025791
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.057928
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.024265
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14938
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_elf_slurp_version_tables,-1
+[*] /s; sim-cal:0.831565
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.987801
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.870741
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_slurp_version_tables,1
+[*] /s; sim-cal:0.815423
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14939
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.028061
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.025577
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.024026
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.068014
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14940
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:1.001369
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.962517
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.922186
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.868971
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15021
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,bfd_get_debug_link_info_1,-1
+[*] /s; sim-cal:0.800153
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.777644
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.799297
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.804234
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15024
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.029157
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.021584
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.02203
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.02126
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,find_abstract_instance_name,-1
+[*] /s; sim-cal:0.886786
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.923891
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.883083
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,lookup_symbol_in_variable_table,-1
+target function: lookup_symbol_in_variable_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,lookup_symbol_in_variable_table,1
+target function: lookup_symbol_in_variable_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,lookup_symbol_in_variable_table,1
+target function: lookup_symbol_in_variable_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,lookup_symbol_in_variable_table,1
+target function: lookup_symbol_in_variable_table not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15025
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.041292
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.041885
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.054038
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.040099
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15020
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,parse_line_table,-1
+target function: parse_line_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,parse_line_table,1
+target function: parse_line_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,parse_line_table,1
+target function: parse_line_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,parse_line_table,1
+target function: parse_line_table not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,parse_die,-1
+[*] /s; sim-cal:0.839581
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.794412
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.821754
+[*] Detection Result:P 0.07451550912142044/0.09378207030025838 35/35,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.867727
+[*] Detection Result:P 0.07451550912142044/0.09378207030025838 35/35,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15022
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,scan_unit_for_symbols,-1
+[*] /s; sim-cal:0.021286
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.021476
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.023136
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,scan_unit_for_symbols,1
+[*] /s; sim-cal:0.917582
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,parse_comp_unit,-1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15023
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.925866
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.921884
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.885429
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.804366
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14932
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.048962
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.039706
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.039395
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.945593
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14933
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.008705
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.009467
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.010805
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.009449
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15938
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,find_abstract_instance_name,-1
+[*] /s; sim-cal:0.008038
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,find_abstract_instance_name,1
+[*] /s; sim-cal:0.007035
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,find_abstract_instance_name,1
+target function: find_abstract_instance_name not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,parse_comp_unit,-1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,parse_comp_unit,1
+target function: parse_comp_unit not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15939
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,read_formatted_entries,-1
+[*] /s; sim-cal:0.026033
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.018012
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.014097
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_formatted_entries,1
+[*] /s; sim-cal:0.014068
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,concat_filename,-1
+[*] /s; sim-cal:0.801946
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.799796
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.746619
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.876306
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,decode_line_info,-1
+[*] /s; sim-cal:0.024048
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.023403
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.023342
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,decode_line_info,1
+[*] /s; sim-cal:0.02322
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14934
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,process_debug_info,-1
+[*] /s; sim-cal:1.005918
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,process_debug_info,1
+[*] /s; sim-cal:1.104929
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,process_debug_info,1
+[*] /s; sim-cal:1.105726
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,process_debug_info,1
+[*] /s; sim-cal:1.085927
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15225
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,_bfd_dwarf2_cleanup_debug_info,-1
+[*] /s; sim-cal:0.91306
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.787068
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.800454
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_dwarf2_cleanup_debug_info,1
+[*] /s; sim-cal:0.942085
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16829
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_elf_parse_gnu_properties,-1
+[*] /s; sim-cal:0.889578
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.812902
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.829652
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_parse_gnu_properties,1
+[*] /s; sim-cal:0.779275
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-15996
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,get_archive_member_name,-1
+[*] /s; sim-cal:0.958525
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.894411
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.866504
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,get_archive_member_name,1
+[*] /s; sim-cal:0.788482
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,process_archive_index_and_symbols,-1
+[*] /s; sim-cal:0.887004
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.86554
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.814768
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,process_archive_index_and_symbols,1
+[*] /s; sim-cal:0.797223
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29-o3-objdump,setup_archive,-1
+[*] /s; sim-cal:0.84956
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,setup_archive,1
+[*] /s; sim-cal:0.905259
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,setup_archive,1
+[*] /s; sim-cal:0.869333
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,setup_archive,1
+[*] /s; sim-cal:1.070341
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16830
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-readelf,print_gnu_property_note,-1
+target function: print_gnu_property_note not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-readelf,print_gnu_property_note,1
+target function: print_gnu_property_note not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-readelf,print_gnu_property_note,1
+target function: print_gnu_property_note not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-readelf,print_gnu_property_note,1
+target function: print_gnu_property_note not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16828
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,display_debug_frames,-1
+[*] /s; sim-cal:1.481017
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,display_debug_frames,1
+[*] /s; sim-cal:1.632559
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,display_debug_frames,1
+[*] /s; sim-cal:1.676967
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,display_debug_frames,1
+[*] /s; sim-cal:1.475722
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,read_cie,-1
+[*] /s; sim-cal:0.893899
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_cie,1
+[*] /s; sim-cal:0.990659
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_cie,1
+[*] /s; sim-cal:0.894162
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_cie,1
+[*] /s; sim-cal:1.09423
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,frame_display_row,-1
+[*] /s; sim-cal:0.799574
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,frame_display_row,1
+[*] /s; sim-cal:0.821472
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,frame_display_row,1
+[*] /s; sim-cal:0.907027
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,frame_display_row,1
+[*] /s; sim-cal:0.817938
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-16831
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,coff_get_normalized_symtab,-1
+[*] /s; sim-cal:0.90904
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.924397
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.960601
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,coff_get_normalized_symtab,1
+[*] /s; sim-cal:0.78068
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_coff_get_external_symbols,-1
+[*] /s; sim-cal:0.81526
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.828073
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.752329
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_coff_get_external_symbols,1
+[*] /s; sim-cal:0.750234
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17080
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elfcore_grok_nto_status,-1
+target function: elfcore_grok_nto_status not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elfcore_grok_nto_status,1
+target function: elfcore_grok_nto_status not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elfcore_grok_nto_status,1
+target function: elfcore_grok_nto_status not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elfcore_grok_nto_status,1
+target function: elfcore_grok_nto_status not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elfcore_grok_freebsd_psinfo,-1
+target function: elfcore_grok_freebsd_psinfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elfcore_grok_freebsd_psinfo,1
+target function: elfcore_grok_freebsd_psinfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elfcore_grok_freebsd_psinfo,1
+target function: elfcore_grok_freebsd_psinfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elfcore_grok_freebsd_psinfo,1
+target function: elfcore_grok_freebsd_psinfo not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elfcore_grok_netbsd_note,-1
+[*] /s; sim-cal:0.797899
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.937072
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.841408
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elfcore_grok_netbsd_note,1
+[*] /s; sim-cal:0.830522
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,elfcore_netbsd_get_lwpid,-1
+target function: elfcore_netbsd_get_lwpid not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elfcore_netbsd_get_lwpid,1
+target function: elfcore_netbsd_get_lwpid not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elfcore_netbsd_get_lwpid,1
+target function: elfcore_netbsd_get_lwpid not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elfcore_netbsd_get_lwpid,1
+target function: elfcore_netbsd_get_lwpid not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17124
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,_bfd_coff_read_string_table,-1
+[*] /s; sim-cal:0.810841
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.865155
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.86524
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_coff_read_string_table,1
+[*] /s; sim-cal:0.873619
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17122
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,dump_relocs_in_section,-1
+[*] /s; sim-cal:0.007272
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.006142
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.809207
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,dump_relocs_in_section,1
+[*] /s; sim-cal:0.847267
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-17126
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,load_debug_section,-1
+[*] /s; sim-cal:0.800212
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,load_debug_section,1
+[*] /s; sim-cal:0.954863
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,load_debug_section,1
+[*] /s; sim-cal:0.768545
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,load_debug_section,1
+[*] /s; sim-cal:0.761997
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7208
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,coff_pointerize_aux,-1
+target function: coff_pointerize_aux not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,coff_pointerize_aux,1
+target function: coff_pointerize_aux not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,coff_pointerize_aux,1
+target function: coff_pointerize_aux not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,coff_pointerize_aux,1
+target function: coff_pointerize_aux not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-6543
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.871994
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.860257
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.810154
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.792793
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-6759
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_get_alt_debug_link_info,-1
+[*] /s; sim-cal:0.781592
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.751558
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.843873
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,bfd_get_alt_debug_link_info,1
+[*] /s; sim-cal:0.84904
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_get_debug_link_info_1,-1
+[*] /s; sim-cal:0.008049
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.00913
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.798248
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,bfd_get_debug_link_info_1,1
+[*] /s; sim-cal:0.786787
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-6872
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,elf_parse_notes,-1
+[*] /s; sim-cal:0.866712
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_parse_notes,1
+[*] /s; sim-cal:0.808422
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elf_parse_notes,1
+[*] /s; sim-cal:0.794714
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,elf_parse_notes,1
+[*] /s; sim-cal:0.822397
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7570
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,assign_file_positions_for_non_load_sections,-1
+target function: assign_file_positions_for_non_load_sections not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,assign_file_positions_for_non_load_sections,1
+target function: assign_file_positions_for_non_load_sections not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,assign_file_positions_for_non_load_sections,1
+target function: assign_file_positions_for_non_load_sections not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,assign_file_positions_for_non_load_sections,1
+target function: assign_file_positions_for_non_load_sections not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7568
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,parse_die,-1
+[*] /s; sim-cal:0.014127
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.01116
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.006849
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,parse_die,1
+[*] /s; sim-cal:0.790327
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7569
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_8_bytes,-1
+target function: read_8_bytes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_8_bytes,1
+target function: read_8_bytes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_8_bytes,1
+target function: read_8_bytes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,read_8_bytes,1
+target function: read_8_bytes not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_attribute_value,-1
+[*] /s; sim-cal:0.82531
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.859255
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.842946
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,read_attribute_value,1
+[*] /s; sim-cal:0.828349
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-7643
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,read_uleb128,-1
+target function: read_uleb128 not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,read_uleb128,1
+target function: read_uleb128 not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,read_uleb128,1
+target function: read_uleb128 not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,read_uleb128,1
+target function: read_uleb128 not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,display_debug_ranges,-1
+[*] /s; sim-cal:0.930447
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.870228
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.916371
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,display_debug_ranges,1
+[*] /s; sim-cal:0.847555
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,display_debug_ranges_list,-1
+[*] /s; sim-cal:0.74829
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:0.742793
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:0.81891
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,display_debug_ranges_list,1
+[*] /s; sim-cal:1.005243
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-10372
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,process_cu_tu_index,-1
+[*] /s; sim-cal:1.030338
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:0.961255
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:1.024078
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,process_cu_tu_index,1
+[*] /s; sim-cal:0.969499
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-10373
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,concat_filename,-1
+[*] /s; sim-cal:0.004377
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.004395
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.004432
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,concat_filename,1
+[*] /s; sim-cal:0.783229
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-8945
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_parse_attributes,-1
+[*] /s; sim-cal:0.008395
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.009569
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:0.852933
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_elf_parse_attributes,1
+[*] /s; sim-cal:1.179798
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,bfd_elf_get_str_section,-1
+target function: bfd_elf_get_str_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,bfd_elf_get_str_section,1
+target function: bfd_elf_get_str_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,bfd_elf_get_str_section,1
+target function: bfd_elf_get_str_section not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,bfd_elf_get_str_section,1
+target function: bfd_elf_get_str_section not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-17360
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,pe_print_edata,-1
+target function: pe_print_edata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,pe_print_edata,1
+target function: pe_print_edata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,pe_print_edata,1
+target function: pe_print_edata not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,pe_print_edata,1
+target function: pe_print_edata not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18605
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_add_merge_section,-1
+[*] /s; sim-cal:0.847695
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.839826
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.768469
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.8469
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18606
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_add_merge_section,-1
+[*] /s; sim-cal:0.018217
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.008339
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.008942
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_add_merge_section,1
+[*] /s; sim-cal:0.008281
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-18607
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,elf_link_input_bfd,-1
+[*] /s; sim-cal:1.082942
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:0.902931
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:1.048329
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,elf_link_input_bfd,1
+[*] /s; sim-cal:0.951604
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-19932
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.29.1-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,rewrite_elf_program_header,1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,rewrite_elf_program_header,1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,rewrite_elf_program_header,1
+target function: rewrite_elf_program_header not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20002
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-nm,_bfd_generic_read_minisymbols,-1
+[*] /s; sim-cal:8.039285
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:7.61748
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:7.898029
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-nm,_bfd_generic_read_minisymbols,1
+[*] /s; sim-cal:7.831129
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-nm,display_rel_file,-1
+[*] /s; sim-cal:0.835448
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-nm,display_rel_file,1
+[*] /s; sim-cal:0.817068
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-nm,display_rel_file,1
+[*] /s; sim-cal:0.838044
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-nm,display_rel_file,1
+[*] /s; sim-cal:0.792778
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-1000876
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.846986
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.709535
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,-1
+[*] /s; sim-cal:0.842656
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.903075
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.798108
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_elf_canonicalize_dynamic_symtab,1
+[*] /s; sim-cal:0.84314
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,swap_out_syms,-1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,swap_out_syms,-1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,swap_out_syms,-1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,swap_out_syms,1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,swap_out_syms,1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,swap_out_syms,1
+target function: swap_out_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.82149
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.859953
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,-1
+[*] /s; sim-cal:0.933371
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.764779
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.846936
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_elf_get_dynamic_symtab_upper_bound,1
+[*] /s; sim-cal:0.945134
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.769696
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.799166
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,-1
+[*] /s; sim-cal:0.785832
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.81933
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.876715
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_elf_get_dynamic_reloc_upper_bound,1
+[*] /s; sim-cal:0.851932
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.773074
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.725473
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,_bfd_elf_get_symtab_upper_bound,-1
+[*] /s; sim-cal:0.859546
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.837759
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.828442
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_elf_get_symtab_upper_bound,1
+[*] /s; sim-cal:0.833456
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20651
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,elf_link_add_object_symbols,-1
+target function: elf_link_add_object_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,elf_link_add_object_symbols,1
+target function: elf_link_add_object_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,elf_link_add_object_symbols,1
+target function: elf_link_add_object_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,elf_link_add_object_symbols,1
+target function: elf_link_add_object_symbols not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20671
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.004027
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.003654
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.30-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.003212
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.003404
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.877125
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.852871
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-17451
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-objdump,_bfd_dwarf2_slurp_debug_info,-1
+[*] /s; sim-cal:0.898541
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-objdump,_bfd_dwarf2_slurp_debug_info,1
+[*] /s; sim-cal:0.856966
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-objdump,_bfd_dwarf2_slurp_debug_info,1
+[*] /s; sim-cal:0.890536
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-objdump,_bfd_dwarf2_slurp_debug_info,1
+[*] /s; sim-cal:13.364272
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-19724
+[*] Detection for /binaries/target_clang/binutils/binutils-2.33.1-o3-nm,display_rel_file,-1
+[*] /s; sim-cal:0.085329
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.32-o3-nm,display_rel_file,-1
+[*] /s; sim-cal:0.029743
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-nm,display_rel_file,-1
+[*] /s; sim-cal:8.665453
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.34-o3-nm,display_rel_file,1
+[*] /s; sim-cal:0.021728
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-nm,display_rel_file,1
+[*] /s; sim-cal:8.166642
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-nm,display_rel_file,1
+[*] /s; sim-cal:7.923249
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-16590
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-readelf,get_num_dynamic_syms,-1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+------------------------------------------
+[*] Detecting CVE: CVE-2020-16591
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-readelf,get_num_dynamic_syms,-1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-readelf,get_num_dynamic_syms,1
+target function: get_num_dynamic_syms not found
+------------------------------------------
+[*] Detecting CVE: CVE-2020-16593
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-objdump,scan_unit_for_symbols,-1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+------------------------------------------
+[*] Detecting CVE: CVE-2020-16599
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-objdump,_bfd_elf_get_symbol_version_string,-1
+[*] /s; sim-cal:0.814244
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-objdump,_bfd_elf_get_symbol_version_string,1
+[*] /s; sim-cal:1.072321
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,_bfd_elf_get_symbol_version_string,1
+[*] /s; sim-cal:0.950826
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,_bfd_elf_get_symbol_version_string,1
+[*] /s; sim-cal:1.130624
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35448
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-objdump,_bfd_elf_slurp_secondary_reloc_section,-1
+[*] /s; sim-cal:0.944418
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,_bfd_elf_slurp_secondary_reloc_section,1
+[*] /s; sim-cal:0.918566
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,_bfd_elf_slurp_secondary_reloc_section,1
+[*] /s; sim-cal:0.834965
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,_bfd_elf_slurp_secondary_reloc_section,1
+[*] /s; sim-cal:14.150404
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-20294
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.1-o3-readelf,print_dynamic_symbol,-1
+[*] /s; sim-cal:0.887432
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35-o3-readelf,print_dynamic_symbol,-1
+[*] /s; sim-cal:0.840017
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-readelf,print_dynamic_symbol,1
+[*] /s; sim-cal:0.81428
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-readelf,print_dynamic_symbol,1
+[*] /s; sim-cal:0.899103
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-readelf,print_dynamic_symbol,1
+[*] /s; sim-cal:7.955593
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-45078
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,stab_record_type,-1
+target function: stab_record_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,stab_record_type,-1
+target function: stab_record_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,stab_record_type,-1
+target function: stab_record_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,stab_record_type,1
+target function: stab_record_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,stab_record_type,1
+target function: stab_record_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,stab_xcoff_builtin_type,-1
+target function: stab_xcoff_builtin_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,stab_xcoff_builtin_type,-1
+target function: stab_xcoff_builtin_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,stab_xcoff_builtin_type,-1
+target function: stab_xcoff_builtin_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,stab_xcoff_builtin_type,1
+target function: stab_xcoff_builtin_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,stab_xcoff_builtin_type,1
+target function: stab_xcoff_builtin_type not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,stab_find_type,-1
+[*] /s; sim-cal:0.902454
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.36.1-o3-objdump,stab_find_type,-1
+[*] /s; sim-cal:1.016812
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.35.2-o3-objdump,stab_find_type,-1
+[*] /s; sim-cal:0.889971
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,stab_find_type,1
+[*] /s; sim-cal:0.853685
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,stab_find_type,1
+[*] /s; sim-cal:0.950652
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-38533
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,rewrite_elf_program_header,-1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,rewrite_elf_program_header,1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,rewrite_elf_program_header,1
+target function: rewrite_elf_program_header not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.906799
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.841505
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,_bfd_elf_symbol_from_bfd_symbol,-1
+[*] /s; sim-cal:0.935026
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,_bfd_elf_symbol_from_bfd_symbol,1
+[*] /s; sim-cal:0.867123
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,_bfd_elf_symbol_from_bfd_symbol,1
+[*] /s; sim-cal:0.943856
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-25586
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,bfd_init_section_decompress_status,1
+[*] /s; sim-cal:0.91091
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,bfd_init_section_decompress_status,1
+[*] /s; sim-cal:0.864624
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.43-o3-objdump,bfd_init_section_decompress_status,1
+[*] /s; sim-cal:14.666207
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48063
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.954553
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:0.852555
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,load_specific_debug_section,-1
+[*] /s; sim-cal:1.007108
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.891448
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,load_specific_debug_section,1
+[*] /s; sim-cal:0.908514
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48064
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.809786
+[*] Detection Result:V 0.7124620060790274/0.0 18/18,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.840257
+[*] Detection Result:V 0.7124620060790274/0.0 18/18,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,find_debug_info,-1
+[*] /s; sim-cal:0.797066
+[*] Detection Result:V 0.7124620060790274/0.0 18/18,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,find_debug_info,1
+[*] /s; sim-cal:0.900171
+[*] Detection Result:V 0.7124620060790274/0.0 22/22,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,find_debug_info,1
+[*] /s; sim-cal:0.900542
+[*] Detection Result:V 0.7124620060790274/0.0 22/22,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-48065
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,scan_unit_for_symbols,-1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,scan_unit_for_symbols,-1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,scan_unit_for_symbols,-1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,scan_unit_for_symbols,1
+target function: scan_unit_for_symbols not found
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.928188
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.38-o3-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.83528
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.37-o3-objdump,find_abstract_instance,-1
+[*] /s; sim-cal:0.999387
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,find_abstract_instance,1
+[*] /s; sim-cal:0.968751
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,find_abstract_instance,1
+[*] /s; sim-cal:0.916295
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-1579
+[*] Detection for /binaries/target_clang/binutils/binutils-2.39-o3-objdump,read_indexed_address,-1
+[*] /s; sim-cal:0.807955
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,read_indexed_address,1
+[*] /s; sim-cal:0.897211
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,read_indexed_address,1
+[*] /s; sim-cal:0.891579
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2018-17358
+[*] Detection for /binaries/target_clang/binutils/binutils-2.31.1-o3-objdump,_bfd_stab_section_find_nearest_line,-1
+[*] /s; sim-cal:1.013097
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.41-o3-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:0.984378
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.42-o3-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:1.053745
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/binutils/binutils-2.43-o3-objdump,_bfd_stab_section_find_nearest_line,1
+[*] /s; sim-cal:0.988418
+[*] Detection Result:NA too much diff,1

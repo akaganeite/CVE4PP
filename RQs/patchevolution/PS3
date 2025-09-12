@@ -1,0 +1,153 @@
+------------------------------------------------------------
+IMAGEMAGICK
+------------------------------------------------------------
+EVO1:
+  Total functions tested: 40
+  Functions detected as patch: 25
+  Functions detected as vulnerability: 15
+  Overall accuracy: 0.6250
+
+EVO2:
+  Total functions tested: 39
+  Functions detected as patch: 26
+  Functions detected as vulnerability: 13
+  Overall accuracy: 0.6667
+
+EVO3:
+  Total functions tested: 38
+  Functions detected as patch: 22
+  Functions detected as vulnerability: 16
+  Overall accuracy: 0.5789
+
+EVO4:
+  Total functions tested: 39
+  Functions detected as patch: 24
+  Functions detected as vulnerability: 15
+  Overall accuracy: 0.6154
+============================================================
+EVO1-ACC: 0.5769 (15/26 commits detected as patch)
+EVO2-ACC: 0.7200 (18/25 commits detected as patch)
+EVO3-ACC: 0.4800 (12/25 commits detected as patch)
+EVO4-ACC: 0.6400 (16/25 commits detected as patch)
+
+------------------------------------------------------------
+LIBXML2
+------------------------------------------------------------
+EVO1:
+  Total functions tested: 4
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 3
+  Overall accuracy: 0.2500
+
+EVO2:
+  Total functions tested: 3
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 2
+  Overall accuracy: 0.3333
+
+EVO3:
+  Total functions tested: 2
+  Functions detected as patch: 0
+  Functions detected as vulnerability: 2
+  Overall accuracy: 0.0000
+
+EVO4:
+  Total functions tested: 2
+  Functions detected as patch: 0
+  Functions detected as vulnerability: 2
+  Overall accuracy: 0.0000
+
+------------------------------------------------------------
+OPENSSL
+------------------------------------------------------------
+EVO1:
+  Total functions tested: 4
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 3
+  Overall accuracy: 0.2500
+
+EVO2:
+  Total functions tested: 5
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 4
+  Overall accuracy: 0.2000
+
+EVO3:
+  Total functions tested: 6
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 5
+  Overall accuracy: 0.1667
+
+EVO4:
+  Total functions tested: 5
+  Functions detected as patch: 1
+  Functions detected as vulnerability: 4
+  Overall accuracy: 0.2000
+============================================================
+EVO1-ACC: 0.2500 (1/4 commits detected as patch)
+EVO2-ACC: 0.1667 (1/6 commits detected as patch)
+EVO3-ACC: 0.1429 (1/7 commits detected as patch)
+EVO4-ACC: 0.2000 (1/5 commits detected as patch)
+
+------------------------------------------------------------
+TCPDUMP
+------------------------------------------------------------
+FUNC:
+    EVO1:
+    Total functions tested: 122
+    Functions detected as patch: 48
+    Functions detected as vulnerability: 74
+    Overall accuracy: 0.3934
+
+    EVO2:
+    Total functions tested: 121
+    Functions detected as patch: 38
+    Functions detected as vulnerability: 83
+    Overall accuracy: 0.3140
+
+    EVO3:
+    Total functions tested: 120
+    Functions detected as patch: 38
+    Functions detected as vulnerability: 82
+    Overall accuracy: 0.3167
+
+    EVO4:
+    Total functions tested: 122
+    Functions detected as patch: 55
+    Functions detected as vulnerability: 67
+    Overall accuracy: 0.4508
+============================================================
+CVE:
+    EVO1-ACC: 0.3733 (28/75 commits detected as patch)
+    EVO2-ACC: 0.2703 (20/74 commits detected as patch)
+    EVO3-ACC: 0.2877 (21/73 commits detected as patch)
+    EVO4-ACC: 0.4595 (34/74 commits detected as patch)
+
+
+
+------------------------------------------------------------
+ALL PROJECTS (AGGREGATED FROM PS3)
+------------------------------------------------------------
+EVO1:
+  Total functions tested: 170
+  Functions detected as patch: 75
+  Functions detected as vulnerability: 95
+  Overall accuracy: 0.4412
+
+EVO2:
+  Total functions tested: 168
+  Functions detected as patch: 66
+  Functions detected as vulnerability: 102
+  Overall accuracy: 0.3929
+
+EVO3:
+  Total functions tested: 166
+  Functions detected as patch: 61
+  Functions detected as vulnerability: 105
+  Overall accuracy: 0.3675
+
+EVO4:
+  Total functions tested: 168
+  Functions detected as patch: 80
+  Functions detected as vulnerability: 88
+  Overall accuracy: 0.4762

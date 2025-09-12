@@ -1,0 +1,13 @@
+cve,funcname,succeed,tp,tn,false_positive,false_negative,failed_versions,no_diff,func_not_found,targets
+CVE-2023-0401,PKCS7_dataDecode,6,3,3,,,,,,6
+CVE-2023-0401,pkcs7_bio_add_digest,5,2,3,,,,,OpenSSL_1_1_1t,6
+CVE-2023-2650,OBJ_obj2txt,2,0,2,,openssl-3.0.9;openssl-3.1.1,,,OpenSSL_1_1_1t;OpenSSL_1_1_1u,6
+CVE-2023-2975,siv_cipher,5,2,3,,,,,OpenSSL_1_1_1v,6
+CVE-2023-5678,DH_check_pub_key_ex,3,0,3,,openssl-3.2.0;openssl-3.1.5;openssl-3.2.1,,,,6
+CVE-2023-5678,generate_key,6,3,3,,,,,,6
+CVE-2023-5678,ossl_dh_compute_key,6,3,3,,,,,,6
+CVE-2024-0727,newpass_p12,6,3,3,,,,,,6
+CVE-2024-0727,SMIME_write_PKCS7,6,3,3,,,,,,6
+CVE-2024-0727,pkcs12_gen_mac,6,3,3,,,,,,6
+CVE-2024-0727,PKCS12_unpack_p7encdata,6,3,3,,,,,,6
+CVE-2024-0727,PKCS12_unpack_authsafes,6,3,3,,,,,,6

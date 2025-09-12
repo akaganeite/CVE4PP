@@ -1,0 +1,9 @@
+tcpdump_evo.csv:
+  succeed/targets = 44/292 = 0.1507
+  succeed/(targets-func_not_found) = 44/(292-0) = 0.1507
+  succeed/valid_targets = 44/185 = 0.2378 (只考虑FP/FN)
+
+openjpeg_evo.csv:
+  succeed/targets = 15/17 = 0.8824
+  succeed/(targets-func_not_found) = 15/(17-0) = 0.8824
+  succeed/valid_targets = 15/17 = 0.8824 (只考虑FP/FN)
