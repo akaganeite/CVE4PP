@@ -1,0 +1,791 @@
+============================================
+Patch Detection Log
+Time: 2025-09-17 09:50:44
+============================================
+2025-09-17 09:50:44,703 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:50:44,703 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1j-o0-libssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:50:52,010 - INFO - success CVE-2014-3572,details in cve_test/CVE-2014-3572.log
+
+2025-09-17 09:50:52,011 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:50:52,011 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_0_9_8zc-o0-openssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:50:58,755 - INFO - success CVE-2014-3572,details in cve_test/CVE-2014-3572.log
+
+2025-09-17 09:50:58,755 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:50:58,755 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_0o-o0-libssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:51:05,671 - INFO - success CVE-2014-3572,details in cve_test/CVE-2014-3572.log
+
+2025-09-17 09:51:05,672 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:51:05,672 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_0p-o0-libssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:51:09,109 - ERROR - fail CVE-2014-3572 ,details1
+
+2025-09-17 09:51:09,110 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:51:09,110 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_0_9_8zd-o0-openssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:51:16,158 - INFO - success CVE-2014-3572,details in cve_test/CVE-2014-3572.log
+
+2025-09-17 09:51:16,159 - INFO - detecting CVE-2014-3572 ssl3_get_key_exchange
+2025-09-17 09:51:16,160 - INFO - cmd: python main.py --detect --cve_id CVE-2014-3572 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1k-o0-libssl --vul_func_name ssl3_get_key_exchange --project openssl
+2025-09-17 09:51:23,620 - INFO - success CVE-2014-3572,details in cve_test/CVE-2014-3572.log
+
+2025-09-17 09:51:23,621 - INFO - detecting CVE-2015-0206 dtls1_buffer_record
+2025-09-17 09:51:23,621 - INFO - cmd: python main.py --detect --cve_id CVE-2015-0206 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1j-o0-libssl --vul_func_name dtls1_buffer_record --project openssl
+2025-09-17 09:51:33,706 - INFO - success CVE-2015-0206,details in cve_test/CVE-2015-0206.log
+
+2025-09-17 09:51:33,707 - INFO - detecting CVE-2015-0206 dtls1_buffer_record
+2025-09-17 09:51:33,707 - INFO - cmd: python main.py --detect --cve_id CVE-2015-0206 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_0o-o0-libssl --vul_func_name dtls1_buffer_record --project openssl
+2025-09-17 09:51:42,411 - INFO - success CVE-2015-0206,details in cve_test/CVE-2015-0206.log
+
+2025-09-17 09:51:42,412 - INFO - detecting CVE-2015-0206 dtls1_buffer_record
+2025-09-17 09:51:42,412 - INFO - cmd: python main.py --detect --cve_id CVE-2015-0206 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_0_9_8ze-o0-openssl --vul_func_name dtls1_buffer_record --project openssl
+2025-09-17 09:51:54,266 - INFO - success CVE-2015-0206,details in cve_test/CVE-2015-0206.log
+
+2025-09-17 09:51:54,267 - INFO - detecting CVE-2015-1791 ssl3_get_new_session_ticket
+2025-09-17 09:51:54,268 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1791 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl --vul_func_name ssl3_get_new_session_ticket --project openssl
+2025-09-17 09:52:00,434 - INFO - success CVE-2015-1791,details in cve_test/CVE-2015-1791.log
+
+2025-09-17 09:52:00,435 - INFO - detecting CVE-2015-1791 ssl3_get_new_session_ticket
+2025-09-17 09:52:00,436 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1791 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_0s-o0-libssl --vul_func_name ssl3_get_new_session_ticket --project openssl
+2025-09-17 09:52:07,733 - INFO - success CVE-2015-1791,details in cve_test/CVE-2015-1791.log
+
+2025-09-17 09:52:07,734 - INFO - detecting CVE-2015-1791 ssl3_get_new_session_ticket
+2025-09-17 09:52:07,735 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1791 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2b-o0-libcrypto --vul_func_name ssl3_get_new_session_ticket --project openssl
+2025-09-17 09:52:12,638 - ERROR - fail CVE-2015-1791 ,details1
+
+2025-09-17 09:52:12,639 - INFO - detecting CVE-2015-1791 ssl3_get_new_session_ticket
+2025-09-17 09:52:12,639 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1791 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1n-o0-libssl --vul_func_name ssl3_get_new_session_ticket --project openssl
+2025-09-17 09:52:19,569 - INFO - success CVE-2015-1791,details in cve_test/CVE-2015-1791.log
+
+2025-09-17 09:52:19,570 - INFO - detecting CVE-2015-1789 X509_cmp_time
+2025-09-17 09:52:19,570 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1789 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_0r-o0-libcrypto --vul_func_name X509_cmp_time --project openssl
+2025-09-17 09:52:27,748 - INFO - success CVE-2015-1789,details in cve_test/CVE-2015-1789.log
+
+2025-09-17 09:52:27,749 - INFO - detecting CVE-2015-1789 X509_cmp_time
+2025-09-17 09:52:27,749 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1789 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_0_9_8zf-o0-openssl --vul_func_name X509_cmp_time --project openssl
+2025-09-17 09:52:34,870 - INFO - success CVE-2015-1789,details in cve_test/CVE-2015-1789.log
+
+2025-09-17 09:52:34,871 - INFO - detecting CVE-2015-1789 X509_cmp_time
+2025-09-17 09:52:34,872 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1789 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1o-o0-libssl --vul_func_name X509_cmp_time --project openssl
+2025-09-17 09:52:39,752 - ERROR - fail CVE-2015-1789 ,details1
+
+2025-09-17 09:52:39,753 - INFO - detecting CVE-2015-1789 X509_cmp_time
+2025-09-17 09:52:39,754 - INFO - cmd: python main.py --detect --cve_id CVE-2015-1789 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2d-o0-openssl --vul_func_name X509_cmp_time --project openssl
+2025-09-17 09:52:47,784 - INFO - success CVE-2015-1789,details in cve_test/CVE-2015-1789.log
+
+2025-09-17 09:52:47,785 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:52:47,786 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2d-o0-openssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:53:19,801 - INFO - success CVE-2015-3195,details in cve_test/CVE-2015-3195.log
+
+2025-09-17 09:53:19,802 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:53:19,802 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1p-o0-openssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:53:52,104 - INFO - success CVE-2015-3195,details in cve_test/CVE-2015-3195.log
+
+2025-09-17 09:53:52,105 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:53:52,105 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1o-o0-libssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:53:57,280 - ERROR - fail CVE-2015-3195 ,details1
+
+2025-09-17 09:53:57,281 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:53:57,281 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:54:29,455 - INFO - success CVE-2015-3195,details in cve_test/CVE-2015-3195.log
+
+2025-09-17 09:54:29,455 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:54:29,455 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:55:11,271 - INFO - success CVE-2015-3195,details in cve_test/CVE-2015-3195.log
+
+2025-09-17 09:55:11,272 - INFO - detecting CVE-2015-3195 ASN1_item_ex_d2i
+2025-09-17 09:55:11,272 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3195 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl --vul_func_name ASN1_item_ex_d2i --project openssl
+2025-09-17 09:55:14,690 - ERROR - fail CVE-2015-3195 ,details1
+
+2025-09-17 09:55:14,690 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:14,691 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:23,545 - INFO - success CVE-2015-3197,details in cve_test/CVE-2015-3197.log
+
+2025-09-17 09:55:23,546 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:23,547 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2e-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:32,052 - INFO - success CVE-2015-3197,details in cve_test/CVE-2015-3197.log
+
+2025-09-17 09:55:32,053 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:32,054 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1p-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:40,743 - INFO - success CVE-2015-3197,details in cve_test/CVE-2015-3197.log
+
+2025-09-17 09:55:40,744 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:40,744 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL-fips-2_0_12-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:44,653 - ERROR - fail CVE-2015-3197 ,details1
+
+2025-09-17 09:55:44,654 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:44,654 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL-fips-2_0_10-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:48,895 - ERROR - fail CVE-2015-3197 ,details1
+
+2025-09-17 09:55:48,896 - INFO - detecting CVE-2015-3197 get_client_hello
+2025-09-17 09:55:48,897 - INFO - cmd: python main.py --detect --cve_id CVE-2015-3197 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL-fips-2_0_11-o0-openssl --vul_func_name get_client_hello --project openssl
+2025-09-17 09:55:52,716 - ERROR - fail CVE-2015-3197 ,details1
+
+2025-09-17 09:55:52,717 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:55:52,718 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:55:59,797 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:55:59,798 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:55:59,798 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:56:07,179 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:56:07,180 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:56:07,180 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:56:15,042 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:56:15,042 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:56:15,043 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:56:26,171 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:56:26,172 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:56:26,172 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:56:37,881 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:56:37,881 - INFO - detecting CVE-2016-0705 dsa_priv_decode
+2025-09-17 09:56:37,882 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0705 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name dsa_priv_decode --project openssl
+2025-09-17 09:56:48,932 - INFO - success CVE-2016-0705,details in cve_test/CVE-2016-0705.log
+
+2025-09-17 09:56:48,933 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:56:48,934 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:57:00,299 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:57:00,300 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:57:00,300 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:57:09,687 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:57:09,688 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:57:09,689 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:57:19,651 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:57:19,652 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:57:19,653 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:57:43,654 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:57:43,654 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:57:43,654 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:58:07,891 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:58:07,892 - INFO - detecting CVE-2016-0798 init_ssl_connection
+2025-09-17 09:58:07,892 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0798 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name init_ssl_connection --project openssl
+2025-09-17 09:58:30,821 - INFO - success CVE-2016-0798,details in cve_test/CVE-2016-0798.log
+
+2025-09-17 09:58:30,822 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:58:30,823 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:58:38,107 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:58:38,108 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:58:38,108 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:58:44,632 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:58:44,633 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:58:44,633 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:58:51,049 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:58:51,050 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:58:51,051 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:58:58,177 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:58:58,177 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:58:58,178 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:59:05,171 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:59:05,171 - INFO - detecting CVE-2016-0799 BIO_vprintf
+2025-09-17 09:59:05,172 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0799 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:59:11,466 - INFO - success CVE-2016-0799,details in cve_test/CVE-2016-0799.log
+
+2025-09-17 09:59:11,467 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:11,467 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:18,048 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:18,049 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:18,049 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:24,722 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:24,723 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:24,723 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:30,923 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:30,924 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:30,924 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:37,317 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:37,318 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:37,318 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:43,890 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:43,891 - INFO - detecting CVE-2016-2842 BIO_vsnprintf
+2025-09-17 09:59:43,891 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name BIO_vsnprintf --project openssl
+2025-09-17 09:59:50,309 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:50,309 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 09:59:50,310 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 09:59:57,972 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 09:59:57,973 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 09:59:57,973 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 10:00:05,257 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:05,258 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 10:00:05,258 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 10:00:12,369 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:12,369 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 10:00:12,370 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 10:00:19,669 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:19,670 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 10:00:19,670 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 10:00:26,570 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:26,571 - INFO - detecting CVE-2016-2842 BIO_vprintf
+2025-09-17 10:00:26,571 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name BIO_vprintf --project openssl
+2025-09-17 10:00:34,337 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:34,338 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:00:34,338 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:00:40,261 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:40,262 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:00:40,262 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:00:47,034 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:47,035 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:00:47,036 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:00:54,075 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:00:54,076 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:00:54,076 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:01:00,094 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:01:00,095 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:01:00,096 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:01:06,173 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:01:06,173 - INFO - detecting CVE-2016-2842 doapr_outch
+2025-09-17 10:01:06,174 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2842 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name doapr_outch --project openssl
+2025-09-17 10:01:12,976 - INFO - success CVE-2016-2842,details in cve_test/CVE-2016-2842.log
+
+2025-09-17 10:01:12,977 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:12,977 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:01:22,778 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:01:22,779 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:22,779 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1r-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:01:31,884 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:01:31,885 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:31,886 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1q-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:01:41,251 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:01:41,252 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:41,252 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:01:48,624 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:01:48,625 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:48,625 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1t-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:01:55,803 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:01:55,804 - INFO - detecting CVE-2016-0702 MOD_EXP_CTIME_COPY_TO_PREBUF
+2025-09-17 10:01:55,805 - INFO - cmd: python main.py --detect --cve_id CVE-2016-0702 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2i-o0-openssl --vul_func_name MOD_EXP_CTIME_COPY_TO_PREBUF --project openssl
+2025-09-17 10:02:03,097 - INFO - success CVE-2016-0702,details in cve_test/CVE-2016-0702.log
+
+2025-09-17 10:02:03,098 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:03,098 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2g-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:11,164 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:11,165 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:11,166 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:18,986 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:18,987 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:18,988 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2f-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:27,459 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:27,460 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:27,461 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:35,729 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:35,730 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:35,730 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1t-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:43,929 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:43,931 - INFO - detecting CVE-2016-2109 asn1_d2i_read_bio
+2025-09-17 10:02:43,931 - INFO - cmd: python main.py --detect --cve_id CVE-2016-2109 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2i-o0-libcrypto --vul_func_name asn1_d2i_read_bio --project openssl
+2025-09-17 10:02:52,937 - INFO - success CVE-2016-2109,details in cve_test/CVE-2016-2109.log
+
+2025-09-17 10:02:52,938 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:02:52,938 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2h-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:02:59,960 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:02:59,961 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:02:59,962 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1t-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:03:24,812 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:03:24,813 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:03:24,814 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1s-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:03:49,670 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:03:49,672 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:03:49,672 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2i-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:03:56,915 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:03:56,916 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:03:56,917 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_1u-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:04:24,308 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:04:24,309 - INFO - detecting CVE-2016-6306 ssl3_get_certificate_request
+2025-09-17 10:04:24,310 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6306 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2j-o0-openssl --vul_func_name ssl3_get_certificate_request --project openssl
+2025-09-17 10:04:30,765 - INFO - success CVE-2016-6306,details in cve_test/CVE-2016-6306.log
+
+2025-09-17 10:04:30,766 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:04:30,767 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_0h-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:04:36,363 - ERROR - fail CVE-2018-0732 ,details1
+
+2025-09-17 10:04:36,365 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:04:36,365 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2o-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:05:04,367 - INFO - success CVE-2018-0732,details in cve_test/CVE-2018-0732.log
+
+2025-09-17 10:05:04,368 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:05:04,368 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2n-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:05:36,356 - INFO - success CVE-2018-0732,details in cve_test/CVE-2018-0732.log
+
+2025-09-17 10:05:36,358 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:05:36,358 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2p-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:06:05,815 - INFO - success CVE-2018-0732,details in cve_test/CVE-2018-0732.log
+
+2025-09-17 10:06:05,816 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:06:05,816 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_0i-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:06:11,818 - ERROR - fail CVE-2018-0732 ,details1
+
+2025-09-17 10:06:11,819 - INFO - detecting CVE-2018-0732 generate_key
+2025-09-17 10:06:11,819 - INFO - cmd: python main.py --detect --cve_id CVE-2018-0732 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1-o0-openssl --vul_func_name generate_key --project openssl
+2025-09-17 10:06:17,329 - ERROR - fail CVE-2018-0732 ,details1
+
+2025-09-17 10:06:17,330 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:17,331 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:24,999 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:25,000 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:25,001 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:32,513 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:32,514 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:32,515 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:39,896 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:39,898 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:39,898 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2u-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:47,168 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:47,170 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:47,170 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1e-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:53,344 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:53,346 - INFO - detecting CVE-2019-1563 pkcs7_decrypt_rinfo
+2025-09-17 10:06:53,346 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1f-o0-libcrypto --vul_func_name pkcs7_decrypt_rinfo --project openssl
+2025-09-17 10:06:59,971 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:06:59,973 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:06:59,973 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_0k-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:09,906 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:09,907 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:07:09,908 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1c-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:19,199 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:19,201 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:07:19,201 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2s-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:27,634 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:27,636 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:07:27,636 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_0_2u-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:35,694 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:35,696 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:07:35,696 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1e-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:45,496 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:45,498 - INFO - detecting CVE-2019-1563 cms_RecipientInfo_ktri_decrypt
+2025-09-17 10:07:45,498 - INFO - cmd: python main.py --detect --cve_id CVE-2019-1563 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1f-o0-libcrypto --vul_func_name cms_RecipientInfo_ktri_decrypt --project openssl
+2025-09-17 10:07:54,955 - INFO - success CVE-2019-1563,details in cve_test/CVE-2019-1563.log
+
+2025-09-17 10:07:54,956 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:07:54,956 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.5-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:02,825 - INFO - success CVE-2022-3358,details in cve_test/CVE-2022-3358.log
+
+2025-09-17 10:08:02,826 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:08:02,827 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.4-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:09,921 - INFO - success CVE-2022-3358,details in cve_test/CVE-2022-3358.log
+
+2025-09-17 10:08:09,922 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:08:09,923 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.3-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:16,477 - INFO - success CVE-2022-3358,details in cve_test/CVE-2022-3358.log
+
+2025-09-17 10:08:16,478 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:08:16,479 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1r-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:21,823 - ERROR - fail CVE-2022-3358 ,details1
+
+2025-09-17 10:08:21,824 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:08:21,825 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.6-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:29,025 - INFO - success CVE-2022-3358,details in cve_test/CVE-2022-3358.log
+
+2025-09-17 10:08:29,026 - INFO - detecting CVE-2022-3358 evp_cipher_init_internal
+2025-09-17 10:08:29,026 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3358 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.7-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:08:35,283 - INFO - success CVE-2022-3358,details in cve_test/CVE-2022-3358.log
+
+2025-09-17 10:08:35,284 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:08:35,284 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.6-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:08:43,033 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:08:43,035 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:08:43,035 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.5-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:08:50,633 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:08:50,634 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:08:50,635 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.4-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:08:57,956 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:08:57,958 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:08:57,958 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-alpha1-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:09:08,102 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:09:08,103 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:09:08,104 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-beta1-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:09:18,604 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:09:18,605 - INFO - detecting CVE-2022-3786 ossl_a2ulabel
+2025-09-17 10:09:18,606 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3786 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.8-o0-libcrypto --vul_func_name ossl_a2ulabel --project openssl
+2025-09-17 10:09:24,588 - INFO - success CVE-2022-3786,details in cve_test/CVE-2022-3786.log
+
+2025-09-17 10:09:24,589 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:09:24,589 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.7-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:09:32,139 - INFO - success CVE-2022-3996,details in cve_test/CVE-2022-3996.log
+
+2025-09-17 10:09:32,140 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:09:32,141 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.6-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:09:39,434 - INFO - success CVE-2022-3996,details in cve_test/CVE-2022-3996.log
+
+2025-09-17 10:09:39,435 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:09:39,436 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.5-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:09:47,725 - INFO - success CVE-2022-3996,details in cve_test/CVE-2022-3996.log
+
+2025-09-17 10:09:47,726 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:09:47,727 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-beta1-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:09:55,730 - INFO - success CVE-2022-3996,details in cve_test/CVE-2022-3996.log
+
+2025-09-17 10:09:55,731 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:09:55,732 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.8-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:10:03,325 - INFO - success CVE-2022-3996,details in cve_test/CVE-2022-3996.log
+
+2025-09-17 10:10:03,327 - INFO - detecting CVE-2022-3996 ossl_policy_cache_set_mapping
+2025-09-17 10:10:03,327 - INFO - cmd: python main.py --detect --cve_id CVE-2022-3996 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto --vul_func_name ossl_policy_cache_set_mapping --project openssl
+2025-09-17 10:10:08,164 - ERROR - fail CVE-2022-3996 ,details1
+
+2025-09-17 10:10:08,165 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:08,166 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.7-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:10:17,231 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:10:17,232 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:17,233 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.6-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:10:26,790 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:10:26,791 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:26,792 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.5-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:10:36,346 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:10:36,348 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:36,349 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.8-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:10:47,967 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:10:47,969 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:47,970 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:10:56,565 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:10:56,566 - INFO - detecting CVE-2022-4203 nc_match
+2025-09-17 10:10:56,567 - INFO - cmd: python main.py --detect --cve_id CVE-2022-4203 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-o0-libcrypto --vul_func_name nc_match --project openssl
+2025-09-17 10:11:07,713 - INFO - success CVE-2022-4203,details in cve_test/CVE-2022-4203.log
+
+2025-09-17 10:11:07,714 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:07,715 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1s-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:14,976 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:14,978 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:14,978 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.7-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:24,063 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:24,064 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:24,069 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1r-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:31,978 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:31,979 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:31,979 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.8-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:39,104 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:39,105 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:39,106 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:47,087 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:47,095 - INFO - detecting CVE-2023-0215 BIO_new_NDEF
+2025-09-17 10:11:47,097 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0215 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-o0-libcrypto --vul_func_name BIO_new_NDEF --project openssl
+2025-09-17 10:11:54,820 - INFO - success CVE-2023-0215,details in cve_test/CVE-2023-0215.log
+
+2025-09-17 10:11:54,821 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:11:54,822 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.7-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:03,688 - INFO - success CVE-2023-0401,details in cve_test/CVE-2023-0401.log
+
+2025-09-17 10:12:03,689 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:12:03,690 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.6-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:12,762 - INFO - success CVE-2023-0401,details in cve_test/CVE-2023-0401.log
+
+2025-09-17 10:12:12,763 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:12:12,764 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.5-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:20,973 - INFO - success CVE-2023-0401,details in cve_test/CVE-2023-0401.log
+
+2025-09-17 10:12:20,974 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:12:20,975 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.8-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:30,059 - INFO - success CVE-2023-0401,details in cve_test/CVE-2023-0401.log
+
+2025-09-17 10:12:30,060 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:12:30,060 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1t-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:34,868 - ERROR - fail CVE-2023-0401 ,details1
+
+2025-09-17 10:12:34,869 - INFO - detecting CVE-2023-0401 pkcs7_bio_add_digest
+2025-09-17 10:12:34,870 - INFO - cmd: python main.py --detect --cve_id CVE-2023-0401 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-o0-libcrypto --vul_func_name pkcs7_bio_add_digest --project openssl
+2025-09-17 10:12:43,987 - INFO - success CVE-2023-0401,details in cve_test/CVE-2023-0401.log
+
+2025-09-17 10:12:43,988 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:12:43,988 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.1-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:12:50,574 - INFO - success CVE-2023-2975,details in cve_test/CVE-2023-2975.log
+
+2025-09-17 10:12:50,575 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:12:50,575 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.9-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:12:57,087 - INFO - success CVE-2023-2975,details in cve_test/CVE-2023-2975.log
+
+2025-09-17 10:12:57,088 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:12:57,089 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.0-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:13:03,195 - INFO - success CVE-2023-2975,details in cve_test/CVE-2023-2975.log
+
+2025-09-17 10:13:03,196 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:13:03,197 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.10-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:13:09,285 - INFO - success CVE-2023-2975,details in cve_test/CVE-2023-2975.log
+
+2025-09-17 10:13:09,286 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:13:09,287 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-OpenSSL_1_1_1v-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:13:13,896 - ERROR - fail CVE-2023-2975 ,details1
+
+2025-09-17 10:13:13,897 - INFO - detecting CVE-2023-2975 siv_cipher
+2025-09-17 10:13:13,897 - INFO - cmd: python main.py --detect --cve_id CVE-2023-2975 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.2-o0-libcrypto --vul_func_name siv_cipher --project openssl
+2025-09-17 10:13:20,949 - INFO - success CVE-2023-2975,details in cve_test/CVE-2023-2975.log
+
+2025-09-17 10:13:20,950 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:20,950 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.3-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:13:27,091 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:13:27,092 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:27,092 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.11-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:13:34,145 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:13:34,146 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:34,147 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.10-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:13:41,140 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:13:41,141 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:41,142 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-beta1-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:13:48,551 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:13:48,552 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:48,553 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:13:55,852 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:13:55,853 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:13:55,854 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:03,321 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:03,322 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:03,322 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.3-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:10,388 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:10,389 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:10,389 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.11-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:17,368 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:17,369 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:17,369 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.10-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:25,103 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:25,104 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:25,104 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-beta1-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:32,150 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:32,151 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:32,152 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:39,187 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:39,187 - INFO - detecting CVE-2023-5363 evp_cipher_init_internal
+2025-09-17 10:14:39,188 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5363 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name evp_cipher_init_internal --project openssl
+2025-09-17 10:14:46,336 - INFO - success CVE-2023-5363,details in cve_test/CVE-2023-5363.log
+
+2025-09-17 10:14:46,337 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:14:46,338 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:14:55,453 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:14:55,454 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:14:55,454 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:15:05,582 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:15:05,585 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:15:05,586 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.3-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:15:15,383 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:15:15,384 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:15:15,385 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:15:25,603 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:15:25,604 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:15:25,605 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:15:36,594 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:15:36,595 - INFO - detecting CVE-2023-5678 generate_key
+2025-09-17 10:15:36,596 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name generate_key --project openssl
+2025-09-17 10:15:46,611 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:15:46,612 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:15:46,613 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:16:01,352 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:16:01,353 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:16:01,354 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:16:17,119 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:16:17,120 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:16:17,121 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.3-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:16:31,323 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:16:31,324 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:16:31,325 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:16:47,567 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:16:47,569 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:16:47,569 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:17:04,895 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:17:04,896 - INFO - detecting CVE-2023-5678 ossl_dh_compute_key
+2025-09-17 10:17:04,897 - INFO - cmd: python main.py --detect --cve_id CVE-2023-5678 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name ossl_dh_compute_key --project openssl
+2025-09-17 10:17:19,396 - INFO - success CVE-2023-5678,details in cve_test/CVE-2023-5678.log
+
+2025-09-17 10:17:19,397 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:17:19,397 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:17:46,258 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:17:46,259 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:17:46,259 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:18:15,300 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:18:15,301 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:18:15,302 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:18:42,100 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:18:42,101 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:18:42,102 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:19:08,060 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:19:08,061 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:19:08,061 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:19:36,861 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:19:36,863 - INFO - detecting CVE-2024-0727 newpass_p12
+2025-09-17 10:19:36,863 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name newpass_p12 --project openssl
+2025-09-17 10:20:04,522 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:04,523 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:04,523 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:13,313 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:13,314 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:13,315 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:22,370 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:22,371 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:22,372 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:31,323 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:31,324 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:31,325 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:39,638 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:39,639 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:39,639 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:47,523 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:47,524 - INFO - detecting CVE-2024-0727 SMIME_write_PKCS7
+2025-09-17 10:20:47,525 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name SMIME_write_PKCS7 --project openssl
+2025-09-17 10:20:54,792 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:20:54,793 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:20:54,793 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:06,181 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:06,182 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:21:06,182 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:17,282 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:17,283 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:21:17,284 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:28,220 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:28,221 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:21:28,221 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:37,344 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:37,345 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:21:37,346 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:46,900 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:46,901 - INFO - detecting CVE-2024-0727 pkcs12_gen_mac
+2025-09-17 10:21:46,902 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name pkcs12_gen_mac --project openssl
+2025-09-17 10:21:56,470 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:21:56,471 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:21:56,471 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:04,409 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:04,410 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:22:04,410 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:12,403 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:12,404 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:22:12,404 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:20,313 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:20,314 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:22:20,314 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:27,209 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:27,210 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:22:27,210 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:34,408 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:34,409 - INFO - detecting CVE-2024-0727 PKCS12_unpack_p7encdata
+2025-09-17 10:22:34,410 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name PKCS12_unpack_p7encdata --project openssl
+2025-09-17 10:22:42,818 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:42,819 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:22:42,819 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.0-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:22:53,555 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:22:53,556 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:22:53,558 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.12-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:23:00,994 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:23:00,995 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:23:00,996 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.4-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:23:09,196 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:23:09,198 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:23:09,198 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.1.5-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:23:16,240 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:23:16,241 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:23:16,241 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.2.1-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:23:24,220 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log
+
+2025-09-17 10:23:24,221 - INFO - detecting CVE-2024-0727 PKCS12_unpack_authsafes
+2025-09-17 10:23:24,222 - INFO - cmd: python main.py --detect --cve_id CVE-2024-0727 --target_bin /binaries/target_clang/openssl/openssl-openssl-3.0.13-o0-libcrypto --vul_func_name PKCS12_unpack_authsafes --project openssl
+2025-09-17 10:23:31,490 - INFO - success CVE-2024-0727,details in cve_test/CVE-2024-0727.log

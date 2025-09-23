@@ -76,24 +76,78 @@ Detect o0 Binaries.
 [*] Detection Result:P 0.8074834068396097/0.8269321823883126 18/17,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2016-9586
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,_string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,_string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,_string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,_string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,_string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,_string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,_strlen_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,_strlen_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,_strlen_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,_strlen_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,_strlen_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,_strlen_check,1
+[*] Detection Result:Sig file not found,1
 [*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,dprintf_formatf,-1
-[*] /s; sim-cal:0.01106
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,dprintf_formatf,-1
-[*] /s; sim-cal:0.023735
 [*] Detection Result:V 0.7780182232922707/0.47350382808782154 1/8,-1
 [*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,dprintf_formatf,-1
-[*] /s; sim-cal:0.022977
 [*] Detection Result:V 0.7780182232922707/0.47350382808782154 1/8,-1
 [*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,dprintf_formatf,1
-[*] /s; sim-cal:0.02782
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,dprintf_formatf,1
-[*] /s; sim-cal:0.01265
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,dprintf_formatf,1
-[*] /s; sim-cal:0.011303
 [*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,string_check,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,string_check,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,test_float_formatting,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,test_float_formatting,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,test_float_formatting,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,test_float_formatting,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,test_float_formatting,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,test_float_formatting,1
+[*] Detection Result:Sig file not found,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2017-9502
 [*] Detection for /binaries/target/curl/curl-7.54.0-o0-curl,parseurlandfillconn,-1
@@ -171,23 +225,29 @@ Detect o0 Binaries.
 ------------------------------------------
 [*] Detecting CVE: CVE-2023-46219
 [*] Detection for /binaries/target/curl/curl-8.4.0-o0-curl,Curl_fopen,-1
-[*] /s; sim-cal:0.008399
 [*] Detection Result:V 0.8309210105894496/0.5986884995197285 4/6,-1
 [*] Detection for /binaries/target/curl/curl-8.2.1-o0-curl,Curl_fopen,-1
-[*] /s; sim-cal:0.009343
 [*] Detection Result:V 0.8062469103944198/0.5794817230200123 4/6,-1
 [*] Detection for /binaries/target/curl/curl-8.2.0-o0-curl,Curl_fopen,-1
-[*] /s; sim-cal:0.011126
 [*] Detection Result:V 0.8062469103944198/0.5794817230200123 4/6,-1
 [*] Detection for /binaries/target/curl/curl-8.5.0-o0-curl,Curl_fopen,1
-[*] /s; sim-cal:0.012759
 [*] Detection Result:V 0.44586510383974576/0.32085437385963567 8/10,1
 [*] Detection for /binaries/target/curl/curl-8.6.0-o0-curl,Curl_fopen,1
-[*] /s; sim-cal:0.010278
 [*] Detection Result:V 0.44586510383974576/0.32085437385963567 8/10,1
 [*] Detection for /binaries/target/curl/curl-8.7.1-o0-curl,Curl_fopen,1
-[*] /s; sim-cal:0.010622
 [*] Detection Result:V 0.44586510383974576/0.32085437385963567 8/10,1
+[*] Detection for /binaries/target/curl/curl-8.4.0-o0-curl,dirslash,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-8.2.1-o0-curl,dirslash,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-8.2.0-o0-curl,dirslash,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-8.5.0-o0-curl,dirslash,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-8.6.0-o0-curl,dirslash,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-8.7.1-o0-curl,dirslash,1
+[*] Detection Result:Sig file not found,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2016-8621
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,parsedate,-1
@@ -649,60 +709,54 @@ target function: Curl_connect_done not found
 [*] Detection Result:V 0.7484379546096344/0.7257958966415518 154/155,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2019-5435
-[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,seturl,-1
-[*] /s; sim-cal:0.026468
-[*] Detection Result:V 0.76748869273933/0.7315520888443108 9/9,-1
-[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,seturl,-1
-[*] /s; sim-cal:0.022769
-[*] Detection Result:V 0.7082658041600788/0.6988514169252718 9/9,-1
-[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,seturl,-1
-[*] /s; sim-cal:0.023784
-[*] Detection Result:V 0.6933340294206202/0.6843588120310913 16/16,-1
-[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,seturl,1
-[*] /s; sim-cal:0.022458
-[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
-[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,seturl,1
-[*] /s; sim-cal:0.028856
-[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
-[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,seturl,1
-[*] /s; sim-cal:0.02123
-[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
 [*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,Curl_setstropt,-1
-[*] /s; sim-cal:0.001309
 [*] Detection Result:V 0.9245014245014245/0.756125636815292 2/2,-1
 [*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,Curl_setstropt,-1
-[*] /s; sim-cal:0.001232
 [*] Detection Result:V 0.7735042735042735/0.636280577659888 2/2,-1
 [*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,Curl_setstropt,-1
-[*] /s; sim-cal:0.001289
 [*] Detection Result:V 0.7735042735042735/0.636280577659888 2/2,-1
 [*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,Curl_setstropt,1
-[*] /s; sim-cal:0.000665
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,Curl_setstropt,1
-[*] /s; sim-cal:0.000626
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,Curl_setstropt,1
-[*] /s; sim-cal:0.000628
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,curl_url_set,-1
-[*] /s; sim-cal:0.016143
 [*] Detection Result:V 0.6905562600633353/0.6271280596962467 20/21,-1
 [*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,curl_url_set,-1
-[*] /s; sim-cal:0.017502
 [*] Detection Result:V 0.6434362571861189/0.5867716202063591 20/21,-1
 [*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,curl_url_set,-1
-[*] /s; sim-cal:0.01596
 [*] Detection Result:V 0.6434362571861189/0.5849197683545071 20/21,-1
 [*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,curl_url_set,1
-[*] /s; sim-cal:0.018309
 [*] Detection Result:P 0.6569521352483186/0.7151553087793197 31/28,1
 [*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,curl_url_set,1
-[*] /s; sim-cal:0.019156
 [*] Detection Result:P 0.6569521352483186/0.7151553087793197 31/28,1
 [*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,curl_url_set,1
-[*] /s; sim-cal:0.019002
 [*] Detection Result:P 0.6569521352483186/0.7151553087793197 31/28,1
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,seturl,-1
+[*] Detection Result:V 0.76748869273933/0.7315520888443108 9/9,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,seturl,-1
+[*] Detection Result:V 0.7082658041600788/0.6988514169252718 9/9,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,seturl,-1
+[*] Detection Result:V 0.6933340294206202/0.6843588120310913 16/16,-1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,seturl,1
+[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,seturl,1
+[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,seturl,1
+[*] Detection Result:P 0.7389158186540006/0.7582588635929812 14/12,1
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,test,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,test,1
+[*] Detection Result:Sig file not found,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2018-1000007
 [*] Detection for /binaries/target/curl/curl-7.57.0-o0-curl,Curl_vsetopt,-1
@@ -851,96 +905,6 @@ target function: Curl_vsetopt not found
 [*] Detection Result:P 0.6755447941888619/0.9891575091575092 6/2,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2016-8625
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version,-1
-[*] /s; sim-cal:0.000928
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version,-1
-[*] /s; sim-cal:0.001858
-[*] Detection Result:V 0.9857746170016485/0.35552117107053277 1/2,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version,-1
-[*] /s; sim-cal:0.001848
-[*] Detection Result:V 0.9857746170016485/0.35552117107053277 1/2,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version,1
-[*] /s; sim-cal:0.001016
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version,1
-[*] /s; sim-cal:0.002703
-[*] Detection Result:P 0.41716762699817006/0.9878969951717949 4/1,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version,1
-[*] /s; sim-cal:0.002287
-[*] Detection Result:P 0.41716762699817006/0.9878969951717949 4/1,1
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,create_conn,-1
-[*] /s; sim-cal:0.186351
-[*] Detection Result:V 0.5050143947117521/0.4884394918659685 15/18,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,create_conn,-1
-[*] /s; sim-cal:0.203723
-[*] Detection Result:V 0.5050143947117521/0.4884394918659685 15/18,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,create_conn,-1
-[*] /s; sim-cal:0.187138
-[*] Detection Result:V 0.5047928957940883/0.4884394918659685 15/18,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,create_conn,1
-[*] /s; sim-cal:0.203153
-[*] Detection Result:P 0.48802443623598746/0.504482967608139 19/16,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,create_conn,1
-[*] /s; sim-cal:0.261516
-[*] Detection Result:P 0.4250914783423879/0.4365072705472499 58/55,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,create_conn,1
-[*] /s; sim-cal:0.298639
-[*] Detection Result:P 0.4250914783423879/0.4365072705472499 58/55,1
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version_info,-1
-[*] /s; sim-cal:0.000611
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version_info,-1
-[*] /s; sim-cal:0.000504
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version_info,-1
-[*] /s; sim-cal:0.000443
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version_info,1
-[*] /s; sim-cal:0.000501
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version_info,1
-[*] /s; sim-cal:0.000514
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version_info,1
-[*] /s; sim-cal:0.000562
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,fix_hostname,-1
-[*] /s; sim-cal:0.00066
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,fix_hostname,-1
-[*] /s; sim-cal:0.00064
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,fix_hostname,-1
-[*] /s; sim-cal:0.00061
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,fix_hostname,1
-[*] /s; sim-cal:0.001172
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,fix_hostname,1
-[*] /s; sim-cal:0.000839
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,fix_hostname,1
-[*] /s; sim-cal:0.000892
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,global_init,-1
-[*] /s; sim-cal:0.001151
-[*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,global_init,-1
-[*] /s; sim-cal:0.000776
-[*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,global_init,-1
-[*] /s; sim-cal:0.0008
-[*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,global_init,1
-[*] /s; sim-cal:0.001061
-[*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,global_init,1
-[*] /s; sim-cal:0.000776
-[*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,global_init,1
-[*] /s; sim-cal:0.000785
-[*] Detection Result:N VP no diff,1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_idn_strerror,-1
 [*] Detection Result:Sig file not found,-1
 [*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_idn_strerror,-1
@@ -953,6 +917,78 @@ target function: Curl_vsetopt not found
 [*] Detection Result:Sig file not found,1
 [*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_idn_strerror,1
 [*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,create_conn,-1
+[*] Detection Result:V 0.5050143947117521/0.4884394918659685 15/18,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,create_conn,-1
+[*] Detection Result:V 0.5050143947117521/0.4884394918659685 15/18,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,create_conn,-1
+[*] Detection Result:V 0.5047928957940883/0.4884394918659685 15/18,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,create_conn,1
+[*] Detection Result:P 0.48802443623598746/0.504482967608139 19/16,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,create_conn,1
+[*] Detection Result:P 0.4250914783423879/0.4365072705472499 58/55,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,create_conn,1
+[*] Detection Result:P 0.4250914783423879/0.4365072705472499 58/55,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version,-1
+[*] Detection Result:V 0.9857746170016485/0.35552117107053277 1/2,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version,-1
+[*] Detection Result:V 0.9857746170016485/0.35552117107053277 1/2,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version,1
+[*] Detection Result:P 0.41716762699817006/0.9878969951717949 4/1,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version,1
+[*] Detection Result:P 0.41716762699817006/0.9878969951717949 4/1,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version_info,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version_info,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version_info,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version_info,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version_info,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version_info,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,fix_hostname,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,fix_hostname,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,fix_hostname,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,fix_hostname,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,fix_hostname,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,fix_hostname,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,free_fixed_hostname,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,free_fixed_hostname,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,free_fixed_hostname,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,free_fixed_hostname,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,free_fixed_hostname,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,free_fixed_hostname,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,global_init,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,global_init,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,global_init,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,global_init,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,global_init,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,global_init,1
+[*] Detection Result:N VP no diff,1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,idna_init,-1
 [*] Detection Result:Sig file not found,-1
 [*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,idna_init,-1
@@ -979,77 +1015,65 @@ target function: Curl_vsetopt not found
 [*] Detection Result:Sig file not found,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2016-8623
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_clearall,-1
-[*] /s; sim-cal:0.000454
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_clearall,-1
-[*] /s; sim-cal:0.000655
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_clearall,-1
-[*] /s; sim-cal:0.00043
-[*] Detection Result:V,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_clearall,1
-[*] /s; sim-cal:0.000418
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_clearall,1
-[*] /s; sim-cal:0.000409
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_clearall,1
-[*] /s; sim-cal:0.000408
-[*] Detection Result:P,1
-[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_getlist,-1
-[*] /s; sim-cal:0.004703
-[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
-[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_getlist,-1
-[*] /s; sim-cal:0.004125
-[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
-[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_getlist,-1
-[*] /s; sim-cal:0.004767
-[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
-[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_getlist,1
-[*] /s; sim-cal:0.004291
-[*] Detection Result:P 0.585176104512489/0.8274933172975381 7/3,1
-[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_getlist,1
-[*] /s; sim-cal:0.005505
-[*] Detection Result:P 0.566072790672333/0.8083900034573821 7/3,1
-[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_getlist,1
-[*] /s; sim-cal:0.005427
-[*] Detection Result:P 0.566072790672333/0.8083900034573821 7/3,1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_cleanup,-1
-[*] /s; sim-cal:0.001245
 [*] Detection Result:V 0.9615384615384616/0.9423076923076923 1/1,-1
 [*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_cleanup,-1
-[*] /s; sim-cal:0.002167
 [*] Detection Result:V 0.9615384615384616/0.9423076923076923 1/1,-1
 [*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_cleanup,-1
-[*] /s; sim-cal:0.001058
 [*] Detection Result:V 0.9615384615384616/0.9423076923076923 1/1,-1
 [*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_cleanup,1
-[*] /s; sim-cal:0.00108
 [*] Detection Result:P 0.9423076923076923/0.96 1/1,1
 [*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_cleanup,1
-[*] /s; sim-cal:0.001473
 [*] Detection Result:P 0.9038461538461539/0.9199999999999999 1/1,1
 [*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_cleanup,1
-[*] /s; sim-cal:0.001085
 [*] Detection Result:P 0.9038461538461539/0.9199999999999999 1/1,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_clearall,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_clearall,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_clearall,-1
+[*] Detection Result:V,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_clearall,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_clearall,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_clearall,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_freelist,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_freelist,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_freelist,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V 0.9643182029146943/0.7091447755190445 4/8,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_getlist,1
+[*] Detection Result:P 0.585176104512489/0.8274933172975381 7/3,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_getlist,1
+[*] Detection Result:P 0.566072790672333/0.8083900034573821 7/3,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_getlist,1
+[*] Detection Result:P 0.566072790672333/0.8083900034573821 7/3,1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_http,-1
-[*] /s; sim-cal:0.041602
 [*] Detection Result:V 0.636904761904762/0.4682539682539682 18/19,-1
 [*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_http,-1
-[*] /s; sim-cal:0.034815
 [*] Detection Result:V 0.636904761904762/0.4682539682539682 18/19,-1
 [*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_http,-1
-[*] /s; sim-cal:0.036487
 [*] Detection Result:V 0.636904761904762/0.4682539682539682 27/28,-1
 [*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_http,1
-[*] /s; sim-cal:0.039372
 [*] Detection Result:P 0.4047619047619047/0.5793650793650794 21/20,1
 [*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_http,1
-[*] /s; sim-cal:0.024765
 [*] Detection Result:P 0.4047619047619047/0.5793650793650794 21/20,1
 [*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_http,1
-[*] /s; sim-cal:0.025285
 [*] Detection Result:P 0.4047619047619047/0.5793650793650794 21/20,1
 [*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,dup_cookie,-1
 [*] Detection Result:Sig file not found,-1

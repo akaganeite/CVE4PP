@@ -1,0 +1,91 @@
+============================================
+Patch Detection Log
+Time: 2025-09-18 10:42:33
+============================================
+2025-09-18 10:42:33,222 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:33,223 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.2-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:37,229 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:37,230 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:37,230 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.1-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:41,125 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:41,126 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:41,126 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.0-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:44,813 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:44,813 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:44,814 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.2.0-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:48,554 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:48,555 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:48,555 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.0-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:52,334 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:52,335 - INFO - detecting CVE-2016-10506 opj_pi_next_cprl
+2025-09-18 10:42:52,335 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10506 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.1-o0-openjpeg --vul_func_name opj_pi_next_cprl --project openjpeg
+2025-09-18 10:42:56,462 - ERROR - fail CVE-2016-10506 ,details1
+
+2025-09-18 10:42:56,463 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:42:56,464 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.2-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:00,609 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:00,610 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:43:00,611 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.1-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:05,055 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:05,056 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:43:05,057 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.0-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:09,230 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:09,231 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:43:09,232 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.2.0-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:13,550 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:13,551 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:43:13,552 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.0-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:17,909 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:17,910 - INFO - detecting CVE-2016-10504 opj_tcd_code_block_enc_allocate_data
+2025-09-18 10:43:17,911 - INFO - cmd: python main.py --detect --cve_id CVE-2016-10504 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.1-o0-openjpeg --vul_func_name opj_tcd_code_block_enc_allocate_data --project openjpeg
+2025-09-18 10:43:22,011 - ERROR - fail CVE-2016-10504 ,details1
+
+2025-09-18 10:43:22,012 - INFO - detecting CVE-2017-14152 opj_j2k_set_cinema_parameters
+2025-09-18 10:43:22,012 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14152 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.2.0-o0-openjpeg --vul_func_name opj_j2k_set_cinema_parameters --project openjpeg
+2025-09-18 10:43:26,057 - ERROR - fail CVE-2017-14152 ,details1
+
+2025-09-18 10:43:26,058 - INFO - detecting CVE-2017-14152 opj_j2k_set_cinema_parameters
+2025-09-18 10:43:26,059 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14152 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.0-o0-openjpeg --vul_func_name opj_j2k_set_cinema_parameters --project openjpeg
+2025-09-18 10:43:37,637 - INFO - success CVE-2017-14152,details in cve_test/CVE-2017-14152.log
+
+2025-09-18 10:43:37,638 - INFO - detecting CVE-2017-14152 opj_j2k_set_cinema_parameters
+2025-09-18 10:43:37,638 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14152 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.1-o0-openjpeg --vul_func_name opj_j2k_set_cinema_parameters --project openjpeg
+2025-09-18 10:43:49,662 - INFO - success CVE-2017-14152,details in cve_test/CVE-2017-14152.log
+
+2025-09-18 10:43:49,663 - INFO - detecting CVE-2017-14152 opj_j2k_set_cinema_parameters
+2025-09-18 10:43:49,663 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14152 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.4.0-o0-openjpeg --vul_func_name opj_j2k_set_cinema_parameters --project openjpeg
+2025-09-18 10:44:01,749 - INFO - success CVE-2017-14152,details in cve_test/CVE-2017-14152.log
+
+2025-09-18 10:44:01,750 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:01,751 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.2.0-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:05,616 - ERROR - fail CVE-2017-14164 ,details1
+
+2025-09-18 10:44:05,617 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:05,618 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.2-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:09,428 - ERROR - fail CVE-2017-14164 ,details1
+
+2025-09-18 10:44:09,429 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:09,429 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.1.1-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:13,692 - ERROR - fail CVE-2017-14164 ,details1
+
+2025-09-18 10:44:13,693 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:13,693 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.0-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:18,189 - ERROR - fail CVE-2017-14164 ,details1
+
+2025-09-18 10:44:18,190 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:18,190 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.3.1-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:22,036 - ERROR - fail CVE-2017-14164 ,details1
+
+2025-09-18 10:44:22,037 - INFO - detecting CVE-2017-14164 opj_j2k_write_all_tile_parts
+2025-09-18 10:44:22,038 - INFO - cmd: python main.py --detect --cve_id CVE-2017-14164 --target_bin /binaries/target_clang/openjpeg/openjpeg-2.4.0-o0-openjpeg --vul_func_name opj_j2k_write_all_tile_parts --project openjpeg
+2025-09-18 10:44:26,111 - ERROR - fail CVE-2017-14164 ,details1

@@ -150,33 +150,41 @@
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22038
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_m2m_destroy_context,-1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_m2m_destroy_context,1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,ff_v4l2_m2m_codec_end,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,ff_v4l2_m2m_codec_end,-1
 [*] Detection Result:P Patch
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,ff_v4l2_m2m_codec_end,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,ff_v4l2_m2m_codec_end,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_decode_init,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_decode_close,-1
+[*] target function: v4l2_decode_close not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_decode_close,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_decode_init,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_decode_init,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_decode_init,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_m2m_destroy_context,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_m2m_destroy_context,1
 [*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22039
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,avi_write_trailer,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,avi_deinit,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,avi_deinit,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,avi_write_trailer,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,avi_write_trailer,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,avi_write_trailer,1
 [*] Detection Result:V Vulnerability
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22041
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,request_frame,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,uninit,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/ffmpeg/ffmpeg-4.1.10-o0-ffmpeg,request_frame,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o0-ffmpeg,uninit,1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.2.7-o0-ffmpeg,request_frame,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o0-ffmpeg,uninit,1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,request_frame,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,uninit,1
 [*] Detection Result:V Vulnerability_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22042
@@ -188,13 +196,17 @@
 [*] Detection Result:V Vulnerability
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22043
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_end,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_deinit,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_deinit,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_end,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_end,1
-[*] Detection Result:P Patch
-[*] Detection for target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_init,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_end,1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_init,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_init,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_init,1
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-22044
@@ -226,38 +238,34 @@
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2020-24020
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_conv2d,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,calculate_operand_data_length,-1
+[*] target function: calculate_operand_data_length not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,calculate_operand_data_length,1
+[*] target function: calculate_operand_data_length not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_conv2d,-1
 [*] target function: dnn_execute_layer_conv2d not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_conv2d,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_conv2d,1
 [*] target function: dnn_execute_layer_conv2d not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_math_binary,-1
-[*] target function: dnn_execute_layer_math_binary not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_binary,1
-[*] target function: dnn_execute_layer_math_binary not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_math_unary,-1
-[*] target function: dnn_execute_layer_math_unary not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_unary,1
-[*] target function: dnn_execute_layer_math_unary not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,calculate_operand_dims_count,-1
-[*] target function: calculate_operand_dims_count not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,calculate_operand_dims_count,1
-[*] target function: calculate_operand_dims_count not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,set_input_output_native,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,set_input_output_native,1
-[*] target function: set_input_output_native not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_maximum,-1
-[*] target function: dnn_execute_layer_maximum not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_maximum,1
-[*] target function: dnn_execute_layer_maximum not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_pad,-1
-[*] target function: dnn_execute_layer_pad not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_pad,1
-[*] target function: dnn_execute_layer_pad not found
-[*] Detection for target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_depth2space,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_depth2space,-1
 [*] target function: dnn_execute_layer_depth2space not found
-[*] Detection for target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_depth2space,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_depth2space,1
 [*] target function: dnn_execute_layer_depth2space not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_math_binary,-1
+[*] target function: dnn_execute_layer_math_binary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_binary,1
+[*] target function: dnn_execute_layer_math_binary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_math_unary,-1
+[*] target function: dnn_execute_layer_math_unary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_unary,1
+[*] target function: dnn_execute_layer_math_unary not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_maximum,-1
+[*] target function: dnn_execute_layer_maximum not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_maximum,1
+[*] target function: dnn_execute_layer_maximum not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_pad,-1
+[*] target function: dnn_execute_layer_pad not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_pad,1
+[*] target function: dnn_execute_layer_pad not found
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2021-38291
 [*] Detection for target/ffmpeg/ffmpeg-4.3.2-o0-ffmpeg,av_get_audio_frame_duration2,-1

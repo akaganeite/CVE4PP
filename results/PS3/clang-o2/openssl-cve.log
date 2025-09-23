@@ -1,0 +1,263 @@
+TestJson(file='openssl-OpenSSL_0_9_8zc-o2-openssl', cve='CVE-2014-3572', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_0_9_8zd-o2-openssl', cve='CVE-2014-3572', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_0_9_8ze-o2-openssl', cve='CVE-2015-0205', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2015-0206 has no sigs, skip
+TestJson(file='openssl-OpenSSL_0_9_8ze-o2-openssl', cve='CVE-2015-0209', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_0_9_8zf-o2-openssl', cve='CVE-2015-0209', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2015-0288 openssl-OpenSSL_0_9_8ze-o2-openssl truth = vuln result = vuln
+CVE-2015-0288 openssl-OpenSSL_0_9_8zf-o2-openssl truth = patch result = patch
+CVE-2015-1791 openssl-OpenSSL_0_9_8zf-o2-openssl truth = vuln result = vuln
+TestJson(file='openssl-OpenSSL_0_9_8zf-o2-openssl', cve='CVE-2015-1788', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2d-o2-openssl', cve='CVE-2015-1788', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2015-1789 openssl-OpenSSL_0_9_8zf-o2-openssl truth = vuln result = patch
+CVE-2015-1789 openssl-OpenSSL_1_0_2d-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_0_9_8zf-o2-openssl', cve='CVE-2015-1790', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2d-o2-openssl', cve='CVE-2015-1790', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2015-3196 openssl-OpenSSL_1_0_2d-o2-openssl truth = patch result = patch
+CVE-2015-3196 openssl-OpenSSL_1_0_1p-o2-openssl truth = patch result = patch
+CVE-2015-3196 openssl-OpenSSL_1_0_2e-o2-openssl truth = patch result = patch
+CVE-2015-1793 openssl-OpenSSL_1_0_2d-o2-openssl truth = patch result = patch
+CVE-2015-1793 openssl-OpenSSL_1_0_1p-o2-openssl truth = patch result = patch
+CVE-2015-1793 openssl-OpenSSL_1_0_2e-o2-openssl truth = patch result = patch
+CVE-2015-3194 openssl-OpenSSL_1_0_1p-o2-openssl truth = vuln result = vuln
+CVE-2015-3194 openssl-OpenSSL_1_0_2d-o2-openssl truth = vuln result = vuln
+CVE-2015-3194 openssl-OpenSSL_1_0_1r-o2-openssl truth = patch result = patch
+CVE-2015-3194 openssl-OpenSSL_1_0_2f-o2-openssl truth = patch result = vuln
+TestJson(file='openssl-OpenSSL_1_0_2d-o2-openssl', cve='CVE-2015-3195', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1p-o2-openssl', cve='CVE-2015-3195', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1r-o2-openssl', cve='CVE-2015-3195', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2f-o2-openssl', cve='CVE-2015-3195', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2015-3197 openssl-OpenSSL_1_0_1q-o2-openssl truth = vuln result = vuln
+CVE-2015-3197 openssl-OpenSSL_1_0_2e-o2-openssl truth = vuln result = vuln
+CVE-2015-3197 openssl-OpenSSL_1_0_1p-o2-openssl truth = vuln result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_1r-o2-openssl truth = vuln result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_1q-o2-openssl truth = vuln result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_2g-o2-openssl truth = patch result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_1s-o2-openssl truth = patch result = vuln
+CVE-2016-0705 openssl-OpenSSL_1_0_2h-o2-openssl truth = patch result = vuln
+CVE-2016-0798 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-0798 openssl-OpenSSL_1_0_1r-o2-openssl truth = vuln result = vuln
+CVE-2016-0798 openssl-OpenSSL_1_0_1q-o2-openssl truth = vuln result = vuln
+TestJson(file='openssl-OpenSSL_1_0_2g-o2-openssl', cve='CVE-2016-0798', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1s-o2-openssl', cve='CVE-2016-0798', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2h-o2-openssl', cve='CVE-2016-0798', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2016-0799 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-0799 openssl-OpenSSL_1_0_1r-o2-openssl truth = vuln result = vuln
+CVE-2016-0799 openssl-OpenSSL_1_0_1q-o2-openssl truth = vuln result = vuln
+CVE-2016-0799 openssl-OpenSSL_1_0_2g-o2-openssl truth = patch result = patch
+CVE-2016-0799 openssl-OpenSSL_1_0_1s-o2-openssl truth = patch result = patch
+CVE-2016-0799 openssl-OpenSSL_1_0_2h-o2-openssl truth = patch result = patch
+CVE-2016-2842 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-2842 openssl-OpenSSL_1_0_1r-o2-openssl truth = vuln result = vuln
+CVE-2016-2842 openssl-OpenSSL_1_0_1q-o2-openssl truth = vuln result = vuln
+CVE-2016-2842 openssl-OpenSSL_1_0_2g-o2-openssl truth = patch result = patch
+CVE-2016-2842 openssl-OpenSSL_1_0_1s-o2-openssl truth = patch result = patch
+CVE-2016-2842 openssl-OpenSSL_1_0_2h-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_0_2f-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1r-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1q-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2g-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1s-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2h-o2-openssl', cve='CVE-2016-0797', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2016-0702 has no sigs, skip
+CVE-2016-0702 has no sigs, skip
+CVE-2016-0702 has no sigs, skip
+CVE-2016-0702 has no sigs, skip
+CVE-2016-0702 has no sigs, skip
+CVE-2016-0702 has no sigs, skip
+TestJson(file='openssl-OpenSSL_1_0_2g-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1s-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2f-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2h-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_1t-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2i-o2-libcrypto', cve='CVE-2016-2109', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2016-2105 openssl-OpenSSL_1_0_2g-o2-openssl truth = vuln result = vuln
+CVE-2016-2105 openssl-OpenSSL_1_0_1s-o2-openssl truth = vuln result = vuln
+CVE-2016-2105 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-2105 openssl-OpenSSL_1_0_2i-o2-openssl truth = patch result = patch
+CVE-2016-2105 openssl-OpenSSL_1_0_1u-o2-openssl truth = patch result = patch
+CVE-2016-2105 openssl-OpenSSL_1_0_2j-o2-openssl truth = patch result = patch
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2106 has no sigs, skip
+CVE-2016-2107 openssl-OpenSSL_1_0_2g-o2-openssl truth = vuln result = vuln
+CVE-2016-2107 openssl-OpenSSL_1_0_1s-o2-openssl truth = vuln result = vuln
+CVE-2016-2107 openssl-OpenSSL_1_0_2f-o2-openssl truth = vuln result = vuln
+CVE-2016-2107 openssl-OpenSSL_1_0_2i-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_0_1u-o2-openssl', cve='CVE-2016-2107', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2016-2107 openssl-OpenSSL_1_0_2j-o2-openssl truth = patch result = patch
+CVE-2016-2108 has no sigs, skip
+CVE-2016-2108 has no sigs, skip
+CVE-2016-2108 has no sigs, skip
+CVE-2016-2108 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2176 has no sigs, skip
+CVE-2016-2177 openssl-OpenSSL_1_0_2h-o2-openssl truth = vuln result = vuln
+CVE-2016-2177 openssl-OpenSSL_1_0_1t-o2-openssl truth = vuln result = vuln
+CVE-2016-2177 openssl-OpenSSL_1_0_2g-o2-openssl truth = vuln result = vuln
+CVE-2016-2177 openssl-OpenSSL_1_0_2i-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_0_1u-o2-openssl', cve='CVE-2016-2177', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2016-2177 openssl-OpenSSL_1_0_2j-o2-openssl truth = patch result = patch
+CVE-2016-6304 openssl-OpenSSL_1_0_2h-o2-openssl truth = vuln result = vuln
+CVE-2016-6304 openssl-OpenSSL_1_0_1t-o2-openssl truth = vuln result = vuln
+CVE-2016-6304 openssl-OpenSSL_1_0_1s-o2-openssl truth = vuln result = vuln
+CVE-2016-6304 openssl-OpenSSL_1_0_2i-o2-openssl truth = patch result = vuln
+CVE-2016-6304 openssl-OpenSSL_1_0_1u-o2-openssl truth = patch result = patch
+CVE-2016-6304 openssl-OpenSSL_1_0_2j-o2-openssl truth = patch result = vuln
+CVE-2016-6306 openssl-OpenSSL_1_0_2h-o2-openssl truth = vuln result = vuln
+CVE-2016-6306 openssl-OpenSSL_1_0_1t-o2-openssl truth = vuln result = vuln
+CVE-2016-6306 openssl-OpenSSL_1_0_1s-o2-openssl truth = vuln result = vuln
+CVE-2016-6306 openssl-OpenSSL_1_0_2i-o2-openssl truth = patch result = vuln
+CVE-2016-6306 openssl-OpenSSL_1_0_1u-o2-openssl truth = patch result = patch
+CVE-2016-6306 openssl-OpenSSL_1_0_2j-o2-openssl truth = patch result = vuln
+CVE-2016-7052 openssl-OpenSSL_1_0_2i-o2-openssl truth = vuln result = vuln
+CVE-2018-0737 openssl-OpenSSL_1_1_0h-o2-libcrypto truth = vuln result = vuln
+CVE-2018-0737 openssl-OpenSSL_1_0_2o-o2-libcrypto truth = vuln result = vuln
+CVE-2018-0737 openssl-OpenSSL_1_0_2n-o2-libcrypto truth = vuln result = vuln
+CVE-2018-0737 openssl-OpenSSL_1_0_2p-o2-libcrypto truth = patch result = vuln
+CVE-2018-0737 openssl-OpenSSL_1_1_0i-o2-libcrypto truth = patch result = patch
+CVE-2018-0737 openssl-OpenSSL_1_1_1-o2-libcrypto truth = patch result = vuln
+TestJson(file='openssl-OpenSSL_1_1_0h-o2-openssl', cve='CVE-2018-0732', commit='', ground_truth='vuln', project='openssl') is not valid
+CVE-2018-0732 openssl-OpenSSL_1_0_2o-o2-openssl truth = vuln result = vuln
+CVE-2018-0732 openssl-OpenSSL_1_0_2n-o2-openssl truth = vuln result = vuln
+CVE-2018-0732 openssl-OpenSSL_1_0_2p-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_0i-o2-openssl', cve='CVE-2018-0732', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1-o2-openssl', cve='CVE-2018-0732', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2q-o2-openssl', cve='CVE-2019-1559', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2p-o2-openssl', cve='CVE-2019-1559', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2o-o2-openssl', cve='CVE-2019-1559', commit='', ground_truth='vuln', project='openssl') is not valid
+CVE-2019-1559 openssl-OpenSSL_1_0_2s-o2-openssl truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_0k-o2-openssl', cve='CVE-2019-1559', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1c-o2-openssl', cve='CVE-2019-1559', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2019-1543 openssl-OpenSSL_1_1_1b-o2-libcrypto truth = vuln result = vuln
+CVE-2019-1543 openssl-OpenSSL_1_1_0j-o2-libcrypto truth = vuln result = vuln
+CVE-2019-1543 openssl-OpenSSL_1_1_1a-o2-libcrypto truth = vuln result = vuln
+TestJson(file='openssl-OpenSSL_1_0_2s-o2-libcrypto', cve='CVE-2019-1543', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_0k-o2-libcrypto', cve='CVE-2019-1543', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1c-o2-libcrypto', cve='CVE-2019-1543', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_0k-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1c-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2s-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_0_2u-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1e-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1f-o2-libcrypto', cve='CVE-2019-1563', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2020-1967 openssl-OpenSSL_1_1_1f-o2-libssl truth = vuln result = vuln
+CVE-2020-1967 openssl-OpenSSL_1_1_1e-o2-libssl truth = vuln result = vuln
+CVE-2020-1967 openssl-OpenSSL_1_1_1d-o2-libssl truth = vuln result = vuln
+CVE-2020-1967 openssl-openssl-3.0.0-alpha2-o2-libssl truth = patch result = vuln
+CVE-2020-1967 openssl-openssl-3.0.0-alpha3-o2-libssl truth = patch result = vuln
+CVE-2020-1967 openssl-openssl-3.0.0-alpha4-o2-libssl truth = patch result = vuln
+CVE-2021-23840 openssl-OpenSSL_1_1_1i-o2-libcrypto truth = vuln result = vuln
+CVE-2021-23840 openssl-OpenSSL_1_1_1h-o2-libcrypto truth = vuln result = vuln
+CVE-2021-23840 openssl-OpenSSL_1_1_1g-o2-libcrypto truth = vuln result = vuln
+CVE-2021-23840 openssl-openssl-3.0.0-alpha12-o2-libcrypto truth = patch result = patch
+CVE-2021-23840 openssl-openssl-3.0.0-alpha13-o2-libcrypto truth = patch result = patch
+CVE-2021-23840 openssl-OpenSSL_1_1_1k-o2-libcrypto truth = patch result = patch
+CVE-2021-4044 openssl-openssl-3.0.0-o2-libssl truth = vuln result = vuln
+CVE-2021-4044 openssl-OpenSSL_1_0_1u-o2-libssl truth = vuln result = vuln
+CVE-2021-4044 openssl-OpenSSL_1_0_1t-o2-libssl truth = vuln result = vuln
+CVE-2021-4044 openssl-OpenSSL_1_1_1n-o2-libssl truth = patch result = vuln
+TestJson(file='openssl-openssl-3.0.2-o2-libssl', cve='CVE-2021-4044', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.3-o2-libssl', cve='CVE-2021-4044', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.2-o2-libcrypto', cve='CVE-2022-1473', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.1-o2-libcrypto', cve='CVE-2022-1473', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.0-o2-libcrypto', cve='CVE-2022-1473', commit='', ground_truth='vuln', project='openssl') is not valid
+CVE-2022-1473 openssl-openssl-3.0.3-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1o-o2-libcrypto', cve='CVE-2022-1473', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2022-1473 openssl-openssl-3.0.4-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-openssl-3.0.2-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.1-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.0-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.4-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1p-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.5-o2-libcrypto', cve='CVE-2022-1343', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.4-o2-libcrypto', cve='CVE-2022-2274', commit='', ground_truth='vuln', project='openssl') is not valid
+CVE-2022-2274 openssl-openssl-3.0.5-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1q-o2-libcrypto', cve='CVE-2022-2274', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-OpenSSL_1_1_1r-o2-libcrypto', cve='CVE-2022-2274', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2022-3358 openssl-openssl-3.0.5-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3358 openssl-openssl-3.0.4-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3358 openssl-openssl-3.0.3-o2-libcrypto truth = vuln result = vuln
+TestJson(file='openssl-OpenSSL_1_1_1r-o2-libcrypto', cve='CVE-2022-3358', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2022-3358 openssl-openssl-3.0.6-o2-libcrypto truth = patch result = patch
+CVE-2022-3358 openssl-openssl-3.0.7-o2-libcrypto truth = patch result = patch
+CVE-2022-3602 openssl-openssl-3.0.6-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3602 openssl-openssl-3.0.5-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3602 openssl-openssl-3.0.4-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3602 openssl-openssl-3.1.0-alpha1-o2-libcrypto truth = patch result = patch
+CVE-2022-3602 openssl-openssl-3.1.0-beta1-o2-libcrypto truth = patch result = patch
+CVE-2022-3602 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-openssl-3.0.6-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.5-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.4-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.1.0-alpha1-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.1.0-beta1-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='patch', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.8-o2-libcrypto', cve='CVE-2022-3786', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2022-3996 openssl-openssl-3.0.7-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3996 openssl-openssl-3.0.6-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3996 openssl-openssl-3.0.5-o2-libcrypto truth = vuln result = vuln
+CVE-2022-3996 openssl-openssl-3.1.0-beta1-o2-libcrypto truth = patch result = patch
+CVE-2022-3996 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1t-o2-libcrypto', cve='CVE-2022-3996', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2022-4203 openssl-openssl-3.0.7-o2-libcrypto truth = vuln result = patch
+CVE-2022-4203 openssl-openssl-3.0.6-o2-libcrypto truth = vuln result = patch
+CVE-2022-4203 openssl-openssl-3.0.5-o2-libcrypto truth = vuln result = patch
+CVE-2022-4203 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+CVE-2022-4203 openssl-OpenSSL_1_1_1t-o2-libcrypto truth = patch result = patch
+CVE-2022-4203 openssl-openssl-3.1.0-o2-libcrypto truth = patch result = patch
+CVE-2023-0215 openssl-OpenSSL_1_1_1s-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0215 openssl-openssl-3.0.7-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0215 openssl-OpenSSL_1_1_1r-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0215 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+CVE-2023-0215 openssl-OpenSSL_1_1_1t-o2-libcrypto truth = patch result = vuln
+CVE-2023-0215 openssl-openssl-3.1.0-o2-libcrypto truth = patch result = vuln
+TestJson(file='openssl-openssl-3.0.7-o2-libcrypto', cve='CVE-2023-0216', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.6-o2-libcrypto', cve='CVE-2023-0216', commit='', ground_truth='vuln', project='openssl') is not valid
+TestJson(file='openssl-openssl-3.0.5-o2-libcrypto', cve='CVE-2023-0216', commit='', ground_truth='vuln', project='openssl') is not valid
+CVE-2023-0216 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1t-o2-libcrypto', cve='CVE-2023-0216', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2023-0216 openssl-openssl-3.1.0-o2-libcrypto truth = patch result = patch
+CVE-2023-0401 openssl-openssl-3.0.7-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0401 openssl-openssl-3.0.6-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0401 openssl-openssl-3.0.5-o2-libcrypto truth = vuln result = vuln
+CVE-2023-0401 openssl-openssl-3.0.8-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1t-o2-libcrypto', cve='CVE-2023-0401', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2023-0401 openssl-openssl-3.1.0-o2-libcrypto truth = patch result = patch
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2650 has no sigs, skip
+CVE-2023-2975 openssl-openssl-3.1.1-o2-libcrypto truth = vuln result = patch
+CVE-2023-2975 openssl-openssl-3.0.9-o2-libcrypto truth = vuln result = patch
+CVE-2023-2975 openssl-openssl-3.1.0-o2-libcrypto truth = vuln result = patch
+CVE-2023-2975 openssl-openssl-3.0.10-o2-libcrypto truth = patch result = patch
+TestJson(file='openssl-OpenSSL_1_1_1v-o2-libcrypto', cve='CVE-2023-2975', commit='', ground_truth='patch', project='openssl') is not valid
+CVE-2023-2975 openssl-openssl-3.1.2-o2-libcrypto truth = patch result = patch
+CVE-2023-5363 openssl-openssl-3.1.3-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5363 openssl-openssl-3.0.11-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5363 openssl-openssl-3.0.10-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5363 openssl-openssl-3.2.0-beta1-o2-libcrypto truth = patch result = vuln
+CVE-2023-5363 openssl-openssl-3.2.0-o2-libcrypto truth = patch result = vuln
+CVE-2023-5363 openssl-openssl-3.0.13-o2-libcrypto truth = patch result = vuln
+CVE-2023-5678 openssl-openssl-3.0.12-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5678 openssl-openssl-3.1.4-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5678 openssl-openssl-3.1.3-o2-libcrypto truth = vuln result = vuln
+CVE-2023-5678 openssl-openssl-3.2.0-o2-libcrypto truth = patch result = patch
+CVE-2023-5678 openssl-openssl-3.1.5-o2-libcrypto truth = patch result = patch
+CVE-2023-5678 openssl-openssl-3.2.1-o2-libcrypto truth = patch result = patch
+CVE-2024-0727 openssl-openssl-3.2.0-o2-libcrypto truth = vuln result = vuln
+CVE-2024-0727 openssl-openssl-3.0.12-o2-libcrypto truth = vuln result = vuln
+CVE-2024-0727 openssl-openssl-3.1.4-o2-libcrypto truth = vuln result = vuln
+CVE-2024-0727 openssl-openssl-3.1.5-o2-libcrypto truth = patch result = patch
+CVE-2024-0727 openssl-openssl-3.2.1-o2-libcrypto truth = patch result = patch
+CVE-2024-0727 openssl-openssl-3.0.13-o2-libcrypto truth = patch result = patch

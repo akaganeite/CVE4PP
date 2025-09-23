@@ -315,7 +315,16 @@ def aggregate_all_projects_accuracy(config_dir):
             total_fp_all += fp
             total_fn_all += fn
             
+            # 为当前项目计算 Precision, Recall, F1
+            precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+            recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+            f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
             print(f'{fname}:')
+            print(f'  TP: {tp}, TN: {tn}, FP: {fp}, FN: {fn}')
+            print(f'  精确率 (Precision): {precision:.4f}')
+            print(f'  召回率 (Recall): {recall:.4f}')
+            print(f'  F1-Score: {f1:.4f}')
             print(f'  succeed/targets = {succeed}/{targets} = {acc1:.4f}')
             print(f'  succeed/(targets-func_not_found) = {succeed}/({targets}-{func_not_found}) = {acc2:.4f}')
             print(f'  succeed/valid_targets = {succeed}/{valid_targets} = {acc3:.4f} (只考虑TP/TN/FP/FN)')

@@ -11,7 +11,7 @@ def main():
     output_file = sys.argv[2]
     # 打开或创建输出文件
 
-    cve_file = f"./{project_name}/valid"
+    cve_file = f"../Diff/{project_name}/valid2"
     
     # 读取testset.json
     try:

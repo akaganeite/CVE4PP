@@ -1,0 +1,291 @@
+============================================
+Patch Detection Log
+Time: 2025-09-17 10:02:13
+============================================
+2025-09-17 10:02:13,067 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:02:13,067 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.12.2-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:02:26,324 - INFO - success CVE-2016-6153,details in cve_test/CVE-2016-6153.log
+
+2025-09-17 10:02:26,325 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:02:26,325 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.12.1-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:02:37,251 - INFO - success CVE-2016-6153,details in cve_test/CVE-2016-6153.log
+
+2025-09-17 10:02:37,252 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:02:37,252 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.9.3-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:02:41,184 - ERROR - fail CVE-2016-6153 ,details1
+
+2025-09-17 10:02:41,185 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:02:41,186 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.13.0-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:02:53,786 - INFO - success CVE-2016-6153,details in cve_test/CVE-2016-6153.log
+
+2025-09-17 10:02:53,787 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:02:53,787 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.14.1-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:03:05,292 - INFO - success CVE-2016-6153,details in cve_test/CVE-2016-6153.log
+
+2025-09-17 10:03:05,293 - INFO - detecting CVE-2016-6153 unixGetTempname
+2025-09-17 10:03:05,294 - INFO - cmd: python main.py --detect --cve_id CVE-2016-6153 --target_bin /binaries/target_clang/sqlite/sqlite-3.14.2-o0-sqlite3 --vul_func_name unixGetTempname --project sqlite
+2025-09-17 10:03:18,739 - INFO - success CVE-2016-6153,details in cve_test/CVE-2016-6153.log
+
+2025-09-17 10:03:18,740 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:18,741 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.2-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:03:26,294 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:03:26,295 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:26,296 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.1-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:03:34,521 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:03:34,522 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:34,523 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.0-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:03:42,522 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:03:42,523 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:42,524 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.3-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:03:50,232 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:03:50,233 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:50,234 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.26.0-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:03:58,654 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:03:58,655 - INFO - detecting CVE-2018-20346 fts3SegReaderNext
+2025-09-17 10:03:58,655 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.27.0-o0-sqlite3 --vul_func_name fts3SegReaderNext --project sqlite
+2025-09-17 10:04:06,068 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:06,070 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:06,070 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.2-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:13,060 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:13,061 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:13,062 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.1-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:19,808 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:19,809 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:19,810 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.0-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:25,674 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:25,676 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:25,676 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.25.3-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:31,998 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:32,000 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:32,000 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.26.0-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:38,453 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:38,454 - INFO - detecting CVE-2018-20346 fts3ScanInteriorNode
+2025-09-17 10:04:38,454 - INFO - cmd: python main.py --detect --cve_id CVE-2018-20346 --target_bin /binaries/target_clang/sqlite/sqlite-3.27.0-o0-sqlite3 --vul_func_name fts3ScanInteriorNode --project sqlite
+2025-09-17 10:04:45,230 - INFO - success CVE-2018-20346,details in cve_test/CVE-2018-20346.log
+
+2025-09-17 10:04:45,232 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:04:45,232 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:04:54,099 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:04:54,100 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:04:54,101 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:05:02,989 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:02,990 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:05:02,990 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:05:12,009 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:12,010 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:05:12,011 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:05:19,529 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:19,530 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:05:19,531 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:05:28,660 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:28,661 - INFO - detecting CVE-2019-19645 renameTableFunc
+2025-09-17 10:05:28,661 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name renameTableFunc --project sqlite
+2025-09-17 10:05:37,918 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:37,919 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:05:37,920 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:05:44,840 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:44,842 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:05:44,842 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:05:53,366 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:05:53,367 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:05:53,368 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:06:01,766 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:01,767 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:06:01,767 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:06:10,954 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:10,955 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:06:10,956 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:06:19,185 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:19,186 - INFO - detecting CVE-2019-19645 renameUnmapSelectCb
+2025-09-17 10:06:19,186 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name renameUnmapSelectCb --project sqlite
+2025-09-17 10:06:28,026 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:28,027 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:06:28,028 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:06:34,117 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:34,117 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:06:34,118 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:06:40,612 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:40,613 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:06:40,614 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:06:47,429 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:47,430 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:06:47,431 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:06:55,077 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:06:55,078 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:06:55,078 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:07:02,295 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:02,296 - INFO - detecting CVE-2019-19645 renameColumnSelectCb
+2025-09-17 10:07:02,297 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name renameColumnSelectCb --project sqlite
+2025-09-17 10:07:09,414 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:09,415 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:09,416 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:07:18,270 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:18,271 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:18,272 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:07:26,491 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:26,492 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:26,493 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:07:35,154 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:35,155 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:35,155 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:07:44,082 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:44,083 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:44,083 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:07:52,898 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:07:52,899 - INFO - detecting CVE-2019-19645 renameTableSelectCb
+2025-09-17 10:07:52,899 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19645 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name renameTableSelectCb --project sqlite
+2025-09-17 10:08:01,485 - INFO - success CVE-2019-19645,details in cve_test/CVE-2019-19645.log
+
+2025-09-17 10:08:01,486 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:01,487 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:08,914 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:08,915 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:08,915 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:15,500 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:15,501 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:15,501 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:22,232 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:22,233 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:22,234 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:29,399 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:29,400 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:29,400 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:36,595 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:36,596 - INFO - detecting CVE-2019-19646 sqlite3CreateColumnExpr
+2025-09-17 10:08:36,596 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19646 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name sqlite3CreateColumnExpr --project sqlite
+2025-09-17 10:08:43,705 - INFO - success CVE-2019-19646,details in cve_test/CVE-2019-19646.log
+
+2025-09-17 10:08:43,706 - INFO - detecting CVE-2019-19924 codeCompare
+2025-09-17 10:08:43,707 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name codeCompare --project sqlite
+2025-09-17 10:08:48,577 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:08:48,578 - INFO - detecting CVE-2019-19924 codeCompare
+2025-09-17 10:08:48,578 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name codeCompare --project sqlite
+2025-09-17 10:08:55,080 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:08:55,081 - INFO - detecting CVE-2019-19924 codeCompare
+2025-09-17 10:08:55,081 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name codeCompare --project sqlite
+2025-09-17 10:09:02,343 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:02,344 - INFO - detecting CVE-2019-19924 codeCompare
+2025-09-17 10:09:02,344 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name codeCompare --project sqlite
+2025-09-17 10:09:08,921 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:08,922 - INFO - detecting CVE-2019-19924 sqlite3WindowRewrite
+2025-09-17 10:09:08,922 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name sqlite3WindowRewrite --project sqlite
+2025-09-17 10:09:15,410 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:15,411 - INFO - detecting CVE-2019-19924 sqlite3WindowRewrite
+2025-09-17 10:09:15,412 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name sqlite3WindowRewrite --project sqlite
+2025-09-17 10:09:22,367 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:22,367 - INFO - detecting CVE-2019-19924 sqlite3WindowRewrite
+2025-09-17 10:09:22,368 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name sqlite3WindowRewrite --project sqlite
+2025-09-17 10:09:28,758 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:28,759 - INFO - detecting CVE-2019-19924 sqlite3WindowRewrite
+2025-09-17 10:09:28,759 - INFO - cmd: python main.py --detect --cve_id CVE-2019-19924 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name sqlite3WindowRewrite --project sqlite
+2025-09-17 10:09:35,723 - INFO - success CVE-2019-19924,details in cve_test/CVE-2019-19924.log
+
+2025-09-17 10:09:35,724 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:09:35,725 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.27.2-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:09:46,247 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:09:46,248 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:09:46,248 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.27.1-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:09:57,093 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:09:57,094 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:09:57,095 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.27.0-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:10:08,133 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:10:08,134 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:10:08,134 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.28.0-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:10:15,801 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:10:15,802 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:10:15,802 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.29.0-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:10:22,982 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:10:22,983 - INFO - detecting CVE-2019-8457 rtreenode
+2025-09-17 10:10:22,983 - INFO - cmd: python main.py --detect --cve_id CVE-2019-8457 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.0-o0-sqlite3 --vul_func_name rtreenode --project sqlite
+2025-09-17 10:10:29,828 - INFO - success CVE-2019-8457,details in cve_test/CVE-2019-8457.log
+
+2025-09-17 10:10:29,829 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:10:29,829 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.1-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:10:39,707 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:10:39,709 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:10:39,709 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.31.0-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:10:49,955 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:10:49,956 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:10:49,956 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.30.1-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:11:01,052 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:11:01,053 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:11:01,053 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.0-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:11:10,059 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:11:10,060 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:11:10,061 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.1-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:11:19,183 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:11:19,184 - INFO - detecting CVE-2020-13632 fts3ExprLHits
+2025-09-17 10:11:19,185 - INFO - cmd: python main.py --detect --cve_id CVE-2020-13632 --target_bin /binaries/target_clang/sqlite/sqlite-3.32.2-o0-sqlite3 --vul_func_name fts3ExprLHits --project sqlite
+2025-09-17 10:11:28,612 - INFO - success CVE-2020-13632,details in cve_test/CVE-2020-13632.log
+
+2025-09-17 10:11:28,613 - INFO - detecting CVE-2021-36690 idxGetTableInfo
+2025-09-17 10:11:28,613 - INFO - cmd: python main.py --detect --cve_id CVE-2021-36690 --target_bin /binaries/target_clang/sqlite/sqlite-3.36.0-o0-sqlite3 --vul_func_name idxGetTableInfo --project sqlite
+2025-09-17 10:11:38,665 - INFO - success CVE-2021-36690,details in cve_test/CVE-2021-36690.log
+
+2025-09-17 10:11:38,666 - INFO - detecting CVE-2021-36690 idxGetTableInfo
+2025-09-17 10:11:38,666 - INFO - cmd: python main.py --detect --cve_id CVE-2021-36690 --target_bin /binaries/target_clang/sqlite/sqlite-3.37.0-o0-sqlite3 --vul_func_name idxGetTableInfo --project sqlite
+2025-09-17 10:11:47,835 - INFO - success CVE-2021-36690,details in cve_test/CVE-2021-36690.log
+
+2025-09-17 10:11:47,836 - INFO - detecting CVE-2021-36690 idxGetTableInfo
+2025-09-17 10:11:47,836 - INFO - cmd: python main.py --detect --cve_id CVE-2021-36690 --target_bin /binaries/target_clang/sqlite/sqlite-3.37.1-o0-sqlite3 --vul_func_name idxGetTableInfo --project sqlite
+2025-09-17 10:11:56,798 - INFO - success CVE-2021-36690,details in cve_test/CVE-2021-36690.log
+
+2025-09-17 10:11:56,799 - INFO - detecting CVE-2021-36690 idxGetTableInfo
+2025-09-17 10:11:56,799 - INFO - cmd: python main.py --detect --cve_id CVE-2021-36690 --target_bin /binaries/target_clang/sqlite/sqlite-3.37.2-o0-sqlite3 --vul_func_name idxGetTableInfo --project sqlite
+2025-09-17 10:12:06,200 - INFO - success CVE-2021-36690,details in cve_test/CVE-2021-36690.log

@@ -281,8 +281,7 @@ def calc_accuracy(csv_path):
     precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
     recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
     f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-    
-    return accuracy, precision, recall, f1_score, total_tp, total_tn, total_fp, total_fn
+    return accuracy, precision, recall, f1_score, total_tp, total_tn, total_fp, total_fn, total_targets-total_func_not_found
 
 def main():
     parser = argparse.ArgumentParser(description='解析BinXray检测结果')
@@ -336,11 +335,13 @@ def main():
     total_tn_all = 0
     total_fp_all = 0
     total_fn_all = 0
+    total_t_all = 0
+
 
     opt_dir = f'{args.compiler}-{args.optimization}'
     for fname in os.listdir(opt_dir):
         if fname.endswith('_result.csv'):
-            acc, precision, recall, f1, tp, tn, fp, fn = calc_accuracy(os.path.join(opt_dir, fname))
+            acc, precision, recall, f1, tp, tn, fp, fn,t = calc_accuracy(os.path.join(opt_dir, fname))
             print(f'{fname}:')
             print(f'  TP={tp}, TN={tn}, FP={fp}, FN={fn}')
             print(f'  Accuracy  (TP+TN)/(TP+TN+FP+FN) = {tp+tn}/({tp+tn+fp+fn}) = {acc:.4f}')
@@ -353,6 +354,7 @@ def main():
             total_tn_all += tn
             total_fp_all += fp
             total_fn_all += fn
+            total_t_all += t
             all_projects_count += 1
     
     if all_projects_count > 0:
@@ -371,6 +373,7 @@ def main():
         print(f'  Precision = {total_tp_all}/({total_tp_all+total_fp_all}) = {macro_precision:.4f}')
         print(f'  Recall    = {total_tp_all}/({total_tp_all+total_fn_all}) = {macro_recall:.4f}')
         print(f'  F1-Score  = {macro_f1:.4f}')
+        print(f" effectiveness: {total_tp_all+total_tn_all}/{total_t_all} = {(total_tp_all+total_tn_all)/total_t_all:.4f}")
 
 if __name__ == "__main__":
             

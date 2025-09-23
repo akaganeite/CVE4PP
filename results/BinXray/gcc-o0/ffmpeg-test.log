@@ -224,45 +224,41 @@ target function: mov_write_video_tag not found
 [*] Detection Result:NA too much diff,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22038
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_m2m_destroy_context,-1
-[*] /s; sim-cal:0.000908
-[*] Detection Result:V 0.8571428571428571/0.75 1/1,-1
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_m2m_destroy_context,1
-[*] /s; sim-cal:0.000867
-[*] Detection Result:P 0.7777777777777778/0.8888888888888888 1/1,1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,ff_v4l2_m2m_codec_end,-1
-[*] /s; sim-cal:0.001256
 [*] Detection Result:C can't tell,-1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,ff_v4l2_m2m_codec_end,1
-[*] /s; sim-cal:0.000677
+[*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_decode_close,-1
+target function: v4l2_decode_close not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_decode_close,1
 [*] Detection Result:P,1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_decode_init,-1
-[*] /s; sim-cal:0.002105
 [*] Detection Result:V 0.5192307692307693/0.4230769230769231 6/6,-1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_decode_init,1
-[*] /s; sim-cal:0.000974
 [*] Detection Result:P,1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,v4l2_m2m_destroy_context,-1
+[*] Detection Result:V 0.8571428571428571/0.75 1/1,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,v4l2_m2m_destroy_context,1
+[*] Detection Result:P 0.7777777777777778/0.8888888888888888 1/1,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22039
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,avi_deinit,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,avi_deinit,1
+[*] Detection Result:Sig file not found,1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,avi_write_trailer,-1
-[*] /s; sim-cal:0.001635
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,avi_write_trailer,1
-[*] /s; sim-cal:0.007612
 [*] Detection Result:C can't tell,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22041
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,request_frame,-1
-[*] /s; sim-cal:0.001044
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,uninit,-1
 [*] Detection Result:N VP no diff,-1
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o0-ffmpeg,request_frame,1
-[*] /s; sim-cal:0.001506
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.1.10-o0-ffmpeg,uninit,1
 [*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o0-ffmpeg,request_frame,1
-[*] /s; sim-cal:0.001002
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.7-o0-ffmpeg,uninit,1
 [*] Detection Result:N VP no diff,1
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,request_frame,1
-[*] /s; sim-cal:0.001515
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,uninit,1
 [*] Detection Result:N VP no diff,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22042
@@ -277,18 +273,18 @@ target function: mov_write_video_tag not found
 [*] Detection Result:V 0.3763440860215054/0.16666666666666666 13/12,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22043
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_deinit,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_deinit,1
+[*] Detection Result:Sig file not found,1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_end,-1
-[*] /s; sim-cal:0.004182
 [*] Detection Result:V,-1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_end,1
-[*] /s; sim-cal:0.00215
-[*] Detection Result:NA too much diff,1
+[*] Detection Result:C can't tell,1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,mpeg_mux_init,-1
-[*] /s; sim-cal:0.012766
 [*] Detection Result:V 0.9842180774748923/0.479530005458798 4/13,-1
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3-o0-ffmpeg,mpeg_mux_init,1
-[*] /s; sim-cal:0.009286
-[*] Detection Result:NA too much diff,1
+[*] Detection Result:P 0.029385666235421676/0.030024213505518264 118/118,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-22044
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2-o0-ffmpeg,nut_write_trailer,-1
@@ -331,10 +327,18 @@ target function: mov_write_video_tag not found
 [*] Detection Result:C can't tell,1
 ------------------------------------------
 [*] Detecting CVE: CVE-2020-24020
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,calculate_operand_data_length,-1
+target function: calculate_operand_data_length not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,calculate_operand_data_length,1
+target function: calculate_operand_data_length not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_conv2d,-1
 target function: dnn_execute_layer_conv2d not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_conv2d,1
 target function: dnn_execute_layer_conv2d not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_depth2space,-1
+target function: dnn_execute_layer_depth2space not found
+[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_depth2space,1
+target function: dnn_execute_layer_depth2space not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_math_binary,-1
 target function: dnn_execute_layer_math_binary not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_binary,1
@@ -343,15 +347,6 @@ target function: dnn_execute_layer_math_binary not found
 target function: dnn_execute_layer_math_unary not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_math_unary,1
 target function: dnn_execute_layer_math_unary not found
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,calculate_operand_dims_count,-1
-target function: calculate_operand_dims_count not found
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,calculate_operand_dims_count,1
-target function: calculate_operand_dims_count not found
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,set_input_output_native,-1
-[*] /s; sim-cal:0.01179
-[*] Detection Result:C can't tell,-1
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,set_input_output_native,1
-target function: set_input_output_native not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_maximum,-1
 target function: dnn_execute_layer_maximum not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_maximum,1
@@ -360,10 +355,6 @@ target function: dnn_execute_layer_maximum not found
 target function: dnn_execute_layer_pad not found
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_pad,1
 target function: dnn_execute_layer_pad not found
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.2.3-o0-ffmpeg,dnn_execute_layer_depth2space,-1
-target function: dnn_execute_layer_depth2space not found
-[*] Detection for /binaries/target/ffmpeg/ffmpeg-4.4-o0-ffmpeg,dnn_execute_layer_depth2space,1
-target function: dnn_execute_layer_depth2space not found
 ------------------------------------------
 [*] Detecting CVE: CVE-2021-38291
 [*] Detection for /binaries/target/ffmpeg/ffmpeg-4.3.2-o0-ffmpeg,av_get_audio_frame_duration2,-1

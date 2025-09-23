@@ -259,7 +259,7 @@ def print_summary(results):
 
 def analyze_cve_pattern_category_count(pattern_data, works, projects):
     """
-    统计CVE对应的聚合pattern类别数量分布，并输出各相关工作在该分类下的accuracy
+    统计CVE对应的细分pattern数量分布，并输出各相关工作在该分类下的accuracy
     """
     # 1. 先加载所有项目的所有结果，方便查询
     all_works_results = {}
@@ -270,37 +270,27 @@ def analyze_cve_pattern_category_count(pattern_data, works, projects):
             all_project_results.update(project_results)
         all_works_results[work] = all_project_results
 
-    # 2. 定义聚合类别
-    aggregate_categories = {
-        "Input_Sanitization": [1, 2],
-        "Data_Structure": [3, 4, 5],
-        "Function_Changes": [6, 7, 8, 9]
-    }
-
-    # 3. 将CVE按聚合pattern类别数量分类
+    # 2. 将CVE按细分pattern的数量分类
     count_map = {1: [], 2: [], 3: []}
     for cve, patterns in pattern_data.items():
-        involved_agg_categories = set()
-        for p in patterns:
-            if p in aggregate_categories["Input_Sanitization"]:
-                involved_agg_categories.add("Input_Sanitization")
-            elif p in aggregate_categories["Data_Structure"]:
-                involved_agg_categories.add("Data_Structure")
-            elif p in aggregate_categories["Function_Changes"]:
-                involved_agg_categories.add("Function_Changes")
+        # 使用 set 来获取唯一的 pattern 数量
+        num_unique_patterns = len(set(patterns))
         
-        n = len(involved_agg_categories)
-        if n in count_map:
-            count_map[n].append(cve)
+        if num_unique_patterns == 1:
+            count_map[1].append(cve)
+        elif num_unique_patterns == 2:
+            count_map[2].append(cve)
+        elif num_unique_patterns >= 3:
+            count_map[3].append(cve)
 
     print("\n" + "="*80)
-    print("CVE按聚合pattern类别数量分布：")
+    print("CVE按细分pattern数量分布：")
     print("="*80)
 
-    # 4. 针对每个分类，重新计算准确率
+    # 3. 针对每个分类，重新计算准确率
     for k in [1, 2, 3]:
         category_cves = count_map[k]
-        category_name = f"只涉及{k}个聚合类别"
+        category_name = f"只包含{k}个pattern" if k < 3 else "包含3个及以上pattern"
         
         print(f"\n{category_name}的CVE数量: {len(category_cves)}")
         # print(f"CVE列表: {category_cves}")

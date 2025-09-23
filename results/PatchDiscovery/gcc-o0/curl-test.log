@@ -52,18 +52,78 @@
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-9586
-[*] Detection for target/curl/curl-7.51.0-o0-curl,dprintf_formatf,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,_string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,_string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,_string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,_string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,_string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,_string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,_strlen_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,_strlen_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,_strlen_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,_strlen_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,_strlen_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,_strlen_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,dprintf_formatf,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,dprintf_formatf,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,dprintf_formatf,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.2-o0-curl,dprintf_formatf,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,dprintf_formatf,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.52.0-o0-curl,dprintf_formatf,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,dprintf_formatf,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,dprintf_formatf,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,dprintf_formatf,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.53.0-o0-curl,dprintf_formatf,1
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,dprintf_formatf,1
 [*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,string_check,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,string_check,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,test_float_formatting,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,test_float_formatting,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,test_float_formatting,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,test_float_formatting,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,test_float_formatting,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.53.0-o0-curl,test_float_formatting,1
+[*] Detection Result: fail to decide, VF do not exist
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2017-9502
 [*] Detection for target/curl/curl-7.54.0-o0-curl,parseurlandfillconn,-1
@@ -118,18 +178,30 @@
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2023-46219
-[*] Detection for target/curl/curl-8.4.0-o0-curl,Curl_fopen,-1
+[*] Detection for /binaries/target/curl/curl-8.4.0-o0-curl,Curl_fopen,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-8.2.1-o0-curl,Curl_fopen,-1
+[*] Detection for /binaries/target/curl/curl-8.2.1-o0-curl,Curl_fopen,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-8.2.0-o0-curl,Curl_fopen,-1
+[*] Detection for /binaries/target/curl/curl-8.2.0-o0-curl,Curl_fopen,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-8.5.0-o0-curl,Curl_fopen,1
+[*] Detection for /binaries/target/curl/curl-8.5.0-o0-curl,Curl_fopen,1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-8.6.0-o0-curl,Curl_fopen,1
+[*] Detection for /binaries/target/curl/curl-8.6.0-o0-curl,Curl_fopen,1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-8.7.1-o0-curl,Curl_fopen,1
+[*] Detection for /binaries/target/curl/curl-8.7.1-o0-curl,Curl_fopen,1
 [*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-8.4.0-o0-curl,dirslash,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-8.2.1-o0-curl,dirslash,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-8.2.0-o0-curl,dirslash,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-8.5.0-o0-curl,dirslash,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-8.6.0-o0-curl,dirslash,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-8.7.1-o0-curl,dirslash,1
+[*] Detection Result: fail to decide, VF do not exist
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-8621
 [*] Detection for target/curl/curl-7.50.3-o0-curl,parsedate,-1
@@ -454,42 +526,54 @@
 [*] Detection Result:P Patch
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2019-5435
-[*] Detection for target/curl/curl-7.64.1-o0-curl,seturl,-1
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,Curl_setstropt,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.64.0-o0-curl,seturl,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.63.0-o0-curl,seturl,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.65.0-o0-curl,seturl,1
-[*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.65.1-o0-curl,seturl,1
-[*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.65.2-o0-curl,seturl,1
-[*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.64.1-o0-curl,Curl_setstropt,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,Curl_setstropt,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.64.0-o0-curl,Curl_setstropt,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,Curl_setstropt,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.63.0-o0-curl,Curl_setstropt,-1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.65.0-o0-curl,Curl_setstropt,1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,Curl_setstropt,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.65.1-o0-curl,Curl_setstropt,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,Curl_setstropt,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.65.2-o0-curl,Curl_setstropt,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,Curl_setstropt,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.64.1-o0-curl,curl_url_set,-1
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,curl_url_set,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.64.0-o0-curl,curl_url_set,-1
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,curl_url_set,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.63.0-o0-curl,curl_url_set,-1
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,curl_url_set,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.65.0-o0-curl,curl_url_set,1
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,curl_url_set,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.65.1-o0-curl,curl_url_set,1
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,curl_url_set,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.65.2-o0-curl,curl_url_set,1
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,curl_url_set,1
 [*] Detection Result:P Patch
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,seturl,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,seturl,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,seturl,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,seturl,1
+[*] Detection Result:P Patch
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,seturl,1
+[*] Detection Result:P Patch
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,seturl,1
+[*] Detection Result:P Patch
+[*] Detection for /binaries/target/curl/curl-7.64.1-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.64.0-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.63.0-o0-curl,test,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.65.0-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.65.1-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.65.2-o0-curl,test,1
+[*] Detection Result: fail to decide, VF do not exist
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2018-1000007
 [*] Detection for target/curl/curl-7.57.0-o0-curl,Curl_vsetopt,-1
@@ -594,161 +678,185 @@
 [*] Detection Result:P Patch_True
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-8625
-[*] Detection for target/curl/curl-7.50.3-o0-curl,curl_version,-1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.2-o0-curl,curl_version,-1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.1-o0-curl,curl_version,-1
-[*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.51.0-o0-curl,curl_version,1
-[*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.0-o0-curl,curl_version,1
-[*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,curl_version,1
-[*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,create_conn,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_idn_strerror,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_idn_strerror,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_idn_strerror,-1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_idn_strerror,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_idn_strerror,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_idn_strerror,1
+[*] Detection Result: fail to decide, VF do not exist
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,create_conn,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.2-o0-curl,create_conn,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,create_conn,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.1-o0-curl,create_conn,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,create_conn,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.51.0-o0-curl,create_conn,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,create_conn,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.0-o0-curl,create_conn,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,create_conn,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.1-o0-curl,create_conn,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,create_conn,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.50.3-o0-curl,curl_version_info,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.2-o0-curl,curl_version_info,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.1-o0-curl,curl_version_info,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.51.0-o0-curl,curl_version_info,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.0-o0-curl,curl_version_info,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,curl_version_info,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,fix_hostname,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,curl_version_info,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.2-o0-curl,fix_hostname,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,curl_version_info,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.1-o0-curl,fix_hostname,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,curl_version_info,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.51.0-o0-curl,fix_hostname,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,curl_version_info,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.0-o0-curl,fix_hostname,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,curl_version_info,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,fix_hostname,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,curl_version_info,1
 [*] Detection Result:P Patch_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,global_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,fix_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.2-o0-curl,global_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,fix_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.1-o0-curl,global_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,fix_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.51.0-o0-curl,global_init,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,fix_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,fix_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,fix_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,free_fixed_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.52.0-o0-curl,global_init,1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,free_fixed_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,global_init,1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,free_fixed_hostname,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,Curl_idn_strerror,-1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,free_fixed_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,free_fixed_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,free_fixed_hostname,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,global_init,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,global_init,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,global_init,-1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,global_init,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,global_init,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,global_init,1
+[*] Detection Result:V Vulnerability_True
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,idna_init,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.2-o0-curl,Curl_idn_strerror,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,idna_init,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.1-o0-curl,Curl_idn_strerror,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,idna_init,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.51.0-o0-curl,Curl_idn_strerror,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,idna_init,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.0-o0-curl,Curl_idn_strerror,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,idna_init,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.1-o0-curl,Curl_idn_strerror,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,idna_init,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.3-o0-curl,idna_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,tld_check_name,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.2-o0-curl,idna_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,tld_check_name,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.1-o0-curl,idna_init,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,tld_check_name,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.51.0-o0-curl,idna_init,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,tld_check_name,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.0-o0-curl,idna_init,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,tld_check_name,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.1-o0-curl,idna_init,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.3-o0-curl,tld_check_name,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.2-o0-curl,tld_check_name,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.1-o0-curl,tld_check_name,-1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.51.0-o0-curl,tld_check_name,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.0-o0-curl,tld_check_name,1
-[*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.1-o0-curl,tld_check_name,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,tld_check_name,1
 [*] Detection Result: fail to decide, VF do not exist
 [*] ------------------------------------------
 [*] Detecting CVE: CVE-2016-8623
-[*] Detection for target/curl/curl-7.50.3-o0-curl,Curl_cookie_clearall,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_cleanup,1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_cleanup,1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_cleanup,1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_clearall,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.2-o0-curl,Curl_cookie_clearall,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_clearall,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.1-o0-curl,Curl_cookie_clearall,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_clearall,-1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.51.0-o0-curl,Curl_cookie_clearall,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_clearall,1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.52.0-o0-curl,Curl_cookie_clearall,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_clearall,1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.52.1-o0-curl,Curl_cookie_clearall,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_clearall,1
 [*] Detection Result:V Vulnerability_True
-[*] Detection for target/curl/curl-7.50.3-o0-curl,Curl_cookie_getlist,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_freelist,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.2-o0-curl,Curl_cookie_getlist,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_freelist,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.1-o0-curl,Curl_cookie_getlist,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_freelist,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.51.0-o0-curl,Curl_cookie_getlist,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_freelist,1
+[*] Detection Result:P Patch_True
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_cookie_getlist,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_cookie_getlist,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.0-o0-curl,Curl_cookie_getlist,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_cookie_getlist,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.1-o0-curl,Curl_cookie_getlist,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_cookie_getlist,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.50.3-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,Curl_http,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.2-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,Curl_http,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.1-o0-curl,Curl_cookie_cleanup,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,Curl_http,-1
 [*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.51.0-o0-curl,Curl_cookie_cleanup,1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.52.0-o0-curl,Curl_cookie_cleanup,1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.52.1-o0-curl,Curl_cookie_cleanup,1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.3-o0-curl,Curl_http,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.2-o0-curl,Curl_http,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.50.1-o0-curl,Curl_http,-1
-[*] Detection Result:V Vulnerability
-[*] Detection for target/curl/curl-7.51.0-o0-curl,Curl_http,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,Curl_http,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.0-o0-curl,Curl_http,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,Curl_http,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.52.1-o0-curl,Curl_http,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,Curl_http,1
 [*] Detection Result:P Patch
-[*] Detection for target/curl/curl-7.50.3-o0-curl,dup_cookie,-1
+[*] Detection for /binaries/target/curl/curl-7.50.3-o0-curl,dup_cookie,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.2-o0-curl,dup_cookie,-1
+[*] Detection for /binaries/target/curl/curl-7.50.2-o0-curl,dup_cookie,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.50.1-o0-curl,dup_cookie,-1
+[*] Detection for /binaries/target/curl/curl-7.50.1-o0-curl,dup_cookie,-1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.51.0-o0-curl,dup_cookie,1
+[*] Detection for /binaries/target/curl/curl-7.51.0-o0-curl,dup_cookie,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.0-o0-curl,dup_cookie,1
+[*] Detection for /binaries/target/curl/curl-7.52.0-o0-curl,dup_cookie,1
 [*] Detection Result: fail to decide, VF do not exist
-[*] Detection for target/curl/curl-7.52.1-o0-curl,dup_cookie,1
+[*] Detection for /binaries/target/curl/curl-7.52.1-o0-curl,dup_cookie,1
 [*] Detection Result: fail to decide, VF do not exist

@@ -17,6 +17,7 @@ CVE-2012-5668,_bdf_parse_start,4,2,2,2.4.8,2.5.0-1,,,,,,6
 CVE-2012-5669,_bdf_parse_glyphs,3,1,2,,2.4.12;2.5.0-1,,,2.4.8,,,6
 CVE-2012-5670,_bdf_parse_glyphs,3,1,2,2.4.9,2.4.11;2.5.0-1,,,,,,6
 CVE-2014-9746,cid_parse_font_matrix,5,3,2,2.5.3,,,,,,,6
+CVE-2014-9746,ps_parser_load_field,5,3,2,2.5.3,,,,,,,6
 CVE-2014-9746,t1_parse_font_matrix,5,3,2,2.5.3,,,,,,,6
 CVE-2014-9746,t42_parse_encoding,5,3,2,2.5.3,,,,,,,6
 CVE-2014-9746,t42_parse_font_matrix,5,3,2,2.5.3,,,,,,,6
@@ -29,8 +30,6 @@ CVE-2014-9666,tt_sbit_decoder_init,6,3,3,,,,,,,,6
 CVE-2014-9667,check_table_dir,6,3,3,,,,,,,,6
 CVE-2014-9667,tt_face_load_font_dir,6,3,3,,,,,,,,6
 CVE-2014-9668,woff_open_font,5,2,3,,2.6,,,,,,6
-CVE-2014-9669,tt_cmap8_validate,6,3,3,,,,,,,,6
-CVE-2014-9669,tt_cmap10_validate,6,3,3,,,,,,,,6
 CVE-2014-9669,tt_cmap12_validate,6,3,3,,,,,,,,6
 CVE-2014-9669,tt_cmap13_validate,6,3,3,,,,,,,,6
 CVE-2014-9669,tt_cmap14_validate,6,3,3,,,,,,,,6
@@ -38,7 +37,8 @@ CVE-2014-9664,t42_parse_charstrings,6,3,3,,,,,,,,6
 CVE-2014-9664,parse_charstrings,6,3,3,,,,,,,,6
 CVE-2014-9665,Load_SBit_Png,6,3,3,,,,,,,,6
 CVE-2014-9660,_bdf_parse_glyphs,2,2,0,2.5.3;2.5.2;2.5.1,2.5.5,,,,,,6
-CVE-2014-9661,T42_Face_Init,3,0,3,,2.5.4;2.5.5;2.6,,,,2.5.3;2.5.2;2.5.1;2.5.4;2.5.5;2.6,,6
+CVE-2014-9661,T42_Open_Face,6,3,3,,,,,,,,6
+CVE-2014-9661,t42_parse_sfnts,6,3,3,,,,,,,,6
 CVE-2014-9662,cf2_builder_cubeTo,6,3,3,,,,,,,,6
 CVE-2014-9662,cf2_builder_lineTo,6,3,3,,,,,,,,6
 CVE-2014-9663,tt_cmap4_validate,6,3,3,,,,,,,,6
@@ -48,6 +48,7 @@ CVE-2014-9658,tt_face_load_kern,6,3,3,,,,,,,,6
 CVE-2014-9673,Mac_Read_POST_Resource,6,3,3,,,,,,,,6
 CVE-2014-9674,Mac_Read_POST_Resource,3,0,3,,2.5.4;2.5.5;2.6,,,,,,6
 CVE-2014-9659,cf2_hintmap_build,6,3,3,,,,,,,,6
+CVE-2014-9659,cf2_interpT2CharString,6,3,3,,,,,,,,6
 CVE-2015-9382,ps_parser_skip_PS_token,6,3,3,,,,,,,,6
 CVE-2015-9290,T1_Get_Private_Dict,6,3,3,,,,,,,,6
 CVE-2015-9381,T1_Get_Private_Dict,6,3,3,,,,,,,,6

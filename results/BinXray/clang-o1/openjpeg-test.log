@@ -1,0 +1,229 @@
+Detect o1 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20847
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_get_all_encoding_parameters,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1-o1-openjpeg,opj_get_all_encoding_parameters,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0.1-o1-openjpeg,opj_get_all_encoding_parameters,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_get_all_encoding_parameters,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_get_all_encoding_parameters,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.5.0-o1-openjpeg,opj_get_all_encoding_parameters,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0.1-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.5.0-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2015-8871
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_j2k_write_mco,-1
+target function: opj_j2k_write_mco not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1-o1-openjpeg,opj_j2k_write_mco,-1
+target function: opj_j2k_write_mco not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0.1-o1-openjpeg,opj_j2k_write_mco,-1
+target function: opj_j2k_write_mco not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_mco,1
+target function: opj_j2k_write_mco not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_mco,1
+target function: opj_j2k_write_mco not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_mco,1
+target function: opj_j2k_write_mco not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-4797
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0.1-o1-openjpeg,opj_tcd_init_tile,-1
+target function: opj_tcd_init_tile not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_tcd_init_tile,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-7163
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_pi_create_decode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_pi_create_decode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_pi_create_decode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_pi_create_decode,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_pi_create_decode,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_pi_create_decode,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2016-10506
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_pi_next_pcrl,-1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_pi_next_pcrl,-1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_pi_next_pcrl,-1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_pi_next_pcrl,1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_pi_next_pcrl,1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_pi_next_pcrl,1
+target function: opj_pi_next_pcrl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_pi_next_cprl,-1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_pi_next_cprl,-1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_pi_next_cprl,-1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_pi_next_cprl,1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_pi_next_cprl,1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_pi_next_cprl,1
+target function: opj_pi_next_cprl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_pi_next_rpcl,-1
+target function: opj_pi_next_rpcl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_pi_next_rpcl,-1
+target function: opj_pi_next_rpcl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_pi_next_rpcl,-1
+target function: opj_pi_next_rpcl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_pi_next_rpcl,1
+target function: opj_pi_next_rpcl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_pi_next_rpcl,1
+target function: opj_pi_next_rpcl not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_pi_next_rpcl,1
+target function: opj_pi_next_rpcl not found
+------------------------------------------
+[*] Detecting CVE: CVE-2016-10504
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14151
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,-1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_tcd_code_block_enc_allocate_data,1
+target function: opj_tcd_code_block_enc_allocate_data not found
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14152
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_set_cinema_parameters,-1
+target function: opj_j2k_set_cinema_parameters not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_set_cinema_parameters,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14039
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_sod,-1
+target function: opj_j2k_write_sod not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_sod,-1
+target function: opj_j2k_write_sod not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_sod,-1
+target function: opj_j2k_write_sod not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_sod,1
+target function: opj_j2k_write_sod not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_sod,1
+target function: opj_j2k_write_sod not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_sod,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_t2_encode_packet,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_t2_encode_packet,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_t2_encode_packet,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_t2_encode_packet,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_t2_encode_packet,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_t2_encode_packet,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2017-14164
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_sot,-1
+target function: opj_j2k_write_sot not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_sot,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_first_tile_part,-1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_first_tile_part,-1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_first_tile_part,-1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_first_tile_part,1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_first_tile_part,1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_first_tile_part,1
+target function: opj_j2k_write_first_tile_part not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_tlm,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_tlm,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_tlm,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_tlm,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_tlm,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_tlm,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.2.0-o1-openjpeg,opj_j2k_write_all_tile_parts,-1
+target function: opj_j2k_write_all_tile_parts not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.2-o1-openjpeg,opj_j2k_write_all_tile_parts,-1
+target function: opj_j2k_write_all_tile_parts not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.1.1-o1-openjpeg,opj_j2k_write_all_tile_parts,-1
+target function: opj_j2k_write_all_tile_parts not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.0-o1-openjpeg,opj_j2k_write_all_tile_parts,1
+target function: opj_j2k_write_all_tile_parts not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.3.1-o1-openjpeg,opj_j2k_write_all_tile_parts,1
+target function: opj_j2k_write_all_tile_parts not found
+[*] Detection for /binaries/target_clang/openjpeg/openjpeg-2.4.0-o1-openjpeg,opj_j2k_write_all_tile_parts,1
+target function: opj_j2k_write_all_tile_parts not found

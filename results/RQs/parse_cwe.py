@@ -18,9 +18,9 @@ def load_csv_results(work, project):
     """
     加载指定工作和项目的CSV结果
     """
-    csv_path = f"../{work}/{project}-cve.csv"
+    csv_path = f"../{work}/gcc-o0/{project}-cve.csv"
     if work == "React":
-        csv_path = f"../{work}/{project}_result.csv"
+        csv_path = f"../{work}/gcc-o0/{project}_result.csv"
     results = {}
     
     if not os.path.exists(csv_path):
@@ -57,6 +57,8 @@ def load_csv_results(work, project):
                         has_sig = False
                         additional_error = 0
                         if work == 'Robin':
+                            fn_count = int(row.get('fn', '0'))
+                            fp_count = int(row.get('fp', '0'))
                             has_sig = row.get('signature_generated', 'False').strip().lower() == 'true'
                         if work == "BinXray":
                             additional_error_str = row.get('additional_error', '').strip()
@@ -130,13 +132,13 @@ def calculate_cwe_accuracy(cwe_refined, works, projects):
                     # 对于BinXray，计算总错误数包括额外字段
                     if work == "BinXray":
                         total_fp_fn += result['additional_error']
-                    if work == 'Robin':
-                        if result['has_sig']:
-                            total_target += result['target']
-                            matched_cves += 1
-                    else:
-                        total_target += result['target']
-                        matched_cves += 1
+                    # if work == 'Robin':
+                    #     if result['has_sig']:
+                    #         total_target += result['target']
+                    #         matched_cves += 1
+                    # else:
+                    total_target += result['target']
+                    matched_cves += 1
             
             if matched_cves > 0:
                 # 计算两种准确率

@@ -1,0 +1,130 @@
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-20446', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.7-o3-ffmpeg', cve='CVE-2020-20446', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-3.4.9-o3-ffmpeg', cve='CVE-2020-20446', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.5-o3-ffmpeg', cve='CVE-2020-20446', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.3-o3-ffmpeg', cve='CVE-2020-20448', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.0.5-o3-ffmpeg', cve='CVE-2020-20448', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-3.4.7-o3-ffmpeg', cve='CVE-2020-20448', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.2-o3-ffmpeg', cve='CVE-2020-20448', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-20453 ffmpeg-4.2-o3-ffmpeg truth = vuln result = patch
+CVE-2020-20453 ffmpeg-4.1.7-o3-ffmpeg truth = patch result = patch
+TestJson(file='ffmpeg-3.4.9-o3-ffmpeg', cve='CVE-2020-20453', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-20453 ffmpeg-4.2.5-o3-ffmpeg truth = patch result = patch
+TestJson(file='ffmpeg-4.2.1-o3-ffmpeg', cve='CVE-2020-20896', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.9-o3-ffmpeg', cve='CVE-2020-20896', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.6-o3-ffmpeg', cve='CVE-2020-20896', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-20896', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-20898 ffmpeg-4.2.1-o3-ffmpeg truth = vuln result = vuln
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-20898', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-21697', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3.3-o3-ffmpeg', cve='CVE-2020-21697', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.4-o3-ffmpeg', cve='CVE-2020-21697', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22015', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.7-o3-ffmpeg', cve='CVE-2020-22015', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-3.4.9-o3-ffmpeg', cve='CVE-2020-22015', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.5-o3-ffmpeg', cve='CVE-2020-22015', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-22017 ffmpeg-4.2-o3-ffmpeg truth = vuln result = vuln
+CVE-2020-22017 ffmpeg-4.1.8-o3-ffmpeg truth = patch result = patch
+CVE-2020-22017 ffmpeg-4.3-o3-ffmpeg truth = patch result = patch
+CVE-2020-22019 ffmpeg-4.2-o3-ffmpeg truth = vuln result = vuln
+CVE-2020-22019 ffmpeg-4.1.7-o3-ffmpeg truth = patch result = patch
+CVE-2020-22019 ffmpeg-3.4.9-o3-ffmpeg truth = patch result = patch
+CVE-2020-22019 ffmpeg-4.2.5-o3-ffmpeg truth = patch result = patch
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22021', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+CVE-2020-22021 ffmpeg-4.1.7-o3-ffmpeg truth = patch result = patch
+CVE-2020-22021 ffmpeg-3.4.9-o3-ffmpeg truth = patch result = patch
+CVE-2020-22021 ffmpeg-4.2.5-o3-ffmpeg truth = patch result = patch
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22024', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+CVE-2020-22024 ffmpeg-4.3-o3-ffmpeg truth = patch result = patch
+CVE-2020-22029 has no sigs, skip
+CVE-2020-22029 has no sigs, skip
+CVE-2020-22029 has no sigs, skip
+CVE-2020-22037 ffmpeg-4.2-o3-ffmpeg truth = vuln result = vuln
+CVE-2020-22037 ffmpeg-4.1.7-o3-ffmpeg truth = patch result = vuln
+TestJson(file='ffmpeg-3.4.9-o3-ffmpeg', cve='CVE-2020-22037', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-22037 ffmpeg-4.2.5-o3-ffmpeg truth = patch result = vuln
+CVE-2020-22038 ffmpeg-4.2-o3-ffmpeg truth = vuln result = vuln
+CVE-2020-22038 ffmpeg-4.4-o3-ffmpeg truth = patch result = patch
+CVE-2020-22039 ffmpeg-4.2-o3-ffmpeg truth = vuln result = patch
+CVE-2020-22039 ffmpeg-4.3-o3-ffmpeg truth = patch result = patch
+CVE-2020-22041 has no sigs, skip
+CVE-2020-22041 has no sigs, skip
+CVE-2020-22041 has no sigs, skip
+CVE-2020-22041 has no sigs, skip
+CVE-2020-22042 ffmpeg-4.2-o3-ffmpeg truth = vuln result = vuln
+CVE-2020-22042 ffmpeg-4.3.3-o3-ffmpeg truth = patch result = vuln
+CVE-2020-22042 ffmpeg-4.4-o3-ffmpeg truth = patch result = vuln
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22043', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-22043', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22044', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.10-o3-ffmpeg', cve='CVE-2020-22044', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.7-o3-ffmpeg', cve='CVE-2020-22044', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-22044', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22046', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+CVE-2020-22046 ffmpeg-4.1.10-o3-ffmpeg truth = patch result = patch
+CVE-2020-22046 ffmpeg-4.2.3-o3-ffmpeg truth = patch result = patch
+CVE-2020-22046 ffmpeg-4.3-o3-ffmpeg truth = patch result = patch
+CVE-2020-24020 ffmpeg-4.2.3-o3-ffmpeg truth = vuln result = vuln
+TestJson(file='ffmpeg-4.4-o3-ffmpeg', cve='CVE-2020-24020', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2021-38291 has no sigs, skip
+CVE-2021-38291 has no sigs, skip
+CVE-2021-38291 has no sigs, skip
+CVE-2021-38291 has no sigs, skip
+CVE-2021-38291 has no sigs, skip
+CVE-2021-38291 has no sigs, skip
+CVE-2022-1475 ffmpeg-4.2.6-o3-ffmpeg truth = vuln result = vuln
+CVE-2022-1475 ffmpeg-4.3.4-o3-ffmpeg truth = vuln result = vuln
+CVE-2022-1475 ffmpeg-5.0-o3-ffmpeg truth = vuln result = vuln
+CVE-2022-1475 ffmpeg-4.4.2-o3-ffmpeg truth = patch result = vuln
+CVE-2022-1475 ffmpeg-5.0.1-o3-ffmpeg truth = patch result = vuln
+CVE-2022-1475 ffmpeg-5.1-o3-ffmpeg truth = patch result = vuln
+CVE-2020-22020 has no sigs, skip
+CVE-2020-22020 has no sigs, skip
+CVE-2020-22020 has no sigs, skip
+CVE-2020-22020 has no sigs, skip
+CVE-2020-22022 has no sigs, skip
+CVE-2020-22022 has no sigs, skip
+CVE-2020-22022 has no sigs, skip
+CVE-2020-22022 has no sigs, skip
+CVE-2020-22023 has no sigs, skip
+CVE-2020-22023 has no sigs, skip
+CVE-2020-22023 has no sigs, skip
+CVE-2020-22023 has no sigs, skip
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22026', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.8-o3-ffmpeg', cve='CVE-2020-22026', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.7-o3-ffmpeg', cve='CVE-2020-22026', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-22026', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-22027 has no sigs, skip
+CVE-2020-22027 has no sigs, skip
+CVE-2020-22027 has no sigs, skip
+CVE-2020-22027 has no sigs, skip
+CVE-2020-22030 has no sigs, skip
+CVE-2020-22030 has no sigs, skip
+CVE-2020-22030 has no sigs, skip
+CVE-2020-22031 has no sigs, skip
+CVE-2020-22031 has no sigs, skip
+CVE-2020-22031 has no sigs, skip
+CVE-2020-22031 has no sigs, skip
+CVE-2020-22034 has no sigs, skip
+CVE-2020-22034 has no sigs, skip
+CVE-2020-22034 has no sigs, skip
+CVE-2020-22035 has no sigs, skip
+CVE-2020-22035 has no sigs, skip
+CVE-2020-22035 has no sigs, skip
+TestJson(file='ffmpeg-4.2-o3-ffmpeg', cve='CVE-2020-22036', commit='', ground_truth='vuln', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.1.8-o3-ffmpeg', cve='CVE-2020-22036', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.2.7-o3-ffmpeg', cve='CVE-2020-22036', commit='', ground_truth='patch', project='ffmpeg') is not valid
+TestJson(file='ffmpeg-4.3-o3-ffmpeg', cve='CVE-2020-22036', commit='', ground_truth='patch', project='ffmpeg') is not valid
+CVE-2020-22048 has no sigs, skip
+CVE-2020-22048 has no sigs, skip
+CVE-2020-22048 has no sigs, skip
+CVE-2020-22048 has no sigs, skip
+CVE-2020-23906 ffmpeg-4.2-o3-ffmpeg truth = vuln result = patch
+CVE-2020-23906 ffmpeg-4.2.5-o3-ffmpeg truth = patch result = patch
+CVE-2020-23906 ffmpeg-4.3.1-o3-ffmpeg truth = patch result = patch
+CVE-2020-23906 ffmpeg-4.4-o3-ffmpeg truth = patch result = patch
+CVE-2020-35965 has no sigs, skip
+CVE-2020-35965 has no sigs, skip
+CVE-2020-35965 has no sigs, skip
+CVE-2020-35965 has no sigs, skip
+CVE-2020-35965 has no sigs, skip

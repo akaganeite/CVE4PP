@@ -35,11 +35,11 @@ def parse_log_file(log_file_path):
             continue
         
         # 检测函数检测结果
-        if line.startswith('[*] Detection for target/') and current_cve:
+        if line.startswith('[*] Detection for target') and current_cve:
             # 解析目标信息
             parts = line.split(',')
             if len(parts) >= 3:
-                target_info = parts[0].split('target/')[1]
+                target_info = parts[0].split('target')[1]
                 function_name = parts[1]
                 version_flag = parts[2]  # -1 for vulnerable, 1 for patched
                 
@@ -270,7 +270,19 @@ def main():
         # 计算并打印当前项目的整体统计信息
         stats = calculate_overall_statistics(csv_data)
         
+        # 为当前项目计算 Precision, Recall, F1, Accuracy
+        total_classified = total_tp + total_tn + total_fp + total_fn
+        accuracy = (total_tp + total_tn) / total_classified if total_classified > 0 else 0
+        precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
+        recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
+        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+
         print(f"\n--- {project} 整体统计信息 ---")
+        print(f"TP: {total_tp}, TN: {total_tn}, FP: {total_fp}, FN: {total_fn}")
+        print(f"Accuracy:  {accuracy:.4f}")
+        print(f"Precision: {precision:.4f}")
+        print(f"Recall:    {recall:.4f}")
+        print(f"F1-Score:  {f1:.4f}")
         print(f"总检测版本数量: {stats['total_detections']}")
         print(f"成功检测版本数量: {stats['total_successful']}")
         print(f"整体准确率: {stats['overall_accuracy']:.2f}%")

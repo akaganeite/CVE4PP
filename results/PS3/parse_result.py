@@ -456,7 +456,7 @@ def parse_cve_results(project_name):
     
     if total_targets > 0:
         accuracy = total_succeed / total_targets
-        accuracy_exclude_failed = total_succeed / (total_targets - total_failed) if (total_targets - total_failed) > 0 else 0
+        accuracy_exclude_failed = total_succeed / (total_succeed+total_fp+total_fn)
         precision = total_tp / (total_tp + total_fp) if (total_tp + total_fp) > 0 else 0
         recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
         f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
@@ -464,7 +464,7 @@ def parse_cve_results(project_name):
         print(f"--- {project_name} 总体统计 ---")
         print(f"TP: {total_tp}, TN: {total_tn}, FP: {total_fp}, FN: {total_fn}")
         print(f"总体准确率 (Accuracy): {accuracy:.4f}")
-        print(f"排除failed的准确率: {accuracy_exclude_failed:.4f}")
+        print(f"Acc: {accuracy_exclude_failed:.4f}")
         print(f"精确率 (Precision): {precision:.4f}")
         print(f"召回率 (Recall): {recall:.4f}")
         print(f"F1分数 (F1-Score): {f1_score:.4f}")

@@ -1,0 +1,511 @@
+Detect o3 Binaries.
+------------------------------------------
+[*] Detecting CVE: CVE-2016-6153
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.12.2-o3-sqlite3,unixGetTempname,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.12.1-o3-sqlite3,unixGetTempname,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.9.3-o3-sqlite3,unixGetTempname,-1
+target function: unixGetTempname not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.13.0-o3-sqlite3,unixGetTempname,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.14.1-o3-sqlite3,unixGetTempname,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.14.2-o3-sqlite3,unixGetTempname,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.12.2-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.12.1-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.9.3-o3-sqlite3,unixTempFileDir,-1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.13.0-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.14.1-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.14.2-o3-sqlite3,unixTempFileDir,1
+target function: unixTempFileDir not found
+------------------------------------------
+[*] Detecting CVE: CVE-2018-20346
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.2-o3-sqlite3,nodeReaderNext,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.1-o3-sqlite3,nodeReaderNext,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.0-o3-sqlite3,nodeReaderNext,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.3-o3-sqlite3,nodeReaderNext,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.26.0-o3-sqlite3,nodeReaderNext,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.0-o3-sqlite3,nodeReaderNext,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.2-o3-sqlite3,fts3SegReaderNext,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.1-o3-sqlite3,fts3SegReaderNext,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.0-o3-sqlite3,fts3SegReaderNext,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.3-o3-sqlite3,fts3SegReaderNext,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.26.0-o3-sqlite3,fts3SegReaderNext,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.0-o3-sqlite3,fts3SegReaderNext,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.2-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.1-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.0-o3-sqlite3,fts3ScanInteriorNode,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.25.3-o3-sqlite3,fts3ScanInteriorNode,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.26.0-o3-sqlite3,fts3ScanInteriorNode,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.0-o3-sqlite3,fts3ScanInteriorNode,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19242
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3ExprCodeTarget,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3ExprCodeTarget,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,whereIndexExprTransColumn,-1
+target function: whereIndexExprTransColumn not found
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,whereIndexExprTransColumn,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,whereIndexExprTransColumn,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,whereIndexExprTransColumn,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19244
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3Select,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19317
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,lookupName,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,lookupName,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,lookupName,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,lookupName,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19645
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3CreateView,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3CreateView,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3CreateView,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3CreateView,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3CreateView,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3CreateView,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameTableFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,renameTableFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,renameTableFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameTableFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameTableFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameTableFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameColumnFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,renameColumnFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,renameColumnFunc,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameColumnFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameColumnFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameColumnFunc,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameColumnSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,renameColumnSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,renameColumnSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameColumnSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameColumnSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameColumnSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameTableSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,renameTableSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,renameTableSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameTableSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameTableSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameTableSelectCb,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19646
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] Detection Result:V 0.36733119450075286/0.30107959484150215 8/8,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] Detection Result:V 0.36733119450075286/0.30107959484150215 8/8,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3CreateColumnExpr,-1
+[*] Detection Result:V 0.36733119450075286/0.30107959484150215 8/8,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] Detection Result:P 0.3202356440173873/0.32851218956482114 15/15,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] Detection Result:P 0.3202356440173873/0.32851218956482114 15/15,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3CreateColumnExpr,1
+[*] Detection Result:P 0.3202356440173873/0.32851218956482114 15/15,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3Pragma,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,sqlite3Pragma,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,sqlite3Pragma,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3Pragma,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3Pragma,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Pragma,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19880
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,exprListAppendList,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,exprListAppendList,1
+[*] Detection Result:V 0.2048611111111111/0.0 18/17,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,exprListAppendList,1
+[*] Detection Result:V 0.2048611111111111/0.0 18/17,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,exprListAppendList,1
+[*] Detection Result:P 0.10714285714285714/0.1624319248857132 26/25,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19923
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,flattenSubquery,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19924
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,codeCompare,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,codeCompare,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,codeCompare,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,codeCompare,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,vdbeVComment,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,vdbeVComment,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,vdbeVComment,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,vdbeVComment,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,sqlite3WindowRewrite,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3WindowRewrite,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3WindowRewrite,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3WindowRewrite,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19925
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileUpdate,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19926
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,multiSelect,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-19959
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileStep,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileStep,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileStep,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileStep,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,zipfileUpdate,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,zipfileUpdate,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-20218
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,selectExpander,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2019-8457
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.2-o3-sqlite3,rtreenode,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.1-o3-sqlite3,rtreenode,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.27.0-o3-sqlite3,rtreenode,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.28.0-o3-sqlite3,rtreenode,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.29.0-o3-sqlite3,rtreenode,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.0-o3-sqlite3,rtreenode,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-11655
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,resetAccumulator,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,resetAccumulator,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,resetAccumulator,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,resetAccumulator,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,resetAccumulator,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,resetAccumulator,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-11656
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,renameUnmapSelectCb,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,renameUnmapSelectCb,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,unmapColumnIdlistNames,-1
+[*] Detection Result:Sig file not found,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,unmapColumnIdlistNames,1
+[*] Detection Result:Sig file not found,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13434
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,printfTempBuf,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,printfTempBuf,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,printfTempBuf,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,printfTempBuf,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,printfTempBuf,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.3-o3-sqlite3,printfTempBuf,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,sqlite3_str_vappendf,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,sqlite3_str_vappendf,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,sqlite3_str_vappendf,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.3-o3-sqlite3,sqlite3_str_vappendf,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13630
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,fts3EvalNextRow,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,fts3EvalNextRow,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,fts3EvalNextRow,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,fts3EvalNextRow,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,fts3EvalNextRow,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,fts3EvalNextRow,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-13632
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,fts3ExprLHits,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.0-o3-sqlite3,fts3ExprLHits,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.30.1-o3-sqlite3,fts3ExprLHits,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,fts3ExprLHits,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,fts3ExprLHits,1
+[*] Detection Result:C can't tell,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,fts3ExprLHits,1
+[*] Detection Result:C can't tell,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-15358
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,multiSelect,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,multiSelect,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.3-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.33.0-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.34.0-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,flattenSubquery,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,flattenSubquery,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,flattenSubquery,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.3-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.33.0-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.34.0-o3-sqlite3,flattenSubquery,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,sqlite3Select,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,sqlite3Select,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,sqlite3Select,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.3-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.33.0-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.34.0-o3-sqlite3,sqlite3Select,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35525
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,multiSelect,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,multiSelect,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2020-35527
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.31.1-o3-sqlite3,selectExpander,-1
+[*] Detection Result:NA too much diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.0-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.1-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.32.2-o3-sqlite3,selectExpander,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-31239
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.35.4-o3-sqlite3,apndOpen,-1
+[*] Detection Result:V 0.24560046730306717/0.2123719004753009 14/14,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.35.5-o3-sqlite3,apndOpen,1
+[*] Detection Result:V 0.24560046730306717/0.2123719004753009 16/16,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.36.0-o3-sqlite3,apndOpen,1
+[*] Detection Result:V 0.2477236677111421/0.2395069433750286 17/17,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.37.0-o3-sqlite3,apndOpen,1
+[*] Detection Result:V 0.2477236677111421/0.2395069433750286 18/18,1
+------------------------------------------
+[*] Detecting CVE: CVE-2021-36690
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.36.0-o3-sqlite3,idxGetTableInfo,-1
+[*] Detection Result:C can't tell,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.37.0-o3-sqlite3,idxGetTableInfo,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.37.1-o3-sqlite3,idxGetTableInfo,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.37.2-o3-sqlite3,idxGetTableInfo,1
+[*] Detection Result:NA too much diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2022-46908
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.40.0-o3-sqlite3,safeModeAuth,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.39.4-o3-sqlite3,safeModeAuth,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.39.3-o3-sqlite3,safeModeAuth,-1
+[*] Detection Result:N VP no diff,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.40.1-o3-sqlite3,safeModeAuth,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.41.0-o3-sqlite3,safeModeAuth,1
+[*] Detection Result:N VP no diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.41.1-o3-sqlite3,safeModeAuth,1
+[*] Detection Result:N VP no diff,1
+------------------------------------------
+[*] Detecting CVE: CVE-2023-7104
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.43.0-o3-sqlite3,sessionReadRecord,-1
+[*] Detection Result:V 0.2430790024247158/0.119272030651341 37/37,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.42.0-o3-sqlite3,sessionReadRecord,-1
+[*] Detection Result:V 0.2430790024247158/0.119272030651341 37/37,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.41.2-o3-sqlite3,sessionReadRecord,-1
+[*] Detection Result:V 0.2430790024247158/0.119272030651341 37/37,-1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.43.1-o3-sqlite3,sessionReadRecord,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.43.2-o3-sqlite3,sessionReadRecord,1
+[*] Detection Result:NA too much diff,1
+[*] Detection for /binaries/target_clang/sqlite/sqlite-3.44.0-o3-sqlite3,sessionReadRecord,1
+[*] Detection Result:NA too much diff,1

@@ -133,8 +133,8 @@ def main():
     all_tp, all_tn, all_fp, all_fn, all_fail, all_target = 0, 0, 0, 0, 0, 0
     for project in PROJECTS:
         json_path = f"../../testset/{project}/testset.json"
-        log_path = f"./gcc-o3/{project}-result.log"
-        details_log_path = f"./gcc-o3/{project}-details.log"
+        log_path = f"./gcc-o0/{project}-result.log"
+        details_log_path = f"./gcc-o0/{project}-details.log"
         try:
             ground_truth_dict = load_ground_truth(json_path)
         except Exception as e:

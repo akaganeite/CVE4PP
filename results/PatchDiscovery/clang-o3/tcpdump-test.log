@@ -1,0 +1,2519 @@
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12893
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,name_len,-1
+[*] target function: name_len not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,name_len,-1
+[*] target function: name_len not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,name_len,-1
+[*] target function: name_len not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,name_len,1
+[*] target function: name_len not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,name_len,1
+[*] target function: name_len not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,name_len,1
+[*] target function: name_len not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12894
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lookup_bytestring,-1
+[*] target function: lookup_bytestring not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lookup_bytestring,-1
+[*] target function: lookup_bytestring not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lookup_bytestring,-1
+[*] target function: lookup_bytestring not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lookup_bytestring,1
+[*] target function: lookup_bytestring not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lookup_bytestring,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lookup_bytestring,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,le64addr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,le64addr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,le64addr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,le64addr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,le64addr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,le64addr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,linkaddr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,linkaddr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,linkaddr_string,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,linkaddr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,linkaddr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,linkaddr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lookup_emem,-1
+[*] target function: lookup_emem not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lookup_emem,-1
+[*] target function: lookup_emem not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lookup_emem,-1
+[*] target function: lookup_emem not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lookup_emem,1
+[*] target function: lookup_emem not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lookup_emem,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lookup_emem,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12895
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,icmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12896
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12897
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,fr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,fr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,fr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,fr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,fr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,fr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,handle_ppp,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,handle_ppp,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,handle_ppp,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,handle_ppp,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,handle_ppp,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,handle_ppp,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ethertype_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ethertype_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ethertype_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ethertype_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ethertype_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ethertype_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_atm1_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_atm1_print,1
+[*] target function: juniper_atm1_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_atm1_print,1
+[*] target function: juniper_atm1_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,gre_print_0,-1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,gre_print_0,-1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,gre_print_0,-1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,gre_print_0,1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,gre_print_0,1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,gre_print_0,1
+[*] target function: gre_print_0 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,atm_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,atm_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,atm_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,atm_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,atm_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,atm_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_atm2_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_atm2_print,1
+[*] target function: juniper_atm2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_atm2_print,1
+[*] target function: juniper_atm2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,null_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,null_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,null_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,null_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,null_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,null_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,llc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,llc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,llc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,llc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,llc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,llc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,chdlc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,chdlc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,chdlc_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_mfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_mfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_mfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_mfr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_mfr_print,1
+[*] target function: juniper_mfr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_mfr_print,1
+[*] target function: juniper_mfr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_mlppp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_mlppp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_mlppp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_mlppp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_mlppp_print,1
+[*] target function: juniper_mlppp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_mlppp_print,1
+[*] target function: juniper_mlppp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_mlfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_mlfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_mlfr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_mlfr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_mlfr_print,1
+[*] target function: juniper_mlfr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_mlfr_print,1
+[*] target function: juniper_mlfr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isoclns_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isoclns_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isoclns_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isoclns_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isoclns_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isoclns_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mpls_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mpls_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mpls_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mpls_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mpls_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mpls_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12898
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,parserep,-1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,parserep,-1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,parserep,-1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,parserep,1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,parserep,1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,parserep,1
+[*] target function: parserep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,nfsreq_print_noaddr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,nfsreq_print_noaddr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,nfsreq_print_noaddr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,nfsreq_print_noaddr,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,nfsreq_print_noaddr,1
+[*] target function: nfsreq_print_noaddr not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,nfsreq_print_noaddr,1
+[*] target function: nfsreq_print_noaddr not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,interp_reply,-1
+[*] target function: interp_reply not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,interp_reply,-1
+[*] target function: interp_reply not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,interp_reply,-1
+[*] target function: interp_reply not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,interp_reply,1
+[*] target function: interp_reply not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,interp_reply,1
+[*] target function: interp_reply not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,interp_reply,1
+[*] target function: interp_reply not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12899
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_decnet_ctlmsg,-1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_decnet_ctlmsg,-1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_decnet_ctlmsg,-1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_decnet_ctlmsg,1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_decnet_ctlmsg,1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_decnet_ctlmsg,1
+[*] target function: print_decnet_ctlmsg not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,decnet_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,decnet_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,decnet_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,decnet_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,decnet_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,decnet_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12901
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,eigrp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,eigrp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,eigrp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,eigrp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,eigrp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,eigrp_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12902
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,zephyr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,zephyr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,zephyr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,zephyr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,zephyr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,zephyr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12985
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ip6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ip6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ip6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ip6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ip6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ip6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mobility_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mobility_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mobility_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12987
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12988
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,telnet_parse,-1
+[*] target function: telnet_parse not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,telnet_parse,-1
+[*] target function: telnet_parse not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,telnet_parse,-1
+[*] target function: telnet_parse not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,telnet_parse,1
+[*] target function: telnet_parse not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,telnet_parse,1
+[*] target function: telnet_parse not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,telnet_parse,1
+[*] target function: telnet_parse not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12989
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,resp_get_length,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,resp_get_length,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,resp_get_length,-1
+[*] target function: resp_get_length not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,resp_get_length,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,resp_get_length,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,resp_get_length,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12990
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isakmp_rfc3948_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isakmp_rfc3948_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_n_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_n_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_nonce_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_nonce_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_nonce_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_nonce_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_nonce_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_nonce_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12991
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12992
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ripng_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ripng_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ripng_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ripng_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ripng_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ripng_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12993
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_es_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_es_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_es_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_es_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_es_print,1
+[*] target function: juniper_es_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_es_print,1
+[*] target function: juniper_es_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_atm1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_atm1_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_atm1_print,1
+[*] target function: juniper_atm1_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_atm1_print,1
+[*] target function: juniper_atm1_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_monitor_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_monitor_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_monitor_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_monitor_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_monitor_print,1
+[*] target function: juniper_monitor_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_monitor_print,1
+[*] target function: juniper_monitor_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_services_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_services_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_services_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_services_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_services_print,1
+[*] target function: juniper_services_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_services_print,1
+[*] target function: juniper_services_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_parse_header,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_parse_header,1
+[*] target function: juniper_parse_header not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_parse_header,1
+[*] target function: juniper_parse_header not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_ggsn_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_ggsn_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_ggsn_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_ggsn_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_ggsn_print,1
+[*] target function: juniper_ggsn_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_ggsn_print,1
+[*] target function: juniper_ggsn_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_atm2_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_atm2_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_atm2_print,1
+[*] target function: juniper_atm2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_atm2_print,1
+[*] target function: juniper_atm2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_pppoe_atm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_pppoe_atm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_pppoe_atm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_pppoe_atm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_pppoe_atm_print,1
+[*] target function: juniper_pppoe_atm_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_pppoe_atm_print,1
+[*] target function: juniper_pppoe_atm_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12994
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12995
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ns_nprint,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ns_nprint,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ns_nprint,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ns_nprint,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ns_nprint,1
+[*] target function: ns_nprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ns_nprint,1
+[*] target function: ns_nprint not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12996
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12997
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lldp_private_8021_print,-1
+[*] target function: lldp_private_8021_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lldp_private_8021_print,-1
+[*] target function: lldp_private_8021_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lldp_private_8021_print,-1
+[*] target function: lldp_private_8021_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lldp_private_8021_print,1
+[*] target function: lldp_private_8021_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lldp_private_8021_print,1
+[*] target function: lldp_private_8021_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lldp_private_8021_print,1
+[*] target function: lldp_private_8021_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12998
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print_extd_ip_reach,-1
+[*] target function: isis_print_extd_ip_reach not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print_extd_ip_reach,-1
+[*] target function: isis_print_extd_ip_reach not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print_extd_ip_reach,-1
+[*] target function: isis_print_extd_ip_reach not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print_extd_ip_reach,1
+[*] target function: isis_print_extd_ip_reach not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print_extd_ip_reach,1
+[*] target function: isis_print_extd_ip_reach not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print_extd_ip_reach,1
+[*] target function: isis_print_extd_ip_reach not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-12999
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print,-1
+[*] target function: isis_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print,-1
+[*] target function: isis_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print,-1
+[*] target function: isis_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print,1
+[*] target function: isis_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print,1
+[*] target function: isis_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print,1
+[*] target function: isis_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13000
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ieee802_15_4_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ieee802_15_4_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ieee802_15_4_if_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ieee802_15_4_if_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ieee802_15_4_if_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ieee802_15_4_if_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13001
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,nfs_printfh,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,nfs_printfh,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,nfs_printfh,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,nfs_printfh,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,nfs_printfh,1
+[*] target function: nfs_printfh not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,nfs_printfh,1
+[*] target function: nfs_printfh not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13002
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,aodv_extension,-1
+[*] target function: aodv_extension not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,aodv_extension,-1
+[*] target function: aodv_extension not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,aodv_extension,-1
+[*] target function: aodv_extension not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,aodv_extension,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,aodv_extension,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,aodv_extension,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13003
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13004
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,juniper_parse_header,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,juniper_parse_header,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,juniper_parse_header,1
+[*] target function: juniper_parse_header not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,juniper_parse_header,1
+[*] target function: juniper_parse_header not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13005
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,xid_map_enter,-1
+[*] target function: xid_map_enter not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,xid_map_enter,-1
+[*] target function: xid_map_enter not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,xid_map_enter,-1
+[*] target function: xid_map_enter not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,xid_map_enter,1
+[*] target function: xid_map_enter not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,xid_map_enter,1
+[*] target function: xid_map_enter not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,xid_map_enter,1
+[*] target function: xid_map_enter not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13006
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_result_code_print,-1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_result_code_print,-1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_result_code_print,-1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_result_code_print,1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_result_code_print,1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_result_code_print,1
+[*] target function: l2tp_result_code_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_32bits_val,-1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_32bits_val,-1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_32bits_val,-1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_32bits_val,1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_32bits_val,1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_32bits_val,1
+[*] target function: print_32bits_val not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_framing_cap_print,-1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_framing_cap_print,-1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_framing_cap_print,-1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_framing_cap_print,1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_framing_cap_print,1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_framing_cap_print,1
+[*] target function: l2tp_framing_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_packet_proc_delay_print,-1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_packet_proc_delay_print,-1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_packet_proc_delay_print,-1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_packet_proc_delay_print,1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_packet_proc_delay_print,1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_packet_proc_delay_print,1
+[*] target function: l2tp_packet_proc_delay_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_ppp_discon_cc_print,-1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_ppp_discon_cc_print,-1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_ppp_discon_cc_print,-1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_ppp_discon_cc_print,1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_ppp_discon_cc_print,1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_ppp_discon_cc_print,1
+[*] target function: l2tp_ppp_discon_cc_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_avp_print,-1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_avp_print,-1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_avp_print,-1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_avp_print,1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_avp_print,1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_avp_print,1
+[*] target function: l2tp_avp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_bearer_type_print,-1
+[*] target function: l2tp_bearer_type_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_bearer_type_print,-1
+[*] target function: l2tp_bearer_type_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_bearer_type_print,-1
+[*] target function: l2tp_bearer_type_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_bearer_type_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_bearer_type_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_bearer_type_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,l2tp_bearer_cap_print,-1
+[*] target function: l2tp_bearer_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,l2tp_bearer_cap_print,-1
+[*] target function: l2tp_bearer_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,l2tp_bearer_cap_print,-1
+[*] target function: l2tp_bearer_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,l2tp_bearer_cap_print,1
+[*] target function: l2tp_bearer_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,l2tp_bearer_cap_print,1
+[*] target function: l2tp_bearer_cap_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,l2tp_bearer_cap_print,1
+[*] target function: l2tp_bearer_cap_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13007
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pktap_if_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pktap_if_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pktap_if_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pktap_if_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pktap_if_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pktap_if_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13008
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,parse_elements,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,parse_elements,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13009
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mobility_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mobility_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mobility_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mobility_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13011
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bittok2str_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bittok2str_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,bittok2str_internal,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bittok2str_internal,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bittok2str_internal,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bittok2str_internal,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13012
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13013
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,atmarp_print,-1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,atmarp_print,-1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,atmarp_print,-1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,atmarp_print,1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,atmarp_print,1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,atmarp_print,1
+[*] target function: atmarp_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isnonzero,-1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isnonzero,-1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isnonzero,-1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isnonzero,1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isnonzero,1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isnonzero,1
+[*] target function: isnonzero not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,arp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,arp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,arp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,arp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,arp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,arp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,atmarp_addr_print,-1
+[*] target function: atmarp_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,atmarp_addr_print,-1
+[*] target function: atmarp_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,atmarp_addr_print,-1
+[*] target function: atmarp_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,atmarp_addr_print,1
+[*] target function: atmarp_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,atmarp_addr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,atmarp_addr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13014
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,wb_prep,-1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,wb_prep,-1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,wb_prep,-1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,wb_prep,1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,wb_prep,1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,wb_prep,1
+[*] target function: wb_prep not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,wb_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,wb_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,wb_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,wb_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,wb_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,wb_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13015
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,eap_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,eap_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,eap_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,eap_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,eap_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,eap_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13016
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13017
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,dhcp6opt_print,-1
+[*] target function: dhcp6opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,dhcp6opt_print,-1
+[*] target function: dhcp6opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,dhcp6opt_print,-1
+[*] target function: dhcp6opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,dhcp6opt_print,1
+[*] target function: dhcp6opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,dhcp6opt_print,1
+[*] target function: dhcp6opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,dhcp6opt_print,1
+[*] target function: dhcp6opt_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13018
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13019
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13020
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,vtp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,vtp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,vtp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,vtp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,vtp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,vtp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13021
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13022
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ip_printroute,-1
+[*] target function: ip_printroute not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ip_printroute,-1
+[*] target function: ip_printroute not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ip_printroute,-1
+[*] target function: ip_printroute not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ip_printroute,1
+[*] target function: ip_printroute not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ip_printroute,1
+[*] target function: ip_printroute not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ip_printroute,1
+[*] target function: ip_printroute not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13023
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13024
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13025
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mobility_opt_print,-1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mobility_opt_print,1
+[*] target function: mobility_opt_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13026
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print_mt_capability_subtlv,-1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print_mt_capability_subtlv,-1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print_mt_capability_subtlv,-1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print_mt_capability_subtlv,1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print_mt_capability_subtlv,1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print_mt_capability_subtlv,1
+[*] target function: isis_print_mt_capability_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print_mt_port_cap_subtlv,-1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print_mt_port_cap_subtlv,-1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print_mt_port_cap_subtlv,-1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print_mt_port_cap_subtlv,1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print_mt_port_cap_subtlv,1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print_mt_port_cap_subtlv,1
+[*] target function: isis_print_mt_port_cap_subtlv not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13027
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lldp_mgmt_addr_tlv_print,-1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lldp_mgmt_addr_tlv_print,-1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lldp_mgmt_addr_tlv_print,-1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lldp_mgmt_addr_tlv_print,1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lldp_mgmt_addr_tlv_print,1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lldp_mgmt_addr_tlv_print,1
+[*] target function: lldp_mgmt_addr_tlv_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13028
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bootp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bootp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,bootp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bootp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bootp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bootp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13029
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_ipcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_ipcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_ipcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_ipcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_ipcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_ipcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_bacp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_bacp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_bacp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_bacp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_bacp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_bacp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_ccp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_ccp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_ccp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_ccp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_ccp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_ccp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_lcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_lcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_lcp_config_options,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_lcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_lcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_lcp_config_options,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13030
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pimv2_addr_print,-1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pimv2_addr_print,-1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pimv2_addr_print,-1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pimv2_addr_print,1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pimv2_addr_print,1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pimv2_addr_print,1
+[*] target function: pimv2_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pim_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pim_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pim_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pim_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pim_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pim_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pimv1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pimv1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pimv1_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pimv1_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pimv1_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pimv1_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pimv1_join_prune_print,-1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pimv1_join_prune_print,-1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pimv1_join_prune_print,-1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pimv1_join_prune_print,1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pimv1_join_prune_print,1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pimv1_join_prune_print,1
+[*] target function: pimv1_join_prune_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pimv2_print,-1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pimv2_print,1
+[*] target function: pimv2_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,cisco_autorp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,cisco_autorp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,cisco_autorp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,cisco_autorp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,cisco_autorp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,cisco_autorp_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13031
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,frag6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,frag6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,frag6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,frag6_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,frag6_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,frag6_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13032
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_attr_string,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_attr_string,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,print_attr_string,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_attr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_attr_string,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_attr_string,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13033
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,vtp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,vtp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,vtp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,vtp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,vtp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,vtp_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13034
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,pgm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,pgm_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13035
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print_id,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print_id,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print_id,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print_id,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print_id,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print_id,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13036
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ospf6_decode_v3,-1
+[*] target function: ospf6_decode_v3 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ospf6_decode_v3,-1
+[*] target function: ospf6_decode_v3 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ospf6_decode_v3,-1
+[*] target function: ospf6_decode_v3 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ospf6_decode_v3,1
+[*] target function: ospf6_decode_v3 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ospf6_decode_v3,1
+[*] target function: ospf6_decode_v3 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ospf6_decode_v3,1
+[*] target function: ospf6_decode_v3 not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13037
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ip_optprint,-1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ip_optprint,1
+[*] target function: ip_optprint not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,nextproto4_cksum,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,nextproto4_cksum,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,nextproto4_cksum,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,nextproto4_cksum,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,nextproto4_cksum,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,nextproto4_cksum,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ip_printts,-1
+[*] target function: ip_printts not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ip_printts,-1
+[*] target function: ip_printts not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ip_printts,-1
+[*] target function: ip_printts not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ip_printts,1
+[*] target function: ip_printts not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ip_printts,1
+[*] target function: ip_printts not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ip_printts,1
+[*] target function: ip_printts not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13038
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,handle_mlppp,-1
+[*] target function: handle_mlppp not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,handle_mlppp,-1
+[*] target function: handle_mlppp not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,handle_mlppp,-1
+[*] target function: handle_mlppp not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,handle_mlppp,1
+[*] target function: handle_mlppp not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,handle_mlppp,1
+[*] target function: handle_mlppp not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,handle_mlppp,1
+[*] target function: handle_mlppp not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13039
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_t_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_t_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_t_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_t_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_t_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_t_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_t_print,-1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_t_print,-1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_t_print,-1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_t_print,1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_t_print,1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_t_print,1
+[*] target function: ikev2_t_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_attrmap_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_attrmap_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_attrmap_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_attrmap_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_attrmap_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_attrmap_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13040
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mp_capable_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mp_capable_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mp_capable_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mp_capable_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mp_capable_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mp_capable_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mp_join_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mp_join_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,mp_join_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mp_join_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mp_join_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mp_join_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13041
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13042
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,dhcpv6_print,-1
+[*] target function: dhcpv6_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,dhcpv6_print,-1
+[*] target function: dhcpv6_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,dhcpv6_print,-1
+[*] target function: dhcpv6_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,dhcpv6_print,1
+[*] target function: dhcpv6_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,dhcpv6_print,1
+[*] target function: dhcpv6_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,dhcpv6_print,1
+[*] target function: dhcpv6_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13043
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,decode_multicast_vpn,-1
+[*] target function: decode_multicast_vpn not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,decode_multicast_vpn,-1
+[*] target function: decode_multicast_vpn not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,decode_multicast_vpn,-1
+[*] target function: decode_multicast_vpn not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,decode_multicast_vpn,1
+[*] target function: decode_multicast_vpn not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,decode_multicast_vpn,1
+[*] target function: decode_multicast_vpn not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,decode_multicast_vpn,1
+[*] target function: decode_multicast_vpn not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13044
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,dhcpv4_print,-1
+[*] target function: dhcpv4_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,dhcpv4_print,-1
+[*] target function: dhcpv4_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,dhcpv4_print,-1
+[*] target function: dhcpv4_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,dhcpv4_print,1
+[*] target function: dhcpv4_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,dhcpv4_print,1
+[*] target function: dhcpv4_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,dhcpv4_print,1
+[*] target function: dhcpv4_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13045
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,vqp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,vqp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,vqp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,vqp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,vqp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,vqp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13046
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13047
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,esis_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,esis_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13049
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ubik_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ubik_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ubik_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ubik_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ubik_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ubik_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13050
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,indent_string,-1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,indent_string,-1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,indent_string,-1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,indent_string,1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,indent_string,1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,indent_string,1
+[*] target function: indent_string not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpki_rtr_pdu_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpki_rtr_pdu_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,rpki_rtr_pdu_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpki_rtr_pdu_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpki_rtr_pdu_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpki_rtr_pdu_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13052
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,cfm_network_addr_print,-1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,cfm_network_addr_print,-1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,cfm_network_addr_print,-1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,cfm_network_addr_print,1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,cfm_network_addr_print,1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,cfm_network_addr_print,1
+[*] target function: cfm_network_addr_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,cfm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,cfm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,cfm_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,cfm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,cfm_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,cfm_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13053
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,decode_rt_routing_info,-1
+[*] target function: decode_rt_routing_info not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,decode_rt_routing_info,-1
+[*] target function: decode_rt_routing_info not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,decode_rt_routing_info,-1
+[*] target function: decode_rt_routing_info not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,decode_rt_routing_info,1
+[*] target function: decode_rt_routing_info not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,decode_rt_routing_info,1
+[*] target function: decode_rt_routing_info not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,decode_rt_routing_info,1
+[*] target function: decode_rt_routing_info not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13054
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lldp_private_8023_print,-1
+[*] target function: lldp_private_8023_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lldp_private_8023_print,-1
+[*] target function: lldp_private_8023_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,lldp_private_8023_print,-1
+[*] target function: lldp_private_8023_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lldp_private_8023_print,1
+[*] target function: lldp_private_8023_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lldp_private_8023_print,1
+[*] target function: lldp_private_8023_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lldp_private_8023_print,1
+[*] target function: lldp_private_8023_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13055
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,isis_print_is_reach_subtlv,-1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,isis_print_is_reach_subtlv,-1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,isis_print_is_reach_subtlv,-1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,isis_print_is_reach_subtlv,1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,isis_print_is_reach_subtlv,1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,isis_print_is_reach_subtlv,1
+[*] target function: isis_print_is_reach_subtlv not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13687
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,chdlc_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,chdlc_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,chdlc_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,chdlc_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13688
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,olsr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,olsr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,olsr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,olsr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,olsr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,olsr_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13689
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_id_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_id_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_id_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_id_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_id_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_id_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13690
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_sub_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_sub_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_sub_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_sub_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_sub_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_sub_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_cr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_cr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_cr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_cr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_cr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_cr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_sig_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_sig_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_sig_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_sig_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_sig_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_sig_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_cert_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_cert_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_cert_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_cert_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_cert_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_cert_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_ID_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_ID_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_ID_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_ID_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_ID_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_ID_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_gen_print,-1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_gen_print,-1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_gen_print,-1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_gen_print,1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_gen_print,1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_gen_print,1
+[*] target function: ikev2_gen_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_hash_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_hash_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_hash_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_hash_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_hash_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_hash_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_sa_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_sa_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_sa_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_sa_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_sa_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_sa_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_sub_print,-1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_sub_print,-1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_sub_print,-1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_sub_print,1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_sub_print,1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_sub_print,1
+[*] target function: ikev2_sub_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_vid_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_vid_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_auth_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_auth_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_p_print,-1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_p_print,-1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_p_print,-1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_p_print,1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_p_print,1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_p_print,1
+[*] target function: ikev2_p_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev2_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev2_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev2_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev2_ke_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev2_ke_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev2_ke_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,ikev1_ke_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_ke_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_ke_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_ke_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2017-13725
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rt6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rt6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.8.1-o3-tcpdump,rt6_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rt6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rt6_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rt6_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14461
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,ldp_tlv_print,-1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ldp_tlv_print,-1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ldp_tlv_print,-1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ldp_tlv_print,1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ldp_tlv_print,1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ldp_tlv_print,1
+[*] target function: ldp_tlv_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,ldp_pdu_print,-1
+[*] target function: ldp_pdu_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ldp_pdu_print,-1
+[*] target function: ldp_pdu_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ldp_pdu_print,-1
+[*] target function: ldp_pdu_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ldp_pdu_print,1
+[*] target function: ldp_pdu_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ldp_pdu_print,1
+[*] target function: ldp_pdu_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ldp_pdu_print,1
+[*] target function: ldp_pdu_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14462
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14463
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14464
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lmp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] target function: lmp_print_data_link_subobjs not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] target function: lmp_print_data_link_subobjs not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14466
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rx_cache_insert,-1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rx_cache_insert,-1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rx_cache_insert,-1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rx_cache_insert,1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rx_cache_insert,1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rx_cache_insert,1
+[*] target function: rx_cache_insert not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rx_cache_find,-1
+[*] target function: rx_cache_find not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rx_cache_find,-1
+[*] target function: rx_cache_find not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rx_cache_find,-1
+[*] target function: rx_cache_find not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rx_cache_find,1
+[*] target function: rx_cache_find not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rx_cache_find,1
+[*] target function: rx_cache_find not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rx_cache_find,1
+[*] target function: rx_cache_find not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14467
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14468
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,mfr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mfr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mfr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mfr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mfr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mfr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14469
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ikev1_n_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ikev1_n_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14470
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,babel_print_v2,-1
+[*] target function: babel_print_v2 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,babel_print_v2,-1
+[*] target function: babel_print_v2 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,babel_print_v2,-1
+[*] target function: babel_print_v2 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,babel_print_v2,1
+[*] target function: babel_print_v2 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,babel_print_v2,1
+[*] target function: babel_print_v2 not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,babel_print_v2,1
+[*] target function: babel_print_v2 not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14881
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_capabilities_print,-1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_capabilities_print,1
+[*] target function: bgp_capabilities_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2019-15166
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lmp_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lmp_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] target function: lmp_print_data_link_subobjs not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,lmp_print_data_link_subobjs,-1
+[*] target function: lmp_print_data_link_subobjs not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,lmp_print_data_link_subobjs,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2019-15167
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,vrrp_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,vrrp_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14880
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,ospf6_print_lshdr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ospf6_print_lshdr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ospf6_print_lshdr,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ospf6_print_lshdr,1
+[*] target function: ospf6_print_lshdr not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ospf6_print_lshdr,1
+[*] target function: ospf6_print_lshdr not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ospf6_print_lshdr,1
+[*] target function: ospf6_print_lshdr not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-14882
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,mldv2_query_print,-1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mldv2_query_print,-1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mldv2_query_print,-1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mldv2_query_print,1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mldv2_query_print,1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mldv2_query_print,1
+[*] target function: mldv2_query_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,icmp6_rrenum_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_rrenum_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_rrenum_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_rrenum_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_rrenum_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_rrenum_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rpl_dio_printopt,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpl_dio_printopt,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpl_dio_printopt,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpl_dio_printopt,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpl_dio_printopt,1
+[*] target function: rpl_dio_printopt not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpl_dio_printopt,1
+[*] target function: rpl_dio_printopt not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rpl_print,-1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpl_print,-1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpl_print,-1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpl_print,1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpl_print,1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpl_print,1
+[*] target function: rpl_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,icmp6_opt_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_opt_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_opt_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_opt_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_opt_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_opt_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rpl_daoack_print,-1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpl_daoack_print,-1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpl_daoack_print,-1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpl_daoack_print,1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpl_daoack_print,1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpl_daoack_print,1
+[*] target function: rpl_daoack_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,mldv2_report_print,-1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,mldv2_report_print,-1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,mldv2_report_print,-1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,mldv2_report_print,1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,mldv2_report_print,1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,mldv2_report_print,1
+[*] target function: mldv2_report_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_nodeinfo_print,-1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_nodeinfo_print,1
+[*] target function: icmp6_nodeinfo_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rpl_dao_print,-1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpl_dao_print,-1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpl_dao_print,-1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpl_dao_print,1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpl_dao_print,1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpl_dao_print,1
+[*] target function: rpl_dao_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,icmp6_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,icmp6_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,icmp6_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,icmp6_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,rpl_dio_print,-1
+[*] target function: rpl_dio_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,rpl_dio_print,-1
+[*] target function: rpl_dio_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,rpl_dio_print,-1
+[*] target function: rpl_dio_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,rpl_dio_print,1
+[*] target function: rpl_dio_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,rpl_dio_print,1
+[*] target function: rpl_dio_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,rpl_dio_print,1
+[*] target function: rpl_dio_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16227
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,ieee802_11_print,-1
+[*] target function: ieee802_11_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,ieee802_11_print,-1
+[*] target function: ieee802_11_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,ieee802_11_print,-1
+[*] target function: ieee802_11_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,ieee802_11_print,1
+[*] target function: ieee802_11_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,ieee802_11_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,ieee802_11_print,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16228
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,print_prefix,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_prefix,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_prefix,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_prefix,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_prefix,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_prefix,1
+[*] Detection Result:P Patch
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16229
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,dccp_print_option,-1
+[*] target function: dccp_print_option not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,dccp_print_option,-1
+[*] target function: dccp_print_option not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,dccp_print_option,-1
+[*] target function: dccp_print_option not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,dccp_print_option,1
+[*] target function: dccp_print_option not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,dccp_print_option,1
+[*] target function: dccp_print_option not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,dccp_print_option,1
+[*] target function: dccp_print_option not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16230
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:V Vulnerability
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16300
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_attr_get_as_size,-1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_get_as_size,-1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_get_as_size,-1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_get_as_size,1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_get_as_size,1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_get_as_size,1
+[*] target function: bgp_attr_get_as_size not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_attr_print,-1
+[*] Detection Result:V Vulnerability
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_attr_print,1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,bgp_update_print,-1
+[*] target function: bgp_update_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,bgp_update_print,-1
+[*] target function: bgp_update_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,bgp_update_print,-1
+[*] target function: bgp_update_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,bgp_update_print,1
+[*] target function: bgp_update_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,bgp_update_print,1
+[*] target function: bgp_update_print not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,bgp_update_print,1
+[*] target function: bgp_update_print not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16451
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,print_trans,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,print_trans,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,print_trans,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,print_trans,1
+[*] target function: print_trans not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,print_trans,1
+[*] target function: print_trans not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,print_trans,1
+[*] target function: print_trans not found
+[*] ------------------------------------------
+[*] Detecting CVE: CVE-2018-16452
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.2-o3-tcpdump,smb_fdata,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.1-o3-tcpdump,smb_fdata,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.0-o3-tcpdump,smb_fdata,-1
+[*] Detection Result:P Patch
+[*] Detection for target_clang/tcpdump/tcpdump-4.9.3-o3-tcpdump,smb_fdata,1
+[*] target function: smb_fdata not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99.0-bp-o3-tcpdump,smb_fdata,1
+[*] target function: smb_fdata not found
+[*] Detection for target_clang/tcpdump/tcpdump-4.99-bp-o3-tcpdump,smb_fdata,1
+[*] target function: smb_fdata not found

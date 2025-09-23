@@ -87,8 +87,8 @@ def main():
     
     # 遍历所有生成失败的函数
     for cve, funcs in failed_functions_data.items():
-        # if cve not in WHITE_LIST:
-        #     continue
+        if cve not in WHITE_LIST:
+            continue
         for func in funcs:
             total_failed_functions += 1
             key = (cve, func)

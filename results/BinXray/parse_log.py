@@ -141,8 +141,9 @@ def analyze_cve_results(cve_results):
             # 过滤掉 not_found 与 correction 的函数，不计入统计
             evaluated_funcs = []
             for func, fdata in version_dict[version].items():
-                if fdata.get('not_found'):
-                    continue
+                # if fdata.get('not_found'):
+                #     total_func_not_found_project += 1
+                #     continue
                 if fdata.get('correction'):
                     continue
                 evaluated_funcs.append((func, fdata))
@@ -272,6 +273,9 @@ def calculate_overall_statistics(csv_data, total_tp, total_tn, total_fp, total_f
     recall = total_tp / (total_tp + total_fn) if (total_tp + total_fn) > 0 else 0
     f1_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
+    # 新增指标
+    acc_new = total_successful / total_detections if total_detections > 0 else 0
+
     return {
         'total_detections': total_detections,
         'total_successful': total_successful,
@@ -282,7 +286,8 @@ def calculate_overall_statistics(csv_data, total_tp, total_tn, total_fp, total_f
         'total_tp': total_tp,
         'total_tn': total_tn,
         'total_fp': total_fp,
-        'total_fn': total_fn
+        'total_fn': total_fn,
+        'acc_new': acc_new
     }
 
 def main():
@@ -302,10 +307,11 @@ def main():
     all_projects_fn = 0
     processed_projects_count = 0
     all_targets = 0
+    all_projects_succeed = 0
 
     for project in projects:
-        log_file = f"gcc-o3/{project}-test.log"
-        output_file = f"gcc-o3/{project}-cve.csv"
+        log_file = f"gcc-o0/{project}-test.log"
+        output_file = f"gcc-o0/{project}-cve.csv"
         # print(f"正在解析日志文件: {log_file}")
         cve_results = parse_log_file(log_file)
         # print(f"正在加载correction.json...")
@@ -313,7 +319,7 @@ def main():
         if correction_data:
             apply_corrections(cve_results, correction_data)
         # print(f"正在分析CVE结果...")
-        csv_data, tp, tn, fp, fn = analyze_cve_results(cve_results)
+        csv_data, tp, tn, fp, fn, = analyze_cve_results(cve_results)
         # print(f"正在写入CSV文件: {output_file}")
         write_csv(csv_data, output_file)
         # print(f"完成！共处理了 {len(csv_data)} 个CVE")
@@ -324,7 +330,8 @@ def main():
         print(f"Accuracy:  {stats['accuracy']:.4f}")
         print(f"Precision: {stats['precision']:.4f}")
         print(f"Recall:    {stats['recall']:.4f}")
-        print(f"F1-Score:  {stats['f1_score']:.4f}\n")
+        print(f"F1-Score:  {stats['f1_score']:.4f}")
+        print(f"succeed/total: {stats['total_successful']}/{stats['total_detections']} = {stats['acc_new']:.4f}\n")
 
         # 累加到总计数器
         all_projects_tp += stats['total_tp']
@@ -332,6 +339,7 @@ def main():
         all_projects_fp += stats['total_fp']
         all_projects_fn += stats['total_fn']
         all_targets += stats['total_detections']
+        all_projects_succeed += stats['total_successful']
         processed_projects_count += 1
 
     # 在所有项目处理完毕后，打印聚合结果
@@ -347,6 +355,8 @@ def main():
         macro_recall = all_projects_tp / (all_projects_tp + all_projects_fn) if (all_projects_tp + all_projects_fn) > 0 else 0
         macro_f1 = 2 * (macro_precision * macro_recall) / (macro_precision + macro_recall) if (macro_precision + macro_recall) > 0 else 0
         effectiveness = (all_projects_tp + all_projects_tn) / all_targets if all_targets > 0 else 0
+        
+        # 新增聚合指标
         print(f"effectiveness:({all_projects_tp} + {all_projects_tn})/{all_targets}={effectiveness:.4f}")
         print(f"TP: {all_projects_tp}, TN: {all_projects_tn}, FP: {all_projects_fp}, FN: {all_projects_fn}")
         print(f"整体准确率 (Accuracy): {macro_accuracy:.4f}")
